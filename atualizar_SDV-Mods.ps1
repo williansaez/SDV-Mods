@@ -102,6 +102,10 @@ if (-not $top) {
 
 $source = Join-Path $top.FullName 'SDV-Mods'
 if (-not (Test-Path -LiteralPath $source)) {
+    $source = Join-Path $top.FullName 'Mods'
+}
+
+if (-not (Test-Path -LiteralPath $source)) {
     $source = $top.FullName
 }
 
@@ -124,7 +128,23 @@ if (-not (Test-Path -LiteralPath $DestDir)) {
 }
 
 # Copia o conteudo da pasta source para o destino
-Copy-Item -LiteralPath (Join-Path $source '*') -Destination $DestDir -Recurse -Force
+Write-Host ("Origem:  {0}" -f $source)
+Write-Host ("Destino: {0}" -f $DestDir)
+
+if (Get-Command robocopy.exe -ErrorAction SilentlyContinue) {
+    & robocopy.exe $source $DestDir /E /R:2 /W:1 /NFL /NDL /NJH /NJS /NP | Out-Host
+    $rc = $LASTEXITCODE
+    if ($rc -gt 7) {
+        throw "Falha no robocopy (exit code $rc)"
+    }
+} else {
+    Copy-Item -Path (Join-Path $source '*') -Destination $DestDir -Recurse -Force
+}
+
+$destCount = (Get-ChildItem -LiteralPath $DestDir -Force | Measure-Object).Count
+if ($destCount -lt 2) {
+    Write-Warning "Destino parece vazio (itens=$destCount)."
+}
 
 Write-Host 'Limpando temporarios...'
 Remove-Item -LiteralPath $tempDir -Recurse -Force -ErrorAction SilentlyContinue
