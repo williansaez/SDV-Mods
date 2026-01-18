@@ -1,0 +1,11 @@
+{
+  "Name": "Farm Building - Home Spa",
+  "Author": "yuninocorn",
+  "Version": "1.0.0",
+  "Description": "This content pack adds a spa farm building where you can replenish your energy, change your appearance and style your outfits.",
+  "UniqueID": "yuninocorn.homespa",
+  "UpdateKeys": [ "Nexus:40479" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

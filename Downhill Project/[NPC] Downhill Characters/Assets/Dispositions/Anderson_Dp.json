@@ -1,0 +1,22 @@
+{
+  "Changes": [
+	{	//Arts Load
+		"Action": "Load", "Priority": "Low",
+		"Target": "Characters/Anderson, Characters/Anderson_Winter, Portraits/Anderson, Portraits/Anderson_Winter",
+		"FromFile": "Assets/Arts/{{TargetPathOnly}}/Anderson/{{TargetWithoutPath}}.png"
+    },
+	{	// NPC Anderson
+        "Action": "EditData",
+        "Target": "Data/Characters",
+		"Update": "OnDayStart",
+        "Entries": {
+			"Anderson": { "DisplayName": "{{i18n:Anderson.Name}}", "Gender": "Male", "Age": "Adult", "BirthSeason": "Spring", "BirthDay": 25, "Manner": "Neutral", "SocialAnxiety": "Outgoing", "Optimism": "Positive", "CanBeRomanced": false, "WinterStarParticipant": "false", "CanVisitIsland": "false", "DumpsterDiveEmote": 28, "HomeRegion": "Town",
+            "Home": [ { "Id": "DH.Anderson.House", "Location": "DH.Anderson.House", "Tile": { "X": 9, "Y": 5 }, "Direction": "Up" }, ],
+			"Appearance": [ 
+				{ "Sprite": "Characters/Anderson", "Portrait": "Portraits/Anderson" },
+				{ "Season": "Winter", "Sprite": "Characters/Anderson_Winter", "Portrait": "Portraits/Anderson_Winter" } ]
+		}
+	  }
+	}
+  ]
+}

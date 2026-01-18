@@ -1,0 +1,1507 @@
+{
+    "Format": "2.0.0",
+    "ConfigSchema": {
+
+		"Farmhouse Style": {"AllowValues": "Farm, Ranch, Cottage, Manor",
+		"Default": "Farm",
+		"AllowBlank": true},
+
+		"Farmhouse Material": {"AllowValues": "Wood, Wood Colour - Blue, Wood Colour - Red, Wood Colour - Yellow, Wood Colour - Green, Wood Colour - Purple, Wood Colour - White, Wood Multi, Wood Harlequin, Stone Half, Stone, Panels",
+		"Default": "Wood",
+		"AllowBlank": true},
+
+		"Farmhouse Decorations": {"AllowValues": "true, false",
+		"Default": "true"},
+
+		"Farmhouse Welcome Mat": {"AllowValues": "Default, Blue, Red, Yellow, Green, Purple, Orange, Pink, White, Grey, Black, Rainbow",
+		"Default": "Default",
+		"AllowBlank": false},
+
+		"Stable": {"AllowValues": "Wood, Wood Alternate, Stone, Panels, Panels Alternate, Garage, Garage Colour - Blue, Garage Colour - Red, Garage Colour - Yellow, Garage Colour - Green, Garage Colour - Purple, Garage Colour - White",
+		"Default": "Wood",
+		"AllowBlank": true},
+
+		"Barn": {"AllowValues": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone, Wood",
+		"Default": "Panels",
+		"AllowBlank": true},
+
+		"Big Barn": {"AllowValues": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone, Wood",
+		"Default": "Panels",
+		"AllowBlank": true},
+
+		"Deluxe Barn": {"AllowValues": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone, Wood",
+		"Default": "Panels",
+		"AllowBlank": true},
+
+		"Deluxe Barn Decorations": {"AllowValues": "true, false",
+		"Default": "true"},
+
+		"Coop": {"AllowValues": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone, Wood",
+		"Default": "Panels",
+		"AllowBlank": true},
+
+		"Big Coop": {"AllowValues": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone, Wood",
+		"Default": "Panels",
+		"AllowBlank": true},
+
+		"Deluxe Coop": {"AllowValues": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone, Wood",
+		"Default": "Panels",
+		"AllowBlank": true},
+
+		"Deluxe Coop Decorations": {"AllowValues": "true, false",
+		"Default": "true"},
+
+		"Shed Style": {"AllowValues": "Regular, Plants, Plants Left, Plants Right",
+		"Default": "Regular",
+		"AllowBlank": true},
+
+		"Shed Material": {"AllowValues": "Wood, Wood Colour - Blue, Wood Colour - Red, Wood Colour - Yellow, Wood Colour - Green, Wood Colour - Purple, Wood Colour - White, Stone Half, Stone, Panels",
+		"Default": "Wood",
+		"AllowBlank": true},
+
+		"Big Shed Style": {"AllowValues": "Regular, Plants, Plants Left, Plants Right",
+		"Default": "Regular",
+		"AllowBlank": true},
+
+		"Big Shed Material": {"AllowValues": "Wood, Wood Colour - Blue, Wood Colour - Red, Wood Colour - Yellow, Wood Colour - Green, Wood Colour - Purple, Wood Colour - White, Stone Half, Stone, Panels",
+		"Default": "Wood",
+		"AllowBlank": true},
+
+		"Shed Decorations": {"AllowValues": "true, false",
+		"Default": "true"},
+
+		"Greenhouse Style": {"AllowValues": "Regular, Stone",
+		"Default": "Regular",
+		"AllowBlank": true},
+
+		"Greenhouse Material": {"AllowValues": "Wood, Metal, Perfection, Fortune, Junimo, Joja, Cake, Statue, Dark",
+		"Default": "Wood",
+		"AllowBlank": true},
+
+		"Well": {"AllowValues": "Wood, Stone, Panels, Open",
+		"Default": "Wood",
+		"AllowBlank": true},
+
+		"Silo": {"AllowValues": "Haystack, Stone, Wood",
+		"Default": "Wood",
+		"AllowBlank": true},
+
+		"Mailbox": {"AllowValues": "Stone, Wood",
+		"Default": "Wood",
+		"AllowBlank": true},
+
+		"Hay Pet Bowl": {"AllowValues": "Bed - Blue, Bed - Red, Bed - Yellow, Bed - Green, Bed - Purple, Bed - Orange, Bed - Pink, Bed - White, Bed - Grey, Bed - Black, Bowl Only, Vanilla",
+		"Default": "Bed - Black",
+		"AllowBlank": true},
+
+		"Wood Pet Bowl": {"AllowValues": "Bed - Blue, Bed - Red, Bed - Yellow, Bed - Green, Bed - Purple, Bed - Orange, Bed - Pink, Bed - White, Bed - Grey, Bed - Black, Bowl Only, Vanilla",
+		"Default": "Bed - Blue",
+		"AllowBlank": true},
+
+		"Stone Pet Bowl": {"AllowValues": "Bed - Blue, Bed - Red, Bed - Yellow, Bed - Green, Bed - Purple, Bed - Orange, Bed - Pink, Bed - White, Bed - Grey, Bed - Black, Bowl Only, Vanilla",
+		"Default": "Bed - Red",
+		"AllowBlank": true},
+
+		"Obelisks": {"AllowValues": "Statue Stone, Statue Wood, Seasonal",
+		"Default": "Statue Stone",
+		"AllowBlank": true},
+
+		"Slime Hutch": {"AllowValues": "Seasonal",
+		"Default": "Seasonal",
+		"AllowBlank": true},
+
+		"Fish Pond": {"AllowValues": "Seasonal",
+		"Default": "Seasonal",
+		"AllowBlank": true},
+
+		"Gold Clock": {"AllowValues": "Seasonal",
+		"Default": "Seasonal",
+		"AllowBlank": true},
+
+		"Mill": {"AllowValues": "Seasonal",
+		"Default": "Seasonal",
+		"AllowBlank": true},
+
+		"Cabins": {"AllowValues": "Seasonal",
+		"Default": "Seasonal",
+		"AllowBlank": true},
+
+		"Ginger Island House Style": {"AllowValues": "Left, Right",
+		"Default": "Left",
+		"AllowBlank": true},
+
+		"Ginger Island House Material": {"AllowValues": "Wood, Wood Colour - Blue, Wood Colour - Red, Wood Colour - Yellow, Wood Colour - Green, Wood Colour - Purple, Wood Colour - White",
+		"Default": "Wood",
+		"AllowBlank": true},
+
+		"Doghouse": {"AllowValues": "Seasonal",
+		"Default": "Seasonal",
+		"AllowBlank": true},
+
+		"Junimo Hut": {"AllowValues": "Seasonal",
+		"Default": "Seasonal",
+		"AllowBlank": true},
+
+		"Fences": {"AllowValues": "Seasonal",
+		"Default": "Seasonal",
+		"AllowBlank": true},
+
+		"SVE Grandpa's Shed": {"AllowValues": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone",
+		"Default": "Panels",
+		"AllowBlank": true},
+
+		"Grandpa's Shed Decorations": {"AllowValues": "true, false",
+		"Default": "true"},
+
+		"SVE Premium Barn": {"AllowValues": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone",
+		"Default": "Panels",
+		"AllowBlank": true},
+
+		"Premium Barn Decorations": {"AllowValues": "true, false",
+		"Default": "true"},
+
+		"SVE Premium Coop": {"AllowValues": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone, Wood",
+		"Default": "Panels",
+		"AllowBlank": true},
+
+		"Premium Coop Decorations": {"AllowValues": "true, false",
+		"Default": "true"},
+
+		"SVE Winery": {"AllowValues": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone",
+		"Default": "Panels",
+		"AllowBlank": true},
+
+		"Winery Decorations": {"AllowValues": "true, false",
+		"Default": "true"},
+
+		"Tractor Garage": {"AllowValues": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone",
+		"Default": "Panels",
+		"AllowBlank": true},
+		 
+},
+    "Changes": [
+        
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/houses",
+	"FromFile": "assets/Buildings/Farmhouse/{{Farmhouse Style}}/{{Farmhouse Material}}/houses.png",
+		"Enabled": "True",
+		"When": {
+		"Farmhouse Style": "Farm, Ranch, Cottage, Manor",
+		"Farmhouse Material": "Wood, Wood Colour - Blue, Wood Colour - Red, Wood Colour - Yellow, Wood Colour - Green, Wood Colour - Purple, Wood Colour - White, Wood Multi, Wood Harlequin, Stone Half, Stone, Panels",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/houses",
+	"FromFile": "assets/Overlays/Farmhouse/{{Farmhouse Style}}/{{Farmhouse Material}}/houses_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Farmhouse Style": "Farm, Ranch, Cottage, Manor",
+		"Farmhouse Material": "Wood, Wood Colour - Blue, Wood Colour - Red, Wood Colour - Yellow, Wood Colour - Green, Wood Colour - Purple, Wood Colour - White, Wood Multi, Wood Harlequin, Stone Half, Stone, Panels",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/houses",
+	"FromFile": "assets/Overlays/Farmhouse/Farmhouse Welcome Mat/{{Farmhouse Welcome Mat}}/houses.png",
+		"Enabled": "True",
+		"When": {
+		"Farmhouse Welcome Mat": "Blue, Red, Yellow, Green, Purple, Orange, Pink, White, Grey, Black, Rainbow",
+		}
+	},
+	
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/houses_PaintMask",
+	"FromFile": "assets/Masks/Farmhouse/{{Farmhouse Style}}/{{Farmhouse Material}}/houses_PaintMask_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Farmhouse Style": "Farm, Ranch, Cottage, Manor",
+		"Farmhouse Material": "Wood, Wood Colour - Blue, Wood Colour - Red, Wood Colour - Yellow, Wood Colour - Green, Wood Colour - Purple, Wood Colour - White, Wood Multi, Wood Harlequin, Stone Half, Stone, Panels",
+		"Farmhouse Decorations": "false",
+		}
+	},
+
+	{
+       	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/houses",
+	"FromFile": "assets/Overlays/Farmhouse/{{Farmhouse Style}}/{{Farmhouse Material}}/decor_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Farmhouse Style": "Farm, Ranch, Cottage, Manor",
+		"Farmhouse Material": "Wood, Wood Colour - Blue, Wood Colour - Red, Wood Colour - Yellow, Wood Colour - Green, Wood Colour - Purple, Wood Colour - White, Wood Multi, Wood Harlequin, Stone Half, Stone, Panels",
+		"Farmhouse Decorations": "true",
+		}
+	},
+	
+	{
+       	"Action": "EditImage",
+	"Target": "Buildings/houses_PaintMask",
+	"FromFile": "assets/Masks/Farmhouse Decor/{{Farmhouse Style}}/{{Farmhouse Material}}/houses_PaintMask_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Farmhouse Style": "Farm, Ranch, Cottage, Manor",
+		"Farmhouse Material": "Wood, Wood Colour - Blue, Wood Colour - Red, Wood Colour - Yellow, Wood Colour - Green, Wood Colour - Purple, Wood Colour - White, Wood Multi, Wood Harlequin, Stone Half, Stone, Panels",
+		"Farmhouse Decorations": "true",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Barn",
+	"FromFile": "assets/Buildings/Barn/{{Barn}}/Barn.png",
+		"Enabled": "True",
+		"When": {
+		"Barn": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone, Wood",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/Barn",
+	"FromFile": "assets/Overlays/Barn/{{Barn}}/Barn_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Barn": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone, Wood",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Big Barn",
+	"FromFile": "assets/Buildings/Barn/{{Big Barn}}/Big Barn.png",
+		"Enabled": "True",
+		"When": {
+		"Big Barn": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone, Wood",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/Big Barn",
+	"FromFile": "assets/Overlays/Barn/{{Big Barn}}/Big Barn_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Big Barn": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone, Wood",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Deluxe Barn",
+	"FromFile": "assets/Buildings/Barn/{{Deluxe Barn}}/Deluxe Barn.png",
+		"Enabled": "True",
+		"When": {
+		"Deluxe Barn": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone, Wood",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/Deluxe Barn",
+	"FromFile": "assets/Overlays/Barn/{{Deluxe Barn}}/Deluxe Barn_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Deluxe Barn": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone, Wood",
+		}
+	},
+	
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Deluxe Barn_PaintMask",
+	"FromFile": "assets/Masks/Barn/{{Deluxe Barn}}/Deluxe Barn_PaintMask_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Deluxe Barn": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone, Wood",
+		"Deluxe Barn Decorations": "false",
+		}
+	},
+
+	{
+       	"LogName": "Deluxe Barn Decor Overlay",
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/Deluxe Barn",
+	"FromFile": "assets/Overlays/Barn/{{Deluxe Barn}}/decor Deluxe_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Deluxe Barn": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone, Wood",
+		"Deluxe Barn Decorations": "true",
+		}
+	},
+	
+	{
+       	"LogName": "Deluxe Barn Decor Mask",
+	"Action": "EditImage",
+	"Target": "Buildings/Deluxe Barn_PaintMask",
+	"FromFile": "assets/Masks/Barn Decor/{{Deluxe Barn}}/Deluxe Barn_PaintMask_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Deluxe Barn": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone, Wood",
+		"Deluxe Barn Decorations": "true",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Coop",
+	"FromFile": "assets/Buildings/Coop/{{Coop}}/Coop.png",
+		"Enabled": "True",
+		"When": {
+		"Coop": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone, Wood",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/Coop",
+	"FromFile": "assets/Overlays/Coop/{{Coop}}/Coop_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Coop": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone, Wood",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Big Coop",
+	"FromFile": "assets/Buildings/Coop/{{Big Coop}}/Big Coop.png",
+		"Enabled": "True",
+		"When": {
+		"Big Coop": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone, Wood",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/Big Coop",
+	"FromFile": "assets/Overlays/Coop/{{Big Coop}}/Big Coop_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Big Coop": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone, Wood",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Deluxe Coop",
+	"FromFile": "assets/Buildings/Coop/{{Deluxe Coop}}/Deluxe Coop.png",
+		"Enabled": "True",
+		"When": {
+		"Deluxe Coop": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone, Wood",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/Deluxe Coop",
+	"FromFile": "assets/Overlays/Coop/{{Deluxe Coop}}/Deluxe Coop_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Deluxe Coop": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone, Wood",
+		}
+	},
+	
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Deluxe Coop_PaintMask",
+	"FromFile": "assets/Masks/Coop/{{Deluxe Coop}}/Deluxe Coop_PaintMask_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Deluxe Coop": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone, Wood",
+		}
+	},
+
+	{
+       	"LogName": "Deluxe Coop Decor Overlay",
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/Deluxe Coop",
+	"FromFile": "assets/Overlays/Coop/{{Deluxe Coop}}/decor Deluxe_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Deluxe Coop": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone, Wood",
+		"Deluxe Coop Decorations": "true",
+		}
+	},
+	
+	{
+       	"LogName": "Deluxe Coop Decor Mask",
+	"Action": "EditImage",
+	"Target": "Buildings/Deluxe Coop_PaintMask",
+	"FromFile": "assets/Masks/Coop Decor/{{Deluxe Coop}}/Deluxe Coop_PaintMask_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Deluxe Coop": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone, Wood",
+		"Deluxe Coop Decorations": "true",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Shed",
+	"FromFile": "assets/Buildings/Shed/{{Shed Style}}/{{Shed Material}}/Shed.png",
+		"Enabled": "True",
+		"When": {
+		"Shed Style": "Regular, Plants, Plants Left, Plants Right",
+		"Shed Material": "Wood, Wood Colour - Blue, Wood Colour - Red, Wood Colour - Yellow, Wood Colour - Green, Wood Colour - Purple, Wood Colour - White, Stone Half, Stone, Panels",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/Shed",
+	"FromFile": "assets/Overlays/Shed/{{Shed Style}}/{{Shed Material}}/Shed_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Shed Style": "Regular, Plants, Plants Left, Plants Right",
+		"Shed Material": "Wood, Wood Colour - Blue, Wood Colour - Red, Wood Colour - Yellow, Wood Colour - Green, Wood Colour - Purple, Wood Colour - White, Stone Half, Stone, Panels",
+		}
+	},
+
+	{
+       	"LogName": "Shed Decor Overlay",
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/Shed",
+	"FromFile": "assets/Overlays/Shed/{{Shed Style}}/{{Shed Material}}/decor_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Shed Style": "Regular, Plants, Plants Left, Plants Right",
+		"Shed Material": "Wood, Wood Colour - Blue, Wood Colour - Red, Wood Colour - Yellow, Wood Colour - Green, Wood Colour - Purple, Wood Colour - White, Stone Half, Stone, Panels",
+		"Shed Decorations": "true",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Big Shed",
+	"FromFile": "assets/Buildings/Shed/{{Big Shed Style}}/{{Big Shed Material}}/Big Shed.png",
+		"Enabled": "True",
+		"When": {
+		"Big Shed Style": "Regular, Plants, Plants Left, Plants Right",
+		"Big Shed Material": "Wood, Wood Colour - Blue, Wood Colour - Red, Wood Colour - Yellow, Wood Colour - Green, Wood Colour - Purple, Wood Colour - White, Stone Half, Stone, Panels",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/Big Shed",
+	"FromFile": "assets/Overlays/Shed/{{Big Shed Style}}/{{Big Shed Material}}/Big Shed_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Big Shed Style": "Regular, Plants, Plants Left, Plants Right",
+		"Big Shed Material": "Wood, Wood Colour - Blue, Wood Colour - Red, Wood Colour - Yellow, Wood Colour - Green, Wood Colour - Purple, Wood Colour - White, Stone Half, Stone, Panels",
+		}
+	},
+	
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Big Shed_PaintMask",
+	"FromFile": "assets/Masks/Shed/{{Big Shed Style}}/{{Big Shed Material}}/Big Shed_PaintMask_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Big Shed Style": "Regular, Plants, Plants Left, Plants Right",
+		"Big Shed Material": "Wood, Wood Colour - Blue, Wood Colour - Red, Wood Colour - Yellow, Wood Colour - Green, Wood Colour - Purple, Wood Colour - White, Stone Half, Stone, Panels",
+		"Shed Decorations": "false",
+		}
+	},
+
+	{
+       	"LogName": "Big Shed Decor Overlay",
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/Big Shed",
+	"FromFile": "assets/Overlays/Shed/{{Big Shed Style}}/{{Big Shed Material}}/big decor_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Big Shed Style": "Regular, Plants, Plants Left, Plants Right",
+		"Big Shed Material": "Wood, Wood Colour - Blue, Wood Colour - Red, Wood Colour - Yellow, Wood Colour - Green, Wood Colour - Purple, Wood Colour - White, Stone Half, Stone, Panels",
+		"Shed Decorations": "true",
+		}
+	},
+	
+	{
+       	"LogName": "Big Shed Decor Mask",
+	"Action": "EditImage",
+	"Target": "Buildings/Big Shed_PaintMask",
+	"FromFile": "assets/Masks/Shed Decor/{{Big Shed Style}}/{{Big Shed Material}}/Big Shed_PaintMask_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Big Shed Style": "Regular, Plants, Plants Left, Plants Right",
+		"Big Shed Material": "Wood, Wood Colour - Blue, Wood Colour - Red, Wood Colour - Yellow, Wood Colour - Green, Wood Colour - Purple, Wood Colour - White, Stone Half, Stone, Panels",
+		"Shed Decorations": "true",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Greenhouse",
+	"FromFile": "assets/Buildings/Greenhouse/{{Greenhouse Style}}/{{Greenhouse Material}}/Greenhouse.png",
+		"Enabled": "True",
+		"When": {
+		"Greenhouse Style": "Regular, Stone",
+		"Greenhouse Material": "Wood, Metal, Perfection, Fortune, Junimo, Joja, Cake, Statue, Dark",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/Greenhouse",
+	"FromFile": "assets/Overlays/Greenhouse/{{Greenhouse Style}}/{{Greenhouse Material}}/Greenhouse_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Greenhouse Style": "Regular, Stone",
+		"Greenhouse Material": "Wood, Metal, Perfection, Fortune, Junimo, Joja, Cake, Statue, Dark",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Fish Pond",
+	"FromFile": "assets/Buildings/Fish Pond/{{Fish Pond}}/Fish Pond.png",
+		"Enabled": "True",
+		"When": {
+		"Fish Pond": "Seasonal",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/Fish Pond",
+	"FromFile": "assets/Overlays/Fish Pond/{{Fish Pond}}/Fish Pond_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Fish Pond": "Seasonal",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Silo",
+	"FromFile": "assets/Buildings/Silo/{{Silo}}/Silo.png",
+		"Enabled": "True",
+		"When": {
+		"Silo": "Haystack, Stone, Wood",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/Silo",
+	"FromFile": "assets/Overlays/Silo/{{Silo}}/Silo_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Silo": "Haystack, Stone, Wood",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Slime Hutch",
+	"FromFile": "assets/Buildings/Slime Hutch/{{Slime Hutch}}/Slime Hutch.png",
+		"Enabled": "True",
+		"When": {
+		"Slime Hutch": "Seasonal",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/Slime Hutch",
+	"FromFile": "assets/Overlays/Slime Hutch/{{Slime Hutch}}/Slime Hutch_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Slime Hutch": "Seasonal",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Stable",
+	"FromFile": "assets/Buildings/Stable/{{Stable}}/Stable.png",
+		"Enabled": "True",
+		"When": {
+		"Stable": "Wood, Wood Alternate, Stone, Panels, Panels Alternate, Garage, Garage Colour - Blue, Garage Colour - Red, Garage Colour - Yellow, Garage Colour - Green, Garage Colour - Purple, Garage Colour - White",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/Stable",
+	"FromFile": "assets/Overlays/Stable/{{Stable}}/Stable_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Stable": "Wood, Wood Alternate, Stone, Panels, Panels Alternate, Garage, Garage Colour - Blue, Garage Colour - Red, Garage Colour - Yellow, Garage Colour - Green, Garage Colour - Purple, Garage Colour - White",
+		}
+	},
+	
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Stable_PaintMask",
+	"FromFile": "assets/Masks/Stable/{{Stable}}/Stable_PaintMask_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Stable": "Wood, Wood Alternate, Stone, Panels, Panels Alternate, Garage, Garage Colour - Blue, Garage Colour - Red, Garage Colour - Yellow, Garage Colour - Green, Garage Colour - Purple, Garage Colour - White",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Well",
+	"FromFile": "assets/Buildings/Well/{{Well}}/Well.png",
+		"Enabled": "True",
+		"When": {
+		"Well": "Wood, Stone, Panels, Open",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/Well",
+	"FromFile": "assets/Overlays/Well/{{Well}}/Well_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Well": "Wood, Stone, Panels, Open",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Mailbox",
+	"FromFile": "assets/Buildings/Mailbox/{{Mailbox}}/Mailbox.png",
+		"Enabled": "True",
+		"When": {
+		"Mailbox": "Stone, Wood",
+		}
+	},
+	
+	{
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/Mailbox",
+	"FromFile": "assets/Overlays/Mailbox/{{Mailbox}}/Mailbox_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Mailbox": "Stone, Wood",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Gold Clock",
+	"FromFile": "assets/Buildings/Misc/{{Gold Clock}}/Gold Clock.png",
+		"Enabled": "True",
+		"When": {
+		"Gold Clock": "Seasonal",
+		}
+	},
+	
+	{
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/Gold Clock",
+	"FromFile": "assets/Overlays/Misc/{{Gold Clock}}/Gold Clock_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Gold Clock": "Seasonal",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Desert Obelisk",
+	"FromFile": "assets/Buildings/Misc/{{Obelisks}}/Desert Obelisk.png",
+		"Enabled": "True",
+		"When": {
+		"Obelisks": "Statue Stone, Statue Wood, Seasonal",
+		}
+	},
+	
+	{
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/Desert Obelisk",
+	"FromFile": "assets/Overlays/Misc/{{Obelisks}}/Desert Obelisk_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Obelisks": "Statue Stone, Statue Wood, Seasonal",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Earth Obelisk",
+	"FromFile": "assets/Buildings/Misc/{{Obelisks}}/Earth Obelisk.png",
+		"Enabled": "True",
+		"When": {
+		"Obelisks": "Statue Stone, Statue Wood, Seasonal",
+		}
+	},
+	
+	{
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/Earth Obelisk",
+	"FromFile": "assets/Overlays/Misc/{{Obelisks}}/Earth Obelisk_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Obelisks": "Statue Stone, Statue Wood, Seasonal",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Island Obelisk",
+	"FromFile": "assets/Buildings/Misc/{{Obelisks}}/Island Obelisk.png",
+		"Enabled": "True",
+		"When": {
+		"Obelisks": "Statue Stone, Statue Wood, Seasonal",
+		}
+	},
+	
+	{
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/Island Obelisk",
+	"FromFile": "assets/Overlays/Misc/{{Obelisks}}/Island Obelisk_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Obelisks": "Statue Stone, Statue Wood, Seasonal",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Water Obelisk",
+	"FromFile": "assets/Buildings/Misc/{{Obelisks}}/Water Obelisk.png",
+		"Enabled": "True",
+		"When": {
+		"Obelisks": "Statue Stone, Statue Wood, Seasonal",
+		}
+	},
+	
+	{
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/Water Obelisk",
+	"FromFile": "assets/Overlays/Misc/{{Obelisks}}/Water Obelisk_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Obelisks": "Statue Stone, Statue Wood, Seasonal",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+	"Target": "Maps/Farm Obelisk",
+	"FromFile": "assets/Buildings/Misc/{{Obelisks}}/Farm Obelisk.png",
+		"Enabled": "True",
+		"When": {
+		"Obelisks": "Statue Stone, Statue Wood, Seasonal",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Junimo Hut",
+	"FromFile": "assets/Buildings/Misc/Junimo Hut.png",
+		"Enabled": "True",
+		"When": {
+		"Junimo Hut": "Seasonal",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Mill",
+	"FromFile": "assets/Buildings/Misc/{{Mill}}/Mill.png",
+		"Enabled": "True",
+		"When": {
+		"Mill": "Seasonal",
+		}
+	},
+	
+	{
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/Mill",
+	"FromFile": "assets/Overlays/Misc/{{Mill}}/Mill_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Mill": "Seasonal",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Beach Cabin",
+	"FromFile": "assets/Buildings/Cabins/{{Cabins}}/Beach Cabin.png",
+		"Enabled": "True",
+		"When": {
+		"Cabins": "Seasonal",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/Beach Cabin",
+	"FromFile": "assets/Overlays/Cabins/{{Cabins}}/Beach Cabin_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Cabins": "Seasonal",
+		}
+	},
+	
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Beach Cabin_PaintMask",
+	"FromFile": "assets/Masks/Cabins/{{Cabins}}/Beach Cabin_PaintMask_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Cabins": "Seasonal",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Log Cabin",
+	"FromFile": "assets/Buildings/Cabins/{{Cabins}}/Log Cabin.png",
+		"Enabled": "True",
+		"When": {
+		"Cabins": "Seasonal",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/Log Cabin",
+	"FromFile": "assets/Overlays/Cabins/{{Cabins}}/Log Cabin_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Cabins": "Seasonal",
+		}
+	},
+	
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Log Cabin_PaintMask",
+	"FromFile": "assets/Masks/Cabins/{{Cabins}}/Log Cabin_PaintMask_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Cabins": "Seasonal",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Neighbor Cabin",
+	"FromFile": "assets/Buildings/Cabins/{{Cabins}}/Neighbor Cabin.png",
+		"Enabled": "True",
+		"When": {
+		"Cabins": "Seasonal",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/Neighbor Cabin",
+	"FromFile": "assets/Overlays/Cabins/{{Cabins}}/Neighbor Cabin_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Cabins": "Seasonal",
+		}
+	},
+	
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Neighbor Cabin_PaintMask",
+	"FromFile": "assets/Masks/Cabins/{{Cabins}}/Neighbor Cabin_PaintMask_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Cabins": "Seasonal",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Plank Cabin",
+	"FromFile": "assets/Buildings/Cabins/{{Cabins}}/Plank Cabin.png",
+		"Enabled": "True",
+		"When": {
+		"Cabins": "Seasonal",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/Plank Cabin",
+	"FromFile": "assets/Overlays/Cabins/{{Cabins}}/Plank Cabin_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Cabins": "Seasonal",
+		}
+	},
+	
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Plank Cabin_PaintMask",
+	"FromFile": "assets/Masks/Cabins/{{Cabins}}/Plank Cabin_PaintMask_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Cabins": "Seasonal",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Rustic Cabin",
+	"FromFile": "assets/Buildings/Cabins/{{Cabins}}/Rustic Cabin.png",
+		"Enabled": "True",
+		"When": {
+		"Cabins": "Seasonal",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/Rustic Cabin",
+	"FromFile": "assets/Overlays/Cabins/{{Cabins}}/Rustic Cabin_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Cabins": "Seasonal",
+		}
+	},
+	
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Rustic Cabin_PaintMask",
+	"FromFile": "assets/Masks/Cabins/{{Cabins}}/Rustic Cabin_PaintMask_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Cabins": "Seasonal",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Stone Cabin",
+	"FromFile": "assets/Buildings/Cabins/{{Cabins}}/Stone Cabin.png",
+		"Enabled": "True",
+		"When": {
+		"Cabins": "Seasonal",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/Stone Cabin",
+	"FromFile": "assets/Overlays/Cabins/{{Cabins}}/Stone Cabin_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Cabins": "Seasonal",
+		}
+	},
+	
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Stone Cabin_PaintMask",
+	"FromFile": "assets/Masks/Cabins/{{Cabins}}/Stone Cabin_PaintMask_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Cabins": "Seasonal",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Trailer Cabin",
+	"FromFile": "assets/Buildings/Cabins/{{Cabins}}/Trailer Cabin.png",
+		"Enabled": "True",
+		"When": {
+		"Cabins": "Seasonal",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/Trailer Cabin",
+	"FromFile": "assets/Overlays/Cabins/{{Cabins}}/Trailer Cabin_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Cabins": "Seasonal",
+		}
+	},
+	
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Trailer Cabin_PaintMask",
+	"FromFile": "assets/Masks/Cabins/{{Cabins}}/Trailer Cabin_PaintMask_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Cabins": "Seasonal",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Hay Pet Bowl",
+	"FromFile": "assets/Buildings/Pet Bowl/{{Hay Pet Bowl}}/Hay Pet Bowl.png",
+		"Enabled": "True",
+		"When": {
+		"Hay Pet Bowl": "Bed - Blue, Bed - Red, Bed - Yellow, Bed - Green, Bed - Purple, Bed - Orange, Bed - Pink, Bed - White, Bed - Grey, Bed - Black, Bowl Only, Vanilla",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Pet Bowl",
+	"FromFile": "assets/Buildings/Pet Bowl/{{Wood Pet Bowl}}/Pet Bowl.png",
+		"Enabled": "True",
+		"When": {
+		"Wood Pet Bowl": "Bed - Blue, Bed - Red, Bed - Yellow, Bed - Green, Bed - Purple, Bed - Orange, Bed - Pink, Bed - White, Bed - Grey, Bed - Black, Bowl Only, Vanilla",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Stone Pet Bowl",
+	"FromFile": "assets/Buildings/Pet Bowl/{{Stone Pet Bowl}}/Stone Pet Bowl.png",
+		"Enabled": "True",
+		"When": {
+		"Stone Pet Bowl": "Bed - Blue, Bed - Red, Bed - Yellow, Bed - Green, Bed - Purple, Bed - Orange, Bed - Pink, Bed - White, Bed - Grey, Bed - Black, Bowl Only, Vanilla",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+	"Target": "Tilesheets/furniture_3",
+	"FromFile": "assets/Buildings/Misc/{{Doghouse}}/Doghouse.png",
+		"ToArea": { "X": 112, "Y": 192, "Width": 96, "Height": 48 },
+		"Enabled": "True",
+		"When": {
+		"Doghouse": "Seasonal",
+		}
+	},
+
+	{
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Tilesheets/furniture_3",
+	"FromFile": "assets/Overlays/Misc/{{Doghouse}}/Doghouse_{{season}}.png",
+		"ToArea": { "X": 112, "Y": 192, "Width": 96, "Height": 48 },
+		"Enabled": "True",
+		"When": {
+		"Doghouse": "Seasonal",
+		}
+	},
+
+	{
+       	"LogName": "Wood Fence",
+	"Action": "EditImage",
+	"Target": "LooseSprites/Fence1",
+	"FromFile": "assets/Buildings/Misc/{{Fences}}/Fence1.png",
+		"Enabled": "True",
+		"When": {
+		"Fences": "Seasonal",
+		}
+	},
+
+	{
+       	"LogName": "Wood Fence Overlay",
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "LooseSprites/Fence1",
+	"FromFile": "assets/Overlays/Misc/{{Fences}}/Fence1_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Fences": "Seasonal",
+		}
+	},
+
+	{
+       	"LogName": "Stone Fence",
+	"Action": "EditImage",
+	"Target": "LooseSprites/Fence2",
+	"FromFile": "assets/Buildings/Misc/{{Fences}}/Fence2.png",
+		"Enabled": "True",
+		"When": {
+		"Fences": "Seasonal",
+		}
+	},
+
+	{
+       	"LogName": "Stone Fence Overlay",
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "LooseSprites/Fence2",
+	"FromFile": "assets/Overlays/Misc/{{Fences}}/Fence2_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Fences": "Seasonal",
+		}
+	},
+
+	{
+       	"LogName": "Iron Fence",
+	"Action": "EditImage",
+	"Target": "LooseSprites/Fence3",
+	"FromFile": "assets/Buildings/Misc/{{Fences}}/Fence3.png",
+		"Enabled": "True",
+		"When": {
+		"Fences": "Seasonal",
+		}
+	},
+
+	{
+       	"LogName": "Iron Fence Overlay",
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "LooseSprites/Fence3",
+	"FromFile": "assets/Overlays/Misc/{{Fences}}/Fence3_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Fences": "Seasonal",
+		}
+	},
+
+	{
+       	"LogName": "Hardwood Fence",
+	"Action": "EditImage",
+	"Target": "LooseSprites/Fence5",
+	"FromFile": "assets/Buildings/Misc/{{Fences}}/Fence5.png",
+		"Enabled": "True",
+		"When": {
+		"Fences": "Seasonal",
+		}
+	},
+
+	{
+       	"LogName": "Hardwood Fence Overlay",
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "LooseSprites/Fence5",
+	"FromFile": "assets/Overlays/Misc/{{Fences}}/Fence5_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Fences": "Seasonal",
+		}
+	},
+
+	{
+       	"LogName": "Grandpa's Shed",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_z_extras",
+	"FromFile": "assets/Extra/Buildings/Grandpa's Shed/{{SVE Grandpa's Shed}}/GrandpasShed_{{season}}.png",
+		"ToArea": { "X": 0, "Y": 1346, "Width": 160, "Height": 350 },
+		"When": {
+		"SVE Grandpa's Shed": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone",
+		}
+	},
+
+	{
+       	"LogName": "Grandpa's Shed Decor Overlay",
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Maps/{{season}}_z_extras",
+	"FromFile": "assets/Extra/Overlays/Grandpa's Shed/{{SVE Grandpa's Shed}}/decor_{{season}}.png",
+		"ToArea": { "X": 0, "Y": 1346, "Width": 160, "Height": 350 },
+		"When": {
+		"SVE Grandpa's Shed": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone",
+		"Grandpa's Shed Decorations": "true",
+		}
+	},
+        
+	{
+       	"LogName": "Premium Barn",
+	"Action": "EditImage",
+	"Target": "Buildings/SVE_PremiumBarn",
+	"FromFile": "assets/Extra/Buildings/Premium Barn/{{SVE Premium Barn}}/PremiumBarn.png",
+		"Enabled": "True",
+		"When": {
+		"SVE Premium Barn": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone",
+		}
+	},
+
+	{
+       	"LogName": "Premium Barn Seasons",
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/SVE_PremiumBarn",
+	"FromFile": "assets/Extra/Overlays/Premium Barn/{{SVE Premium Barn}}/PremiumBarn_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"SVE Premium Barn": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone",
+		}
+	},
+	
+	{
+       	"LogName": "Premium Barn Mask",
+	"Action": "EditImage",
+	"Target": "Buildings/SVE_PremiumBarn_PaintMask",
+	"FromFile": "assets/Extra/Masks/Premium Barn/{{SVE Premium Barn}}/PremiumBarn_PaintMask_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"SVE Premium Barn": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone",
+		"Premium Barn Decorations": "false",
+		}
+	},
+
+	{
+       	"LogName": "Premium Barn Decor Overlay",
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/SVE_PremiumBarn",
+	"FromFile": "assets/Extra/Overlays/Premium Barn/{{SVE Premium Barn}}/decor_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"SVE Premium Barn": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone",
+		"Premium Barn Decorations": "true",
+		}
+	},
+	
+	{
+       	"LogName": "Premium Barn Decor Mask",
+	"Action": "EditImage",
+	"Target": "Buildings/SVE_PremiumBarn_PaintMask",
+	"FromFile": "assets/Extra/Masks Decor/Premium Barn/{{SVE Premium Barn}}/PremiumBarn_PaintMask_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"SVE Premium Barn": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone",
+		"Premium Barn Decorations": "true",
+		}
+	},
+        
+	{
+       	"LogName": "Premium Coop",
+	"Action": "EditImage",
+	"Target": "Buildings/SVE_PremiumCoop",
+	"FromFile": "assets/Extra/Buildings/Premium Coop/{{SVE Premium Coop}}/PremiumCoop.png",
+		"Enabled": "True",
+		"When": {
+		"SVE Premium Coop": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone, Wood",
+		}
+	},
+
+	{
+       	"LogName": "Premium Coop Seasons",
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/SVE_PremiumCoop",
+	"FromFile": "assets/Extra/Overlays/Premium Coop/{{SVE Premium Coop}}/PremiumCoop_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"SVE Premium Coop": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone, Wood",
+		}
+	},
+	
+	{
+       	"LogName": "Premium Coop Mask",
+	"Action": "EditImage",
+	"Target": "Buildings/SVE_PremiumCoop_PaintMask",
+	"FromFile": "assets/Extra/Masks/Premium Coop/{{SVE Premium Coop}}/PremiumCoop_PaintMask_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"SVE Premium Coop": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone, Wood",
+		"Premium Coop Decorations": "false",
+		}
+	},
+
+	{
+       	"LogName": "Premium Coop Decor Overlay",
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/SVE_PremiumCoop",
+	"FromFile": "assets/Extra/Overlays/Premium Coop/{{SVE Premium Coop}}/decor_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"SVE Premium Coop": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone, Wood",
+		"Premium Coop Decorations": "true",
+		}
+	},
+	
+	{
+       	"LogName": "Premium Coop Decor Mask",
+	"Action": "EditImage",
+	"Target": "Buildings/SVE_PremiumCoop_PaintMask",
+	"FromFile": "assets/Extra/Masks Decor/Premium Coop/{{SVE Premium Coop}}/PremiumCoop_PaintMask_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"SVE Premium Coop": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone, Wood",
+		"Premium Coop Decorations": "true",
+		}
+	},
+        
+	{
+       	"LogName": "Winery",
+	"Action": "EditImage",
+	"Target": "Buildings/SVE_Winery",
+	"FromFile": "assets/Extra/Buildings/Winery/{{SVE Winery}}/Winery.png",
+		"Enabled": "True",
+		"When": {
+		"SVE Winery": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone",
+		}
+	},
+
+	{
+       	"LogName": "Winery Seasons",
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/SVE_Winery",
+	"FromFile": "assets/Extra/Overlays/Winery/{{SVE Winery}}/Winery_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"SVE Winery": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone",
+		}
+	},
+	
+	{
+       	"LogName": "Winery Mask",
+	"Action": "EditImage",
+	"Target": "Buildings/SVE_Winery_PaintMask",
+	"FromFile": "assets/Extra/Masks/Winery/{{SVE Winery}}/Winery_PaintMask_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"SVE Winery": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone",
+		"Winery Decorations": "false",
+		}
+	},
+
+	{
+       	"LogName": "Winery Decor Overlay",
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Buildings/SVE_Winery",
+	"FromFile": "assets/Extra/Overlays/Winery/{{SVE Winery}}/decor_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"SVE Winery": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone",
+		"Winery Decorations": "true",
+		}
+	},
+	
+	{
+       	"LogName": "Winery Decor Mask",
+	"Action": "EditImage",
+	"Target": "Buildings/SVE_Winery_PaintMask",
+	"FromFile": "assets/Extra/Masks Decor/Winery/{{SVE Winery}}/Winery_PaintMask_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"SVE Winery": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone Half, Stone",
+		"Winery Decorations": "true",
+		}
+	},
+        
+	{
+       	"LogName": "Tractor Garage",
+	"Action": "EditImage",
+	"Target": "Mods/Pathoschild.TractorMod/garage",
+	"FromFile": "assets/Extra/Buildings/Tractor Garage/{{Tractor Garage}}/garage.png",
+		"Enabled": "True",
+		"When": {
+		"Tractor Garage": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone",
+		}
+	},
+
+	{
+       	"LogName": "Tractor Garage Seasons",
+	"Action": "EditImage",
+		"Patchmode": "Overlay",
+	"Target": "Mods/Pathoschild.TractorMod/garage",
+	"FromFile": "assets/Extra/Overlays/Tractor Garage/{{Tractor Garage}}/garage_{{season}}.png",
+		"Enabled": "True",
+		"When": {
+		"Tractor Garage": "Panels, Panels Colour - Blue, Panels Colour - Red, Panels Colour - Yellow, Panels Colour - Green, Panels Colour - Purple, Panels Colour - White, Panels Vanilla, Stone",
+		}
+	},
+        
+	{
+       	"LogName": "Ginger Island House Broken",
+	"Action": "EditImage",
+		  "Patchmode": "Replace",
+	"Target": "Maps/island_tilesheet_1",
+	"FromFile": "assets/Buildings/Farmhouse/Island/{{Ginger Island House Style}}/{{Ginger Island House Material}}/islandhouse.png",
+	"FromArea": { "X": 0, "Y": 16, "Width": 112, "Height": 112 },
+	"ToArea": { "X": 0, "Y": 512, "Width": 112, "Height": 112 },
+		"Enabled": "True",
+		"When": {
+		"Ginger Island House Style": "Left, Right",
+		"Ginger Island House Material": "Wood, Wood Colour - Blue, Wood Colour - Red, Wood Colour - Yellow, Wood Colour - Green, Wood Colour - Purple, Wood Colour - White",
+		}
+	},
+        
+	{
+       	"LogName": "Ginger Island House Broken Stairs",
+	"Action": "EditImage",
+		  "Patchmode": "Overlay",
+	"Target": "Maps/island_tilesheet_1",
+	"FromFile": "assets/Buildings/Farmhouse/Island/{{Ginger Island House Style}}/{{Ginger Island House Material}}/islandhouse.png",
+	"FromArea": { "X": 0, "Y": 128, "Width": 112, "Height": 16 },
+	"ToArea": { "X": 0, "Y": 624, "Width": 112, "Height": 16 },
+		"Enabled": "True",
+		"When": {
+		"Ginger Island House Style": "Left, Right",
+		"Ginger Island House Material": "Wood, Wood Colour - Blue, Wood Colour - Red, Wood Colour - Yellow, Wood Colour - Green, Wood Colour - Purple, Wood Colour - White",
+		}
+	},
+        
+	{
+       	"LogName": "Ginger Island House Fixed",
+	"Action": "EditImage",
+		  "Patchmode": "Replace",
+	"Target": "Maps/island_tilesheet_1",
+	"FromFile": "assets/Buildings/Farmhouse/Island/{{Ginger Island House Style}}/{{Ginger Island House Material}}/islandhouse.png",
+	"FromArea": { "X": 112, "Y": 0, "Width": 112, "Height": 128 },
+	"ToArea": { "X": 112, "Y": 496, "Width": 112, "Height": 128 },
+		"Enabled": "True",
+		"When": {
+		"Ginger Island House Style": "Left, Right",
+		"Ginger Island House Material": "Wood, Wood Colour - Blue, Wood Colour - Red, Wood Colour - Yellow, Wood Colour - Green, Wood Colour - Purple, Wood Colour - White",
+		}
+	},
+        
+	{
+       	"LogName": "Ginger Island House Fixed Stairs",
+	"Action": "EditImage",
+		  "Patchmode": "Overlay",
+	"Target": "Maps/island_tilesheet_1",
+	"FromFile": "assets/Buildings/Farmhouse/Island/{{Ginger Island House Style}}/{{Ginger Island House Material}}/islandhouse.png",
+	"FromArea": { "X": 112, "Y": 128, "Width": 112, "Height": 16 },
+	"ToArea": { "X": 112, "Y": 624, "Width": 112, "Height": 16 },
+		"Enabled": "True",
+		"When": {
+		"Ginger Island House Style": "Left, Right",
+		"Ginger Island House Material": "Wood, Wood Colour - Blue, Wood Colour - Red, Wood Colour - Yellow, Wood Colour - Green, Wood Colour - Purple, Wood Colour - White",
+		}
+	},
+
+
+     ] 
+}

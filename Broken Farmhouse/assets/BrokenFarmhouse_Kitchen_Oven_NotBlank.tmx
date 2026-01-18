@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="8" height="3" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="606">
+ <properties>
+  <property name="ViewportFollowPlayer" type="bool" value="true"/>
+ </properties>
+ <tileset firstgid="1" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="2177" name="sewer" tilewidth="16" tileheight="16" tilecount="88" columns="8">
+  <image source="SewerTiles" width="128" height="176"/>
+ </tileset>
+ <tileset firstgid="2265" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="264" columns="12">
+  <image source="farmhouse_tiles" width="192" height="352"/>
+ </tileset>
+ <tileset firstgid="2529" name="walls_and_floors" tilewidth="16" tileheight="16" tilecount="688" columns="16">
+  <image source="walls_and_floors" width="256" height="688"/>
+ </tileset>
+ <tileset firstgid="3217" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="5393" name="walls_and_floors" tilewidth="16" tileheight="16" tilecount="688" columns="16">
+  <image source="walls_and_floors.png" width="256" height="688"/>
+ </tileset>
+ <layer id="11" name="Back" width="8" height="3">
+  <data encoding="csv">
+5409,5409,5409,5409,5409,5409,5409,5409,
+5805,5806,5805,5806,5805,5806,5805,5806,
+5821,5822,5821,5822,5821,5822,5821,5822
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="8" height="3">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+2561,2561,2561,2561,2561,2561,2561,2561,
+0,0,2444,2434,2435,2436,2437,2438
+</data>
+ </layer>
+ <layer id="9" name="Building2" width="8" height="3">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="Front" width="8" height="3">
+  <data encoding="csv">
+0,0,2420,2410,2411,2412,2413,2414,
+0,0,2432,2422,2423,2424,2425,2426,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="12" name="Back">
+  <object id="575" name="TileData" x="0" y="16" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="576" name="TileData" x="16" y="16" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="577" name="TileData" x="32" y="16" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="578" name="TileData" x="48" y="16" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="579" name="TileData" x="64" y="16" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="580" name="TileData" x="80" y="16" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="581" name="TileData" x="96" y="16" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="583" name="TileData" x="0" y="32" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="584" name="TileData" x="16" y="32" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="585" name="TileData" x="32" y="32" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="586" name="TileData" x="48" y="32" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="587" name="TileData" x="64" y="32" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="588" name="TileData" x="80" y="32" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="589" name="TileData" x="96" y="32" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="599" name="TileData" x="16" y="32" width="16" height="16">
+   <properties>
+    <property name="Action" value="kitchen"/>
+   </properties>
+  </object>
+  <object id="600" name="TileData" x="32" y="32" width="16" height="16">
+   <properties>
+    <property name="Action" value="kitchen"/>
+   </properties>
+  </object>
+  <object id="604" name="TileData" x="112" y="32" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="605" name="TileData" x="112" y="16" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="Buildings">
+  <object id="568" name="TileData" x="32" y="32" width="16" height="16">
+   <properties>
+    <property name="Action" value="kitchen"/>
+   </properties>
+  </object>
+  <object id="569" name="TileData" x="48" y="32" width="16" height="16">
+   <properties>
+    <property name="Action" value="kitchen"/>
+   </properties>
+  </object>
+  <object id="570" name="TileData" x="64" y="32" width="16" height="16">
+   <properties>
+    <property name="Action" value="kitchen"/>
+   </properties>
+  </object>
+  <object id="571" name="TileData" x="80" y="32" width="16" height="16">
+   <properties>
+    <property name="Action" value="kitchen"/>
+   </properties>
+  </object>
+  <object id="572" name="TileData" x="96" y="32" width="16" height="16">
+   <properties>
+    <property name="Action" value="kitchen"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="10" name="Buildings2"/>
+ <objectgroup id="8" name="Front"/>
+</map>

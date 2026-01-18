@@ -1,0 +1,465 @@
+{
+    "Format": "2.0.0",
+    "ConfigSchema": {
+        "Version": {
+            "AllowValues": "dating, married",
+            "Default": "dating"
+        }
+    },
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Haley",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020017"
+            },
+            "Entries": {
+                "Tue2": "Quais fotos devo dar para a Leah...?$0",
+                "Wed2": "Acho que a Leah é a única pessoa que já gostou tanto das minhas fotos...$1#$b#O Alex sempre diz que fotografia é meio chata...$2"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Leah",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020017"
+            },
+            "Entries": {
+                "Fri2": "Tenho tantas ideias agora graças às fotos da Haley.$1#$b#Acho que vou pintar sem parar nas próximas semanas.$1",
+                "Sun2": "Sempre via a Haley quando ela vinha à floresta tirar fotos.$0#$b#Mas nunca tinha conversado com ela antes.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Haley",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020018"
+            },
+            "Entries": {
+                "Mon4": "A Leah é uma artista incrível!$1",
+                "Thu4": "Talvez eu devesse aprender com a Leah e começar a levar a fotografia mais a sério.$0",
+                "Fri4": "Deveria visitar a Leah de novo em breve.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Leah",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020018"
+            },
+            "Entries": {
+                "Tue4": "Quero muito pintar outro retrato da Haley.$0#$e#Ela tem um rosto com proporção áurea...$4",
+                "Wed4": "Tenho estado muito inspirada ultimamente graças às fotos que a Haley me deu.$1",
+                "Sat4": "A Haley é ótima. Você a conhece bem, @?$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Haley",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020019"
+            },
+            "Entries": {
+                "Mon6": "Não acredito que moro aqui há tanto tempo e não sabia das piscinas naturais!$0",
+                "Wed6": "Não devia dizer isso, mas...$0#$b#Prefiro ir à praia com a Leah do que com o Alex.$0",
+                "Thu6": "Finalmente tenho uma foto com a Leah!$1#$b#Vou guardar com carinho.$0",
+                "Sat6": "Mal posso esperar para ir à praia com a Leah outra vez.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Leah",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020019"
+            },
+            "Entries": {
+                "Mon6": "Oi, @.$0#$e#Você acha que a Haley gostaria de fazer um piquenique?$1",
+                "Tue6": "Fico feliz que a Haley queira passar um tempo comigo na praia.$1",
+                "Fri6": "Oi, @.$1#$e#Vou ao salão, você vem também?$0#$e#Humm... Talvez eu peça para a Haley se juntar a nós.$4",
+                "Sat6": "A Haley vem à minha casa amanhã para me ajudar com umas coisas.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Haley",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020020"
+            },
+            "Entries": {
+                "Mon8": "Oi, @.$0#$#Quero ir para Zuzu City em breve com a Leah.$0#$e#Há um shopping novo com uma exposição de arte temporária.$1",
+                "Tue8": "Nunca pensei muito em ter filhos...$2#$b#Mas acho que a Leah me ajudou a amadurecer bastante.$0",
+                "Wed8": "Oi, @.$0#$e#Sempre achei que eu não fazia nada produtivo...$2#$b#Sabe, eu só ficava com o Alex de vez em quando, tirava algumas fotos aqui e ali. Eu nem tinha um emprego como a Emily.$2#$b#Mas graças à Leah agora eu sei exatamente como quero o meu futuro.$4",
+                "Thu8": "A Leah falou comigo sobre um concurso de fotografia em Grampleton.$0#$b#Vamos escolher as fotos depois.$1#$e#...ou eu poderia mandar uma foto em que ela é a modelo, ia ganhar fácil.$4",
+                "Fri8": "Ver o pôr do sol com a Leah é uma das minhas coisas favoritas no mundo.$4",
+                "Sat8": "Conhecer a Leah mudou muito a minha vida.$0#$b#Antes eu odiava a vida rural, mas agora não trocaria por nada.$1",
+                "Sun8": "Um dos motivos de eu ainda morar aqui é que a Leah ama o vale e isso é uma ótima fonte de inspiração para ela.$0",
+                "spring_Mon8": "A Emily me contou que tem um novo comerciante no deserto.$0#$b#Talvez ele venda obras de arte únicas de pintores estrangeiros.$0#$e#A Leah e eu devíamos dar um pulo lá um dia.$0",
+                "spring_Thu8": "O cabelo da Leah é super macio.$0#$b#Eu adoro arrumá-lo de jeitos diferentes.$1",
+                "spring_Sat8": "Vou pedir para a Leah fazer um ensaio fotográfico na praia.$0#$b#Vai ser tão divertido!$4#$e#E eu também vou ver a Leah de biquíni...$4",
+                "summer_Wed8": "A Leah e eu vamos tomar sorvete mais tarde.$0#$b#Você devia vir também, @.$1",
+                "summer_Fri8": "Oi, @.$0#$b#Vou chamar a Leah para ir à praia comigo mais tarde, quando não tiver mais ninguém.$4",
+                "summer_Sat8": "A praia é meu lugar favorito na cidade.$1#$b#Bom, e também a casa da Leah...$4",
+                "fall_Mon8": "A Emily está me ensinando a tricotar.$0#$b#Quero fazer um cachecol para a Leah para o inverno.$1",
+                "fall_Fri8": "O Alex e eu somos bons amigos, por isso as pessoas diziam que estávamos namorando.$0#$b#Ainda saio com ele de vez em quando, mas agora prefiro estar com a Leah.$0",
+                "fall_Sun8": "Sinto falta do verão e de ir à praia com a Leah...$2",
+                "winter_Tue8": "Oi, @.$1#$e#Não conte para a Leah, mas tenho juntado dinheiro para comprar uma pintura do Lupini para ela na Feira Noturna.$1#$b#Ela vai amar!$1",
+                "winter_Thu8": "Estou ansiosa por mais um ano maravilhoso com a Leah.$4#$e#Sinto que sou uma versão muito melhor de mim mesma agora, graças a ela.$1",
+                "winter_Sat8": "A Leah tem uma lareira em casa.$0#$b#Adoro ficar na frente dela e me aconchegar com ela.$4",
+                "summer_27": "Normalmente eu tiraria um monte de fotos no Festival das Medusas à Luz da Lua amanhã, mas acho que dessa vez vou só aproveitar o momento com a Leah.$0",
+                "winter_23": "Hoje é um dia muito especial, é o aniversário da Leah!$1#$b#Preparei uma festa surpresa para ela.$1",
+                "winter_24": "Oi, @.$0#$e#O Festival da Estrela do Inverno me faz sentir que finalmente faço parte desta comunidade.$1#$e#Foi bom conversar com você, tenho que ir agora preparar o presente da Leah para amanhã.$0",
+                "summer_27_2": "Normalmente eu tiraria um monte de fotos no Festival das Medusas à Luz da Lua amanhã, mas acho que dessa vez vou só aproveitar o momento com a Leah.$0",
+                "winter_23_2": "Hoje é um dia muito especial, é o aniversário da Leah!$1#$b#Preparei uma festa surpresa para ela.$1",
+                "winter_24_2": "Oi, @.$0#$e#O Festival da Estrela do Inverno me faz sentir que finalmente faço parte desta comunidade.$1#$e#Foi bom conversar com você, tenho que ir agora preparar o presente da Leah para amanhã.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Leah",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020020"
+            },
+            "Entries": {
+                "Mon8": "Eu adoraria desenhar um retrato da Haley algum dia.$0#$e#Ela seria a modelo mais linda de todas.$4",
+                "Tue8": "Oi, @.$1#$e#Sabe, foi graças a você e à Haley que consegui chegar até aqui com minha arte.$0#$e#Você deveria vir jantar com a gente algum dia, @.$1",
+                "Wed8": "Ei, @.$0#$e#Sabe, nunca voltaria para a cidade mesmo sendo difícil deixar tudo para trás.$0#$b#Eu amo viver no vale, e agora tenho tantos planos para mim e para a Haley para o futuro.$1",
+                "Thu8": "Percebi que quando cheguei aqui, eu nem estava tentando fazer novos amigos porque ainda estava processando tudo.$0#$b#Mas agora converso com todo mundo no bar, ajudo a Marnie com os animais e ainda tenho um relacionamento maravilhoso com a Haley.$1",
+                "Fri8": "Tinha medo de estar apressando as coisas com a Haley...$2#$b#Você sabe que meu relacionamento anterior terminou muito mal e eu não queria estar com ninguém quando me mudei para cá.$2#$b#Mas então a Haley apareceu e bagunçou meus planos.$0#$e#Ainda bem que ela fez isso, eu a amo demais.$4",
+                "Sat8": "Minha carreira como artista não ia muito bem quando me mudei para cá...$2#$e#Felizmente, a Haley sempre acreditou em mim.$0#$b#Ela é muito solidária.$1",
+                "Sun8": "Costumo ver a Jas brincando perto da minha casa.$0#$b#Isso me fez pensar se a Haley gostaria de ter filhos em breve...$0",
+                "spring_Mon8": "Oi, @.$1#$e#A Haley e eu pensamos em fazer uma exposição conjunta.$1#$e#Sabe, mostraríamos minhas esculturas e pinturas junto com as fotografias dela.$0",
+                "spring_Thu8": "Ah, oi, @.$1#$e#Eu estava indo ver a Haley.$4#$e#Tchau!$0",
+                "spring_Sat8": "Um velho amigo meu de Zuzu City me disse que vai fazer sua primeira exposição de arte no mês que vem.$1#$b#Vou com a Haley, talvez ela possa conhecer meus pais lá.$1",
+                "summer_Wed8": "A Haley ama o verão.$0#$b#Todo dia ela me chama para ir tomar sol com ela.$1",
+                "summer_Fri8": "Nos dias de verão, a Haley e eu adoramos ir nadar.$1#$b#Geralmente vamos à praia, mas o rio também pode ser uma boa opção.$1",
+                "summer_Sat8": "Deveria levar minhas aquarelas da próxima vez que for à praia.$0#$b#Quero fazer uns rascunhos rápidos da Haley.$1",
+                "fall_Mon8": "Estou com um bloqueio artístico terrível...$2#$e#Devo ir ver a Haley para me inspirar...$7",
+                "fall_Fri8": "Adoro caminhar na floresta com a Haley no outono.$0#$b#A brisa é muito agradável e a Haley gosta de tirar fotos do rio.$1",
+                "fall_Sun8": "Ei, @!$1#$e#Comprei um vinho na Pierre's para o jantar que vou fazer hoje com a Emily e a Haley.$1",
+                "winter_Tue8": "Fico feliz que a Haley mora tão perto de mim.$0#$e#Assim posso visitá-la sempre, especialmente em dias frios como hoje.$1",
+                "winter_Thu8": "A Haley não gosta muito do inverno, então tento passar mais tempo com ela nesses dias.$0",
+                "winter_Sat8": "Este ano tem sido o melhor da minha vida até agora. Ver minha arte alcançando mais pessoas, estar com a Haley, ter um bom relacionamento com o pessoal da cidade... o que não amar?$0",
+                "spring_14": "Passei o último mês pintando um quadro para o aniversário da Haley.$0#$b#Ele se chama 'Meu Girassol'.$4",
+                "summer_10": "A Haley vai levar a câmera para o Luau, ela está muito animada.$1",
+                "fall_28": "Ver o Vincent e a Jas se divertindo no Festival do Espírito ontem me fez pensar em ter filhos.$0#$e#Será que a Haley também pensou nisso...?$4",
+                "spring_14_2": "Passei o último mês pintando um quadro para o aniversário da Haley.$0#$b#Ele se chama 'Meu Girassol'.$4",
+                "summer_10_2": "A Haley vai levar a câmera para o Luau, ela está muito animada.$1",
+                "fall_28_2": "Ver o Vincent e a Jas se divertindo no Festival do Espírito ontem me fez pensar em ter filhos.$0#$e#Será que a Haley também pensou nisso...?$4"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Forest",
+            "Entries": {
+            "59020017/f Haley 500/F/f Leah 500/w sunny/t 1100 1300": "50s/94 39/farmer 1000 1000 2 Haley 93 39 2 Leah 104 33 0/skippable/animate Haley false true 280 30 30 30 30 30 31 24 24 24 24 24 27 27 27 27 27 24 31/pause 1800/playSound doorClose/move Leah 0 2 3/move Leah -6 0 2/pause 1000/move Leah 0 4 3/move Leah -3 0 3/pause 600/speak Leah \"Oi, Haley!$1#$b#Tirando umas fotos, né?$1\"/pause 500/stopAnimation Haley/showFrame Haley 33/pause 600/speak Haley \"Ah, oi, Leah.$7#$b#Sim, a floresta é um ótimo cenário fotográfico.$0\"/pause 600/speak Leah \"Pois é, eu também gosto de caminhar pelo rio procurando inspiração.$0\"/pause 700/speak Haley \"Ah, é verdade, você era pintora ou algo assim, né?$0\"/pause 600/speak Leah \"Sim, sou.$1#$b#Também faço esculturas.$0\"/pause 500/speak Leah \"Na verdade, quando eu estava no ensino médio eu me interessava por fotografia.$0#$b#Mas minhas fotos eram mais medíocres do que qualquer outra coisa...$2\"/pause 500/speak Leah \"Agora estou focando em pintura e escultura.$0\"/pause 500/speak Leah \"Aposto que suas fotos são melhores do que as minhas nunca foram.$1\"/pause 680/speak Haley \"Ah, nem pense que as minhas são impressionantes.$0#$b#É só um hobby meu.$0\"/pause 700/speak Leah \"Deixa eu ver...$0\"/pause 200/move Leah 0 -1 3/move Leah -2 0 2/pause 1000/emote Leah 40/pause 800/speak Leah \"Vai, Haley! Essas são incríveis!$1\"/pause 600/speak Leah \"Adoro como você brinca com a luz nesta.$1#$b#E a composição nesta é simples mas muito bem feita.$1\"/pause 800/speak Haley \"Sério? Você diz isso de verdade?$1\"/pause 600/speak Leah \"Claro!$1#$b#Você podia ser fotógrafa profissional se quisesse.$0\"/pause 500/emote Haley 32/pause 390/move Leah 2 0 2/move Leah 0 1 3/pause 600/speak Leah \"Na verdade, queria te pedir um favor, Haley.$0\"/pause 500/speak Leah \"Tenho estado sem ideias ultimamente...$2#$b#E realmente precisava de referências.$0#$b#Adoro suas fotos, então esperava que você pudesse me emprestar algumas.$0\"/pause 500/speak Leah \"O que acha?$1\"/pause 500/emote Haley 16/pause 500/speak Haley \"Nunca ninguém se interessou tanto pela minha fotografia.$1#$b#Vou te dar todas as fotos que quiser.$1\"/pause 500/speak Leah \"Muito obrigada, Haley!$1\"/pause 500/speak Leah \"Preciso ir agora.$0#$b#Você pode passar quando quiser, normalmente estou em casa.$0\"/pause 500/speak Leah \"Tchau, Haley. Vou te esperar.$1\"/pause 600/speak Haley \"Até logo, Leah!$1\"/pause 500/move Leah 3 0 0/move Leah 0 -10 0/pause 500/end dialogue Leah \"Você viu as fotos da Haley?$0#$b#Elas são incríveis!$1\""
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/LeahHouse",
+            "Entries": {
+            "59020018/e 59020017/F/f Haley 1000/f Leah 1000/o Haley/o Leah/t 1600 1800": "breezy/8 7/farmer 1000 1000 2 Haley 700 110 0 Leah 3 7 3/skippable/animate Leah false true 150 19 19 19 16 17 18 18/pause 1800/playSound doorOpen/warp Haley 7 10/move Haley 0 -3 3/pause 500/move Haley -2 0 3/pause 700/speak Haley \"Oi, Leah!$1\"/pause 680/stopAnimation Leah/pause 600/showFrame Leah 4/pause 390/speak Leah \"Haley, eu estava esperando você vir hoje.$1\"/pause 580/speak Leah \"Você trouxe as fotos?$1\"/pause 700/speak Haley \"Sim, aqui estão.$0\"/pause 390/move Haley -1 0 3/pause 380/showFrame Haley 29/playSound shwip/pause 500/move Haley 1 0 3/pause 1000/speak Haley \"Você gostou delas?$1#$b#Escolhi fotos de vários festivais e também as da floresta.$0\"/pause 600/speak Leah \"São exatamente o que eu queria.$1#$b#Na verdade, comecei há um tempo uma série de pinturas sobre os festivais de Stardew Valley.$0#$b#Eles são um dos motivos pelos quais adoro viver aqui.$1\"/pause 500/speak Leah \"Acho que estão ali, quer ver?$0\"/pause 700/speak Haley \"Claro, adoraria.$1\"/pause 500/move Leah 0 -1 1/move Leah 3 0 0/move Leah 0 -1 0/move Haley 2 0 0/move Haley 0 -2 0/pause 670/speak Leah \"Pintei esta no ano em que o Gus fez o jantar especial de salmão para o Festival de Gelo.$0\"/pause 600/speak Haley \"Ah, eu lembro daquele ano, foi muito divertido.$1#$b#Você fez uma escultura de gelo de diamante, né?$0\"/pause 750/emote Haley 16/pause 500/speak Haley \"Isto é...$8\"/pause 500/speak Leah \"Huh...?$6#$b#Eu não ia te mostrar isso, mas...$6\"/pause 500/speak Leah \"Bem, isso é constrangedor...$7\"/pause 600/speak Leah \"É uma pintura da Dança das Flores.$0#$b#Sabe, o ano em que você usou aquele vestido que a Emily fez para você.$1\"/pause 500/emote Leah 40/pause 700/speak Leah \"Eu...$0#$b#Achei que você estava mais linda do que nunca...$4\"/pause 580/speak Leah \"E senti que precisava pintar você.$4\"/pause 600/faceDirection Leah 1/pause 500/faceDirection Haley 3/pause 600/speak Leah \"Espero que não se importe... Eu pintei sem pedir sua permissão...$2\"/pause 800/speak Haley \"Claro que não, Leah.$0#$b#Fico muito lisonjeada.$4\"/pause 800/speak Haley \"Na verdade, depois que a Dança das Flores acabou, Emily e eu brigamos...$2\"/pause 500/speak Haley \"Nem sei como começou, só sei que o vestido acabou rasgando...$2\"/pause 700/emote Haley 28/pause 600/speak Haley \"E eu não tirei nenhuma foto no festival porque estava muito empolgada mostrando o vestido...$2\"/pause 500/speak Haley \"Então fico feliz que você tenha pintado isso, assim posso lembrar daquele dia feliz.$0\"/pause 600/speak Leah \"É terrível o que aconteceu com seu vestido...$2\"/pause 600/speak Leah \"Escuta, Haley, você pode ficar com ele se quiser.$0#$b#É um agradecimento pelas suas fotos.$1\"/pause 600/speak Haley \"Sério? Seria maravilhoso!$1\"/pause 500/speak Haley \"Tenho o lugar perfeito para pendurá-lo!$1\"/pause 500/emote Haley 32/pause 1200/end dialogue Haley \"A Leah me deu um quadro.$1#$b#Estou tão feliz agora!$1\""
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Beach",
+            "Entries": {
+            "59020019/e 59020018/F/f Haley 1500/f Leah 1500/o Haley/o Leah/w sunny/z spring/z fall/z winter/t 1700 1900": "Orange/41 23/farmer 34 20 2 Sam 48 24 2 Vincent 45 25 2 Haley 42 12 2 Leah 40 23 2/skippable/animate Leah false true 150 35 35 35 35 35 35 32 33 34 32 33 34/pause 1500/move Haley 0 11 3/pause 600/speak Haley \"Leah!$1#$b#Estou tão feliz em te ver aqui.$1\"/pause 500/stopAnimation Leah/showFrame Leah 4/pause 500/speak Leah \"Oi, Haley.$1#$b#No verão eu gosto de vir à praia e fazer uns esboços em aquarela.$0#$b#E você?$0\"/pause 650/speak Haley \"Vim com o Alex, mas ele disse que quer ficar sozinho para malhar...$2\"/pause 600/speak Leah \"Você pode passar tempo comigo, se quiser.$0\"/pause 500/speak Leah \"Na verdade, vem comigo, quero te mostrar uma coisa.$1\"/pause 500/move Leah 0 -10 0/globalFade .006/viewport 800 1700/warp Haley 79 13/warp Leah 80 13/faceDirection Leah 2/faceDirection Haley 2/playMusic summer2/viewport 80 16 true/pause 1000/speak Leah \"Aposto que você nunca veio aqui.$1\"/pause 500/speak Leah \"Um dia eu estava andando por aí procurando novas paisagens para pintar e descobri estas piscinas de maré.$0\"/pause 700/speak Haley \"Isso é tão bonito, Leah!$1\"/pause 600/speak Haley \"Vamos tirar uma foto, estou com minha câmera.$1\"/pause 750/move Haley 0 2 1/playSound sandyStep/addBigProp 80 15 106/pause 600/move Haley 0 -2 2/pause 280/speak Haley \"Pronta? O timer está programado para 5 segundos.$0\"/pause 300/positionOffset Haley 2 0/positionOffset Haley 2 0/pause 80/positionOffset Leah -2 0/pause 80/positionOffset Leah -2 0/pause 100/showFrame Leah 26/showFrame Haley 26/pause 350/playSound cameraNoise/screenFlash .8/pause 700/showFrame Leah 0/showFrame Haley 2/pause 500/speak Haley \"Ok, podemos ver daqui.$0\"/pause 600/emote Haley 32/pause 500/speak Haley \"Que foto ótima.$1\"/pause 500/speak Haley \"Você está tão linda.$4\"/pause 500/emote Leah 32/pause 500/speak Leah \"É, ficaram boas.$1#$b#Certeza de que você faz uma cópia extra para mim.$1\"/pause 800/speak Leah \"Ah, olha a hora, temos que voltar.$0#$b#Me diverti demais, temos que fazer isso mais vezes.$1\"/pause 700/speak Haley \"Ah, tá...$2#$b#Promete que voltamos aqui!$0\"/pause 600/speak Leah \"Hahaha, você é tão fofa, Haley.$1\"/pause 700/speak Haley \"...$4\"/pause 500/end dialogue Leah \"A Haley é tão adorável...$4\""
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Forest",
+            "Entries": {
+            "59020020/e 59020019/F/f Haley 2000/f Leah 2000/o Haley/o Leah/w sunny/z winter/t 1200 1400": "sweet/-1000 -1000/Haley 75 40 2 Leah 71 45 2/skippable/specificTemporarySprite pennyFieldTrip/viewport 71 46 true/pause 1800/move Haley 0 5 3/pause 600/faceDirection Leah 1/pause 500/speak Leah \"Haley!$1#$b#Você chegou bem na hora.$1\"/pause 500/speak Leah \"O que acha?$0#$b#Você disse que gostava de salada de frutas, né? Preparei para você.$1#$b#Também fiz meu medley especial de vegetais.$1\"/pause 700/speak Haley \"Isso está incrível, Leah.$1#$b#Mal posso esperar para comer, obrigada por preparar tudo.$0\"/pause 600/move Leah 0 1 3/move Haley 0 2 3/move Haley -6 0 0/move Haley 0 -1 1/pause 500/emote Haley 32/pause 600/speak Leah \"Queria te agradecer por ter me ajudado e incentivado a virar uma artista de verdade.$0\"/pause 1000/speak Leah \"E também...$0#$b#...queria falar com você.$0\"/pause 700/speak Leah \"Mas primeiro, acho que você deveria saber de uma coisa...$2\"/pause 1000/speak Leah \"Quando eu morava na cidade, eu tinha um namorado.$2^Quando eu morava na cidade, eu tinha uma namorada.$2#$b#Tínhamos um apartamento juntos e éramos felizes...$2\"/pause 700/speak Leah \"Um dia percebi que queria me dedicar à arte.$0#$b#Mas ele não me apoiava e queria que eu estudasse outra coisa.$5^Mas ela não me apoiava e queria que eu estudasse outra coisa.$5\"/pause 800/speak Leah \"Ele só queria que a gente levasse uma vida 'normal'.$2^Ela só queria que a gente levasse uma vida 'normal'.$2#$b#Sabe, arranjar um emprego fixo, comprar uma casa, casar e ter filhos.$0\"/pause 800/speak Leah \"Naquele momento eu não queria esse tipo de vida, queria seguir meu sonho.$2#$b#Por isso terminei com ele e me mudei pra cá.$0^Por isso terminei com ela e me mudei pra cá.$0\"/pause 800/speak Leah \"No começo ele ligava todo dia pedindo pra eu voltar pra cidade com ele.$5^No começo ela ligava todo dia pedindo pra eu voltar pra cidade com ela.$5#$b#Mas acho que ele desistiu agora e não vai mais me incomodar.$0^Mas acho que ela desistiu agora e não vai mais me incomodar.$0\"/pause 600/emote Leah 40/pause 700/speak Leah \"Haley, estou te contando isso porque quero ser honesta com você.$3\"/pause 700/speak Leah \"A gente ficou muito próximas ultimamente e eu não queria apressar nada por causa de como meu último relacionamento terminou.$3\"/pause 390/playMusic musicboxsong/pause 700/speak Leah \"Eu só quero dizer que gosto muito de você, Haley, e não consigo negar mais.$4\"/pause 700/speak Leah \"Chamei você porque queria pedir pra você ser minha namorada, Haley...$4\"/pause 500/speak Haley \"!$4\"/pause 600/speak Haley \"Meu Deus, Leah!$4#$b#Achei que era só eu que me sentia assim...$4\"/pause 380/emote Haley 20/pause 380/speak Haley \"Eu também gosto de você...$4\"/pause 380/move Haley 1 0 1/pause 200/showFrame Haley 28/showFrame Leah 30/positionOffset Leah -2 0/pause 50/positionOffset Leah -2 0/pause 50/positionOffset Leah -2 0/pause 50/positionOffset Leah -2 0/pause 50/positionOffset Leah -2 0/pause 50/positionOffset Leah -2 0/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/specificTemporarySprite heart 71 46/pause 2000/end dialogue Leah \"Ah, @, eu amo tanto a Haley...$4\""
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "When": {
+            "Version": "married"
+            },
+            "Entries": {
+            "59020039/e 59020020/o Haley/o Leah/y 3/u 26/z spring/z fall/z winter/x LifeCycle.HaleyLeah": "null"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "When": {
+            "Version": "married"
+            },
+            "Entries": {
+            "59020035/e 59020020/z spring/z fall/z winter/o Leah/o Haley/n LifeCycle.HaleyLeah/w sunny/t 1600 1730": "sweet/29 66/Haley 28 65 2 Leah 29 65 2 Lewis 26 65 2 Emily 26 67 0 Sandy 25 67 0 Alex 23 67 0 Elliott 31 67 0 Gus 32 67 0 farmer 33 67 0 George 23 68 0 Evelyn 24 68 0 Shane 26 68 0 Marnie 31 68 0 Jas 32 68 0 Vincent 33 68 0 Kent 33 69 0 Jodi 34 68 0 Sam 32 69 0 Sebastian 31 69 0 Robin 26 69 0 Demetrius 25 69 0 Maru 24 69 0 Penny 23 69 0 Pam 23 70 0 Clint 24 70 0 Willy 25 70 0 Abigail 32 70 0 Caroline 33 70 0 Pierre 34 70 0 Gunther 24 67 0 Linus 33 71 0/skippable/showFrame Haley 36/showFrame Leah 36/addTemporaryActor ArchLF 128 80 25 65 0 false Character/pause 3900/speak Lewis \"Boa noite, bem-vindos a este momento importante na vida desse casal.$0\"/pause 1600/speak Lewis \"Hoje vamos deixar de lado as preocupações e celebrar o casamento da Haley e da Leah.$0#$b#Temos a oportunidade de compartilhar a alegria e o amor delas, e também de valorizar o amor e a amizade que vivenciamos nas nossas próprias vidas.$0\"/pause 1600/speak Lewis \"Haley e Leah veem o casamento como um encontro em todos os níveis.$0#$b#Um compromisso matrimonial inclui estar disposto a abrir o coração e ter coragem para correr riscos.$0\"/pause 1600/speak Lewis \"Casamento é um ato consciente de vontade.$0#$b#E elas decidiram que vão enfrentar os desafios de estabelecer essa relação íntima.$0\"/pause 1600/speak Lewis \"Hoje, Haley e Leah se comprometem uma com a outra em confiança sagrada.$0\"/pause 1500/speak Lewis \"Mas antes de tudo, a Emily queria dizer algumas palavras.$1\"/pause 880/move Emily 4 0 0/move Emily 0 -1 1/move Emily 1 0 0/move Emily 0 -1 2/pause 850/speak Emily \"Boa noite, pessoal!$1#$b#Primeiro, queria dar as boas-vindas a todos ao casamento da minha irmã e agradecer por estarem aqui conosco.$1\"/pause 800/speak Emily \"Meu relacionamento com a Haley é complicado e difícil de descrever.$0#$b#Há momentos em que parece que nos odiamos.$0#$b#Mas sempre teremos um vínculo especial que nada poderá destruir.$1\"/pause 850/faceDirection Emily 3/pause 580/animate Leah true true 150 37/animate Haley true true 150 37/pause 100/faceDirection Lewis 1/pause 900/speak Emily \"Haley, tendo te visto nos seus piores e melhores momentos, posso dizer que nunca te vi tão feliz quanto hoje.$0\"/pause 850/speak Emily \"Sei que nunca te disse isso, mas Haley, você se tornou uma pessoa maravilhosa, atenciosa e amorosa.$0#$b#Tenho muito orgulho de ser sua irmã.$1#$b#E é realmente emocionante ver você e a Leah juntas.$1\"/pause 950/speak Emily \"A verdade é que a Haley nem sempre fez boas escolhas, mas tenho certeza de que você é uma boa escolha, Leah.$0#$b#Posso sentir que suas almas foram feitas para ficar juntas.$1\"/pause 750/speak Emily \"Leah, só quero dizer que estou feliz em te receber na família.$1\"/pause 1150/speak Emily \"Desejo a vocês toda a felicidade possível.$1#$b#E espero que prosperem, floresçam e construam um laço mágico.$1\"/pause 390/emote Haley 32/pause 900/move Emily 0 1 3/move Emily -1 0 2/move Emily 0 1 3/move Emily -4 0 0/pause 350/faceDirection Lewis 2/stopAnimation Haley/stopAnimation Leah/showFrame Haley 36/showFrame Leah 36/pause 1800/speak Lewis \"Agora é minha grande honra unir Haley e Leah nos laços do casamento.$1\"/pause 800/move Lewis 0 1 1/move Lewis 1 0 2/move Lewis 0 1 1/move Lewis 1 0 0/pause 800/showFrame Lewis 21/pause 1200/animate Haley true true 150 37/showFrame Leah 37/pause 1380/speak Lewis \"Você aceita, Haley, levar esta mulher como sua esposa legítima?$0\"/pause 720/emote Haley 20/pause 1100/speak Lewis \"Você aceita, Leah, levar esta mulher como sua esposa legítima?$0\"/pause 600/textAboveHead Leah \"Aceito.\"/pause 2000/speak Lewis \"Haley... Leah...$0#$b#Como prefeito de Pelican Town e responsável regional pelo selo matrimonial, agora eu as declaro esposa e..., bem, esposa!$1\"/pause 650/speak Lewis \"Podem se beijar.$1\"/pause 1500/stopAnimation Haley/animate Haley true true 150 38/showFrame Leah 38/positionOffset Leah -2 0/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Leah -2 0/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Leah -2 0/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Leah -2 0/pause 50/positionOffset Haley 2 0/pause 50/specificTemporarySprite heart 29 65/pause 2600/positionOffset Haley -2 0/pause 50/positionOffset Leah 2 0/pause 50/positionOffset Haley -2 0/pause 50/positionOffset Leah 2 0/pause 50/positionOffset Haley -2 0/pause 50/positionOffset Leah 2 0/pause 50/positionOffset Haley -2 0/pause 50/stopAnimation Haley/showFrame Haley 36/pause 380/showFrame Leah 36/pause 800/screenFlash .8/playMusic wedding/pause 150/animate Emily false true 320 16 16 16 16 16 16 17 17 17 17 20 20 20 21 21 21 21 18 18 19 19 31 31 31 35 35 34 34 34 22 22 22 22 23 23 23/move Lewis 0 1 1/move Lewis 2 0 1/animate Lewis true true 380 19 19 19 19 19 19 22 23 23 23/animate Marnie true true 380 20 20 20 20 20 20 21 22 22 23 23 23/pause 380/move Elliott -2 0 0/move Elliott 0 -1 0/pause 320/animate Abigail false true 350 16 17 18 19/pause 320/faceDirection Sebastian 1/faceDirection Sebastian 3/pause 320/faceDirection Vincent 3/faceDirection Jas 1/pause 320/animate Willy false true 350 28 29 30 31/pause 500/move Alex 0 -1 1/move Alex 5 0 0/pause 300/faceDirection Evelyn 3/faceDirection George 1/pause 380/faceDirection Pierre 3/faceDirection Caroline 1/pause 3600/addConversationTopic HaleyLeahWedding 4/end"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Leah",
+            "Entries": {
+            "HaleyLeahWedding": "Oi, @.$0#$e#Obrigada por vir ao casamento!$0#$b#Mal posso esperar para me mudar com a Haley.$4"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Haley",
+            "Entries": {
+            "HaleyLeahWedding": "Emily e eu trabalhamos muito nos vestidos do casamento.$0#$b#Você gostou deles, @?$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Penny",
+            "Entries": {
+            "HaleyLeahWedding": "Oi, @.$0#$e#A Haley e a Leah são um casal tão fofo, não acha?$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Vincent",
+            "Entries": {
+            "HaleyLeahWedding": "Eu sempre me divirto muito em casamentos.$0#$b#Tem comida e posso brincar com a Jas.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "Entries": {
+            "HaleyLeahWedding": "Oi, @.$0#$e#Fiquei muito surpresa quando recebi o convite para o casamento da Haley e da Leah.$0#$b#Não imaginava que elas iam se casar tão rápido.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Pam",
+            "Entries": {
+            "HaleyLeahWedding": "A Leah às vezes fala comigo no bar.$0#$b#Ela é uma moça legal, fico feliz que tenha encontrado alguém.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Lewis",
+            "Entries": {
+            "HaleyLeahWedding": "Espero poder celebrar outro casamento em breve.$0#$b#Quem sabe a gente constrói um pequeno banquete.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sebastian",
+            "Entries": {
+            "HaleyLeahWedding": "Tenho que desejar sorte para a Leah aguentar a Haley pro resto da vida...$0#$e#Bom, na verdade a Haley ficou mais legal graças à Leah.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "Entries": {
+            "HaleyLeahWedding": "O casamento me fez pensar...$0#$b#Não sou muito de baladas, mas seria legal cantar num casamento.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Elliott",
+            "Entries": {
+            "HaleyLeahWedding": "A Leah foi minha primeira amiga quando cheguei aqui.$0#$b#Fico feliz de ter visto ela se casar.$1#$e#Ela me convidou para jantar com ela e a Haley, vou levar um ótimo vinho pros recém-casados.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jas",
+            "Entries": {
+            "HaleyLeahWedding": "Você acha que o vestido da Haley era mais bonito ou o da Leah?$0#$b#Eu gostei mais da Haley.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Caroline",
+            "Entries": {
+            "HaleyLeahWedding": "Ouvi a Leah dizer que ela e a Haley queriam fazer o casamento na praia.$0#$b#Teria sido perfeito para um casamento de verão.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Marnie",
+            "Entries": {
+            "HaleyLeahWedding": "Sempre via a Haley visitando a Leah e tirando fotos perto da casa dela.$0#$b#Elas são um casal maravilhoso.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Emily",
+            "Entries": {
+            "HaleyLeahWedding": "Oi, @.$0#$e#Foi difícil pra mim falar no casamento da Haley.$0#$b#A gente nunca conversa sobre os sentimentos, e achei que era o momento perfeito pra dizer o quanto tenho orgulho dela.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Gus",
+            "Entries": {
+            "HaleyLeahWedding": "A Leah sempre fala da Haley quando vem ao bar.$0#$b#Consigo ver que elas realmente se amam.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Evelyn",
+            "Entries": {
+            "HaleyLeahWedding": "Reorganizei as flores da cidade para o casamento da Haley e da Leah.$0#$b#O Alex disse que a Haley gosta de girassóis.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Robin",
+            "Entries": {
+            "HaleyLeahWedding": "As duas me contaram sobre os planos de morar juntas depois do casamento.$0#$b#Querem reformar a cabana da Leah.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/George",
+            "Entries": {
+            "HaleyLeahWedding": "E o que tem de tão especial em casamentos?$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Willy",
+            "Entries": {
+            "HaleyLeahWedding": "O Lewis não para de falar de como é especial celebrar um casamento.$0#$b#Talvez eu devesse virar celebrante também além de pescador.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Harvey",
+            "Entries": {
+            "HaleyLeahWedding": "A chave para um casamento saudável é a comunicação, compartilhar pensamentos e sentimentos.$0#$b#Mas acho que a Haley e a Leah não terão nenhum problema com isso.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Haley",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020020"
+            },
+            "Entries": {
+                "Mon8": "Oi, @.$0#$#Quero ir para Zuzu City em breve com a Leah.$0#$e#Há um shopping novo com uma exposição de arte temporária.$1",
+                "Thu8": "A Leah falou comigo sobre um concurso de fotografia em Grampleton.$0#$b#Vamos escolher as fotos depois.$1#$e#...ou eu poderia mandar uma foto em que ela é a modelo, ia ganhar fácil.$4",
+                "Fri8": "Ver o pôr do sol com a Leah é uma das minhas coisas favoritas no mundo.$4",
+                "Sat8": "Conhecer a Leah mudou muito a minha vida.$0#$b#Antes, eu costumava odiar a vida rural, mas agora nem imagino viver em outro lugar.$1",
+                "spring_Mon8": "A Emily me contou que tem um novo comerciante no deserto.$0#$b#Talvez ele venda obras de arte únicas de pintores estrangeiros.$0#$e#A Leah e eu devíamos dar um pulo lá um dia.$0",
+                "spring_Thu8": "O cabelo da Leah é super macio.$0#$b#Eu adoro arrumá-lo de jeitos diferentes.$1",
+                "spring_Sat8": "Vou pedir para a Leah fazer um ensaio fotográfico na praia.$0#$b#Vai ser tão divertido!$4#$e#E eu também vou ver a Leah de biquíni...$4",
+                "summer_Wed8": "A Leah e eu vamos tomar sorvete mais tarde.$0#$b#Você devia vir também, @.$1",
+                "summer_Fri8": "Oi, @.$0#$b#Vou chamar a Leah para ir à praia comigo mais tarde, quando não tiver mais ninguém.$4",
+                "fall_Mon8": "A Emily está me ensinando a tricotar.$0#$b#Quero fazer um cachecol para a Leah para o inverno.$1",
+                "fall_Sun8": "Sinto falta do verão e de ir à praia com a Leah...$2",
+                "winter_Tue8": "Oi, @.$1#$e#Não conte para a Leah, mas tenho juntado dinheiro para comprar uma pintura do Lupini para ela na Feira Noturna.$1#$b#Ela vai amar!$1",
+                "winter_Thu8": "Estou ansiosa por mais um ano maravilhoso com a Leah.$4#$e#Sinto que sou uma versão muito melhor de mim mesma agora, graças a ela.$1",
+                "winter_Sat8": "A Leah tem uma lareira em casa.$0#$b#Adoro ficar na frente dela e me aconchegar com ela.$4",
+                "summer_27": "Normalmente eu tiraria um monte de fotos no Festival das Medusas à Luz da Lua amanhã, mas acho que dessa vez vou só aproveitar o momento com a Leah.$0",
+                "winter_23": "Hoje é um dia muito especial, é o aniversário da Leah!$1#$b#Preparei uma festa surpresa para ela.$1",
+                "summer_27_2": "Normalmente eu tiraria um monte de fotos no Festival das Medusas à Luz da Lua amanhã, mas acho que dessa vez vou só aproveitar o momento com a Leah.$0",
+                "winter_23_2": "Hoje é um dia muito especial, é o aniversário da Leah!$1#$b#Preparei uma festa surpresa para ela.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Haley",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020035"
+            },
+            "Entries": {
+                "Wed8": "Oi, @.$0#$e#Sempre achei que eu não fazia nada produtivo com a minha vida...$2#$b#Sabe, eu só saía com o Alex de vez em quando, tirava umas fotos aqui e ali. Eu nem tinha um emprego como a Emily.$2#$e#Mas graças à Leah eu cresci muito como pessoa, fiquei tão feliz quando ela me pediu em casamento.$4#$b#Agora eu sei exatamente o que quero para o meu futuro.$4",
+                "Tue8": "Nunca pensei muito em ter filhos.$0#$b#Eu era meio criança...$2#$e#Mas acho que a Leah me ajudou a amadurecer bastante.$0#$b#E a gente tem conversado muito sobre filhos desde o nosso casamento.$1",
+                "Sun8": "Decidi ficar aqui porque a Leah ama o vale e é uma ótima fonte de inspiração para ela.$0#$b#Mas agora não consigo nem imaginar morar em outro lugar.$0#$b#Estou ansiosa para me mudar de vez com a Leah.$4#$e#Vou pendurar nossas fotos de casamento por toda a casa!$1",
+                "fall_Fri8": "Eu e o Alex somos bons amigos, por isso as pessoas costumavam dizer que estávamos namorando.$0#$b#Mas ele é só um amigo, ele ficou muito feliz quando soube que a Leah e eu iríamos casar.$1",
+                "summer_Sat8": "Depois do nosso casamento, a Leah e eu conversamos sobre morar juntas.$0#$b#Eu adoraria morar na casa dela, é tão aconchegante.$1#$e#Vamos ter que reformar um pouco, claro.$0",
+                "winter_24_2": "Oi, @.$0#$e#O Festival da Estrela do Inverno me faz sentir que finalmente faço parte desta comunidade.$1#$e#Foi bom conversar com você, tenho que ir agora preparar o presente da Leah para amanhã.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Leah",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020020"
+            },
+            "Entries": {
+                "Mon8": "Eu adoraria desenhar um retrato da Haley algum dia.$0#$e#Ela seria a modelo mais linda de todas.$4",
+                "Tue8": "Oi, @.$1#$e#Sabe, foi graças a você e à Haley que consegui chegar até aqui com minha arte.$0#$e#Você deveria vir jantar com a gente algum dia, @.$1",
+                "Sat8": "Minha carreira como artista não ia muito bem quando me mudei para cá...$2#$e#Felizmente, a Haley sempre acreditou em mim.$0#$b#Ela é muito solidária.$1",
+                "Sun8": "Costumo ver a Jas brincando perto da minha casa.$0#$b#Isso me fez pensar se a Haley gostaria de ter filhos em breve...$0",
+                "spring_Mon8": "Oi, @.$1#$e#A Haley e eu pensamos em fazer uma exposição conjunta.$1#$e#Sabe, mostraríamos minhas esculturas e pinturas junto com as fotografias dela.$0",
+                "summer_Wed8": "A Haley ama o verão.$0#$b#Todo dia ela me chama para ir tomar sol com ela.$1",
+                "summer_Fri8": "Nos dias de verão, a Haley e eu adoramos ir nadar.$1#$b#Geralmente vamos à praia, mas o rio também pode ser uma boa opção.$1",
+                "summer_Sat8": "Deveria levar minhas aquarelas da próxima vez que for à praia.$0#$b#Quero fazer uns rascunhos rápidos da Haley.$1",
+                "fall_Mon8": "Estou com um bloqueio artístico terrível...$2#$e#Devo ir ver a Haley para me inspirar...$7",
+                "fall_Fri8": "Adoro caminhar na floresta com a Haley no outono.$0#$b#A brisa é muito agradável e a Haley gosta de tirar fotos do rio.$1",
+                "fall_Sun8": "Ei, @!$1#$e#Comprei um vinho na Pierre's para o jantar que vou fazer hoje com a Emily e a Haley.$1",
+                "winter_Tue8": "Fico feliz que a Haley mora tão perto de mim.$0#$e#Assim posso visitá-la sempre, especialmente em dias frios como hoje.$1",
+                "winter_Thu8": "A Haley não gosta muito do inverno, então tento passar mais tempo com ela nesses dias.$0",
+                "spring_14": "Passei o último mês pintando um quadro para o aniversário da Haley.$0#$b#Ele se chama 'Meu Girassol'.$4",
+                "summer_10": "A Haley vai levar a câmera para o Luau, ela está muito animada.$1",
+                "fall_28": "Ver o Vincent e a Jas se divertindo no Festival do Espírito ontem me fez pensar em ter filhos.$0#$e#Será que a Haley também pensou nisso...?$4",
+                "spring_14_2": "Passei o último mês pintando um quadro para o aniversário da Haley.$0#$b#Ele se chama 'Meu Girassol'.$4",
+                "summer_10_2": "A Haley vai levar a câmera para o Luau, ela está muito animada.$1",
+                "fall_28_2": "Ver o Vincent e a Jas se divertindo no Festival do Espírito ontem me fez pensar em ter filhos.$0#$e#Será que a Haley também pensou nisso...?$4"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Leah",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020035"
+            },
+            "Entries": {
+                "Wed8": "Oi, @.$0#$e#Sabe, eu nunca voltaria para a cidade mesmo sendo difícil deixar tudo para trás.$0#$b#Amo viver no vale, e agora que eu e a Haley somos casadas, tenho tantos planos para nós no futuro.$1",
+                "Thu8": "Percebi que quando me mudei para cá eu nem estava tentando fazer novos amigos porque ainda estava assimilando tudo.$0#$b#Mas agora tenho ótimos amigos e uma esposa linda.$1",
+                "Fri8": "Eu tinha medo de estar apressando as coisas com a Haley...$2#$b#Você sabe que meu relacionamento anterior terminou muito mal e eu não tinha planos de estar com ninguém quando me mudei para cá.$2#$b#Mas então a Haley apareceu e bagunçou meus planos.$0#$e#Ainda bem que ela fez isso, eu a amo tanto.$4#$b#Ainda não consigo acreditar que ela é minha esposa.$4",
+                "spring_Thu8": "Ah, oi, @.$1#$e#A Haley quis que eu ajudasse a revelar umas fotos.$0#$e#Fico me perguntando... quando ela vai se mudar para cá agora que somos casadas?$4",
+                "spring_Sat8": "Um velho amigo meu de Zuzu City me disse que vai fazer sua primeira exposição de arte no mês que vem.$1#$b#Vou com a Haley, talvez ela possa conhecer meus pais enquanto estivermos lá.$1#$b#Eles não puderam vir ao casamento e estão ansiosos para conhecê-la.$0",
+                "winter_Sat8": "Este ano tem sido o melhor da minha vida até agora. Ver minha arte alcançando mais pessoas, estar casada com a Haley, ter um bom relacionamento com o pessoal da cidade... o que não amar?$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Emily",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020020"
+            },
+            "Entries": {
+                "Tue6": "A casa da Leah fica num lugar com muita energia positiva.$0#$b#Talvez seja por isso que vejo a Haley mais feliz ultimamente.$0",
+                "Wed8": "No começo eu não tinha certeza, mas agora vejo claramente que as almas da Haley e da Leah foram feitas para ficar juntas.$0",
+                "Fri6": "A Leah deu à Haley uma pintura linda no mês passado.$0#$b#Colocamos ela na sala.$1",
+                "Sat6": "A Haley mudou muito desde que começou a namorar a Leah, ela parece uma pessoa completamente diferente.$0#$b#No bom sentido, claro.$1",
+                "Sun6": "A Leah me mostrou algumas das esculturas dela outro dia.$0#$b#Ela é muito talentosa.$1",
+                "Sun8": "A Leah tem uma energia única, acho que ela faz bem à Haley.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Emily",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020035"
+            },
+            "Entries": {
+                "Tue8": "A casa da Leah fica num lugar com muita energia positiva.$0#$b#Tenho certeza de que seria bom para a Haley se elas morassem juntas.$1",
+                "Fri8": "A Leah nos deu uma pintura linda há algum tempo.$0#$b#A colocamos na sala de estar, mas agora a Haley quer trocar por uma foto do nosso casamento.$0",
+                "Sat8": "A Haley mudou muito, parece uma pessoa totalmente diferente.$0#$e#No começo eu achei que era efeito temporário do amor, mas não era.$0#$b#Fico feliz de ter conseguido dizer o quanto me orgulho da pessoa que ela se tornou."
+            }
+        }
+    ]
+}

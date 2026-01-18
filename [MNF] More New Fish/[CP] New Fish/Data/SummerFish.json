@@ -1,0 +1,221 @@
+{
+  "Changes": [  
+{
+	"Action": "EditData",
+	"LogName": "Fish Object Data",
+	"Target": "Data/Objects",
+	"Entries": {
+		"MNF.MoreNewFish_ornate_angelfish": {
+		"Name": "MNF.MoreNewFish_ornate_angelfish",
+			"DisplayName": "{{i18n:ornate_angelfish.name}}",
+			"Description": "{{i18n:ornate_angelfish.description}}",
+			"Type": "Fish",
+			"Category": -4,
+			"Price": 185,
+			"Texture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"SpriteIndex": "123",
+			"Edibility": 8,
+			"ContextTags": ["color_blue","fish_tropical",],
+			},
+		"MNF.MoreNewFish_blue_tang": {
+		"Name": "MNF.MoreNewFish_blue_tang",
+			"DisplayName": "{{i18n:blue_tang.name}}",
+			"Description": "{{i18n:blue_tang.description}}",
+			"Type": "Fish",
+			"Category": -4,
+			"Price": 180,
+			"Texture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"SpriteIndex": "121",
+			"Edibility": 8,
+			"ContextTags": ["color_blue","fish_tropical",],
+			},
+		"MNF.MoreNewFish_dwarf_stingray": {
+		"Name": "MNF.MoreNewFish_dwarf_stingray",
+			"DisplayName": "{{i18n:dwarf_stingray.name}}",
+			"Description": "{{i18n:dwarf_stingray.description}}",
+			"Type": "Fish",
+			"Category": -4,
+			"Price": 360,
+			"Texture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"SpriteIndex": "128",
+			"Edibility": 12,
+			"ContextTags": ["color_dark_brown","fish_dwarfstingray",],
+			},
+		"MNF.MoreNewFish_dwarf_stingray_pup": {
+		"Name": "MNF.MoreNewFish_dwarf_stingray_pup",
+			"DisplayName": "{{i18n:dwarf_stingray_pup.name}}",
+			"Description": "{{i18n:dwarf_stingray_pup.description}}",
+			"Type": "Basic",
+			"Category": -4,
+			"Price": 50,
+			"Texture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"SpriteIndex": "139",
+			"Edibility": -300,
+			"ContextTags": ["color_dark_brown","fish_pond_ignore","fish_legendary"],
+			},
+		"MNF.MoreNewFish_threespot_angelfish": {
+		"Name": "MNF.MoreNewFish_threespot_angelfish",
+			"DisplayName": "{{i18n:threespot_angelfish.name}}",
+			"Description": "{{i18n:threespot_angelfish.description}}",
+			"Type": "Fish",
+			"Category": -4,
+			"Price": 185,
+			"Texture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"SpriteIndex": "126",
+			"Edibility": 8,
+			"ContextTags": ["color_yellow","fish_tropical",],
+			},
+		"MNF.MoreNewFish_orange_clownfish": {
+		"Name": "MNF.MoreNewFish_orange_clownfish",
+			"DisplayName": "{{i18n:orange_clownfish.name}}",
+			"Description": "{{i18n:orange_clownfish.description}}",        
+			"Type": "Fish",
+			"Category": -4,
+			"Price": 160,
+			"Texture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"SpriteIndex": "112",
+			"Edibility": 3,
+			"ContextTags": ["color_orange","item_clownfish",],
+			}
+		"MNF.MoreNewFish_yellowtail_clownfish": {
+		"Name": "MNF.MoreNewFish_yellowtail_clownfish",
+			"DisplayName": "{{i18n:yellowtail_clownfish.name}}",
+			"Description": "{{i18n:yellowtail_clownfish.description}}",
+			"Type": "Fish",
+			"Category": -4,
+			"Price": 165,
+			"Texture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"SpriteIndex": "119",
+			"Edibility": 4,
+			"ContextTags": ["color_yellow","item_clownfish",],
+			},
+		"MNF.MoreNewFish_squirrelfish": {
+		"Name": "MNF.MoreNewFish_squirrelfish",
+			"DisplayName": "{{i18n:squirrelfish.name}}",
+			"Description": "{{i18n:squirrelfish.description}}",
+			"Type": "Fish",
+			"Category": -4,
+			"Price": 180,
+			"Texture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"SpriteIndex": "130",
+			"Edibility": 10,
+			"ContextTags": ["color_yellow","fish_ocean",],
+			},	
+			},
+},
+		{
+		  "Action": "EditData",
+		  "LogName": "Tropical Fish Location Data - ES or Mermaid Island",
+          "Target": "Data/Fish",
+          "Entries": {
+			  "MNF.MoreNewFish_blue_tang": "Blue Tang/45/mixed/3/9/0600 2600/summer/both/682 .2/1/.4/.2/0",
+			  "MNF.MoreNewFish_ornate_angelfish": "Ornate Angelfish/30/mixed/3/7/0600 2600/summer/both/682 .2/1/.4/.2/0",
+			  "MNF.MoreNewFish_threespot_angelfish": "Threespot Angelfish/50/mixed/5/11/0600 2600/summer/both/682 .2/1/.4/.2/0",
+			  "MNF.MoreNewFish_dwarf_stingray": "Dwarf Stingray/65/sinker/12/20/0900 1700/spring summer fall/both/682 .2/3/.2/.15/0",
+			  "MNF.MoreNewFish_orange_clownfish": "Orange Clownfish/25/smooth/3/6/0600 1800/summer/sunny/682 .2/1/.4/.2/0",
+			  "MNF.MoreNewFish_yellowtail_clownfish": "Yellowtail Clownfish/30/smooth/3/5/0600 1800/summer/sunny/682 .2/1/.4/.2/0",
+			  "MNF.MoreNewFish_squirrelfish": "Squirrelfish/50/dart/4/8/1600 2600/summer/both/682 .2/2/.4/.2/0",
+			  },
+		},
+		{
+		  "Action": "EditData",
+		  "LogName": "Tropical Fish Location Data Easy Fishing",
+          "Target": "Data/Fish",
+		  "When": {"EasyFishing":"true"},
+          "Fields": {
+			  "MNF.MoreNewFish_blue_tang": {1:"30"},
+			  "MNF.MoreNewFish_ornate_angelfish": {1:"30"},
+			  "MNF.MoreNewFish_threespot_angelfish": {1:"30"},
+			  "MNF.MoreNewFish_dwarf_stingray": {1:"30"},
+			  "MNF.MoreNewFish_orange_clownfish": {1:"30"},
+			  "MNF.MoreNewFish_yellowtail_clownfish": {1:"30"},
+			  "MNF.MoreNewFish_squirrelfish": {1:"25"},
+			  },
+		},
+		{
+		"Action": "EditData",
+		"Target": "Data/AquariumFish",
+		"Entries": {
+				"MNF.MoreNewFish_blue_tang": "155/fish/////LooseSprites\\MNFAquariumData",
+				"MNF.MoreNewFish_ornate_angelfish": "158/fish/////LooseSprites\\MNFAquariumData",
+				"MNF.MoreNewFish_threespot_angelfish": "229/fish/////LooseSprites\\MNFAquariumData",
+				"MNFMoreNewFish_dwarf_stingray.": "174/fish/174/174 174 174 175 175 176/177/178/LooseSprites\\MNFAquariumData",
+				"MNF.MoreNewFish_orange_clownfish": "147/fish/////LooseSprites\\MNFAquariumData",
+				"MNF.MoreNewFish_yellowtail_clownfish": "154/fish/////LooseSprites\\MNFAquariumData",
+				"MNF.MoreNewFish_squirrelfish": "160/fish/////LooseSprites\\MNFAquariumData",
+				"MNF.MoreNewFish_dwarf_stingray_pup": "190/fish/190/190 190 190 191 191 192/192/192/LooseSprites\\MNFAquariumData",
+				}		
+          },
+		   {
+			   "Action": "EditData",
+			   "LogName": "Fishpond",
+			   "Target": "Data/FishPondData",
+			   "Entries": { 		  
+			   "fish_dwarfstingray": {
+					"Id": "fish_dwarfstingray",
+					"RequiredTags": [
+						"fish_dwarfstingray"
+						],
+					"SpawnTime": -1,
+				   "ProducedItems": [
+				   {
+					   "RequiredPopulation": 10,
+					   "Chance": 0.02,
+					   "ItemID": "(O)122", //Dwarf Gadget
+					   "MinQuantity": 1,
+					   "MaxQuantity": 1
+					   },
+					   {
+						"RequiredPopulation": 8,
+						"Chance": 0.02,
+						"ItemID": "(O)121", //Dwarvish Helmet
+						"MinQuantity": 1,
+						"MaxQuantity": 1
+						},
+						{
+					   "RequiredPopulation": 8,
+					   "Chance": 0.02,
+					   "ItemID": "(O)112", //Rusty Cog
+					   "MinQuantity": 1,
+					   "MaxQuantity": 1
+					   },
+					   {
+					   "RequiredPopulation": 6,
+					   "Chance": 0.10,
+					   "ItemID": "(O)MNF.MoreNewFish_dwarf_stingray_pup", //Dwarf Stingray Pup
+					   "MinQuantity": 4,
+					   "MaxQuantity": 4
+					   },
+					   {
+					   "RequiredPopulation": 4,
+					   "Chance": 0.10,
+					   "ItemID": "(O)MNF.MoreNewFish_dwarf_stingray_pup", //Dwarf Stingray Pup
+					   "MinQuantity": 2,
+					   "MaxQuantity": 2
+					   },
+					   {
+					   "RequiredPopulation": 1,
+					   "Chance": 0.10,
+					   "ItemID": "(O)MNF.MoreNewFish_dwarf_stingray_pup", //Dwarf Stingray Pup
+					   "MinQuantity": 1,
+					   "MaxQuantity": 1
+					   },
+					   ],	
+					   "PopulationGates": {	   
+					   "5": [
+					   "(O)393 10", //Coral
+					   ],
+					   },
+					   },
+					   },
+		   },
+	{
+			"Action": "EditData",
+			"LogName": "Fishpond Entries Handler",
+			"Target": "Data/FishPondData",
+			"MoveEntries": [
+				{ "ID": "fish_dwarfstingray", "ToPosition": "Top"},
+			],
+		},
+	],
+}

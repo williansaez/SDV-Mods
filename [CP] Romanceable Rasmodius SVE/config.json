@@ -1,0 +1,15 @@
+{
+  "Portrait Mode": "12",
+  "Override Generic Dialogue": "true",
+  "Dialogue": "integrated",
+  "Marriage Dialogue": "integrated",
+  "Ex-Wife mentions": "enabled",
+  "Event": "integrated",
+  "Mature Events": "enabled",
+  "Wizard Babies": "false",
+  "Wizard Age Appearance": "old",
+  "Farmer Gender": "gender neutral",
+  "Sprite": "vanilla",
+  "Is a sleeping sprite available": "false",
+  "Is a pink hair sprite available": "false"
+}

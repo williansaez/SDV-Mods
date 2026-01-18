@@ -1,0 +1,257 @@
+{
+	"Changes": [
+	//Trigger Actions
+
+	//Set initial wallpaper and floorpaper (Thank you, mushymato!)
+	{
+		"Action": "EditData",
+		"Target": "Data/TriggerActions",
+		"Entries": {
+			"glymr.BrokenFarmhouse.SetFloorWalls": {
+			"Id":"glymr.BrokenFarmhouse.SetFloorWalls",
+			"Condition": "PLAYER_FARMHOUSE_UPGRADE Current 0 0",
+			"Trigger": "DayStarted",
+			"Actions": [
+			"mushymato.MMAP_SetFlooring 0",
+			"mushymato.MMAP_SetWallpaper 0",
+			],
+			"MarkActionApplied": true,
+			},
+		},
+	},
+
+	//Mail from Robin received after final upgrade complete
+	{
+	"Action": "EditData",
+	"Target": "Data/Mail",
+	"Entries": { "glymr.BrokenFarmhouse_UpgradeMail_03": "{{i18n:glymr.BrokenFarmhouse.UpgradeMail03}}", 
+			},
+	},
+	//Trigger to send Robin's upgrade mail
+	{
+	"Action":  "EditData",
+	"Target": "Data/TriggerActions",
+	"When": {
+		"HasFlag |contains=FirstPurchase_Corner": true,
+		"HasFlag |contains=FirstPurchase_Southern": true,
+		"HasFlag |contains=FirstPurchase_Attic": true,
+		"DLX.Bundles/Purchased": "glymr.BrokenFarmhouse.FixUp25",
+		"FarmhouseUpgrade": "3",
+		},
+	"Entries": {
+		"glymr.BrokenFarmhouse.Upgrade03Mail": {
+		"Id": "glymr.BrokenFarmhouse.Upgrade03Mail",
+		"Trigger": "DayStarted",
+		"Actions": [
+			"AddMail Current glymr.BrokenFarmhouse_UpgradeMail_03",
+				],
+        "MarkActionApplied": true,
+			},
+		},
+	},
+	
+	//Testing to see if removing custom upgrades after first house upgrade affects multiplayer
+	{
+	"Action":  "EditData",
+	"Target": "Data/TriggerActions",
+	"When": {
+		"FarmhouseUpgrade": "1",
+		},
+	"Entries": {
+		"glymr.BrokenFarmhouse.RemoveUpgradeMails01": {
+		"Id": "glymr.BrokenFarmhouse.RemoveUpgradeMails01",
+		"Trigger": "DayStarted",
+		"Actions": [
+			"RemoveMail Current glymr.BrokenFarmhouse_LivingRoom_Full_Mail all",
+			"RemoveMail Current glymr.BrokenFarmhouse_Bedroom_Full_Mail all",
+			"RemoveMail Current glymr.BrokenFarmhouse_Kitchen_Half_Mail all",
+			"RemoveMail Current glymr.BrokenFarmhouse_Stairs1_Mail all",
+			"RemoveMail Current glymr.BrokenFarmhouse_Stairs2_Mail all",
+				],
+        "MarkActionApplied": true,
+			},
+		},
+	},	
+	//Testing to see if removing custom upgrades after second house upgrade affects multiplayer
+	{
+	"Action":  "EditData",
+	"Target": "Data/TriggerActions",
+	"When": {
+		"FarmhouseUpgrade": "2",
+		},
+	"Entries": {
+		"glymr.BrokenFarmhouse.RemoveUpgradeMails02": {
+		"Id": "glymr.BrokenFarmhouse.RemoveUpgradeMails02",
+		"Trigger": "DayStarted",
+		"Actions": [
+			"RemoveMail Current glymr.BrokenFarmhouse_UpperRoom_Full_Mail all",
+			"RemoveMail Current glymr.BrokenFarmhouse_Nursery_Quarter_Mail all",
+				],
+        "MarkActionApplied": true,
+			},
+		},
+	},
+	//Testing to see if removing custom upgrades after third house upgrade affects multiplayer
+	{
+	"Action":  "EditData",
+	"Target": "Data/TriggerActions",
+	"When": {
+		"FarmhouseUpgrade": "3",
+		},
+	"Entries": {
+		"glymr.BrokenFarmhouse.RemoveUpgradeMails03": {
+		"Id": "glymr.BrokenFarmhouse.RemoveUpgradeMails03",
+		"Trigger": "DayStarted",
+		"Actions": [
+			"RemoveMail Current glymr.BrokenFarmhouse_Cellar_Stairs2_Mail all",
+				],
+        "MarkActionApplied": true,
+			},
+		},
+	},
+
+	//Slightly increase friendship with helpers
+	{
+	"Action":  "EditData",
+	"Target": "Data/TriggerActions",
+	"Entries": {
+		"glymr.BrokenFarmhouse.Friendship01": {
+		"Id": "glymr.BrokenFarmhouse.Friendship01",
+		"Trigger": "DayStarted",
+		"Condition": "{{DLX.Bundles/Purchased |contains=glymr.BrokenFarmhouse.FixUp01}}",
+		"Actions": [
+			"AddFriendshipPoints Abigail 25",
+			"AddFriendshipPoints Alex 25",
+			"AddFriendshipPoints Sebastian 25",
+				],
+		"MarkActionApplied": true,
+			},
+		},
+	},
+	{
+	"Action":  "EditData",
+	"Target": "Data/TriggerActions",
+	"Entries": {
+		"glymr.BrokenFarmhouse.Friendship03": {
+		"Id": "glymr.BrokenFarmhouse.Friendship03",
+		"Trigger": "DayStarted",
+		"Condition": "{{DLX.Bundles/Purchased |contains=glymr.BrokenFarmhouse.FixUp03}}",
+		"Actions": [
+			"AddFriendshipPoints Emily 25",
+				],
+		"MarkActionApplied": true,
+			},
+		},
+	},
+	{
+	"Action":  "EditData",
+	"Target": "Data/TriggerActions",
+	"Entries": {
+		"glymr.BrokenFarmhouse.Friendship05": {
+		"Id": "glymr.BrokenFarmhouse.Friendship05",
+		"Trigger": "DayStarted",
+		"Condition": "{{DLX.Bundles/Purchased |contains=glymr.BrokenFarmhouse.FixUp05}}",
+		"Actions": [
+			"AddFriendshipPoints Clint 25",
+				],
+		"MarkActionApplied": true,
+			},
+		},
+	},
+	{
+	"Action":  "EditData",
+	"Target": "Data/TriggerActions",
+	"Entries": {
+		"glymr.BrokenFarmhouse.Friendship11": {
+		"Id": "glymr.BrokenFarmhouse.Friendship11",
+		"Trigger": "DayStarted",
+		"Condition": "{{DLX.Bundles/Purchased |contains=glymr.BrokenFarmhouse.FixUp11}}",
+		"Actions": [
+			"AddFriendshipPoints Shane 25",
+			"AddFriendshipPoints Sam 25",
+				],
+		"MarkActionApplied": true,
+			},
+		},
+	},
+	{
+	"Action":  "EditData",
+	"Target": "Data/TriggerActions",
+	"Entries": {
+		"glymr.BrokenFarmhouse.Friendship13": {
+		"Id": "glymr.BrokenFarmhouse.Friendship13",
+		"Trigger": "DayStarted",
+		"Condition": "{{DLX.Bundles/Purchased |contains=glymr.BrokenFarmhouse.FixUp13}}",
+		"Actions": [
+			"AddFriendshipPoints Jodi 25",
+			"AddFriendshipPoints Marnie 25",
+			"AddFriendshipPoints Evelyn 25",
+				],
+		"MarkActionApplied": true,
+			},
+		},
+	},
+	{
+	"Action":  "EditData",
+	"Target": "Data/TriggerActions",
+	"Entries": {
+		"glymr.BrokenFarmhouse.Friendship16": {
+		"Id": "glymr.BrokenFarmhouse.Friendship16",
+		"Trigger": "DayStarted",
+		"Condition": "{{DLX.Bundles/Purchased |contains=glymr.BrokenFarmhouse.FixUp16}}",
+		"Actions": [
+			"AddFriendshipPoints Gus 25",
+			"AddFriendshipPoints Lewis 25",
+				],
+		"MarkActionApplied": true,
+			},
+		},
+	},
+	{
+	"Action":  "EditData",
+	"Target": "Data/TriggerActions",
+	"Entries": {
+		"glymr.BrokenFarmhouse.Friendship19": {
+		"Id": "glymr.BrokenFarmhouse.Friendship19",
+		"Trigger": "DayStarted",
+		"Condition": "{{DLX.Bundles/Purchased |contains=glymr.BrokenFarmhouse.FixUp19}}",
+		"Actions": [
+			"AddFriendshipPoints Willy 25",
+				],
+		"MarkActionApplied": true,
+			},
+		},
+	},
+	{
+	"Action":  "EditData",
+	"Target": "Data/TriggerActions",
+	"Entries": {
+		"glymr.BrokenFarmhouse.Friendship22": {
+		"Id": "glymr.BrokenFarmhouse.Friendship22",
+		"Trigger": "DayStarted",
+		"Condition": "{{DLX.Bundles/Purchased |contains=glymr.BrokenFarmhouse.FixUp22}}",
+		"Actions": [
+			"AddFriendshipPoints Penny 25",
+			"AddFriendshipPoints Haley 25",
+				],
+		"MarkActionApplied": true,
+			},
+		},
+	},
+		{
+	"Action":  "EditData",
+	"Target": "Data/TriggerActions",
+	"Entries": {
+		"glymr.BrokenFarmhouse.Friendship25": {
+		"Id": "glymr.BrokenFarmhouse.Friendship25",
+		"Trigger": "DayStarted",
+		"Condition": "{{DLX.Bundles/Purchased |contains=glymr.BrokenFarmhouse.FixUp25}}",
+		"Actions": [
+			"AddFriendshipPoints Maru 25",
+				],
+		"MarkActionApplied": true,
+			},
+		},
+	},
+	],
+}

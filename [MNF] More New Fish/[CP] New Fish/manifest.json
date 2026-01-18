@@ -1,0 +1,26 @@
+{
+  "Name": "More Fish",
+  "Author": "HisameArtWork&TrentXV",
+  "Version": "5.3.2",
+  "Description": "Adds new fish to the game",
+  "UniqueID": "MoreFish",
+  "MinimumApiVersion": "3.8",
+  "UpdateKeys": [ "Nexus:3578" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+  {
+	   "UniqueID": "DIGUS.MailFrameworkMod",
+	   "IsRequired": true,
+   },
+   {
+	  "UniqueID": "DIGUS.ProducerFrameworkMod",
+	   "IsRequired": true,
+   },
+   {
+      "UniqueID": "FlashShifter.StardewValleyExpandedALL",
+      "IsRequired": false,
+   },
+   ],
+}

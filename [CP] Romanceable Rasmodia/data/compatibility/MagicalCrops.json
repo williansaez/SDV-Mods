@@ -1,0 +1,77 @@
+{
+	"Changes": [
+
+        // Events
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/WizardHouse",
+            "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false },
+            "Entries": {
+                "87620002/n AncientSeedsLetter/i 454": "WizardSong/6 19/farmer 7 21 3 Wizard 6 16 0/ignoreCollisions farmer/move farmer -1 0 0/pause 50/move farmer 0 -3 0/faceDirection Wizard 2/speak Wizard \"{{i18n: 87620002.1}}\"/emote farmer 56/move farmer 0 -1 0/pause 400/removeItem 454/move farmer 0 1 0/speak Wizard \"{{i18n: 87620002.2}}\"/showFrame Wizard 16/pause 500/playSound wand/warp Wizard -3000 -3000/specificTemporarySprite wizardWarp/pause 2000/faceDirection farmer 3/faceDirection farmer 1/faceDirection farmer 2/pause 2000/faceDirection Wizard 0 true/faceDirection farmer 1 true/pause 50/faceDirection farmer 0/pause 400/fade/message \"{{i18n: 87620002.3 {{CropsNameToken}} }}\"/warp farmer 8 21/pause 600/fade unfade/playSound doorClose/warp Wizard 9 33/move Wizard 0 -5 3/faceDirection farmer 2 true/pause 50/move Wizard -1 0 0/pause 50/move Wizard 0 -5 0/speak Wizard \"{{i18n: 87620002.4}}\" /speak Wizard \"{{i18n: 87620002.5}}\"/move Wizard 0 -1 0/pause 400/addItem (O)Blink_Seeds 3/move Wizard 0 1 0/speak Wizard \"{{i18n: 87620002.6}}\"/pause 200/RemoveQuest 8762002/AddQuest 8762004/end warpOut"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/WizardHouse",
+            "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true },
+            "Entries": {
+                "87620002/n AncientSeedsLetter/i 454": "playful/6 19/farmer 7 21 3 Wizard 6 16 0/ignoreCollisions farmer/ignoreCollisions Wizard/move farmer -1 0 0/pause 50/move farmer 0 -3 0/faceDirection Wizard 2/speak Wizard \"{{i18n: 87620002.1}}\"/emote farmer 56/move farmer 0 -1 0/pause 400/removeItem 454/move farmer 0 1 0/speak Wizard \"{{i18n: 87620002.2}}\"/showFrame Wizard 16/pause 500/playSound wand/warp Wizard -3000 -3000/specificTemporarySprite wizardWarp/pause 2000/faceDirection farmer 3/faceDirection farmer 1/faceDirection farmer 2/pause 2000/faceDirection Wizard 0 true/faceDirection farmer 1 true/pause 50/faceDirection farmer 0/pause 400/fade/message \"{{i18n: 87620002.3 {{CropsNameToken}} }}\"/warp farmer 8 21/pause 600/fade unfade/playSound doorClose/warp Wizard 9 33/move Wizard 0 -5 3/faceDirection farmer 2 true/pause 50/move Wizard -1 0 0/pause 50/move Wizard 0 -5 0/speak Wizard \"{{i18n: 87620002.4}}\" /speak Wizard \"{{i18n: 87620002.5}}\"/move Wizard 0 -1 0/pause 400/addItem (O)Blink_Seeds 3/move Wizard 0 1 0/speak Wizard \"{{i18n: 87620002.6}}\"/pause 200/RemoveQuest 8762002/AddQuest 8762004/end warpOut"
+            }
+        },
+
+        // Quests
+        {
+            "Action": "EditData",
+            "Target": "Data/Quests",
+            "Entries": {
+                "8762001": "ItemDelivery/{{i18n: q_8762001_title}}/{{i18n: q_8762001_description {{CropsNameToken}} }}/{{i18n: q_8762001_objective {{CropsNameToken}} }}/Wizard (O)King_Parsnip/-1/500/-1/false/{{i18n: q_8762001_response}}",
+                "8762002": "Basic/{{i18n: q_8762002_title}}/{{i18n: q_8762002_description {{CropsNameToken}} }}/{{i18n: q_8762002_objective {{CropsNameToken}} }}/Wizard 20000/-1/500/-1/false",
+                "8762004": "Basic/{{i18n: q_8762004_title}}/{{i18n: q_8762004_description {{CropsNameToken}} }}/{{i18n: q_8762004_objective {{CropsNameToken}} }}/-1/-1/-1/-1/false",
+                "8762005": "Location/{{i18n: q_8762004_title}}/{{i18n: q_8762004_description {{CropsNameToken}} }}/{{i18n: q_8762004_objective {{CropsNameToken}} }}/WizardHouse/-1/3000/-1/false",
+                "8762007": "ItemDelivery/{{i18n: q_8762007_title}}/{{i18n: q_8762007_description {{CropsNameToken}} }}/{{i18n: q_8762007_objective {{CropsNameToken}} }}/Wizard (O)Balanced_Fruit/-1/500/-1/false/{{i18n: q_8762007_response}}",
+                "8762010": "ItemDelivery/{{i18n: q_8762010_title}}/{{i18n: q_8762010_description {{CropsNameToken}} }}/{{i18n: q_8762010_objective {{CropsNameToken}} }}/Wizard (O)Invisible_Fruit/-1/250/-1/false/$1 InvisibleSeedsGiven#{{i18n: q_8762010_response}} #$e# {{i18n: q_8762010_response}}",
+                "8762011": "ItemDelivery/{{i18n: q_8762011_title}}/{{i18n: q_8762011_description {{CropsNameToken}} }}/{{i18n: q_8762011_objective {{CropsNameToken}} }}/Wizard (O)Invisible_Fruit/-1/300/-1/false/{{i18n: q_8762011_response}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Quests",
+            "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false },
+            "Entries": {
+                "8762008": "ItemDelivery/{{i18n: q_8762008_title}}/{{i18n: q_8762008_description {{CropsNameToken}} }}/{{i18n: q_8762008_objective {{CropsNameToken}} }}/Wizard (O)Cake_Poop/-1/1500/-1/false/{{i18n: q_8762008_response}}"
+            }
+        },
+
+        // Mail
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			"Entries": {
+				"KingParsnipLetter": "{{i18n:KingParsnipBody}}[letterbg 2][textcolor cyan][#]{{i18n:KingParsnipTitle}}",
+				"AncientSeedsLetter": "{{i18n:AncientSeedsBody}} %item quest 8762002 false %%[letterbg 2][textcolor cyan][#]{{i18n:AncientSeedsTitle}}",
+				"SlimePlantLetter": "{{i18n:SlimePlantBody}}%item id (O)Slimy_Seeds 5 %%[#]{{i18n:SlimePlantTitle}}",
+				"SunSetPlantLetter": "{{i18n:SunsetPlantBody}}%item id (O)Sunset_Seeds 5 %%[letterbg 2][textcolor cyan][#]{{i18n:SunSetPlantTitle}}",
+				"BalancedPlantLetter": "{{i18n:BalancedPlantBody}}%item quest 8762007 false %% %item id (O)Balanced_Seeds 5 %%[letterbg 2][textcolor cyan][#]{{i18n:BalancedPlantTitle}}",
+				"CakePlantLetter": "{{i18n:CakePlantBody}}[#]{{i18n:CakePlantTitle}}",
+				"InvisiblePlant1Letter": "{{i18n:InvisiblePlant1Body}}%item quest 8762010 false %% %item id (O)Invisible_Seeds 5 %%[letterbg 2][textcolor cyan][#]{{i18n:InvisiblePlant1Title}}",
+				"InvisiblePlant2Letter": "{{i18n:InvisiblePlant2Body}}%item quest 8762011 true %%[letterbg 2][textcolor cyan][#]{{i18n:InvisiblePlant2Title}}",
+				"AQFFinished": "{{i18n:AQFFinishedBody}}%item id (O)74 1 %%[letterbg 2][textcolor cyan][#]{{i18n:AQFFinishedTitle}}",
+				"EvelynCakeHelp": "{{i18n:EvelynCakeHelpBody}}%item id (BC)Pink_Cake_Decoration 5 %%[#]{{i18n:EvelynCakeHelpTitle}}"
+			}
+		},
+
+        // Shop
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+            "TargetField": [ "shekurika.MagicalCrops.CP_WizardSeedShop", "Owners", "AnyOrNone", "Dialogues" ],
+			"Entries": {
+                "openingQuote": {
+                    "Id": "openingQuote",
+                    "Portrait": "",
+                    "Dialogue": "{{i18n:shop.openingQuote {{CropsNameToken}} }}"
+                }
+			}
+		}
+	]
+}

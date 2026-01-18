@@ -1,0 +1,437 @@
+{
+    /***** Suggestions *****/
+    
+    // Crops
+    "seasonalCrop": "Cultivez des graines venant de {{seedShop}} en {{season}}{{startingYear}}{{qualityCrop}}",
+    "growSeeds": "Faire pousser {{seeds}}{{qualityCrop}}",
+    "startingYear": "(année de début {{num}})", // included if seeds only become available starting a certain year
+    "qualityCrop": "(avec engrais)", // included if higher quality is required
+    
+    // Foraging
+    "seasonalForage": "Fourrager en {{season}}",
+    "locationalForage": "Fourrage à {{location}}",
+    "seasonalLocationalForage": "Fourrager en {{season}} {{location}}",
+    "bushForage": "Forage from bushes", // TODO
+	"locationalBushForage": "Forage from bushes {{location}}", // TODO
+	"bushForageDayRange": "Fourrager dans les buissons en {{season}} ({{startDay}}-{{endDay}})",
+	"locationalBushForageDayRange": "Forage from bushes {{location}} {{season}} {{startDay}}-{{endDay}}", // TODO
+    
+    // Tilling
+    "generalTilling": "Labourer le sol",
+    "seasonalTilling": "Labourer en {{season}}",
+    "locationalTilling": "Labourer à {{location}}",
+    "artifactDigging": "Déterrez des points d'artefacts (\"vers\")",
+    "locationalArtifact": "Déterrer des points d'artefacts à {{location}}",
+    
+    // Mining
+    "hitRocks": "Frapper des rochers avec {{pickaxe}}",
+    "hitRocksInLocation": "Casser des pierres à {{location}}",
+    
+    // Fishing
+    "fishBase": "Pêcher dans {{water}}, {{extraLinebreak}}{{time}}{{weather}}, {{season}}",
+    // {{extraLinebreak}} is a linebreak inserted for some fish with long location descriptions, {{weather}} is left blank if no particular weather is required
+    "weatherSun": "(temps ensoleillé)", // included if only available in sunny weather
+    "weatherRain": "(pluie uniquement)", // included if only available in rain
+    "fishSubmarine": "Pêcher au sous-marin du marché nocturne (Hiver 15-17)",
+    "fishingChest": "Pêcher des coffres au trésor",
+    "crabPot": "Attraper dans {{crabPot}} ({{waterType}})",
+    
+    // Animal Products
+    "animalProduct": "Produit par {{animal}}{{details}}",
+    "inGoodMood": "(si assez heureux)", // included if a certain level of happiness is required to produce the item
+    "animalOutside": "(si laissé dehors)", // included if animal must be outside to produce it
+    
+    // Machines
+    "putItemInMachine": "Mettre {{rawItem}} dans {{machine}}",
+    "machineItemQuantity": "{{item}} x{{num}}", // used for {{rawItem}} above if more than 1 of item is required
+    "putItemInMachineThenCask": "Mettre {{rawItem}} dans {{machine}}, donne {{resultItem}} dans {{cask}}",
+    "noItemMachine": "Produit par {{machine}}",
+    
+    // Constructions
+    "putItemInMill": "Mettre {{rawItem}} dans le bâtiment du moulin",
+    "fishPond": "Produit par l’étang à poisson avec{{fish}} x{{num}}",
+    "fishPondAny": "Produit par l’étang à poisson avec n'importe quel poisson",
+    
+    // Monsters
+    "droppedByMonster": "Donné par {{monster}}",
+    
+    // Trees
+    "treeDuringSeason": "{{tree}} en {{season}}",
+    "tapTree": "Utiliser {{tapper}} sur {{tree}}",
+    "seedFromTree": "Secouer/couper {{tree}}",
+    "treeMoss": "Chercher sur des arbres moussus au hasard",
+    
+    // Crafting/Cooking
+    "craftRecipeByName": "Fabriquer {{recipe}}",
+    "craftRecipe": "Artisanat",
+    "cookRecipe": "Cuisine",
+	"apothecaryCauldron": "Apothecary's Cauldron", // Alchemistry // TODO
+    
+    // From Geodes
+    "openGeode": "Ouvrir {{geode}} chez le forgeron",
+    "openAnyGeode": "Ouvrez n'importe quelle géode chez le forgeron",
+    
+    // Panning
+    "panning": "Panoramique",
+    
+    // Ore Through Mining
+    "mineCopperOre": "Veine de cuivre (Mines, nombreuses le 31-39)",
+    "mineIronOre": "Veine de fer (Mines 41+, nombreuses sur 71-79)",
+    "mineGoldOre": "Veine d’or (Mines 81+)",
+    "mineIridiumOre": "Veine de pierre mystique (Mines 101+), météorite (événement rare)",
+    "mineRadioactiveOre": "Veine radioactive (mines en état dangereux)",
+    
+    // Gems Through Mining
+    "gemEmerald": "Veine d'émeraude (Mines 81+), veine de gemme",
+    "gemAquamarine": "Veine d'aigue-marine (Mines 41+), veine de gemme",
+    "gemRuby": "Veine de rubis (Mines 81+), veine de gemme",
+    "gemAmethyst": "Veine d'améthyste, veine de gemme",
+    "gemTopaz": "Veine de topaze, nœud de gemme",
+    "gemJade": "Veine de jade (Mines 41+), veine de gemme",
+    "gemDiamond": "Veine de diamant (Mines 51+), veine de gemme",
+    "gemPrismaticShard": "Veine de gemme, pierre mystique (Mines 101+, 25%), veine d’iridium (4%)",
+    "gemCinderShard": "Veine d'éclat de cendre (volcan)",
+    "boneNode": "Veine d'os (site de fouilles de l’île Gingembre)",
+    
+    // Farm Cave
+    "caveYours": "Trouver dans la grotte de la ferme", // once cave type has been chosen, the other type is disregarded and this is used
+    "caveFruitBats": "Trouver dans la grotte de la ferme (chauves-souris frugivores)", // if spoilers are allowed, cave type is specified until player selects type
+    "caveMushrooms": "Trouver dans la grotte de la ferme (champignons)", // if spoilers are allowed, cave type is specified until player selects type
+    
+    // Buying
+    "buyFrom": "Acheter {{shop}}",
+    
+    // General Actions
+    "chopWood": "Coupez les arbres et les branches avec {{axe}}",
+    "chopHardwood": "Hachez les grosses souches avec {{copperAxe}} ou les troncs avec {{steelAxe}}",
+    "chopTrees": "Coupez les arbres avec {{axe}}",
+    "smashCrates": "Détruire des caisses dans les mines",
+    "clearWeeds": "Détruire les mauvaises herbes",
+    "harvestHay": "Récolter de l'herbe ou {{wheat}}",
+    "trash": "Déchets de pêche, casiers à crabes ou poubelles",
+    "trashCan": "Déchets des poubelles",
+    "prizeTicket": "Récompense des quêtes et des commandes spéciales",
+    
+    // Miscellaneous Sources
+    "luckyShorts": "La chambre de Marnie (dans la quête Le short du maire pendant été 3)",
+    "goldenPumpkin": "Labyrinthe de la Fête des Esprits (automne 27)",
+    "mermaidPearl": "au marché nocturne (hiver 15-17), bateau sirène{{hint}}",
+    "mermaidHint": " (1-5-4-2-3)", // included as hint for how to get the mermaid's pearl, if spoilers are allowed or secret note read
+    "winCraneGame": "Gagnez au jeu de grue de cinéma",
+    "voidEggEvent": "Événement de sorcière aléatoire",
+    "mysteryBoxesLocked": "Pas encore disponible (doit recevoir l’événement de fin de journée dans lequel ils apparaissent)",
+    "foxbloom": "Apparaît dans la forêt de la Crête un dimanche aléatoire chaque saison\n(Le temps doit être ensoleillé et la relique du masque de renard équipée)", // RSV
+    
+    // Concealed Source (for when entire suggestion is a spoiler)
+    "unknownSource": "???",
+    
+    /***** Short Hints *****/
+    
+    "shortHintSeasonalCrop": "culture de {{season}}",
+    "shortHintSeasonalCropStartingYear": "culture de {{season}} à partir de l’année {{year}}",
+    "shortHintSeasonalSeed": "Graine de {{season}}",
+    "shortHintMachine": "{{item}} dans {{machine}}",
+    "shortHintTrash": "poubelle",
+    "shortHintFishPond": "Étang à poissons",
+    "shortHintFiber": "mauvaises herbes",
+    "shortHintHay": "herbe/{{wheat}}",
+    
+    /***** Partial Strings *****/
+    
+    // General Formatting
+    "parenthesized": " ({{text}})", // general form for appending descriptive text after a thing
+    "multipleThingSeparator": "/", // general separator for lists of multiple seasons, locations, etc.
+	
+	// Sub-Item Hints (for added suggestions on how to get a different item that is required to get the main item)
+	"subItemHints": "({{subItemName}}:\n{{sourceList}})", // starts on its own line, \n is linebreak, sourceList will use multiple lines for multiple hints
+	"subItemSourceListEntry": "- {{hintLine}}", // form for each line of sub-hints
+    
+    // Season Names
+    "spring": "Printemps",
+    "summer": "Été",
+    "fall": "Automne",
+    "winter": "Hiver",
+    "allSeasons": "toutes les saisons",
+    
+    // Location Names (for foraging suggestions)
+    "locationFarm": "à la ferme",
+    "locationTown": "dans Pélican Ville",
+    "locationMines": "dans les mines",
+    "locationMinesArea1": "dans les mines 1-39",
+    "locationMinesArea2": "dans les mines 41-79",
+    "locationMinesArea3": "dans les mines 81-119",
+    "locationMines21Plus": "dans Mines 21+",
+    "locationMountains": "dans les montagnes",
+    "locationBeach": "sur la plage",
+    "locationBeachEast": "sur la plage (côté droit)",
+    "locationBeachEastInaccessible": "sur la plage (côté droit ; 300{{wood}} pour réparer le pont)", // tip displayed if bridge is not fixed
+    "locationForest": "dans la forêt de Sève-cendre",
+    "locationBus": "à l'arrêt de bus",
+    "locationWoods": "dans les bois secrets",
+    "locationSewer": "dans les égouts",
+    "locationDesert": "dans le désert de Calico",
+    "locationSkullPrehistoric": "dans les cavernes préhistoriques de la Grotte du Crâne",
+    "locationIsland": "sur l'île Gingembre",
+    "locationVolcano": "dans le volcan",
+	"locationAdventurerSummit": "in Adventurer Summit", // SVE // TODO
+	"locationForestWest": "in Cindersap Forest (West)", // SVE // TODO
+    "locationRidgeForest": "dans la forêt de la Crête", // RSV
+	"locationMagesRest": "in Mage's Rest", // Alchemistry // TODO
+    "locationUnknown": "dans ???",
+    
+    // Water Locations (for fishing suggestions)
+    "waterRivers": "dans les rivières", // Town river or Cindersap Forest river
+    "waterOcean": "dans l'océan",
+    "waterTown": "dans la rivière de la ville",
+    "waterMountain": "dans le lac de montagne",
+    "waterForestPond": "dans l'étang de la forêt Sève-Cendreuse",
+    "waterForestRiver": "dans la rivière de la forêt Sève-Cendreuse",
+    "waterForestFalls": "au pied des cascades de la forêt Sève-Cendreuse",
+    "waterSpecialFarm": "à la ferme",
+    "waterWoods": "dans l'étang des Bois secrets",
+    "waterDesert": "dans l’étang du désert",
+    "waterSewer": "dans les égouts",
+    "waterBugLand": "dans l’antre des insectes",
+    "waterMines": "sur le sol des mines 20/60/100",
+    "waterMines20": "à l'étage 20 des mines",
+    "waterMines60": "à l'étage 60 des mines",
+    "waterMines100": "à l'étage 100 des mines",
+    "waterSwamp": "dans le marais de la sorcière",
+    "waterIsland": "sur l'île Gingembre",
+    "waterIslandRiver": "dans la rivière sur l'île Gingembre",
+    "waterIslandOcean": "dans l'océan sur l'île Gingembre",
+    "waterIslandOceanWest": "dans l'océan sur l'île Gingembre (Ouest)",
+    "waterIslandCove": "à la Crique des Pirates",
+    "waterAnglerSpot": "à l'extrême nord de la rivière de la ville",
+    "waterCrimsonfishSpot": "au niveau de la jetée, côté est de la plage",
+    "waterGlacierfishSpot": "depuis la pointe la plus méridionale de l'île centrale de la forêt Sève-Cendreuse",
+    "waterLegendSpot": "près du tronc englouti dans le lac de montagne",
+    "waterBlueMoonVineyard": "au vignoble Blue Moon", // SVE
+    "waterShearwaterBridge": "au pont de Shearwater", // SVE
+    "waterForestWest": "dans la forêt Sève-Cendreuse (Ouest)", // SVE
+    "waterAdventurerSummit": "au Sommet des Aventuriers", // SVE
+    "waterRidgesideRiver": "dans la rivière de Ridgeside", // RSV
+    "waterRidge": "sur la crête", // RSV
+    "waterRidgeForest": "dans la forêt de la Crête", // RSV
+    "waterRidgeFalls": "au cascades de la Crête", // RSV
+	"waterMagesRest": "in Mage's Rest", // Alchemistry // TODO
+    "waterUnknown": "dans ???",
+    
+    // Water Types (for crab pot suggestions)
+    "waterTypeOcean": "océan",
+    "waterTypeFresh": "eau douce",
+    
+    // Shop Names (for buying suggestions)
+    "shopPierre": "au magasin général de Pierre",
+    "shopPierreSeason": "au magasin général de Pierre en {{season}}{{startingYear}}",
+    "shopJoja": "à JojaMart",
+    "shopMarnie": "au Ranch de Marnie",
+    "shopCarpenter": "à la scierie",
+    "shopBlacksmith": "au forgeron",
+    "shopSaloon": "au saloon",
+    "shopClinic": "à la clinique",
+    "shopFish": "à la poissonnerie",
+    "shopGuild": "à la Guilde des aventuriers",
+    "shopDwarf": "chez le Nain",
+    "shopKrobus": "chez Krobus",
+    "shopKrobusWeekday": "chez Krobus ({{day}})",
+    "shopDesertTrader": "au Marchand du désert",
+    "shopOasis": "à l’Oasis",
+    "shopOasisWeekday": "à l’Oasis ({{day}})",
+    "shopIslandTrader": "au commerçant de l'île",
+    "shopIslandResort": "à la station touristique insulaire",
+    "shopDwarfVolcano": "au Nain du volcan",
+	"shopIceCream": "Ice Cream Stand", // TODO
+    "shopTravelingCartRandom": "au charriot de voyage (aléatoire)",
+    "shopTravelingCartSeason": "au charriot de voyage en {{season}}",
+    "shopEggFestival": "chez Pierre au Festival des Oeufs (Printemps 13)",
+    "shopFlowerDance": "chez Pierre à la Danse des Fleurs (Printemps 24)",
+	"shopLuau": "Pierre at Luau (Summer 11)", // TODO
+    "shopSpiritsEve": "chez Pierre à la Fête des Esprits (automne 27)",
+    "shopSophiaLedger": "chez Sophia", // SVE
+    "shopWestForestBear": "auprès de l’ours de la forêt de l'Ouest", // SVE
+    "shopNightingaleOrchard": "au Verger de rossignol", // RSV
+    "shopHotelPastry": "à la Pâtisserie d’hôtel (RSV)", // RSV
+    "shopPikaRestaurant": "au Restaurant Pika", // RSV
+	"shopMalayaRecipes": "Malaya's Shop", // RSV // TODO
+	"shopSevinae": "chez Sevinae", // Alchemistry
+    "shopUnknown": "???",
+    "randomlyAvailable": "aléatoire", // appended in parentheses after shop name when item is only randomly in stock
+    "mustHaveShipped": "envoyer {{item}}", // appended in parentheses after shop name if you have to have shipped a certain other item
+    "sewerRequirement": "faire don de 60 objets au musée", // appended in parentheses after Krobus's shop name if sewer is not yet accessible
+    
+    // Item Categories (for when any item from a category is allowed as machine input or recipe ingredient)
+    "itemCategoryGem": "n'importe quel joyau",
+    "itemCategoryFish": "n'importe quel poisson",
+    "itemCategoryEgg": "n'importe quel oeuf",
+    "itemCategoryMilk": "n'importe quel lait",
+    "itemCategoryMineral": "n'importe quel minéral",
+    "itemCategoryJunk": "n'importe quel déchet",
+    "itemCategorySeed": "n'importe quelle graine",
+    "itemCategoryVegetable": "n'importe quel légume",
+    "itemCategoryFruit": "n'importe quel fruit",
+    "itemCategoryFlower": "n'importe quelle fleur",
+    "itemCategoryWildSeed": "n'importe quelle graine sauvage", // category -777; not defined as a constant, but used for Tea Sapling recipe
+    "itemCategoryNut": "n'importe quelle noix", // not a category strictly defined by base game, but used to summarize machine input
+    "itemCategoryMushroom": "n'importe quel champignon", // not a category strictly defined by base game, but used to summarize machine input
+	"itemCategoryHerb": "any herb", // Cornucopia // TODO
+	"itemCategoryBodyPart": "any body part", // Alchemistry // TODO
+    
+    // Tree Names (for tree suggestions)
+    "treeApple": "Pommier",
+    "treeApricot": "Abricotier",
+    "treeOrange": "Oranger",
+    "treePeach": "Pêcher",
+    "treePomegranate": "Grenadier",
+    "treeCherry": "Cerisier",
+    "treeMahogany": "Acajou",
+    "treeBanana": "Bananier",
+    "treeMango": "Manguier",
+    "treeLime": "Tilleul", // Cornucopia
+    "treePapaya": "Papayer", // Cornucopia
+    "treeWalnut": "Noyer", // Cornucopia
+    "treePersimmon": "Kaki", // Cornucopia
+    "treeEucalyptus": "Eucalyptus", // Cornucopia
+    "treeGranny": "Pommier à Granny Smith", // PPJA More Trees
+    "treeAvocado": "Avocatier", // Cornucopia
+    "treeCocoaPod": "Arbre à cabosses de cacao", // Cornucopia
+    "treePear": "Poirier", // Cornucopia
+	"treePistachio": "Pistachio Tree", // Cornucopia // TODO
+	"treeFir": "Fir Tree", // SVE // TODO
+	"treeBirch": "Birch Tree", // SVE // TODO
+	"treeNectarine": "Nectarine Tree", // SVE // TODO
+    "treeCherryPluot": "Cerisier de Pluot", // RSV
+    "treeMountainPlumcot": "Arbre Plumcot de montagne", // RSV
+    "treeDesertTangelo": "Arbre Tangelo du désert", // RSV
+    "treeTropiUgliFruit": "Arbre fruitier Tropi Ugli", // RSV
+    "treeParadiseRangpur": "Arbre paradisiaque de Rangpur", // RSV
+    "treeEmberBloomLime": "Tilleul sanguin de braise", // RSV
+    "treeMaple": "Érable",
+    "treeOak": "Chêne",
+    "treePine": "Pin",
+    "treeMystic": "Arbre mystique ({{craftingInfo}})",
+    "treeMushroom": "Arbre champignon (événement rare d'automne)",
+    "treeDescSeedling": "Pousse de {{shop}}{{startingYear}}", // advice for fruit trees
+    "treeDescNonFruit": "déjà sur ferme/cultivé{{treeSeed}}", // advice for Maple/Oak/Pine trees
+    
+    // General Monster Names (most monster names are taken from data, so these are either categories of monster or specific colors/etc.)
+    "monsterGeneralAnyInMines": "la plupart des monstres",
+    "monsterGeneralSlime": "les monstres de type limon/slime",
+    "monsterGeneralBat": "les monstres de type chauve-souris",
+    "monsterGeneralBug": "les monstres de type insecte",
+    "monsterBlueSlime": "limon/slime bleu",
+    "monsterRedSlime": "limon/slime rouge",
+    "monsterPurpleSlime": "limon/slime violet",
+    "monsterBRPCISlime": "limon/slime Bleu/Rouge/Violet/Cuivre/Fer",
+    "monsterHauntedSkull": "Crâne hanté",
+    "monsterRidgeForest": "Monstres de la forêt de la Crête", // RSV
+    "monsterUnknown": "???",
+    
+    // Monster Locations (appended after monster names)
+    "monsterAreaMinesAll": "Mines",
+    "monsterAreaMinesAndSkull": "Mines, Caverne du Crâne",
+    "monsterAreaMinesRange": "Mines {{start}}-{{end}}",
+    "monsterAreaSkull": "Caverne du Crâne",
+    "monsterAreaSkullFloorPlus": "Caverne du Crâne {{start}}+",
+    "monsterAreaSkullPrehistoric": "Étages préhistoriques de Skull Cavern",
+    "monsterAreaSkullMummy": "Étages de momie de Skull Cavern",
+    "monsterAreaVolcano": "Volcan",
+    "monsterAreaUnknown": "???",
+    
+    // Animal Names (for animal product suggestions)
+    "animalCow": "Vaches",
+    "animalChicken": "Poulets",
+    "animalVoidChicken": "Poulets du Vide",
+    "animalGoat": "Chèvres",
+    "animalSheep": "Mouton",
+    "animalRabbit": "Lapins",
+    "animalDuck": "Canards",
+    "animalPig": "Porcs",
+    "animalOstrich": "Autruches",
+    
+    // Animal Building Requirements (advice on how to obtain animals, if not currently available to purchase)
+    "animalReqCoopLv1": "besoin d’un poulailler",
+    "animalReqCoopLv2": "besoin d'un grand poulailler",
+    "animalReqCoopLv3": "besoin d'un poulailler de luxe",
+    "animalReqBarnLv1": "besoin d'une grange",
+    "animalReqBarnLv2": "besoin d’une grande grange",
+    "animalReqBarnLv3": "besoin d'une grange de luxe",
+    
+    // Recipe Help
+    "recipeTipHouseUpgrade": "besoin d'amélioration de la maison", // displayed for cooking recipes if cooking is not yet available
+    "recipeFrom": "recette : {{sources}}",
+    "recipeSourceSeparator": " / ",
+    
+    // Recipe Sources (compiled into list for recipeFrom)
+    "recipeSourceSaloon": "Saloon",
+    "recipeSourceTV": "TV ({{date}})",
+    "recipeSourceTVAlreadyAired": "TV (rediffusion du mercredi, ou {{date}})",
+    "recipeSourceFriendship": "{{hearts}}+ cœurs with {{person}}", // sent in mail or available for purchase when you have enough hearts
+    "recipeSourceHeartEvent": "événement de {{hearts}} cœur de {{person}}", // received from heart event specifically
+    "recipeSourceFirstCopper": "obtenir {{copperOre}}",
+    "recipeSourceAfterGreenhouse": "réparer une serre",
+    "recipeSourceFinalFarmhouse": "amélioration  finale de la ferme",
+    "recipeSourceAncientSeed": "faire un don de {{seedArtifact}} au musée",
+    "recipeSourceRarecrows": "collecter tous les épouvantails rares",
+    
+    // Recipe Ingredient Lists (for learned recipes)
+    "recipeIngredientSingle": "{{ingredient}}", // for ingredient x1
+    "recipeIngredientMultiple": "{{ingredient}} x{{num}}", // for ingredient x2 or more
+    "recipeIngredientSeparator": ", ",
+    
+    // Skill Level Requirements
+    "skillLvRequirement": "{{skill}} niveau {{num}}",
+    "totalSkillLvRequirement": "Total Niv. {{num}}",
+    "skillMastery": "Maîtrise en {{skill}}",
+    "farmingSkill": "Agriculture",
+    "miningSkill": "Exploitation minière",
+    "fishingSkill": "Pêche",
+    "foragingSkill": "Cueillette",
+    "combatSkill": "Combat",
+    
+    // Machine Sources
+    "statueOfPerfectionTip": "Évaluation parfaite de grand-père", // advice for statue if you haven't had evaluation or achieved 4 candles
+    "statueOfPerfectionAvailable": "Le sanctuaire de grand-père", // advice for statue if you've unlocked it, but haven't collected it
+    
+    // Conditional Mail
+    "conditionalMailAll": "courrier après {{time}} lorsque{{friendReq}} & {{skillReq}}",
+    "conditionalMailTimeFriend": "courrier après {{time}} à {{friendReq}}",
+    "conditionalMailTimeSkill": "courrier après {{time}} avec {{skillReq}}",
+    "conditionalMailFriendSkill": "courrier à {{friendReq}} & {{skillReq}}",
+    "conditionalMailSpecialOrder": "courrier après commande spéciale {{orderName}}",
+    "mailConditionFriendship": "{{hearts}} cœeur avec {{person}}",
+    
+    // Times (for fishing)
+    "timeAM": "{{hour}} du matin",
+    "timePM": "{{hour}}de l’après-midi",
+    "time24Hour": "{{hour}}:00",
+    "timeRange": "{{start}}-{{end}}",
+    "anyTime": "à tout moment",
+    
+    // Days of the Week (for daily shop stocks)
+    "monday": "Lundi",
+    "tuesday": "Mardi",
+    "wednesday": "Mercredi",
+    "thursday": "Jeudi",
+    "friday": "Vendredi",
+    "saturday": "Samedi",
+    "sunday": "Dimanche",
+    
+    // Dates (for things that happen on or after specific date/season/year)
+    "specificDate": "{{season}} {{day}} année {{year}}",
+    "generalDate": "{{season}} {{day}}",
+    "yearSeason": "{{season}} année {{year}}",
+    "year": "Année {{year}}",
+    "today": "aujourd'hui", // when Queen of Sauce episode is airing that very day
+    
+    /***** Mod Config Menu Text *****/
+    
+    "optionShowSpoilersName": "Afficher les spoilers",
+    "optionShowSpoilersTooltip": "Si les indices doivent inclure des spoilers sur certaines choses non encore rencontrées.",
+    
+    "optionCollectionsTabName": "Conseils sur l’onglet Collections",
+    "optionCollectionsTabTooltip": "Affichez également des astuces dans l'onglet Collections pour savoir comment obtenir des objets. Pour le paramètre « Tous les éléments », basculez l'affichage avec le bouton clic/Action/Outil. (Il n'est pas garanti que les éléments des mods affichent des indices.)",
+    "collectionsTabOff": "Désactivé",
+    "collectionsTabUnknowns": "Inconnus uniquement",
+    "collectionsTabAll": "Tous les articles",
+}

@@ -1,0 +1,60 @@
+{
+   "Changes": 
+   [
+    {
+        "Action": "EditData",
+        "Target": "Data/Quests",
+        "Entries": {
+            "TigerseyeCure": "Basic/{{i18n: Caroline.TigerseyeCure.title}}/{{i18n: Caroline.TigerseyeCure}}/{{i18n: Caroline.TigerseyeCure.hint}}/-1/-1/0/-1/false"
+        }
+    },
+    {
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+            "WizardCure.BadRoute": {
+                "Id": "WizardCure.Saloon",
+                "Trigger": "DayEnding",
+                "Condition": "PLAYER_HAS_SEEN_EVENT Current SaloonHuH, PLAYER_FRIENDSHIP_POINTS Current Caroline 2500 2500",
+                "Actions": [
+                    "AddMail Current Caroline.AbigailMissing tomorrow",
+                    "AddMail Current Caroline.WizardCure tomorrow",
+                ]
+            },
+            "WizardCure.GoodRoute": {
+                "Id": "WizardCure.Sunroom",
+                "Trigger": "DayEnding",
+                "Condition": "PLAYER_HAS_SEEN_EVENT Current SunKiss, PLAYER_FRIENDSHIP_POINTS Current Caroline 2500 2500",
+                "Actions": [
+                    "AddMail Current Caroline.AbigailMissing tomorrow",
+                    "AddMail Current Caroline.WizardCure tomorrow",
+                ]
+            },
+            "WizardCure.Skipped": {
+                "Id": "WizardCure.BrokenFrame",
+                "Trigger": "DayEnding",
+                "Condition": "PLAYER_HAS_SEEN_EVENT Current BrokenFrame, PLAYER_FRIENDSHIP_POINTS Current Caroline 2500 2500",
+                "Actions": [
+                    "AddMail Current Caroline.AbigailMissing tomorrow",
+                    "AddMail Current Caroline.WizardCure tomorrow",
+                ]
+            }
+        }
+    },
+    // Load Mail
+    {
+        "Action": "EditData",
+        "Target": "Data/Mail",
+        "Entries": {
+            "Caroline.BookRequest": "{{i18n: Caroline.BookRequest}}%item object Book_PriceCatalogue 1 %%[#]{{i18n: Caroline.BookRequest.title}}",
+            "Caroline.WizardStalk": "{{i18n: Caroline.WizardStalk}}[letterbg 2][#]{{i18n: Caroline.WizardStalk.title}}",
+            "Caroline.ComfortLove": "{{i18n: Caroline.ComfortLove}}[#]{{i18n: Caroline.ComfortLove.title}}",
+            "Caroline.PierreBribe": "{{i18n: Caroline.PierreBribe}}%item money 1000 %%[#]{{i18n: Caroline.PierreBribe.title}}",
+            "Caroline.WizardCure": "{{i18n: Caroline.WizardCure}}[letterbg 2]%item quest TigerseyeCure %%[#]{{i18n: Caroline.WizardCure.title}}",
+            "Caroline.AbigailMissing": "{{i18n: Caroline.AbigailMissing}}%item conversationTopic AbigailMissing 7 %%[#]{{i18n: Caroline.AbigailMissing.title}}",
+            "Caroline.AbigailSettle": "{{i18n: Caroline.AbigailSettle}}[#]{{i18n: Caroline.AbigailSettle.title}}",
+            "Caroline.AbigailStayed": "{{i18n: Caroline.AbigailStayed}}[#]{{i18n: Caroline.AbigailStayed.title}}",
+        }
+    },
+    ]
+}

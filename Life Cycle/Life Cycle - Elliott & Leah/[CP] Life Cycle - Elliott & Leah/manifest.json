@@ -1,0 +1,10 @@
+{
+  "Name": "[CP] Life Cycle - Elliott & Leah",
+  "Author": "nraittanna",
+  "Version": "4.3.0",
+  "Description": "A mod that makes Stardew Valley NPCs more lively | Elliott and Leah version.",
+  "UniqueID": "nraittanna.LifeCycleElliottLeah",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+  }
+}

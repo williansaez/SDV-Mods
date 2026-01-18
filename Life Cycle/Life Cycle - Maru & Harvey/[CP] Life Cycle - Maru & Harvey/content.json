@@ -1,0 +1,636 @@
+{
+    "Format": "2.0.0",
+    "ConfigSchema": {
+        "Version": {
+            "AllowValues": "dating, married",
+            "Default": "dating"
+        }
+    },
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Harvey",
+            "When": {
+            "Version": "dating",
+            "HasSeenEvent": "59020005"
+            },
+            "Entries": {
+            "Fri2": "@, se algum dia você tiver problemas com o maquinário da fazenda, pode conversar com a Maru e ela resolve.$0#$b#Outro dia ela me ajudou com meu rádio.$0#$e#Ela é uma grande ajuda para mim.$1",
+            "Sat2": "Deveria mostrar para a Maru o quanto agradeço pela ajuda dela.$0#$b#A clínica seria um caos sem ela.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Maru",
+            "When": {
+            "Version": "dating",
+            "HasSeenEvent": "59020005"
+            },
+            "Entries": {
+            "Wed2": "Eu não sabia que o Dr. Harvey queria ser piloto.$0#$b#Não consigo imaginar... mas é bom que ele não abandonou totalmente o sonho.$0",
+            "Sun2": "Quando eu era criança, nunca imaginei que acabaria trabalhando numa clínica.$0#$e#Não é o trabalho dos meus sonhos, mas assim posso contribuir com a comunidade.$0#$b#Além disso, o Dr. Harvey e eu formamos uma ótima equipe.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Harvey",
+            "When": {
+            "Version": "dating",
+            "HasSeenEvent": "59020006"
+            },
+            "Entries": {
+            "Tue4": "Estou ajudando a Maru a estudar história da medicina.$0#$b#É ótimo que ela seja tão dedicada.$1",
+            "Fri4": "Fico feliz que Maru e eu tenhamos interesses em comum.$0#$e#Compartilhar o que ama com outras pessoas faz bem à mente.$1",
+            "Sat4": "Quando fui ao museu antes, mal conseguia conversar com alguém.$2#$e#A Penny está sempre lá, mas não temos muito em comum.$2#$e#Com a Maru me sinto com um amigo de verdade aqui.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Maru",
+            "When": {
+            "Version": "dating",
+            "HasSeenEvent": "59020006"
+            },
+            "Entries": {
+            "Mon4": "Acho que estou ficando cada vez mais interessada em medicina.$0#$b#Claro, isso não quer dizer que vou negligenciar meus outros projetos.$1",
+            "Wed4": "O Harvey é tão paciente comigo quando explica as coisas.$0#$b#Mesmo que eu entenda a maioria rápido, algumas coisas são complicadas.$0",
+            "Sun4": "O Harvey anda de bom humor ultimamente.$0#$b#Não sei por quê, já que a clínica não vai muito bem...$2"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Harvey",
+            "When": {
+            "Version": "dating",
+            "HasSeenEvent": "59020007"
+            },
+            "Entries": {
+            "Mon6": "Eu fiz torta de ruibarbo ontem e sobrou um pouco.$0#$b#Quer, @?[222]$1",
+            "Tue6": "Você acha que a Maru gostaria de me ajudar com meus aviões, @?$4#$e#Acho que ela adoraria tanto quanto eu, mas eu não sei...$2",
+            "Fri6": "O Demetrius veio à clínica semana passada só para ver se a Maru estava lá.$0#$b#Eu disse que não, e ele insistiu em subir para conferir.$2#$e#Estranho, não acha, @?$2",
+            "Sun6": "A Maru me convidou para observar as estrelas outro dia.$1#$e#Ainda bem que meu trem chegou atrasado...$4"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Maru",
+            "When": {
+            "Version": "dating",
+            "HasSeenEvent": "59020007"
+            },
+            "Entries": {
+            "Wed6": "Meu pai disse que estou passando tempo demais com o Harvey.$0#$e#Eu não vejo diferença.$0#$b#Só estamos mais próximos que antes, mas é normal, já que trabalhamos juntos.$0",
+            "Thu6": "Será que eu poderia fazer algo para ajudar o Harvey na clínica...$0#$e#Ou talvez algo sobre aviões...$0",
+            "Sat6": "A Penny me perguntou sobre o Harvey outro dia.$0#$e#Não sei por que todo mundo está tão preocupado com meu relacionamento com o Harvey ultimamente.$5#$e#Até o Sebastian perguntou!$5",
+            "Fri6": "Acho que o Harvey vai ao bar quando chove.$0#$e#Minha mãe perguntou se eu queria ir com ela e meu pai algum dia.$0#$b#Tenho que pensar nisso...$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Harvey",
+            "When": {
+            "Version": "dating",
+            "HasSeenEvent": "59020009"
+            },
+            "Entries": {
+            "Mon8": "Ainda não acredito que tive coragem de pedir a Maru em namoro.$0#$b#E de um jeito tão público!$1#$e#Não acho que vou ter essa confiança de novo.$0",
+            "Tue8": "Talvez depois que terminarmos com a história da medicina eu possa ensinar a Maru sobre literatura médica.$0#$b#Tenho certeza de que ela vai adorar!$1",
+            "Wed8": "Acho que devo reformar meu apartamento.$0#$b#Quero que a Maru se sinta à vontade quando vier me visitar.$4",
+            "Thu8": "Eu estava com medo de que Maru e eu fôssemos falar demais sobre trabalho...$2#$b#Mas não é o caso.$1",
+            "Fri8": "Robin se ofereceu para expandir a clínica quando visitei a Maru na semana passada.$0#$e#Agradeço, mas acho que já é grande o suficiente para nossa comunidade.$0",
+            "Sat8": "Ontem à noite preparei um jantar saudável e nutritivo para a Maru.$0#$b#Acho que ela gostou!$1",
+            "Sun8": "Preparei um tônico de energia especial para a Maru.$0#$e#Não quero que ela fique exausta.$2#$b#Sabe, ela trabalha demais...$2",
+            "spring_Thu8": "Quando conheci a Maru eu não sabia se ela se sairia bem.$0#$b#Mas ela provou ser uma enfermeira totalmente capaz.$1#$e#Além disso, se ela não tivesse se candidatado, não nos conheceríamos.$4",
+            "spring_Fri8": "Se a Maru e eu tivermos filhos, acha que eles poderiam se tornar pilotos um dia?$1",
+            "spring_Sat8": "A Maru sempre alegra o meu dia, adoro tê-la por perto.$4",
+            "summer_Mon8": "A Maru e eu estávamos pensando em visitar o deserto.$0#$b#Talvez vamos no outono ou inverno, quando estiver mais fresco.$1",
+            "summer_Wed8": "O verão virou minha estação favorita porque a Maru e eu vamos observar as estrelas.$4#$e#O céu do vale fica ainda mais lindo nessa época!$1",
+            "summer_Sun8": "A Maru sempre vem me ver, mesmo quando não precisa trabalhar.$4",
+            "fall_Mon8": "Tenho melhorado na cozinha agora que a Maru vem jantar na minha casa.$1#$b#Se quiser dicas de como fazer comida saudável, me procura.$0",
+            "fall_Tue8": "Tenho melhorado minhas técnicas de massagem para a Maru.$0#$b#Tem dias que ela volta exausta do trabalho e quero ajudá-la a relaxar.$1",
+            "fall_Fri8": "Eu costumava ficar para baixo quando o negócio não estava bom...$2#$b#Mas agora a Maru sempre levanta meu astral, mesmo nos dias difíceis.$4",
+            "winter_Wed8": "Fico feliz que o Demetrius aceitou nosso relacionamento.$1#$b#Caso contrário seria bem desconfortável.$2",
+            "winter_Thu8": "Em dias frios como este, eu e a Maru gostamos de dividir uma garrafa de vinho junto à lareira.$1",
+            "winter_Sat8": "Pra ser sincero, achei que ficaria solteiro para sempre.$2#$b#Estou tão feliz que a Maru apareceu na minha vida.$4",
+            "spring_23": "Estou confiante para o Baile das Flores amanhã.$1#$e#A Maru e eu temos praticado nossos passos.$1",
+            "summer_10": "Oi, @.$0#$e#Tenho aperfeiçoado minhas habilidades culinárias para o aniversário da Maru.$1#$b#Ela me disse que adora couve-flor com queijo e pepper poppers, então vou convidá-la para jantar na minha casa depois.$1",
+            "summer_27": "A Dança da Água-viva Lunar é tão bonita.$0#$e#Estou ansioso para curtir com a Maru amanhã.$1",
+            "fall_26": "Sempre me perco no Labirinto Assombrado.$2#$e#Talvez se eu e a Maru formos juntos a gente consiga sair.$0",
+            "spring_23_2": "Estou confiante para o Baile das Flores amanhã.$1#$e#A Maru e eu temos praticado nossos passos.$1",
+            "summer_10_2": "Oi, @.$0#$e#Tenho aperfeiçoado minhas habilidades culinárias para o aniversário da Maru.$1#$b#Ela me disse que adora couve-flor com queijo e pepper poppers, então vou convidá-la para jantar na minha casa depois.$1",
+            "summer_27_2": "A Dança da Água-viva Lunar é tão bonita.$0#$e#Estou ansioso para curtir com a Maru amanhã.$1",
+            "fall_26_2": "Sempre me perco no Labirinto Assombrado.$2#$e#Talvez se eu e a Maru formos juntos a gente consiga sair.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Maru",
+            "When": {
+            "Version": "dating",
+            "HasSeenEvent": "59020009"
+            },
+            "Entries": {
+            "Mon8": "O Harvey é tão desastrado às vezes.$0#$b#Mas na verdade é meio fofo.$4",
+            "Tue8": "O Harvey gosta de me dar ideias de gadgets e eu o ajudo com os modelos dele.$0#$e#Somos a dupla perfeita!$1",
+            "Wed8": "Sempre fui bem independente.$0#$b#...mas agora é difícil imaginar minha vida sem o Harvey.$4",
+            "Thu8": "Tenho trabalhado numa máquina que melhora a qualidade dos picles.$0#$b#É uma surpresa para o Harvey.$1",
+            "Fri8": "Se eu descobrir uma nova estrela, vou chamar de Harvey.$4#$e#Será que isso é muito brega...?$0",
+            "Sat8": "Eu e o Harvey pensamos em visitar Zuzu City juntos.$0#$b#Ele vai lá todo mês comprar suprimentos médicos.$0",
+            "Sun8": "Minha mãe perguntou se deveríamos convidar o Harvey para jantar algum dia.$0#$b#Mas não acho que meu pai vá gostar muito dessa ideia.$2",
+            "spring_Wed8": "Harvey e eu estamos treinando para o Baile das Flores.$0#$b#Estamos tão animados!$1",
+            "spring_Fri8": "O relacionamento entre eu e o Harvey é como o contato de dois produtos químicos: reagimos e agora formamos um novo elemento.$1",
+            "spring_Sun8": "Meu pai costumava importunar o Harvey com montes de perguntas quando o via.$2#$b#Felizmente parou agora.$1#$e#...Ou talvez esteja só pensando em perguntas novas.$0",
+            "summer_Tue8": "O Harvey quer modernizar os computadores da clínica.$0#$b#Talvez o Sebastian possa ajudá-lo.$0",
+            "summer_Thu8": "Tenho pesquisado sobre o Vale e, cientificamente, este é um ótimo lugar para criar filhos.$0#$e#Vou compilar tudo e mostrar para o Harvey.$1",
+            "summer_Sat8": "Eu não esperava, mas o Harvey é um ótimo cozinheiro.$1#$b#E ele sempre prepara refeições saudáveis.$0",
+            "fall_Mon8": "Fiquei surpresa ao saber que o Harvey também vai à academia da Caroline às terças, junto com minha mãe.$0#$b#É bom ele querer manter a saúde.$0",
+            "fall_Thu8": "Nunca sei se devo manter tudo profissional com o Harvey quando estamos trabalhando.$0#$b#Mas não é como se nossos pacientes não soubessem sobre nós.$0",
+            "fall_Sat8": "Eu e o Harvey queremos fazer uma road trip e explorar novos lugares.$0#$b#Mas acho que não dá agora, a clínica teria que fechar por algumas semanas...$2",
+            "winter_Tue8": "Já considerei construir um marido robô no passado.$0#$b#Mas agora tenho o Harvey e ele é mais do que o suficiente.$4",
+            "winter_Wed8": "Espero que meu pai esteja bem agora que passo mais tempo com o Harvey.$2#$e#Mesmo morando com ele ainda, tenho medo de que ele fique sozinho...$2",
+            "winter_Sun8": "O tempo parece parar quando olho para o Harvey...$4#$e#Talvez ele viaje na velocidade da luz.$1",
+            "summer_27": "Estou ansiosa para ver as águas-vivas com o Harvey amanhã.$4",
+            "fall_26": "Tenho conversado com o Harvey sobre nossa estratégia para sair do Labirinto Assombrado.$0#$e#Talvez este ano sejamos os primeiros a encontrar o tesouro!$1",
+            "winter_14": "Hoje é o aniversário do Harvey.$1#$e#Eu desenhei um modelo de avião especial para ele.$0#$b#Espero que ele goste.$1",
+            "summer_27_2": "Estou ansiosa para ver as águas-vivas com o Harvey amanhã.$4",
+            "fall_26_2": "Tenho conversado com o Harvey sobre nossa estratégia para sair do Labirinto Assombrado.$0#$e#Talvez este ano sejamos os primeiros a encontrar o tesouro!$1",
+            "winter_14_2": "Hoje é o aniversário do Harvey.$1#$e#Eu desenhei um modelo de avião especial para ele.$0#$b#Espero que ele goste.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "When": {
+            "Version": "dating",
+            "HasSeenEvent": "59020009"
+            },
+            "Entries": {
+            "Mon2": "Ainda não confio nas intenções do Harvey com a Maru...$4",
+            "Mon6": "O Harvey cozinhou hotpot de feijão pra gente ontem.$0#$b#Talvez eu esteja começando a gostar dele um pouco mais...$3",
+            "Tue4": "A Maru é minha filha, então é natural que eu fique cauteloso com o Harvey.$4",
+            "Tue10": "Sei que fui duro com o Harvey antes...$2#$b#Mas agora tá diferente!$1",
+            "Wed6": "A Robin teve uma conversa séria comigo sobre como tenho agido com o Harvey...$2#$b#Talvez ela esteja certa...$2",
+            "Wed8": "Oi, @.$0#$e#Na verdade, o Harvey tem se esforçado muito pra fazer parte da nossa família.$0#$e#Então talvez eu devesse ser mais simpático com ele...$3",
+            "Thu2": "Devo dar uma passada na clínica e ver como o Harvey e a Maru estão...$3#$b#...só por precaução.$3",
+            "Thu8": "Hmm... talvez o Harvey seja um bom homem afinal...$3",
+            "Fri8": "Bom, a Maru parece realmente feliz com o Harvey, então acho que isso que importa.$0",
+            "Fri10": "Tem sido difícil, mas já aceitei o Harvey como parte da nossa família.$1",
+            "Sat2": "Oi, fazendeiro.$0#$e#Você poderia ficar de olho no Harvey e na Maru?$5#$b#Estou preocupado que o relacionamento deles vá dar errado...$",
+            "Sat8": "O Harvey veio ontem e ajudou a Maru e a mim com nossos experimentos.$0#$b#Ele é um ótimo cientista!$1",
+            "Sun4": "Só tô preocupado que o Harvey quebre o coração da Maru...$2#$e#Isso não é normal pra um pai?$2",
+            "Sun10": "Fico aliviado que o Harvey não guarde rancor pelo jeito que o tratei antes.$0#$b#Ele é um bom homem e estou feliz que ele está com a Maru."
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Robin",
+            "When": {
+            "Version": "dating",
+            "HasSeenEvent": "59020009"
+            },
+            "Entries": {
+            "Mon2": "Eu não falo muito com o Harvey, mas ele às vezes aparece pra malhar às terças com a gente.$0",
+            "Mon6": "Diferente do Demetrius, eu sei que o Harvey cuida da nossa filha, então não me preocupo.$1",
+            "Tue4": "O Demetrius está sendo irracional com o Harvey.$3#$b#Ele não vê que a Maru está feliz e isso é o que importa...? $2",
+            "Tue8": "Fico aliviada que o Demetrius tenha dado uma folga na atitude dele com o Harvey.$0#$e#Às vezes ele é teimoso demais.$2",
+            "Wed6": "O tempo passa tão rápido...$0#$e#Eu conversava com a Jodi depois da aula de exercícios e não acredito como nossos filhos cresceram.$0",
+            "Wed10": "Se a Maru e o Harvey quiserem morar juntos algum dia, eu vou ajudar a construir a casa perfeita!$1",
+            "Thu8": "Consigo ver que o Harvey ama a Maru.$0#$b#Estou tão feliz por eles!$1",
+            "Thu10": "Estou radiante que a Maru e o Harvey estejam juntos.$0#$b#Eu sabia que formariam um casal legal.$1",
+            "Fri4": "Talvez eu devesse conversar com o Demetrius sobre o comportamento dele com o Harvey...$2",
+            "Fri10": "Vou passar na clínica mais tarde.$0#$b#Preparei tomate em conserva pro Harvey.$1",
+            "Sat2": "Não foi surpresa pra mim que a Maru e o Harvey começaram a namorar.$0#$e#Na verdade, eu esperava por isso!$1",
+            "Sat8": "Não sei, mas acho que o Sebastian também pensa bem do Harvey.$1",
+            "Sun6": "Estava pensando em convidar o Harvey pra jantar...$0#$b#...mas o Demetrius certamente vai discordar.$2",
+            "Sun8": "A Maru e o Harvey me lembram de quando o Demetrius e eu começamos a namorar...$0#$e#Éramos tão jovens naquela época.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sebastian",
+            "When": {
+            "Version": "dating",
+            "HasSeenEvent": "59020009"
+            },
+            "Entries": {
+            "Mon6": "Acho que estou meio feliz pela Maru e o Harvey.$0",
+            "Tue8": "O Harvey me pediu ajuda quando veio à nossa casa outro dia.$0#$b#Ele disse que queria criar um banco de dados interno para a clínica.$0#$e#É bom quando alguém valoriza o seu trabalho.$1",
+            "Wed2": "Na real, não me importo com quem a Maru está namorando.$0",
+            "Wed6": "Acho que era natural a Maru e o Harvey ficarem juntos.$0#$b#Além do trabalho na clínica, acho que eles têm os mesmos interesses.$0",
+            "Thu8": "O Harvey aparece por aqui às vezes.$0#$b#Não conversamos muito, mas ele demonstrou interesse no meu trabalho e eu agradeço isso.$1",
+            "Fri8": "O Harvey é até legal, ele me trouxe sashimi outro dia!$1",
+            "Sat4": "A casa está mais tranquila agora que a Maru passa mais tempo com o Harvey.$1",
+            "Sun2": "Era mesmo necessário o Harvey fazer aquele show para convidar a Maru para sair?$0",
+            "Sun4": "O Demetrius ainda fica meio irritado quando o Harvey aparece...$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/schedules/Harvey",
+            "When": {
+            "Version": "dating, married",
+            "HasSeenEvent": "59020009"
+            },
+            "Entries": {
+            "spring.001": "As coisas boas da vida são melhores com a Maru.$4",
+            "spring.002": "A Maru aprende muito rápido.$1",
+            "summer.001": "Maru...$4#$b#...você significa o mundo para mim.$4",
+            "summer.002": "A Maru fica tão fofa quando me pergunta sobre termos médicos difíceis.$1",
+            "fall.001": "Ainda fico meio tímido com a Maru vindo à minha casa...$4",
+            "fall.002": "Maru, você está deslumbrante agora.$4",
+            "winter.001": "...$4",
+            "winter.002": "A Maru está trabalhando comigo num novo modelo de avião.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Harvey",
+            "When": {
+            "Version": "dating, married",
+            "HasSeenEvent": "59020009"
+            },
+            "Entries": {
+            "spring_Wed": "700 HarveyRoom 21 7 0/830 Hospital 6 15 2/1200 Town 10 64 2 \"Strings\\schedules\\Harvey:spring.001\"/1730 Hospital 9 15 3/1840 HarveyRoom 11 5 3 harvey_read/2200 HarveyRoom 13 4 1 harvey_sleep",
+            "spring_Sat": "700 HarveyRoom 21 7 0/830 ArchaeologyHouse 16 9 0 \"Strings\\schedules\\Harvey:spring.002\"/1500 HarveyRoom 21 7 0 \"Strings\\schedules\\Harvey:Sat.000\"/1630 HarveyRoom 3 4 0/1900 HarveyRoom 8 5 0/2100 HarveyRoom 6 4 0/2200 HarveyRoom 13 4 1 harvey_sleep",
+            "summer_Tue": "730 Hospital 1 5 0/1250 Hospital 10 14 2/1330 Hospital 5 5 2/1410 Hospital 5 6 3 harvey_examine_left/1550 Hospital 5 5 2/1610 Hospital 4 5 0/1630 Hospital 3 15 0/1800 Mountain 8 24 3 \"Strings\\schedules\\Harvey:summer.001\"/2200 HarveyRoom 13 4 1 harvey_sleep",
+            "summer_Sat": "700 HarveyRoom 21 7 0/830 ArchaeologyHouse 16 9 0 \"Strings\\schedules\\Harvey:summer.002\"/1500 HarveyRoom 21 7 0 \"Strings\\schedules\\Harvey:Sat.000\"/1630 HarveyRoom 3 4 0/1900 HarveyRoom 8 5 0/2100 HarveyRoom 6 4 0/2200 HarveyRoom 13 4 1 harvey_sleep",
+            "fall_Thu": "730 Hospital 1 5 0/1250 Hospital 10 14 2/1330 Hospital 5 5 2/1410 Hospital 5 6 3 harvey_examine_left/1550 Hospital 5 5 2/1610 Hospital 4 5 0/1630 Hospital 3 15 0/1800 HarveyRoom 9 5 0 \"Strings\\schedules\\Harvey:fall.001\"/2200 HarveyRoom 13 4 1 harvey_sleep",
+            "fall_Sat": "700 HarveyRoom 21 7 0/830 ArchaeologyHouse 16 9 0 \"Strings\\schedules\\Harvey:fall.002\"/1500 HarveyRoom 21 7 0 \"Strings\\schedules\\Harvey:Sat.000\"/1630 HarveyRoom 3 4 0/1900 HarveyRoom 8 5 0/2100 HarveyRoom 6 4 0/2200 HarveyRoom 13 4 1 harvey_sleep",
+            "winter_Wed": "800 HarveyRoom 19 7 0/840 Hospital 6 15 2/1100 Town 33 57 2 \"Strings\\schedules\\Harvey:winter.001\"/1600 HarveyRoom 11 5 3 harvey_read/2200 HarveyRoom 13 4 1 harvey_sleep",
+            "winter_Sat": "700 HarveyRoom 21 7 0/830 ArchaeologyHouse 16 9 0 \"Strings\\schedules\\Harvey:winter.002\"/1500 HarveyRoom 21 7 0 \"Strings\\schedules\\Harvey:Sat.000\"/1630 HarveyRoom 3 4 0/1900 HarveyRoom 8 5 0/2100 HarveyRoom 6 4 0/2200 HarveyRoom 13 4 1 harvey_sleep"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/schedules/Maru",
+            "When": {
+            "Version": "dating, married",
+            "HasSeenEvent": "59020009"
+            },
+            "Entries": {
+            "spring.001": "Adoro passar tempo com o Harvey.$4",
+            "spring.002": "Harvey e a Penny são ótimos professores.$1",
+            "summer.001": "Adoro observar as estrelas com o Harvey.$4#$b#É... mágico.$4",
+            "summer.002": "Estudar com o Harvey é tão agradável.$1",
+            "fall.001": "O Harvey tem tantos livros interessantes, talvez eu peça para pegar um emprestado.$0#$b#Ou posso simplesmente vir aqui quando quiser lê-los.$4",
+            "fall.002": "Trabalhar na clínica nunca é entediante com o Harvey ao meu lado.$4",
+            "winter.001": "Este lugar traz tantas lembranças...$4",
+            "winter.002": "O Harvey fica bonito quando está lendo.$4"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Maru",
+            "When": {
+            "Version": "dating, married",
+            "HasSeenEvent": "59020009"
+            },
+            "Entries": {
+            "spring_Wed": "800 ScienceHouse 5 6 1 maru_tinker/1100 Town 10 65 2 \"Strings\\schedules\\Maru:spring.001\"/1730 ScienceHouse 5 6 1 maru_tinker/2200 ScienceHouse 2 4 3 maru_sleep",
+            "spring_Sat": "800 ArchaeologyHouse 15 9 0 \"Strings\\schedules\\Maru:spring.002\"/1500 ScienceHouse 19 18 0/1800 ScienceHouse 5 6 1 maru_tinker/2200 ScienceHouse 2 4 3 maru_sleep",
+            "summer_Tue": "730 Hospital 6 15 2/1400 Hospital 9 15 3/1600 Hospital 8 17 1/1800 Mountain 8 23 3 \"Strings\\schedules\\Maru:summer.001\"/2200 ScienceHouse 2 4 3 maru_sleep",
+            "summer_Sat": "800 ArchaeologyHouse 15 9 0 \"Strings\\schedules\\Maru:summer.002\"/1500 ScienceHouse 19 18 0/1800 ScienceHouse 5 6 1 maru_tinker/2200 ScienceHouse 2 4 3 maru_sleep",
+            "fall_Thu": "730 Hospital 6 15 2/1400 Hospital 9 15 3/1600 Hospital 8 17 1/1800 HarveyRoom 10 5 0 \"Strings\\schedules\\Maru:fall.001\"/2200 ScienceHouse 2 4 3 maru_sleep",
+            "fall_Sat": "800 ArchaeologyHouse 15 9 0 \"Strings\\schedules\\Maru:fall.002\"/1500 ScienceHouse 19 18 0/1800 ScienceHouse 5 6 1 maru_tinker/2200 ScienceHouse 2 4 3 maru_sleep",
+            "winter_Wed": "800 ScienceHouse 5 6 1 maru_tinker/900 ScienceHouse 19 18 0/1100 Town 64 17 2 \"Strings\\schedules\\Maru:winter.001\"/1600 ScienceHouse 5 6 1 maru_tinker/2200 ScienceHouse 2 4 3 maru_sleep",
+            "winter_Sat": "800 ArchaeologyHouse 15 9 0 \"Strings\\schedules\\Maru:winter.002\"/1500 ScienceHouse 19 18 0/1800 ScienceHouse 5 6 1 maru_tinker/2200 ScienceHouse 2 4 3 maru_sleep"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Harvey",
+            "When": {
+            "Version": "married",
+            "HasSeenEvent": "59020030"
+            },
+            "Entries": {
+            "Wed8": "Maru e eu estamos pensando em reformar o apartamento.$0#$b#Estamos pensando em morar juntos, então quero que ela se sinta confortável.$4",
+            "Fri8": "Robin se ofereceu para expandir a clínica quando jantei com eles na semana passada.$0#$e#Agradeço, mas acho que ela já é grande o suficiente para nossa comunidade.$0",
+            "spring_Thu8": "Quando conheci a Maru eu não sabia se ela se sairia bem.$0#$b#Mas ela provou ser uma enfermeira totalmente capaz.$1#$e#Além disso, se ela não tivesse se candidatado, não nos conheceríamos e eu não seria casado com ela.$4",
+            "spring_Sat8": "Maru sempre alegra o meu dia, adoro estar casado com ela.$4",
+            "summer_Sun8": "...$4#$e#Ah, @.$0#$b#Estava pensando no dia do nosso casamento...$4",
+            "fall_Mon8": "Tenho melhorado na cozinha agora que a Maru e eu somos casados.$1#$b#Se quiser dicas de como fazer comida saudável, não hesite em me procurar.$0",
+            "winter_Wed8": "Fico feliz que o Demetrius tenha passado a aceitar meu relacionamento com a Maru.$1#$b#Ele ficou encantado no nosso casamento.$1",
+            "summer_10_2": "Oi, @.$0#$e#Tenho aperfeiçoado minhas habilidades culinárias para o aniversário da Maru.$1#$b#Ela me disse que adora couve-flor com queijo e pepper poppers, então vou preparar um jantar especial para ela.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Maru",
+            "When": {
+            "Version": "married",
+            "HasSeenEvent": "59020009"
+            },
+            "Entries": {
+            "Mon8": "O Harvey é tão desastrado às vezes.$0#$b#Mas é meio fofo.$4",
+            "Tue8": "O Harvey gosta de me dar ideias de gadgets e eu o ajudo com os modelos dele.$0#$e#Somos a dupla perfeita!$1",
+            "Thu8": "Tenho trabalhado numa máquina que melhora a qualidade dos picles.$0#$b#É uma surpresa para o Harvey.$1",
+            "Fri8": "Se eu descobrir uma nova estrela, vou chamá-la de Harvey.$4#$e#Será que isso é muito brega...?$0",
+            "Sat8": "O Harvey e eu pensamos em visitar Zuzu City juntos.$0#$b#Ele vai lá todo mês comprar suprimentos médicos.$0",
+            "spring_Wed8": "Harvey e eu estamos treinando para o Baile das Flores.$0#$b#Estamos tão animados!$1",
+            "spring_Fri8": "O relacionamento entre eu e o Harvey é como o contato de dois produtos químicos: reagimos e agora formamos um novo elemento.$1",
+            "summer_Tue8": "O Harvey quer modernizar os computadores da clínica.$0#$b#Talvez o Sebastian possa ajudá-lo.$0",
+            "summer_Thu8": "Tenho pesquisado sobre o Vale e, cientificamente, este é um ótimo lugar para criar filhos.$0#$e#Vou compilar tudo e mostrar para o Harvey.$1",
+            "summer_Sat8": "Eu não esperava, mas o Harvey é um ótimo cozinheiro.$1#$b#E ele sempre prepara refeições saudáveis.$0",
+            "fall_Mon8": "Fiquei surpresa ao saber que o Harvey também vai à academia da Caroline às terças, junto com minha mãe.$0#$b#É bom ele querer manter a saúde.$0",
+            "fall_Sat8": "O Harvey e eu queremos fazer uma road trip e explorar novos lugares.$0#$b#Mas acho que não dá agora, a clínica teria que fechar por algumas semanas...$2",
+            "winter_Wed8": "Espero que meu pai esteja bem agora que passo mais tempo com o Harvey.$2#$e#Mesmo morando com ele ainda, tenho medo de que ele fique sozinho...$2",
+            "winter_Sun8": "O tempo parece parar quando olho para o Harvey...$4#$e#Talvez ele viaje na velocidade da luz.$1",
+            "summer_27": "Estou ansiosa para ver as águas-vivas com o Harvey amanhã.$4",
+            "fall_26": "Tenho conversado com o Harvey sobre nossa estratégia para sair do Labirinto Assombrado.$0#$e#Talvez este ano sejamos os primeiros a encontrar o tesouro!$1",
+            "winter_14": "Hoje é o aniversário do Harvey.$1#$e#Desenhei um modelo de avião especial para ele.$0#$b#Espero que ele goste.$1",
+            "summer_27_2": "Estou ansiosa para ver as águas-vivas com o Harvey amanhã.$4",
+            "fall_26_2": "Tenho conversado com o Harvey sobre nossa estratégia para sair do Labirinto Assombrado.$0#$e#Talvez este ano sejamos os primeiros a encontrar o tesouro!$1",
+            "winter_14_2": "Hoje é o aniversário do Harvey.$1#$e#Desenhei um modelo de avião especial para ele.$0#$b#Espero que ele goste.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Maru",
+            "When": {
+            "Version": "married",
+            "HasSeenEvent": "59020030"
+            },
+            "Entries": {
+            "Wed8": "Sempre fui bem independente.$0#$b#...mas agora é difícil imaginar minha vida sem o Harvey.$4#$b#Ele é o marido perfeito.$4",
+            "Sun8": "Meus pais pedem para o Harvey e eu jantarmos com eles toda semana.$0#$b#Acho que eles sentem muita saudade, mas o Harvey adora esses encontros em família.$2",
+            "spring_Sun8": "Meu pai ficou surpreso quando contei que iria me casar.$0#$b#Mas agora ele se dá muito bem com o Harvey.$0#$e#Eles até se chamam para discutir ciência!$1",
+            "fall_Thu8": "Alguns casais não conseguem trabalhar juntos.$0#$b#Por sorte o Harvey e eu não somos um desses casais.$1",
+            "winter_Tue8": "No passado considerei seriamente construir um marido robô.$0#$b#Mas agora tenho o Harvey e ele é muito melhor do que um robô seria.$4"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "When": {
+            "Version": "married",
+            "HasSeenEvent": "59020009"
+            },
+            "Entries": {
+            "Mon2": "Ainda não confio nas intenções do Harvey com a Maru...$4",
+            "Mon6": "O Harvey cozinhou hotpot de feijão para nós ontem.$1",
+            "Tue4": "A Maru é minha filha, então é natural que eu fique cauteloso com o Harvey.$4",
+            "Wed6": "A Robin teve uma conversa séria comigo sobre como tenho agido com o Harvey...$2#$b#Talvez ela esteja certa...$2",
+            "Thu2": "Devo dar uma passada na clínica e ver como o Harvey e a Maru estão...$3#$b#...só por precaução.$3",
+            "Fri8": "Bom, a Maru parece realmente feliz com o Harvey, então acho que isso que importa.$0",
+            "Fri10": "Tenho aceitado o Harvey como parte de nossa família.$1",
+            "Sat2": "Oi, fazendeiro.$0#$e#Você poderia ficar de olho no Harvey e na Maru?$5#$b#Estou preocupado que o relacionamento deles vá dar errado...$",
+            "Sun4": "Só tô preocupado que o Harvey quebre o coração da Maru...$2#$e#Isso não é normal pra um pai?$2"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "When": {
+            "Version": "married",
+            "HasSeenEvent": "59020030"
+            },
+            "Entries": {
+            "Tue10": "Sei que fui duro com o Harvey antes...$2#$b#Mas agora está diferente, ele faz parte da nossa família.$1",
+            "Wed10": "Oi, @.$0#$e#Na verdade, o Harvey tem se esforçado muito para fazer parte da nossa família.$0#$b#Ele veio falar comigo novamente antes de pedir a Maru em casamento.$0#$b#Estava tremendo, coitado.$1",
+            "Thu8": "Não pensei que a Maru se casaria tão cedo...$2#$e#Mas estou feliz por ela ter encontrado alguém como o Harvey.$0",
+            "Sat8": "O Harvey veio ontem e ajudou a Maru e a mim com os experimentos.$0#$b#Eles são ótimos cientistas!$1",
+            "Sun10": "Fico aliviado que o Harvey não guarde rancor pelo jeito que o tratei antes.$0#$b#Ele é um bom homem e fico feliz que a Maru esteja casada com ele.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Robin",
+            "When": {
+            "Version": "married",
+            "HasSeenEvent": "59020009"
+            },
+            "Entries": {
+            "Mon2": "Não converso muito com o Harvey, mas às vezes ele vem malhar conosco às terças.$0",
+            "Mon6": "Diferente do Demetrius, eu sei que o Harvey cuida da nossa filha, então não me preocupo.$1",
+            "Tue4": "O Demetrius está sendo irracional com o Harvey.$3#$b#Ele não vê que a Maru está feliz e isso é o que importa...? $2",
+            "Tue8": "Fico aliviada que o Demetrius tenha dado uma folga na atitude dele com o Harvey.$0#$e#Às vezes ele é teimoso demais.$2",
+            "Wed6": "O tempo passa tão rápido...$0#$e#Eu conversava com a Jodi depois da aula de exercícios e não acredito como nossos filhos cresceram.$0",
+            "Thu4": "Consigo ver que o Harvey ama a Maru.$0#$b#Estou tão feliz por eles!$1",
+            "Thu8": "Estou radiante que a Maru e o Harvey estejam juntos.$0#$b#Eu sabia que formariam um casal legal.$1",
+            "Fri4": "Talvez eu devesse conversar com o Demetrius sobre o comportamento dele com o Harvey...$2",
+            "Fri10": "Vou passar na clínica mais tarde.$0#$b#Preparei tomate em conserva pro Harvey.$1",
+            "Sat2": "Não foi surpresa pra mim que a Maru e o Harvey começaram a namorar.$0#$e#Na verdade, eu esperava por isso!$1",
+            "Sat8": "Não sei, mas acho que o Sebastian também pensa bem do Harvey.$1",
+            "Sun6": "Estava pensando em convidar o Harvey pra jantar...$0#$b#...mas o Demetrius certamente vai discordar.$2",
+            "Sun8": "A Maru e o Harvey me lembram de quando o Demetrius e eu começamos a namorar...$0#$e#Éramos tão jovens naquela época.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Robin",
+            "When": {
+            "Version": "married",
+            "HasSeenEvent": "59020030"
+            },
+            "Entries": {
+            "Mon8": "Lembro quando a Maru me contou que ia se casar.$0#$b#Ela estava às lágrimas de felicidade.$1",
+            "Wed8": "Se a Maru e o Harvey quiserem morar juntos agora que são casados, vou ajudá-los a construir a casa perfeita!$1#$b#Ou posso expandir o apartamento do Harvey.$1",
+            "Thu10": "Estou radiante que a Maru e o Harvey estejam casados.$0#$b#Eu sabia que formariam um bom casal.$1",
+            "Sat10": "Espero que a Maru e o Harvey tenham filhos em breve.$1",
+            "Sun10": "A Maru e o Harvey me lembram de quando o Demetrius e eu começamos a namorar...$0#$e#Éramos tão jovens naquela época.$0#$e#Nosso casamento também foi lindo, talvez eu mostre algumas fotos um dia.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sebastian",
+            "When": {
+            "Version": "married",
+            "HasSeenEvent": "59020009"
+            },
+            "Entries": {
+            "Mon6": "Acho que estou meio feliz pela Maru e o Harvey.$0",
+            "Tue8": "O Harvey me pediu ajuda quando veio à nossa casa outro dia.$0#$b#Ele disse que queria criar um banco de dados interno para a clínica.$0#$e#É bom quando alguém valoriza o seu trabalho.$1",
+            "Wed2": "Na real, não me importo com quem a Maru está namorando.$0",
+            "Wed6": "Acho que era natural a Maru e o Harvey ficarem juntos.$0#$b#Além do trabalho na clínica, acho que eles têm os mesmos interesses.$0",
+            "Thu8": "O Harvey aparece por aqui às vezes.$0#$b#Não conversamos muito, mas ele demonstrou interesse no meu trabalho e eu agradeço isso.$1",
+            "Fri8": "O Harvey é até legal, ele me trouxe sashimi outro dia!$1",
+            "Sat4": "A casa está mais tranquila agora que a Maru passa mais tempo com o Harvey.$1",
+            "Sun2": "Era mesmo necessário o Harvey fazer aquele show para convidar a Maru para sair?$0",
+            "Sun4": "O Demetrius ainda fica meio irritado quando o Harvey aparece...$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sebastian",
+            "When": {
+            "Version": "married",
+            "HasSeenEvent": "59020030"
+            },
+            "Entries": {
+            "Mon6": "Acho que estou feliz pela Maru e o Harvey.$0#$b#Eles combinam.$0",
+            "Wed8": "Acho que era natural a Maru e o Harvey se casarem logo.$0#$b#Minha mãe e o Demetrius ficaram muito empolgados no dia do casamento deles.$0",
+            "Sat6": "A casa está mais silenciosa agora que a Maru é casada com o Harvey.$1",
+            "Sun6": "Acho que o Demetrius está de boa com o Harvey agora.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Harvey",
+            "When": {
+            "Version": "married",
+            "HasSeenEvent": "59020030"
+            },
+            "Entries": {
+            "Wed8": "A Maru e eu estamos pensando em reformar o apartamento.$0#$b#Estamos pensando em morar juntos, então quero que ela se sinta confortável.$4",
+            "Fri8": "A Robin se ofereceu para expandir a clínica quando jantei com eles na semana passada.$0#$e#Agradeço, mas acho que já é grande o suficiente para nossa comunidade.$0",
+            "spring_Thu8": "Quando conheci a Maru pela primeira vez não sabia se ela se sairia bem.$0#$b#Mas ela provou ser uma enfermeira totalmente capaz.$1#$e#Além disso, se ela não tivesse se candidatado ao emprego, não nos conheceríamos e não estaríamos casados.$4",
+            "spring_Sat8": "A Maru sempre ilumina meu dia, adoro ser casado com ela.$4",
+            "summer_Sun8": "...$4#$e#Ah, @.$0#$b#Estava pensando no dia do nosso casamento...$4",
+            "fall_Mon8": "Tenho melhorado na cozinha agora que a Maru e eu somos casados.$1#$b#Se quiser conselhos de como fazer comida saudável, não hesite em me pedir.$0",
+            "winter_Wed8": "Fico feliz que o Demetrius tenha aceitado meu relacionamento com a Maru.$1#$b#Ele ficou encantado no nosso casamento.$1",
+            "summer_10_2": "Oi, @.$0#$e#Tenho aperfeiçoado minhas habilidades culinárias para o aniversário da Maru.$1#$b#Ela me disse que adora couve-flor com queijo e pepper poppers, então vou preparar um jantar especial para ela.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Maru",
+            "When": {
+            "Version": "married",
+            "HasSeenEvent": "59020009"
+            },
+            "Entries": {
+            "Mon8": "O Harvey é tão desastrado às vezes.$0#$b#Mas na verdade é meio fofo.$4",
+            "Tue8": "O Harvey gosta de me dar ideias de novos gadgets e eu ajudo com os modelos dele.$0#$e#Somos a dupla perfeita!$1",
+            "Thu8": "Tenho trabalhado numa máquina que melhora a qualidade dos picles.$0#$b#É uma surpresa para o Harvey.$1",
+            "Fri8": "Se um dia eu descobrir uma nova estrela, vou chamá-la de Harvey.$4#$e#Será que isso é brega demais...?$0",
+            "Sat8": "O Harvey e eu pensamos em visitar Zuzu City juntos.$0#$b#Ele vai lá todo mês comprar suprimentos médicos.$0",
+            "spring_Wed8": "O Harvey e eu estamos praticando para o Baile das Flores.$0#$b#Estamos tão animados!$1",
+            "spring_Fri8": "O relacionamento entre o Harvey e eu é como o contato de dois produtos químicos: reagimos e agora formamos um novo elemento.$1",
+            "summer_Tue8": "O Harvey quer modernizar os computadores da clínica.$0#$b#Talvez o Sebastian possa ajudá-lo.$0",
+            "summer_Thu8": "Tenho pesquisado sobre o Vale e, cientificamente, este é um ótimo lugar para criar filhos.$0#$e#Vou compilar tudo e mostrar para o Harvey.$1",
+            "summer_Sat8": "Eu não esperava, mas o Harvey é um ótimo cozinheiro.$1#$b#E ele sempre prepara refeições saudáveis.$0",
+            "fall_Mon8": "Fiquei surpresa ao saber que o Harvey também vai à academia da Caroline às terças, junto com minha mãe.$0#$b#É bom ele querer manter a saúde.$0",
+            "fall_Sat8": "O Harvey e eu queremos fazer uma road trip e explorar novos lugares.$0#$b#Mas acho que não vamos conseguir agora, a clínica teria que fechar por algumas semanas...$2",
+            "winter_Wed8": "Espero que meu pai esteja bem agora que passo mais tempo com o Harvey.$2#$e#Mesmo morando com ele ainda, tenho medo de que ele fique sozinho...$2",
+            "winter_Sun8": "O tempo parece parar quando olho para o Harvey...$4#$e#Talvez ele viaje na velocidade da luz.$1",
+            "summer_27": "Estou ansiosa para ver as águas-vivas com o Harvey amanhã.$4",
+            "fall_26": "Tenho conversado com o Harvey sobre nossa estratégia para completar o Labirinto Assombrado.$0#$e#Talvez este ano sejamos os primeiros a encontrar o tesouro!$1",
+            "winter_14": "Hoje é aniversário do Harvey.$1#$e#Desenhei um modelo de avião especial para ele.$0#$b#Espero que ele goste.$1",
+            "summer_27_2": "Estou ansiosa para ver as águas-vivas com o Harvey amanhã.$4",
+            "fall_26_2": "Tenho conversado com o Harvey sobre nossa estratégia para completar o Labirinto Assombrado.$0#$e#Talvez este ano sejamos os primeiros a encontrar o tesouro!$1",
+            "winter_14_2": "Hoje é aniversário do Harvey.$1#$e#Desenhei um modelo de avião especial para ele.$0#$b#Espero que ele goste.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Maru",
+            "When": {
+            "Version": "married",
+            "HasSeenEvent": "59020030"
+            },
+            "Entries": {
+            "Wed8": "Sempre fui bem independente.$0#$b#...mas agora é difícil imaginar minha vida sem o Harvey.$4#$b#Ele é o marido perfeito.$4",
+            "Sun8": "Meus pais pedem para o Harvey e eu jantarmos com eles toda semana.$0#$b#Acho que sentem muita saudade, mas o Harvey adora esses encontros em família.$2",
+            "spring_Sun8": "Meu pai ficou surpreso quando contei que ia me casar.$0#$b#Mas agora ele se dá muito bem com o Harvey.$0#$e#Eles até se chamam para discutir ciência!$1",
+            "fall_Thu8": "Alguns casais não conseguem trabalhar juntos.$0#$b#Por sorte o Harvey e eu não somos um desses casais.$1",
+            "winter_Tue8": "No passado considerei seriamente construir um marido robô.$0#$b#Mas agora tenho o Harvey e ele é muito melhor do que um robô seria.$4"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "When": {
+            "Version": "married",
+            "HasSeenEvent": "59020009"
+            },
+            "Entries": {
+            "Mon2": "Ainda não confio nas intenções do Harvey com a Maru...$4",
+            "Mon6": "O Harvey cozinhou hotpot de feijão para nós ontem.$1",
+            "Tue4": "A Maru é minha filha, então é natural que eu fique cauteloso com o Harvey.$4",
+            "Wed6": "A Robin teve uma conversa séria comigo sobre como tenho agido com o Harvey...$2#$b#Talvez ela esteja certa...$2",
+            "Thu2": "Devo dar uma passada na clínica e ver como o Harvey e a Maru estão...$3#$b#...só por precaução.$3",
+            "Fri8": "Bom, a Maru parece realmente feliz com o Harvey, então acho que isso é o que importa.$0",
+            "Fri10": "Tenho aceitado o Harvey como parte da nossa família.$1",
+            "Sat2": "Oi, fazendeiro.$0#$e#Você poderia ficar de olho no Harvey e na Maru?$5#$b#Estou preocupado que o relacionamento deles vá dar errado...$",
+            "Sun4": "Só tô preocupado que o Harvey quebre o coração da Maru...$2#$e#Isso não é normal pra um pai?$2"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "When": {
+            "Version": "married",
+            "HasSeenEvent": "59020030"
+            },
+            "Entries": {
+            "Tue10": "Sei que fui duro com o Harvey antes...$2#$b#Mas agora está diferente, ele faz parte da nossa família.$1",
+            "Wed10": "Oi, @.$0#$e#Na verdade, o Harvey tem se esforçado muito para fazer parte da nossa família.$0#$b#Ele veio falar comigo novamente antes de pedir a Maru em casamento.$0#$b#Estava tremendo, coitado.$1",
+            "Thu8": "Não pensei que a Maru se casaria tão cedo...$2#$e#Mas estou feliz por ela ter encontrado alguém como o Harvey.$0",
+            "Sat8": "O Harvey veio ontem e ajudou a Maru e a mim com os experimentos.$0#$b#Eles são ótimos cientistas!$1",
+            "Sun10": "Fico aliviado que o Harvey não guarde rancor pelo jeito que o tratei antes.$0#$b#Ele é um bom homem e fico feliz que a Maru esteja casada com ele.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Robin",
+            "When": {
+            "Version": "married",
+            "HasSeenEvent": "59020009"
+            },
+            "Entries": {
+            "Mon2": "Não converso muito com o Harvey, mas às vezes ele vem malhar conosco às terças.$0",
+            "Mon6": "Diferente do Demetrius, eu sei que o Harvey cuida da nossa filha, então não me preocupo.$1",
+            "Tue4": "O Demetrius está sendo irracional com o Harvey.$3#$b#Ele não vê que a Maru está feliz e isso é o que importa...? $2",
+            "Tue8": "Fico aliviada que o Demetrius tenha dado uma folga na atitude dele com o Harvey.$0#$e#Às vezes ele é teimoso demais.$2",
+            "Wed6": "O tempo passa tão rápido...$0#$e#Eu conversava com a Jodi depois da aula de exercícios e não acredito como nossos filhos cresceram.$0",
+            "Thu4": "Consigo ver que o Harvey ama a Maru.$0#$b#Estou tão feliz por eles!$1",
+            "Thu8": "Estou radiante que a Maru e o Harvey estejam juntos.$0#$b#Eu sabia que formariam um casal legal.$1",
+            "Fri4": "Talvez eu devesse conversar com o Demetrius sobre o comportamento dele com o Harvey...$2",
+            "Fri10": "Vou passar na clínica mais tarde.$0#$b#Preparei tomate em conserva pro Harvey.$1",
+            "Sat2": "Não foi surpresa pra mim que a Maru e o Harvey começaram a namorar.$0#$e#Na verdade, eu esperava por isso!$1",
+            "Sat8": "Não sei, mas acho que o Sebastian também pensa bem do Harvey.$1",
+            "Sun6": "Estava pensando em convidar o Harvey pra jantar...$0#$b#...mas o Demetrius certamente vai discordar.$2",
+            "Sun8": "A Maru e o Harvey me lembram de quando o Demetrius e eu começamos a namorar...$0#$e#Éramos tão jovens naquela época.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Robin",
+            "When": {
+            "Version": "married",
+            "HasSeenEvent": "59020030"
+            },
+            "Entries": {
+            "Mon8": "Lembro quando a Maru me contou que ia se casar.$0#$b#Ela estava às lágrimas de felicidade.$1",
+            "Wed8": "Se a Maru e o Harvey quiserem morar juntos agora que são casados, vou ajudá-los a construir a casa perfeita!$1#$b#Ou posso expandir o apartamento do Harvey.$1",
+            "Thu10": "Estou radiante que a Maru e o Harvey estejam casados.$0#$b#Eu sabia que formariam um bom casal.$1",
+            "Sat10": "Espero que a Maru e o Harvey tenham filhos em breve.$1",
+            "Sun10": "A Maru e o Harvey me lembram de quando o Demetrius e eu começamos a namorar...$0#$e#Éramos tão jovens naquela época.$0#$e#Nosso casamento também foi lindo, talvez eu mostre algumas fotos um dia.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sebastian",
+            "When": {
+            "Version": "married",
+            "HasSeenEvent": "59020009"
+            },
+            "Entries": {
+            "Mon6": "Acho que estou meio feliz pela Maru e o Harvey.$0",
+            "Tue8": "O Harvey me pediu ajuda quando veio à nossa casa outro dia.$0#$b#Ele disse que queria criar um banco de dados interno para a clínica.$0#$e#É bom quando alguém valoriza o seu trabalho.$1",
+            "Wed2": "Na real, não me importo com quem a Maru está namorando.$0",
+            "Wed6": "Acho que era natural a Maru e o Harvey ficarem juntos.$0#$b#Além do trabalho na clínica, acho que eles têm os mesmos interesses.$0",
+            "Thu8": "O Harvey aparece por aqui às vezes.$0#$b#Não conversamos muito, mas ele demonstrou interesse no meu trabalho e eu agradeço isso.$1",
+            "Fri8": "O Harvey é até legal, ele me trouxe sashimi outro dia!$1",
+            "Sat4": "A casa está mais tranquila agora que a Maru passa mais tempo com o Harvey.$1",
+            "Sun2": "Era mesmo necessário o Harvey fazer aquele show para convidar a Maru para sair?$0",
+            "Sun4": "O Demetrius ainda fica meio irritado quando o Harvey aparece...$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sebastian",
+            "When": {
+            "Version": "married",
+            "HasSeenEvent": "59020030"
+            },
+            "Entries": {
+            "Mon6": "Acho que estou feliz pela Maru e o Harvey.$0#$b#Eles combinam.$0",
+            "Wed8": "Acho que era natural a Maru e o Harvey se casarem logo.$0#$b#Minha mãe e o Demetrius ficaram muito empolgados no dia do casamento deles.$0",
+            "Sat6": "A casa está mais silenciosa agora que a Maru é casada com o Harvey.$1",
+            "Sun6": "Acho que o Demetrius está de boa com o Harvey agora.$0"
+            }
+        }
+    ]
+}

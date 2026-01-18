@@ -1,0 +1,30 @@
+{
+  "Changes": [
+    {
+      "LogName": "Load Shirts Tilesheet",
+      "Action": "Load",
+      "Target": "Mods/AlexGoD.NoDress/Objects/Shirts",
+      "FromFile": "Assets/Objects/Shirts.png"
+    },
+    {
+      "LogName": "Shirts Data",
+      "Action": "EditData",
+      "Target": "Data/Shirts",
+      "Entries": {
+        "AlexGoD.NoDress_Shirts": {
+          "Name": "AlexGoD.NoDress_Shirts",
+          "DisplayName": "AlexGoD.NoDress_Shirts",
+          "Description": "AlexGoD.NoDress_Shirts",
+          "Price": 3000,
+          "Texture": "Mods\\AlexGoD.NoDress\\Objects\\Shirts",
+          "SpriteIndex": 0,
+          "DefaultColor": null,
+          "CanBeDyed": false,
+          "IsPrismatic": false,
+          "HasSleeves": true,
+          "CanChooseDuringCharacterCustomization": false
+        }
+      }
+    }
+  ]
+}

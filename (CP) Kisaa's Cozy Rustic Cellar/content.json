@@ -1,0 +1,78 @@
+{
+  "Format": "2.3.0",
+  "ConfigSchema": {
+    "Enable Cellar": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Ativa ou desativa o mod.",
+      "Section": "Configurações do Mod"
+    },
+    "Cellar Recolor": {
+      "AllowValues": "Vanilla, VPR, Earthy, Starblue, Aster's Oak Saloon, RCTI Dark, RCTI Light",
+      "Default": "Vanilla",
+      "Description": "Altera a cor do tilesheet personalizado para combinar com seu mod de recoloração.",
+      "Section": "Ajustes Visuais"
+    },
+    "Extra Room": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Ativa ou desativa o espaço extra na adega.",
+      "Section": "Ajustes"
+    }
+  },
+
+  "Changes": [
+    // load tilesheets
+    {
+      "Action": "Load",
+      "Target": "Maps/CR_cellar",
+      "FromFile": "assets/Tilesheets/{{Cellar Recolor}}/{{TargetWithoutPath}}.png"
+    },
+
+    // load map
+    {
+      "Action": "Load",
+      "Target": "Maps/Cellar",
+      "FromFile": "assets/CR_CellarRustic.tmx",
+      "When": {
+        "Extra Room": "true",
+        "Enable Cellar": "true"
+      },
+      "Priority": "High +10"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/Cellar",
+      "FromFile": "assets/CR_CellarRustic_NoRoom.tmx",
+      "When": {
+        "Extra Room": "false",
+        "Enable Cellar": "true"
+      },
+      "Priority": "High +10"
+    },
+
+    // load map
+    {
+      "Action": "Load",
+      "Target": "Maps/Cellar",
+      "FromFile": "assets/CR_CellarRustic_RCTI.tmx",
+      "When": {
+        "Extra Room": "true",
+        "Enable Cellar": "true",
+        "Cellar Recolor": "RCTI Dark, RCTI Light"
+      },
+      "Priority": "High +100"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/Cellar",
+      "FromFile": "assets/CR_CellarRustic_NoRoom_RCTI.tmx",
+      "When": {
+        "Extra Room": "false",
+        "Enable Cellar": "true",
+        "Cellar Recolor": "RCTI Dark, RCTI Light"
+      },
+      "Priority": "High +100"
+    }
+  ]
+}

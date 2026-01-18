@@ -1,0 +1,22 @@
+{
+	"Name": "Sophia Dialogue Expansion",
+	"Author": "degradingwindow",
+	"Version": "1.3.0",
+	"Description": "Adds new dialogue for Sophia from Stardew Valley Expanded",
+	
+	"UniqueID": "degradingwindow.SophiaDialogueExpansion",
+	"UpdateKeys": [ "Nexus:33245" ],
+	"ContentPackFor": 
+	{
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+	
+	"Dependencies": 
+	[
+	{
+		"UniqueID": "FlashShifter.StardewValleyExpandedCP",
+        "IsRequired": true
+		//Yes, you will need Stardew Valley Expanded in order to play the Stardew Valley Expanded mod.
+	}
+	]
+}

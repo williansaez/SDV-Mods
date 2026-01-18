@@ -1,0 +1,823 @@
+{
+    "Format": "2.0.0",
+    "ConfigSchema": {
+        "Version": {
+            "AllowValues": "dating, married",
+            "Default": "dating"
+        }
+    },
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020001"
+            },
+            "Entries": {
+                "Tue6": "Ei, @.$0#$b#Você por acaso sabe o que a Penny poderia gostar de ganhar de presente?$4#$e#Ah, não me entenda mal.$8#$b#Eu só queria agradecê-la por ser tão gentil com o Vincent.$10",
+                "Thu6": "Na verdade não gosto muito de ler.$0#$b#Mas a Penny faz parecer tão interessante... talvez eu deva dar uma chance.$1",
+                "Fri6": "Será o que a Penny está fazendo agora...$0#$e#Hã? Ah, eu não te vi, @.$0#$b#Como vai?$1",
+                "Sat6": "Ei, @!$1#$b#A gente se vê no bar mais tarde?$0#$e#Você acha que a Penny gostaria de se juntar a nós?$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Penny",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020001"
+            },
+            "Entries": {
+                "Mon6": "Olá, @. Você cultiva cactos na sua fazenda?$0#$e#...Hã? Deixa pra lá, eu só estava perguntando.$4",
+                "Wed6": "Ontem encontrei o Sebastian e a Abigail e na verdade conversamos por um tempo.$0#$b#Acho que o Sam me ajudou a me soltar.$1",
+                "Fri6": "Estava pensando em levar o Vincent e a Jas para uma excursão algum dia.$1#$b#Você acha que o Sam gostaria de ir?$4#$e#Q-Quero dizer, como o Vincent realmente o admira, achei que seria bom para os dois.$4",
+                "Sat6": "Ouvi dizer que o Sam costuma ir ao bar com os amigos.$3#$e#Quase nunca vou, mas...$3#$b#...talvez eu devesse ir daqui pra frente.$4"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020003"
+            },
+            "Entries": {
+                "Mon2": "Você se dá bem com a Penny?$0#$e#Ela é bem legal, na verdade!$1",
+                "Sat2": "Ultimamente não tenho conseguido compor boas músicas.$2#$b#Por sorte, a Penny me recomendou um livro que tem sido fonte de inspiração.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Penny",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020003"
+            },
+            "Entries": {
+                "Thu2": "Você sabia que o Sam gosta do Paradise Horizon?$1#$e#Ah... Você não sabe o que é isso...$2",
+                "Sat2": "A paixão que o Sam coloca ao fazer música é realmente impressionante.$0#$b#Eu o admiro por isso.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020004"
+            },
+            "Entries": {
+                "Wed4": "Você viu a Penny?$0#$e#Queria que ela me recomendasse outro livro sobre música.$0",
+                "Thu4": "A Penny e eu somos muito parecidos em vários aspectos?$0#$e#Isso também foi uma surpresa para mim!$1",
+                "Fri4": "Ultimamente tenho passado mais tempo com a Penny.$0#$b#Ela é realmente legal quando você a conhece melhor!$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Penny",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020004"
+            },
+            "Entries": {
+                "Mon4": "Hum... Você viu o Sam por acaso, @?$3#$e#Ah, não é nada disso.$0#$b#Só quero falar sobre como o Vincent está.$3",
+                "Fri4": "Espero que o Sam consiga fazer seu próprio show algum dia.$0",
+                "Sun4": "Outro dia o Sam me mostrou uma nova música que está compondo.$0#$b#Era muito boa!$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020002"
+            },
+            "Entries": {
+                "Mon8": "Sabe, estou aliviado que a Penny tenha tomado a iniciativa.$1#$e#O Sebastian costumava dizer que eu nunca conseguiria convidá-la para sair.$0#$b#Acho que ele estava certo.$10",
+                "Tue8": "Ei, @. Você viu a Penny?$1",
+                "Wed8": "É bom que o Vincent goste tanto da Penny.$1#$b#Mas obviamente eu a amo mais!$4",
+                "Thu8": "A Pam pode ser superprotetora com a Penny.$0#$b#Mas isso mostra o quanto ela a valoriza.$0",
+                "Fri8": "No começo a Pam desaprovava meu relacionamento com a Penny.$2#$b#Mas fico feliz por ter conseguido mostrar que levo a Penny a sério.$1",
+                "Sat8": "A Penny é tão gentil com a minha mãe, acho que eu a amo mais a cada dia.$4",
+                "Sun8": "Eu soube que a Penny era a pessoa certa desde o primeiro momento em que a vi.$4#$b#Eu só estava nervoso demais para me aproximar primeiro.$10",
+                "spring_Mon8": "Me sinto a pessoa mais sortuda do mundo com a Penny ao meu lado.$4",
+                "spring_Wed8": "Isso pode parecer estranho, mas...$0#$b#Sempre sinto falta da Penny mesmo quando a acabei de ver.$4",
+                "spring_Thu8": "Nem consigo imaginar como era minha vida antes da Penny.$4#$e#Ela é tão importante para mim...$4",
+                "summer_Wed8": "Às vezes sinto que deveria ser mais aberto com a Penny sobre o quanto me importo com ela...$2",
+                "summer_Sat8": "A Penny e eu levamos o Vincent e a Jas ao parque outro dia.$0#$e#Eles começaram a brigar por alguma bobagem.$2#$b#O trabalho dela certamente é difícil às vezes.$0",
+                "summer_Sun8": "O Seb acha a Penny muito legal.$0#$b#Fico feliz que meus dois melhores amigos se dêem bem.$1",
+                "fall_Mon8": "Você acha que eu seria um bom pai, @?$7#$e#A Penny certamente seria.$1",
+                "fall_Thu8": "A Penny me fez perceber que eu não estava passando tempo suficiente com o Vincent.$0#$b#Sabe, ele vai crescer rápido.$0",
+                "fall_Fri8": "A Penny vai jantar conosco hoje à noite.$0#$b#Estou tão animado!$1",
+                "winter_Tue8": "Minha mãe simplesmente adora a Penny.$1#$b#Ela é a namorada perfeita e seria uma ótima nora.$0",
+                "winter_Wed8": "É louco o quanto eu gosto do tempo que passo com a Penny...$4#$b#Então é assim que é estar apaixonado?$10",
+                "winter_Fri8": "Que tipo de música você acha que a Penny mais gostaria?$1#$e#Quero fazer algo especial para ela.$10",
+                "winter_Sun8": "Estou ansioso para passar mais tempo com a Penny no próximo ano.$4",
+                "spring_12": "O Vincent não para de falar sobre a Caça aos Ovos.$0#$b#Ele até nos pediu, a Penny e a mim, para irmos com ele.$0#$b#Mas acho que vamos deixar para outro ano.$0",
+                "spring_23": "A Penny está animada para o Festival das Flores.$0#$e#Tenho certeza de que ela vai estar linda como sempre.$4",
+                "fall_2": "Ontem pedi para minha mãe me ajudar a fazer uns muffins.$0#$b#Sabe, para o aniversário da Penny.$0#$b#Mas não deu muito certo...$2#$b#Então decidi comprar uma papoula na mercearia do Pierre.$0",
+                "winter_7": "A Penny e eu vamos construir um boneco de neve amanhã no Festival do Gelo.$1#$e#Você vai participar da competição de pesca, @?$0",
+                "spring_12_2": "O Vincent não para de falar sobre a Caça aos Ovos.$0#$b#Ele até nos pediu, a Penny e a mim, para irmos com ele.$0#$b#Mas acho que vamos deixar para outro ano.$0",
+                "spring_23_2": "A Penny está animada para o Festival das Flores.$0#$e#Tenho certeza de que ela vai estar linda como sempre.$4",
+                "fall_2_2": "Ontem pedi para minha mãe me ajudar a fazer uns muffins.$0#$b#Sabe, para o aniversário da Penny.$0#$b#Mas não deu muito certo...$2#$b#Então decidi comprar uma papoula na mercearia do Pierre.$0",
+                "winter_7_2": "A Penny e eu vamos construir um boneco de neve amanhã no Festival do Gelo.$1#$e#Você vai participar da competição de pesca, @?$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Penny",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020002"
+            },
+            "Entries": {
+                "Mon8": "Espero que minha mãe esteja sendo gentil com o Sam.$3#$b#Ela é meio superprotetora comigo.$3",
+                "Tue8": "Me pergunto o que o Sam está fazendo agora...$4#$e#Nos vemos bastante, mas ainda sinto falta dele todo dia.$0",
+                "Wed8": "Desde que eu e o Sam começamos a namorar, o Vincent não para de nos fazer todo tipo de pergunta.$0#$e#É meio constrangedor às vezes...$2",
+                "Thu8": "Fico feliz que o Vincent seja o irmão mais novo do Sam.$0#$b#Significa que posso passar ainda mais tempo com o Sam!$1",
+                "Fri8": "Minha mãe provavelmente está mais solitária agora que passo mais tempo com o Sam.$2#$b#Só espero que ela não tenha começado a frequentar o bar mais vezes.$2",
+                "Sat8": "Fiquei nervosa com a reação dos pais do Sam ao nosso relacionamento...$3#$e#Mas os dois são muito gentis comigo!$1",
+                "Sun8": "O Sam me deu uma ideia de atividade musical para a Jas e o Vincent.$0#$b#Eles vão adorar!$1",
+                "spring_Mon8": "Fico tão orgulhosa do Sam sempre que ele me mostra uma nova música que compôs.$0#$b#Se ele está feliz, eu também estou.$4",
+                "spring_Thu8": "...Ainda não consigo acreditar que estou namorando o homem mais maravilhoso do mundo.$4#$e#Para ser sincera, nem sei como tive coragem de convidá-lo para sair primeiro.$0",
+                "spring_Fri8": "Não sou fã do bar por motivos óbvios.$5#$b#Mas o Sam gosta de ir com a Abigail e o Sebastian, então eu vou com ele de vez em quando.$0",
+                "summer_Tue8": "Como sou professora, geralmente acordo cedo para chegar primeiro ao museu.$0#$b#Por outro lado, o Sam é o oposto; ele adora dormir.$0",
+                "summer_Wed8": "Quando eu lia romances, nunca achei que algo assim aconteceria comigo...$4#$e#O Sam me faz sentir como se eu fosse a única mulher no mundo.$4",
+                "summer_Sat8": "Quando o Sam e eu não conseguimos dormir, nos encontramos à noite para olhar as estrelas.$0#$e#A Maru nos contou qual é o melhor lugar para ver o céu.",
+                "fall_Mon8": "O Sebastian e o Sam gostam de jogar Solarion Chronicles.$0#$e#Eles me perguntaram se eu queria participar, mas acho que vou só assistir por enquanto.$0",
+                "fall_Thu8": "Stardew Valley não é o lugar perfeito para criar filhos?$0#$e#Claro que não agora. Eu e o Sam ainda somos jovens.$1",
+                "fall_Sun8": "Eu nunca namorei ninguém antes do Sam, então fiquei muito nervosa.$0#$e#Felizmente tudo parece natural com ele.$4",
+                "winter_Fri8": "Estou ansiosa pelo meu futuro com o Sam...$4#$b#Já sentiu isso alguma vez, @?",
+                "winter_Sat8": "Você acha que o Sam gostaria de casar algum dia, @?$4#$e#Eu certamente gostaria...$4",
+                "winter_Sun8": "Não consigo parar de pensar no Sam.$4#$e#Eu simplesmente o amo tanto...$4",
+                "spring_10": "Hoje é o aniversário do Vincent e ele está muito animado.$1#$b#Ele gosta de dentes-de-leão, então o Sam e eu vamos pegar alguns para ele mais tarde.$0",
+                "spring_12": "Amanhã é o Festival do Ovo.$1#$b#O Vincent e a Jas adoram participar da caça aos ovos, mesmo que a Abigail quase sempre ganhe.$0#$e#E eu posso passar mais tempo com o Sam.$4",
+                "spring_23": "Eu e o Sam estamos ansiosos pelo Baile das Flores.$0#$e#Estou um pouco nervosa, no entanto.$0#$e#O Sam diz que sou uma boa dançarina, mas não tenho certeza...$2",
+                "summer_17": "Hoje é aniversário do Sam.$1#$b#Mal posso esperar para passar com ele e a família dele!$1#$e#Além disso, tenho uma surpresa especial para ele mais tarde...$4",
+                "spring_10_2": "Hoje é o aniversário do Vincent e ele está muito animado.$1#$b#Ele gosta de dentes-de-leão, então o Sam e eu vamos pegar alguns para ele mais tarde.$0",
+                "spring_12_2": "Amanhã é o Festival do Ovo.$1#$b#O Vincent e a Jas adoram participar da caça aos ovos, mesmo que a Abigail quase sempre ganhe.$0#$e#E eu posso passar mais tempo com o Sam.$4",
+                "spring_23_2": "Eu e o Sam estamos ansiosos pelo Baile das Flores.$0#$e#Estou um pouco nervosa, no entanto.$0#$e#O Sam diz que sou uma boa dançarina, mas não tenho certeza...$2",
+                "summer_17_2": "Hoje é aniversário do Sam.$1#$b#Mal posso esperar para passar com ele e a família dele!$1#$e#Além disso, tenho uma surpresa especial para ele mais tarde...$4"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Pam",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020002"
+            },
+            "Entries": {
+                "Mon2": "Ei, filhote. A Penny me disse que começou a namorar o Sam.$4#$b#Espero que ele trate bem minha filha.$4#$b#...Ou vai ter que lidar comigo.$4",
+                "Mon10": "Oi, filhote.$0#$e#Tenho pensado em comprar algo legal para a Penny e o Sam.$0#b#Se ao menos eu pudesse pagar...$2",
+                "Tue4": "A Penny está realmente feliz esses dias.$0#$b#Acho que minha conversa com o Sam deu resultado.$1",
+                "Tue6": "Parece que a Penny encontrou um rapaz bonitão.$0",
+                "Wed8": "Tá tão sozinho em casa esses dias...$2#$b#Mas pelo menos minha menininha parece estar se divertindo.$0",
+                "Thu2": "O Sam tem que tratar bem a Penny e não virar igual aquele meu ex-marido.$4",
+                "Fri6": "Talvez o Sam seja um bom rapaz afinal.$0#$b#Só não quero ver a Penny se machucar.$2",
+                "Fri10": "Oi, fazendeiro.$0#$e#Jodi e eu não compartilhamos gostos.$0#$b#Mas agora somos família!$1",
+                "Sat8": "Ei, filhote.$1#$b#A Penny parece estar com planos a longo prazo com o Sam. Ele tem que tratá-la bem!$1",
+                "Sun10": "Sabe, o pai da Penny nos abandonou quando ela era pequena.$2#$e#Fico feliz que ela tenha crescido bem e encontrado um homem decente como o Sam."
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Vincent",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020002"
+            },
+            "Entries": {
+                "Mon2": "A Srta. Penny me cortou o cabelo.$1#$e#Ela também cortou o do meu irmão.$1",
+                "Mon6": "Vi a Srta. Penny com o meu irmão na praia ontem.$3#$b#Eles estavam se abraçando.$3#$e#É normal adultos fazerem isso?$3",
+                "Tue6": "Meu irmão me disse que um dia vai casar com a Srta. Penny.$2#$b#Isso não é justo, eu queria me casar com ela primeiro!$2",
+                "Tue8": "Eu vi meu irmão tentando fazer um muffin de sementes de papoula mais cedo.$3#$b#Talvez ele vá dar para a Srta. Penny.$0#$e#Mas acho que não vai ficar gostoso.$3",
+                "Wed4": "Perguntei para a Srta. Penny sobre o meu irmão.$3#$e#O rosto dela ficou vermelho como um tomate!$1",
+                "Wed8": "Talvez fosse legal se o Sam e a Srta. Penny casassem.$3#$b#A gente passaria mais tempo juntos!$1",
+                "Thu6": "Ouvi meu irmão tocando uma música nova.$0#$b#Ele disse que era uma música para a Srta. Penny.$1",
+                "Thu8": "Acho que a mamãe realmente gosta da Srta. Penny.$1#$e#Eu também gosto!$1",
+                "Fri2": "A Srta. Penny me disse que meu irmão vai se tornar uma estrela do rock um dia.$1",
+                "Fri10": "Meu irmão mudou bastante. Ele está mais gentil comigo esses dias.$1#$e#Talvez a Srta. Penny tenha pedido para ele...?$3",
+                "Sat2": "Meu irmão às vezes vem comigo ao museu.$0#$e#Acho que é porque ele quer ver a Srta. Penny.$3",
+                "Sat8": "A Srta. Penny veio à nossa casa outro dia.$0#$b#Achei que ela queria brincar comigo, mas ela foi para o quarto do meu irmão.$2",
+                "Sat10": "Senhor @, você acha que a Srta. Penny e meu irmão estão apaixonados?^Senhora @, você acha que a Srta. Penny e meu irmão estão apaixonados?$3",
+                "Sun8": "Você sabe fazer pulseiras?$3#$e#Quero fazer um presente para a Srta. Penny e meu irmão.$0",
+                "Sun10": "Ontem à noite a Srta. Penny veio jantar conosco.$1#$b#Fico tão feliz que meu irmão e ela sejam bons amigos!$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kent",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020002"
+            },
+            "Entries": {
+                "Mon4": "O Sam era apenas um garoto quando eu fui embora...$0#$b#...e agora ele até tem uma namorada.$1",
+                "Mon6": "Quando voltei, a Jodi me contou que a Penny era a professora do Vincent.$0#$b#...Acho que foi assim que ela e o Sam começaram a se aproximar.$2",
+                "Tue4": "Às vezes pergunto para a Penny sobre a vida do Sam.$2#$b#É triste...$2",
+                "Wed2": "A Penny já estava morando aqui quando eu fui embora?$2#$e#Eu não consigo me lembrar...$2",
+                "Wed8": "Às vezes é difícil não pensar no Sam como o garotinho que ele era quando eu fui embora.$0#$b#Eu nunca teria imaginado que ele teria uma namorada tão cedo.$0",
+                "Thu2": "Então o Sam encontrou uma namorada...$2#$b#O nome dela era Penny?$2",
+                "Thu10": "Espero ser um bom sogro para a Penny.$1",
+                "Fri8": "Ver o Sam com planos de casamento me deixa tão surpreso.$0#$e#...De um jeito bom.$1",
+                "Fri10": "Na verdade, estou torcendo para que o Sam e a Penny tenham filhos em breve.$1#$b#Como eu não pude estar presente para meus filhos, pelo menos quero ver meus netos crescerem.$1",
+                "Sat2": "A Jodi diz que a Penny é uma boa garota...$0#$b#Eu não falei muito com ela, mas acho que ela é.$1",
+                "Sat10": "De vez em quando a Penny vem jantar lá em casa.$1#$b#A gente se diverte, especialmente o Sam e o Vincent.$1",
+                "Sun8": "A Penny me ajudou a me aproximar do Sam.$1#$b#...Vou ser eternamente grato a ela por isso.$1",
+                "Sun10": "Ver o Sam namorando a Penny foi surpreendente no começo para mim e para a Jodi.$0#$b#Mas agora ela virou como nossa filha também.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020002"
+            },
+            "Entries": {
+                "Mon4": "Penny é uma garota adorável.$1#$b#Fico feliz que o Sam tenha encontrado alguém como ela.$1",
+                "Mon6": "Ontem rezei para Yoba pedindo felicidade para o Sam e a Penny.$0",
+                "Tue8": "Parece que foi ontem que o Sam era um bebê.$0#$b#E agora ele está planejando se casar!$2",
+                "Wed4": "Ouvi o Sam conversando com a Penny agora pouco.$0#$e#Não sabia que ele podia ser tão carinhoso!$1",
+                "Wed8": "A Penny realmente é uma boa influência tanto para o Vincent quanto para o Sam.$0",
+                "Thu8": "O Vincent me disse que o Sam estava compondo uma música para a Penny.$1#$b#Não é fofo?$1",
+                "Thu10": "Já comecei a pensar na Penny como parte da nossa família.$1",
+                "Fri8": "Você acha que o Sam e a Penny terão filhos um dia?$0#$b#Não sei se ele estará preparado...$2#$b#Mas eu adoraria ajudá-los.$1",
+                "Fri10": "Pra ser sincera, tenho medo de o Sam se mudar com a Penny algum dia...$2",
+                "Sat2": "A Penny me ajudou na horta ontem.$1#$b#Queria que o Sam aprendesse algo com ela.$0",
+                "Sat10": "Convidamos a Penny para jantar conosco ontem.$0#$b#Consigo ver por que o Sam e o Vincent gostam tanto dela.$0#$b#Ela até se ofereceu para lavar a louça!$1",
+                "Sun8": "Você não acha que o Sam e a Penny formam um casal incrível?$1#$e#Eles podem ter personalidades diferentes, mas se completam muito bem.$1",
+                "Sun10": "Pra ser sincera com você, @...$0#$b#No começo eu não tinha certeza sobre a Penny e o Sam, mas agora fico muito feliz em vê-los juntos.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Sam",
+            "When": {
+                "Version": "dating, married",
+                "HasMod: |contains=EduAnttunes.TownSchool.TMX": "false",
+                "HasSeenEvent": "59020002"
+            },
+            "Entries": {
+                "spring_Tue": "900 ArchaeologyHouse 18 12 0 \"Strings\\schedules\\Sam:spring.002\"/1340 Town 71 99 2/1830 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+                "spring_Thu": "1000 SamHouse 15 13 0/1040 SamHouse 17 15 2 sam_guitar \"Strings\\schedules\\Sam:spring.001\"/1340 Town 71 99 2/1830 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+                "summer_Sun": "1000 SamHouse 15 13 0/1040 SamHouse 17 15 2 sam_guitar/1340 Beach 46 24 2 \"Strings\\schedules\\Sam:summer.001\"/1900 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+                "summer_Wed": "1000 SamHouse 17 15 2/1100 SamHouse 17 15 2 sam_guitar/1600 SamHouse 17 13 0/1800 Forest 35 25 2 \"Strings\\schedules\\Sam:summer.002\"/2130 SamHouse 22 13 1 sam_sleep",
+                "fall_Sat": "1010 Town 30 90 1/1200 Town 12 12 1 \"Strings\\schedules\\Sam:fall.001\"/1700 Forest 66 50 2/2030 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+                "fall_Thu": "1000 SamHouse 15 13 0/1040 SamHouse 17 15 2 sam_guitar \"Strings\\schedules\\Sam:fall.002\"/1400 Town 71 99 2/1830 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+                "winter_Wed": "900 ArchaeologyHouse 18 12 0 \"Strings\\schedules\\Sam:winter.001\"/1340 Town 71 99 2/1830 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+                "winter_Sun": "1000 SamHouse 15 13 0/1040 SamHouse 17 15 2 sam_guitar/1320 Saloon 20 19 3/1830 Beach 12 38 2 \"Strings\\schedules\\Sam:winter.002\"/2130 SamHouse 22 13 1 sam_sleep"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Sam",
+            "When": {
+                "Version": "dating, married",
+                "HasMod: |contains=EduAnttunes.TownSchool.TMX": "true",
+                "HasSeenEvent": "59020002"
+            },
+            "Entries": {
+                "spring_Tue": "610 School 10 35 0 \"Strings\\schedules\\Sam:spring.002\"/1200 SamHouse 17 15 2 sam_guitar/1730 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+                "spring_Thu": "1000 SamHouse 15 13 0/1040 SamHouse 17 15 2 sam_guitar \"Strings\\schedules\\Sam:spring.001\"/1340 Town 71 99 2/1830 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+                "summer_Sun": "1000 SamHouse 15 13 0/1040 SamHouse 17 15 2 sam_guitar/1340 Beach 46 24 2 \"Strings\\schedules\\Sam:summer.001\"/1900 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+                "summer_Wed": "1000 SamHouse 17 15 2/1100 SamHouse 17 15 2 sam_guitar/1600 SamHouse 17 13 0/1800 Forest 35 25 2 \"Strings\\schedules\\Sam:summer.002\"/2130 SamHouse 22 13 1 sam_sleep",
+                "fall_Sat": "1010 Town 30 90 1/1200 Town 12 12 1 \"Strings\\schedules\\Sam:fall.001\"/1700 Forest 66 50 2/2030 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+                "fall_Thu": "1000 SamHouse 15 13 0/1040 SamHouse 17 15 2 sam_guitar \"Strings\\schedules\\Sam:fall.002\"/1400 Town 71 99 2/1830 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+                "winter_Wed": "610 School 10 35 0 \"Strings\\schedules\\Sam:winter.001\"/1200 SamHouse 17 15 2 sam_guitar/1830 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+                "winter_Sun": "1000 SamHouse 15 13 0/1040 SamHouse 17 15 2 sam_guitar/1320 Saloon 20 19 3/1830 Beach 12 38 2 \"Strings\\schedules\\Sam:winter.002\"/2130 SamHouse 22 13 1 sam_sleep"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/schedules/Sam",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020002"
+            },
+            "Entries": {
+                "spring.001": "Fico um pouco envergonhado em dizer isso mas...$4#$b#...a Penny é minha musa.$10",
+                "spring.002": "A Penny é realmente uma ótima professora.$1",
+                "summer.001": "Ver a Penny brincar com o Vincent me deixa tão feliz.$1",
+                "summer.002": "Penny...$4#$b#...eu te amo.$4",
+                "fall.001": "Eu me pergunto se a Penny e eu um dia traremos nossos próprios filhos aqui...$4",
+                "fall.002": "A Penny sempre me incentiva a correr atrás dos meus sonhos.$0#$b#Eu realmente gosto disso nela.$1",
+                "winter.001": "É bom ajudar a Penny com as crianças.$1",
+                "winter.002": "Este é um lugar especial para a Penny e para mim...$4"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/schedules/Penny",
+            "When": {
+                "Version": "dating, married",
+                "HasMod: |contains=EduAnttunes.TownSchool.TMX": "false",
+                "HasSeenEvent": "59020002"
+            },
+            "Entries": {
+                "spring_Tue": "830 Trailer 6 5 0/900 ArchaeologyHouse 17 9 2 penny_read \"Strings\\schedules\\Penny:spring.002\"/1400 Town 88 100 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 Trailer 4 9 1 penny_sleep",
+                "spring_Thu": "940 SamHouse 15 15 1 \"Strings\\schedules\\Penny:spring.001\"/1340 Trailer 12 6 0 penny_dishes/1600 Town 44 77 2 penny_sit_down/1840 Trailer 4 9 1 penny_sleep",
+                "summer_Sun": "800 Town 96 18 3/1340 Beach 47 24 2 \"Strings\\schedules\\Penny:summer.001\"/1900 Trailer 12 6 0 penny_dishes/2100 Trailer 4 9 1 penny_sleep",
+                "summer_Wed": "830 Trailer 6 5 0/900 ArchaeologyHouse 17 9 2 penny_read/1400 Town 88 100 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 Forest 34 25 2 \"Strings\\schedules\\Penny:summer.002\"/2130 Trailer 4 9 1 penny_sleep",
+                "fall_Sat": "1000 Town 32 89 2/1200 Town 12 13 1 \"Strings\\schedules\\Penny:fall.001\"/1700 Town 29 91 3/2000 Trailer 4 9 1 penny_sleep",
+                "fall_Thu": "940 SamHouse 15 15 1 \"Strings\\schedules\\Penny:spring.001\"/1340 Trailer 12 6 0 penny_dishes/1600 Town 44 77 2 penny_sit_down/1840 Trailer 4 9 1 penny_sleep",
+                "winter_Wed": "830 Trailer 6 5 0/900 ArchaeologyHouse 17 9 2 penny_read \"Strings\\schedules\\Penny:winter.001\"/1400 Town 88 100 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 Trailer 4 9 1 penny_sleep",
+                "winter_Sun": "800 Town 35 89 2 penny_read/1230 Trailer 12 6 0 penny_dishes/1600 Town 44 77 2 penny_sit_down/1840 Beach 13 38 2 \"Strings\\schedules\\Penny:winter.002\"/2130 Trailer 4 9 1 penny_sleep"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/schedules/Penny",
+            "When": {
+                "Version": "dating, married",
+                "HasMod: |contains=EduAnttunes.TownSchool.TMX": "true",
+                "HasSeenEvent": "59020002"
+            },
+            "Entries": {
+                "spring_Tue": "610 School 8 19 2 \"Strings\\schedules\\Penny:spring.002\"/1200 School 44 18 2/1330 School 36 19 1/1500 School 38 30 2/1640 School 8 19 2/1830 Trailer 4 9 1 penny_sleep",
+                "spring_Thu": "940 SamHouse 15 15 1 \"Strings\\schedules\\Penny:spring.001\"/1340 Trailer 12 6 0 penny_dishes/1600 Town 44 77 2 penny_sit_down/1840 Trailer 4 9 1 penny_sleep",
+                "summer_Sun": "800 Town 96 18 3/1340 Beach 47 24 2 \"Strings\\schedules\\Penny:summer.001\"/1900 Trailer 12 6 0 penny_dishes/2100 Trailer 4 9 1 penny_sleep",
+                "summer_Wed": "610 School 8 19 2/1200 School 44 18 2/1330 School 36 19 1/1500 School 38 30 2/1640 School 8 19 2/1830 Forest 34 25 2 \"Strings\\schedules\\Penny:summer.002\"/2230 Trailer 4 9 1 penny_sleep",
+                "fall_Sat": "1000 Town 32 89 2/1200 Town 12 13 1 \"Strings\\schedules\\Penny:fall.001\"/1700 Town 29 91 3/2000 Trailer 4 9 1 penny_sleep",
+                "fall_Thu": "940 SamHouse 15 15 1 \"Strings\\schedules\\Penny:spring.001\"/1340 Trailer 12 6 0 penny_dishes/1600 Town 44 77 2 penny_sit_down/1840 Trailer 4 9 1 penny_sleep",
+                "winter_Wed": "610 School 8 19 2 \"Strings\\schedules\\Penny:winter.001\"/1200 School 44 18 2/1330 School 36 19 1/1500 School 40 43 1/1640 School 8 19 2/1830 Trailer 4 9 1 penny_sleep",
+                "winter_Sun": "800 Town 35 89 2 penny_read/1230 Trailer 12 6 0 penny_dishes/1600 Town 44 77 2 penny_sit_down/1840 Beach 13 38 2 \"Strings\\schedules\\Penny:winter.002\"/2130 Trailer 4 9 1 penny_sleep"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Sebastian",
+            "When": {
+                "Version": "dating, married",
+                "HasSeenEvent": "59020002"
+            },
+            "Entries": {
+                "fall_Sat": "1030 SebastianRoom 9 4 3 sebastian_computer/1400 Railroad 32 47 1 sebastian_smoking/1800 Railroad 64 45 3/1930 Railroad 5 45 1/2130 SebastianRoom 11 9 1 sebastian_sleep"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Entries": {
+                "59020001/e 59020004/F/f Penny 1500/f Sam 1500/o Sam/o Penny/w sunny/z winter/t 1000 1230": "sweet/30 90/farmer 31 79 2 Penny 35 89 2 Sam 14 90 1 Vincent 14 91 1/skippable/pause 2000/emote Penny 32/pause 650/showFrame Penny 17/pause 80/showFrame Penny 18/pause 80/showFrame Penny 19/pause 3000/playSound crickets/pause 800/emote Penny 8/pause 500/speak Penny \"Hã?$3#$b#Um pássaro?$3\"/pause 700/showFrame Penny 18/pause 80/showFrame Penny 17/pause 650/playSound grassyStep/playSound grassyStep/move Penny 0 1 1/move Penny 1 0 1/playSound crickets/pause 650/speak Penny \"Oh, não! Coitadinho.$2#$b#Deve ter caído do ninho.$2\"/pause 380/speak Penny \"Deixa eu ajudar você.$0\"/pause 750/showFrame Penny 22/playSound shwip/playSound crickets/pause 900/move Penny -2 0 0/pause 700/playSound stairsdown/move Penny 0 -2 0/pause 700/playSound crickets/pause 600/speak Penny \"Aí está você!$1\"/pause 350/emote Penny 32/move Sam 15 0 1/pause 350/emote Sam 8/speak Sam \"Uau, oi, Penny.$1#$b#Não sabia que você gostava de subir em árvores!$1\"/pause 500/showFrame Penny 34/pause 600/speak Penny \"Oh... Olá, Sam.$3\"/pause 380/speak Penny \"Eu estava ajudando esse passarinho que caiu do ninho.$0\"/pause 850/speak Sam \"Bom, que gentil, Penny.$1#$b#Se você já terminou aí em cima, eu queria passar um tempo com você.$0\"/pause 1000/showFrame Penny 26/pause 80/showFrame Penny 27/pause 600/shake Penny 1000/pause 390/speak Penny \"E-eu não sabia que tinha subido tão alto...$2#$b#Não sei como vou descer...$2\"/pause 500/showFrame Penny 34/pause 800/speak Sam \"Hum...$2\"/pause 800/speak Sam \"E-eu posso te ajudar, se você quiser...$4\"/pause 650/emote Penny 16/pause 700/speak Penny \"Acho que não tenho escolha...$3\"/pause 700/move Sam 5 0 0/move Sam 0 -1 0/pause 300/speak Sam \"Ok... Apenas pule e eu te pego, Penny.$7\"/move Vincent 7 0 1/speak Sam \"Você está pronta?$0\"/pause 600/speak Penny \"Acho que sim...$3\"/pause 650/jump Penny/showFrame Sam 9/pause 700/speak Sam \"Viu? Eu te peguei!$1\"/pause 390/emote Sam 32/pause 700/speak Penny \"S-Sim...$4\"/pause 500/speak Penny \"E-ehm, Sam... Você pode me pôr no chão agora...?$4\"/pause 390/emote Sam 16/pause 390/speak Sam \"Ah! Desculpe, não quis te deixar desconfortável...$10\"/pause 600/move Sam -2 0 1/move Penny 0 1 3/pause 500/speak Penny \"Não se preocupe, Sam. Está tudo bem.$0\"/speak Penny \"Então, vamos passar um tempo juntos?$1\"/pause 350/emote Penny 32/pause 1500/end dialogue Penny \"Você viu o Sam?$0#$e#...Ah, eu só queria agradecer a ele por... alguma coisa.$4\""
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Beach",
+            "Entries": {
+                "59020002/e 59020001/F/f Penny 2000/f Sam 2000/o Sam/o Penny/w sunny/t 2000 2300": "moonlightJellies/11 38/farmer 38 3 2 Sam 11 30 2 Penny 13 38 1/skippable/pause 1800/move Sam 0 8 1/pause 700/speak Sam \"Olá, Penny.$0\"/pause 800/faceDirection Penny 3/speak Penny \"Aí está você... Eu estava preocupada que você não viesse, Sam.$0\"/pause 800/speak Sam \"Você sabe que eu nunca faria isso, Penny.$2\"/pause 800/speak Sam \"Com você não...$4\"/pause 800/speak Penny \"Ah...$4\"/pause 1600/speak Penny \"Parece que estamos sozinhos.$0\"/pause 900/faceDirection Penny 2/pause 1000/speak Penny \"A brisa do mar é refrescante, não acha?$0\"/pause 500/faceDirection Sam 2/pause 1380/speak Sam \"É...$3\"/pause 1800/speak Penny \"Adoro morar perto do mar.$0\"/pause 2000/speak Penny \"Hum... Sam...$0\"/pause 1000/speak Penny \"Sabe por que eu pedi para você se encontrar comigo aqui esta noite?$0\"/pause 800/faceDirection Penny 3/pause 600/faceDirection Sam 1/pause 500/speak Sam \"Aposto que você só queria ver meu rostinho bonito.$1\"/pause 700/speak Penny \"Claro que não, bobo.$5\"/pause 390/faceDirection Penny 2/pause 2200/emote Sam 8/pause 1700/faceDirection Penny 3/pause 800/speak Penny \"Como eu digo isso...$3\"/pause 1000/speak Penny \"Tenho tentado te dizer isso há algum tempo...#$b#...sobre como me sinto.$4\"/pause 1000/speak Penny \"Não consigo parar de pensar em você, Sam...$4\"/pause 390/emote Sam 16/pause 650/speak Penny \"Nunca senti isso por ninguém.$4\"/pause 1600/speak Sam \"E-eu...$8\"/pause 1500/speak Penny \"...Ah? E-eu entendi... Então você não sente o mesmo...$2\"/pause 390/emote Penny 28/pause 500/speak Sam \"Não, Penny!$8\"/pause 200/speak Sam \"Não foi isso que eu quis dizer...$2\"/pause 1500/playMusic musicboxsong/speak Sam \"Eu...$4\"/pause 500/speak Sam \"...sinto o mesmo por você.$4\"/pause 300/emote Penny 16/pause 600/speak Penny \"Sério?$4\"/pause 500/speak Penny \"Sam, eu...$4\"/pause 1800/move Sam 1 0 1/pause 1000/showFrame Penny 20/showFrame Sam 36/positionOffset Sam 2 0/showFrame Sam 36/positionOffset Sam 0 2/pause 50/positionOffset Sam 2 0/showFrame Sam 36/positionOffset Sam 0 2/pause 50/positionOffset Sam 2 0/showFrame Sam 36/positionOffset Sam 0 2/pause 50/positionOffset Sam 2 0/showFrame Sam 36/positionOffset Sam 0 2/pause 50/positionOffset Sam 2 0/pause 50/positionOffset Sam 2 0/pause 50/positionOffset Sam 2 0/pause 50/positionOffset Sam 2 0/pause 50/positionOffset Sam 2 0/pause 50/positionOffset Sam 2 0/positionOffset Sam 0 2/pause 50/positionOffset Sam 2 0/pause 50/positionOffset Sam 2 0/positionOffset Sam 0 2/pause 50/positionOffset Sam 2 0/pause 50/positionOffset Sam 2 0/pause 50/positionOffset Sam 2 0/specificTemporarySprite heart 14 38/pause 500/viewport move 0 -1 3000/pause 3200/end dialogue Sam \"Ei, @.$1#$b#Sabe de uma coisa?$4#$e#Já não sou mais um velho solteiro!$10\""
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/ArchaeologyHouse",
+            "Entries": {
+                "59020003/f Penny 500/F/f Sam 500/d Mon Thu Sat Sun/t 1000 1400": "libraryTheme/13 10/farmer 29 13 3 Sam 3 17 0 Penny 17 9 2 Jas 19 10 3 Vincent 16 10 1 Gunther 3 8 2/skippable/showFrame Penny 18/showFrame Vincent 24/showFrame Jas 22/pause 3500/playSound doorOpen/move Sam 0 -7 0/pause 800/emote Sam 40/pause 700/emote Gunther 40/pause 700/emote Sam 40/pause 1800/move Sam 4 0 2/move Sam 0 4 1/move Sam 4 0 0/move Sam 0 -5 1/move Sam 2 0 1/pause 750/speak Sam \"Oh, olá, Penny!$0#$b#Como estão o Vincent e a Jas?$1\"/pause 800/showFrame Penny 17/pause 80/showFrame Penny 16/pause 300/faceDirection Penny 3/pause 500/move Penny -2 0 3/pause 600/speak Penny \"Olá, Sam.$0#$b#Estávamos fazendo alguns exercícios de matemática.$0\"/pause 700/speak Penny \"O que te traz aqui hoje?$0\"/pause 800/speak Sam \"Bem, estou com um bloqueio criativo...$2\"/pause 500/speak Sam \"...e eu esperava encontrar alguns livros sobre minha banda favorita, Paradise Horizon, para me inspirar.$2\"/pause 600/speak Sam \"Perguntei ao Gunther, mas ele parece não ter ouvido falar deles.$2\"/pause 500/emote Penny 16/pause 500/speak Penny \"Você disse Paradise Horizon?$0\"/pause 200/speak Penny \"Eu adoro eles!$1\"/pause 380/speak Penny \"O último álbum deles foi incrível.$1\"/pause 500/emote Sam 16/pause 500/speak Sam \"Uau, você gosta deles, Penny?$8\"/pause 200/speak Sam \"Jamais teria imaginado.$8\"/pause 800/emote Sam 32/emote Penny 32/pause 700/speak Penny \"Posso te ajudar, se quiser.$1#$b#Tem alguns livros interessantes sobre eles.$1\"/pause 600/speak Penny \"Só um momento, Sam.$0\"/pause 500/faceDirection Penny 1/pause 550/speak Penny \"Vincent, Jas, terminem os exercícios 5 e 8.$0#$b#Vou ajudar o Sam e depois vamos revisá-los, certo?$1\"/pause 600/faceDirection Penny 3/pause 550/speak Penny \"Venha comigo.$1\"/pause 750/viewport move 0 -1 3700/move Penny -1 0 0/move Penny 0 -4 1/move Penny 3 0 0/move Sam 1 0 0/move Sam 0 -4 1/move Sam 2 0 0/pause 900/emote Penny 56/pause 600/emote Sam 56/pause 2000/end dialogue Sam \"A Penny é tão gentil, não acha, @?\""
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/SamHouse",
+            "Entries": {
+                "59020004/e 59020003/F/f Penny 1000/f Sam 1000/t 1300 1600": "jaunty/5 15/farmer 7 5 2 Sam 4 14 2 Penny 4 26 0/skippable/pause 1500/playSound doorOpen/move Penny 0 -10 0/pause 800/speak Penny \"Olá, Sam.$0\"/pause 700/speak Sam \"Oi, Penny.$0\"/pause 800/speak Penny \"Vim entregar um livro novo ao Vincent.$0\"/pause 380/speak Sam \"Vincent?$0#$b#Ele não está em casa agora. Acho que foi visitar a Jas.$0\"/pause 800/speak Penny \"Oh...$2#$b#Bem, então eu vou passar mais tarde.$2\"/pause 300/speak Penny \"Até mais, Sam.$0\"/pause 380/faceDirection Penny 2/pause 100/emote Sam 16/pause 200/speak Sam \"Espere, Penny!$8\"/pause 500/faceDirection Penny 0/pause 300/emote Penny 8/pause 300/speak Sam \"Na verdade...$0#$b#Eu esperava que você me desse sua opinião sobre uma nova música na qual tenho trabalhado.$1\"/pause 380/speak Sam \"Sabe, você me ajudou muito ao recomendar aquele livro.$1\"/pause 800/speak Penny \"Eu adoraria, Sam.$1\"/pause 380/emote Sam 32/pause 300/speak Sam \"Legal!$1\"/pause 380/speak Sam \"Venha ao meu quarto, minha guitarra está lá.$0\"/pause 650/viewport move 2 0 5000/move Sam 0 1 1/move Sam 8 0 0/doAction 12 14/move Sam 0 -2 1/move Sam 5 0 2/move Sam 0 2 1/move Penny 0 -1 1/move Penny 8 0 0/move Penny 0 -2 1/move Penny 7 0 2/move Penny 0 2 3/pause 500/playMusic sampractice/animate Sam false true 200 22 23/pause 500/emote Sam 56/pause 550/emote Penny 20/pause 2000/end dialogue Penny \"Sam toca guitarra muito bem.$1\""
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/FarmHouse",
+            "When": {
+                "Version": "married"
+            },
+            "Entries": {
+                "59020036/e 59020002/u 21/y 3/z summer/z fall/z winter/o Penny/o Sam/x LifeCycle.PennySam": "null"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "When": {
+                "Version": "married"
+            },
+            "Entries": {
+                "59020025/e 59020002/z summer/z fall/z winter/o Penny/o Sam/n LifeCycle.PennySam/w sunny/t 1600 1730": "sweet/29 66/Penny 28 65 2 Sam 29 65 2 Lewis 26 65 2 Gunther 23 67 0 Maru 24 67 0 Abigail 25 67 0 Sebastian 26 67 0 Jodi 31 67 0 Vincent 32 67 0 Kent 33 67 0 Pam 34 67 0 Robin 24 68 0 Demetrius 25 68 0 Harvey 23 68 0 farmer 26 68 0 Marnie 31 68 0 Jas 32 68 0 Shane 33 68 0 Haley 24 69 0 Emily 25 69 0 Sandy 26 69 0 Clint 24 71 0 Gus 31 69 0 Willy 32 69 0 Elliott 33 69 0 Leah 34 69 0 Alex 23 70 0 George 24 70 0 Evelyn 25 70 0 Caroline 32 70 0 Pierre 33 70 0 Linus 34 71 0/skippable/showFrame Penny 36/showFrame Sam 48/addTemporaryActor ArchLF 128 80 25 65 0 false Character/pause 3900/speak Lewis \"Olá a todos e obrigado por estarem aqui neste dia tão importante.$0\"/pause 1600/speak Lewis \"Hoje estamos aqui para testemunhar um ato de amor.$0#$b#O amor é o que uniu a Penny e o Sam.$0\"/pause 1600/speak Lewis \"E o casamento é o compromisso supremo de amar outra pessoa.$0#$b#É a relação mais íntima de todas.$0#$b#É o começo de uma vida totalmente nova.$0\"/pause 1600/speak Lewis \"Hoje Penny e Sam proclamam seu amor e compromisso ao mundo.$0#$b#E nós estamos aqui reunidos para nos alegrarmos, com eles e por eles, na nova vida que agora iniciam juntos.$1\"/pause 1200/speak Lewis \"Mas primeiro, vamos receber o pai do Sam, Kent, para dizer algumas palavras.$1\"/pause 850/move Kent 0 -1 3/move Kent -2 0 0/move Kent 0 -1 2/pause 850/speak Kent \"Boa noite a todos.$0#$b#Vocês já sabem, mas sou o orgulhoso pai do Sam e agora também o sogro da Penny.$1#$b#E em nome da minha família, quero dizer o quanto somos gratos por vocês estarem aqui conosco hoje.$1\"/pause 800/faceDirection Kent 3/pause 650/animate Sam true true 150 49/animate Penny true true 150 37/faceDirection Lewis 1/pause 800/speak Kent \"Sam...$0#$b#...como seu pai, devo dizer que estou muito orgulhoso de você.$1\"/pause 800/speak Kent \"Infelizmente, não pude ter o prazer de vê-lo crescer e me alegrar ao ver o jovem que você se tornou.$2#$b#Por isso este dia significa tanto para mim.$1\"/pause 800/speak Kent \"Eu sei que você será um marido incrível e, espero, um grande pai um dia.$1\"/pause 1180/speak Kent \"Penny...$0#$b#Também quero agradecer por ser uma mulher tão maravilhosa.$0#$b#Sei que vocês fazem um ao outro muito felizes.$1\"/pause 800/speak Kent \"Bem-vinda à nossa família.$1\"/pause 1000/speak Kent \"Parabéns a vocês dois no dia do casamento.$1\"/pause 380/emote Sam 32/pause 800/move Kent 0 1 1/move Kent 2 0 2/move Kent 0 1 0/pause 200/faceDirection Lewis 2/stopAnimation Penny/stopAnimation Sam/showFrame Penny 36/showFrame Sam 48/pause 1800/speak Lewis \"Agora, é minha grande honra unir Penny e Sam pelos laços do matrimônio!$1\"/pause 800/move Lewis 0 1 1/move Lewis 1 0 2/move Lewis 0 1 1/move Lewis 1 0 0/pause 800/showFrame Lewis 21/pause 1200/animate Penny true true 150 37/showFrame Sam 49/pause 1380/speak Lewis \"Vocês podem se beijar.$1\"/pause 1500/stopAnimation Penny/animate Penny true true 150 38/showFrame Sam 50/positionOffset Sam -2 0/pause 50/positionOffset Penny 2 0/pause 50/positionOffset Sam -2 0/pause 50/positionOffset Penny 2 0/pause 50/positionOffset Sam -2 0/pause 50/positionOffset Penny 2 0/pause 50/positionOffset Sam -2 0/pause 50/positionOffset Penny 2 0/specificTemporarySprite heart 29 65/pause 2600/positionOffset Sam 2 0/pause 50/positionOffset Penny -2 0/pause 50/positionOffset Sam 2 0/pause 50/positionOffset Penny -2 0/stopAnimation Penny/showFrame Penny 36/pause 380/showFrame Sam 48/pause 800/screenFlash .8/playMusic wedding/pause 150/animate Emily false true 320 16 16 16 16 16 16 17 17 17 17 20 20 20 21 21 21 21 18 18 19 19 31 31 31 35 35 34 34 34 22 22 22 22 23 23 23/move Lewis 0 1 1/move Lewis 2 0 1/animate Lewis true true 380 19 19 19 19 19 19 22 23 23 23/animate Marnie true true 380 20 20 20 20 20 20 21 22 22 23 23 23/pause 300/move Jodi 0 -1 3/move Jodi -2 0 0/faceDirection Abigail 1/faceDirection Sebastian 3/pause 350/animate Demetrius false true 380 24 24 24 25 26/animate Robin false true 380 20 20 20 21 22/pause 200/faceDirection Vincent 2/pause 600/faceDirection Kent 1/faceDirection Pam 3/pause 200/faceDirection Elliott 3/animate Willy false true 350 28 29 30 31/pause 200/faceDirection Caroline 1/faceDirection Pierre 3/move Haley -1 0 2/pause 600/move Maru 0 -1 1/move Maru 4 0 0/pause 1000/move Jodi 0 2 3/move Jodi -2 0 3/pause 250/faceDirection farmer 1/move Sebastian 3 0 0/move Sebastian 0 -1 0/animate Abigail false true 350 16 17 18 19/pause 1200/move Maru -5 0 2/faceDirection Kent 2/move Pam 0 -1 3/move Pam -4 0 2/move Pam 0 1 3/move Pam -2 0 0/move Pam 0 -1 0/pause 1800/warp Pam 1000 1000/showFrame Penny 39/pause 3600/addConversationTopic PennySamWedding 4/end"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "Entries": {
+            "PennySamWedding": "Nunca imaginei que casaria tão cedo.$0#$b#Agora estou nas nuvens!$4"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Penny",
+            "Entries": {
+            "PennySamWedding": "Oi, @.$0#$e#O casamento foi lindo, não acha?$0#$b#Eu e o Sam estávamos muito nervosos, mas deu tudo certo!$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Vincent",
+            "Entries": {
+            "PennySamWedding": "Mmm...$0#$b#Se a Penny é casada com meu irmão, será que não posso me casar com ela também?$2"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "Entries": {
+            "PennySamWedding": "Ah, @, você nem imagina o quanto estive ocupada nessas semanas.$2#$b#Eu me ofereci para ajudar o Sam e a Penny a planejar o casamento, mas não sabia que tinha tanta coisa pra verificar...$2#$e#Meu casamento com o Kent foi bem mais simples, só foram nossos parentes mais próximos.$0#$e#Mas fico feliz que tudo tenha ocorrido bem.$0#$b#Nunca vi o Sam tão feliz.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kent",
+            "Entries": {
+            "PennySamWedding": "Foi difícil escrever o discurso pro casamento do Sam.$0#$b#Nunca fui bom nessas coisas.$0#$b#Mas eu queria muito dizer pro Sam o que eu sentia...$0#$e#Preciso ir agora. Tenha um bom dia, @.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Pam",
+            "Entries": {
+            "PennySamWedding": "Acho que minha menininha vai morar com o Sam logo.$0#$b#Pelo menos disseram que não vão sair do vale.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Lewis",
+            "Entries": {
+            "PennySamWedding": "Não tenho muitas oportunidades de oficiar casamentos, mas adoro fazer isso.$0#$b#É bom ver esses jovens apaixonados.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sebastian",
+            "Entries": {
+            "PennySamWedding": "Sempre achei que o Sam não tivesse coragem de pedir a Penny em casamento.$0#$b#Sabe, ele nem conseguiu chamá-la pra sair primeiro.$0#$e#Mas fico feliz por ele. Só espero que não se esqueça de mim!$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Abigail",
+            "Entries": {
+            "PennySamWedding": "Fiz uma aposta com o Sebastian pra ver quando a Penny e o Sam iam se casar.$0#$b#Eu ganhei!$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Maru",
+            "Entries": {
+            "PennySamWedding": "Foi maravilhoso acompanhar a Penny no casamento.$0#$b#Ela até chorou de alegria antes da cerimônia começar!$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jas",
+            "Entries": {
+            "PennySamWedding": "A Penny estava tão linda no casamento.$0#$b#Quero vestir um vestido de noiva também algum dia!$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Caroline",
+            "Entries": {
+            "PennySamWedding": "A Jodi ficou tão animada com o casamento da Penny e do Sam.$0#$b#Ela não parava de falar nisso!$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Haley",
+            "Entries": {
+            "PennySamWedding": "Eu não conheço muito a Penny, mas o vestido dela estava bonito.$0#$b#Combina muito com ela.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Emily",
+            "Entries": {
+            "PennySamWedding": "A Penny me pediu ajuda pra escolher o vestido de noiva.$0#$b#Também fiz alguns ajustes, ficou maravilhoso nela!$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Gus",
+            "Entries": {
+            "PennySamWedding": "A Pam parou de ir tanto ao bar quando a Penny começou a planejar o casamento.$0#$b#Ela pode não ser a mãe perfeita, mas se importa com a Penny.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Evelyn",
+            "Entries": {
+            "PennySamWedding": "Oi, querido.$0#$e#Casamento nem sempre é fácil, a Penny e o Sam vão ter que superar muitas dificuldades juntos.$0#$b#Que eles se tornem pessoas melhores juntos.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Robin",
+            "Entries": {
+            "PennySamWedding": "Falei com a Penny e o Sam depois do casamento.$0#$b#Disseram que querem morar juntos logo.$0#$b#Vou ajudá-los a construir a casa dos sonhos com prazer.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Marnie",
+            "Entries": {
+            "PennySamWedding": "Eu adoro casamentos, são tão românticos.$0#$b#Espero que a Penny e o Sam tenham uma vida longa e feliz juntos.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Elliott",
+            "Entries": {
+            "PennySamWedding": "Ah... casamentos...$0#$e#Me lembram este poema...$0#$e#'Que vocês enfrentem o mundo juntos com todas as esperanças e sonhos$0#$b#Que sejam o sol e a lua um do outro enquanto seus destinos se desenrolam$0#$b#E caso se percam de vista e comecem a se afastar$0#$b#Que voltem a se encontrar seguindo a bússola de seus corações'$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Harvey",
+            "Entries": {
+            "PennySamWedding": "A chave para um casamento saudável é a comunicação, compartilhar pensamentos e sentimentos um com o outro.$0#$b#Espero que a Penny e o Sam lembrem disso.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020002"
+            },
+            "Entries": {
+                "Wed8": "É bom que o Vincent goste tanto da Penny.$1#$b#Mas obviamente eu a amo mais!$4",
+                "Thu8": "Você acha que eu seria um bom pai, @?$7#$e#A Penny com certeza acha.$1#$e#Ultimamente temos conversado sobre ter filhos.$0#$b#Seria incrível se eles puxassem a Penny.$1",
+                "Sat8": "Às vezes sinto que devia ser mais aberto com a Penny sobre o quanto me importo com ela...$2",
+                "spring_Mon8": "Me sinto a pessoa mais sortuda do mundo com a Penny ao meu lado.$4",
+                "spring_Wed8": "Isso pode soar estranho para você, mas...$0#$b#Eu sempre sinto falta da Penny mesmo depois de tê-la visto.$4",
+                "spring_Thu8": "Nem consigo imaginar como era minha vida antes da Penny.$4#$e#Ela é tão importante para mim...$4",
+                "summer_Wed8": "Acho que amo a Penny mais a cada dia.$4",
+                "summer_Sat8": "Eu e a Penny levamos o Vincent e a Jas ao parque outro dia.$0#$e#Eles começaram a brigar por alguma bobagem.$2#$b#O trabalho dela certamente é difícil às vezes.$0",
+                "summer_Sun8": "O Seb acha a Penny muito legal.$0#$b#Fico feliz que meus dois melhores amigos se dêem bem.$1",
+                "fall_Thu8": "A Penny me fez perceber que eu não passava tempo suficiente com o Vincent.$0#$b#Sabe, ele vai crescer rápido.$0",
+                "winter_Wed8": "É louco o quanto eu gosto do tempo que passo com a Penny...$4#$b#Então é assim que é estar apaixonado?$10",
+                "winter_Fri8": "Que tipo de música você acha que a Penny mais gostaria?$1#$e#Quero fazer algo especial para ela.$10",
+                "winter_Sun8": "Estou ansioso para passar mais tempo com a Penny no próximo ano.$4",
+                "spring_12": "O Vincent não para de falar sobre a Caça aos Ovos.$0#$b#Ele até pediu para a Penny e para mim irmos com ele.$0#$b#Mas acho que vamos deixar para o próximo ano.$0",
+                "fall_2": "Ontem pedi para minha mãe me ajudar a fazer uns muffins.$0#$b#Sabe, para o aniversário da Penny.$0#$b#Mas não deu muito certo...$2#$b#Então decidi comprar uma papoula na mercearia do Pierre.$0",
+                "winter_7": "A Penny e eu vamos construir um boneco de neve amanhã no Festival do Gelo.$1#$e#Você vai participar da competição de pesca, @?$0",
+                "fall_2_2": "Ontem pedi para minha mãe me ajudar a fazer uns muffins.$0#$b#Sabe, para o aniversário da Penny.$0#$b#Mas não deu muito certo...$2#$b#Então decidi comprar uma papoula na mercearia do Pierre.$0",
+                "winter_7_2": "A Penny e eu vamos construir um boneco de neve amanhã no Festival do Gelo.$1#$e#Você vai participar da competição de pesca, @?$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020025"
+            },
+            "Entries": {
+                "Mon8": "Você sabe, estou aliviado que Penny fez o primeiro movimento.$1#$e#Sebastian costumava me dizer que eu nunca conseguiria chamá-la pra sair.$0#$b#Acho que ele estava certo.$10#$e#Ele ainda não acredita que estamos casados.$1",
+                "Tue8": "Ei, @.$1#$e#Ontem minha mãe passou a noite inteira olhando as fotos do meu casamento.$0#$b#Ela até ligou para a Pam para se juntar a ela!$1",
+                "Fri8": "No começo a Pam desaprovava meu relacionamento com a Penny.$2#$b#Mas fico feliz por mostrar que estou levando a sério.$1#$e#Ela ficou tão feliz no nosso casamento!$1",
+                "Sun8": "Eu soube que Penny era a pessoa certa desde o primeiro momento em que a vi.$4#$b#Só estava nervoso demais para me aproximar.$10#$e#Parece surreal que agora ela seja minha esposa...$4",
+                "fall_Mon8": "A Pam pode ser superprotetora com a Penny.$0#$b#Mas isso mostra o quanto ela a valoriza.$0#$e#Vou me esforçar para ser um ótimo genro para ela.$1",
+                "fall_Fri8": "Ei, @.$0#$e#Estava pensando... ainda parece estranho que Penny e eu sejamos casados...$4",
+                "winter_Tue8": "Minha mãe simplesmente adora a Penny.$1#$b#Ela é a esposa perfeita e uma ótima nora.$0",
+                "spring_23_2": "A Penny está animada para o Festival das Flores.$0#$e#Tenho certeza de que ela vai estar linda como sempre.$4#$e#Afinal, ela é minha esposa...$4"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Penny",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020025"
+            },
+            "Entries": {
+                "Tue8": "Me pergunto o que o Sam está fazendo agora...$4#$e#Nos vemos bastante, mas ainda sinto falta dele todo dia.$0",
+                "Sat8": "Fiquei nervosa com a reação dos pais do Sam sobre nosso relacionamento...$3#$e#Mas os dois são muito gentis comigo!$1",
+                "spring_Mon8": "Me sinto tão orgulhosa do Sam sempre que ele me mostra uma nova música que compôs.$0#$b#Se ele está feliz, eu também fico.$4",
+                "spring_Thu8": "O Sam me deu uma ideia de uma atividade musical para a Jas e o Vincent.$0#$b#Eles vão amar!$1",
+                "spring_Fri8": "Não sou fã do bar por motivos óbvios.$5#$b#Mas o Sam gosta de ir lá com a Abigail e o Sebastian, então eu vou de vez em quando.$0",
+                "summer_Tue8": "Como sou professora, geralmente acordo cedo para chegar primeiro no museu.$0#$b#Por outro lado, o Sam é o oposto; ele adora dormir.$0",
+                "summer_Wed8": "Quando eu lia romances nunca imaginei que algo assim aconteceria comigo...$4#$e#O Sam me faz sentir como se eu fosse a única mulher no mundo.$4",
+                "summer_Sat8": "Quando o Sam e eu não conseguimos dormir, nos encontramos à noite para olhar as estrelas.$0#$e#A Maru nos disse qual é o melhor lugar para observar o céu.",
+                "fall_Mon8": "Sebastian e o Sam gostam de jogar Solarion Chronicles.$0#$e#Eles me perguntaram se eu queria participar, mas acho que vou só assistir por enquanto.$0",
+                "fall_Thu8": "Stardew Valley não é o lugar perfeito para criar filhos?$0#$e#Sam e eu estamos falando bastante sobre isso ultimamente...$0",
+                "fall_Sun8": "Nunca namorei ninguém antes do Sam, então eu estava muito nervosa.$0#$e#Felizmente, tudo parece natural com ele...$4",
+                "winter_Fri8": "Estou ansiosa para ter filhos com o Sam algum dia...$4#$e#Eles seriam tão fofos!$1",
+                "winter_Sat8": "Fico feliz que o Vincent seja o irmão mais novo do Sam.$0#$b#Isso significa que posso passar ainda mais tempo com o Sam!$1",
+                "winter_Sun8": "Não consigo parar de pensar no Sam.$4#$e#Eu o amo tanto...$4",
+                "spring_10": "Hoje é o aniversário do Vincent e ele está muito animado.$1#$b#Ele gosta de dentes-de-leão, então o Sam e eu vamos pegar alguns para ele mais tarde.$0",
+                "spring_12": "Amanhã é o Festival do Ovo.$1#$b#O Vincent e a Jas adoram participar da caça aos ovos, apesar de a Abigail quase sempre ganhar.$0#$e#E eu posso passar mais tempo com o Sam.$4",
+                "spring_23": "O Sam e eu estamos ansiosos para o Baile das Flores.$0#$e#Estou um pouco nervosa, no entanto.$0#$e#O Sam diz que eu danço bem, mas não tenho certeza...$2",
+                "summer_17": "Hoje é o aniversário do Sam.$1#$b#Mal posso esperar para passar com ele e a família dele!$1#$e#Além disso, tenho uma surpresa especial pra ele mais tarde...$4",
+                "spring_10_2": "Hoje é o aniversário do Vincent e ele está muito animado.$1#$b#Ele gosta de dentes-de-leão, então o Sam e eu vamos pegar alguns para ele mais tarde.$0",
+                "spring_12_2": "Amanhã é o Festival do Ovo.$1#$b#O Vincent e a Jas adoram participar da caça aos ovos, apesar de a Abigail quase sempre ganhar.$0#$e#E eu posso passar mais tempo com o Sam.$4",
+                "spring_23_2": "O Sam e eu estamos ansiosos para o Baile das Flores.$0#$e#Estou um pouco nervosa, no entanto.$0#$e#O Sam diz que eu danço bem, mas não tenho certeza...$2",
+                "summer_17_2": "Hoje é o aniversário do Sam.$1#$b#Mal posso esperar para passar com ele e a família dele!$1#$e#Além disso, tenho uma surpresa especial pra ele mais tarde...$4"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Penny",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020025"
+            },
+            "Entries": {
+                "Mon8": "Minha mãe é meio superprotetora comigo, mas acho que o dia do meu casamento foi um dos momentos mais felizes da vida dela.$1",
+                "Wed8": "O Vincent está muito feliz que eu e o Sam casamos.$0#$e#Acho que ele até chorou no casamento.$0#$e#Minha mãe também derramou algumas lágrimas.$0",
+                "Thu8": "Fiquei muito nervosa no meu casamento...$2#$b#Eu e o Sam passamos semanas organizando tudo.$0#$e#Felizmente deu tudo certo e o Sam é o melhor marido do mundo.$1",
+                "Fri8": "Minha mãe provavelmente está mais solitária agora que me casei com o Sam.$2#$b#Só espero que ela não tenha começado a frequentar mais o bar.$2",
+                "Sun8": "...Ainda não consigo acreditar que estou casada com o homem mais maravilhoso do mundo.$4#$e#Para ser sincera, nem sei como tive coragem de convidá-lo para sair primeiro.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Pam",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020002"
+            },
+            "Entries": {
+                "Mon6": "Oi, filho.$0#$e#Tenho pensado em comprar algo legal para a Penny e o Sam.$0#$b#Se ao menos eu pudesse pagar...$2",
+                "Wed2": "A Penny está realmente feliz esses dias.$0#$b#Acho que minha conversa com o Sam funcionou.$1",
+                "Wed6": "Tá tão solitário em casa esses dias...$2#$b#Mas pelo menos minha filha parece estar aproveitando.$0",
+                "Thu4": "O Sam tem que tratar bem a Penny e não virar igual aquele meu ex-marido.$4",
+                "Fri6": "Talvez o Sam seja um bom rapaz afinal.$0#$b#Só não quero ver a Penny se machucar.$2",
+                "Sun8": "Sabe, o pai da Penny nos abandonou quando ela era pequena.$2#$e#Fico feliz que ela cresceu bem e encontrou um homem decente como o Sam."
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Pam",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020025"
+            },
+            "Entries": {
+                "Mon10": "Oi, filhote.$0#$e#Tenho pensado em comprar algo legal para a Penny e o Sam.$0#$b#Se ao menos eu pudesse pagar...$2",
+                "Wed10": "É tão solitário em casa esses dias...$2#$b#Mas pelo menos minha filhinha parece estar curtindo a vida de casada.$0#$e#Ela arrumou um moço bonitão, né?",
+                "Thu10": "O Sam que trate bem a Penny e não vire igual aquele ex-marido meu.$4",
+                "Fri10": "Oi, fazendeiro.$0#$e#Jodi e eu não temos gostos parecidos.$0#$e#Mas agora somos família!$1",
+                "Sun10": "Sabe, o pai da Penny nos abandonou quando ela era pequena.$2#$e#Fico feliz que ela cresceu bem e casou com um homem decente como o Sam."
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Vincent",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020002"
+            },
+            "Entries": {
+                "Mon2": "A Srta. Penny me cortou o cabelo.$1#$e#Ela também cortou o cabelo do meu irmão.$1",
+                "Mon6": "Eu vi a Srta. Penny com meu irmão na praia ontem.$3#$b#Eles estavam se abraçando.$3#$e#É normal adultos fazerem isso?$3",
+                "Tue6": "Meu irmão me disse que ia casar com a Srta. Penny um dia.$2#$b#Isso não é justo, eu queria casar com ela primeiro!$2",
+                "Tue8": "Vi meu irmão tentando cozinhar um muffin de sementes de papoula mais cedo.$3#$b#Talvez ele esteja querendo dar para a Srta. Penny.$0#$e#Mas não creio que vai ficar gostoso.$3",
+                "Thu6": "Ouvi meu irmão tocando uma música nova.$0#$b#Ele disse que era uma canção para a Srta. Penny.$1",
+                "Thu8": "Acho que mamãe realmente gosta da Srta. Penny.$1#$e#Eu também gosto!$1",
+                "Fri2": "A Srta. Penny me disse que meu irmão vai virar uma estrela do rock um dia.$1",
+                "Fri6": "Meu irmão mudou bastante. Ele está mais legal comigo esses dias.$1#$e#Talvez a Srta. Penny tenha contado para ele...?$3",
+                "Sat2": "Meu irmão às vezes me leva para o museu.$0#$e#Acho que é porque ele quer ver a Srta. Penny.$3",
+                "Sat4": "A Srta. Penny veio na nossa casa outro dia.$0#$b#Pensei que ela queria brincar comigo, mas ela foi para o quarto do meu irmão.$2",
+                "Sat6": "Senhor @, você acha que a Srta. Penny e meu irmão estão apaixonados?^Srta. @, você acha que a Srta. Penny e meu irmão estão apaixonados?$3",
+                "Sun6": "Você sabe fazer pulseiras?$3#$e#Quero fazer um presente para a Srta. Penny e meu irmão.$0",
+                "Sun8": "Ontem à noite a Srta. Penny veio jantar conosco.$1#$b#Fico tão feliz que meu irmão e ela sejam bons amigos!$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Vincent",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020025"
+            },
+            "Entries": {
+                "Mon8": "Eu vi a Srta. Penny com meu irmão na praia ontem.$3#$b#Eles estavam se abraçando.$3#$e#É normal adultos fazerem isso?$3",
+                "Tue10": "Vi meu irmão tentando fazer um muffin de sementes de papoula mais cedo.$3#$b#Talvez ele queira dar para a Srta. Penny.$0#$e#Mas acho que não vai ficar gostoso.$3",
+                "Thu10": "Acho que mamãe e papai realmente gostam da Srta. Penny.$1#$e#Eu também gosto!$1",
+                "Fri8": "A Srta. Penny me disse que meu irmão vai se tornar uma estrela do rock um dia.$1",
+                "Sat8": "Meu irmão às vezes vem comigo ao museu.$0#$e#Acho que é porque ele quer ver a Srta. Penny.$3",
+                "Sun10": "Você sabe como fazer pulseiras?$3#$e#Quero fazer um presente para a Srta. Penny e meu irmão.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kent",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020002"
+            },
+            "Entries": {
+                "Mon4": "O Sam era apenas um garoto quando eu fui embora...$0#$b#...e agora ele tem até uma namorada.$1",
+                "Mon6": "Quando voltei, a Jodi me contou que a Penny era professora do Vincent.$0#$b#...Acho que foi assim que ela e o Sam ficaram próximos.$2",
+                "Tue4": "Às vezes pergunto para a Penny sobre a vida do Sam.$2#$b#É triste...$2",
+                "Wed2": "A Penny já morava aqui quando eu fui embora?$2#$e#Não consigo me lembrar...$2",
+                "Wed8": "Às vezes é difícil não pensar no Sam como o garotinho que ele era quando eu fui embora.$0#$b#Eu nunca teria imaginado que ele teria uma namorada tão cedo.$0",
+                "Thu2": "Então o Sam encontrou uma namorada...$2#$b#O nome dela era Penny?$2",
+                "Fri6": "Ver o Sam com planos de casamento me deixa tão surpreso.$0#$e#...De um jeito bom.$1",
+                "Fri8": "Na verdade, torço para que o Sam e a Penny tenham filhos logo.$1#$b#Como não pude estar com meus filhos, pelo menos quero ver meus netos crescerem.$1",
+                "Sat2": "A Jodi diz que a Penny é uma boa garota...$0#$b#Eu não falei muito com ela, mas acho que ela é.$1",
+                "Sat4": "De vez em quando a Penny vem jantar lá em casa.$1#$b#A gente se diverte, especialmente o Sam e o Vincent.$1",
+                "Sun6": "A Penny me ajudou a me aproximar do Sam.$1#$b#...Eu serei eternamente grato a ela por isso.$1",
+                "Sun8": "Ver o Sam namorando a Penny foi surpreendente no começo para mim e para a Jodi.$0#$b#Mas agora ela virou como nossa filha também.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kent",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020025"
+            },
+            "Entries": {
+                "Mon8": "O Sam era apenas um garoto quando eu fui embora...$0#$b#...e agora ele é casado.$0",
+                "Tue6": "Às vezes eu pergunto para Penny sobre a vida do Sam.$2#$b#É triste...$2",
+                "Wed10": "Às vezes é difícil não pensar no Sam como o garotinho que ele era quando eu fui embora.$0#$b#Eu nunca teria imaginado que ele estaria casado tão cedo.$0",
+                "Thu10": "Espero ser um bom sogro para a Penny.$1",
+                "Fri10": "Na verdade, estou torcendo para que o Sam e a Penny tenham filhos em breve.$1#$b#Como eu não pude estar presente para meus filhos, pelo menos quero ver meus netos crescerem.$1",
+                "Sat8": "A Penny me ajudou a me aproximar do Sam.$1#$b#...Eu vou ser eternamente grato a ela por isso.$1",
+                "Sun10": "Ver o Sam namorando a Penny foi surpreendente no começo para mim e para a Jodi.$0#$b#Mas agora ela é como nossa filha.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020002"
+            },
+            "Entries": {
+                "Mon2": "A Penny é uma garota adorável.$1#$b#Fico feliz que o Sam tenha encontrado alguém como ela.$1",
+                "Mon4": "Ontem eu rezei para Yoba pedindo felicidade para o Sam e a Penny.$0",
+                "Tue8": "Parece que foi ontem que o Sam era só um bebê.$0#$b#E agora ele está planejando se casar!$2",
+                "Wed6": "Eu ouvi o Sam conversando com a Penny recentemente.$0#$e#Eu não sabia que ele podia ser tão carinhoso!$1",
+                "Wed4": "A Penny realmente é uma boa influência tanto para o Vincent quanto para o Sam.$0",
+                "Thu6": "Eu já comecei a pensar na Penny como parte da nossa família.$1",
+                "Fri8": "Pra ser sincera, tenho medo de o Sam se mudar com a Penny algum dia...$2",
+                "Sat4": "A Penny me ajudou na horta ontem.$1#$b#Queria que o Sam pudesse aprender algo com ela.$0",
+                "Sat6": "Convidamos a Penny para jantar conosco ontem.$0#$b#Consigo ver por que o Sam e o Vincent gostam tanto dela.$0#$b#Ela até se ofereceu para lavar a louça!$1",
+                "Sun8": "Pra ser sincera com você, @...$0#$b#No começo eu não tinha certeza sobre a Penny e o Sam, mas agora fico muito feliz em vê-los juntos.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020025"
+            },
+            "Entries": {
+                "Mon6": "Penny é uma garota adorável.$1#$b#Fico feliz que o Sam tenha encontrado alguém como ela.$1",
+                "Tue10": "Parece que foi ontem que o Sam era só um bebê.$0#$b#E agora ele é casado!$1",
+                "Wed8": "Eu ouvi o Sam conversando com a Penny agora pouco.$0#$e#Não sabia que ele podia ser tão gentil!$1",
+                "Thu8": "O Vincent me disse que o Sam estava compondo uma música para a Penny.$1#$b#Não é fofo?$1",
+                "Fri10": "Você acha que o Sam e a Penny vão ter filhos um dia?$0#$b#Não sei se ele estará preparado...$2#$b#Mas eu adoraria ajudá-los.$1",
+                "Sat8": "A Penny me ajudou na horta ontem.$1#$b#Queria que o Sam aprendesse algo com ela.$0",
+                "Sun10": "Você não acha que o Sam e a Penny formam um casal incrível?$1#$e#Eles podem ter personalidades diferentes, mas se completam muito bem.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/schedules/Sam",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020025"
+            },
+            "Entries": {
+                "spring.001": "Estou um pouco envergonhado de dizer isso mas...$4#$b#...Penny é minha musa.$10",
+                "spring.002": "Penny é realmente uma ótima professora.$1",
+                "summer.001": "Ver a Penny brincar com o Vincent me deixa tão feliz.$1#$b#Me pergunto quando teremos nossos próprios filhos...$0",
+                "summer.002": "Penny...$4#$b#...Eu te amo.$4",
+                "fall.001": "Me pergunto se Penny e eu um dia traremos nossos próprios filhos aqui...$4",
+                "fall.002": "Penny sempre me incentiva a correr atrás dos meus sonhos.$0#$b#Eu realmente gosto disso nela.$1",
+                "winter.001": "É bom ajudar Penny com as crianças.$1",
+                "winter.002": "Este é um lugar especial para Penny e para mim...$4"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/schedules/Penny",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020025"
+            },
+            "Entries": {
+                "spring.001": "O Sam é tão talentoso, não acha, @?$1",
+                "spring.002": "O Sam é tão fofo quando vem me ver nas minhas aulas.$1#$b#Mas tenho que confessar que isso me deixa um pouco nervosa...$4",
+                "summer.001": "O Sam está bonito hoje...$4#$b#Bem, ele sempre está.$4",
+                "summer.002": "Hum... @...$3#$b#Você se importaria de nos deixar sozinhos?$4",
+                "fall.001": "Adoro poder ser eu mesma com o Sam.$4",
+                "fall.002": "O Sam me disse que estava compondo uma música para mim.$0#$b#Ele não é o mais doce?$4",
+                "winter.001": "O Sam sempre deixa as aulas mais interessantes.$1",
+                "winter.002": "Foi aqui que eu disse ao Sam como me sentia.$4#$b#Ainda não consigo acreditar que agora somos casados...$4"
+            }
+        }
+    ]
+}

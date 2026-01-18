@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="9" height="6" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="2">
+ <tileset firstgid="1" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="2177" name="untitled tile sheet 2" tilewidth="16" tileheight="16" tilecount="1312" columns="32">
+  <image source="townInterior_2" width="512" height="656"/>
+ </tileset>
+ <tileset firstgid="3489" name="bathrooms_tilesheet" tilewidth="16" tileheight="16" tilecount="416" columns="16">
+  <image source="bathrooms_tilesheet.png" width="256" height="416"/>
+ </tileset>
+ <layer id="1" name="Back" width="9" height="6">
+  <data encoding="csv">
+1011,1011,1011,1011,1011,1011,1010,1011,1,
+0,1010,0,0,0,0,0,0,0,
+0,1010,3782,0,0,0,3585,0,0,
+0,1010,3798,1010,1010,1010,3556,3557,0,
+0,1010,1010,1010,1010,1010,3572,3573,0,
+0,1010,1010,1010,1010,1010,1010,1010,1010
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="9" height="6">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,1,
+65,0,194,11,11,11,11,11,12,
+65,0,260,3782,3782,3782,3636,3587,69,
+65,0,260,3798,3798,3798,3617,3619,69,
+65,0,3851,0,0,0,3533,3534,69,
+161,162,166,166,3885,3886,3731,3732,168
+</data>
+ </layer>
+ <layer id="3" name="Front" width="9" height="6">
+  <data encoding="csv">
+163,0,164,166,166,166,166,167,168,
+0,0,0,0,0,0,0,0,0,
+0,0,3820,3687,3653,0,3501,3502,0,
+0,0,3836,3629,3666,3674,3517,3518,0,
+0,0,0,0,3869,3870,0,0,0,
+0,162,166,166,166,166,166,167,0
+</data>
+ </layer>
+ <layer id="4" name="Front2" width="9" height="6">
+  <properties>
+   <property name="Draw" value="Front"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,3613,0,0,3563,3564,0,
+0,0,0,0,0,0,3579,3580,0,
+0,0,0,0,0,0,3595,3596,0,
+0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="5" name="AlwaysFront" width="9" height="6">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,3715,3716,0,
+0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="6" name="Back"/>
+ <objectgroup id="7" name="Buildings"/>
+ <objectgroup id="8" name="Front"/>
+ <objectgroup id="9" name="Front2"/>
+ <objectgroup id="10" name="AlwaysFront"/>
+</map>

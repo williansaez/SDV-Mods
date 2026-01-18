@@ -1,0 +1,2371 @@
+{
+	"Changes": [
+	  {
+		  "LogName": "Iron Keg Compatibility with Visit Mount Vapius",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC){{ModId}}_IronKeg",
+        "OutputRules"
+        ],
+        "Entries": {
+          "{{ModId}}_KegBasalmicVinegar": {
+          "Id": "Lumisteria.MtVapius_KegBasalmicVinegar",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "Lumisteria.MtVapius_ArtisanGoods_MoscoCotto",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "ItemId": "(O)Lumisteria.MtVapius_ArtisanGoods_BalsamicVinegar",        
+          		"MinStack": 1,
+							"MaxStack": 1,           
+              "QualityModifiers": [
+                {  
+                  "Id":"lose quality",
+                  "Condition": "ITEM_QUALITY Input 4 4",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id":"lose quality",
+                  "Condition": "ITEM_QUALITY Input 2 2",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id":"Maybe not lose quality",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.5",
+                  "Modification": "Set",
+                  "Amount": 1
+                }
+              ],
+              "StackModifiers": null
+            }
+          ],
+          "MinutesUntilReady": 7200,
+          "DaysUntilReady": -1,
+          "InvalidCountMessage": null
+        },
+          "{{ModId}}_KegMyriadinTea": {
+          "Id": "Lumisteria.MtVapius_KegMyriadinTea",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "Lumisteria.MtVapius_SweetMyriadin",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "ItemId": "(O)Lumisteria.MtVapius_ArtisanGoods_MyriadinTea",                   
+							"MinStack": 3,
+							"MaxStack": 4,
+              "QualityModifiers": [
+                {  
+                  "Id":"lose quality",
+                  "Condition": "ITEM_QUALITY Input 4 4",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id":"lose quality",
+                  "Condition": "ITEM_QUALITY Input 2 2",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id":"Maybe not lose quality",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.5",
+                  "Modification": "Set",
+                  "Amount": 1
+                }
+              ],
+              "StackModifiers": null,
+              "DaysUntilReady": -1
+            }
+          ],
+          "MinutesUntilReady": 2400,
+          "DaysUntilReady": -1,
+          "InvalidCountMessage": null
+        }
+      }
+    },
+
+
+    {
+		  "LogName": "Gold Keg Compatibility with Visit Mount Vapius",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC){{ModId}}_GoldKeg",
+        "OutputRules"
+        ],
+        "Entries": {
+          "{{ModId}}_KegBasalmicVinegar": {
+          "Id": "Lumisteria.MtVapius_KegBasalmicVinegar",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "Lumisteria.MtVapius_ArtisanGoods_MoscoCotto",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "ItemId": "(O)Lumisteria.MtVapius_ArtisanGoods_BalsamicVinegar",
+              "MinStack": 1,
+							"MaxStack": 1,                   
+              "CopyQuality": true,
+              "QualityModifiers": [
+                {  
+                  "Id":"silver-gold Gold",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.15",
+                  "Modification": "Set",
+                  "Amount": 2
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional Item",
+					        "Condition": "Random 0.1",
+									"Modification": "Add",
+					        "Amount": 1
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 8640,
+          "InvalidCountMessage": null,
+          "DaysUntilReady": -1
+        },
+          "{{ModId}}_KegMyriadinTea": {
+          "Id": "Lumisteria.MtVapius_KegMyriadinTea",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "Lumisteria.MtVapius_SweetMyriadin",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "ItemId": "(O)Lumisteria.MtVapius_ArtisanGoods_MyriadinTea",                   
+							"MinStack": 5,
+							"MaxStack": 6,
+              "CopyQuality": true,
+              "QualityModifiers": [
+                {  
+                  "Id":"silver-gold Gold",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.15",
+                  "Modification": "Set",
+                  "Amount": 2
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional Item",
+					        "Condition": "Random 0.1",
+							    "Modification": "Add",
+					        "Amount": 1
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 2880,
+          "InvalidCountMessage": null,
+          "DaysUntilReady": -1
+        }
+      }
+    },
+
+
+    {
+		  "LogName": "Iridium Keg Compatibility with Visit Mount Vapius",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC){{ModId}}_IridiumKeg",
+        "OutputRules"
+        ],
+        "Entries": {
+          "{{ModId}}_KegBasalmicVinegar": {
+          "Id": "Lumisteria.MtVapius_KegBasalmicVinegar",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "Lumisteria.MtVapius_ArtisanGoods_MoscoCotto",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "ItemId": "(O)Lumisteria.MtVapius_ArtisanGoods_BalsamicVinegar",  
+              "MinStack": 1,
+							"MaxStack": 1,                 
+              "CopyQuality": true,
+              "QualityModifiers": [
+                {  
+                  "Id": "normal-silver Iridium",
+                  "Condition": "ITEM_QUALITY Input 0 0, Random 0.2",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id": "silver-gold Iridium",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.25",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id": "gold-iridium Iridium",
+                  "Condition": "ITEM_QUALITY Input 2 2, Random 0.1",
+                  "Modification": "Set",
+                  "Amount": 4
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional item",
+					        "Condition": "Random 0.5",
+								  "Modification": "Add",
+					        "Amount": 1
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 9720,
+          "InvalidCountMessage": null,
+          "DaysUntilReady": -1
+        },
+          "{{ModId}}_KegMyriadinTea": {
+          "Id": "Lumisteria.MtVapius_KegMyriadinTea",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "Lumisteria.MtVapius_SweetMyriadin",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "ItemId": "(O)Lumisteria.MtVapius_ArtisanGoods_MyriadinTea",                   
+							"MinStack": 3,
+							"MaxStack": 4,
+              "CopyQuality": true,
+              "QualityModifiers": [
+                {  
+                  "Id": "normal-silver Iridium",
+                  "Condition": "ITEM_QUALITY Input 0 0, Random 0.2",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id": "silver-gold Iridium",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.25",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id": "gold-iridium Iridium",
+                  "Condition": "ITEM_QUALITY Input 2 2, Random 0.1",
+                  "Modification": "Set",
+                  "Amount": 4
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional item",
+					        "Condition": "Random 0.5",
+								  "Modification": "Add",
+					        "Amount": 1
+                },
+                {
+                  "Id": "Aditional item",
+					        "Condition": "Random 0.5",
+								  "Modification": "Add",
+					        "Amount": 1
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 3240,
+          "InvalidCountMessage": null,
+          "DaysUntilReady": -1
+        }
+      }
+    },
+
+
+
+    {
+		  "LogName": "Radioactive Keg Compatibility with Visit Mount Vapius",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC){{ModId}}_RadioactiveKeg",
+        "OutputRules"
+        ],
+        "Entries": {
+          "{{ModId}}_KegBasalmicVinegar": {
+          "Id": "Lumisteria.MtVapius_KegBasalmicVinegar",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "Lumisteria.MtVapius_ArtisanGoods_MoscoCotto",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "ItemId": "(O)Lumisteria.MtVapius_ArtisanGoods_BalsamicVinegar",  
+              "MinStack": 2,
+							"MaxStack": 2,                 
+              "CopyQuality": true,
+              "QualityModifiers": [
+                {  
+                  "Id": "normal-silver Radioactive",
+                  "Condition": "ITEM_QUALITY Input 0 0, Random 0.4",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id": "silver-gold Radioactive",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.45",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id": "gold-iridium Radioactive",
+                  "Condition": "ITEM_QUALITY Input 2 2, Random 0.2",
+                  "Modification": "Set",
+                  "Amount": 4
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional item",
+					        "Condition": "Random 0.2",
+						      "Modification": "Add",
+					        "Amount": 1
+                },
+                {
+                  "Id": "Aditional Item Quality",
+								  "Condition": "ITEM_QUALITY Input 4 4, Random 0.2",
+					        "Modification": "Add",
+					        "Amount": 1
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 10800,
+          "InvalidCountMessage": null,
+          "DaysUntilReady": -1
+        },
+          "{{ModId}}_KegMyriadinTea": {
+          "Id": "Lumisteria.MtVapius_KegMyriadinTea",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "Lumisteria.MtVapius_SweetMyriadin",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "ItemId": "(O)Lumisteria.MtVapius_ArtisanGoods_MyriadinTea",                   
+							"MinStack": 6,
+							"MaxStack": 8,
+              "CopyQuality": true,
+              "QualityModifiers": [
+                {  
+                  "Id": "normal-silver Radioactive",
+                  "Condition": "ITEM_QUALITY Input 0 0, Random 0.4",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id": "silver-gold Radioactive",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.45",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id": "gold-iridium Radioactive",
+                  "Condition": "ITEM_QUALITY Input 2 2, Random 0.2",
+                  "Modification": "Set",
+                  "Amount": 4
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional item",
+					        "Condition": "Random 0.2",
+						      "Modification": "Add",
+					        "Amount": 2
+                },
+                {
+                  "Id": "Aditional Item Quality",
+								  "Condition": "ITEM_QUALITY Input 4 4, Random 0.2",
+					        "Modification": "Add",
+					        "Amount": 2
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 3600,
+          "InvalidCountMessage": null,
+          "DaysUntilReady": -1
+        }
+      }
+    },
+
+
+
+    {
+		  "LogName": "Iron Preserve Jar Compatibility with Visit Mount Vapius",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC){{ModId}}_IronPreserveJar",
+        "OutputRules"
+        ],
+        "Entries": {
+          "{{ModId}}_PreserveJarCreamRules": {
+          "Id": "Lumisteria.MtVapius_PreserveJarCreamRules",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O)184",
+              "RequiredTags": null,
+              "RequiredCount": 1
+            }
+          ],
+          "UseFirstValidOutput": true,
+          "OutputItem": [
+            {
+              "ItemId": "(O)Lumisteria.MtVapius_Cream",        
+          		"MinStack": 1,
+							"MaxStack": 1,           
+              "QualityModifiers": [
+                {  
+                  "Id":"lose quality",
+                  "Condition": "ITEM_QUALITY Input 4 4",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id":"lose quality",
+                  "Condition": "ITEM_QUALITY Input 2 2",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id":"Maybe not lose quality",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.5",
+                  "Modification": "Set",
+                  "Amount": 1
+                }
+              ],
+              "StackModifiers": null,
+              "DaysUntilReady": -1
+            }
+          ],
+          "MinutesUntilReady": 200,
+          "InvalidCountMessage": null
+        },
+          "{{ModId}}_PreserveJarCreamRules2": {
+          "Id": "Lumisteria.MtVapius_PreserveJarCreamRules2",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O)186",
+              "RequiredTags": null,
+              "RequiredCount": 1
+            }
+          ],
+          "UseFirstValidOutput": true,
+          "OutputItem": [
+            {
+              "ItemId": "(O)Lumisteria.MtVapius_Cream",                   
+							"MinStack": 1,
+							"MaxStack": 2,
+              "QualityModifiers": [
+                {  
+                  "Id":"lose quality",
+                  "Condition": "ITEM_QUALITY Input 4 4",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id":"lose quality",
+                  "Condition": "ITEM_QUALITY Input 2 2",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id":"Maybe not lose quality",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.5",
+                  "Modification": "Set",
+                  "Amount": 1
+                }
+              ],
+              "StackModifiers": null
+            }
+          ],
+          "MinutesUntilReady": 200,
+          "DaysUntilReady": -1,
+          "InvalidCountMessage": null
+        },
+          "{{ModId}}_PreserveJarCreamRules3": {
+          "Id": "Lumisteria.MtVapius_PreserveJarCreamRules3",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O)Lumisteria.MtVapius_MilkExtraLarge",
+              "RequiredTags": null,
+              "RequiredCount": 1
+            }
+          ],
+          "UseFirstValidOutput": true,
+          "OutputItem": [
+            {
+              "ItemId": "(O)Lumisteria.MtVapius_Cream",                   
+							"MinStack": 2,
+							"MaxStack": 3,
+              "QualityModifiers": [
+                {  
+                  "Id":"lose quality",
+                  "Condition": "ITEM_QUALITY Input 4 4",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id":"lose quality",
+                  "Condition": "ITEM_QUALITY Input 2 2",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id":"Maybe not lose quality",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.5",
+                  "Modification": "Set",
+                  "Amount": 1
+                }
+              ],
+              "StackModifiers": null
+            }
+          ],
+          "MinutesUntilReady": 200,
+          "DaysUntilReady": -1,
+          "InvalidCountMessage": null
+        },
+          "{{ModId}}_PreserveJarWhiteVendaceRoeRules": {
+          "Id": "Lumisteria.MtVapius_PreserveJarWhiteVendaceRoeRules",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)812",
+							"RequiredTags": [
+								"preserve_sheet_index_lumisteria.mtvapius_whitevendace"
+							],
+              "RequiredCount": 1
+            }
+          ],
+          "UseFirstValidOutput": true,
+          "OutputItem": [
+            {
+              "ItemId": "(O)Lumisteria.MtVapius_ArtisanGoods_VendaceCaviar",                   
+							"MinStack": 1,
+							"MaxStack": 1,
+              "QualityModifiers": [
+                {  
+                  "Id":"lose quality",
+                  "Condition": "ITEM_QUALITY Input 4 4",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id":"lose quality",
+                  "Condition": "ITEM_QUALITY Input 2 2",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id":"Maybe not lose quality",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.5",
+                  "Modification": "Set",
+                  "Amount": 1
+                }
+              ],
+              "StackModifiers": null
+            }
+          ],
+          "MinutesUntilReady": 4000,
+          "DaysUntilReady": -1,
+          "InvalidCountMessage": null
+        },
+
+
+          "{{ModId}}_PreserveJarTapenadeRules": {
+          "Id": "Lumisteria.MtVapius_PreserveJarTapenadeRules",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)Lumisteria.MtVapius_Olive",
+							"RequiredTags": null,
+              "RequiredCount": 1
+            }
+          ],
+          "UseFirstValidOutput": true,
+          "OutputItem": [
+            {
+              "Id": "Lumisteria.MtVapius_Cooking_Tapenade",
+              "ItemId": "(O)Lumisteria.MtVapius_Cooking_Tapenade",                   
+							"MinStack": 1,
+							"MaxStack": 1,
+              "StackModifiers": [
+                {
+                  "Id": "Lumisteria.MtVapius_BonusAnchovy",
+									"Condition": "{{HasMod |contains=selph.ExtraMachineConfig}}",
+									"Modification": "Add",
+									"Amount": 1
+                }
+              ],
+              "StackModifierMode": "Stack",
+              "QualityModifiers": [
+                {  
+                  "Id":"lose quality",
+                  "Condition": "ITEM_QUALITY Input 4 4",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id":"lose quality",
+                  "Condition": "ITEM_QUALITY Input 2 2",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id":"Maybe not lose quality",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.5",
+                  "Modification": "Set",
+                  "Amount": 1
+                }
+              ],
+              "CustomData": {
+                "selph.ExtraMachineConfig.RequirementId.1": "(O)129",
+								"selph.ExtraMachineConfig.RequirementCount.1": "1",
+								"selph.ExtraMachineConfig.RequirementInvalidMsg": "You need anchovy to make tapenade"
+              }
+            }
+          ],
+          "MinutesUntilReady": 4000,
+          "DaysUntilReady": -1,
+          "InvalidCountMessage": null
+        },
+
+        "Lumisteria.MtVapius_PreserveJarTapenadeVoidOliveRules": {
+					"Id": "Lumisteria.MtVapius_PreserveJarTapenadeVoidOliveRules",
+					"Triggers": [
+						{
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)Lumisteria.MtVapius_VoidOlive",
+							"RequiredCount": 1
+						}
+					],
+					"UseFirstValidOutput": true,
+					"OutputItem": [
+						{
+							"Id": "Lumisteria.MtVapius_Cooking_Tapenade",
+							"ItemId": "(O)Lumisteria.MtVapius_Cooking_Tapenade",
+							"MinStack": 3,
+							"MaxStack": 4,
+							"StackModifiers": [
+								{
+									"Id": "Lumisteria.MtVapius_BonusAnchovy",
+									"Condition": "{{HasMod |contains=selph.ExtraMachineConfig}}",
+									"Modification": "Add",
+									"Amount": 1.0
+								}
+							],
+              "QualityModifiers": [
+                {  
+                  "Id":"lose quality",
+                  "Condition": "ITEM_QUALITY Input 4 4",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id":"lose quality",
+                  "Condition": "ITEM_QUALITY Input 2 2",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id":"Maybe not lose quality",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.5",
+                  "Modification": "Set",
+                  "Amount": 1
+                }
+              ],
+							"StackModifierMode": "Stack"
+
+						}
+					],
+					"MinutesUntilReady": 4000,
+					"DaysUntilReady": -1
+				}
+
+      },
+      	"MoveEntries": [
+				{
+					"Id": "Lumisteria.MtVapius_PreserveJarTapenadeRules",
+					"BeforeId": "Default_Pickled"
+				},
+				{
+					"Id": "Lumisteria.MtVapius_PreserveJarTapenadeVoidOliveRules",
+					"BeforeId": "Default_Pickled"
+				},
+				{
+					"Id": "Lumisteria.MtVapius_PreserveJarWhiteVendaceRoeRules",
+					"BeforeId": "Default_SturgeonRoe"
+				}
+			]
+    },
+
+
+
+    {
+		  "LogName": "Gold Preserve Jar Compatibility with Visit Mount Vapius",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC){{ModId}}_GoldPreserveJar",
+        "OutputRules"
+        ],
+        "Entries": {
+          "{{ModId}}_PreserveJarCreamRules": {
+          "Id": "Lumisteria.MtVapius_PreserveJarCreamRules",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O)184",
+              "RequiredTags": null,
+              "RequiredCount": 1
+            }
+          ],
+          "UseFirstValidOutput": true,
+          "OutputItem": [
+            {
+              "ItemId": "(O)Lumisteria.MtVapius_Cream",        
+          		"MinStack": 1,
+							"MaxStack": 1,
+              "CopyQuality": true,           
+              "QualityModifiers": [
+                {  
+                  "Id":"silver-gold Gold",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.15",
+                  "Modification": "Set",
+                  "Amount": 2
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional Item",
+									"Condition": "Random 0.1",
+					        "Modification": "Add",
+					        "Amount": 1
+                }
+              ],
+              "DaysUntilReady": -1
+            }
+          ],
+          "MinutesUntilReady": 240,
+          "InvalidCountMessage": null
+        },
+          "{{ModId}}_PreserveJarCreamRules2": {
+          "Id": "Lumisteria.MtVapius_PreserveJarCreamRules2",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O)186",
+              "RequiredTags": null,
+              "RequiredCount": 1
+            }
+          ],
+          "UseFirstValidOutput": true,
+          "OutputItem": [
+            {
+              "ItemId": "(O)Lumisteria.MtVapius_Cream",                   
+							"MinStack": 1,
+							"MaxStack": 2,
+              "CopyQuality": true,
+              "QualityModifiers": [
+                {  
+                  "Id":"silver-gold Gold",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.15",
+                  "Modification": "Set",
+                  "Amount": 2
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional Item",
+									"Condition": "Random 0.1",
+					        "Modification": "Add",
+					        "Amount": 1
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 240,
+          "DaysUntilReady": -1,
+          "InvalidCountMessage": null
+        },
+          "{{ModId}}_PreserveJarCreamRules3": {
+          "Id": "Lumisteria.MtVapius_PreserveJarCreamRules3",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O)Lumisteria.MtVapius_MilkExtraLarge",
+              "RequiredTags": null,
+              "RequiredCount": 1
+            }
+          ],
+          "UseFirstValidOutput": true,
+          "OutputItem": [
+            {
+              "ItemId": "(O)Lumisteria.MtVapius_Cream",                   
+							"MinStack": 2,
+							"MaxStack": 3,
+              "CopyQuality": true,
+              "QualityModifiers": [
+                {  
+                  "Id":"silver-gold Gold",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.15",
+                  "Modification": "Set",
+                  "Amount": 2
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional Item",
+									"Condition": "Random 0.1",
+					        "Modification": "Add",
+					        "Amount": 1
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 240,
+          "DaysUntilReady": -1,
+          "InvalidCountMessage": null
+        },
+          "{{ModId}}_PreserveJarWhiteVendaceRoeRules": {
+          "Id": "Lumisteria.MtVapius_PreserveJarWhiteVendaceRoeRules",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)812",
+							"RequiredTags": [
+								"preserve_sheet_index_lumisteria.mtvapius_whitevendace"
+							],
+              "RequiredCount": 1
+            }
+          ],
+          "UseFirstValidOutput": true,
+          "OutputItem": [
+            {
+              "ItemId": "(O)Lumisteria.MtVapius_ArtisanGoods_VendaceCaviar",                   
+							"MinStack": 1,
+							"MaxStack": 1,
+              "CopyQuality": true,
+              "QualityModifiers": [
+                {  
+                  "Id":"normal-silver Gold roe",
+                  "Condition": "ITEM_QUALITY Input 0 0, Random 0.2",
+                  "Modification": "Set",
+                  "Amount": 1
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional Item",
+									"Condition": "Random 0.1",
+					        "Modification": "Add",
+					        "Amount": 1
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 4800,
+          "DaysUntilReady": -1,
+          "InvalidCountMessage": null
+        },
+
+
+          "{{ModId}}_PreserveJarTapenadeRules": {
+          "Id": "Lumisteria.MtVapius_PreserveJarTapenadeRules",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)Lumisteria.MtVapius_Olive",
+							"RequiredTags": null,
+              "RequiredCount": 1
+            }
+          ],
+          "UseFirstValidOutput": true,
+          "OutputItem": [
+            {
+              "Id": "Lumisteria.MtVapius_Cooking_Tapenade",
+              "ItemId": "(O)Lumisteria.MtVapius_Cooking_Tapenade",                   
+							"MinStack": 1,
+							"MaxStack": 1,
+              "CopyQuality": true,
+              "StackModifiers": [
+                {
+                  "Id": "Lumisteria.MtVapius_BonusAnchovy",
+									"Condition": "{{HasMod |contains=selph.ExtraMachineConfig}}",
+									"Modification": "Add",
+									"Amount": 1
+                },
+                {
+                  "Id": "Aditional Item",
+									"Condition": "Random 0.1",
+					        "Modification": "Add",
+					        "Amount": 1
+                }
+              ],
+              "StackModifierMode": "Stack",
+              "QualityModifiers": [
+                {  
+                  "Id":"silver-gold Gold",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.15",
+                  "Modification": "Set",
+                  "Amount": 2
+                }
+              ],
+              "CustomData": {
+                "selph.ExtraMachineConfig.RequirementId.1": "(O)129",
+								"selph.ExtraMachineConfig.RequirementCount.1": "1",
+								"selph.ExtraMachineConfig.RequirementInvalidMsg": "You need anchovy to make tapenade"
+              }
+            }
+          ],
+          "MinutesUntilReady": 4800,
+          "DaysUntilReady": -1,
+          "InvalidCountMessage": null
+        },
+
+        "Lumisteria.MtVapius_PreserveJarTapenadeVoidOliveRules": {
+					"Id": "Lumisteria.MtVapius_PreserveJarTapenadeVoidOliveRules",
+					"Triggers": [
+						{
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)Lumisteria.MtVapius_VoidOlive",
+							"RequiredCount": 1
+						}
+					],
+					"UseFirstValidOutput": true,
+					"OutputItem": [
+						{
+							"Id": "Lumisteria.MtVapius_Cooking_Tapenade",
+							"ItemId": "(O)Lumisteria.MtVapius_Cooking_Tapenade",
+							"MinStack": 3,
+							"MaxStack": 4,
+              "CopyQuality": true,
+							"StackModifiers": [
+								{
+									"Id": "Lumisteria.MtVapius_BonusAnchovy",
+									"Condition": "{{HasMod |contains=selph.ExtraMachineConfig}}",
+									"Modification": "Add",
+									"Amount": 1.0
+								},
+                {
+                  "Id": "Aditional Item",
+									"Condition": "Random 0.1",
+					        "Modification": "Add",
+					        "Amount": 1
+                }
+							],
+              "QualityModifiers": [
+                {  
+                  "Id":"silver-gold Gold",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.15",
+                  "Modification": "Set",
+                  "Amount": 2
+                }
+              ],
+							"StackModifierMode": "Stack"
+
+						}
+					],
+					"MinutesUntilReady": 4800,
+					"DaysUntilReady": -1
+				}
+
+      },
+      	"MoveEntries": [
+				{
+					"Id": "Lumisteria.MtVapius_PreserveJarTapenadeRules",
+					"BeforeId": "Default_Pickled"
+				},
+				{
+					"Id": "Lumisteria.MtVapius_PreserveJarTapenadeVoidOliveRules",
+					"BeforeId": "Default_Pickled"
+				},
+				{
+					"Id": "Lumisteria.MtVapius_PreserveJarWhiteVendaceRoeRules",
+					"BeforeId": "Default_SturgeonRoe"
+				}
+			]
+    },
+
+
+
+
+    {
+		  "LogName": "Iridium Preserve Jar Compatibility with Visit Mount Vapius",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC){{ModId}}_IridiumPreserveJar",
+        "OutputRules"
+        ],
+        "Entries": {
+          "{{ModId}}_PreserveJarCreamRules": {
+          "Id": "Lumisteria.MtVapius_PreserveJarCreamRules",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O)184",
+              "RequiredTags": null,
+              "RequiredCount": 1
+            }
+          ],
+          "UseFirstValidOutput": true,
+          "OutputItem": [
+            {
+              "ItemId": "(O)Lumisteria.MtVapius_Cream",        
+          		"MinStack": 1,
+							"MaxStack": 2,
+              "CopyQuality": true,           
+              "QualityModifiers": [
+                {  
+                  "Id": "normal-silver Iridium",
+                  "Condition": "ITEM_QUALITY Input 0 0, Random 0.2",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id": "silver-gold Iridium",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.25",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id": "gold-iridium Iridium",
+                  "Condition": "ITEM_QUALITY Input 2 2, Random 0.1",
+                  "Modification": "Set",
+                  "Amount": 4
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional Item",
+									"Condition": "Random 0.5",
+					        "Modification": "Add",
+					        "Amount": 1
+                }
+              ],
+              "DaysUntilReady": -1
+            }
+          ],
+          "MinutesUntilReady": 270,
+          "InvalidCountMessage": null
+        },
+          "{{ModId}}_PreserveJarCreamRules2": {
+          "Id": "Lumisteria.MtVapius_PreserveJarCreamRules2",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O)186",
+              "RequiredTags": null,
+              "RequiredCount": 1
+            }
+          ],
+          "UseFirstValidOutput": true,
+          "OutputItem": [
+            {
+              "ItemId": "(O)Lumisteria.MtVapius_Cream",                   
+							"MinStack": 2,
+							"MaxStack": 3,
+              "CopyQuality": true,
+              "QualityModifiers": [
+                {  
+                  "Id": "normal-silver Iridium",
+                  "Condition": "ITEM_QUALITY Input 0 0, Random 0.2",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id": "silver-gold Iridium",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.25",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id": "gold-iridium Iridium",
+                  "Condition": "ITEM_QUALITY Input 2 2, Random 0.1",
+                  "Modification": "Set",
+                  "Amount": 4
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional Item",
+									"Condition": "Random 0.5",
+					        "Modification": "Add",
+					        "Amount": 1
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 270,
+          "DaysUntilReady": -1,
+          "InvalidCountMessage": null
+        },
+          "{{ModId}}_PreserveJarCreamRules3": {
+          "Id": "Lumisteria.MtVapius_PreserveJarCreamRules3",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O)Lumisteria.MtVapius_MilkExtraLarge",
+              "RequiredTags": null,
+              "RequiredCount": 1
+            }
+          ],
+          "UseFirstValidOutput": true,
+          "OutputItem": [
+            {
+              "ItemId": "(O)Lumisteria.MtVapius_Cream",                   
+							"MinStack": 3,
+							"MaxStack": 4,
+              "CopyQuality": true,
+              "QualityModifiers": [
+                {  
+                  "Id": "normal-silver Iridium",
+                  "Condition": "ITEM_QUALITY Input 0 0, Random 0.2",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id": "silver-gold Iridium",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.25",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id": "gold-iridium Iridium",
+                  "Condition": "ITEM_QUALITY Input 2 2, Random 0.1",
+                  "Modification": "Set",
+                  "Amount": 4
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional Item",
+									"Condition": "Random 0.5",
+					        "Modification": "Add",
+					        "Amount": 1
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 270,
+          "DaysUntilReady": -1,
+          "InvalidCountMessage": null
+        },
+          "{{ModId}}_PreserveJarWhiteVendaceRoeRules": {
+          "Id": "Lumisteria.MtVapius_PreserveJarWhiteVendaceRoeRules",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)812",
+							"RequiredTags": [
+								"preserve_sheet_index_lumisteria.mtvapius_whitevendace"
+							],
+              "RequiredCount": 1
+            }
+          ],
+          "UseFirstValidOutput": true,
+          "OutputItem": [
+            {
+              "ItemId": "(O)Lumisteria.MtVapius_ArtisanGoods_VendaceCaviar",                   
+							"MinStack": 1,
+							"MaxStack": 1,
+              "CopyQuality": true,
+              "QualityModifiers": [
+                {  
+                  "Id": "normal-silver Iridium roe",
+                  "Condition": "ITEM_QUALITY Input 0 0, Random 0.4",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id": "silver-gold Iridium",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.25",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id": "gold-iridium Iridium",
+                  "Condition": "ITEM_QUALITY Input 2 2, Random 0.1",
+                  "Modification": "Set",
+                  "Amount": 4
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional Item",
+									"Condition": "Random 0.5",
+					        "Modification": "Add",
+					        "Amount": 1
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 5400,
+          "DaysUntilReady": -1,
+          "InvalidCountMessage": null
+        },
+
+
+          "{{ModId}}_PreserveJarTapenadeRules": {
+          "Id": "Lumisteria.MtVapius_PreserveJarTapenadeRules",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)Lumisteria.MtVapius_Olive",
+							"RequiredTags": null,
+              "RequiredCount": 1
+            }
+          ],
+          "UseFirstValidOutput": true,
+          "OutputItem": [
+            {
+              "Id": "Lumisteria.MtVapius_Cooking_Tapenade",
+              "ItemId": "(O)Lumisteria.MtVapius_Cooking_Tapenade",                   
+							"MinStack": 1,
+							"MaxStack": 1,
+              "CopyQuality": true,
+              "StackModifiers": [
+                {
+                  "Id": "Lumisteria.MtVapius_BonusAnchovy",
+									"Condition": "{{HasMod |contains=selph.ExtraMachineConfig}}",
+									"Modification": "Add",
+									"Amount": 1
+                },
+                {
+                  "Id": "Aditional Item",
+									"Condition": "Random 0.5",
+					        "Modification": "Add",
+					        "Amount": 1
+                }
+              ],
+              "StackModifierMode": "Stack",
+              "QualityModifiers": [
+                {  
+                  "Id": "normal-silver Iridium",
+                  "Condition": "ITEM_QUALITY Input 0 0, Random 0.2",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id": "silver-gold Iridium",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.25",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id": "gold-iridium Iridium",
+                  "Condition": "ITEM_QUALITY Input 2 2, Random 0.1",
+                  "Modification": "Set",
+                  "Amount": 4
+                }
+              ],
+              "CustomData": {
+                "selph.ExtraMachineConfig.RequirementId.1": "(O)129",
+								"selph.ExtraMachineConfig.RequirementCount.1": "1",
+								"selph.ExtraMachineConfig.RequirementInvalidMsg": "You need anchovy to make tapenade"
+              }
+            }
+          ],
+          "MinutesUntilReady": 5400,
+          "DaysUntilReady": -1,
+          "InvalidCountMessage": null
+        },
+
+        "Lumisteria.MtVapius_PreserveJarTapenadeVoidOliveRules": {
+					"Id": "Lumisteria.MtVapius_PreserveJarTapenadeVoidOliveRules",
+					"Triggers": [
+						{
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)Lumisteria.MtVapius_VoidOlive",
+							"RequiredCount": 1
+						}
+					],
+					"UseFirstValidOutput": true,
+					"OutputItem": [
+						{
+							"Id": "Lumisteria.MtVapius_Cooking_Tapenade",
+							"ItemId": "(O)Lumisteria.MtVapius_Cooking_Tapenade",
+							"MinStack": 4,
+							"MaxStack": 5,
+              "CopyQuality": true,
+							"StackModifiers": [
+								{
+									"Id": "Lumisteria.MtVapius_BonusAnchovy",
+									"Condition": "{{HasMod |contains=selph.ExtraMachineConfig}}",
+									"Modification": "Add",
+									"Amount": 1.0
+								},
+                {
+                  "Id": "Aditional Item",
+									"Condition": "Random 0.5",
+					        "Modification": "Add",
+					        "Amount": 1
+                }
+							],
+              "QualityModifiers": [
+                {  
+                  "Id": "normal-silver Iridium",
+                  "Condition": "ITEM_QUALITY Input 0 0, Random 0.2",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id": "silver-gold Iridium",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.25",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id": "gold-iridium Iridium",
+                  "Condition": "ITEM_QUALITY Input 2 2, Random 0.1",
+                  "Modification": "Set",
+                  "Amount": 4
+                }
+              ],
+							"StackModifierMode": "Stack"
+
+						}
+					],
+					"MinutesUntilReady": 5400,
+					"DaysUntilReady": -1
+				}
+
+      },
+      	"MoveEntries": [
+				{
+					"Id": "Lumisteria.MtVapius_PreserveJarTapenadeRules",
+					"BeforeId": "Default_Pickled"
+				},
+				{
+					"Id": "Lumisteria.MtVapius_PreserveJarTapenadeVoidOliveRules",
+					"BeforeId": "Default_Pickled"
+				},
+				{
+					"Id": "Lumisteria.MtVapius_PreserveJarWhiteVendaceRoeRules",
+					"BeforeId": "Default_SturgeonRoe"
+				}
+			]
+    },
+
+
+
+    {
+		  "LogName": "Radioactive Preserve Jar Compatibility with Visit Mount Vapius",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC){{ModId}}_RadioactivePreserveJar",
+        "OutputRules"
+        ],
+        "Entries": {
+          "{{ModId}}_PreserveJarCreamRules": {
+          "Id": "Lumisteria.MtVapius_PreserveJarCreamRules",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O)184",
+              "RequiredTags": null,
+              "RequiredCount": 1
+            }
+          ],
+          "UseFirstValidOutput": true,
+          "OutputItem": [
+            {
+              "ItemId": "(O)Lumisteria.MtVapius_Cream",        
+          		"MinStack": 2,
+							"MaxStack": 2,
+              "CopyQuality": true,           
+              "QualityModifiers": [
+                {  
+                  "Id": "normal-silver Radioactive",
+                  "Condition": "ITEM_QUALITY Input 0 0, Random 0.4",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id": "silver-gold Radioactive",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.45",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id": "gold-iridium Radioactive",
+                  "Condition": "ITEM_QUALITY Input 2 2, Random 0.2",
+                  "Modification": "Set",
+                  "Amount": 4
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional item",
+									"Condition": "Random 0.2",
+									"Modification": "Add",
+									"Amount": 1
+                },
+                {
+                  "Id": "Aditional Item Quality",
+					        "Condition": "ITEM_QUALITY Input 4 4, Random 0.2",
+					        "Modification": "Add",
+									"Amount": 1
+                }
+              ],
+              "DaysUntilReady": -1
+            }
+          ],
+          "MinutesUntilReady": 300,
+          "InvalidCountMessage": null
+        },
+          "{{ModId}}_PreserveJarCreamRules2": {
+          "Id": "Lumisteria.MtVapius_PreserveJarCreamRules2",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O)186",
+              "RequiredTags": null,
+              "RequiredCount": 1
+            }
+          ],
+          "UseFirstValidOutput": true,
+          "OutputItem": [
+            {
+              "ItemId": "(O)Lumisteria.MtVapius_Cream",                   
+							"MinStack": 3,
+							"MaxStack": 4,
+              "CopyQuality": true,
+              "QualityModifiers": [
+                {  
+                  "Id": "normal-silver Radioactive",
+                  "Condition": "ITEM_QUALITY Input 0 0, Random 0.4",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id": "silver-gold Radioactive",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.45",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id": "gold-iridium Radioactive",
+                  "Condition": "ITEM_QUALITY Input 2 2, Random 0.2",
+                  "Modification": "Set",
+                  "Amount": 4
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional item",
+									"Condition": "Random 0.2",
+									"Modification": "Add",
+									"Amount": 1
+                },
+                {
+                  "Id": "Aditional Item Quality",
+					        "Condition": "ITEM_QUALITY Input 4 4, Random 0.2",
+					        "Modification": "Add",
+									"Amount": 2
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 300,
+          "DaysUntilReady": -1,
+          "InvalidCountMessage": null
+        },
+          "{{ModId}}_PreserveJarCreamRules3": {
+          "Id": "Lumisteria.MtVapius_PreserveJarCreamRules3",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O)Lumisteria.MtVapius_MilkExtraLarge",
+              "RequiredTags": null,
+              "RequiredCount": 1
+            }
+          ],
+          "UseFirstValidOutput": true,
+          "OutputItem": [
+            {
+              "ItemId": "(O)Lumisteria.MtVapius_Cream",                   
+							"MinStack": 4,
+							"MaxStack": 6,
+              "CopyQuality": true,
+              "QualityModifiers": [
+                {  
+                  "Id": "normal-silver Radioactive",
+                  "Condition": "ITEM_QUALITY Input 0 0, Random 0.4",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id": "silver-gold Radioactive",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.45",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id": "gold-iridium Radioactive",
+                  "Condition": "ITEM_QUALITY Input 2 2, Random 0.2",
+                  "Modification": "Set",
+                  "Amount": 4
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional item",
+									"Condition": "Random 0.2",
+									"Modification": "Add",
+									"Amount": 2
+                },
+                {
+                  "Id": "Aditional Item Quality",
+					        "Condition": "ITEM_QUALITY Input 4 4, Random 0.2",
+					        "Modification": "Add",
+									"Amount": 3
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 300,
+          "DaysUntilReady": -1,
+          "InvalidCountMessage": null
+        },
+          "{{ModId}}_PreserveJarWhiteVendaceRoeRules": {
+          "Id": "Lumisteria.MtVapius_PreserveJarWhiteVendaceRoeRules",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)812",
+							"RequiredTags": [
+								"preserve_sheet_index_lumisteria.mtvapius_whitevendace"
+							],
+              "RequiredCount": 1
+            }
+          ],
+          "UseFirstValidOutput": true,
+          "OutputItem": [
+            {
+              "ItemId": "(O)Lumisteria.MtVapius_ArtisanGoods_VendaceCaviar",                   
+							"MinStack": 2,
+							"MaxStack": 2,
+              "CopyQuality": true,
+              "QualityModifiers": [
+                {  
+                  "Id": "normal-silver Radioactive roe",
+                  "Condition": "ITEM_QUALITY Input 0 0, Random 0.7",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id": "silver-gold Radioactive",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.45",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id": "gold-iridium Radioactive",
+                  "Condition": "ITEM_QUALITY Input 2 2, Random 0.2",
+                  "Modification": "Set",
+                  "Amount": 4
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional item",
+									"Condition": "Random 0.2",
+									"Modification": "Add",
+									"Amount": 1
+                },
+                {
+                  "Id": "Aditional Item Quality",
+					        "Condition": "ITEM_QUALITY Input 4 4, Random 0.2",
+					        "Modification": "Add",
+									"Amount": 1
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 5400,
+          "DaysUntilReady": -1,
+          "InvalidCountMessage": null
+        },
+
+
+          "{{ModId}}_PreserveJarTapenadeRules": {
+          "Id": "Lumisteria.MtVapius_PreserveJarTapenadeRules",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)Lumisteria.MtVapius_Olive",
+							"RequiredTags": null,
+              "RequiredCount": 1
+            }
+          ],
+          "UseFirstValidOutput": true,
+          "OutputItem": [
+            {
+              "Id": "Lumisteria.MtVapius_Cooking_Tapenade",
+              "ItemId": "(O)Lumisteria.MtVapius_Cooking_Tapenade",                   
+							"MinStack": 2,
+							"MaxStack": 2,
+              "CopyQuality": true,
+              "StackModifiers": [
+                {
+                  "Id": "Lumisteria.MtVapius_BonusAnchovy",
+									"Condition": "{{HasMod |contains=selph.ExtraMachineConfig}}",
+									"Modification": "Add",
+									"Amount": 1
+                },
+                {
+                  "Id": "Aditional item",
+									"Condition": "Random 0.2",
+									"Modification": "Add",
+									"Amount": 1
+                },
+                {
+                  "Id": "Aditional Item Quality",
+					        "Condition": "ITEM_QUALITY Input 4 4, Random 0.2",
+					        "Modification": "Add",
+									"Amount": 2
+                }
+              ],
+              "StackModifierMode": "Stack",
+              "QualityModifiers": [
+                {  
+                  "Id": "normal-silver Radioactive",
+                  "Condition": "ITEM_QUALITY Input 0 0, Random 0.4",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id": "silver-gold Radioactive",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.45",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id": "gold-iridium Radioactive",
+                  "Condition": "ITEM_QUALITY Input 2 2, Random 0.2",
+                  "Modification": "Set",
+                  "Amount": 4
+                }
+              ],
+              "CustomData": {
+                "selph.ExtraMachineConfig.RequirementId.1": "(O)129",
+								"selph.ExtraMachineConfig.RequirementCount.1": "1",
+								"selph.ExtraMachineConfig.RequirementInvalidMsg": "You need anchovy to make tapenade"
+              }
+            }
+          ],
+          "MinutesUntilReady": 5400,
+          "DaysUntilReady": -1,
+          "InvalidCountMessage": null
+        },
+
+        "Lumisteria.MtVapius_PreserveJarTapenadeVoidOliveRules": {
+					"Id": "Lumisteria.MtVapius_PreserveJarTapenadeVoidOliveRules",
+					"Triggers": [
+						{
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)Lumisteria.MtVapius_VoidOlive",
+							"RequiredCount": 1
+						}
+					],
+					"UseFirstValidOutput": true,
+					"OutputItem": [
+						{
+							"Id": "Lumisteria.MtVapius_Cooking_Tapenade",
+							"ItemId": "(O)Lumisteria.MtVapius_Cooking_Tapenade",
+							"MinStack": 7,
+							"MaxStack": 8,
+              "CopyQuality": true,
+							"StackModifiers": [
+								{
+									"Id": "Lumisteria.MtVapius_BonusAnchovy",
+									"Condition": "{{HasMod |contains=selph.ExtraMachineConfig}}",
+									"Modification": "Add",
+									"Amount": 1
+								},
+                {
+                  "Id": "Aditional item",
+									"Condition": "Random 0.2",
+									"Modification": "Add",
+									"Amount": 1
+                },
+                {
+                  "Id": "Aditional Item Quality",
+					        "Condition": "ITEM_QUALITY Input 4 4, Random 0.2",
+					        "Modification": "Add",
+									"Amount": 2
+                }
+							],
+              "QualityModifiers": [
+                {  
+                  "Id": "normal-silver Radioactive",
+                  "Condition": "ITEM_QUALITY Input 0 0, Random 0.4",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id": "silver-gold Radioactive",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.45",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id": "gold-iridium Radioactive",
+                  "Condition": "ITEM_QUALITY Input 2 2, Random 0.2",
+                  "Modification": "Set",
+                  "Amount": 4
+                }
+              ],
+							"StackModifierMode": "Stack"
+
+						}
+					],
+					"MinutesUntilReady": 5400,
+					"DaysUntilReady": -1
+				}
+
+      },
+      	"MoveEntries": [
+				{
+					"Id": "Lumisteria.MtVapius_PreserveJarTapenadeRules",
+					"BeforeId": "Default_Pickled"
+				},
+				{
+					"Id": "Lumisteria.MtVapius_PreserveJarTapenadeVoidOliveRules",
+					"BeforeId": "Default_Pickled"
+				},
+				{
+					"Id": "Lumisteria.MtVapius_PreserveJarWhiteVendaceRoeRules",
+					"BeforeId": "Default_SturgeonRoe"
+				}
+			]
+    },
+
+
+
+
+
+    {
+      "LogName": "Iridium fish smoker Compability with Visit Mount Vapius",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC){{ModId}}_IridiumFishSmoker",
+        "OutputRules"
+      ],
+      "Entries": {
+        "{{ModId}}_SmokerCheese":{
+          "Id":"Lumisteria.MtVapius_SmokerCheese",
+          "Triggers":[
+            {
+              "Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)424",
+              "RequiredTags": null,
+							"RequiredCount": 1
+            }
+          ],
+          "UseFirstValidOutput": true,
+          "OutputItem":[
+            {
+							"Id": "Lumisteria.MtVapius_Embertin",
+							"ItemId": "(O)Lumisteria.MtVapius_Embertin",
+              "MinStack": 1,
+							"MaxStack": 1,
+              "CopyQuality": true, 
+              "QualityModifiers": [
+                {  
+                  "Id": "normal-silver Iridium",
+                  "Condition": "ITEM_QUALITY Input 0 0, Random 0.25",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {   
+                  "Id": "silver-gold Iridium",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.3",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id": "gold-iridium Iridium",
+                  "Condition": "ITEM_QUALITY Input 2 2, Random 0.15",
+                  "Modification": "Set",
+                  "Amount": 4
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional item",
+					        "Condition": "Random 0.5",
+					        "Modification": "Add",
+									"Amount": 1
+                }
+              ] 
+            }
+          ],
+          "MinutesUntilReady": 60
+        },
+        "{{ModId}}_SmokerEweCheese":{
+          "Id":"Lumisteria.MtVapius_SmokerEweCheese",
+          "Triggers":[
+            {
+              "Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)Lumisteria.MtVapius_EweCheese",
+              "RequiredTags": null,
+							"RequiredCount": 1
+            }
+          ],
+          "UseFirstValidOutput": true,
+          "OutputItem":[
+            {
+							"Id": "Lumisteria.MtVapius_AshgourdCheese",
+							"ItemId": "(O)Lumisteria.MtVapius_AshgourdCheese",
+              "MinStack": 1,
+							"MaxStack": 1,
+              "CopyQuality": true, 
+              "QualityModifiers": [
+                {  
+                  "Id": "normal-silver Iridium",
+                  "Condition": "ITEM_QUALITY Input 0 0, Random 0.25",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {   
+                  "Id": "silver-gold Iridium",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.3",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id": "gold-iridium Iridium",
+                  "Condition": "ITEM_QUALITY Input 2 2, Random 0.15",
+                  "Modification": "Set",
+                  "Amount": 4
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional item",
+					        "Condition": "Random 0.5",
+					        "Modification": "Add",
+									"Amount": 1
+                }
+              ] 
+            }
+          ],
+          "MinutesUntilReady": 60
+        },
+        "{{ModId}}_SmokerGoatCheese":{
+          "Id":"Lumisteria.MtVapius_SmokerGoatCheese",
+          "Triggers":[
+            {
+              "Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)426",
+              "RequiredTags": null,
+							"RequiredCount": 1
+            }
+          ],
+          "UseFirstValidOutput": true,
+          "OutputItem":[
+            {
+							"Id": "Lumisteria.MtVapius_SmokedGoatCheese",
+							"ItemId": "(O)Lumisteria.MtVapius_SmokedGoatCheese",
+              "MinStack": 1,
+							"MaxStack": 1,
+              "CopyQuality": true, 
+              "QualityModifiers": [
+                {  
+                  "Id": "normal-silver Iridium",
+                  "Condition": "ITEM_QUALITY Input 0 0, Random 0.25",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {   
+                  "Id": "silver-gold Iridium",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.3",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id": "gold-iridium Iridium",
+                  "Condition": "ITEM_QUALITY Input 2 2, Random 0.15",
+                  "Modification": "Set",
+                  "Amount": 4
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional item",
+					        "Condition": "Random 0.5",
+					        "Modification": "Add",
+									"Amount": 1
+                }
+              ] 
+            }
+          ],
+          "MinutesUntilReady": 60
+        }
+      }
+    },
+
+
+
+        {
+      "LogName": "Radioactive fish smoker Compability with Visit Mount Vapius",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC){{ModId}}_RadioactiveFishSmoker",
+        "OutputRules"
+      ],
+      "Entries": {
+        "{{ModId}}_SmokerCheese":{
+          "Id":"Lumisteria.MtVapius_SmokerCheese",
+          "Triggers":[
+            {
+              "Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)424",
+              "RequiredTags": null,
+							"RequiredCount": 1
+            }
+          ],
+          "UseFirstValidOutput": true,
+          "OutputItem":[
+            {
+							"Id": "Lumisteria.MtVapius_Embertin",
+							"ItemId": "(O)Lumisteria.MtVapius_Embertin",
+              "MinStack": 2,
+							"MaxStack": 2,
+              "CopyQuality": true, 
+              "QualityModifiers": [
+                {  
+                  "Id": "normal-silver Radioactive",
+                  "Condition": "ITEM_QUALITY Input 0 0, Random 0.4",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id": "silver-gold Radioactive",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.45",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id": "gold-iridium Radioactive",
+                  "Condition": "ITEM_QUALITY Input 2 2, Random 0.2",
+                  "Modification": "Set",
+                  "Amount": 4
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional item",
+									"Condition": "Random 0.1",
+					        "Modification": "Add",
+									"Amount": 1
+                },
+                {
+                  "Id": "Aditional Item Quality",
+									"Condition": "ITEM_QUALITY Input 4 4, Random 0.15",
+					        "Modification": "Add",
+									"Amount": 1
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 80
+        },
+        "{{ModId}}_SmokerEweCheese":{
+          "Id":"Lumisteria.MtVapius_SmokerEweCheese",
+          "Triggers":[
+            {
+              "Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)Lumisteria.MtVapius_EweCheese",
+              "RequiredTags": null,
+							"RequiredCount": 1
+            }
+          ],
+          "UseFirstValidOutput": true,
+          "OutputItem":[
+            {
+							"Id": "Lumisteria.MtVapius_AshgourdCheese",
+							"ItemId": "(O)Lumisteria.MtVapius_AshgourdCheese",
+              "MinStack": 2,
+							"MaxStack": 2,
+              "CopyQuality": true, 
+              "QualityModifiers": [
+                {  
+                  "Id": "normal-silver Radioactive",
+                  "Condition": "ITEM_QUALITY Input 0 0, Random 0.4",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id": "silver-gold Radioactive",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.45",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id": "gold-iridium Radioactive",
+                  "Condition": "ITEM_QUALITY Input 2 2, Random 0.2",
+                  "Modification": "Set",
+                  "Amount": 4
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional item",
+									"Condition": "Random 0.1",
+					        "Modification": "Add",
+									"Amount": 1
+                },
+                {
+                  "Id": "Aditional Item Quality",
+									"Condition": "ITEM_QUALITY Input 4 4, Random 0.15",
+					        "Modification": "Add",
+									"Amount": 1
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 80
+        },
+        "{{ModId}}_SmokerGoatCheese":{
+          "Id":"Lumisteria.MtVapius_SmokerGoatCheese",
+          "Triggers":[
+            {
+              "Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)426",
+              "RequiredTags": null,
+							"RequiredCount": 1
+            }
+          ],
+          "UseFirstValidOutput": true,
+          "OutputItem":[
+            {
+							"Id": "Lumisteria.MtVapius_SmokedGoatCheese",
+							"ItemId": "(O)Lumisteria.MtVapius_SmokedGoatCheese",
+              "MinStack": 2,
+							"MaxStack": 2,
+              "CopyQuality": true, 
+              "QualityModifiers": [
+                {  
+                  "Id": "normal-silver Radioactive",
+                  "Condition": "ITEM_QUALITY Input 0 0, Random 0.4",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id": "silver-gold Radioactive",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.45",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id": "gold-iridium Radioactive",
+                  "Condition": "ITEM_QUALITY Input 2 2, Random 0.2",
+                  "Modification": "Set",
+                  "Amount": 4
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional item",
+									"Condition": "Random 0.1",
+					        "Modification": "Add",
+									"Amount": 1
+                },
+                {
+                  "Id": "Aditional Item Quality",
+									"Condition": "ITEM_QUALITY Input 4 4, Random 0.15",
+					        "Modification": "Add",
+									"Amount": 1
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 80
+        }
+      }
+    },
+
+    {
+      "LogName": "Dehydrator Compability with Visit Mount Vapius",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC){{ModId}}_IronDehydrator",
+        "OutputRules"
+      ],
+      "Entries": {
+        "{{ModId}}_Dehydrator_SunGrape":{
+          "Id":"Lumisteria.MtVapius_Dehydrator_SunGrape",
+          "Triggers":[
+            {
+              "Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)Lumisteria.MtVapius_WhiteGrape",
+              "RequiredTags": null,
+							"RequiredCount": 5
+            }
+          ],
+          "UseFirstValidOutput": true,
+          "OutputItem":[
+            {
+							"Id": "Lumisteria.MtVapius_SunGrape",
+							"ItemId": "(O)Lumisteria.MtVapius_SunGrape",
+              "MinStack": 3,
+							"MaxStack": 4,
+              "CopyQuality": false, 
+              "QualityModifiers": [
+                {  
+                  "Id":"lose quality",
+                  "Condition": "ITEM_QUALITY Input 4 4",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id":"lose quality",
+                  "Condition": "ITEM_QUALITY Input 2 2",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id":"Maybe not lose quality",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.5",
+                  "Modification": "Set",
+                  "Amount": 1
+                }
+              ],
+              "StackModifiers": null
+            }
+          ],
+          "MinutesUntilReady": 1750
+        }
+      }
+    },
+
+
+    {
+      "LogName": "Dehydrator Compability with Visit Mount Vapius",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC){{ModId}}_GoldDehydrator",
+        "OutputRules"
+      ],
+      "Entries": {
+        "{{ModId}}_Dehydrator_SunGrape":{
+          "Id":"Lumisteria.MtVapius_Dehydrator_SunGrape",
+          "Triggers":[
+            {
+              "Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)Lumisteria.MtVapius_WhiteGrape",
+              "RequiredTags": null,
+							"RequiredCount": 5
+            }
+          ],
+          "UseFirstValidOutput": true,
+          "OutputItem":[
+            {
+							"Id": "Lumisteria.MtVapius_SunGrape",
+							"ItemId": "(O)Lumisteria.MtVapius_SunGrape",
+              "MinStack": 3,
+							"MaxStack": 4,
+              "CopyQuality": true, 
+              "QualityModifiers": [
+                {  
+                  "Id":"silver-gold Gold",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.15",
+                  "Modification": "Set",
+                  "Amount": 2
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional Item",
+					        "Condition": "Random 0.1",
+									"Modification": "Add",
+					        "Amount": 1
+                 }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 2100
+        }
+      }
+    },
+
+
+    {
+      "LogName": "Dehydrator Compability with Visit Mount Vapius",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC){{ModId}}_IridiumDehydrator",
+        "OutputRules"
+      ],
+      "Entries": {
+        "{{ModId}}_Dehydrator_SunGrape":{
+          "Id":"Lumisteria.MtVapius_Dehydrator_SunGrape",
+          "Triggers":[
+            {
+              "Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)Lumisteria.MtVapius_WhiteGrape",
+              "RequiredTags": null,
+							"RequiredCount": 1
+            }
+          ],
+          "UseFirstValidOutput": true,
+          "OutputItem":[
+            {
+							"Id": "Lumisteria.MtVapius_SunGrape",
+							"ItemId": "(O)Lumisteria.MtVapius_SunGrape",
+              "MinStack": 4,
+							"MaxStack": 5,
+              "CopyQuality": true, 
+              "QualityModifiers": [
+                {  
+                  "Id": "normal-silver Iridium",
+                  "Condition": "ITEM_QUALITY Input 0 0, Random 0.2",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id": "silver-gold Iridium",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.25",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id": "gold-iridium Iridium",
+                  "Condition": "ITEM_QUALITY Input 2 2, Random 0.1",
+                  "Modification": "Set",
+                  "Amount": 4
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional item",
+					        "Condition": "Random 0.4",
+									"Modification": "Add",
+					        "Amount": 1
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 2370
+        }
+      }
+    },
+
+
+    {
+      "LogName": "Dehydrator Compability with Visit Mount Vapius",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC){{ModId}}_RadioactiveDehydrator",
+        "OutputRules"
+      ],
+      "Entries": {
+        "{{ModId}}_Dehydrator_SunGrape":{
+          "Id":"Lumisteria.MtVapius_Dehydrator_SunGrape",
+          "Triggers":[
+            {
+              "Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)Lumisteria.MtVapius_WhiteGrape",
+              "RequiredTags": null,
+							"RequiredCount": 5
+            }
+          ],
+          "UseFirstValidOutput": true,
+          "OutputItem":[
+            {
+							"Id": "Lumisteria.MtVapius_SunGrape",
+							"ItemId": "(O)Lumisteria.MtVapius_SunGrape",
+              "MinStack": 6,
+							"MaxStack": 7,
+              "CopyQuality": true, 
+              "QualityModifiers": [
+                {  
+                  "Id": "normal-silver Radioactive",
+                  "Condition": "ITEM_QUALITY Input 0 0, Random 0.4",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id": "silver-gold Radioactive",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.45",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id": "gold-iridium Radioactive",
+                  "Condition": "ITEM_QUALITY Input 2 2, Random 0.15",
+                  "Modification": "Set",
+                  "Amount": 4
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional item",
+					        "Condition": "Random 0.15",
+					        "Modification": "Add",
+									"Amount": 2
+                },
+                {
+                  "Id": "Aditional Item Quality",
+									"Condition": "ITEM_QUALITY Input 4 4, Random 0.15",
+					        "Modification": "Add",
+									"Amount": 2
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 2630
+        }
+      }
+    }
+	]
+}

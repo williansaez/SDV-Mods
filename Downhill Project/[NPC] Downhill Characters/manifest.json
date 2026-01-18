@@ -1,0 +1,13 @@
+{
+	"Name": "Downhill Project NPCs",
+	"Author": "Kiyugamods",
+	"Version": "1.0.12",
+	"Description": "Downhill NPCs Project",
+	"UniqueID": "DH.Kiyuga.Characters",
+	"UpdateKeys": [ "Nexus:32872" ],
+	"MinimumApiVersion": "4.1.0",
+	"ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher", "MinimumVersion": "2.5.0" },
+	"Dependencies": [
+		{ "UniqueID": "DH.Kiyuga.Main", "IsRequired": true }
+	]
+}

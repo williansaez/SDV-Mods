@@ -1,0 +1,11 @@
+{
+  "Name": "[CP] Life Cycle",
+  "Author": "nraittanna",
+  "Version": "4.1.0",
+  "Description": "A mod that adds romantic relationships for townies.",
+  "UniqueID": "nraittanna.LifeCycle",
+  "UpdateKeys": [ "Nexus:6200" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+  }
+}

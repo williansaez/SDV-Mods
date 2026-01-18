@@ -1,0 +1,304 @@
+{
+    "Format": "2.0.0",
+    "ConfigSchema": {
+        "Version": {
+            "AllowValues": "dating, married",
+            "Default": "dating"
+        },
+        "Save": {
+            "AllowValues": "new, old",
+            "Default": "new"
+        }
+    },
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Emily",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020010"
+            },
+            "Entries": {
+                "Tue4": "Você deveria ir ao Carnaval de Grampleton.$0#$b#Eu fui com o Clint e tem tantas coisas divertidas para fazer!$1",
+                "Sat4": "O Clint conseguiu a maior pontuação na Pedra Esmagadora no Carnaval de Grampleton.$1#$b#Impressionante, né?$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Clint",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020010"
+            },
+            "Entries": {
+                "Mon4": "Olá, @.$1#$e#Tenho que te agradecer por me incentivar a convidar Emily para o Carnaval de Grampleton.$0#$b#Ela adorou!$1",
+                "Wed4": "Talvez Emily seja boa demais para mim...$2"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Emily",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020011"
+            },
+            "Entries": {
+                "Mon6": "Duas almas não se encontram por acaso...$4",
+                "Tue6": "O Clint apareceu em um sonho que tive recentemente.$0#$b#Talvez isso seja um sinal...$4",
+                "Fri6": "Clint e eu somos amigos, mas acho que não estamos tão próximos quanto Yoba gostaria que estivéssemos.$2#$e#Devo passar na ferraria para dizer oi.$0",
+                "Sun6": "Sinto que uma grande mudança na minha vida está se aproximando...$3"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Clint",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020011"
+            },
+            "Entries": {
+                "Mon6": "Não acho que terei coragem de convidar a Emily para sair de novo...$2#$e#Pelo menos posso continuar sendo amigo dela...$2",
+                "Thu6": "Se você encontrar a Emily, pode entregar este Topázio, @?[68]$0#$b#Mas não diga que foi eu!$0",
+                "Fri6": "Eu iria mais ao salão se pudesse.$0#$b#O Gus tem muita sorte de ver a Emily todos os dias.$3",
+                "Sun6": "Quando fui ao salão na sexta passada, a Emily parecia estar me evitando...$2#$b#Talvez ela não tenha gostado de ir ao Carnaval de Grampleton comigo...$2"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Emily",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020012"
+            },
+            "Entries": {
+                "Mon8": "Agora que Clint e eu estamos caminhando juntos na jornada da vida, percebi que algo estava faltando antes.$0#$b#Nunca me senti tão feliz em toda a minha vida.$4",
+                "Tue8": "Clint e eu não estamos planejando ter filhos tão cedo.$0#$e#Mas quando esse dia chegar, vamos garantir que cresçam gentis e atenciosos.$1#$b#Acreditamos que essas são as qualidades mais importantes de uma pessoa.$1",
+                "Wed8": "Oi, @.$1#$e#Ontem à noite eu conversei com o Clint e ele me sugeriu que eu abrisse uma boutique na cidade.$0#$b#Nunca tinha pensado nisso, mas é uma ideia sensacional!$1#$b#Tenho certeza de que todo mundo ia adorar, mas preciso juntar um dinheiro primeiro.$0",
+                "Thu8": "Clint e eu deveríamos fazer uma fogueira quando tivermos tempo.$0#$b#Poderíamos até dançar e meditar!$1",
+                "Fri8": "Sandy está ansiosa para conhecer o Clint em breve.$0#$e#Não seria maravilhoso? Eles são meus melhores amigos.$0#$e#Acredito que vão se dar muito bem.$0#$e#Além disso, ela tem muitos Geodos Omni que o Clint poderia quebrar.$1",
+                "Sat8": "Oi, @.$0#$e#Algumas pessoas simplesmente não conseguem se dar bem, por mais que tentem, porque suas auras não combinam.$0#$b#Mas graças ao Yoba, a aura dele e a minha se misturam perfeitamente.$1",
+                "Sun8": "Talvez em breve eu pare de trabalhar como garçonete para me dedicar à alfaiataria.$0#$e#Mas nunca vou esquecer o quanto foi importante trabalhar lá.$0#$b#Afinal, foi onde conheci o Clint...$4",
+                "spring_Mon8": "Adoro trabalhar com o Gus, mas meu sonho mesmo é me dedicar à alfaiataria.$0#$e#O Clint sempre me diz que tenho talento natural para isso.$1#$b#Ele até disse que eu deveria abrir uma boutique na cidade.$1",
+                "spring_Tue8": "A jornada espiritual é individual.$0#$b#Mas sempre dá para encontrar alguém para acompanhar esse caminho.$1",
+                "spring_Fri8": "Não sei quando meus pais vão voltar da viagem, mas já quero que conheçam o Clint há um tempo.$0",
+                "summer_Mon8": "O Clint é tão gentil comigo.$4#$b#Semana passada eu disse que precisava de mais tecido para um vestido em que estou trabalhando, e ontem ele me trouxe!$1",
+                "summer_Wed8": "A conexão espiritual do Clint comigo é a mais forte que eu já tive com alguém.$4",
+                "summer_Thu8": "Oi, @.$0#$e#Ultimamente tenho tentado meditar com o Clint.$0#$b#Mas é difícil para ele esvaziar a mente...$2",
+                "fall_Tue8": "Oi, @.$0#$e#Você já pensa no futuro às vezes?$3#$e#Eu costumava ser bem despreocupada e esperar que o destino fizesse sua mágica.$0#$b#Mas agora que tenho o Clint na minha vida, acho que devemos nos firmar.$0",
+                "fall_Fri8": "Oi, @.$0#$e#Talvez você não saiba, mas cada um tem sua própria energia espiritual.$0#$b#E a energia do Clint se completa perfeitamente com a minha...$4",
+                "fall_Sun8": "Oi, @.$0#$e#Já te contei que o Clint gosta de fazer colares e brincos para mim com as gemas dele?$0#$b#Pois eram lindos, mas alguns não combinavam com meu estilo, então agora trabalhamos juntos.$1#$b#Eu desenho e ele termina a peça.$1",
+                "winter_Wed8": "Cada dia com o Clint é uma bênção do Yoba.$4#$e#Ah, @, como está o seu dia?$0",
+                "winter_Sat8": "Acredito que meu destino seja ficar com o Clint para sempre.$4#$e#Você sente o mesmo por alguém?$0",
+                "winter_Sun8": "Adoro estar perto do Clint, ele tem tanta energia positiva para compartilhar!$1",
+                "spring_12": "Adoro a Caça aos Ovos mas nunca participei.$0#$b#Talvez eu devesse entrar na brincadeira com o Clint.$1",
+                "fall_15": "Tenho certeza de que os turistas vão amar a apresentação do Clint amanhã na feira.$1",
+                "winter_7": "O Clint e eu adoramos o Festival do Gelo.$1#$b#A propósito, boa sorte na competição de pesca, @.$0",
+                "winter_26": "É ótimo que o aniversário do Clint seja logo depois da Festa da Estrela de Inverno.$0#$b#A felicidade vem aos pares!$1#$e#Será que eu deveria dar algo especial...$0",
+                "spring_12_2": "Adoro a Caça aos Ovos mas nunca participei.$0#$b#Talvez eu devesse entrar na brincadeira com o Clint.$1",
+                "fall_15_2": "Tenho certeza de que os turistas vão amar a apresentação do Clint amanhã na feira.$1",
+                "winter_7_2": "O Clint e eu adoramos o Festival do Gelo.$1#$b#A propósito, boa sorte na competição de pesca, @.$0",
+                "winter_26_2": "É ótimo que o aniversário do Clint seja logo depois da Festa da Estrela de Inverno.$0#$b#A felicidade vem aos pares!$1#$e#Será que eu deveria dar algo especial...$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Clint",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020012"
+            },
+            "Entries": {
+                "Mon10": "Emily viu uma carta que escrevi pra ela há muito tempo e nunca entreguei.$0#$b#Foi tão constrangedor...$2",
+                "Tue10": "Quando Emily disse que gostava de mim, achei que era uma brincadeira.$2#$e#Graças a Deus não era.$1",
+                "Wed10": "Emily vem me visitar com frequência.$1#$b#Acho que ela tem medo que eu fique sozinho.$0",
+                "Thu10": "Olá, @.$0#$e#Você devia passar aqui para melhorar suas ferramentas.$0#$b#Estou tentando economizar para ajudar a Emily a abrir sua própria boutique.$1",
+                "Fri10": "Não sou muito próximo da maioria das pessoas da cidade.$0#$b#Mas, quando conheci a Emily, soube que ela era diferente.$1",
+                "Sat10": "Ainda fico nervoso quando falo com a Emily.#$e#Ainda bem que ela disse que acha isso adorável.$4",
+                "Sun10": "Emily é tão preciosa para mim.$1#$b#Gostaria de poder estar com ela o tempo todo. Ela me faz tão feliz.$1",
+                "spring_Wed10": "Emily é a coisa mais importante para mim.$1#$e#Ela é quem dá sentido à minha vida.$4",
+                "spring_Thu10": "Pedi para a Emily me ensinar a dançar.$0#$e#Não me interesso muito, mas assim passo mais tempo com ela.$4",
+                "spring_Sun10": "Olá, @.$0#$e#Hoje vou assistir a um filme com a Emily.$0#$b#Ela está muito empolgada, acho que a protagonista é a atriz favorita dela.$1",
+                "summer_Tue10": "Sei que às vezes posso ser rabugento, por isso sou tão sortudo que a Emily sempre me entende.$1",
+                "summer_Thu10": "Acordar sabendo que a Emily é minha namorada parece um sonho.$4",
+                "summer_Sat10": "Você acha que a Emily gostaria de brincos de jade, @?$1",
+                "fall_Mon10": "Agora que estou namorando a Emily, quero melhorar como pessoa por ela.$1",
+                "fall_Fri10": "Com a Emily descobri o que significa felicidade verdadeira.$4#$b#Sinto que o sol brilha mais forte todas as manhãs.$1",
+                "fall_Sun10": "Uma das razões pelas quais amo a Emily é por causa da bondade dela.$1",
+                "winter_Wed10": "Este foi um ano ótimo e recompensador.$0#$e#Acho que é tudo graças à Emily.$1",
+                "winter_Fri10": "Sugeri à Emily que deveríamos voltar ao Carnaval de Grampleton.$1#$b#Sabe, para recordar os bons momentos.$1",
+                "winter_Sun10": "Sabe, eu amo aquamarinas porque me lembram da Emily, não por ser ferreiro.$4",
+                "spring_23": "Finalmente posso dançar com a Emily na Dança das Flores!$1",
+                "spring_27": "É ótimo que a Emily ame joias e eu seja ferreiro.$0#$b#Fiz joias de jade e esmeralda para o aniversário dela.$1",
+                "spring_23_2": "Finalmente posso dançar com a Emily na Dança das Flores!$1",
+                "spring_27_2": "É ótimo que a Emily ame joias e eu seja ferreiro.$0#$b#Fiz joias de jade e esmeralda para o aniversário dela.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Haley",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020012"
+            },
+            "Entries": {
+                "Mon2": "Ugh... Espero que o Clint não venha à nossa casa com frequência.$2#$b#Ou pelo menos que ele tome banho antes de vir.$2",
+                "Mon8": "Nunca pensei que sentiria tanta falta da Emily.$2#$b#Moramos juntas, mas agora ela passa muito tempo com o Clint.$2#$e#Mas claro que estou feliz por ela.$0",
+                "Tue4": "A Emily deveria dar um makeover no Clint.$0#$b#E ele também deveria fazer a barba.$0",
+                "Wed8": "Outro dia o Clint veio à nossa casa, e eu nunca vi a Emily tão feliz!$1",
+                "Thu2": "Não acredito que a Emily está namorando o Clint.$3#$b#O gosto dele para roupas é horrível!$3",
+                "Thu8": "Ei, @.$0#$e#Estava pensando... Eu não devia ter julgado o Clint quando ele começou a namorar a Emily...$2#$b#Ele a faz muito feliz e fui tão rude com ele no começo...$2",
+                "Fri8": "O Clint me deu e à Emily colares combinando.$1#$b#Ele disse que fez com as próprias mãos.$1",
+                "Sat2": "O trabalho do Clint é meio nojento...$3#$e#Não sei o que a Emily viu nele.$3",
+                "Sat6": "Clint e Emily se encontram quase todos os dias.$0#$e#Não sei se isso é bom ou não.$0",
+                "Sun4": "Eu disse à Emily que ela deveria fazer algumas roupas para o Clint.$7#$b#Mas ela disse que gosta dele do jeitinho que ele é.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24.xnb",
+            "When": {
+                "HasSeenEvent": "59020012"
+            },
+            "Entries": {
+                "Clint": "A Emily está tão linda hoje.$4"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8.xnb",
+            "When": {
+                "HasSeenEvent": "59020012"
+            },
+            "Entries": {
+                "Clint": "A Emily e eu batizamos esse carinha de Shanti.$0#$b#Ele é como nosso filho!$1",
+                "Emily": "@!$1#$e#Venha aqui e conheça nosso pequeno Shanti.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25.xnb",
+            "When": {
+                "HasSeenEvent": "59020012"
+            },
+            "Entries": {
+                "Clint": "Este festival sempre me deixava triste.$2#$b#Mas agora eu tenho a Emily.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/schedules/Emily",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020012"
+            },
+            "Entries": {
+                "spring.001": "Clint e eu estamos nos conectando com a natureza.$0",
+                "spring.002": "Este lugar tem energia espiritual com efeitos curativos.$0#$b#Por isso pedi ao Clint para vir comigo.$0",
+                "summer.001": "Conversei com o Gus e ele disse que eu posso ir trabalhar um pouco mais tarde.$1",
+                "summer.002": "Devo tirar um dia de folga e passar com o Clint na praia.$0#$b#As maravilhas da natureza também incluem o oceano.$1",
+                "fall.001": "Vamos caminhar juntos até o salão mais tarde, Clint.$1",
+                "fall.002": "Esta época do ano é perfeita para acampar.$0#$b#Certo, Clint?$1",
+                "winter.001": "O Clint pode ficar com ciúmes às vezes, devo conversar com ele sobre isso…$3",
+                "winter.002": "Oh, olá, @…$4"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Emily",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020012"
+            },
+            "Entries": {
+                "spring_Mon": "900 HaleyHouse 16 5 2/1000 HaleyHouse 3 16 0/1330 Woods 10 18 2 \"Strings\\schedules\\Emily:spring.001\"/1730 Saloon 15 17 0 square_5_1_0/2400 HaleyHouse 21 4 1 emily_sleep",
+                "spring_Sat": "900 HaleyHouse 16 5 2/1000 HaleyHouse 3 16 0/1330 Forest 103 96 2 \"Strings\\schedules\\Emily:spring.002\"/1730 Saloon 15 17 0 square_5_1_0/2400 HaleyHouse 21 4 1 emily_sleep",
+                "summer_Tue": "900 HaleyHouse 16 5 2/1000 HaleyHouse 3 16 0/1330 Town 79 95 2 \"Strings\\schedules\\Emily:summer.001\"/1730 Saloon 15 17 0 square_5_1_0/2400 HaleyHouse 21 4 1 emily_sleep",
+                "summer_Sun": "900 HaleyHouse 16 5 2/1000 HaleyHouse 3 16 0/1330 Beach 83 40 2 \"Strings\\schedules\\Emily:summer.002\"/1730 Saloon 15 17 0 square_5_1_0/2400 HaleyHouse 21 4 1 emily_sleep",
+                "fall_Wed": "900 HaleyHouse 16 5 2/1000 HaleyHouse 3 16 0/1330 Town 90 5 1 \"Strings\\schedules\\Emily:fall.001\"/1730 Saloon 15 17 0 square_5_1_0/2400 HaleyHouse 21 4 1 emily_sleep",
+                "fall_Sun": "900 HaleyHouse 16 5 2/1000 HaleyHouse 3 16 0/1330 Woods 10 18 2 \"Strings\\schedules\\Emily:fall.002\"/1730 Saloon 15 17 0 square_5_1_0/2400 HaleyHouse 21 4 1 emily_sleep",
+                "winter_Fri": "900 HaleyHouse 16 5 2/1000 HaleyHouse 3 16 0/1330 HaleyHouse 17 5 2 \"Strings\\schedules\\Emily:winter.001\"/1730 Saloon 15 17 0 square_5_1_0/2400 HaleyHouse 21 4 1 emily_sleep",
+                "winter_Sun": "900 HaleyHouse 16 5 2/1000 HaleyHouse 3 16 0/1330 Blacksmith 11 15 2 \"Strings\\schedules\\Emily:winter.002\"/1730 Saloon 15 17 0 square_5_1_0/2400 HaleyHouse 21 4 1 emily_sleep"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/schedules/Clint",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020012"
+            },
+            "Entries": {
+                "spring.001": "Na maioria dos dias prefiro não ficar fora.$0#$b#Mas você sabe, a Emily ama a natureza.$1",
+                "spring.002": "Emily gosta da natureza.$0#$b#Eu não passava muito tempo fora antes... mas agora passo.$0",
+                "summer.001": "Oi, @.$1#$b#Desculpe se você queria que eu quebrasse alguns geodos.$0#$b#Estou tirando o dia de folga para ficar com a Emily.$0",
+                "summer.002": "Eu realmente não gosto de ir à praia, mas a Emily insistiu.$0",
+                "fall.001": "Os olhos da Emily são tão lindos...$4",
+                "fall.002": "Devíamos acampar em breve.$1#$b#E poderíamos até fazer uma fogueira.$1",
+                "winter.001": "O que você está fazendo aqui, @?$3#$b#Este é o quarto da Emily.$3",
+                "winter.002": "Ah, @.$0#$b#Se precisar de algo, você poderia passar amanhã?$4"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Clint",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020012"
+            },
+            "Entries": {
+                "spring_Mon": "850 Blacksmith 3 13 2/1100 Blacksmith 8 12 1 clint_hammer/1330 Woods 11 18 2 \"Strings\\schedules\\Clint:spring.001\"/1730 Saloon 19 23 3/2400 Blacksmith 10 4 1 clint_sleep",
+                "spring_Sat": "850 Blacksmith 3 13 2/1100 Blacksmith 8 12 1 clint_hammer/1330 Forest 104 96 2 \"Strings\\schedules\\Clint:spring.002\"/1730 Saloon 19 23 3/2400 Blacksmith 10 4 1 clint_sleep",
+                "summer_Tue": "850 Blacksmith 3 13 2/1100 Blacksmith 8 12 1 clint_hammer/1330 Town 80 95 2 \"Strings\\schedules\\Clint:summer.001\"/1730 Saloon 19 23 3/2400 Blacksmith 10 4 1 clint_sleep",
+                "summer_Sun": "850 Blacksmith 3 13 2/1100 Blacksmith 8 12 1 clint_hammer/1330 Beach 84 40 2 \"Strings\\schedules\\Clint:summer.002\"/1730 Saloon 19 23 3/2400 Blacksmith 10 4 1 clint_sleep",
+                "fall_Wed": "850 Blacksmith 3 13 2/1100 Blacksmith 8 12 1 clint_hammer/1330 Town 90 4 1 \"Strings\\schedules\\Clint:fall.001\"/1730 Saloon 19 23 3/2400 Blacksmith 10 4 1 clint_sleep",
+                "fall_Sun": "850 Blacksmith 3 13 2/1100 Blacksmith 8 12 1 clint_hammer/1330 Woods 11 18 2 \"Strings\\schedules\\Clint:fall.002\"/1730 Saloon 19 23 3/2400 Blacksmith 10 4 1 clint_sleep",
+                "winter_Fri": "850 Blacksmith 3 13 2/1100 Blacksmith 8 12 1 clint_hammer/1330 HaleyHouse 16 5 2 \"Strings\\schedules\\Clint:winter.001\"/1730 Saloon 19 23 3/2400 Blacksmith 10 4 1 clint_sleep",
+                "winter_Sun": "850 Blacksmith 3 13 2/1100 Blacksmith 8 12 1 clint_hammer/1330 Blacksmith 10 15 2 \"Strings\\schedules\\Clint:winter.002\"/1730 Saloon 19 23 3/2400 Blacksmith 10 4 1 clint_sleep"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/HaleyHouse",
+            "Entries": {
+                "59020011/e 59020010/F/f Emily 1750/f Clint 1750/o Emily/t 1900 2000": "nightTime/-1000 -1000/Clint -100 -100 0 Emily 20 4 3 farmer 1000 1000 0/skippable/showFrame Emily 33/specificTemporarySprite EmilySleeping/viewport 19 4 true/pause 3000/emote Emily 24/pause 2000/emote Emily 24/pause 1500/viewport move 0 -1 3900/pause 900/globalFade .004/viewport -1000 -1000/playMusic EmilyDream/changeToTemporaryMap EmilyDreamscape false/viewport -1000 -1000/pause 1000/warp Emily 21 11/warp Clint 22 15/animate Emily false true 500 24 25/globalFadeToClear .005 true/viewport move 0 -1 7000/viewport 21 18/pause 5000/speak Emily \"Muuui-wah...$7\"/pause 3000/speak Emily \"Muuui-wah...$7\"/pause 5000/playSound yoba/move Clint -2 0 0/pause 1000/stopAnimation Emily/pause 500/showFrame Emily 26/jump Emily/shake Emily 850/pause 900/showFrame Emily 0/pause 800/move Emily -1 0 2/move Emily 0 1 2/pause 800/emote Emily 8/pause 500/speak Emily \"Clint?$6#$b#Por que você está aqui?$4\"/pause 1000/move Emily 0 2 2/viewport move 0 1 2500/move Emily -1 0 2/move Emily 0 1 1/pause 600/faceDirection Clint 3/pause 1000/emote Emily 40/pause 1200/speak Emily \"Isso não aconteceu algo parecido com @?$3\"/pause 1000/faceDirection Emily 3/pause 800/speak Emily \"Eu estava errada...?$3\"/pause 1000/faceDirection Emily 1/pause 800/speak Emily \"Clint...$4\"/pause 700/speak Emily \"Muuui-wah...$7\"/pause 1000/speak Emily \"Os ventos do destino sopram quando menos esperamos...$3\"/pause 1200/playSound coin/warp Clint -1000 -1000/pause 500/emote Emily 16/pause 350/faceDirection Emily 2/pause 120/faceDirection Emily 3/pause 120/faceDirection Emily 0/pause 250/faceDirection Emily 1/pause 700/viewport move 0 1 3800/pause 900/globalFade .005/viewport -2000 -2000/pause 2000/changeLocation HaleyHouse/warp Emily 20 4/globalFadeToClear .005 true/viewport 19 4/pause 2800/move Emily -4 0 2/move Emily 0 1 2/pause 2000/speak Emily \"Os ventos do destino não podem ser negados...$3\"/pause 2000/end dialogue Emily \"Algumas coisas são destinadas a ser...$4\""
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Woods",
+            "Entries": {
+                "59020012/e 59020011/e 2123243/F/f Emily 2000/f Clint 2500/o Emily/w sunny/t 1500 1700": "EmilyTheme/-1000 -1000/farmer 1000 1000 2 Clint 29 14 3 Emily 26 14 1/specificTemporarySprite EmilyCamping/viewport 27 15 true/pause 3500/speak Emily \"Fico feliz que você decidiu acampar comigo, Clint.$1\"/pause 700/speak Emily \"Gosto de vir aqui.$0#$b#Este lugar tem uma energia forte e intensa.$1\"/pause 600/speak Emily \"Por isso quis te mostrar.$4#$b#Você gostou?$1\"/pause 800/speak Clint \"S-Sim...$4\"/pause 600/emote Emily 32/pause 1700/speak Emily \"Hum, Clint... Na verdade há algo que quero te dizer...$3\"/pause 900/speak Emily \"Há alguns dias venho pensando e meditando...$3\"/pause 800/speak Emily \"Porque na outra noite tive um sonho em que você apareceu...$3\"/pause 220/shake Clint 800/pause 180/speak Emily \"...e acredito que foi um sinal do destino.$4\"/pause 300/shake Clint 800/pause 150/speak Emily \"Almas como a sua e a minha não se encontram por acaso, sabia?$4#$b#E as nossas são ainda mais especiais, porque estão entrelaçadas, eu sinto isso.$4\"/pause 800/speak Emily \"Estou tão feliz por ter você na minha vida, Clint.$4#$b#E é por isso que quero que sejamos mais do que amigos...$4\"/pause 280/emote Clint 16/shake Clint 2500/pause 80/showFrame Clint 43/pause 100/shake Clint 2000/speed Emily 5/pause 80/speak Emily \"Clint, você está bem?$6\"/pause 50/move Emily 0 1 1/move Emily 3 0 0/pause 50/speak Emily \"Clint?!$6\"/pause 500/speak Clint \"E-eu... Eu... Isso é um sonho...? $4\"/pause 380/speak Emily \"Claro que não!$4#$b#Vem... vem aqui, Clint.$4\"/pause 350/showFrame Emily 16/pause 200/showFrame Clint 0/specificTemporarySprite heart 29 14/pause 1800/end dialogue Clint \"I-Isso realmente aconteceu...? $4\""
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "When": {
+                "Save": "old"
+            },
+            "Entries": {
+                "59020046/F/f Clint 1500/e 97/o Emily/t 900 1830/a 0 90": "jaunty/11 90/farmer 5 90 1 Clint 6 92 1 Emily 15 90 1 Caroline 16 90 3/move farmer 1 0 2/skippable/emote farmer 16/faceDirection Clint 0 true/emote Clint 16/speak Clint \"@!$4#$b#...Você me pegou.$s\"/pause 500/move farmer 0 1 2/faceDirection Clint 1/emote Clint 28/pause 500/faceDirection farmer 1/pause 200/faceDirection farmer 2/pause 800/speak Clint \"Eu estava planejando convidar a Emily para sair. Eu estava na porta dela e tudo... mas então ouvi ela chegando e me joguei nesse arbusto.$s#$b#Agora estou esperando ela terminar de conversar com a Caroline para poder voltar pra casa escondido.$s\"/pause 800/emote farmer 12/pause 800/pause 500/faceDirection Clint 0/speak Clint \"O que você disse? Você nunca mais vai atualizar suas ferramentas se eu não convidar ela para sair?$s\"/faceDirection Clint 1/pause 1500/speak Clint \"Você é um vilão, @.#$b#*suspiro* ...tudo bem, eu farei isso.$s\"/pause 600/move farmer 1 0 1/move Clint 0 -2 1/speak Clint \"Tenho que me lembrar daquele conselho que @ me deu no salão.\"/move Clint 8 0 1/stopMusic/pause 500/speak Clint \"Hum... Emily?\"/pause 800/faceDirection Emily 3/pause 800/faceDirection Emily 1/speak Emily \"Desculpa, Caroline. Você poderia me dar um minuto?\"/pause 500/move Caroline 7 0 0/faceDirection Emily 3/pause 400/speak Emily \"Sim, Clint?\"/pause 500/faceDirection Clint 2/pause 400/faceDirection Clint 1/speak Clint \"Eu estava pensando se você sair... comigo... amanhã... eu... *engole em seco*$4\"/pause 200/faceDirection Clint 3/pause 300/emote Emily 8/pause 300/faceDirection Clint 1/pause 500/jump Clint/pause 800/speak Clint \"Eu tenho dois ingressos para o Carnaval de Grampleton amanhã. V... Você iria comigo?$4\"/jump Emily/pause 800/emote Emily 16/pause 400/playMusic musicboxsong/speak Emily \"Claro, Clint! Parece divertido!$h\"/pause 800/speak Clint \"Sério? Certo! Passarei para te buscar às cinco.$h\"/speak Emily \"Tá! Te vejo amanhã!\"/move Emily 7 0 1/faceDirection Caroline 3/speed Clint 4/move Clint -7 0 2/faceDirection farmer 0/speak Clint \"Você viu isso?! Eu tenho um encontro amanhã à noite!$h\"/pause 500/jump farmer/pause 1000/faceDirection Clint 1/pause 400/faceDirection Clint 2/speak Clint \"Ah, cara... estou tão nervoso.$s\"/end dialogue Clint \"Obrigado por me forçar a fazer isso mais cedo. Estou com medo, mas também muito feliz.$h\""
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Railroad",
+            "When": {
+                "Save": "old"
+            },
+            "Entries": {
+                "59020010/e 59020046/F/f Emily 1500/f Clint 1500/d Fri/w sunny/t 1900 2100": "event2/39 42/Clint 40 41 3 Emily 38 41 1 farmer 1000 1000 2 Marnie 119 122 3 Pam 117 118 1 Lewis 118 122 1 Pierre 114 122 2 Demetrius 113 123 1 Gus 114 118 2/skippable/pause 2000/speak Emily \"O carnaval foi incrível, Clint!$1\"/pause 100/speak Emily \"Você viu a artista do trapézio? Ela foi incrivelmente boa!$1#$b#E o Sky Ride foi tão emocionante! Você devia ter visto seu rosto, parecia tão assustado.$1#$b#Ah, também conversei com a cartomante, ela me contou coisas interessantes.$1\"/pause 680/speak Clint \"Isso é ótimo, Emily.$1#$b#Eu estava com medo de que você não gostasse.$2\"/pause 500/speak Emily \"De jeito nenhum, Clint, me diverti muito!$1\"/pause 580/speak Clint \"Então, v-você gostaria de ir ao salão agora, E-Emily?$4\"/pause 500/speak Emily \"Certo, vai ser novo pra mim ir como cliente.$1\"/pause 600/globalFade .007/changeLocation Saloon/warp Clint 19 23 3/warp Emily 18 22 2/warp Marnie 7 22 3/warp Pam 7 18 1/warp Lewis 8 22 1/warp Pierre 4 22 2/warp Demetrius 3 23 1/warp Gus 16 18 2/warp farmer 20 19 3/animate Gus false true 250 18 19 20/animate Lewis false true 150 19 19 19 19 19 19 19 19 19 19 19 19 19 19 22 23 23 23/animate Marnie false true 150 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 21 22 22 23 23/playMusic Saloon1/faceDirection Emily 2/viewport 14 22/globalFadeToClear .006/pause 1800/speak Emily \"Hahaha Clint, você é tão engraçado!$1\"/pause 600/speak Clint \"V-Você acha isso?$4\"/pause 500/speak Emily \"Claro!$1\"/pause 580/speak Emily \"Sabe, deveríamos fazer isso com mais frequência.$1#$b#Mas bem, eu tenho que trabalhar aqui todos os dias então...$3\"/pause 600/speak Emily \"Vamos não pensar nisso e apenas aproveitar o momento.$0\"/pause 380/faceDirection Emily 0/pause 150/speak Emily \"Gus, mais duas cervejas aqui, por favor!$1\"/pause 320/speak Gus \"Já vai!$1\"/pause 380/faceDirection Emily 2/pause 700/speak Emily \"Então, o que você estava dizendo sobre aquele amigo seu?$1\"/pause 600/globalFade .006/warp Marnie 119 122 3/warp farmer 120 119 3/warp Lewis 118 122 1/warp Pierre 114 122 2/warp Demetrius 113 123 1/globalFadeToClear .004/pause 800/emote Emily 40/pause 200/emote Clint 40/move Pam -1 0 2/move Pam 0 2 1/move Pam 5 0 2/move Pam 0 1 1/move Pam 3 0 2/move Pam 0 3 0/playSound doorOpen/warp Pam 110 20 0/pause 600/speak Emily \"Ah, até a Pam já foi.$3#$b#Nós também devemos ir.$0\"/pause 300/speak Clint \"Certo...$2\"/emote Clint 28/pause 380/speak Emily \"Vamos, não fique triste, Clint, você vem aqui todo dia.$0#$b#Você pode me acompanhar até em casa e a gente conversar um pouco mais, se quiser.$1\"/pause 200/emote Clint 16/pause 500/speak Clint \"Eu-eu adoraria, Emily!$4\"/pause 500/speak Emily \"Hahaha, você é tão fofo.$1\"/pause 270/emote Clint 60/pause 1380/end warpOut"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Railroad",
+            "When": {
+                "Save": "new"
+            },
+            "Entries": {
+                "59020010/e 101/F/f Emily 1500/f Clint 1500/d Fri/w sunny/t 1900 2100": "event2/39 42/Clint 40 41 3 Emily 38 41 1 farmer 1000 1000 2 Marnie 119 122 3 Pam 117 118 1 Lewis 118 122 1 Pierre 114 122 2 Demetrius 113 123 1 Gus 114 118 2/skippable/pause 2000/speak Emily \"O carnaval foi incrível, Clint!$1\"/pause 100/speak Emily \"Você viu a trapezista? Ela foi incrivelmente boa!$1#$b#E o Sky Ride foi tão emocionante! Você devia ter visto seu rosto, parecia tão assustado.$1#$b#Também conversei com a cartomante, ela me contou coisas interessantes.$1\"/pause 680/speak Clint \"Isso é ótimo, Emily.$1#$b#Eu estava com medo de que você não gostasse.$2\"/pause 500/speak Emily \"De jeito nenhum, Clint, me diverti muito!$1\"/pause 580/speak Clint \"Então, v-você gostaria de ir ao salão agora, E-Emily?$4\"/pause 500/speak Emily \"Certo, vai ser novo pra mim ir como cliente.$1\"/pause 600/globalFade .007/changeLocation Saloon/warp Clint 19 23 3/warp Emily 18 22 2/warp Marnie 7 22 3/warp Pam 7 18 1/warp Lewis 8 22 1/warp Pierre 4 22 2/warp Demetrius 3 23 1/warp Gus 16 18 2/warp farmer 20 19 3/animate Gus false true 250 18 19 20/animate Lewis false true 150 19 19 19 19 19 19 19 19 19 19 19 19 19 19 22 23 23 23/animate Marnie false true 150 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 21 22 22 23 23/playMusic Saloon1/faceDirection Emily 2/viewport 14 22/globalFadeToClear .006/pause 1800/speak Emily \"Hahaha, Clint, você é tão engraçado!$1\"/pause 600/speak Clint \"V-Você acha isso?$4\"/pause 500/speak Emily \"Claro!$1\"/pause 580/speak Emily \"Sabe, deveríamos fazer isso com mais frequência.$1#$b#Mas bem, eu tenho que trabalhar aqui todos os dias, então...$3\"/pause 600/speak Emily \"Vamos não pensar nisso e apenas aproveitar o momento.$0\"/pause 380/faceDirection Emily 0/pause 150/speak Emily \"Gus, mais duas cervejas aqui, por favor!$1\"/pause 320/speak Gus \"Já vai!$1\"/pause 380/faceDirection Emily 2/pause 700/speak Emily \"Então, o que você estava dizendo sobre aquele amigo seu?$1\"/pause 600/globalFade .006/warp Marnie 119 122 3/warp farmer 120 119 3/warp Lewis 118 122 1/warp Pierre 114 122 2/warp Demetrius 113 123 1/globalFadeToClear .004/pause 800/emote Emily 40/pause 200/emote Clint 40/move Pam -1 0 2/move Pam 0 2 1/move Pam 5 0 2/move Pam 0 1 1/move Pam 3 0 2/move Pam 0 3 0/playSound doorOpen/warp Pam 110 20 0/pause 600/speak Emily \"Ah, até a Pam já foi.$3#$b#Nós também devemos ir.$0\"/pause 300/speak Clint \"Certo...$2\"/emote Clint 28/pause 380/speak Emily \"Vamos, não fique triste, Clint, você vem aqui todo dia.$0#$b#Você pode me acompanhar até em casa e a gente conversar um pouco mais, se quiser.$1\"/pause 200/emote Clint 16/pause 500/speak Clint \"Eu-eu adoraria, Emily!$4\"/pause 500/speak Emily \"Hahaha, você é tão fofo.$1\"/pause 270/emote Clint 60/pause 1380/end warpOut"
+            }
+        }
+    ]
+}

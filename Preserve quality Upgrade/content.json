@@ -1,0 +1,62 @@
+{
+  "Format": "2.8.0",
+  "Changes": [
+    { 
+      "Logname": "Texture load Craftables",
+		  "Action": "Load",
+		  "Target": "Mods/{{ModId}}/Craftables",
+		  "FromFile": "assets/craftables.png"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "data/keg.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "data/jar.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "data/dehydrator.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "data/smoker.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "Compat/SVE.json",
+      "When": {
+	      "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+		  }
+    },
+    {             
+      "Action": "Include",
+      "FromFile": "Compat/AncientCrops.json",
+      "When": {
+	      "HasMod|contains=SOJA.AncientCrops": true
+		  }
+    }, 
+    {
+      "Action": "Include",
+      "FromFile": "Compat/VisitMountVapius.json",
+      "When": {
+		    "HasMod|contains=Lumisteria.MtVapius": true
+		  }
+    },
+    {
+      "Action": "Include",
+      "FromFile": "Compat/VPP.json",
+      "When": {
+		    "HasMod|contains=KediDili.VanillaPlusProfessions": true
+		  }
+    },
+    {
+      "Action": "Include",
+      "FromFile": "Compat/EastScarp.json",
+      "When": {
+		    "HasMod|contains=Lemurkat.EastScarp": true
+		  }
+    }
+  ]
+}

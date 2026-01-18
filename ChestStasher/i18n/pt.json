@@ -1,0 +1,20 @@
+{
+  "config.show-button.name": "Mostrar Botão",
+  "config.show-button.description": "Define se o botão 'Enviar Tudo' deve aparecer nos menus de baú.",
+  
+  "config.keybind.name": "Tecla de Atalho Enviar Tudo",
+  "config.keybind.description": "Tecla de atalho para enviar todos os itens para o baú.",
+  
+  "config.manual-lock.name": "Trava Manual de Espaços",
+  "config.manual-lock.description": "Ativa a trava manual de espaços quando o Convenient Inventory não está instalado.",
+  
+  "config.locked-slots.name": "Espaços Travados",
+  "config.locked-slots.description": "Lista de espaços a travar separados por vírgulas (ex.: 0,1,5,12). Os espaços vão de 0 a 35.",
+  
+  "button.sendall": "Enviar Tudo",
+  
+  "message.sent-items": "Itens enviados para o baú.",
+  "message.chest-full": "O baú está cheio.",
+  "message.no-items": "Não há itens para enviar."
+}
+

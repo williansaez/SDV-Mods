@@ -1,0 +1,22 @@
+// TL courtesy of elrupio
+{
+  "HolderName": "ExtraMachineConfig Holder Item",
+  "HolderDescription": "This is a dummy item meant to get around the limitation of machines being unable to output hats, weapons and other item types. If you're seeing this you're either looking at this with Lookup Anything/CJB Item Spawner, or something has gone wrong with EMC or one of its users.",
+  // Buff icon display
+  "CombatLevel": " Combattimento",
+  "AttackMultiplier": " Attacco",
+  "Immunity": " Immunità",
+  "KnockbackMultiplier": " Peso",
+  "WeaponSpeedMultiplier": " Velocità",
+  "CriticalChanceMultiplier": " Chance Crit.",
+  "CriticalPowerMultiplier": " Potere Crit.",
+  "WeaponPrecisionMultiplier": " Precisione",
+  // Item tooltip display
+  "ItemHover_Buff12": "{0} Attacco",
+  "ItemHover_Buff13": "{0} Immunità",
+  "ItemHover_Buff14": "{0} Peso",
+  "ItemHover_Buff15": "{0} Velocità",
+  "ItemHover_Buff16": "{0} Chance Crit.",
+  "ItemHover_Buff17": "{0} Potere Crit.",
+  "ItemHover_Buff18": "{0} Precisione",
+}

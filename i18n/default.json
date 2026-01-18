@@ -1,0 +1,95 @@
+{
+  "sections.basic": "Basic",
+  "sections.scale": "Global Scale",
+  "sections.ranges": "Range Loss (General)",
+  "sections.spouse": "Spouse (10-14 hearts)",
+  "sections.nogreet": "No-Greet Penalty",
+
+  "basic.enabled.name": "Enable mod",
+  "basic.enabled.tip": "Turn this on to apply daily friendship decay rebalance.",
+  "basic.cap.name": "Decay even at cap",
+  "basic.cap.tip": "Apply daily decay even if vanilla would cap it.",
+  "basic.strict.name": "Strict override (exact target loss)",
+  "basic.strict.tip": "Ignores vanilla change and enforces your target loss exactly.",
+
+  "scale.header.tip": "Hard <-> Soft difficulty",
+  "scale.global.name": "Global loss scale",
+  "scale.global.tip": "0.25 ~ 3.0 (you can type a number)",
+
+  "ranges.header.tip": "Shared for datables / non-spouse",
+  "ranges.0to4.name": "Loss at 0-4 hearts",
+  "ranges.0to4.tip": "Integer 0-200",
+  "ranges.5to8.name": "Loss at 5-8 hearts",
+  "ranges.5to8.tip": "Integer 0-300",
+  "ranges.9.name": "Loss at 9 hearts",
+  "ranges.9.tip": "Integer 0-300",
+  "ranges.10plus.name": "Loss at 10+ hearts (non-spouse)",
+  "ranges.10plus.tip": "Integer 0-500",
+
+  "spouse.header.tip": "Set -1 to disable a band",
+  "spouse.10to12.name": "Spouse loss at 10-12 hearts",
+  "spouse.10to12.tip": "Integer 0-500 or -1 to disable",
+  "spouse.13to14.name": "Spouse loss at 13-14 hearts",
+  "spouse.13to14.tip": "Integer 0-500 or -1 to disable",
+
+  "nogreet.header.tip": "Extra loss when not greeted",
+  "nogreet.points.name": "Extra penalty (points)",
+  "nogreet.points.tip": "Integer 0-100 (0 disables)",
+  "nogreet.scale.name": "Scale by hearts",
+  "nogreet.scale.tip": "Higher hearts → stronger penalty",
+
+
+  "mode.nogreetonly.name": "Decay only when not greeted",
+  "mode.nogreetonly.tip": "If you talked to them that day, no decay applies. (Tip: enable 'Auto-correct final decay' for exact values)",
+
+  "greetdecay.section": "Greeted days — gift upkeep",
+  "greetdecay.section.tip": "Even if you greeted them, apply a small decay when weekly gifts are below the target.",
+
+  "greetdecay.enable.name": "Decay on greet if weekly gifts missed",
+  "greetdecay.enable.tip": "Applies a small decay on greeted days when you haven't met the weekly gift quota.",
+
+  "greetdecay.required.name": "Required gifts per week",
+  "greetdecay.required.tip": "How many gifts per week to avoid the greeted-day decay (e.g. 2).",
+
+  "greetdecay.mode.name": "Decay mode on greeted days",
+  "greetdecay.mode.tip": "Choose how greeted-day decay is computed when gifts are below target.",
+
+  "greetdecay.mode.ratio": "Use ratio of normal decay",
+  "greetdecay.mode.flat": "Use flat points",
+
+  "greetdecay.ratio.name": "Ratio (of normal decay)",
+  "greetdecay.ratio.tip": "0.10–1.00 recommended. Example: 0.50 = 50% of normal decay.",
+
+  "greetdecay.ratio.scale.name": "Scale by missing count",
+  "greetdecay.ratio.scale.tip": "If you required 2 gifts and gave 1, apply only half of the ratio.",
+
+  "greetdecay.flat.name": "Flat decay (points)",
+  "greetdecay.flat.tip": "Fixed points applied on greeted days when gifts are below target.",
+
+  "limit.daily.name": "Max daily decay (hearts)",
+  "limit.daily.tip": "Caps total daily decay. Example: 0.40 ≈ 100 points.",
+  "limit.nogreet.name": "Max no-greet extra (hearts)",
+  "limit.nogreet.tip": "Caps additional decay applied when you didn't greet.",
+
+  "hud.nogreet": "You didn't talk to {{name}}; friendship decreased by {{amount}}.",
+  "hud.nogift": "You didn't give a gift to {{name}}; friendship decreased by {{amount}}.",
+  "hud.loss": "{{name}}'s friendship decreased by {{amount}}.",
+
+  "sections.penalties": "Penalty Options",
+  "penalties.tip": "Extra friendship loss for certain actions.",
+  "pen.trash.enable": "Trash gift penalty",
+  "pen.trash.enable.tip": "Apply extra loss when you give trash-like items.",
+  "pen.trash.value": "Trash gift penalty amount",
+  "pen.trash.value.tip": "0–500 points.",
+  "pen.trash.ids": "Trash item IDs (comma-separated)",
+  "pen.trash.ids.tip": "Override the default list if you want.",
+  "pen.sling.enable": "Slingshot hit penalty",
+  "pen.sling.enable.tip": "Apply extra loss when you hit a villager with a slingshot.",
+  "pen.sling.value": "Slingshot penalty amount",
+  "pen.sling.value.tip": "0–500 points.",
+  "hud.trashGift": "{name} didn’t like that... (friendship -{amount})",
+  "hud.slingshot": "{name} is upset! (friendship -{amount})",
+
+  "hud.toggle.name": "Show HUD notifications",
+  "hud.toggle.tip": "Display on-screen toast for friendship changes. Turn off for silent mode."
+}

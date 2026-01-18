@@ -1,0 +1,512 @@
+{
+	"Changes": [
+		{ //Egg Festival
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "When": {"Hearts:Wizard": "0, 1, 2, 3"},
+        "Entries": {
+            "Wizard": "{{i18n:EggFestival.0Hearts.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:EggFestival.0Hearts.1.Wizard {{expressionList}} }}",
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "When": {"Hearts:Wizard": "4, 5"},
+        "Entries": {
+            "Wizard": "{{i18n:EggFestival.4Hearts.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:EggFestival.4Hearts.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "When": {"Hearts:Wizard": "6, 7, 8"},
+        "Entries": {
+            "Wizard": "{{i18n:EggFestival.6Hearts.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:EggFestival.6Hearts.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+            "Wizard": "{{i18n:EggFestival.Dating.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:EggFestival.Dating.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "When": {"Relationship:Wizard": "Married"},
+        "Entries": {
+            "Wizard": "{{i18n:EggFestival.Married.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:EggFestival.Married.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "When": {"Relationship:Wizard": "Divorced"},
+        "Entries": {
+            "Wizard": "{{i18n:EggFestival.Divorced.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:EggFestival.Divorced.0.Wizard {{expressionList}} }}"
+            }
+        },
+
+        { //Flower Dance
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": {"Hearts:Wizard": "0, 1, 2, 3"},
+        "Entries": {
+            "Wizard": "{{i18n:FlowerDance.0Hearts.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:FlowerDance.0Hearts.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": {"Hearts:Wizard": "4, 5"},
+        "Entries": {
+            "Wizard": "{{i18n:FlowerDance.4Hearts.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:FlowerDance.4Hearts.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": {"Hearts:Wizard": "6, 7, 8"},
+        "Entries": {
+            "Wizard": "{{i18n:FlowerDance.6Hearts.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:FlowerDance.6Hearts.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+            "Wizard": "{{i18n:FlowerDance.Dating.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:FlowerDance.Dating.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": {"Relationship:Wizard": "Married"},
+        "Entries": {
+            "Wizard": "{{i18n:FlowerDance.Married.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:FlowerDance.Married.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": {"Relationship:Wizard": "Divorced"},
+        "Entries": {
+            "Wizard": "{{i18n:FlowerDance.Divorced.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:FlowerDance.Divorced.0.Wizard {{expressionList}} }}"
+            }
+        },
+        {//Flower Dance Accept Reject Dialogue
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {"FlowerDance_Decline": "{{i18n:Wizard.danceRejection {{expressionList}} }}"},
+        },
+        {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Hearts:Wizard": "4, 5"},
+        "Entries": {"FlowerDance_Accept": "{{i18n:FlowerDance.4Hearts.0.WizardAccept {{expressionList}} }}"},
+        },
+        {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Hearts:Wizard": "6, 7, 8", "IsOddYear": true},
+        "Entries": {"FlowerDance_Accept": "{{i18n:FlowerDance.6Hearts.0.WizardAccept {{expressionList}} }}"},
+        },
+        {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Hearts:Wizard": "6, 7, 8", "IsOddYear": false},
+        "Entries": {"FlowerDance_Accept": "{{i18n:FlowerDance.6Hearts.1.WizardAccept {{expressionList}} }}"},
+        },
+        {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Dating, Engaged", "IsOddYear": true},
+        "Entries": {"FlowerDance_Accept": "{{i18n:FlowerDance.Dating.0.WizardAccept {{expressionList}} }}"},
+        },
+        {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Dating, Engaged", "IsOddYear": false},
+        "Entries": {"FlowerDance_Accept": "{{i18n:FlowerDance.Dating.1.WizardAccept {{expressionList}} }}"},
+        },
+        {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Married", "IsOddYear": true},
+        "Entries": {"FlowerDance_Accept_Spouse": "{{i18n:FlowerDance.Married.0.WizardAccept {{expressionList}} }}"},
+        },
+        {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Married", "IsOddYear": false},
+        "Entries": {"FlowerDance_Accept_Spouse": "{{i18n:FlowerDance.Married.1.WizardAccept {{expressionList}} }}"},
+        },
+
+        { //Luau
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "When": {"Hearts:Wizard": "0, 1, 2, 3"},
+        "Entries": {
+            "Wizard": "{{i18n:Luau.0Hearts.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:Luau.0Hearts.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "When": {"Hearts:Wizard": "4, 5"},
+        "Entries": {
+            "Wizard": "{{i18n:Luau.4Hearts.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:Luau.4Hearts.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "When": {"Hearts:Wizard": "6, 7, 8"},
+        "Entries": {
+            "Wizard": "{{i18n:Luau.6Hearts.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:Luau.6Hearts.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+            "Wizard": "{{i18n:Luau.Dating.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:Luau.Dating.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "When": {"Relationship:Wizard": "Married"},
+        "Entries": {
+            "Wizard": "{{i18n:Luau.Married.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:Luau.Married.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "When": {"Relationship:Wizard": "Divorced"},
+        "Entries": {
+            "Wizard": "{{i18n:Luau.Divorced.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:Luau.Divorced.0.Wizard {{expressionList}} }}"
+            }
+        },
+
+        { //Dance of the Moonlight Jellies
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer28",
+        "When": {"Hearts:Wizard": "0, 1, 2, 3"},
+        "Entries": {
+            "Wizard": "{{i18n:MoonlightJellies.0Hearts.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:MoonlightJellies.0Hearts.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer28",
+        "When": {"Hearts:Wizard": "4, 5"},
+        "Entries": {
+            "Wizard": "{{i18n:MoonlightJellies.4Hearts.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:MoonlightJellies.4Hearts.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer28",
+        "When": {"Hearts:Wizard": "6, 7, 8"},
+        "Entries": {
+            "Wizard": "{{i18n:MoonlightJellies.6Hearts.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:MoonlightJellies.6Hearts.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer28",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+            "Wizard": "{{i18n:MoonlightJellies.Dating.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:MoonlightJellies.Dating.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer28",
+        "When": {"Relationship:Wizard": "Married"},
+        "Entries": {
+            "Wizard": "{{i18n:MoonlightJellies.Married.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:MoonlightJellies.Married.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer28",
+        "When": {"Relationship:Wizard": "Divorced"},
+        "Entries": {
+            "Wizard": "{{i18n:MoonlightJellies.Divorced.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:MoonlightJellies.Divorced.0.Wizard {{expressionList}} }}"
+            }
+        },
+
+        { //Stardew Valley Fair
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "When": {"Hearts:Wizard": "0, 1, 2, 3"},
+        "Entries": {
+            "Wizard": "{{i18n:Fair.0Hearts.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:Fair.0Hearts.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "When": {"Hearts:Wizard": "4, 5"},
+        "Entries": {
+            "Wizard": "{{i18n:Fair.4Hearts.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:Fair.4Hearts.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "When": {"Hearts:Wizard": "6, 7, 8"},
+        "Entries": {
+            "Wizard": "{{i18n:Fair.6Hearts.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:Fair.6Hearts.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+            "Wizard": "{{i18n:Fair.Dating.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:Fair.Dating.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "When": {"Relationship:Wizard": "Married"},
+        "Entries": {
+            "Wizard": "{{i18n:Fair.Married.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:Fair.Married.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "When": {"Relationship:Wizard": "Divorced"},
+        "Entries": {
+            "Wizard": "{{i18n:Fair.Divorced.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:Fair.Divorced.0.Wizard {{expressionList}} }}"
+            }
+        },
+        
+        { //Spirit's Eve
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+        "When": { "Hearts:Wizard": "0, 1, 2, 3, 4, 5" },
+        "Entries": {
+            "Wizard": "{{i18n:SpiritsEve.0Hearts.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:SpiritsEve.0Hearts.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+        "When": {"Hearts:Wizard": "6, 7, 8"},
+        "Entries": {
+            "Wizard": "{{i18n:SpiritsEve.6Hearts.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:SpiritsEve.6Hearts.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+            "Wizard": "{{i18n:SpiritsEve.Dating.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:SpiritsEve.Dating.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+        "When": {"Relationship:Wizard": "Married"},
+        "Entries": {
+            "Wizard": "{{i18n:SpiritsEve.Married.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:SpiritsEve.Married.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+        "When": {"Relationship:Wizard": "Divorced"},
+        "Entries": {
+            "Wizard": "{{i18n:SpiritsEve.Divorced.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:SpiritsEve.Divorced.0.Wizard {{expressionList}} }}"
+            }
+        },
+
+        { //Festival of Ice
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+        "When": {"Hearts:Wizard": "0, 1, 2, 3"},
+        "Entries": {
+            "Wizard": "{{i18n:FestivalofIce.0Hearts.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:FestivalofIce.0Hearts.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+        "When": {"Hearts:Wizard": "4, 5"},
+        "Entries": {
+            "Wizard": "{{i18n:FestivalofIce.4Hearts.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:FestivalofIce.4Hearts.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+        "When": {"Hearts:Wizard": "6, 7, 8"},
+        "Entries": {
+            "Wizard": "{{i18n:FestivalofIce.6Hearts.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:FestivalofIce.6Hearts.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+            "Wizard": "{{i18n:FestivalofIce.Dating.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:FestivalofIce.Dating.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+        "When": {"Relationship:Wizard": "Married",},
+        "Entries": {
+            "Wizard": "{{i18n:FestivalofIce.Married.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:FestivalofIce.Married.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+        "When": {"Relationship:Wizard": "Divorced"},
+        "Entries": {
+            "Wizard": "{{i18n:FestivalofIce.Divorced.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:FestivalofIce.Divorced.0.Wizard {{expressionList}} }}"
+            }
+        },
+	
+		{ //Feast of the Winter Star (He only shows in Marriage)
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+        "When": {"Relationship:Wizard": "Married"},
+        "Entries": {
+            "Wizard": "{{i18n:WinterStar.Married.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:WinterStar.Married.1.Wizard {{expressionList}} }}"
+            }
+        },
+
+        //RSV Festivals
+        { //Ridgeside Gathering
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall20",
+        "When": {"Hearts:Wizard": "2, 3", "HasMod": "Rafseazz.RSVCP"},
+        "Entries": {
+            "Wizard": "{{i18n:RSVGathering.2Hearts.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:RSVGathering.2Hearts.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall20",
+        "When": {"Hearts:Wizard": "4, 5", "HasMod": "Rafseazz.RSVCP"},
+        "Entries": {
+            "Wizard": "{{i18n:RSVGathering.4Hearts.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:RSVGathering.4Hearts.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall20",
+        "When": {"Hearts:Wizard": "6, 7, 8", "HasMod": "Rafseazz.RSVCP"},
+        "Entries": {
+            "Wizard": "{{i18n:RSVGathering.6Hearts.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:RSVGathering.6Hearts.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall20",
+        "When": {"Relationship:Wizard": "Dating, Engaged", "HasMod": "Rafseazz.RSVCP"},
+        "Entries": {
+            "Wizard": "{{i18n:RSVGathering.Dating.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:RSVGathering.Dating.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall20",
+        "When": {"Relationship:Wizard": "Married", "HasMod": "Rafseazz.RSVCP"},
+        "Entries": {
+            "Wizard": "{{i18n:RSVGathering.Married.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:RSVGathering.Married.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall20",
+        "When": {"Relationship:Wizard": "Divorced", "HasMod": "Rafseazz.RSVCP"},
+        "Entries": {
+            "Wizard": "{{i18n:RSVGathering.Divorced.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:RSVGathering.Divorced.0.Wizard {{expressionList}} }}"
+            }
+        },
+
+        { //Ember of Resolutions - Attends only when dating + marriage, otherwise he sits on the edge of a cliff, I think unaccessible w/o dialogue
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter28",
+        "When": {"Relationship:Wizard": "Dating, Engaged", "HasMod": "Rafseazz.RSVCP"},
+        "Entries": {
+            "Wizard": "{{i18n:EmberofResolutions.Dating.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:EmberofResolutions.Dating.1.Wizard {{expressionList}} }}"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter28",
+        "When": {"Relationship:Wizard": "Married", "HasMod": "Rafseazz.RSVCP"},
+        "Entries": {
+            "Wizard": "{{i18n:EmberofResolutions.Married.0.Wizard {{expressionList}} }}",
+            "Wizard_y2": "{{i18n:EmberofResolutions.Married.1.Wizard {{expressionList}} }}"
+            }
+        },
+        
+	]
+}

@@ -1,0 +1,132 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "{{ModId}}_ConcessionsGirl": {
+                    "Owners": [
+                        {
+                            "Name": "AnyOrNone",
+                            "Portrait": "{{ModId}}\\ConcessionsGirlPortrait",
+                            "Dialogues": [
+                                {
+                                    "Id": "Default",
+                                    //"Condition": nu
+                                    "Dialogue": "{{i18n:ConcessionGirlTalk}}",
+                                    
+                                }
+                            ]
+                        }
+                    ],
+                    "PriceModifiers": [
+                         {
+        "Modification": "Multiply",
+        "Amount": 1.3
+    }
+                    ] ,
+                    //"PriceModifierMode": "Stack",
+                    "Items": [
+                        {
+                            "Id": "{{ModId}}_CottonCandy",
+                            "ItemId": "(O){{ModId}}_CottonCandy",
+                        },
+                         {
+                            "Id": "{{ModId}}_JasmineTea",
+                            "ItemId": "(O){{ModId}}_JasmineTea",
+                        },
+                         {
+                            "Id": "{{ModId}}_JojaCola",
+                            "ItemId": "(O){{ModId}}_JojaCola",
+                        },
+                         {
+                            "Id": "{{ModId}}_SourSlimes",
+                            "ItemId": "(O){{ModId}}_SourSlimes",
+                        },
+                         {
+                            "Id": "{{ModId}}_PersonalPizza",
+                            "ItemId": "(O){{ModId}}_PersonalPizza",
+                        },
+                         {
+                            "Id": "{{ModId}}_Nachos",
+                            "ItemId": "(O){{ModId}}_Nachos",
+                        },
+                         {
+                            "Id": "{{ModId}}_SalmonBurger",
+                            "ItemId": "(O){{ModId}}_SalmonBurger",
+                        },
+                         {
+                            "Id": "{{ModId}}_IceCreamSandwich",
+                            "ItemId": "(O){{ModId}}_IceCreamSandwich",
+                        },
+                         {
+                            "Id": "{{ModId}}_Popcorn",
+                            "ItemId": "(O){{ModId}}_Popcorn",
+                        },
+                         {
+                            "Id": "{{ModId}}_Fries",
+                            "ItemId": "(O){{ModId}}_Fries",
+                        },
+                         {
+                            "Id": "{{ModId}}_ChocolatePopcorn",
+                            "ItemId": "(O){{ModId}}_ChocolatePopcorn",
+                        },
+                         {
+                            "Id": "{{ModId}}_BlackLicorice",
+                            "ItemId": "(O){{ModId}}_BlackLicorice",
+                        },
+                         {
+                            "Id": "{{ModId}}_StarCookie",
+                            "ItemId": "(O){{ModId}}_StarCookie",
+                        },
+                         {
+                            "Id": "{{ModId}}_Jawbreaker",
+                            "ItemId": "(O){{ModId}}_Jawbreaker",
+                        },
+                         {
+                            "Id": "{{ModId}}_SaltedPeanuts",
+                            "ItemId": "(O){{ModId}}_SaltedPeanuts",
+                        },
+                         {
+                            "Id": "{{ModId}}_HummusSnackPack",
+                            "ItemId": "(O){{ModId}}_HummusSnackPack",
+                        },
+                         {
+                            "Id": "{{ModId}}_KaleSmoothie",
+                            "ItemId": "(O){{ModId}}_KaleSmoothie",
+                        },
+                         {
+                            "Id": "{{ModId}}_AppleSlices",
+                            "ItemId": "(O){{ModId}}_AppleSlices",
+                        },
+                         {
+                            "Id": "{{ModId}}_PanzanellaSalad",
+                            "ItemId": "(O){{ModId}}_PanzanellaSalad",
+                        },
+                         {
+                            "Id": "{{ModId}}_TrufflePopcorn",
+                            "ItemId": "(O){{ModId}}_TrufflePopcorn",
+                        },
+                         {
+                            "Id": "{{ModId}}_CappuccinoMousseCake",
+                            "ItemId": "(O){{ModId}}_CappuccinoMousseCake",
+                        },
+                         {
+                            "Id": "{{ModId}}_JojaCorn",
+                            "ItemId": "(O){{ModId}}_JojaCorn",
+                        },
+                         {
+                            "Id": "{{ModId}}_StardropSorbet",
+                            "ItemId": "(O){{ModId}}_StardropSorbet",
+                        },
+                         {
+                            "Id": "{{ModId}}_RockCandy",
+                            "ItemId": "(O){{ModId}}_RockCandy",
+                        },
+                         
+                    ]
+                }
+            }
+        }
+    ]
+}

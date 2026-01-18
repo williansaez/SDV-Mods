@@ -1,0 +1,197 @@
+{
+    "Name": "Romanceable Rasmodia",
+    "Author": "Nom0ri",
+    "Version": "3.4.2",
+    "Description": "Changes old Wizard of the tower to the beautiful Witch Rasmodia",
+    "UniqueID": "Nom0ri.RomRas",
+    "UpdateKeys": ["Nexus:8265"],
+    "Dependencies": [
+		{
+			"UniqueID": "Spiderbuttons.CMCT",
+			"IsRequired": true
+		},
+        {
+			"UniqueID": "Parrot.RomRas",
+			"IsRequired": false
+        },
+		{
+			"UniqueID": "FlashShifter.StardewValleyExpandedCP",
+			"IsRequired": false
+        },
+		{
+			"UniqueID": "Tanpoponoko.SeasonalOutfits",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Poltergeister.SeasonalOutfitsSVE",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Poltergeister.SeasonalCuteCharacters",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Poltergeister.SeasonalCuteSpritesSVE",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "talkohlooeys.SeasonalPortraits",
+			"IsRequired": false
+        },
+		{
+			"UniqueID": "1oxnes.SeasonalSVE",
+			"IsRequired": false
+        },
+		{
+			"UniqueID": "LemurKat.Mr.Ginger.NPC",
+			"IsRequired": false
+        },
+		{
+			"UniqueID": "Lemurkat.Tristan.CP",
+			"IsRequired": false
+        },
+		{
+			"UniqueID": "Poltergeister.SeasonalCuteCharactersMulti",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "talkohlooeys.SeasonalPortraits",
+			"IsRequired": false
+        },
+		{
+			"UniqueID": "supert.adventureguildexpanded",
+			"IsRequired": false
+        },
+		{
+			"UniqueID": "elhrvy.NPCJuna",
+			"IsRequired": false
+        },
+		{
+			"UniqueID": "Rafseazz.LunnaCP",
+			"IsRequired": false
+        },
+		{
+			"UniqueID": "Rafseazz.RSVCP",
+			"IsRequired": false
+        },
+		{
+			"UniqueID": "Arknir.Lucikiel",
+			"IsRequired": false
+        },
+		{
+			"UniqueID": "Wolf.RomRas",
+			"IsRequired": false
+        },
+		{
+			"UniqueID": "Fostoria.Stoffton",
+			"IsRequired": false
+        },
+		{
+			"UniqueID": "OhoDavi.SDVAnimeP",
+			"IsRequired": false
+        },
+		{
+			"UniqueID": "Poltergeister.CuteSprites",
+			"IsRequired": false
+        },
+		{
+			"UniqueID": "PRevanGrad.SAPIII",
+			"IsRequired": false
+        },
+		{
+			"UniqueID": "shekurika.EventLookup",
+			"IsRequired": false
+        },
+		{
+			"UniqueID": "Lemurkat.NPCJasper",
+			"IsRequired": false
+        },
+		{
+			"UniqueID": "Jyangnam.Wellwick",
+			"IsRequired": false
+        },
+		{
+			"UniqueID": "ZoeDoll.NPCAlecto",
+			"IsRequired": false
+        },
+		{
+			"UniqueID": "LemurKat.StardewAquariumCP",
+			"IsRequired": false
+        },
+		{
+			"UniqueID": "malic.cp.jadeNPC",
+			"IsRequired": false
+        },
+		{
+			"UniqueID": "SapieEugeneEnglish",
+			"IsRequired": false
+        },
+		{
+			"UniqueID": "LemurKat.JulietHouse.NPC",
+			"IsRequired": false
+        },
+		{
+			"UniqueID": "Lemurkat.Dwarf.CP",
+			"IsRequired": false
+        },
+		{
+			"UniqueID": "TheLimeyDragon.Ayeisha",
+			"IsRequired": false
+        },
+		{
+			"UniqueID": "Bpendragon.GreenhouseSprinklers",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "MouseyPounds.ShadowFestival",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "PeacefulEnd.GreenhouseGatherers",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "cosplaywrite.NoQiRequired",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Jellonip.RRRR",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "DLX.Bundles",
+			"IsRequired": false,
+			"MinimumVersion": "2.0.6"
+		},
+		{
+			"UniqueID": "Lumisteria.CP.MissingHatsBundles",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "ceruleandeep.BetterJunimos.CP",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Nyapu.Portraits",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "shekurika.MagicalCrops.CP",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "mush.loveydovey",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Nyapu.PortraitsSVE",
+			"IsRequired": false
+		}
+		// Yes, there are 43 false dependencies... don't judge me
+		// We're saved, there's 1 true dependency! Yeah... it doesn't help does it..? 
+    	],
+
+    "ContentPackFor": {
+    	"UniqueID": "Pathoschild.ContentPatcher"
+    }
+ }

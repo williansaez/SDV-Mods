@@ -1,0 +1,46 @@
+{
+	"Changes": [
+	{	//Empty 16x32
+		"Action": "Load",
+		"Target": "Characters/Empty",
+		"FromFile": "Assets/Arts/Temporary/Empty.png"
+    },
+	{	//Arthur.Miner 32x32
+		"Action": "Load",
+		"Target": "Characters/Arthur.Miner",
+		"FromFile": "Assets/Arts/Temporary/Arthur.Miner_Spring.png",
+		"When": { "Season": "Spring, Summer, Fall" }
+    },
+	{
+		"Action": "Load",
+		"Target": "Characters/Arthur.Miner",
+		"FromFile": "Assets/Arts/Temporary/Arthur.Miner_Winter.png",
+		"When": { "Season": "Winter" }
+    },
+	{	//Mannequin 16x32
+		"Action": "Load",
+		"Target": "Characters/Mannequin",
+		"FromFile": "Assets/Arts/Temporary/Mannequin.png"
+    },
+	{	//Ghost 32x32
+		"Action": "Load",
+		"Target": "Characters/Ghost",
+		"FromFile": "Assets/Arts/Temporary/Ghost.png"
+    },
+	{	//Item 16x16
+		"Action": "Load",
+		"Target": "Characters/Item",
+		"FromFile": "Assets/Arts/Temporary/Item.png"
+    },
+	{	//Barrier 64x64
+		"Action": "Load",
+		"Target": "Characters/Barrier",
+		"FromFile": "Assets/Arts/Temporary/Barrier.png"
+    },
+	{	//Holy.Fire 64x64
+		"Action": "Load",
+		"Target": "Characters/Holy.Fire",
+		"FromFile": "Assets/Arts/Temporary/Holy.Fire.png"
+    },
+  ]
+}

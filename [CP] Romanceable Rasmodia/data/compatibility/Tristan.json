@@ -1,0 +1,65 @@
+{
+	"Changes": [
+		{
+            "LogName": "Wizard reacts",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Wizard",
+            "Entries": {
+                "Tristan_Discuss": "{{i18n:Wizard.Tristan_Discuss}}"
+            },
+            "When": {
+                "HasSeenEvent |contains=5295006": false
+            }
+        },
+		
+		{
+            "LogName": "Jasper reacts",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jasper",
+            "Entries": {
+                "Tristan_Discuss": "{{i18n:Jasper.Tristan_Discuss}}"
+            }
+        },
+		
+		{
+            "LogName": "Jas reacts",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jas",
+            "Entries": {
+                "winter_Mon10": "{{i18n:Tristan.Jas.winter_Mon10}}",
+                "fall_Mon8": "{{i18n:Tristan.Jas.fall_Mon8}}"
+                },
+            "When": {
+                "HasSeenEvent": "5295000"
+				}
+        },
+
+		{
+            "Action": "EditData",
+            "Target": "Data/mail",
+			"When": { "Relationship:Wizard |contains=Engaged, Married": false },
+            "Entries": {
+                "Wizard_CatPicnic": "{{i18n:Wizard_CatPicnic.text}}[#]{{i18n:Wizard_CatPicnic.title}}"
+            }
+        },
+		
+		{
+            "Action": "EditData",
+            "Target": "Data/mail",
+			"When": { "Relationship:Wizard": "Married, Engaged" },
+            "Entries": {
+                "Wizard_CatPicnic": "{{i18n:Married.Wizard_CatPicnic.text}}[#]{{i18n:Wizard_CatPicnic.title}}"
+            }
+        },
+		
+		        //Initiation event (Has seen all of Jas's, Mr Ginger's events, plus Shane's 8 heart)
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/AnimalShop",
+            "Entries": {
+                "5295003/e 50706129/e 50706116/e 3900074/e 50706127/p Jas": "jaunty/-200 -200/Jas 5 5 3 MisterGinger 4 5 1 farmer 9 18 3/addTemporaryActor MonaCute 16 16 -100 -101 2 false/addTemporaryActor TristanCute 16 16 -99 -101 2 false/addTemporaryActor WitchCute 16 32 -1000 -1000 2 false/addTemporaryActor GingerCute 16 16 -1000 -1000 2 false/addTemporaryActor JasCute 16 16 -1000 -1000 2 false/addTemporaryActor MarnShane 32 16 -1000 -1000 2 false/addTemporaryActor MarnCute 16 16 -1000 -1000 2 false/addConversationTopic Tristan_Discuss 5/skippable/viewport 5 7 clamp true/pause 500/speak Jas \"{{i18n:Tristan.Initiation.0}}\"/pause 500/move farmer -3 0 0/pause 500/playSound cat/pause 500/speak Jas \"{{i18n:Tristan.Initiation.1}}\"/move farmer 0 -5 0/faceDirection Jas 2/pause 500/textAboveHead Jas \"{{i18n:Tristan.Initiation.2}}\"/pause 1000/faceDirection Jas 3/speak Jas \"{{i18n:Tristan.Initiation.3}}\"/pause 500/playSound cat/showFrame MisterGinger 28/positionOffset Jas -12 0/pause 1000/emote MisterGinger 20/pause 1000/faceDirection MisterGinger 2/warp Jas 5 5/faceDirection Jas 2/pause 500/doAction 6 12/playSound doorOpen/move farmer 0 -5 0/pause 500/emote Jas 32/move MisterGinger 0 2 1/speak Jas \"{{i18n:Tristan.Initiation.4}}\"/emote farmer 56/pause 500/emote Jas 32/move MisterGinger 0 -1 1/move farmer 0 -2 3/pause 500/speak Jas \"{{i18n:Tristan.Initiation.5}}\"/pause 500/speak MisterGinger \"{{i18n:Tristan.Initiation.6}}\"/stopMusic/pause 500/fade/viewport -100 -98/warp MisterGinger -1000 -1000/warp Jas -1000 -1000/warp farmer -1000 -1000/speak Jas \"{{i18n:Tristan.Initiation.7}}\"/pause 500/faceDirection MonaCute 1/faceDirection TristanCute 3/speak Jas \"{{i18n:Tristan.Initiation.8}}\"/pause 500/showFrame TristanCute 16/showFrame MonaCute 16/showFrame TristanCute 17/showFrame MonaCute 17/pause 500/emote TristanCute 20/emote MonaCute 20/pause 500/speak Jas \"{{i18n:Tristan.Initiation.9}}\"/faceDirection MonaCute 0/animate MonaCute false true 250 8 9 10 11/animate TristanCute false true 250 8 9 10 11/pause 1000/speak Jas \"{{i18n:Tristan.Initiation.10}}\"/pause 500/stopAnimation MonaCute/faceDirection MonaCute 1/stopAnimation TristanCute/faceDirection TristanCute 3/emote TristanCute 16/pause 1000/changeLocation WitchSwamp/viewport -100 -100/warp MonaCute 20 21/warp TristanCute 21 21/fade/playMusic Overcast/viewport 20 23/pause 500/faceDirection MonaCute 0/playSound stoneStep/pause 250/playSound stoneStep/textAboveHead MonaCute \"{{i18n:Tristan.Initiation.11}}\"/pause 500/faceDirection MonaCute 1/textAboveHead MonaCute \"{{i18n:Tristan.Initiation.12}}\"/pause 5000/emote TristanCute 60/pause 500/textAboveHead MonaCute \"{{i18n:Tristan.Initiation.13}}\"/pause 500/faceDirection MonaCute 0/pause 500/playSound openChest/pause 1000/emote TristanCute 28/pause 1000/fade/viewport -100 -100/changeLocation WitchHut/viewport -100 -100/warp MonaCute 7 11/warp TristanCute 8 11/pause 500/fade/viewport 9 9/move MonaCute 0 -5 0/faceDirection TristanCute 1/pause 1250/faceDirection TristanCute 0/pause 1250/faceDirection TristanCute 3/pause 500/textAboveHead MonaCute \"{{i18n:Tristan.Initiation.14}}\"/move MonaCute 4 0 1/pause 400/textAboveHead MonaCute \"{{i18n:Tristan.Initiation.15}}\"/pause 1500/textAboveHead MonaCute \"{{i18n:Tristan.Initiation.16}}\"/pause 250/playSound dwoop/pause 1500/playSound shadowHit/pause 500/jump TristanCute 3/textAboveHead TristanCute \"{{i18n:Tristan.Initiation.17}}\"/pause 1500/playSound cacklingWitch/pause 500/emote MonaCute 16/speed MonaCute 4/move MonaCute -4 0 2/pause 250/speed MonaCute 4/move MonaCute 0 9 2/warp MonaCute -1000 -1000/speed TristanCute 4/speed TristanCute 4/move TristanCute -1 0 2/speed TristanCute 4/move TristanCute 0 4 2/fade/viewport -100 -100/changeLocation WitchSwamp/viewport -100 -100/warp MonaCute 20 25/warp TristanCute 21 24/viewport 19 25/pause 500/playSound swordswipe/warp WitchCute 20 21/faceDirection MonaCute 0/faceDirection TristanCute 0/pause 500/shake MonaCute 250/jump TristanCute 3/textAboveHead WitchCute \"{{i18n:Tristan.Initiation.18}}\"/pause 500/showFrame TristanCute 18/move MonaCute 0 -1 0/showFrame MonaCute 18/pause 500/shake WitchCute 350/pause 500/animate WitchCute false false 350 4 5 6 7 8/pause 1250/warp TristanCute 20 23/pause 500/screenFlash 1/warp TristanCute -1000 -1000/warp GingerCute 20 23/pause 1000/emote MonaCute 16/faceDirection MonaCute 2/speed MonaCute 8/move MonaCute 0 7 2/pause 500/warp MonaCute -1000 -1000/animate GingerCute false true 250 0 1 0 1/playSound cacklingWitch/fade fadeOut/warp WitchCute -1000 -1000/warp GingerCute -1000 -1000/viewport -100 -100/pause 500/stopMusic/changeLocation AnimalShop/warp MisterGinger 4 6/warp Jas 5 5/warp farmer 6 6/viewport 5 7 clamp true/pause 500/emote farmer 16/animate MisterGinger true false 350 23 29 30 31 30 23/pause 500/speak Jas \"{{i18n:Tristan.Initiation.19}}\"/stopAnimation MisterGinger/pause 500/speak MisterGinger \"{{i18n:Tristan.Initiation.20}}\"/question fork1 \"{{i18n:Tristan.Initiation.21}}\"/fork BreakCurse/pause 500/speak MisterGinger \"{{i18n:Tristan.Initiation.22}}\"/pause 500/faceDirection Jas 3/emote Jas 20/pause 500/emote MisterGinger 32/pause 500/viewport -100 -100/playMusic AbigailFlute/warp MisterGinger -1000 -1000/warp farmer -1000 -1000/warp Jas -1000 -1000/warp GingerCute -100 -100/animate GingerCute false true 250 0 1 3 12 13 14 15/emote GingerCute 24/speak MisterGinger \"{{i18n:Tristan.Initiation.23}}\"/changeLocation Town/viewport -100 -100/warp MarnShane 47 88/stopAnimation GingerCute/warp GingerCute 45 91/showFrame GingerCute 12/speak MisterGinger \"{{i18n:Tristan.Initiation.24}}\"/playMusic desolate/viewport 45 89 true/pause 2500/animate MarnShane false false 450 0 1 2/showFrame MarnShane 2/pause 2500/animate GingerCute false false 350 16 17 18 19 19 19/pause 2000/showFrame GingerCute 19/fade/viewport -100 -100/pause 1000/warp MarnShane -1000 -1000/speak MisterGinger \"{{i18n:Tristan.Initiation.25}}\"/stopMusic/warp MarnCute 49 33 2 false/showFrame MarnCute 0/warp JasCute 50 33/warp GingerCute 50 37/showFrame JasCute 0/pause 500/viewport -100 -100/fade/viewport 50 34 true/pause 1000/animate GingerCute false false 250 12 13 14 15/pause 1000/showFrame JasCute 1/emote JasCute 20/pause 500/textAboveHead JasCute \"{{i18n:Tristan.Initiation.26}}\"/pause 500/showFrame GingerCute 0/pause 500/faceDirection GingerCute 0/pause 500/animate JasCute false false 250 1 2 3/emote GingerCute 16/pause 500/move GingerCute 0 -3 2/showFrame Jas 2/showFrame GingerCute 18/pause 500/faceDirection MarnCute 1/pause 250/emote GingerCute 20/emote MarnCute 32/pause 1000/viewport -100 -100/speak MisterGinger \"{{i18n:Tristan.Initiation.27}}\"/pause 500/changeLocation AnimalShop/warp MisterGinger 4 6/warp Jas 5 5/warp farmer 6 6/viewport 11 11/pause 500/emote MisterGinger 20/emote Jas 20/pause 1500/faceDirection Jas 1/speak Jas \"{{i18n:Tristan.Initiation.28}}\"/pause 500/emote farmer 32/switchEvent BreakCurse",
+                "BreakCurse": "pause 500/speak Jas \"{{i18n:Tristan.Initiation.BreakCurse.0}}\"/pause 500/emote farmer 28/speak Jas \"{{i18n:Tristan.Initiation.BreakCurse.1}}\"/playSound cat/pause 500/speak Jas \"{{i18n:Tristan.Initiation.BreakCurse.2}}\"/pause 500/emote farmer 32/pause 1500/emote farmer 8/pause 500/speak Jas \"{{i18n:Tristan.Initiation.BreakCurse.3}}\"/pause 500/speak MisterGinger \"{{i18n:Tristan.Initiation.BreakCurse.4}}\"/pause 500/speak Jas \"{{i18n:Tristan.Initiation.BreakCurse.5}}\"/pause 500/emote farmer 28/pause 1000/Message \"I wonder if anyone else remembers Tristan?\"/pause 1000/end"
+            }
+        }
+	]
+}

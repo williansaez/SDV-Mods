@@ -1,0 +1,12 @@
+{
+  "Name": "Happy Birthday pt-BR Translation Content Pack",
+  "Author": "Omegasis",
+  "Translator": "Kiyugamods",
+  "Version": "3.19.7",
+  "Description": "Traduções em português para o mod, Happy Birthday.",
+  "UniqueID": "Omegasis.HappyBirthday.ContentPack.pt-BR",
+  "UpdateKeys": [ "Nexus:11341" ],
+  "ContentPackFor": {
+    "UniqueID": "Omegasis.HappyBirthday"
+  }
+}

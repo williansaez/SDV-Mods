@@ -1,0 +1,15 @@
+{
+  "Name": "Button's Extra Trigger Action Stuff",
+  "Author": "Spiderbuttons",
+  "Version": "3.1.1",
+  "Description": "A whole bunch of triggers, actions, game state queries, and tokenizable strings for Content Patcher mod authors to utilize.",
+  "UniqueID": "Spiderbuttons.BETAS",
+  "EntryDll": "BETAS.dll",
+  "UpdateKeys": [ "Nexus:27100" ],
+  "Dependencies": [
+    {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "IsRequired": false
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+{
+	"Changes": [
+    {
+      "Action": "Load",
+      "Target": "JackHero06.HoneyJarToMead/Objects",
+      "FromFile": "assets/sve_mead.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "JackHero06.HoneyJarToMead": {
+          "Name": "JackHero06.HoneyJarToMead",
+          "DisplayName": "{{i18n:JackHero06.BearHoneyMead.Name}}",
+          "Description": "{{i18n:JackHero06.BearHoneyMead.Description}}",
+          "Type": "ArtisanGoods",
+          "Category": -26,
+          "Edibility": 125,
+          "IsDrink": true,
+          "Price": 1500, 
+          "Texture":"JackHero06.HoneyJarToMead/Objects",
+          "Buffs": [
+            {
+              "Duration": 1000,
+              "BuffId": null,
+              "IconTexture": null,
+              "IconSpriteIndex": 0,
+              "IsDebuff": false,
+              "GlowColor": null,
+              "CustomAttributes": {
+                "FarmingLevel": 0,
+                "FishingLevel": 3,
+                "MiningLevel": 0,
+                "LuckLevel": 4,
+                "ForagingLevel": 0,
+                "MaxStamina": 0,
+                "MagneticRadius": 0,
+                "Speed": 2,
+                "Defense": 0,
+                "Attack": 0
+              }
+            }
+          ]
+        }
+      }
+    },
+
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [ "(BC){{ModId}}_IronKeg", "OutputRules" ], 
+      "Entries": {
+         "bearhoneymake": {
+          "Triggers": [
+            {
+              "Id": "ItemPlacedInMachine",
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "FlashShifter.StardewValleyExpandedCP_Honey_Jar",
+              "RequiredTags": null,
+              "Condition": null,
+              "RequiredCount": 1
+            }
+          ],
+          "UseFirstValidOutput": false,
+          "OutputItem": [
+            {
+              "CustomData": null,
+              "OutputMethod": null,
+              "CopyColor": false,
+              "CopyPrice": false,
+              "CopyQuality": false,
+              "PreserveType": null,
+              "PreserveId": null,
+              "IncrementMachineParentSheetIndex": 0,
+              "PriceModifiers": null,
+              "PriceModifierMode": "Stack",
+              "Condition": null,
+              "Id": "JackHero06.HoneyJarToMead",
+              "ItemId": "JackHero06.HoneyJarToMead",
+              "RandomItemId": null,
+              "MaxItems": null,
+              "MinStack": 1,
+              "MaxStack": 1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "StackModifierMode": "Stack",
+              "ModData": null,
+              "PerItemCondition": null,
+              "QualityModifierMode": "Stack",
+              "QualityModifiers": [
+                {  
+                  "Id":"lose quality",
+                  "Condition": "ITEM_QUALITY Input 4 4",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id":"lose quality",
+                  "Condition": "ITEM_QUALITY Input 2 2",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id":"Maybe not lose quality",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.5",
+                  "Modification": "Set",
+                  "Amount": 1
+                }
+              ],
+              "StackModifiers": null
+            }
+          ],
+          "MinutesUntilReady": 4000
+        }
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [ "(BC){{ModId}}_GoldKeg", "OutputRules" ], 
+      "Entries": {
+         "bearhoneymake": {
+          "Triggers": [
+            {
+              "Id": "ItemPlacedInMachine",
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "FlashShifter.StardewValleyExpandedCP_Honey_Jar",
+              "RequiredTags": null,
+              "Condition": null,
+              "RequiredCount": 1
+            }
+          ],
+          "UseFirstValidOutput": false,
+          "OutputItem": [
+            {
+              "CustomData": null,
+              "OutputMethod": null,
+              "CopyColor": false,
+              "CopyPrice": false,
+              "CopyQuality": true,
+              "PreserveType": null,
+              "PreserveId": null,
+              "IncrementMachineParentSheetIndex": 0,
+              "PriceModifiers": null,
+              "PriceModifierMode": "Stack",
+              "Condition": null,
+              "Id": "JackHero06.HoneyJarToMead",
+              "ItemId": "JackHero06.HoneyJarToMead",
+              "RandomItemId": null,
+              "MaxItems": null,
+              "MinStack": 1,
+              "MaxStack": 1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "StackModifierMode": "Stack",
+              "ModData": null,
+              "PerItemCondition": null,
+              "QualityModifierMode": "Stack",
+              "QualityModifiers": [
+                {  
+                  "Id":"silver-gold Gold",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.15",
+                  "Modification": "Set",
+                  "Amount": 2
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional Item",
+					        "Condition": "Random 0.1",
+					        "Modification": "Add",
+									"Amount": 1
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 4800
+        }
+      }
+    },
+
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [ "(BC){{ModId}}_IridiumKeg", "OutputRules" ], 
+      "Entries": {
+         "bearhoneymake": {
+          "Triggers": [
+            {
+              "Id": "ItemPlacedInMachine",
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "FlashShifter.StardewValleyExpandedCP_Honey_Jar",
+              "RequiredTags": null,
+              "Condition": null,
+              "RequiredCount": 1
+            }
+          ],
+          "UseFirstValidOutput": false,
+          "OutputItem": [
+            {
+              "CustomData": null,
+              "OutputMethod": null,
+              "CopyColor": false,
+              "CopyPrice": false,
+              "CopyQuality": true,
+              "PreserveType": null,
+              "PreserveId": null,
+              "IncrementMachineParentSheetIndex": 0,
+              "PriceModifiers": null,
+              "PriceModifierMode": "Stack",
+              "Condition": null,
+              "Id": "JackHero06.HoneyJarToMead",
+              "ItemId": "JackHero06.HoneyJarToMead",
+              "RandomItemId": null,
+              "MaxItems": null,
+              "MinStack": 1,
+              "MaxStack": 1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "StackModifierMode": "Stack",
+              "ModData": null,
+              "PerItemCondition": null,
+              "QualityModifierMode": "Stack",
+              "QualityModifiers": [
+                {  
+                  "Id": "normal-silver Iridium",
+                  "Condition": "ITEM_QUALITY Input 0 0, Random 0.2",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id": "silver-gold Iridium",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.25",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id": "gold-iridium Iridium",
+                  "Condition": "ITEM_QUALITY Input 2 2, Random 0.1",
+                  "Modification": "Set",
+                  "Amount": 4
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional item",
+					        "Condition": "Random 0.5",
+									"Modification": "Add",
+					        "Amount": 1
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 5400
+        }
+      }
+    },
+
+
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [ "(BC){{ModId}}_RadioactiveKeg", "OutputRules" ], 
+      "Entries": {
+         "bearhoneymake": {
+          "Triggers": [
+            {
+              "Id": "ItemPlacedInMachine",
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "FlashShifter.StardewValleyExpandedCP_Honey_Jar",
+              "RequiredTags": null,
+              "Condition": null,
+              "RequiredCount": 1
+            }
+          ],
+          "UseFirstValidOutput": false,
+          "OutputItem": [
+            {
+              "CustomData": null,
+              "OutputMethod": null,
+              "CopyColor": false,
+              "CopyPrice": false,
+              "CopyQuality": true,
+              "PreserveType": null,
+              "PreserveId": null,
+              "IncrementMachineParentSheetIndex": 0,
+              "PriceModifiers": null,
+              "PriceModifierMode": "Stack",
+              "Condition": null,
+              "Id": "JackHero06.HoneyJarToMead",
+              "ItemId": "JackHero06.HoneyJarToMead",
+              "RandomItemId": null,
+              "MaxItems": null,
+              "MinStack": 2,
+              "MaxStack": 2,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "StackModifierMode": "Stack",
+              "ModData": null,
+              "PerItemCondition": null,
+              "QualityModifierMode": "Stack",
+              "QualityModifiers": [
+                {  
+                  "Id": "normal-silver Radioactive",
+                  "Condition": "ITEM_QUALITY Input 0 0, Random 0.4",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id": "silver-gold Radioactive",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.45",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id": "gold-iridium Radioactive",
+                  "Condition": "ITEM_QUALITY Input 2 2, Random 0.2",
+                  "Modification": "Set",
+                  "Amount": 4
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional item",
+					        "Condition": "Random 0.15",
+									"Modification": "Add",
+					        "Amount": 1
+                },
+                {
+                  "Id": "Aditional Item Quality",
+					        "Condition": "ITEM_QUALITY Input 4 4, Random 0.15",
+									"Modification": "Add",
+					        "Amount": 1
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 6000
+        }
+      }
+    }
+	]
+}

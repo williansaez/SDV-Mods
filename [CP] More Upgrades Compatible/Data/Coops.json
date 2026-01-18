@@ -1,0 +1,466 @@
+{
+  "Changes": [
+    // Super Coop
+    {
+      "LogName": "Create Super Coop",
+      "Action": "EditData",
+      "Target": "Data/Buildings",
+      "When": {
+        "Super Coop": "True"
+      },
+      "Entries": {
+        "{{ModId}}_SuperCoop": {
+          "ID": "{{i18n: SuperCoopName}}",
+          "Name": "{{i18n: SuperCoopName}}",
+          "Description": "{{i18n: SuperCoopDescription}}",
+          "Texture": "Buildings\\Deluxe Coop",
+          "Skins": [],
+          "DrawShadow": true,
+          "UpgradeSignTile": "2, 2",
+          "UpgradeSignHeight": 18.0,
+          "Size": {
+            "X": 6,
+            "Y": 3
+          },
+          "FadeWhenBehind": true,
+          "SourceRect": {
+            "X": 0,
+            "Y": 0,
+            "Width": 96,
+            "Height": 112
+          },
+          "SeasonOffset": {
+            "X": 0,
+            "Y": 0
+          },
+          "DrawOffset": "0, 0",
+          "SortTileOffset": 0.0,
+          "CollisionMap": null,
+          "AdditionalPlacementTiles": null,
+          "BuildingType": null,
+          "Builder": "Robin",
+          "BuildCondition": null,
+          "BuildDays": "{{SuperCoop_BuildDays}}",
+          "BuildCost": "{{SuperCoop_BuildCost}}",
+          "BuildMaterials": [
+            {
+              "ItemId": "(O)388",
+              "Amount": "{{SuperCoop_WoodAmount}}"
+            },
+            {
+              "ItemId": "(O)709",
+              "Amount": "{{SuperCoop_HardwoodAmount}}"
+            },
+            {
+              "ItemId": "(O)390",
+              "Amount": "{{SuperCoop_StoneAmount}}"
+            }
+          ],
+          "BuildingToUpgrade": "Deluxe Coop",
+          "MagicalConstruction": false,
+          "BuildMenuDrawOffset": {
+            "X": 0,
+            "Y": 0
+          },
+          "HumanDoor": {
+            "X": 1,
+            "Y": 2
+          },
+          "AnimalDoor": {
+            "X": 2,
+            "Y": 2,
+            "Width": 1,
+            "Height": 1
+          },
+          "AnimalDoorOpenDuration": 0.3125,
+          "AnimalDoorOpenSound": "doorCreak",
+          "AnimalDoorCloseDuration": 0.3125,
+          "AnimalDoorCloseSound": "doorCreakReverse",
+          "NonInstancedIndoorLocation": null,
+          "IndoorMap": "Amichwan.More.upgrades_Coop4",
+          "IndoorMapType": "StardewValley.AnimalHouse",
+          "MaxOccupants": 16,
+          "ValidOccupantTypes": [
+            "Coop"
+          ],
+          "AllowAnimalPregnancy": false,
+          "IndoorItemMoves": [
+            {
+              "Id": "Default_KeepAlongWall_Top",
+              "Source": {
+                "X": 14,
+                "Y": 4
+              },
+              "Destination": {
+                "X": 20,
+                "Y": 4
+              },
+              "Size": {
+                "X": 1,
+                "Y": 1
+              },
+              "UnlessItemId": null
+            },
+            {
+              "Id": "Default_KeepAlongWall_Middle",
+              "Source": {
+                "X": 14,
+                "Y": 7
+              },
+              "Destination": {
+                "X": 21,
+                "Y": 7
+              },
+              "Size": {
+                "X": 1,
+                "Y": 1
+              },
+              "UnlessItemId": null
+            },
+            {
+              "Id": "Default_KeepAlongWall_Bottom",
+              "Source": {
+                "X": 14,
+                "Y": 8
+              },
+              "Destination": {
+                "X": 21,
+                "Y": 8
+              },
+              "Size": {
+                "X": 1,
+                "Y": 1
+              },
+              "UnlessItemId": null
+            }
+          ],
+          "IndoorItems": [
+            {
+              "Id": "Default_FeedHopper",
+              "ItemId": "(BC)99",
+              "Tile": {
+                "X": 3,
+                "Y": 3
+              },
+              "Indestructible": true
+            },
+            {
+              "Id": "Default_Incubator",
+              "ItemId": "(BC)101",
+              "Tile": {
+                "X": 2,
+                "Y": 3
+              },
+              "Indestructible": true
+            },
+            {
+              "Id": "Default_Incubator",
+              "ItemId": "(BC)101",
+              "Tile": {
+                "X": 1,
+                "Y": 4
+              },
+              "Indestructible": true
+            }
+          ],
+          "AddMailOnBuild": [
+            "incubator"
+          ],
+          "Metadata": {},
+          "ModData": {
+            "Pathoschild.Automate/IsAutomationIgnored": "false"
+          },
+          "HayCapacity": 0,
+          "Chests": null,
+          "DefaultAction": null,
+          "AdditionalTilePropertyRadius": 0,
+          "AllowsFlooringUnderneath": true,
+          "ActionTiles": [],
+          "TileProperties": [],
+          "ItemConversions": null,
+          "DrawLayers": [
+            {
+              "Id": "Default_AnimalDoor",
+              "Texture": null,
+              "SourceRect": {
+                "X": 0,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+              "DrawPosition": "32, 96",
+              "DrawInBackground": false,
+              "SortTileOffset": 0.02,
+              "OnlyDrawIfChestHasContents": null,
+              "FrameDuration": 90,
+              "FrameCount": 1,
+              "FramesPerRow": -1,
+              "AnimalDoorOffset": {
+                "X": 0,
+                "Y": -13
+              }
+            },
+            {
+              "Id": "Default_AnimalDoor_Open",
+              "Texture": null,
+              "SourceRect": {
+                "X": 16,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+              "DrawPosition": "32, 96",
+              "DrawInBackground": false,
+              "SortTileOffset": 1.0,
+              "OnlyDrawIfChestHasContents": null,
+              "FrameDuration": 90,
+              "FrameCount": 1,
+              "FramesPerRow": -1,
+              "AnimalDoorOffset": {
+                "X": 0,
+                "Y": 0
+              }
+            }
+          ],
+          "CustomFields": null
+        }
+      }
+    },
+
+    // Premium Coop
+    {
+      "LogName": "Create Premium Coop",
+      "Action": "EditData",
+      "Target": "Data/Buildings",
+      "When": {
+        "Super Coop": "True"
+      },
+      "Entries": {
+        "{{ModId}}_PremiumCoop": {
+          "ID": "{{i18n: PremiumCoopName}}",
+          "Name": "{{i18n: PremiumCoopName}}",
+          "Description": "{{i18n: PremiumCoopDescription}}",
+          "Texture": "Buildings\\Deluxe Coop",
+          "Skins": [],
+          "DrawShadow": true,
+          "UpgradeSignTile": "2, 2",
+          "UpgradeSignHeight": 18.0,
+          "Size": {
+            "X": 6,
+            "Y": 3
+          },
+          "FadeWhenBehind": true,
+          "SourceRect": {
+            "X": 0,
+            "Y": 0,
+            "Width": 96,
+            "Height": 112
+          },
+          "SeasonOffset": {
+            "X": 0,
+            "Y": 0
+          },
+          "DrawOffset": "0, 0",
+          "SortTileOffset": 0.0,
+          "CollisionMap": null,
+          "AdditionalPlacementTiles": null,
+          "BuildingType": null,
+          "Builder": "Robin",
+          "BuildCondition": null,
+          "BuildDays": "{{PremiumCoop_BuildDays}}",
+          "BuildCost": "{{PremiumCoop_BuildCost}}",
+          "BuildMaterials": [
+            {
+              "ItemId": "(O)388",
+              "Amount": "{{PremiumCoop_WoodAmount}}"
+            },
+            {
+              "ItemId": "(O)709",
+              "Amount": "{{PremiumCoop_HardwoodAmount}}"
+            },
+            {
+              "ItemId": "(O)390",
+              "Amount": "{{PremiumCoop_StoneAmount}}"
+            }
+          ],
+          "BuildingToUpgrade": "Amichwan.More.upgrades_SuperCoop",
+          "MagicalConstruction": false,
+          "BuildMenuDrawOffset": {
+            "X": 0,
+            "Y": 0
+          },
+          "HumanDoor": {
+            "X": 1,
+            "Y": 2
+          },
+          "AnimalDoor": {
+            "X": 2,
+            "Y": 2,
+            "Width": 1,
+            "Height": 1
+          },
+          "AnimalDoorOpenDuration": 0.3125,
+          "AnimalDoorOpenSound": "doorCreak",
+          "AnimalDoorCloseDuration": 0.3125,
+          "AnimalDoorCloseSound": "doorCreakReverse",
+          "NonInstancedIndoorLocation": null,
+          "IndoorMap": "Amichwan.More.upgrades_Coop5",
+          "IndoorMapType": "StardewValley.AnimalHouse",
+          "MaxOccupants": 20,
+          "ValidOccupantTypes": [
+            "Coop"
+          ],
+          "AllowAnimalPregnancy": false,
+          "IndoorItemMoves": [
+            {
+              "Id": "Default_KeepAlongWall_Top",
+              "Source": {
+                "X": 14,
+                "Y": 4
+              },
+              "Destination": {
+                "X": 20,
+                "Y": 4
+              },
+              "Size": {
+                "X": 1,
+                "Y": 1
+              },
+              "UnlessItemId": null
+            },
+            {
+              "Id": "Default_KeepAlongWall_Middle",
+              "Source": {
+                "X": 14,
+                "Y": 7
+              },
+              "Destination": {
+                "X": 21,
+                "Y": 7
+              },
+              "Size": {
+                "X": 1,
+                "Y": 1
+              },
+              "UnlessItemId": null
+            },
+            {
+              "Id": "Default_KeepAlongWall_Bottom",
+              "Source": {
+                "X": 14,
+                "Y": 8
+              },
+              "Destination": {
+                "X": 21,
+                "Y": 8
+              },
+              "Size": {
+                "X": 1,
+                "Y": 1
+              },
+              "UnlessItemId": null
+            }
+          ],
+          "IndoorItems": [
+            {
+              "Id": "Default_FeedHopper",
+              "ItemId": "(BC)99",
+              "Tile": {
+                "X": 3,
+                "Y": 3
+              },
+              "Indestructible": true
+            },
+            {
+              "Id": "Default_Incubator",
+              "ItemId": "(BC)101",
+              "Tile": {
+                "X": 2,
+                "Y": 3
+              },
+              "Indestructible": true
+            },
+            {
+              "Id": "Default_Incubator",
+              "ItemId": "(BC)101",
+              "Tile": {
+                "X": 1,
+                "Y": 4
+              },
+              "Indestructible": true
+            },
+            {
+              "Id": "Default_Auto-Petter",
+              "ItemId": "(BC)272",
+              "Tile": {
+                "X": 1,
+                "Y": 5
+              },
+              "Indestructible": true
+            }
+          ],
+          "AddMailOnBuild": [
+            "incubator"
+          ],
+          "Metadata": {},
+          "ModData": {
+            "Pathoschild.Automate/IsAutomationIgnored": "false"
+          },
+          "HayCapacity": 0,
+          "Chests": null,
+          "DefaultAction": null,
+          "AdditionalTilePropertyRadius": 0,
+          "AllowsFlooringUnderneath": true,
+          "ActionTiles": [],
+          "TileProperties": [],
+          "ItemConversions": null,
+          "DrawLayers": [
+            {
+              "Id": "Default_AnimalDoor",
+              "Texture": null,
+              "SourceRect": {
+                "X": 0,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+              "DrawPosition": "32, 96",
+              "DrawInBackground": false,
+              "SortTileOffset": 0.02,
+              "OnlyDrawIfChestHasContents": null,
+              "FrameDuration": 90,
+              "FrameCount": 1,
+              "FramesPerRow": -1,
+              "AnimalDoorOffset": {
+                "X": 0,
+                "Y": -13
+              }
+            },
+            {
+              "Id": "Default_AnimalDoor_Open",
+              "Texture": null,
+              "SourceRect": {
+                "X": 16,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+              "DrawPosition": "32, 96",
+              "DrawInBackground": false,
+              "SortTileOffset": 1.0,
+              "OnlyDrawIfChestHasContents": null,
+              "FrameDuration": 90,
+              "FrameCount": 1,
+              "FramesPerRow": -1,
+              "AnimalDoorOffset": {
+                "X": 0,
+                "Y": 0
+              }
+            }
+          ],
+          "CustomFields": null
+        }
+      }
+    }
+  ]
+}

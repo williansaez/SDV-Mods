@@ -1,0 +1,12 @@
+{
+	"Name": "Downhill Project Extras",
+	"Author": "Kiyugamods",
+	"Version": "1.0.12",
+	"Description": "Downhill Forage and Coal",
+	"UniqueID": "DH.Kiyuga.Extras",
+	"MinimumApiVersion": "4.1.0",
+	"ContentPackFor": { "UniqueID": "Esca.FarmTypeManager", "MinimumVersion": "1.24.0" },
+	"Dependencies": [
+		{ "UniqueID": "DH.Kiyuga.Main", "IsRequired": true }
+	]
+}

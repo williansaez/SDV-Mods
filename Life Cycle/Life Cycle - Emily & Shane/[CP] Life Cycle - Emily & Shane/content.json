@@ -1,0 +1,320 @@
+{
+    "Format": "2.0.0",
+    "ConfigSchema": {
+        "Version": {
+            "AllowValues": "dating, married",
+            "Default": "dating"
+        }
+    },
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Emily",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020040"
+            },
+            "Entries": {
+                "Fri2": "Oh, olá, @...$2#$e#Você poderia me deixar sozinha por um tempo, por favor?$2",
+                "Sat2": "...$2"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Shane",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020040"
+            },
+            "Entries": {
+                "Mon2": "Por que eu sempre estrago tudo...?$2",
+                "Wed2": "Agora não é um bom momento...$5"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Emily",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020041"
+            },
+            "Entries": {
+                "Mon4": "Realmente espero que o Shane pense seriamente sobre o futuro.$2",
+                "Thu4": "Olá, @.$0#$e#Você viu o Shane recentemente?$0#$b#Talvez eu devesse visitá-lo e ver como ele está.$0",
+                "Sun4": "Tenho certeza de que o Shane vai clarear a mente em breve.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Shane",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020041"
+            },
+            "Entries": {
+                "Tue4": "Preciso realmente reconsiderar meu plano de vida...$2",
+                "Thu4": "Quero fazer o melhor por Jas...$2",
+                "Fri4": "Você também acha que eu deveria começar um tratamento médico?$2#$e#A Emily disse que é o melhor a fazer.$2#$b#Você sabe, por causa da Jas, de você e dela...$2"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Emily",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020042"
+            },
+            "Entries": {
+                "Tue6": "Olá, @.$0#$e#Shane me disse que você tem sido uma grande ajuda para ele.$0#$b#Fico feliz que ele tenha você.$1",
+                "Wed6": "Você sabe como o Shane está?$0#$b#Faz tempo desde a última vez que conversei com ele.$0",
+                "Fri6": "Agora o Shane só toma água com gás quando vem ao bar.$0#$b#Estou muito orgulhosa dele.$1",
+                "Sat6": "O Shane está melhor estes dias.$0#$b#O Harvey foi ao bar outro dia e disse que ele está se recuperando bem.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Shane",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020042"
+            },
+            "Entries": {
+                "Mon6": "Tenho que ir ao terapeuta em breve.$0#$b#Não se preocupe comigo, @, estou bem.$1",
+                "Tue6": "Tenho pensado em comprar algo para Emily e você.$0#$b#Sabe, vocês dois me ajudaram muito.$1",
+                "Thu6": "Agora que não gasto dinheiro com coisas inúteis, posso comprar a nova boneca que a Jas queria.$1",
+                "Sat6": "Marnie quis convidar você e a Emily para jantar algum dia.$0#$b#O que acha?$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Emily",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020043"
+            },
+            "Entries": {
+                "Mon8": "Agora que Shane e eu estamos caminhando juntos na jornada da vida, percebi que algo faltava antes.$0#$b#Nunca me senti tão feliz em toda a minha vida.$4",
+                "Tue8": "Shane e eu deveríamos fazer uma fogueira quando tivermos tempo.$0#$b#Poderíamos até dançar e meditar!$1",
+                "Wed8": "Shane e eu não estamos planejando ter filhos tão cedo.$0#$e#Mas quando chegar a hora, vamos garantir que cresçam gentis e atenciosos.$1#$b#Acreditamos que essas são as qualidades mais importantes de uma pessoa.$1",
+                "Thu8": "Oi, @.$1#$e#Ontem à noite eu conversava com o Shane, e ele me sugeriu que eu abrisse uma boutique aqui na cidade.$0#$b#Nunca pensei nisso, mas é uma ideia sensacional!$1#$b#Tenho certeza de que todo mundo iria amar, mas preciso economizar primeiro.$0",
+                "Fri8": "Sandy está ansiosa para conhecer o Shane em breve.$0#$e#Não seria maravilhoso? Eles são meus dois melhores amigos.$0#$e#Acredito que vão se dar muito bem.$0",
+                "Sat8": "Oi, @.$0#$e#Há pessoas que simplesmente não conseguem se dar bem, por mais que tentem, porque suas energias não combinam.$0#$b#Mas, graças a Yoba, o Shane e eu combinamos perfeitamente.$1",
+                "Sun8": "Talvez em breve eu pare de trabalhar como garçonete para me dedicar à costura.$0#$b#O Shane acha que é uma boa ideia.$0#$e#Mas nunca vou esquecer o quanto trabalhar lá foi importante para mim.$0",
+                "spring_Mon8": "Eu adoro trabalhar com o Gus, mas meu sonho mesmo é me dedicar à costura.$0#$e#O Shane sempre me diz que eu tenho talento natural para isso.$1#$b#Ele até disse que eu deveria abrir uma boutique aqui na cidade.$1",
+                "spring_Tue8": "A jornada espiritual é individual.$0#$b#Mas você sempre pode encontrar alguém para te acompanhar nesse caminho.$0#$b#Fico feliz de estar com o Shane nessa caminhada.$4",
+                "spring_Fri8": "Não sei quando meus pais voltarão da viagem, mas quero que conheçam o Shane há um tempo.$0",
+                "summer_Mon8": "O Shane é tão gentil comigo.$4#$b#Semana passada eu disse que precisava de mais tecido para um vestido em que estou trabalhando, e ontem ele me trouxe!$1",
+                "summer_Wed8": "A conexão espiritual do Shane comigo é a mais forte que já tive com alguém.$4",
+                "summer_Thu8": "A Jas adora ir à praia no verão.$0#$b#Eu e o Shane vamos com ela quando conseguimos tempo.$1",
+                "fall_Tue8": "Oi, @.$0#$e#Você já pensa no futuro?$3#$e#Eu costumava ser mais despreocupada e esperar que o destino fizesse sua mágica.$0#$b#Mas agora que tenho o Shane na minha vida, devemos nos estabilizar.$0",
+                "fall_Fri8": "Oi, @.$0#$e#Você talvez não saiba, mas cada um tem sua própria energia espiritual.$0#$b#E a energia do Shane complementa perfeitamente a minha...$4",
+                "fall_Sun8": "Oi, @.$0#$e#Ultimamente tenho tentado meditar com o Shane.$0#$b#Mas para ele é difícil esvaziar a mente...$2",
+                "winter_Wed8": "Cada dia com o Shane é uma bênção de Yoba.$4#$e#Ah, @, como está seu dia?$0",
+                "winter_Sat8": "Acredito que meu destino é ficar com o Shane para sempre.$4#$e#Você sente o mesmo por alguém?$0",
+                "winter_Sun8": "O Shane não gosta muito do inverno...$2#$e#Ele tende a ficar mais sozinho, então vou me certificar de estar ao lado dele.$0",
+                "spring_12": "Eu amo a Caça aos Ovos mas nunca participei.$0#$b#Talvez eu devesse ir com o Shane.$0#$b#A Jas adoraria.$1",
+                "spring_20": "O Shane sempre me pede para não comprar nada no aniversário dele.$0#$b#Mas eu nunca obedeço.$1",
+                "fall_15": "O Shane e a Marnie trabalharam duro para a exposição de amanhã.$0#$b#Tenho certeza de que vão arrasar.$1",
+                "winter_7": "A Jas disse que amanhã quer construir um boneco de neve com o Shane e comigo.$1#$e#A propósito, boa sorte na competição de pesca, @.$0",
+                "spring_12_2": "Eu amo a Caça aos Ovos mas nunca participei.$0#$b#Talvez eu devesse ir com o Shane.$0#$b#A Jas adoraria.$1",
+                "spring_20_2": "O Shane sempre me pede para não comprar nada no aniversário dele.$0#$b#Mas eu nunca obedeço.$1",
+                "fall_15_2": "O Shane e a Marnie trabalharam duro para a exposição de amanhã.$0#$b#Tenho certeza de que vão arrasar.$1",
+                "winter_7_2": "A Jas disse que amanhã quer construir um boneco de neve com o Shane e comigo.$1#$e#A propósito, boa sorte na competição de pesca, @.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Shane",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020043"
+            },
+            "Entries": {
+                "Mon8": "Eu sei que não é fácil superar um vício, mas às vezes sinto que é trabalho demais...$2#$b#A Emily disse que é importante falar sobre essas coisas com meu terapeuta...$2",
+                "Tue8": "Passei a substituir o álcool por água com gás.$0#$b#No começo foi muito difícil, mas o Harvey e meu terapeuta me ajudaram com a abstinência.$0#$b#E a Emily trabalha no bar então...$1",
+                "Wed8": "Ontem eu estava cheio de energia.$1#$b#Ajudei a Marnie com os animais, passei um tempo com a Jas e convidei a Emily para jantar.$1",
+                "Thu8": "Tenho que ir a Zuzu City para ver meu terapeuta.$0#$e#É uma viagem bem longa, mas talvez a Emily e a Jas possam vir comigo algum dia.$0#$b#Podemos fazer compras. Quero comprar alguns presentes para elas.$1",
+                "Fri8": "Ontem a Emily me disse o quanto ela tem orgulho de mim.$0#$b#É constrangedor ouvir isso, mas gosto do quanto ela se importa comigo e quer que eu melhore.$0",
+                "Sat8": "A Emily diz que tenho melhorado muito ultimamente.$0#$b#Eu também acho, mas a terapia realmente é difícil às vezes...$2",
+                "Sun8": "Devo pedir para a Emily me ensinar a cozinhar.$0#$b#Não quero comer comida pronta pelo resto da minha vida.$0",
+                "spring_Tue8": "Ei, @.$0#$e#Queria dizer que você tem sido um grande amigo o tempo todo.$0#$b#Eu simplesmente não sei como agradecer a você e à Emily por estarem ao meu lado...$6",
+                "spring_Sun8": "A Jas desenhou um desenho da Emily e de mim e o entregou à Em....$3#$b#Mas ela disse que da próxima vez vai me dar, então sem problemas.$0",
+                "spring_Mon8": "A Marnie e eu sempre temos que trabalhar mais na primavera.$0#$b#Pode ser bem cansativo às vezes...$0#$b#A Emily se ofereceu para ajudar. Seria divertido alimentar os animais com ela.$1",
+                "summer_Wed8": "A Emily na verdade é muito boa com crianças.$0#$b#Ela me ensinou algumas histórias para contar para a Jas na hora de dormir.$1",
+                "summer_Fri8": "A Jas me disse que gosta mais da Emily porque elas brincam com as bonecas juntas.$0#$b#Devo me sentir traído?$1",
+                "summer_Sat8": "Ei, @.$1#$b#Hoje estou me sentindo bem.$0#$b#Talvez eu deva ir à praia com a Jas e a Em.$1",
+                "fall_Wed8": "Às vezes me pergunto...$2#$b#Como a Emily concordou em namorar comigo?$2#$b#Acho que tive sorte nisso.$6",
+                "fall_Thu8": "Eu costumava amar o outono por causa da cerveja de abóbora do Gus, mas agora...$2#$b#Bem, você sabe...$2",
+                "fall_Sun8": "Tive um dia terrível...$2#$b#Tenho muita sorte de a Emily sempre ser compreensiva comigo.$2",
+                "winter_Mon8": "Ultimamente nem quero levantar da cama.$2#$b#O terapeuta disse que eu deveria seguir uma rotina regular, mas é difícil às vezes.$2#$e#Mas a Marnie tenta cuidar de mim e a Emily me visita frequentemente.$0",
+                "winter_Tue8": "Ei, @.$0#$e#Hoje vou assistir a um filme com a Emily.$0#$b#Ela está realmente animada, acho que a protagonista é a atriz favorita dela.$1",
+                "winter_Fri8": "Argh...$2#$b#Ontem não tive vontade de sair e agora me sinto péssimo.$2#$b#Devo dar uma caminhada com a Emily mais tarde.$2",
+                "winter_Sat8": "Sempre haverá altos e baixos, é assim que a vida é.$0#$b#Eu só quero focar mais nos altos do que nos baixos.$0",
+                "spring_23": "Sabe, eu não sou muito fã do Baile das Flores...$2#$e#Mas se a Emily me pedisse, eu dançaria com ela.$4",
+                "spring_27": "Hoje é o aniversário da Emily.$0#$b#Comprei para ela uma água-marinha, me lembrou dela.$4",
+                "summer_4": "A Penny me disse que a Jas está indo muito bem nos estudos, então comprei uma Boneca Mina para o aniversário dela.$0#$b#Eu não entendo muito de bonecas, então a Emily me ajudou a encomendar.$0#$e#Nós vamos jantar todos juntos, você deveria vir também.$1",
+                "winter_24": "A Jas mal pode esperar para ver o que eu lhe dei para a Ceia da Estrela Invernal.$0#$b#Ela está vasculhando meu quarto então pedi à Emily para guardar na casa dela até amanhã.$1",
+                "spring_23_2": "Sabe, eu não sou muito fã do Baile das Flores...$2#$e#Mas se a Emily me pedisse, eu dançaria com ela.$4",
+                "spring_27_2": "Hoje é o aniversário da Emily.$0#$b#Comprei para ela uma água-marinha, me lembrou dela.$4",
+                "summer_4_2": "A Penny me disse que a Jas está indo muito bem nos estudos, então comprei uma Boneca Mina para o aniversário dela.$0#$b#Eu não entendo muito de bonecas, então a Emily me ajudou a encomendar.$0#$e#Nós vamos jantar todos juntos, você deveria vir também.$1",
+                "winter_24_2": "A Jas mal pode esperar para ver o que eu lhe dei para a Ceia da Estrela Invernal.$0#$b#Ela está vasculhando meu quarto então pedi à Emily para guardar na casa dela até amanhã.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Haley",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020043"
+            },
+            "Entries": {
+                "Mon2": "Esse tal de Shane não bebe sempre?$3#$b#Eu não sei o que a Emily viu nele...$3",
+                "Mon4": "Shane e Emily se veem quase todo dia.$0#$e#Eu não sei se isso é bom ou não.$0",
+                "Tue4": "A Emily deveria transformar o visual do Shane.$0#$b#E ele deveria se barbear também.$0",
+                "Tue6": "Outro dia o Shane veio à nossa casa, e nunca vi a Emily tão feliz!$1",
+                "Thu2": "Argh... Espero que o Shane não venha em nossa casa com frequência.$2#$b#Ou pelo menos que ele tome banho antes de vir.$2",
+                "Thu6": "Acho que fui muito rude com o Shane no passado.$2#$b#Ele passou por muita coisa e eu o julguei sem saber...$2#$b#Peço desculpas a ele e à Emily...$2",
+                "Fri6": "Nunca imaginei que sentiria tanta falta da Emily.$2#$b#Moramos juntas, mas agora ela passa muito tempo com o Shane.$2#$e#Mas claro que fico feliz por ela.$0",
+                "Sat2": "Não acredito que a Emily esteja namorando o Shane.$3#$b#O gosto dele para roupas é horrível!$3",
+                "Sat8": "Oi, @.$0#$e#Eu estava pensando... Eu não deveria ter julgado o Shane quando ele começou a namorar a Emily...$2#$b#Ele faz a Emily muito feliz e eu fui tão grossa com ele no começo...$2",
+                "Sun4": "Eu disse à Emily que ela deveria fazer algumas roupas para o Clint.$7#$b#Mas ela disse que o ama do jeito que ele é.$0",
+                "Sun8": "Semana passada o Shane veio à nossa casa e me disse que gosta de gridball.$0#$b#Talvez ele possa jogar com o Alex qualquer dia.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Marnie",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020043"
+            },
+            "Entries": {
+                "Mon4": "Emily passou ontem para dar ao Shane alguns remédios que ele precisava.$0#$b#É doce que ela se importe tanto com ele.$1",
+                "Tue2": "O Shane está muito mais saudável estes dias.$0#$b#Fico feliz que ele finalmente tenha decidido superar o vício.$0",
+                "Wed2": "Olá, @.$0#$e#Vou comprar água com gás para o Shane.$0#$b#Às vezes é difícil para ele manter a sobriedade, mas ele está indo muito bem.$1",
+                "Thu8": "A fazenda está tão animada agora.$0#$b#Shane e Jas têm me ajudado com os animais com mais frequência.$1",
+                "Fri10": "A Jas e eu ficaríamos tão sozinhas se o Shane alguma vez se mudasse.$2#$e#Talvez a Emily pudesse morar conosco...?$0#$b#Bem, não acho que isso seja possível.$0",
+                "Sat6": "O Shane limpou o quarto ontem.$0#$b#Eu nem lembrava que ele tinha um tapete...$3#$e#De qualquer forma, ele está melhor.$1",
+                "Sun8": "A Jas me disse que queria ir ao parque com o Shane.$0#$b#"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jas",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020043"
+            },
+            "Entries": {
+                "Mon2": "Shane me conta uma história para dormir uma vez por semana.$0#$b#Ele diz que a Emily lhe emprestou um livro infantil.$1",
+                "Tue4": "Agora Shane e eu alimentamos as galinhas juntos todos os dias.$1",
+                "Wed8": "O Shane tem me ajudado com minhas tarefas.$0#$b#Ele também tem brincado comigo com mais frequência.$1",
+                "Thu4": "Adivinha?$0#$e#O Shane me comprou um novo laço de cabelo!$1#$e#Ele disse que a Emily o ajudou a escolher.$0#$b#Vou usá-lo amanhã.$1",
+                "Fri6": "A Emily e o Shane me levaram ao parque na semana passada.$0#$b#Nos divertimos muito.$1",
+                "Sat8": "O Shane prometeu que um dia iremos a Zuzu City.$0#$b#Quero que a Emily venha com a gente também.$1",
+                "Sun10": "Não conte ao Shane, mas...$3#$b#...às vezes a Emily é mais divertida que ele.$0#$e#Mas eu amo os dois!$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/schedules/Emily",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020043"
+            },
+            "Entries": {
+                "spring.001": "Podíamos levar a Jas para Zuzu City algum dia.$0#$b#Ela sempre me pergunta como é viver na cidade.$1",
+                "spring.002": "As vacas parecem muito saudáveis.$0#$b#Você está cuidando bem delas, hein?$1",
+                "summer.001": "Falei com o Gus e ele me disse que eu poderia ir trabalhar um pouco mais tarde.$0#$b#O Shane quis ir à praia com a Jas.$1",
+                "summer.002": "Poderíamos jogar vôlei aqui na praia, Shane.$0#$b#Eu costumava jogar quando estava no ensino médio.$1",
+                "fall.001": "Oi, @.$0#$b#O Shane tem um check-up hoje. Deve acabar logo.$1",
+                "fall.002": "Esta época do ano é perfeita para acampar.$0#$b#Não é, Shane?$1",
+                "winter.001": "Oi, @.$0#$b#Eu estava mostrando ao Shane meus últimos designs.$0#$b#Você quer ver?$1",
+                "winter.002": "Este lugar tem energia espiritual com efeitos curativos.$0#$b#Por isso pedi ao Shane que viesse comigo.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Emily",
+            "When": {
+                "Version": "dating, married",
+                "HasSeenEvent": "59020043"
+            },
+            "Entries": {
+                "spring_Wed": "800 AnimalShop 23 8 1 \"Strings\\schedules\\Emily:spring.001\"/1350 Saloon 15 17 0 square_5_1_0/2430 HaleyHouse 21 4 1 emily_sleep",
+                "spring_Sun": "830 Forest 92 19 1 \"Strings\\schedules\\Emily:spring.002\"/1330 Saloon 15 17 0 square_5_1_0/2430 HaleyHouse 21 4 1 emily_sleep",
+                "summer_Mon": "900 HaleyHouse 16 5 2/1130 HaleyHouse 3 16 0/1400 Beach 39 18 2 \"Strings\\schedules\\Emily:summer.001\"/1600 Saloon 15 17 0 square_5_1_0/2430 HaleyHouse 21 4 1 emily_sleep",
+                "summer_Thu": "900 HaleyHouse 16 5 2/1130 HaleyHouse 3 16 0/1400 Beach 39 18 2 \"Strings\\schedules\\Emily:summer.002\"/1600 Saloon 15 17 0 square_5_1_0/2430 HaleyHouse 21 4 1 emily_sleep",
+                "fall_Tue": "900 HaleyHouse 16 5 2/1000 Hospital 14 18 3 \"Strings\\schedules\\Emily:fall.001\"/1500 Saloon 15 17 0 square_5_1_0/2430 HaleyHouse 21 4 1 emily_sleep",
+                "fall_Sun": "900 HaleyHouse 16 5 2/1100 Woods 10 18 2 \"Strings\\schedules\\Emily:fall.002\"/1730 Saloon 15 17 0 square_5_1_0/2430 HaleyHouse 21 4 1 emily_sleep",
+                "winter_Wed": "900 HaleyHouse 16 5 2/1130 HaleyHouse 16 5 2 \"Strings\\schedules\\Emily:winter.001\"/1530 Saloon 15 17 0 square_5_1_0/2430 HaleyHouse 21 4 1 emily_sleep",
+                "winter_Thu": "900 HaleyHouse 16 5 2/1000 HaleyHouse 3 16 0/1130 Forest 103 96 2 \"Strings\\schedules\\Emily:winter.002\"/1700 Saloon 15 17 0 square_5_1_0/2400 HaleyHouse 21 4 1 emily_sleep"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/schedules/Shane",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020043"
+            },
+            "Entries": {
+                "spring.100": "Oi, @.$0#$b#Não se preocupe, estou bebendo água com gás.$1",
+                "spring.001": "Emily, você deveria vir comigo da próxima vez que eu for a Zuzu City.$0#$b#Também poderíamos assistir a um jogo de gridball depois da minha consulta.$1",
+                "spring.002": "No mês passado a Maja teve um bebê.$0#$b#A Jas chamou a criança de Candy.$1",
+                "summer.001": "A Jas quer dar um mergulho.$0#$b#O que você acha, Em?$1",
+                "summer.002": "Da próxima vez vou trazer meu maiô especial.$0#$b#Sabe, aquele com ovelhas vermelhas.$1",
+                "fall.001": "Oi, @.$0#$b#O Harvey me pediu para esperar aqui pelos resultados.$0#$b#Espero que ele não demore, a Emily está esperando do lado de fora...$3",
+                "fall.002": "A gente devia acampar em breve.$0#$b#Poderíamos até fazer uma fogueira.$1",
+                "winter.001": "Hum...$3#$b#Acho que essa é a minha favorita, Emily.$0",
+                "winter.002": "A Emily gosta da natureza.$0#$b#Eu não passava tanto tempo fora antes... mas agora passo.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Shane",
+            "When": {
+                "Version": "dating, married",
+                "HasSeenEvent": "59020043"
+            },
+            "Entries": {
+                "spring_Wed": "830 AnimalShop 24 17 1/930 AnimalShop 24 15 0/1000 AnimalShop 24 8 3 \"Strings\\schedules\\Shane:spring.001\"/1400 Saloon 11 20 0/1630 Saloon 21 17 2 shane_drink \"Strings\\schedules\\Shane:spring.100\"/2000 Saloon 27 23 1/2300 AnimalShop 27 4 1 shane_sleep",
+                "spring_Sun": "700 AnimalShop 24 15 0/940 Forest 92 20 1 \"Strings\\schedules\\Shane:spring.002\"/1340 AnimalShop 16 13 2/1800 Saloon 21 17 2 shane_drink \"Strings\\schedules\\Shane:spring.100\"/2400 AnimalShop 27 4 1 shane_sleep",
+                "summer_Mon": "900 AnimalShop 24 17 1/1000 AnimalShop 24 15 0/1100 AnimalShop 24 5 0/1200 AnimalShop 5 14 2/1320 Beach 40 18 2 \"Strings\\schedules\\Shane:summer.001\"/1610 Saloon 21 17 2 shane_drink \"Strings\\schedules\\Shane:spring.100\"/2000 Saloon 27 23 1/2300 AnimalShop 27 4 1 shane_sleep",
+                "summer_Thu": "900 AnimalShop 24 17 1/1000 AnimalShop 24 15 0/1100 AnimalShop 24 5 0/1200 AnimalShop 5 14 2/1320 Beach 40 18 2 \"Strings\\schedules\\Shane:summer.002\"/1610 Saloon 21 17 2 shane_drink \"Strings\\schedules\\Shane:spring.100\"/2000 Saloon 27 23 1/2300 AnimalShop 27 4 1 shane_sleep",
+                "fall_Tue": "900 Hospital 14 6 2 \"Strings\\schedules\\Shane:fall.001\"/1450 Saloon 11 20 0/1630 Saloon 21 17 2 shane_drink \"Strings\\schedules\\Shane:spring.100\"/2000 Saloon 27 23 1/2300 AnimalShop 27 4 1 shane_sleep",
+                "fall_Sun": "700 AnimalShop 24 15 0/930 AnimalShop 24 5 0/1130 Woods 11 18 2 \"Strings\\schedules\\Shane:fall.002\"/1720 Saloon 21 17 2 shane_drink \"Strings\\schedules\\Shane:spring.100\"/2400 AnimalShop 27 4 1 shane_sleep",
+                "winter_Wed": "800 AnimalShop 24 17 1/1000 HaleyHouse 17 5 2 \"Strings\\schedules\\Shane:winter.001\"/1520 Saloon 11 20 0/1630 Saloon 21 17 2 shane_drink \"Strings\\schedules\\Shane:spring.100\"/2000 Saloon 27 23 1/2300 AnimalShop 27 4 1 shane_sleep",
+                "winter_Thu": "900 AnimalShop 24 17 1/1000 AnimalShop 24 15 0/1100 AnimalShop 24 5 0/1220 Forest 104 96 2 \"Strings\\schedules\\Shane:winter.002\"/1710 Saloon 21 17 2 shane_drink \"Strings\\schedules\\Shane:spring.100\"/2000 Saloon 27 23 1/2300 AnimalShop 27 4 1 shane_sleep"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Saloon",
+            "Entries": {
+                "59020040/F/f Emily 500/f Shane 500/d Sun/t 1800 2000": "Saloon1/18 20/farmer 9 22 1 Clint 19 23 3 Willy 18 22 2 Pam 7 18 1 Gus 11 18 2 Emily 17 18 2 Shane 21 17 2/skippable/animate Gus false true 250 18 19 20/animate Shane false true 125 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 21 21 22 23 23 24 24 23 23 22 21 21/pause 3000/speak Shane \"Argh...$5#$b#Por que tudo tem que ser tão bagunçado...?$2\"/pause 880/emote Shane 12/pause 1250/stopAnimation Shane/pause 600/move Shane 0 4 3/move Shane -4 0 0/move Shane 0 -1 0/pause 780/emote Emily 8/pause 850/speak Shane \"Eu sei que pareço horrível...$2#$b#Mas pare de me encarar.$5\"/pause 650/speak Shane \"Me dá mais uma cerveja, Emily.$2\"/pause 680/speak Emily \"Shane...$2\"/pause 580/speak Emily \"Você não devia beber mais.$3#$b#Já te servi pelo menos dez cervejas esta tarde...$2\"/pause 700/speak Emily \"Eu sei que não temos conversado muito ultimamente, mas sempre fomos bons amigos.$3\"/pause 620/speak Emily \"Temos ótimas lembranças juntos.$0#$b#Você lembra quando fomos com a Jas procurar lagostins no rio?$0#$b#A Marnie ficou tão brava porque manchou o vestido novo...$0\"/pause 750/emote Emily 40/pause 680/speak Emily \"Mas agora eu nem lembro da última vez que te vi feliz...$2\"/pause 680/speak Emily \"Você parece triste e tem bebido muito...$2#$b#Semana passada você quase desmaiou e o Gus teve que te levar pra casa.$2\"/pause 720/speak Emily \"Estou preocupada com você.$2#$b#Você precisa procurar ajuda, Shane.$2\"/pause 620/emote Shane 12/pause 580/speak Shane \"Por que você se importa tanto comigo?$2#$b#Isso não é da sua conta.$5\"/pause 620/speak Emily \"Ah...$2\"/pause 390/emote Emily 28/pause 650/speed Emily 5/move Emily 0 -1 3/speed Emily 5/move Emily -14 0 0/pause 50/faceDirection Shane 3/stopAnimation Gus/pause 180/faceDirection Gus 3/pause 390/emote Gus 8/pause 680/emote Shane 28/pause 1850/end dialogue Shane \"Me deixe em paz por um tempo...$2\""
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Saloon",
+            "Entries": {
+                "59020041/e 59020040/e 3910674/F/f Emily 1000/f Shane 1000/d Sun/t 1700 1800": "Saloon1/16 20/farmer 24 17 2 Gus 11 18 2 Marnie 7 22 3 Lewis 8 22 1 Pam 7 18 1 Shane 1000 1000 2 Emily 17 18 2/skippable/animate Gus false true 250 18 19 20/animate Lewis false true 150 19 19 19 19 19 19 19 19 19 19 19 19 19 19 22 23 23 23/animate Marnie false true 150 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 21 22 22 23 23/pause 2150/playSound doorOpen/pause 160/warp Shane 14 24/faceDirection Shane 0/pause 390/move Shane 0 -2 1/move Shane 3 0 0/move Shane 0 -2 0/pause 720/speak Shane \"Ei, Emily...$2\"/pause 680/speak Emily \"Shane...$3\"/pause 820/emote Shane 40/pause 390/playMusic shaneTheme/pause 500/speak Shane \"Então...$3\"/pause 550/speak Shane \"Vim aqui para pedir desculpas.$3\"/pause 750/speak Shane \"Sinto muito por como te tratei da última vez.$3#$b#Eu estava muito bêbado...$2\"/pause 520/emote Shane 60/pause 720/speak Shane \"Ah, mas sei que isso não desculpa como falei com você.$6\"/pause 780/speak Emily \"Está tudo bem, Shane.$0#$b#Desculpas aceitas.$1\"/pause 390/emote Shane 32/pause 880/speak Shane \"Bem, sabe, algum tempo depois disso @ veio à nossa casa.$3#$b#Eu estava em um lugar muito ruim...$2\"/pause 600/speak Shane \"Eu desmaiei no meu quarto e ele e a Marnie me acordaram...^Eu desmaiei no meu quarto e ela e a Marnie me acordaram...$2\"/pause 700/speak Shane \"A Jas também estava lá, mas eu não percebi e disse algumas coisas horríveis.$2\"/pause 600/speak Shane \"Ela passou o dia inteiro chorando...$2\"/pause 550/emote Shane 28/pause 600/speak Shane \"Eu sei que muitas pessoas acham que eu não me importo com nada.$2#$b#Mas a Jas realmente importa para mim.$6\"/pause 560/speak Shane \"Ela é tão jovem, mas já passou por tanta coisa...$2\"/pause 720/speak Shane \"Talvez você estivesse certa e eu precise finalmente assumir o controle da minha vida.$2\"/pause 390/emote Shane 12/pause 780/speak Emily \"Shane, tenho certeza de que essa é a decisão certa.$0\"/pause 520/speak Emily \"O vício exige tratamento médico e você precisa dele.$0\"/pause 650/speak Emily \"Temos a força para moldar nossos destinos, então você tem que pensar em procurar ajuda.$0\"/pause 680/speak Emily \"Só lembre-se de que vou ficar ao seu lado e te apoiar, certo?$1\"/pause 750/speak Shane \"...$6\"/pause 820/speak Emily \"Então... Hoje temos um suco fresco e o Gus preparou sua pizza especial.$0#$b#Você quer um pouco?$1\"/pause 390/emote Shane 32/pause 1800/end dialogue Emily \"Fico feliz que o Shane esteja melhor.$1\""
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/HaleyHouse",
+            "Entries": {
+                "59020042/e 59020041/e 2118991/F/f Emily 1500/f Shane 1500/t 1200 1300": "EmilyTheme/5 17/farmer 1000 79 2 Shane -1000 80 1 Emily 7 16 0/skippable/pause 2250/playSound doorOpen/pause 180/warp Shane 2 24/faceDirection Shane 0/pause 500/move Shane 0 -5 1/move Shane 1 0 0/move Shane 0 -2 1/move Shane 1 0 0/move Shane 0 -1 1/move Shane 1 0 1/pause 580/textAboveHead Shane \"Ei, Emily.\"/pause 820/faceDirection Emily 3/pause 600/speak Emily \"Oh, olá, Shane.$0#$b#Que surpresa te ver aqui.$1\"/pause 620/speak Shane \"É, bem...$3\"/pause 500/speak Shane \"Queria falar com você sobre algo.$0\"/pause 580/speak Emily \"Ok, estou te ouvindo.$1\"/pause 720/speak Shane \"Hum... Isso é meio constrangedor...$3\"/pause 680/speak Shane \"A questão é...$2#$b#Depois que a Marnie e @ me encontraram desmaiado no meu quarto, tentei parar de beber.$2\"/pause 600/speak Shane \"Eu realmente achei que conseguiria me controlar mas não consigo...$2\"/pause 680/speak Shane \"Comecei a me sentir horrível.$2#$b#Não conseguia dormir e minhas mãos tremiam o dia todo...$2\"/pause 720/speak Shane \"Então um dia fui para os penhascos beber sem a Marnie saber...$2\"/pause 680/speak Shane \"Eu sei o que te disse e sinto muito...$2\"/pause 760/emote Shane 40/pause 680/speak Shane \"Aquele dia @ me encontrou.$2\"/pause 600/speak Shane \"Ele ficou realmente preocupado e me levou ao hospital.^Ela ficou realmente preocupada e me levou ao hospital.$2\"/pause 700/speak Shane \"Quando acordei o Harvey me disse que minha condição era muito grave.$2#$b#Ele estava realmente preocupado com minha saúde e me aconselhou a procurar um terapeuta.$2\"/pause 680/speak Shane \"Pensei nisso o dia todo.$2#$b#E decidi que era hora de deixar essa parte de mim para trás.$2#$b#Já magoei pessoas demais por causa dos meus problemas.$2\"/pause 760/faceDirection Shane 2/pause 920/faceDirection Shane 1/pause 680/speak Shane \"Ah, e o Harvey me colocou em contato com um colega dele.$6#$b#Então vou visitar Zuzu City com frequência a partir de agora.$0\"/pause 650/speak Shane \"Bem, eu queria te agradecer, Emily.$0\"/pause 620/speak Shane \"Sabe, você tem lidado comigo há bastante tempo agora.$3\"/pause 780/speak Emily \"Fico tão feliz em ouvir isso, Shane!$1\"/pause 600/speak Emily \"Tenho certeza de que tudo vai ficar bem.$0#$b#Se algum dia precisar de alguma coisa, é só me dizer!$1\"/pause 520/emote Shane 32/pause 820/speak Shane \"Ah, na verdade eu tenho que ir ao hospital fazer um check-up em breve.$0#$b#Seria legal se você viesse comigo.$1\"/pause 700/speak Emily \"Claro que eu vou!$0\"/pause 520/speak Emily \"Sabe, Shane, eu tenho muito orgulho de você.$0#$b#Tenho certeza de que seu futuro é promissor.$1\"/pause 520/emote Shane 32/pause 2000/end dialogue Emily \"Olá, @.$0#$e#Quero agradecer por ajudar o Shane.$1\""
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Hospital",
+            "Entries": {
+                "59020043/e 59020042/e 3910974/F/f Emily 2000/f Shane 2000/o Emily/o Shane/d Mon Wed Fri Sat Sun/t 1100 1200": "continue/16 7/farmer 100 300 2 Harvey 16 8 0 Shane 16 6 2 Emily 15 6 2/skippable/pause 2000/speak Harvey \"Certo, Shane, já tenho seus resultados.$0\"/pause 550/speak Harvey \"Da última vez eu te expliquei como o uso prolongado de álcool pode danificar permanentemente o fígado.$0#$b#Você se lembra?$0\"/pause 600/speak Harvey \"Bom, quando você chegou da primeira vez seu fígado estava muito inflamado.$2#$b#Então eu colhi amostras de sangue para confirmar se você tinha cirrose ou não.$0\"/pause 520/speak Harvey \"E o exame deu negativo.$1\"/pause 560/emote Shane 32/pause 720/speak Harvey \"Mas não fique muito feliz porque seu fígado ainda precisa voltar ao estado natural.$0\"/pause 500/speak Harvey \"Vou te prescrever alguns remédios, mas o mais importante é parar de beber álcool.$0\"/pause 550/speak Harvey \"Siga as instruções e você vai ver como logo vai se recuperar.$1\"/pause 580/speak Harvey \"Bom, vou buscar a receita.$0#$b#Já volto.$1\"/pause 580/move Harvey 6 0 2/move Harvey 0 3 3/move Harvey -2 0 2/move Harvey 0 2 2/pause 390/faceDirection Shane 3/pause 280/faceDirection Emily 1/pause 500/speak Shane \"Você ouviu isso, Emily?$0#$b#Estou saudável feito um tronco de carvalho!$1\"/pause 390/speak Shane \"Bem, mais ou menos...$3\"/pause 500/speak Shane \"De qualquer forma, obrigado de novo, Emily.$0#$b#Você sempre esteve lá para mim mesmo quando eu agia feito um idiota...$2\"/pause 620/speak Emily \"Bem, o mais importante é que você está se esforçando para mudar.$1\"/pause 880/speak Shane \"Hum, Emily...$0\"/pause 680/speak Shane \"Também queria falar com você sobre outra coisa hoje...$4\"/pause 620/speak Shane \"Nos conhecemos há muito tempo...$4#$b#...e sempre senti que você era especial.$4\"/pause 620/speak Shane \"Sempre pude conversar com você e confiar em você.$4\"/pause 720/speak Shane \"Mas eu não queria ser um fardo...$2#$b#Eu sei que não é fácil lidar comigo.$2\"/pause 620/speak Shane \"Minha vida teve muitos altos e baixos...$2\"/pause 780/speak Shane \"Mas agora as coisas estão finalmente melhorando.$1\"/pause 620/speak Shane \"Outro dia comprei pantufas novas para a Jas.$0#$b#Não a via tão feliz há tempos.$1\"/pause 920/speak Shane \"Bem, o negócio é...$3#$b#...estou esperando por esse momento.$4\"/pause 620/showFrame Shane 34/pause 150/positionOffset Shane -2 0/pause 50/positionOffset Shane -2 0/pause 50/positionOffset Shane -2 0/pause 120/emote Emily 16/pause 280/showFrame Emily 21/pause 150/positionOffset Emily 2 0/pause 50/positionOffset Emily 2 0/pause 50/positionOffset Emily 2 0/pause 50/positionOffset Shane -2 0/pause 50/positionOffset Emily 2 0/pause 50/positionOffset Shane -2 0/pause 50/positionOffset Emily 2 0/pause 50/positionOffset Shane -2 0/pause 50/positionOffset Emily 2 0/pause 50/specificTemporarySprite heart 16 6/pause 390/move Harvey 0 -2 1/move Harvey 2 0 0/move Harvey 0 -2 3/move Harvey -6 0 0/pause 230/emote Harvey 16/pause 390/positionOffset Emily -2 0/pause 50/positionOffset Shane 2 0/pause 50/positionOffset Emily -2 0/pause 50/positionOffset Shane 2 0/pause 50/positionOffset Emily -2 0/pause 50/positionOffset Shane 2 0/pause 50/positionOffset Emily -2 0/pause 50/positionOffset Shane 2 0/pause 50/positionOffset Emily -2 0/pause 50/positionOffset Shane 2 0/pause 120/showFrame Shane 0/showFrame Emily 0/jump Shane/jump Emily/showFrame Shane 18/showFrame 26/shake Shane 1100/shake Emily 1100/showFrame Shane 0/showFrame Emily 0/pause 180/emote Shane 60 true/emote Emily 60/pause 2000/end dialogue Harvey \"Eu não sabia que o Shane e a Emily...$8\""
+            }
+        }
+    ]
+}

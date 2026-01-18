@@ -1,0 +1,60 @@
+{
+	"Changes": [
+
+	// *** SALOON DATE ****
+
+		//Date Initiation
+
+		{       
+			"LogName": "Date Initiation",
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"Entries": {
+				"1116009/Friendship {{Date}} {{MinFriendship}}/{{MarriageCheck}}/Time 500 1500/{{ExtraConditions}}": "", //MarriageCheck is for poly marriages, can be replaced with Spouse <NPC's Name without these brackets> if needed. ExtraConditions is for stuff like roommate blocking.
+
+				"dateYes": "addMailReceived saloonDateAgree",
+			},
+			"When": {
+				"Date": "{{Date}}, default", //Replace this with your specific date of choice for the override
+				"Query: {{DateInterest}} <= {{DateAskPercentChance}}": true,
+				"Query: {{UniqueInterest}} <= {{UniqueDateChance}}": false,
+				"DateType": "saloon",
+				"GenericPossible": "true",
+			},
+		},
+
+		//Saloon Date - Suggestive
+
+		{
+			"LogName": "Saloon Date",
+			"Action": "EditData",
+			"Target": "Data/Events/Saloon",
+			"Entries": {
+				"1116010/LocalMail saloonDateAgree/Time 1800 2600/{{ExtraConditions}}": "",
+				
+				"poolEnding": "",
+			},
+			"When": {
+				"Date": "{{Date}}, default",
+				"SuggestiveEndings": "enabled",
+			},
+		},
+
+		//Saloon Date - Not Suggestive
+
+		{
+			"LogName": "Saloon Date",
+			"Action": "EditData",
+			"Target": "Data/Events/Saloon",
+			"Entries": {
+				"1116010/n saloonDateAgree": "",
+
+				"poolEnding": "",
+			},
+			"When": {
+				"Date": "{{Date}}, default",
+				"SuggestiveEndings": "disabled",
+			},
+		},
+	],
+}

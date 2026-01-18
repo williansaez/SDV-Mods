@@ -1,0 +1,741 @@
+{
+	"Format": "2.0.0",
+	
+//Config
+	"ConfigSchema": {
+
+    "Portrait Mode": {
+        "AllowValues": "32, 12, Nyapu 12, 9, 7",
+        "Default": "12",
+        "Description": "Select the amount of expressions your wizard portrait has. Read mod description for more details.",
+    },
+    "Override Generic Dialogue": {
+        "AllowValues": "true, false",
+        "Default": "true",
+        "Description": "Recommended to be enabled even if you have UCR. Disable only if you have multiple spouses to avoid other spouses speaking like the wizard.",
+    },
+    "Dialogue": {
+        "AllowValues": "standard, integrated",
+        "Default": "integrated",
+        "Description": "Standard is the original RomRas experience, integrated combines original RomRas with SVE wizard dialogue. I personally recommend integrated as it has more content.",
+    },
+    "Marriage Dialogue": {
+        "AllowValues": "standard, integrated",
+        "Default": "integrated",
+        "Description": "Standard is the original RomRas experience, integrated combines original RomRas with SVE wizard marriage dialogue. I personally recommend integrated as it has more content.",
+    },
+    "Ex-Wife mentions": {
+        "AllowValues": "enabled, disabled",
+        "Default": "enabled",
+        "Description": "Enables/Disables the wizard's dialogue + events surrounding his ex-wife, Caroline, and Abigail. Does not disable, but alters, magic ink quest line. I heavily recommend keeping it enabled, as his ex-wife is quite important to his character lore and vanilla stardew events. However the option is there if you prefer it.",
+    },
+    "Event": {
+        "AllowValues": "standard, integrated",
+        "Default": "integrated",
+        "Description": "Standard has only the original RomRas events, integrated combines original RomRas with SVE wizard events. I personally recommend integrated as it has more content (one event for each heart level.)",
+    },
+    "Mature Events": {
+        "AllowValues": "enabled, disabled",
+        "Default": "disabled",
+        "Description": "Same as SVE, enables/disables RomRas edits to wizard related SVE mature events. If you dont want to see mature events, make sure they are disabled in SVE as well.",
+    },
+    "Wizard Babies": {
+        "AllowValues": "true, false",
+        "Default": "false",
+        "Description": "Enables/Disables original RomRas wizard baby sprites.",
+    },
+    "Wizard Age Appearance": {
+        "AllowValues": "old, young",
+        "Default": "old",
+        "Description": "Alters the wizard's dialogue to match his outwardly appearance. This is for those who use younger wizard portraits/sprites.",
+    },
+    "Farmer Gender": {
+        "AllowValues": "male, female, gender neutral",
+        "Default": "gender neutral",
+        "Description": "Alters the wizard's dialogue to correctly match the players gender.",
+    },
+    "Sprite": {
+        "AllowValues": "vanilla, new, disabled",
+        "Default": "vanilla",
+        "Description": "Changes what wizard sprite the mod loads, or disables the mod loading any wizard sprite at all. Read mod description for more details.",
+    },
+    "Is a sleeping sprite available": {
+        "AllowValues": "true, false",
+        "Default": "false",
+        "Description": "Check true/false based on if your wizard sprite sheet includes a sleeping sprite. The mod will substitute a meditation sprite in its place if set to false.",
+    },
+    "Is a pink hair sprite available": {
+        "AllowValues": "true, false",
+        "Default": "false",
+        "Description": "Check true/false based on if your wizard sprite/portrait has a pink hair pose/expressions. This is used for the SVE Shrine of Illusions event. The mod will substitute an outfit change in its place if set to false.",
+    },
+}, 
+
+    "DynamicTokens": [
+        { //OddYear
+            "Name": "IsOddYear",
+            "Value": "{{Query: {{Year}} % 2 = 1}}"
+        },
+        { //Summit Patching
+            "Name": "Summit",
+            "Value": "Summit",
+        },
+        {
+            "Name": "Summit",
+            "Value": "Custom_SVESummit",
+            "When": {"HasFlag |contains=Farm_Eternal": false}
+        },
+
+        //Portrait Compat - Thanks to Jellonip
+        //For those editing this manually: The base expressions (e0-e11) are based on Who's Rasmodius, so you can use that portrait sheet as reference. Only edit the number for Value.
+
+                //EXPRESSION NOTE: the 4th (e3, $3) expression I interpret more as a thinking/wondering expression, rather than surprised, so thats how it is used in this mod. If your portrait sheet has a surprise expression, feel free to manually change it to another (I recommend just the default e0.) In general, the wizard is never surprised lmao, so a thinking expression has much more use.
+
+                //EXPRESSION NOTE 2: The mod only uses 12 expressions, the 32 expression config exists because the 32 sheet rearranges certain expressions. The 32 config option ensures the correct one is shown.
+
+                //NEW: EXPRESSION NOTE 3: expression e12 is used ONLY for calling the pink hair expression in SVE's 4 heart shrine event. Set this value to whatever expression the pink hair is at. **If you do not have a pink hair expression please leave value at 0.** 
+
+            { //32 Portrait
+                "Name": "e0", "When": {"Portrait Mode": "32"},
+                "Value": "0",},
+            {
+            "Name": "e1", "When": {"Portrait Mode": "32"},
+            "Value": "9",
+            },
+            {
+            "Name": "e2", "When": {"Portrait Mode": "32"},
+            "Value": "2",
+            },
+            {
+            "Name": "e3", "When": {"Portrait Mode": "32"},
+            "Value": "3",
+            },
+            {
+            "Name": "e4", "When": {"Portrait Mode": "32"},
+            "Value": "4",
+            },
+            {
+            "Name": "e5", "When": {"Portrait Mode": "32"},
+            "Value": "5",
+            },
+            {
+            "Name": "e6", "When": {"Portrait Mode": "32"},
+            "Value": "6",
+            },
+            {
+            "Name": "e7", "When": {"Portrait Mode": "32"},
+            "Value": "9",
+            },
+            {
+            "Name": "e8", "When": {"Portrait Mode": "32"},
+            "Value": "2",
+            },
+            {
+            "Name": "e9", "When": {"Portrait Mode": "32"},
+            "Value": "1",
+            },
+            {
+            "Name": "e10", "When": {"Portrait Mode": "32"},
+            "Value": "10",
+            },
+            {
+            "Name": "e11", "When": {"Portrait Mode": "32"},
+            "Value": "10",
+            },
+            {
+            "Name": "e12", "When": {"Portrait Mode": "32"},
+            "Value": "12",
+            },
+
+            { //12 Portrait
+                "Name": "e0", "When": {"Portrait Mode": "12"},
+                "Value": "0",
+            },
+            {
+            "Name": "e1", "When": {"Portrait Mode": "12"},
+            "Value": "1",
+            },
+            {
+            "Name": "e2", "When": {"Portrait Mode": "12"},
+            "Value": "2",
+            },
+            {
+            "Name": "e3", "When": {"Portrait Mode": "12"},
+            "Value": "3",
+            },
+            {
+            "Name": "e4", "When": {"Portrait Mode": "12"},
+            "Value": "4",
+            },
+            {
+            "Name": "e5", "When": {"Portrait Mode": "12"},
+            "Value": "5",
+            },
+            {
+            "Name": "e6", "When": {"Portrait Mode": "12"},
+            "Value": "6",
+            },
+            {
+            "Name": "e7", "When": {"Portrait Mode": "12"},
+            "Value": "7",
+            },
+            {
+            "Name": "e8", "When": {"Portrait Mode": "12"},
+            "Value": "8",
+            },
+            {
+            "Name": "e9", "When": {"Portrait Mode": "12"},
+            "Value": "9",
+            },
+            {
+            "Name": "e10", "When": {"Portrait Mode": "12"},
+            "Value": "10",
+            },
+            {
+            "Name": "e11", "When": {"Portrait Mode": "12"},
+            "Value": "11",
+            },
+            {
+            "Name": "e12", "When": {"Portrait Mode": "12"},
+            "Value": "0",
+            },
+
+            { //12 Nyapu's Young Wizard ONLY
+                "Name": "e0", "When": {"Portrait Mode": "Nyapu 12"},
+                "Value": "0",
+            },
+            {
+            "Name": "e1", "When": {"Portrait Mode": "Nyapu 12"},
+            "Value": "9",
+            },
+            {
+            "Name": "e2", "When": {"Portrait Mode": "Nyapu 12"},
+            "Value": "2",
+            },
+            {
+            "Name": "e3", "When": {"Portrait Mode": "Nyapu 12"},
+            "Value": "0",
+            },
+            {
+            "Name": "e4", "When": {"Portrait Mode": "Nyapu 12"},
+            "Value": "8",
+            },
+            {
+            "Name": "e5", "When": {"Portrait Mode": "Nyapu 12"},
+            "Value": "5",
+            },
+            {
+            "Name": "e6", "When": {"Portrait Mode": "Nyapu 12"},
+            "Value": "4",
+            },
+            {
+            "Name": "e7", "When": {"Portrait Mode": "Nyapu 12"},
+            "Value": "1",
+            },
+            {
+            "Name": "e8", "When": {"Portrait Mode": "Nyapu 12"},
+            "Value": "6",
+            },
+            {
+            "Name": "e9", "When": {"Portrait Mode": "Nyapu 12"},
+            "Value": "1",
+            },
+            {
+            "Name": "e10", "When": {"Portrait Mode": "Nyapu 12"},
+            "Value": "10",
+            },
+            {
+            "Name": "e11", "When": {"Portrait Mode": "Nyapu 12"},
+            "Value": "11",
+            },
+            {
+            "Name": "e12", "When": {"Portrait Mode": "Nyapu 12"},
+            "Value": "12",
+            },
+
+            { //9 Portrait
+                "Name": "e0", "When": {"Portrait Mode": "9"},
+                "Value": "0",
+            },
+            {
+            "Name": "e1", "When": {"Portrait Mode": "9"},
+            "Value": "1",
+            },
+            {
+            "Name": "e2", "When": {"Portrait Mode": "9"},
+            "Value": "2",
+            },
+            {
+            "Name": "e3", "When": {"Portrait Mode": "9"},
+            "Value": "0",
+            },
+            {
+            "Name": "e4", "When": {"Portrait Mode": "9"},
+            "Value": "7",
+            },
+            {
+            "Name": "e5", "When": {"Portrait Mode": "9"},
+            "Value": "5",
+            },
+            {
+            "Name": "e6", "When": {"Portrait Mode": "9"},
+            "Value": "4",
+            },
+            {
+            "Name": "e7", "When": {"Portrait Mode": "9"},
+            "Value": "1",
+            },
+            {
+            "Name": "e8", "When": {"Portrait Mode": "9"},
+            "Value": "2",
+            },
+            {
+            "Name": "e9", "When": {"Portrait Mode": "9"},
+            "Value": "1",
+            },
+            {
+            "Name": "e10", "When": {"Portrait Mode": "9"},
+            "Value": "0",
+            },
+            {
+            "Name": "e11", "When": {"Portrait Mode": "9"},
+            "Value": "3",
+            },
+            {
+            "Name": "e12", "When": {"Portrait Mode": "9"},
+            "Value": "0",
+            },
+
+            { //7 Portrait
+                "Name": "e0", "When": {"Portrait Mode": "7"},
+                "Value": "0",
+            },
+            {
+            "Name": "e1", "When": {"Portrait Mode": "7"},
+            "Value": "1",
+            },
+            {
+            "Name": "e2", "When": {"Portrait Mode": "7"},
+            "Value": "2",
+            },
+            {
+            "Name": "e3", "When": {"Portrait Mode": "7"},
+            "Value": "0",
+            },
+            {
+            "Name": "e4", "When": {"Portrait Mode": "7"},
+            "Value": "4",
+            },
+            {
+            "Name": "e5", "When": {"Portrait Mode": "7"},
+            "Value": "5",
+            },
+            {
+            "Name": "e6", "When": {"Portrait Mode": "7"},
+            "Value": "4",
+            },
+            {
+            "Name": "e7", "When": {"Portrait Mode": "7"},
+            "Value": "1",
+            },
+            {
+            "Name": "e8", "When": {"Portrait Mode": "7"},
+            "Value": "2",
+            },
+            {
+            "Name": "e9", "When": {"Portrait Mode": "7"},
+            "Value": "1",
+            },
+            {
+            "Name": "e10", "When": {"Portrait Mode": "7"},
+            "Value": "0",
+            },
+            {
+            "Name": "e11", "When": {"Portrait Mode": "7"},
+            "Value": "0",
+            },
+            {
+            "Name": "e12", "When": {"Portrait Mode": "7"},
+            "Value": "6",
+            },
+
+            //Expression tokens for i18n (from jellonip)
+            {
+            "Name": "expressionList",
+            "Value": "|e0={{e0}} |e1={{e1}} |e2={{e2}} |e3={{e3}} |e4={{e4}} |e5={{e5}} |e6={{e6}} |e7={{e7}} |e8={{e8}} |e9={{e9}} |e10={{e10}} |e11={{e11}} |e12={{e12}}",
+            },
+],
+
+	"Changes": [	
+
+//Dispositions
+        {
+        "Action": "EditData",
+        "Target": "Data/Characters",
+        "TargetField": ["Wizard"],
+        "Entries": {
+            "DisplayName": "{{i18n:Wizard.Name}}",
+            "Manner": "Polite",
+            "CanBeRomanced": true,
+            "CanVisitIsland" : false,
+            "SpouseWantsChildren": true,
+            "SpouseGiftJealousy": true,
+            "SpousePatio": {
+                "MapAsset": "Wizard_Spouse_Area",
+                "MapSourceRect": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 4,
+                    "Height": 4
+                    },
+                "SpriteAnimationFrames": [
+                    [
+                        0,
+                        30000
+                    ],
+                    [
+                        22,
+                        300
+                    ],
+                    [
+                        21,
+                        300
+                    ],
+                    [
+                        20,
+                        60000
+                    ],
+                    [
+                        21,
+                        300
+                    ],
+                    [
+                        22,
+                        300
+                    ],
+                ],
+            },
+            "FriendsAndFamily": {
+                "Linus": "{{i18n:Friend}}",
+                "Camilla": "{{i18n:Colleague}}",
+                "MarlonFay": "{{i18n:Colleague}}",
+                "Lance": "{{i18n:Colleague}}",
+            },
+            "DumpsterDiveEmote": "40",
+            "DumpsterDiveFriendshipEffect": "-10",
+            "FlowerDanceCanDance": true,
+            "WinterStarParticipant": false,
+            },
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Characters",
+        "When": {"Hearts:Wizard": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"},
+        "TargetField": ["Wizard"],
+        "Entries": {
+            "DisplayName": "{{i18n:Magnus.Name}}",
+            },
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Characters",
+        "When": {"Spouse |contains=Wizard": true },
+        "TargetField": ["Wizard"],
+        "Entries": {
+            "WinterStarParticipant": true,
+            "WinterStarGifts": [
+                {
+                "ID": "",
+                "RandomItemId": [
+                    "(O)859", "(O)896", "(BC)272" //Lucky ring, galaxy soul, auto petter
+                        ],
+                    },    
+                ],
+            },
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Characters",
+        "TargetField": ["Linus"],
+        "Entries": {
+            "FriendsAndFamily": {
+                "Wizard": "{{i18n:Friend}}"
+                },
+            },
+        },
+
+//Sprites	
+		{
+        "Action": "Load",
+        "Target": "Characters/Wizard",
+        "FromFile": "assets/Characters/VanillaWizard.png",
+            "When":{
+				"Sprite":"vanilla",
+            },
+        },
+        {
+        "Action": "Load",
+        "Target": "Characters/Wizard",
+        "FromFile": "assets/Characters/NewWizard.png",
+            "When":{
+               "Sprite":"new",
+            },
+        },
+
+//Baby Sprites
+        {
+        "Action": "Load",
+        "Target": "Characters/Baby",
+        "FromFile": "assets/Characters/Baby.png",
+        "When":{
+			"Wizard Babies":"true",
+            "Spouse": "Wizard"
+            },
+        },
+        {
+        "Action": "Load",
+        "Target": "Characters/Baby_dark",
+        "FromFile": "assets/Characters/Baby_dark.png",
+        "When":{
+            "Wizard Babies":"true",
+            "Spouse": "Wizard"
+            },
+        },
+        {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Characters/Toddler.png",
+        "When":{
+            "Wizard Babies":"true",
+            "Spouse": "Wizard"
+            },
+        },
+        {
+        "Action": "Load",
+        "Target": "Characters/Toddler_dark",
+        "FromFile": "assets/Characters/Toddler_dark.png",
+        "When":{
+            "Wizard Babies":"true",
+            "Spouse": "Wizard"
+            },
+        },
+        {
+        "Action": "Load",
+        "Target": "Characters/Toddler_girl",
+        "FromFile": "assets/Characters/Toddler_girl.png",
+        "When":{
+            "Wizard Babies":"true",
+            "Spouse": "Wizard"
+            },
+        },
+        {
+        "Action": "Load",
+        "Target": "Characters/Toddler_girl_dark",
+        "FromFile": "assets/Characters/Toddler_girl_dark.png",
+        "When":{
+            "Wizard Babies":"true",
+            "Spouse": "Wizard"
+            },
+        },
+
+//Dialogue Includes + Loads
+        { //In Law + NPC
+        "Action": "Include",
+        "FromFile": "assets/Dialogue/InLawDialogue.json",
+        },
+		{ //Standard Dialogue
+        "Action": "Include",
+        "FromFile": "assets/Dialogue/Standard/StandardDialogueWizard.json",
+        "When": {"Dialogue":"standard"},
+        },
+        { //Integrated Dialogue
+        "Action": "Include",
+        "FromFile": "assets/Dialogue/Integrated/IntegratedDialogueWizard.json",
+        "When": {"Dialogue":"integrated"},
+        },
+        { //Shared Dialogue (shared between Standard and Integrated dialogue modes)
+        "Action": "Include",
+        "FromFile": "assets/Dialogue/SharedDialogueWizard.json",
+        },
+        { //Load Marriage Dialogue
+        "Action": "Load",
+        "Target": "Characters/Dialogue/MarriageDialogueWizard",
+        "FromFile": "assets/Dialogue/MarriageDialogueWizardBlank.json",
+        },
+		{ //Standard Marriage
+        "Action": "Include",
+        "FromFile": "assets/Dialogue/Standard/StandardMarriageDialogueWizard.json",
+        "When": {"Marriage Dialogue": "standard"},
+        },
+        { //Intergrated Marriage
+        "Action": "Include",
+        "FromFile": "assets/Dialogue/Integrated/IntegratedMarriageDialogueWizard.json",
+        "When": {"Marriage Dialogue": "integrated"},
+        },
+        { //Strings - Mostly generic override dialogue
+        "Action": "Include",
+        "FromFile": "assets/Dialogue/Strings.json",
+        },
+        { //Movie Reactions, Invites, etc.
+        "Action": "Include",
+        "FromFile": "assets/Dialogue/MovieDialogue.json",
+        },
+        { //UCR
+        "Action": "Include",
+        "FromFile": "assets/Dialogue/UCR.json",
+        "When": {"HasMod": "misscoriel.UCRFix"},
+        },
+
+//Quests
+	    {
+        "Action": "Include",
+        "FromFile": "assets/Data/Quests.json",
+        },
+
+//Schedules	
+        {
+        "Action": "Include",
+        "FromFile": "assets/Data/Schedules.json",
+        },
+        {
+        "Action": "Include",
+        "FromFile": "assets/Dialogue/ScheduleDialogue.json",
+        },
+
+//Festivals
+        {
+        "Action": "Include",
+        "FromFile": "assets/Data/FestivalMapPatches.json",
+        },
+        {
+        "Action": "Include",
+        "FromFile": "assets/Dialogue/FestivalDialogue.json",
+        },
+
+//Mail
+		{
+        "Action": "Include",
+		"FromFile": "assets/Data/Mail.json",
+		},
+
+//Events
+        { //Standard
+        "Action": "Include",
+        "FromFile": "assets/Data/Events/StandardEvents.json",
+        "When": {"Event": "standard"},
+        },
+        { //Integrated
+        "Action": "Include",
+        "FromFile": "assets/Data/Events/IntegratedEvents.json",
+        "When": {"Event": "integrated"},
+        },
+        { //SVE Edits
+        "Action": "Include",
+        "FromFile": "assets/Data/Events/SVE_Events.json",
+        },
+        { //Magic Ink
+        "Action": "Include",
+        "FromFile": "assets/Data/Events/MagicInk.json",
+        },
+        { //Disabling SVE Events
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+            "{{ModId}}_SVEHeartEventRemoval": {
+                "Id": "{{ModId}}_SVEHeartEventRemoval",
+                "Trigger": "DayStarted",
+                "Actions": [
+                    "MarkEventSeen Current 1000075 true",
+                    "MarkEventSeen Current 1724096 true",
+                    "MarkEventSeen Current 1724097 true",
+                    "MarkEventSeen Current 1724098 true",
+                    "MarkEventSeen Current 1724099 true",
+                    "MarkEventSeen Current 1724100 true",
+                    ]
+                }
+            },
+        },
+        { //Loading Summit Events Blank
+            "Action": "Load",
+            "Target": "data/events/Custom_SVESummit",
+            "Priority": "Low",
+            "FromFile": "assets/Dialogue/MarriageDialogueWizardBlank.json", //blank
+        },
+		
+//Animations
+        {
+        "Action": "EditData",
+        "Target": "Data/animationdescriptions",
+        "Entries": {
+            "wizard_sleep": "29/29/29",
+            "wizard_magic": "19/19/19",
+            "wizard_not_sleep": "43/43/43",
+            }
+        },
+//Sprite Patches
+        { //Replaces wizard_sleep with a closed eye meditation pose
+        "Action": "EditData",
+        "Target": "Data/animationdescriptions",
+        "When": {"Is a sleeping sprite available": "false"},
+        "Entries": {
+            "wizard_sleep": "18/18/18",
+            },
+        },
+
+//Migrating magic ink Event ID's from 1.5 --> 1.6, heart events just have to suffer
+        {
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+            "Parrot.RomRas_MigrateIds": {
+                "Id": "Parrot.RomRas_MigrateIds",
+                "Trigger": "DayStarted",
+                "Actions": [
+                    'Pathoschild.ContentPatcher_MigrateIds Events "3073010" Parrot.RomRas_MagicInkStandardPart1 "3073011" Parrot.RomRas_MagicInkMarriedPart1 "3073012" Parrot.RomRas_MagicInkStandardPart2 "3073013" Parrot.RomRas_MagicInkMarriedPart2'
+                    ],
+                "HostOnly": true
+                },
+            },
+        },
+
+//Broken or removed SVE stuff I hope returns one day :(
+/* 
+        { //Adventurer Guild Schedule Dialogue - Marriage
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Spouse":"Wizard"},
+        "Entries": {
+            "AdventureGuild_4_13": "It is adventurer guild business today again. Many weapons need to be imbued with arcane properties.${{e1}}#$b#I'll likely be home late tonight so please don't stay up waiting. I'd hate to see you exhausted tomorrow because of me.${{e1}}",},
+            },
+        },
+        { //Adventurer Guild Check In - Marriage
+        "Action": "EditData",
+        "Target": "Characters/schedules/Wizard",
+            "When": {"Day": 22},
+        "Entries": {
+            "marriage_Mon": "1130 AdventureGuild 4 13 0/2200 BusStop -1 23 3"
+            }
+        },
+        { //Forest Magic Barrier Check - Marriage
+        "Action": "EditData",
+        "Target": "Characters/schedules/Wizard",
+            "When": {"Day": 12},
+        "Entries":{
+            "marriage_Fri": "900 Custom_ForestWest 52 117 0 Wizard_Concentrate/2300 BusStop -1 23 3"
+            }
+        },
+        { // Old StringsFromMaps from OGRomRas Spouse Room kept just in case idk
+        "Action": "EditData",
+        "Target": "Strings/StringsFromMaps",
+        "Entries": {
+            "Spouseroom.12": "The shelves are filled with dusty tomes: \"Advanced History Of Caring For Pixies\", \"Pixie Watching In The West\", \"A Practical History Of Caring For Unicorns\"...",
+            "Spouseroom.13": "Leatherbound books have titles nearly worn away: \"1000 Magical Stones\", \"1001 Mystical Plants\", \"A Child's Companion To Fantastic Fungi\"...",
+            "Spouseroom.14": "Among the cryptic titles, you can make out a few: \"Wonderful Librium of Hallowed Lunisolar Magic\", \"Eldritch Whispering\", \"Tablets Obscene\"...",
+            "Spouseroom.15": "You're positive these candles have been burning ever since he moved in. They never seem to get any smaller.",
+            "Spouseroom.16": "Whatever's in here, it smells like boiled grass."
+            },
+        },
+*/
+
+	]
+}

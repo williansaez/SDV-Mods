@@ -1,0 +1,12 @@
+{
+	"Name": "Infinity Tools",
+    "Author": "Vanillin",
+    "Version": "1.0.0",
+    "MinimumApiVersion": "4.0.8",
+    "Description": "Adds new powerful Infinity Tools",
+    "UniqueID": "Vanillin.InfinityTools",
+	"UpdateKeys": [ "Nexus:38558" ],
+    "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+    },
+}

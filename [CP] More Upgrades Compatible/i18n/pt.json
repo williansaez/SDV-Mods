@@ -1,0 +1,18 @@
+{
+    "SuperCoopName": "Super Galinheiro",
+    "SuperCoopDescription": "Abriga 16 animais de galinheiro. Inclui uma incubadora extra.",
+    "SuperBarnName": "Super Celeiro",
+    "SuperBarnDescription": "Abriga 16 animais de celeiro.",
+    "PremiumCoopName": "Galinheiro Premium",
+    "PremiumCoopDescription": "Abriga 20 animais de galinheiro. Adiciona um Acariciador Automático.",
+    "PremiumBarnName": "Celeiro Premium",
+    "PremiumBarnDescription": "Abriga 20 animais de celeiro. Adiciona um Acariciador Automático.",
+    "BigSiloName": "Silo Grande",
+    "BigSiloDescription": "Permite armazenar o dobro de feno para seus animais.",
+    "DeluxeSiloName": "Silo Luxo",
+    "DeluxeSiloDescription": "Pode armazenar uma grande quantidade de feno. Perfeito para o inverno!",
+    "DeluxeShedName": "Galpão Luxo",
+    "DeluxeShedDescription": "Adiciona um cômodo extra dentro. O interior pode ser decorado.",
+    "PremiumShedName": "Galpão Premium",
+    "PremiumShedDescription": "Aumenta o tamanho do segundo cômodo. O interior pode ser decorado."
+}

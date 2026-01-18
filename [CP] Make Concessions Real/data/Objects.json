@@ -1,0 +1,461 @@
+{
+    "Changes": [
+        {
+            "Action": "Include",
+            "FromFile": "data/Add_Objects.json",
+            "LocalTokens": {
+                "ITEMID": "CottonCandy",
+                "DISPLAYNAME": "CottonCandy",
+                "DESCRIPTION": "CottonCandy",
+                "PRICE": 50,
+                "EDIBILITY": 15,
+                "DRINKABLE": "false",
+                "TYPE": "Cooking",
+                "CATEGORY": -999 ,
+                "SPRITEINDEX": 0,
+                "TAG_1": "Sweet",
+                "TAG_2": "Candy",
+                "TAG_3": "",
+                "TAG_4": "AllNeutral"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "data/Add_Objects.json",
+            "LocalTokens": {
+                "ITEMID": "JasmineTea",
+                "DISPLAYNAME": "JasmineTea",
+                "DESCRIPTION": "JasmineTea",
+                "PRICE": 50,
+                "EDIBILITY": 5,
+                "DRINKABLE": "true",
+                "TYPE": "Cooking",
+                "CATEGORY": -999 ,
+                "SPRITEINDEX": 1,
+                "TAG_1": "Drink",
+                "TAG_2": "Hot",
+                "TAG_3": "Healthy",
+                 "TAG_4": "AllNeutral"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "data/Add_Objects.json",
+            "LocalTokens": {
+                "ITEMID": "JojaCola",
+                "DISPLAYNAME": "JojaCola",
+                "DESCRIPTION": "JojaCola",
+                "PRICE": 40,
+                "EDIBILITY": 5,
+                "DRINKABLE": "true",
+                "TYPE": "Cooking",
+                "CATEGORY": -999 ,
+                "SPRITEINDEX": 2,
+                "TAG_1": "Drink",
+                "TAG_2": "Cold",
+                "TAG_3": "Joja",
+                  "TAG_4": ""
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "data/Add_Objects.json",
+            "LocalTokens": {
+                "ITEMID": "SourSlimes",
+                "DISPLAYNAME": "SourSlimes",
+                "DESCRIPTION": "SourSlimes",
+                "PRICE": 80,
+                "EDIBILITY": 15,
+                "DRINKABLE": "false",
+                "TYPE": "Cooking",
+                "CATEGORY": -999 ,
+                "SPRITEINDEX": 3,
+                "TAG_1": "Sour",
+                "TAG_2": "Candy",
+                "TAG_3": "",
+                 "TAG_4": "AllNeutral"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "data/Add_Objects.json",
+            "LocalTokens": {
+                "ITEMID": "PersonalPizza",
+                "DISPLAYNAME": "PersonalPizza",
+                "DESCRIPTION": "PersonalPizza",
+                "PRICE": 150,
+                "EDIBILITY": 45,
+                "DRINKABLE": "false",
+                "TYPE": "Cooking",
+                "CATEGORY": -999 ,
+                "SPRITEINDEX": 4,
+                "TAG_1": "Hot",
+                "TAG_2": "Fatty",
+                "TAG_3": "",
+                 "TAG_4": "AllNeutral"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "data/Add_Objects.json",
+            "LocalTokens": {
+                "ITEMID": "Nachos",
+                "DISPLAYNAME": "Nachos",
+                "DESCRIPTION": "Nachos",
+                "PRICE": 100,
+                "EDIBILITY": 30,
+                "DRINKABLE": "false",
+                "TYPE": "Cooking",
+                "CATEGORY": -999 ,
+                "SPRITEINDEX": 5,
+                "TAG_1": "Hot",
+                "TAG_2": "Salty",
+                "TAG_3": "Fatty",
+                 "TAG_4": "AllNeutral"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "data/Add_Objects.json",
+            "LocalTokens": {
+                "ITEMID": "SalmonBurger",
+                "DISPLAYNAME": "SalmonBurger",
+                "DESCRIPTION": "SalmonBurger",
+                "PRICE": 150,
+                "EDIBILITY": 45,
+                "DRINKABLE": "false",
+                "TYPE": "Cooking",
+                "CATEGORY": -999 ,
+                "SPRITEINDEX": 6,
+                "TAG_1": "Sandwich",
+                "TAG_2": "Burger",
+                "TAG_3": "",
+                 "TAG_4": "AllNeutral"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "data/Add_Objects.json",
+            "LocalTokens": {
+                "ITEMID": "IceCreamSandwich",
+                "DISPLAYNAME": "IceCreamSandwich",
+                "DESCRIPTION": "IceCreamSandwich",
+                "PRICE": 150,
+                "EDIBILITY": 40,
+                "DRINKABLE": "false",
+                "TYPE": "Cooking",
+                "CATEGORY": -999 ,
+                "SPRITEINDEX": 7,
+                "TAG_1": "Sandwich",
+                "TAG_2": "Sweet",
+                "TAG_3": "Cold",
+                 "TAG_4": "AllNeutral"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "data/Add_Objects.json",
+            "LocalTokens": {
+                "ITEMID": "Popcorn",
+                "DISPLAYNAME": "Popcorn",
+                "DESCRIPTION": "Popcorn",
+                "PRICE": 120,
+                "EDIBILITY": 40,
+                "DRINKABLE": "false",
+                "TYPE": "Cooking",
+                "CATEGORY": -999 ,
+                "SPRITEINDEX": 8,
+                "TAG_1": "Hot",
+                "TAG_2": "Salty",
+                "TAG_3": "",
+                 "TAG_4": "AllNeutral"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "data/Add_Objects.json",
+            "LocalTokens": {
+                "ITEMID": "Fries",
+                "DISPLAYNAME": "Fries",
+                "DESCRIPTION": "Fries",
+                "PRICE": 100,
+                "EDIBILITY": 30,
+                "DRINKABLE": "false",
+                "TYPE": "Cooking",
+                "CATEGORY": -999 ,
+                "SPRITEINDEX": 9,
+                "TAG_1": "Hot",
+                "TAG_2": "Fatty",
+                "TAG_3": "Salty",
+                 "TAG_4": "AllNeutral"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "data/Add_Objects.json",
+            "LocalTokens": {
+                "ITEMID": "ChocolatePopcorn",
+                "DISPLAYNAME": "ChocolatePopcorn",
+                "DESCRIPTION": "ChocolatePopcorn",
+                "PRICE": 130,
+                "EDIBILITY": 45,
+                "DRINKABLE": "false",
+                "TYPE": "Cooking",
+                "CATEGORY": -999 ,
+                "SPRITEINDEX": 10,
+                "TAG_1": "Hot",
+                "TAG_2": "Sweet",
+                "TAG_3": "",
+                 "TAG_4": "AllNeutral"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "data/Add_Objects.json",
+            "LocalTokens": {
+                "ITEMID": "BlackLicorice",
+                "DISPLAYNAME": "BlackLicorice",
+                "DESCRIPTION": "BlackLicorice",
+                "PRICE": 25,
+                "EDIBILITY": 5,
+                "DRINKABLE": "false",
+                "TYPE": "Cooking",
+                "CATEGORY": -999 ,
+                "SPRITEINDEX": 11,
+                "TAG_1": "",
+                "TAG_2": "",
+                "TAG_3": "",
+                  "TAG_4": ""
+                
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "data/Add_Objects.json",
+            "LocalTokens": {
+                "ITEMID": "StarCookie",
+                "DISPLAYNAME": "StarCookie",
+                "DESCRIPTION": "StarCookie",
+                "PRICE": 150,
+                "EDIBILITY": 20,
+                "DRINKABLE": "false",
+                "TYPE": "Cooking",
+                "CATEGORY": -999 ,
+                "SPRITEINDEX": 12,
+                "TAG_1": "Sweet",
+                "TAG_2": "",
+                "TAG_3": "",
+                 "TAG_4": "AllNeutral"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "data/Add_Objects.json",
+            "LocalTokens": {
+                "ITEMID": "Jawbreaker",
+                "DISPLAYNAME": "Jawbreaker",
+                "DESCRIPTION": "Jawbreaker",
+                "PRICE": 250,
+                "EDIBILITY": 15,
+                "DRINKABLE": "false",
+                "TYPE": "Cooking",
+                "CATEGORY": -999 ,
+                "SPRITEINDEX": 13,
+                "TAG_1": "Sweet",
+                "TAG_2": "Candy",
+                "TAG_3": "",
+                 "TAG_4": "AllNeutral"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "data/Add_Objects.json",
+            "LocalTokens": {
+                "ITEMID": "SaltedPeanuts",
+                "DISPLAYNAME": "SaltedPeanuts",
+                "DESCRIPTION": "SaltedPeanuts",
+                "PRICE": 120,
+                "EDIBILITY": 15,
+                "DRINKABLE": "false",
+                "TYPE": "Cooking",
+                "CATEGORY": -999 ,
+                "SPRITEINDEX": 14,
+                "TAG_1": "Salty",
+                "TAG_2": "",
+                "TAG_3": "",
+                 "TAG_4": "AllNeutral"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "data/Add_Objects.json",
+            "LocalTokens": {
+                "ITEMID": "HummusSnackPack",
+                "DISPLAYNAME": "HummusSnackPack",
+                "DESCRIPTION": "HummusSnackPack",
+                "PRICE": 90,
+                "EDIBILITY": 15,
+                "DRINKABLE": "false",
+                "TYPE": "Cooking",
+                "CATEGORY": -999 ,
+                "SPRITEINDEX": 15,
+                "TAG_1": "Healthy",
+                "TAG_2": "",
+                "TAG_3": "",
+                 "TAG_4": "AllNeutral"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "data/Add_Objects.json",
+            "LocalTokens": {
+                "ITEMID": "KaleSmoothie",
+                "DISPLAYNAME": "KaleSmoothie",
+                "DESCRIPTION": "KaleSmoothie",
+                "PRICE": 120,
+                "EDIBILITY": 30,
+                "DRINKABLE": "true",
+                "TYPE": "Cooking",
+                "CATEGORY": -999 ,
+                "SPRITEINDEX": 16,
+                "TAG_1": "Drink",
+                "TAG_2": "Healthy",
+                "TAG_3": "",
+                 "TAG_4": "AllNeutral"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "data/Add_Objects.json",
+            "LocalTokens": {
+                "ITEMID": "AppleSlices",
+                "DISPLAYNAME": "AppleSlices",
+                "DESCRIPTION": "AppleSlices",
+                "PRICE": 100,
+                "EDIBILITY": 15,
+                "DRINKABLE": "false",
+                "TYPE": "Cooking",
+                "CATEGORY": -999 ,
+                "SPRITEINDEX": 17,
+                "TAG_1": "Sweet",
+                "TAG_2": "Healthy",
+                "TAG_3": "",
+                "TAG_4": "AllNeutral"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "data/Add_Objects.json",
+            "LocalTokens": {
+                "ITEMID": "PanzanellaSalad",
+                "DISPLAYNAME": "PanzanellaSalad",
+                "DESCRIPTION": "PanzanellaSalad",
+                "PRICE": 200,
+                "EDIBILITY": 45,
+                "DRINKABLE": "false",
+                "TYPE": "Cooking",
+                "CATEGORY": -999 ,
+                "SPRITEINDEX": 18,
+                "TAG_1": "Gourmet",
+                "TAG_2": "Healthy",
+                "TAG_3": "",
+                "TAG_4": "AllNeutral"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "data/Add_Objects.json",
+            "LocalTokens": {
+                "ITEMID": "TrufflePopcorn",
+                "DISPLAYNAME": "TrufflePopcorn",
+                "DESCRIPTION": "TrufflePopcorn",
+                "PRICE": 180,
+                "EDIBILITY": 45,
+                "DRINKABLE": "false",
+                "TYPE": "Cooking",
+                "CATEGORY": -999 ,
+                "SPRITEINDEX": 19,
+                "TAG_1": "Gourmet",
+                "TAG_2": "Salty",
+                "TAG_3": "",
+                "TAG_4": "AllNeutral"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "data/Add_Objects.json",
+            "LocalTokens": {
+                "ITEMID": "CappuccinoMousseCake",
+                "DISPLAYNAME": "CappuccinoMousseCake",
+                "DESCRIPTION": "CappuccinoMousseCake",
+                "PRICE": 220,
+                "EDIBILITY": 50,
+                "DRINKABLE": "false",
+                "TYPE": "Cooking",
+                "CATEGORY": -999 ,
+                "SPRITEINDEX": 20,
+                "TAG_1": "Sweet",
+                "TAG_2": "Gourmet",
+                "TAG_3": "",
+                "TAG_4": "AllNeutral"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "data/Add_Objects.json",
+            "LocalTokens": {
+                "ITEMID": "JojaCorn",
+                "DISPLAYNAME": "JojaCorn",
+                "DESCRIPTION": "JojaCorn",
+                "PRICE": 10,
+                "EDIBILITY": 30,
+                "DRINKABLE": "false",
+                "TYPE": "Cooking",
+                "CATEGORY": -999 ,
+                "SPRITEINDEX": 21,
+                "TAG_1": "Joja",
+                "TAG_2": "",
+                "TAG_3": "",
+                  "TAG_4": ""
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "data/Add_Objects.json",
+            "LocalTokens": {
+                "ITEMID": "StardropSorbet",
+                "DISPLAYNAME": "StardropSorbet",
+                "DESCRIPTION": "StardropSorbet",
+                "PRICE": 1250,
+                "EDIBILITY": 200,
+                "DRINKABLE": "false",
+                "TYPE": "Cooking",
+                "CATEGORY": -999 ,
+                "SPRITEINDEX": 22,
+                "TAG_1": "",
+                "TAG_2": "",
+                "TAG_3": "",
+                 "TAG_4": ""
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "data/Add_Objects.json",
+            "LocalTokens": {
+                "ITEMID": "RockCandy",
+                "DISPLAYNAME": "RockCandy",
+                "DESCRIPTION": "RockCandy",
+                "PRICE": 90,
+                "EDIBILITY": 15,
+                "DRINKABLE": "false",
+                "TYPE": "Cooking",
+                "CATEGORY": -999 ,
+                "SPRITEINDEX": 23,
+                "TAG_1": "Sweet",
+                "TAG_2": "Candy",
+                "TAG_3": "",
+                "TAG_4": "AllNeutral"
+            }
+        }
+    ]
+}

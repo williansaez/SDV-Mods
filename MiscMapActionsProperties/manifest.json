@@ -1,0 +1,22 @@
+{
+  /*
+   | This file is automatically updated by ModManifestBuilder
+   | when the project is compiled.
+   | 
+   | Changes made to this file may be overwritten.
+   | 
+   */
+  "$schema": "https://smapi.io/schemas/manifest.json",
+  "UniqueID": "mushymato.MMAP",
+  "Name": "Misc Map Actions & Properties",
+  "Author": "mushymato",
+  "Version": "1.12.5",
+  "Description": "Various map stuff for modders.",
+  "MinimumApiVersion": "4.3",
+  "MinimumGameVersion": "1.6.15",
+  "EntryDll": "MiscMapActionsProperties.dll",
+  "UpdateKeys": [
+    "Nexus:28423",
+    "GitHub:Mushymato/MiscMapActionsProperties"
+  ]
+}

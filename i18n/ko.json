@@ -1,0 +1,97 @@
+{
+  "sections.basic": "기본 설정",
+  "sections.scale": "전체 감소율",
+  "sections.ranges": "호감도 구간별 감소 (일반)",
+  "sections.spouse": "배우자 호감도 감소 (10~14하트)",
+  "sections.nogreet": "인사하지 않았을 때 추가 감소",
+
+  "basic.enabled.name": "모드 활성화",
+  "basic.enabled.tip": "이 옵션을 켜야 매일 호감도 감소 기능이 작동합니다.",
+  "basic.cap.name": "최대 호감도에서도 감소 적용",
+  "basic.cap.tip": "호감도가 최고치에 도달했어도 매일 감소가 적용됩니다.",
+
+  "basic.strict.name": "정확한 감소량 적용",
+  "basic.strict.tip": "원래 게임의 호감도 변화 계산을 무시하고, 설정된 값대로 정확하게 감소량을 적용합니다.",
+
+  "scale.header.tip": "호감도 감소량을 조절합니다.",
+
+  "scale.global.name": "전체 호감도 감소량",
+  "scale.global.tip": "0.25에서 3.0 사이로 조절할 수 있습니다.",
+
+  "ranges.header.tip": "연애 상대와 일반 주민 모두에게 적용됩니다.",
+  "ranges.0to4.name": "0~4 하트일 때 감소량",
+  "ranges.0to4.tip": "0에서 200 사이의 숫자를 입력하세요.",
+  "ranges.5to8.name": "5~8 하트일 때 감소량",
+  "ranges.5to8.tip": "0에서 300 사이의 숫자를 입력하세요.",
+  "ranges.9.name": "9 하트일 때 감소량",
+  "ranges.9.tip": "0에서 300 사이의 숫자를 입력하세요.",
+  "ranges.10plus.name": "10 하트 이상일 때 감소량 (배우자 제외)",
+  "ranges.10plus.tip": "0에서 500 사이의 숫자를 입력하세요.",
+
+  "spouse.header.tip": "이 기능을 비활성화하려면 -1을 입력하세요.",
+  "spouse.10to12.name": "배우자 10~12 하트일 때 감소량",
+  "spouse.10to12.tip": "0에서 500 사이의 숫자를 입력하거나, -1을 입력하여 비활성화할 수 있습니다.",
+  "spouse.13to14.name": "배우자 13~14 하트일 때 감소량",
+  "spouse.13to14.tip": "0에서 500 사이의 숫자를 입력하거나, -1을 입력하여 비활성화할 수 있습니다.",
+
+  "nogreet.header.tip": "대화하지 않으면 호감도가 더 크게 감소합니다.",
+  "nogreet.points.name": "추가 감소량 (포인트)",
+  "nogreet.points.tip": "0에서 100 사이의 숫자를 입력하세요. 0을 입력하면 이 기능이 비활성화됩니다.",
+  "nogreet.scale.name": "하트 비율에 따른 추가 감소",
+  "nogreet.scale.tip": "하트 레벨이 높을수록 추가 감소량이 더 커집니다.",
+
+  "mode.nogreetonly.name": "인사하지 않았을 때만 감소",
+  "mode.nogreetonly.tip": "해당 날짜에 대화했다면 호감도가 줄어들지 않습니다. (팁: '정확한 감소량 적용' 옵션을 함께 사용하는 것을 권장합니다!)",
+
+  "greetdecay.section": "인사한 날 — 선물 관리",
+  "greetdecay.section.tip": "그날 인사했더라도, 이번 주에 제공한 선물 수가 목표보다 적으면 호감도가 소폭 감소합니다.",
+
+  "greetdecay.enable.name": "인사했어도 선물 미달 시 감소",
+  "greetdecay.enable.tip": "주간 선물 목표를 달성하지 못했다면, 인사한 날에도 호감도가 일부 감소합니다.",
+
+  "greetdecay.required.name": "일주일에 필요한 선물 횟수",
+  "greetdecay.required.tip": "호감도 감소를 피하기 위해 일주일에 제공해야 하는 선물 횟수를 설정하세요. (예: 2회)",
+
+  "greetdecay.mode.name": "인사한 날의 감소 방식",
+  "greetdecay.mode.tip": "선물을 덜 주었을 때, 인사한 날의 호감도를 어떤 방식으로 감소시킬지 선택하세요.",
+
+  "greetdecay.mode.ratio": "기본 감소량의 비율로 적용",
+  "greetdecay.mode.flat": "고정된 포인트로 적용",
+
+  "greetdecay.ratio.name": "비율 (기본 감소량 대비)",
+  "greetdecay.ratio.tip": "0.10에서 1.00 사이를 권장합니다. 예를 들어 0.50은 기본 감소량의 50%가 적용됨을 의미합니다.",
+
+  "greetdecay.ratio.scale.name": "선물 부족 개수만큼 비율 가중",
+  "greetdecay.ratio.scale.tip": "예: 주간 필요 선물 2회 중 1회만 제공했다면, 설정된 비율의 절반만 적용됩니다.",
+
+  "greetdecay.flat.name": "고정 감소량 (포인트)",
+  "greetdecay.flat.tip": "선물을 덜 준 날 인사했더라도, 이만큼의 고정 포인트가 감소합니다.",
+
+  "limit.daily.name": "하루 최대 감소량 (하트)",
+  "limit.daily.tip": "해당 날짜에 총 호감도가 감소할 수 있는 최대치입니다. 예를 들어 0.40은 약 100포인트에 해당합니다.",
+  "limit.nogreet.name": "인사하지 않았을 때 추가 감소량",
+  "limit.nogreet.tip": "해당 날짜에 대화하지 않았을 때 추가로 감소하는 호감도의 최대치입니다.",
+
+  "hud.nogreet": "{{name}}에게 인사하지 않아 호감도가 {{amount}} 감소했습니다.",
+  "hud.nogift": "{{name}}에게 선물을 주지 않아 호감도가 {{amount}} 감소했습니다.",
+  "hud.loss": "{{name}}의 호감도가 {{amount}}만큼 감소했습니다.",
+
+  "hud.toggle.name": "화면 알림 표시",
+  "hud.toggle.tip": "화면 상단 토스트 알림으로 호감도 감소를 표시합니다. 이 기능을 비활성화하면 감소 알림이 화면에 표시되지 않고 조용히 적용됩니다.",
+
+  "sections.penalties": "페널티 설정",
+"penalties.tip": "특정 행동 시 호감도가 추가로 감소합니다.",
+"pen.trash.enable": "쓰레기 선물 페널티",
+"pen.trash.enable.tip": "쓰레기 같은 아이템을 선물할 때 호감도가 추가로 감소합니다.",
+"pen.trash.value": "쓰레기 선물 페널티 점수",
+"pen.trash.value.tip": "0~500",
+"pen.trash.ids": "쓰레기 아이템 ID (쉼표로 구분)",
+"pen.trash.ids.tip": "기본 목록을 재정의하려면 여기에 입력하세요.",
+"pen.sling.enable": "새총 명중 페널티",
+"pen.sling.enable.tip": "새총으로 주민을 맞힐 때 호감도가 추가로 감소합니다.",
+"pen.sling.value": "새총 페널티 점수",
+"pen.sling.value.tip": "0~500",
+"hud.trashGift": "{name}이(가) 마음에 들어 하지 않습니다... (호감도 -{amount})",
+"hud.slingshot": "{name}이(가) 화를 냅니다! (호감도 -{amount})"
+}
+

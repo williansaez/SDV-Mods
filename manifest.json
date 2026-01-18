@@ -1,0 +1,13 @@
+{
+  "Name": "FriendshipDecayRebalanced",
+  "Author": "jkysa88",
+  "Version": "1.2.0",
+  "Description": "호감도 구간별 고정 감소 조정, 최대치에서도 감소시키는 모드. GMCM 슬라이더 지원.",
+  "UniqueID": "jkysa88.FriendshipDecayRebalanced",
+  "EntryDll": "FriendshipDecayRebalanced.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [],
+  "Dependencies": [
+    { "UniqueID": "spacechase0.GenericModConfigMenu", "IsRequired": false, "MinimumVersion": "1.14.0" }
+  ]
+}

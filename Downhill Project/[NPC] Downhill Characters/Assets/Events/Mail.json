@@ -1,0 +1,38 @@
+{
+	"Changes": [
+	{
+	"Action": "EditData",
+	"Target": "Data/TriggerActions",
+	"Entries": {
+			"DH.Arthur_Friend": { "Id": "DH.Arthur_Friend",
+			"Trigger": "DayEnding",
+			"Condition": "PLAYER_HEARTS Current Arthur 4",
+			"HostOnly": false,
+			"Action": "AddMail Current DH.Arthur_Friend",
+			},
+			"DH.Julia_Friend": { "Id": "DH.Julia_Friend",
+			"Trigger": "DayEnding",
+			"Condition": "PLAYER_HEARTS Current Julia 4",
+			"HostOnly": false,
+			"Action": "AddMail Current DH.Julia_Friend"
+			},
+			"DH.Anderson_Friend": { "Id": "DH.Anderson_Friend",
+			"Trigger": "DayEnding",
+			"Condition": "PLAYER_HEARTS Current Anderson 6, PLAYER_HEARTS Current Julia 4, PLAYER_HEARTS Current Arthur 4",
+			"HostOnly": false,
+			"Action": "AddMail Current DH.Anderson_Friend"
+			}
+		}
+	},
+	{
+	"Action": "EditData",
+	"Target": "Data/mail",
+	"Entries": {
+			"DH.Invite_Church": "{{i18n:DH.Invite_Church}} {{i18n:DH.Invite_Church.Title}}",
+			"DH.Arthur_Friend": "{{i18n:DH.Art_Friend}} %item id 287 16%% {{i18n:DH.Art_Friend.Title}}",
+			"DH.Julia_Friend": "{{i18n:DH.Jul_Friend}} %item id 211 3%% {{i18n:DH.Jul_Friend.Title}}",
+			"DH.Anderson_Friend": "{{i18n:DH.And_Friend}} %item id 434 1%% {{i18n:DH.And_Friend.Title}}"
+			}
+		}
+	]
+}

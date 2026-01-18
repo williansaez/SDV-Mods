@@ -1,0 +1,10 @@
+{
+  "Name": "[CP] Life Cycle - Emily & Clint",
+  "Author": "nraittanna",
+  "Version": "4.3.0",
+  "Description": "A mod that makes Stardew Valley NPCs more lively | Emily and Clint version.",
+  "UniqueID": "nraittanna.LifeCycleEmilyClint",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+  }
+}

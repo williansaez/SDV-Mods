@@ -1,0 +1,24 @@
+{
+    "Changes":[
+{
+    "Action":"EditData",
+    "Target":"Data/CookingRecipes",
+    "Entries":{
+        "Boiled Stonefish":"158 1 153 1 157 1/9999 9999/stinkyvicki_BoiledStonefish 1/null/{{i18n:stinkyvicki_BoiledStonefish_name}}",
+        "Cave Bat Tempura":"767 2 247 1 246 1/9999 9999/stinkyvicki_CaveBatTempura 1/null/{{i18n:stinkyvicki_CaveBatTempura_name}}",
+        "Cave Grub Dumplings":"684 2 -5 1 246 1 260 2/9999 9999/stinkyvicki_CaveGrubDumplings 1/null/{{i18n:stinkyvicki_CaveGrubDumplings_name}}",
+        "Cheesy Bat Casserole":"424 1 767 2 412 1/9999 9999/stinkyvicki_CheesyBatCasserole 1/null/{{i18n:stinkyvicki_CheesyBatCasserole_name}}",
+        "Exorcism Sorbet":"768 1 769 1 245 1/9999 9999/stinkyvicki_ExorcismSorbet 1/null/{{i18n:stinkyvicki_ExorcismSorbet_name}}",
+        "Monster Medley Stew":"766 5 767 25 881 5 684 5/9999 9999/stinkyvicki_MonsterMedleyStew 1/null/{{i18n:stinkyvicki_MonsterMedleyStew_name}}",
+        "Prehistoric Omelet":"-6 1 107 1 412 1 248 1/9999 9999/stinkyvicki_PrehistoricOmelet 1/null/{{i18n:stinkyvicki_PrehistoricOmelet_name}}",
+        "Roasted Bug":"684 3 280 1 78 2/9999 9999/stinkyvicki_RoastedBug 1/null/{{i18n:stinkyvicki_RoastedBug_name}}",
+        "Rock Crab Hotpot":"717 2 766 1 769 1 157 1/9999 9999/stinkyvicki_RockCrabHotpot 1/null/{{i18n:stinkyvicki_RockCrabHotpot_name}}",
+        "Slime Egg Souffle":"680 1 245 1/9999 9999/stinkyvicki_SlimeEggSouffle 1/null/{{i18n:stinkyvicki_SlimeEggSouffle_name}}",
+        "Slime Jelly Sandwich":"766 5 414 1 216 1/9999 9999/stinkyvicki_SlimeJellySandwich 1/null/{{i18n:stinkyvicki_SlimeJellySandwich_name}}",
+        "Slime Torte": "-5 1 766 5 245 1 246 1/9999 9999/stinkyvicki_SlimeTorte 1/null/{{i18n:stinkyvicki_SlimeTorte_name}}",
+        "Slimeade": "766 3 245 2/9999 9999/stinkyvicki_Slimeade 1/null/{{i18n:stinkyvicki_Slimeade_name}}",
+        "Shadow Coffee":"769 1 433 2/9999 9999/stinkyvicki_ShadowCoffee 1/null/{{i18n:stinkyvicki_ShadowCoffee_name}}"
+    }
+}
+]
+}

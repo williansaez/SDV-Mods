@@ -1,0 +1,55 @@
+﻿{
+	/* Translation note: If a key ends with a number, like "Description.1", you can add or remove lines. This mod will use each line in order, starting with line 1. */
+
+	/* Console command info */
+
+    "Commands.EMP.Description": "Executa um dos comandos de console do EMP. Use \"EMP\" ou \"EMP help\" para mais informações. Você também pode incluir o nome de um comando específico, por exemplo \"EMP help OrderBoard\".",
+    "Commands.EMP.CommandInfo": "Informações do comando:",
+    "Commands.EMP.Aliases": "Apelidos: {{ALIASES}}",
+    "Commands.EMP.PlayerIsBusy": "Não é possível executar este comando porque o jogador está ocupado. Por favor, carregue um jogo, feche quaisquer menus ou caixas de texto e certifique-se de que seu personagem está livre.",
+    "Commands.EMP.UnrecognizedCommand": "O comando \"{{COMMAND}}\" não é reconhecido. Para uma lista de comandos, use \"EMP\" ou \"EMP help\".",
+
+	/* Console command - EMP ListGSQs */
+
+    "Commands.EMP.ListGSQs.StartList": "Consultas de estado do jogo registradas (GSQs) e seus apelidos:",
+    "Commands.EMP.ListGSQs.Description.1": "Formato: EMP ListGSQs",
+    "Commands.EMP.ListGSQs.Description.2": "",
+    "Commands.EMP.ListGSQs.Description.3": "Lista todas as consultas de estado do jogo registradas (GSQs) e seus apelidos.",
+
+	/* Console command - EMP ListMailFlags */
+
+    "Commands.EMP.ListMailFlags.UnrecognizedMailType": "O tipo de correio \"{{MAILTYPE}}\" não é reconhecido. Para mais informações, digite \"EMP help ListMailFlags\".",
+    "Commands.EMP.ListMailFlags.Mailbox": "Sinalizadores de correio em \"Caixa de Correio\":",
+    "Commands.EMP.ListMailFlags.Received": "Sinalizadores de correio em \"Recebido\":",
+    "Commands.EMP.ListMailFlags.Tomorrow": "Sinalizadores de correio em \"Amanhã\":",
+    "Commands.EMP.ListMailFlags.Description.1": "Formato: EMP ListMailFlags [TipoDeCorreio]",
+    "Commands.EMP.ListMailFlags.Description.2": "Exemplo: EMP ListMailFlags Recebido",
+    "Commands.EMP.ListMailFlags.Description.3": "",
+    "Commands.EMP.ListMailFlags.Description.4": "Lista todos os sinalizadores de correio definidos para o jogador local atual.",
+    "Commands.EMP.ListMailFlags.Description.5": "",
+    "Commands.EMP.ListMailFlags.Description.6": "- [TipoDeCorreio]: A categoria de sinalizadores de correio a listar. Insensível a maiúsculas/minúsculas.",
+    "Commands.EMP.ListMailFlags.Description.7": "  Opcional. Se nenhum tipo de correio for incluído, todos os tipos de correio serão listados.",
+    "Commands.EMP.ListMailFlags.Description.8": "  Alguns sinalizadores de correio podem estar definidos com vários tipos ao mesmo tempo.",
+    "Commands.EMP.ListMailFlags.Description.9": "  Tipos de correio:",
+    "Commands.EMP.ListMailFlags.Description.10": "  - Caixa de Correio ou M: Lista sinalizadores de correio para cartas não lidas na caixa de correio do jogador.",
+    "Commands.EMP.ListMailFlags.Description.11": "  - Recebido ou R: Lista sinalizadores de correio para cartas que o jogador leu, e sinalizadores que não estão relacionados a cartas da caixa de correio.",
+    "Commands.EMP.ListMailFlags.Description.12": "  - Amanhã ou T: Lista sinalizadores de correio que o jogador receberá amanhã.",
+
+	/* Console command - EMP OrderBoard */
+
+    "Commands.EMP.OrderBoard.OpeningBoard": "Abrindo painel de pedidos especiais. Tipo de pedido: \"{{ORDERTYPE}}\".",
+    "Commands.EMP.OrderBoard.Description.1": "Formato: EMP OrderBoard [TipoDePedido]",
+    "Commands.EMP.OrderBoard.Description.2": "Exemplo: EMP OrderBoard Esca.EMP/MyCustomOrders",
+    "Commands.EMP.OrderBoard.Description.3": "",
+    "Commands.EMP.OrderBoard.Description.4": "Abre um menu \"painel de pedidos especiais\" para o tipo de pedido especificado.",
+    "Commands.EMP.OrderBoard.Description.5": "",
+    "Commands.EMP.OrderBoard.Description.6": "- [TipoDePedido]: A categoria de pedidos especiais a exibir. Sensível a maiúsculas/minúsculas.",
+    "Commands.EMP.OrderBoard.Description.7": "  Opcional. Se nenhum tipo de pedido for incluído, o painel de pedidos padrão será aberto.",
+    "Commands.EMP.OrderBoard.Description.8": "  Isso deve corresponder ao campo \"OrderType\" no ativo \"Data/SpecialOrders\".",
+    "Config.PlaceBedsAnywhere.Name": "Colocar camas em qualquer lugar",
+    "Config.PlaceBedsAnywhere.Description": "Se ativado, você pode colocar camas em qualquer local.",
+    "Config.PlaceMiniFridgesAnywhere.Name": "Colocar mini-geladeiras em qualquer lugar",
+    "Config.PlaceMiniFridgesAnywhere.Description": "Se ativado, você pode colocar mini-geladeiras em qualquer local.",
+    "Config.PassOutSafelyEverywhere.Name": "Passar-se com segurança em qualquer lugar",
+    "Config.PassOutSafelyEverywhere.Description": "Se ativado, você não perderá dinheiro se desmaiar por ficar acordado muito tarde (02h00). NOTA: Isso não muda o que acontece se você ficar sem saúde."
+}

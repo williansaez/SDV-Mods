@@ -1,0 +1,11 @@
+{
+  "Name": "Chest Stasher",
+  "Author": "mahsouto",
+  "Version": "1.0.1",
+  "Description": "Adiciona um botão e uma tecla de atalho para enviar rapidamente todos os itens do seu inventário para um baú. Respeita os espaços bloqueados pelo Convenient Inventory. O companheiro perfeito para o Chest Grabber!",
+  "UniqueID": "mahsouto.ChestStasher",
+  "EntryDll": "ChestStasher.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [ "Nexus:39359" ],
+  "Dependencies": []
+}

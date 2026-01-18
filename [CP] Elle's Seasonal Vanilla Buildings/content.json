@@ -1,0 +1,1468 @@
+{
+   "Format": "1.19.0",
+   "DynamicTokens": [
+      {
+         "Name": "SeasonVariant",
+         "Value": "grass",
+         "When": {
+            "Season": "spring",
+			"Spring Grass": "true",
+         }
+      },
+	  {
+         "Name": "SeasonVariant",
+         "Value": "grass",
+         "When": {
+            "Season": "summer",
+			"Summer Grass": "true",
+         }
+      },
+	  {
+         "Name": "SeasonVariant",
+         "Value": "leaves",
+         "When": {
+            "Season": "fall",
+			"Fall Leaves": "true",
+         }
+      },
+	  {
+         "Name": "SeasonVariant",
+         "Value": "icicles",
+         "When": {
+            "Season": "winter",
+			"Winter Icicles": "true",
+         }
+      },
+	  
+	  {
+         "Name": "WinterVariant",
+         "Value": "winter_snow",
+         "When": {
+            "Season": "winter",
+			"Winter Roofs": "snow",
+         }
+      },
+	  {
+         "Name": "WinterVariant",
+         "Value": "winter_ice",
+         "When": {
+            "Season": "winter",
+			"Winter Roofs": "ice",
+         }
+      },
+   ],
+   
+   
+   "ConfigSchema": {
+    "Spring Grass": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+    "Summer Grass": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+    "Fall Leaves": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+    "Winter Icicles": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+    "Winter Roofs": {"AllowValues": "Snow, Ice, False",
+	"Default": "Snow"},
+	
+    "Farmhouse Flowers": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+    "Farmhouse Holiday": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+    "Seasonal Building Tones": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+    "Fence Tones": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+    "Mailbox Tones": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+    "Shipping Bin Tones": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+    "Town Winter Changes": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+	"Farmhouse": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+	"Greenhouse": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+    "Barn": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+    "Big Barn": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+    "Deluxe Barn": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+	"Coop": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+	"Big Coop": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+	"Deluxe Coop": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+	"Log Cabin": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+	"Plank Cabin": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+	"Stone Cabin": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+	"Fish Pond": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+	"Gold Clock": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+	"Junimo Hut": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+	"Mill": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+	"Desert Obelisk": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+	"Earth Obelisk": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+	"Water Obelisk": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+	"Island Obelisk": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+	"Shane Coop": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+	"Shed": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+	"Big Shed": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+	"Silo": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+	"Slime Hutch": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+	"Stable": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+	"Well": {"AllowValues": "True, False",
+	"Default": "True"},
+	},
+   
+   
+   "Changes": [
+   
+   // Farmhouse
+      {
+         "LogName": "Farmhouse Tone",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/houses",
+         "FromFile": "assets/Farmhouse_{{season}}_tone.png",
+         "When": {
+			"Farmhouse": "true",
+			"Seasonal Building Tones": "true",
+			"Season": "summer, fall, winter",
+         },
+      },
+      {
+         "LogName": "Farmhouse Holiday",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/houses",
+         "FromFile": "assets/Farmhouse_{{season}}_holiday.png",
+         "When": {
+			"Farmhouse Holiday": "true",
+         },
+      },
+      {
+         "LogName": "Farmhouse Flowers",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/houses",
+         "FromFile": "assets/Farmhouse_{{season}}_flowers.png",
+         "When": {
+			"Farmhouse Flowers": "true",
+         },
+      },
+      {
+         "LogName": "Farmhouse Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/houses",
+         "FromFile": "assets/Farmhouse_{{season}}_{{seasonvariant}}.png",
+         "When": {
+			"Farmhouse": "true",
+         },
+      },
+      {
+         "LogName": "Farmhouse Winter Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/houses",
+         "FromFile": "assets/Farmhouse_{{wintervariant}}.png",
+         "When": {
+			"Farmhouse": "true",
+         },
+      },
+   
+   // Greenhouse
+      {
+         "LogName": "Greenhouse Tone",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Greenhouse",
+         "FromFile": "assets/Greenhouse_{{season}}_tone.png",
+         "When": {
+			"Greenhouse": "true",
+			"Seasonal Building Tones": "true",
+			"Season": "summer, fall, winter",
+         },
+      },
+      {
+         "LogName": "Greenhouse Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Greenhouse",
+         "FromFile": "assets/Greenhouse_{{season}}_{{seasonvariant}}.png",
+         "When": {
+			"Greenhouse": "true",
+         },
+      },
+      {
+         "LogName": "Greenhouse Winter Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Greenhouse",
+         "FromFile": "assets/Greenhouse_{{wintervariant}}.png",
+         "When": {
+			"Greenhouse": "true",
+         },
+      },
+   
+   // Barn
+      {
+         "LogName": "Barn Tone",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Barn",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_tone.png",
+         "When": {
+			"Barn": "true",
+			"Seasonal Building Tones": "true",
+			"Season": "summer, fall, winter",
+         },
+      },
+      {
+         "LogName": "Barn Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Barn",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_{{seasonvariant}}.png",
+         "When": {
+			"Barn": "true",
+         },
+      },
+      {
+         "LogName": "Barn Winter Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Barn",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{wintervariant}}.png",
+         "When": {
+			"Barn": "true",
+         },
+      },
+	  
+   // Big Barn
+      {
+         "LogName": "Big Barn Tone",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Big Barn",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_tone.png",
+         "When": {
+			"Big Barn": "true",
+			"Seasonal Building Tones": "true",
+			"Season": "summer, fall, winter",
+         },
+      },
+      {
+         "LogName": "Big Barn Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Big Barn",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_{{seasonvariant}}.png",
+         "When": {
+			"Big Barn": "true",
+         },
+      },
+      {
+         "LogName": "Big Barn Winter Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Big Barn",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{wintervariant}}.png",
+         "When": {
+			"Big Barn": "true",
+         },
+      },
+   
+   // Deluxe Barn
+      {
+         "LogName": "Deluxe Barn Tone",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Deluxe Barn",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_tone.png",
+         "When": {
+			"Deluxe Barn": "true",
+			"Seasonal Building Tones": "true",
+			"Season": "summer, fall, winter",
+         },
+      },
+      {
+         "LogName": "Deluxe Barn Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Deluxe Barn",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_{{seasonvariant}}.png",
+         "When": {
+			"Deluxe Barn": "true",
+         },
+      },
+      {
+         "LogName": "Deluxe Barn Winter Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Deluxe Barn",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{wintervariant}}.png",
+         "When": {
+			"Deluxe Barn": "true",
+         },
+      },
+   
+   // Coop
+      {
+         "LogName": "Coop Tone",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Coop",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_tone.png",
+         "When": {
+			"Coop": "true",
+			"Seasonal Building Tones": "true",
+			"Season": "summer, fall, winter",
+         },
+      },
+      {
+         "LogName": "Coop Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Coop",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_{{seasonvariant}}.png",
+         "When": {
+			"Coop": "true",
+         },
+      },
+      {
+         "LogName": "Coop Winter Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Coop",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{wintervariant}}.png",
+         "When": {
+			"Coop": "true",
+         },
+      },
+   
+   // Big Coop
+      {
+         "LogName": "Big Coop Tone",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Big Coop",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_tone.png",
+         "When": {
+			"Big Coop": "true",
+			"Seasonal Building Tones": "true",
+			"Season": "summer, fall, winter",
+         },
+      },
+      {
+         "LogName": "Big Coop Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Big Coop",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_{{seasonvariant}}.png",
+         "When": {
+			"Big Coop": "true",
+         },
+      },
+      {
+         "LogName": "Big Coop Winter Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Big Coop",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{wintervariant}}.png",
+         "When": {
+			"Big Coop": "true",
+         },
+      },
+   
+   // Deluxe Coop
+      {
+         "LogName": "Deluxe Coop Tone",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Deluxe Coop",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_tone.png",
+         "When": {
+			"Deluxe Coop": "true",
+			"Seasonal Building Tones": "true",
+			"Season": "summer, fall, winter",
+         },
+      },
+      {
+         "LogName": "Deluxe Coop Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Deluxe Coop",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_{{seasonvariant}}.png",
+         "When": {
+			"Deluxe Coop": "true",
+         },
+      },
+      {
+         "LogName": "Deluxe Coop Winter Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Deluxe Coop",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{wintervariant}}.png",
+         "When": {
+			"Deluxe Coop": "true",
+         },
+      },
+   
+   // Log Cabin
+      {
+         "LogName": "Log Cabin Tone",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Log Cabin",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_tone.png",
+         "When": {
+			"Log Cabin": "true",
+			"Seasonal Building Tones": "true",
+			"Season": "summer, fall, winter",
+         },
+      },
+      {
+         "LogName": "Log Cabin Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Log Cabin",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_{{seasonvariant}}.png",
+         "When": {
+			"Log Cabin": "true",
+         },
+      },
+      {
+         "LogName": "Log Cabin Winter Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Log Cabin",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{wintervariant}}.png",
+         "When": {
+			"Log Cabin": "true",
+         },
+      },
+   
+   // Plank Cabin
+      {
+         "LogName": "Plank Cabin Tone",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Plank Cabin",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_tone.png",
+         "When": {
+			"Plank Cabin": "true",
+			"Seasonal Building Tones": "true",
+			"Season": "summer, fall, winter",
+         },
+      },
+      {
+         "LogName": "Plank Cabin Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Plank Cabin",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_{{seasonvariant}}.png",
+         "When": {
+			"Plank Cabin": "true",
+         },
+      },
+      {
+         "LogName": "Plank Cabin Winter Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Plank Cabin",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{wintervariant}}.png",
+         "When": {
+			"Plank Cabin": "true",
+         },
+      },
+   
+   // Stone Cabin
+      {
+         "LogName": "Stone Cabin Tone",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Stone Cabin",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_tone.png",
+         "When": {
+			"Stone Cabin": "true",
+			"Seasonal Building Tones": "true",
+			"Season": "summer, fall, winter",
+         },
+      },
+      {
+         "LogName": "Stone Cabin Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Stone Cabin",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_{{seasonvariant}}.png",
+         "When": {
+			"Stone Cabin": "true",
+         },
+      },
+      {
+         "LogName": "Stone Cabin Winter Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Stone Cabin",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{wintervariant}}.png",
+         "When": {
+			"Stone Cabin": "true",
+         },
+      },
+   
+   // Fish Pond
+      {
+         "LogName": "Fish Pond Tone",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Fish Pond",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_tone.png",
+         "When": {
+			"Fish Pond": "true",
+			"Seasonal Building Tones": "true",
+			"Season": "summer, fall, winter",
+         },
+      },
+      {
+         "LogName": "Fish Pond Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Fish Pond",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_{{seasonvariant}}.png",
+         "When": {
+			"Fish Pond": "true",
+         },
+      },
+      {
+         "LogName": "Fish Pond Winter Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Fish Pond",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{wintervariant}}.png",
+         "When": {
+			"Fish Pond": "true",
+         },
+      },
+   
+   // Gold Clock
+      {
+         "LogName": "Gold Clock Tone",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Gold Clock",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_tone.png",
+         "When": {
+			"Gold Clock": "true",
+			"Seasonal Building Tones": "true",
+			"Season": "summer, fall, winter",
+         },
+      },
+      {
+         "LogName": "Gold Clock Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Gold Clock",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_{{seasonvariant}}.png",
+         "When": {
+			"Gold Clock": "true",
+         },
+      },
+      {
+         "LogName": "Gold Clock Winter Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Gold Clock",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{wintervariant}}.png",
+         "When": {
+			"Gold Clock": "true",
+         },
+      },
+   
+   // Junimo Hut
+      {
+         "LogName": "Junimo Hut Tone",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Junimo Hut",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_tone.png",
+         "When": {
+			"Junimo Hut": "true",
+			"Seasonal Building Tones": "true",
+			"Season": "summer, fall, winter",
+         },
+      },
+      {
+         "LogName": "Junimo Hut Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Junimo Hut",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_{{seasonvariant}}.png",
+         "When": {
+			"Junimo Hut": "true",
+			"Season": "spring, summer, fall",
+         },
+      },
+   
+   // Mill
+      {
+         "LogName": "Mill Tone",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Mill",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_tone.png",
+         "When": {
+			"Mill": "true",
+			"Seasonal Building Tones": "true",
+			"Season": "summer, fall, winter",
+         },
+      },
+      {
+         "LogName": "Mill Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Mill",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_{{seasonvariant}}.png",
+         "When": {
+			"Mill": "true",
+         },
+      },
+      {
+         "LogName": "Mill Winter Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Mill",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{wintervariant}}.png",
+         "When": {
+			"Mill": "true",
+         },
+      },
+   
+   // Earth Obelisk
+      {
+         "LogName": "Earth Obelisk Tone",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Earth Obelisk",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_tone.png",
+         "When": {
+			"Earth Obelisk": "true",
+			"Seasonal Building Tones": "true",
+			"Season": "summer, fall, winter",
+         },
+      },
+      {
+         "LogName": "Earth Obelisk Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Earth Obelisk",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_{{seasonvariant}}.png",
+         "When": {
+			"Earth Obelisk": "true",
+         },
+      },
+      {
+         "LogName": "Earth Obelisk Winter Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Earth Obelisk",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{wintervariant}}.png",
+         "When": {
+			"Earth Obelisk": "true",
+         },
+      },
+   
+   // Water Obelisk
+      {
+         "LogName": "Water Obelisk Tone",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Water Obelisk",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_tone.png",
+         "When": {
+			"Water Obelisk": "true",
+			"Seasonal Building Tones": "true",
+			"Season": "summer, fall, winter",
+         },
+      },
+      {
+         "LogName": "Water Obelisk Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Water Obelisk",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_{{seasonvariant}}.png",
+         "When": {
+			"Water Obelisk": "true",
+         },
+      },
+      {
+         "LogName": "Water Obelisk Winter Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Water Obelisk",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{wintervariant}}.png",
+         "When": {
+			"Water Obelisk": "true",
+         },
+      },
+   
+   // Desert Obelisk
+      {
+         "LogName": "Desert Obelisk Tone",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Desert Obelisk",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_tone.png",
+         "When": {
+			"Desert Obelisk": "true",
+			"Seasonal Building Tones": "true",
+			"Season": "summer, fall, winter",
+         },
+      },
+      {
+         "LogName": "Desert Obelisk Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Desert Obelisk",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_{{seasonvariant}}.png",
+         "When": {
+			"Desert Obelisk": "true",
+         },
+      },
+      {
+         "LogName": "Desert Obelisk Winter Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Desert Obelisk",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{wintervariant}}.png",
+         "When": {
+			"Desert Obelisk": "true",
+         },
+      },
+   
+   // Island Obelisk
+      {
+         "LogName": "Island Obelisk Tone",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Island Obelisk",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_tone.png",
+         "When": {
+			"Island Obelisk": "true",
+			"Seasonal Building Tones": "true",
+			"Season": "summer, fall, winter",
+         },
+      },
+      {
+         "LogName": "Island Obelisk Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Island Obelisk",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_{{seasonvariant}}.png",
+         "When": {
+			"Island Obelisk": "true",
+         },
+      },
+      {
+         "LogName": "Island Obelisk Winter Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Island Obelisk",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{wintervariant}}.png",
+         "When": {
+			"Island Obelisk": "true",
+         },
+      },
+   
+   // Shane's Coop
+      {
+         "LogName": "Shane Coop Tone",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Maps/{{season}}_outdoorsTileSheet",
+         "ToArea": { "X": 240, "Y": 1104, "Width": 160, "Height": 144 },
+         "FromFile": "assets/Shane_{{season}}_tone.png",
+         "When": {
+			"Shane Coop": "true",
+			"Seasonal Building Tones": "true",
+			"Season": "summer, fall, winter",
+         },
+      },
+      {
+         "LogName": "Shane Coop Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Maps/{{season}}_outdoorsTileSheet",
+         "ToArea": { "X": 240, "Y": 1104, "Width": 160, "Height": 144 },
+         "FromFile": "assets/Shane_{{season}}_{{seasonvariant}}.png",
+         "When": {
+			"Shane Coop": "true",
+         },
+      },
+      {
+         "LogName": "Shane Coop Winter Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Maps/{{season}}_outdoorsTileSheet",
+         "ToArea": { "X": 240, "Y": 1104, "Width": 160, "Height": 144 },
+         "FromFile": "assets/Shane_{{wintervariant}}.png",
+         "When": {
+			"Shane Coop": "true",
+         },
+      },
+   
+   // Shed
+      {
+         "LogName": "Shed Tone",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Shed",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_tone.png",
+         "When": {
+			"Shed": "true",
+			"Seasonal Building Tones": "true",
+			"Season": "summer, fall, winter",
+         },
+      },
+      {
+         "LogName": "Shed Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Shed",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_{{seasonvariant}}.png",
+         "When": {
+			"Shed": "true",
+         },
+      },
+      {
+         "LogName": "Shed Winter Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Shed",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{wintervariant}}.png",
+         "When": {
+			"Shed": "true",
+         },
+      },
+   
+   // Big Shed
+      {
+         "LogName": "Big Shed Tone",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Big Shed",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_tone.png",
+         "When": {
+			"Big Shed": "true",
+			"Seasonal Building Tones": "true",
+			"Season": "summer, fall, winter",
+         },
+      },
+      {
+         "LogName": "Big Shed Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Big Shed",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_{{seasonvariant}}.png",
+         "When": {
+			"Big Shed": "true",
+         },
+      },
+      {
+         "LogName": "Big Shed Winter Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Big Shed",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{wintervariant}}.png",
+         "When": {
+			"Big Shed": "true",
+         },
+      },
+   
+   // Silo
+      {
+         "LogName": "Silo Tone",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Silo",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_tone.png",
+         "When": {
+			"Silo": "true",
+			"Seasonal Building Tones": "true",
+			"Season": "summer, fall, winter",
+         },
+      },
+      {
+         "LogName": "Silo Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Silo",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_{{seasonvariant}}.png",
+         "When": {
+			"Silo": "true",
+         },
+      },
+      {
+         "LogName": "Silo Winter Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Silo",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{wintervariant}}.png",
+         "When": {
+			"Silo": "true",
+         },
+      },
+   
+   // Slime Hutch
+      {
+         "LogName": "Slime Hutch Tone",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Slime Hutch",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_tone.png",
+         "When": {
+			"Slime Hutch": "true",
+			"Seasonal Building Tones": "true",
+			"Season": "summer, fall, winter",
+         },
+      },
+      {
+         "LogName": "Slime Hutch Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Slime Hutch",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_{{seasonvariant}}.png",
+         "When": {
+			"Slime Hutch": "true",
+         },
+      },
+      {
+         "LogName": "Slime Hutch Winter Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Slime Hutch",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{wintervariant}}.png",
+         "When": {
+			"Slime Hutch": "true",
+         },
+      },
+   
+   // Stable
+      {
+         "LogName": "Stable Tone",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Stable",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_tone.png",
+         "When": {
+			"Stable": "true",
+			"Seasonal Building Tones": "true",
+			"Season": "summer, fall, winter",
+         },
+      },
+      {
+         "LogName": "Stable Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Stable",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_{{seasonvariant}}.png",
+         "When": {
+			"Stable": "true",
+         },
+      },
+      {
+         "LogName": "Stable Winter Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Stable",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{wintervariant}}.png",
+         "When": {
+			"Stable": "true",
+         },
+      },
+   
+   // Well
+      {
+         "LogName": "Well Tone",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Well",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_tone.png",
+         "When": {
+			"Well": "true",
+			"Seasonal Building Tones": "true",
+			"Season": "summer, fall, winter",
+         },
+      },
+      {
+         "LogName": "Well Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Well",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_{{seasonvariant}}.png",
+         "When": {
+			"Well": "true",
+         },
+      },
+      {
+         "LogName": "Well Winter Variant",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Well",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{wintervariant}}.png",
+         "When": {
+			"Well": "true",
+         },
+      },
+   
+   // Fence Tones
+      {
+         "LogName": "Fence Tone",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "LooseSprites/Fence1, LooseSprites/Fence2, LooseSprites/Fence3, LooseSprites/Fence5",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}.png",
+         "When": {
+			"Fence Tones": "true",
+			"Season": "summer, fall, winter",
+         },
+      },
+		
+   // Shipping Bin Tones
+	  {
+         "LogName": "Shipping Bin Tone",
+         "Action": "EditImage",
+	     "Patchmode": "Overlay",
+         "Target": "Buildings/Shipping Bin",
+         "FromFile": "assets/{{TargetWithoutPath}}_{{season}}_tone.png",
+         "When": {
+			"Fence Tones": "true",
+			"Season": "summer, fall, winter",
+         },
+      },
+	  {
+         "LogName": "Shipping Bin Cursors Tone",
+         "Action": "EditImage",
+	     "Patchmode": "Overlay",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Shipping Bin_cursors_{{season}}.png",
+         "When": {
+			"Fence Tones": "true",
+			"Season": "summer, fall, winter",
+         },
+      },
+	  {
+         "LogName": "Shipping Bin Outdoors Tone",
+         "Action": "EditImage",
+	     "Patchmode": "Overlay",
+         "Target": "Maps/{{season}}_outdoorsTileSheet",
+         "FromFile": "assets/Shipping Bin_outdoors_{{season}}.png",
+         "When": {
+			"Fence Tones": "true",
+			"Season": "summer, fall, winter",
+         },
+      },
+	  
+   // Mailbox Tones
+	  {
+         "LogName": "Mailbox Tones",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Maps/{{season}}_outdoorsTileSheet",
+         "FromFile": "assets/Mailbox_{{season}}.png",
+         "ToArea": { "X": 80, "Y": 1232, "Width": 16, "Height": 32 },
+		 "Enabled": "True",
+		 "When": {
+			"Mailbox Tones": "true",
+			"Season": "summer, fall, winter",
+         },
+      },
+   
+   // Town Winter Changes
+      {
+         "LogName": "Winter Changes Outdoors",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Maps/winter_outdoorsTileSheet",
+         "FromFile": "assets/winter_outdoorsTileSheet.png",
+         "When": {
+			"Town Winter Changes": "true",
+         },
+      },
+      
+      {
+         "LogName": "Winter Changes Town",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Maps/winter_town",
+         "FromFile": "assets/winter_town.png",
+         "When": {
+			"Town Winter Changes": "true",
+         },
+      },
+      {
+         "LogName": "Winter Changes Beach",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Maps/winter_beach",
+         "FromFile": "assets/winter_beach.png",
+         "When": {
+			"Town Winter Changes": "true",
+         },
+      },
+	  
+   // Masks
+      {
+         "LogName": "Big Shed Mask",
+         "Action": "EditImage",
+         "Target": "Buildings/Big Shed_PaintMask",
+         "FromFile": "assets/Masks/{{TargetWithoutPath}}_{{season}}_{{seasonvariant}}.png",
+         "When": {
+			"Big Shed": "true",
+			"Season": "spring, summer, fall",
+         },
+      },
+      {
+         "LogName": "Big Shed Mask",
+         "Action": "EditImage",
+         "Target": "Buildings/Big Shed_PaintMask",
+         "FromFile": "assets/Masks/{{TargetWithoutPath}}_{{wintervariant}}.png",
+         "When": {
+			"Big Shed": "true",
+         },
+      },
+      {
+         "LogName": "Big Shed Mask",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Big Shed_PaintMask",
+         "FromFile": "assets/Masks/{{TargetWithoutPath}}_winter_icicles_overlay.png",
+         "When": {
+			"Big Shed": "true",
+			"Season": "winter",
+			"Winter Icicles": "false",
+         },
+      },
+	  
+	  
+      {
+         "LogName": "Deluxe Barn Mask",
+         "Action": "EditImage",
+         "Target": "Buildings/Deluxe Barn_PaintMask",
+         "FromFile": "assets/Masks/{{TargetWithoutPath}}_{{season}}_{{seasonvariant}}.png",
+         "When": {
+			"Deluxe Barn": "true",
+			"Season": "spring, summer, fall",
+         },
+      },
+      {
+         "LogName": "Deluxe Barn Mask",
+         "Action": "EditImage",
+         "Target": "Buildings/Deluxe Barn_PaintMask",
+         "FromFile": "assets/Masks/{{TargetWithoutPath}}_{{wintervariant}}.png",
+         "When": {
+			"Deluxe Barn": "true",
+         },
+      },
+      {
+         "LogName": "Deluxe Barn Mask",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Deluxe Barn_PaintMask",
+         "FromFile": "assets/Masks/{{TargetWithoutPath}}_winter_icicles_overlay.png",
+         "When": {
+			"Deluxe Barn": "true",
+			"Season": "winter",
+			"Winter Icicles": "false",
+         },
+      },
+	  
+	  
+      {
+         "LogName": "Deluxe Coop Mask",
+         "Action": "EditImage",
+         "Target": "Buildings/Deluxe Coop_PaintMask",
+         "FromFile": "assets/Masks/{{TargetWithoutPath}}_{{season}}_{{seasonvariant}}.png",
+         "When": {
+			"Deluxe Coop": "true",
+			"Season": "spring, summer, fall",
+         },
+      },
+      {
+         "LogName": "DDeluxe Coop Mask",
+         "Action": "EditImage",
+         "Target": "Buildings/Deluxe Coop_PaintMask",
+         "FromFile": "assets/Masks/{{TargetWithoutPath}}_{{wintervariant}}.png",
+         "When": {
+			"Deluxe Coop": "true",
+         },
+      },
+      {
+         "LogName": "Deluxe Coop Mask",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Deluxe Coop_PaintMask",
+         "FromFile": "assets/Masks/{{TargetWithoutPath}}_winter_icicles_overlay.png",
+         "When": {
+			"Deluxe Coop": "true",
+			"Season": "winter",
+			"Winter Icicles": "false",
+         },
+      },
+	  
+	  
+      {
+         "LogName": "Farmhouse Mask",
+         "Action": "EditImage",
+         "Target": "Buildings/houses_PaintMask",
+         "FromFile": "assets/Masks/{{TargetWithoutPath}}_{{season}}_{{seasonvariant}}.png",
+         "When": {
+			"Farmhouse": "true",
+			"Season": "spring, summer, fall",
+         },
+      },
+      {
+         "LogName": "Farmhouse Mask",
+         "Action": "EditImage",
+         "Target": "Buildings/houses_PaintMask",
+         "FromFile": "assets/Masks/{{TargetWithoutPath}}_{{wintervariant}}.png",
+         "When": {
+			"Farmhouse": "true",
+         },
+      },
+      {
+         "LogName": "Farmhouse Mask",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/houses_PaintMask",
+         "FromFile": "assets/Masks/{{TargetWithoutPath}}_winter_icicles_overlay.png",
+         "When": {
+			"Farmhouse": "true",
+			"Season": "winter",
+			"Winter Icicles": "false",
+         },
+      },
+      {
+         "LogName": "Farmhouse Mask",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/houses_PaintMask",
+         "FromFile": "assets/Masks/{{TargetWithoutPath}}_fall_leaves_overlay.png",
+         "When": {
+			"Farmhouse": "true",
+			"Season": "fall",
+			"Fall Leaves": "false",
+         },
+      },
+      {
+         "LogName": "Farmhouse Mask",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/houses_PaintMask",
+         "FromFile": "assets/Masks/{{TargetWithoutPath}}_{{season}}_flowers.png",
+         "When": {
+			"Farmhouse": "true",
+			"Farmhouse Flowers": "false",
+         },
+      },
+      {
+         "LogName": "Farmhouse Mask",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/houses_PaintMask",
+         "FromFile": "assets/Masks/{{TargetWithoutPath}}_{{season}}_holiday.png",
+         "When": {
+			"Farmhouse": "true",
+			"Farmhouse Holiday": "false",
+         },
+      },
+	  
+	  
+      {
+         "LogName": "Log Cabin Mask",
+         "Action": "EditImage",
+         "Target": "Buildings/Log Cabin_PaintMask",
+         "FromFile": "assets/Masks/{{TargetWithoutPath}}_{{season}}_{{seasonvariant}}.png",
+         "When": {
+			"Log Cabin": "true",
+			"Season": "spring, summer, fall",
+         },
+      },
+      {
+         "LogName": "Log Cabin Mask",
+         "Action": "EditImage",
+         "Target": "Buildings/Log Cabin_PaintMask",
+         "FromFile": "assets/Masks/{{TargetWithoutPath}}_{{wintervariant}}.png",
+         "When": {
+			"Log Cabin": "true",
+         },
+      },
+      {
+         "LogName": "Log Cabin Mask",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Log Cabin_PaintMask",
+         "FromFile": "assets/Masks/{{TargetWithoutPath}}_winter_icicles_overlay.png",
+         "When": {
+			"Log Cabin": "true",
+			"Season": "winter",
+			"Winter Icicles": "false",
+         },
+      },
+	  
+	  
+      {
+         "LogName": "Plank Cabin Mask",
+         "Action": "EditImage",
+         "Target": "Buildings/Plank Cabin_PaintMask",
+         "FromFile": "assets/Masks/{{TargetWithoutPath}}_{{season}}_{{seasonvariant}}.png",
+         "When": {
+			"Plank Cabin": "true",
+			"Season": "spring, summer, fall",
+         },
+      },
+      {
+         "LogName": "Plank Cabin Mask",
+         "Action": "EditImage",
+         "Target": "Buildings/Plank Cabin_PaintMask",
+         "FromFile": "assets/Masks/{{TargetWithoutPath}}_{{wintervariant}}.png",
+         "When": {
+			"Plank Cabin": "true",
+         },
+      },
+      {
+         "LogName": "Plank Cabin Mask",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Plank Cabin_PaintMask",
+         "FromFile": "assets/Masks/{{TargetWithoutPath}}_winter_icicles_overlay.png",
+         "When": {
+			"Plank Cabin": "true",
+			"Season": "winter",
+			"Winter Icicles": "false",
+         },
+      },
+	  
+	  
+      {
+         "LogName": "Stone Cabin Mask",
+         "Action": "EditImage",
+         "Target": "Buildings/Stone Cabin_PaintMask",
+         "FromFile": "assets/Masks/{{TargetWithoutPath}}_{{season}}_{{seasonvariant}}.png",
+         "When": {
+			"Stone Cabin": "true",
+			"Season": "spring, summer, fall",
+         },
+      },
+      {
+         "LogName": "Stone Cabin Mask",
+         "Action": "EditImage",
+         "Target": "Buildings/Stone Cabin_PaintMask",
+         "FromFile": "assets/Masks/{{TargetWithoutPath}}_{{wintervariant}}.png",
+         "When": {
+			"Stone Cabin": "true",
+         },
+      },
+      {
+         "LogName": "Stone Cabin Mask",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Stone Cabin_PaintMask",
+         "FromFile": "assets/Masks/{{TargetWithoutPath}}_winter_icicles_overlay.png",
+         "When": {
+			"Stone Cabin": "true",
+			"Season": "winter",
+			"Winter Icicles": "false",
+         },
+      },
+	  
+	  
+      {
+         "LogName": "Stable Mask",
+         "Action": "EditImage",
+         "Target": "Buildings/Stable_PaintMask",
+         "FromFile": "assets/Masks/{{TargetWithoutPath}}_{{season}}_{{seasonvariant}}.png",
+         "When": {
+			"Stable": "true",
+			"Season": "spring, summer, fall",
+         },
+      },
+      {
+         "LogName": "Stable Mask",
+         "Action": "EditImage",
+         "Target": "Buildings/Stable_PaintMask",
+         "FromFile": "assets/Masks/{{TargetWithoutPath}}_{{wintervariant}}.png",
+         "When": {
+			"Stable": "true",
+         },
+      },
+      {
+         "LogName": "Stable Mask",
+         "Action": "EditImage",
+		 "Patchmode": "Overlay",
+         "Target": "Buildings/Stable_PaintMask",
+         "FromFile": "assets/Masks/{{TargetWithoutPath}}_winter_icicles_overlay.png",
+         "When": {
+			"Stable": "true",
+			"Season": "winter",
+			"Winter Icicles": "false",
+         },
+      },
+	   
+   ]
+}

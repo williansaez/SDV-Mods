@@ -1,0 +1,16 @@
+{
+  "BaseBankingInterest": 1,
+  "EnableRandomEvents": true,
+  "EnableVaultRoomDeskActivation": false,
+  "LoanSettings": {
+    "LoanBaseInterest": 3,
+    "PayBackLoanDaily": true,
+    "PercentageOfLoanToPayBackDaily": 10,
+    "EnableUnlimitedLoansAtOnce": false
+  },
+  "HardModSettings": {
+    "EnableHarderMode": true,
+    "HowFarInDebtAtStart": 15000,
+    "BypassHavingToRepayDebtFirst": false
+  }
+}

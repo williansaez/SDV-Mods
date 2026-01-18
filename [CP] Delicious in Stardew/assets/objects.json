@@ -1,0 +1,277 @@
+{
+    "Changes":[
+{
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries":{
+        "stinkyvicki_BoiledStonefish":{
+            "Name": "Boiled Stonefish",
+            "DisplayName": "{{i18n:stinkyvicki_BoiledStonefish_name}}",
+            "Description": "{{i18n:stinkyvicki_BoiledStonefish_description}}",
+            "Type": "Cooking",
+            "Category": -7,
+            "Price": 250,
+            "Texture": "Mods/stinkyvicki.DeliciousInStardew/objects",
+            "SpriteIndex": 0,
+            "Edibility": 75,
+            "IsDrink": false,
+            "Buffs": [
+                {
+                    "Duration": 650,
+                    "CustomAttributes": {
+                        "Defense": 3.0
+                    }
+
+                }
+            ]
+
+        },
+        "stinkyvicki_CaveBatTempura":{
+            "Name": "Cave Bat Tempura",
+            "DisplayName": "{{i18n:stinkyvicki_CaveBatTempura_name}}",
+            "Description": "{{i18n:stinkyvicki_CaveBatTempura_description}}",
+            "Type": "Cooking",
+            "Category": -7,
+            "Price": 175,
+            "Texture": "Mods/stinkyvicki.DeliciousInStardew/objects",
+            "SpriteIndex": 1,
+            "Edibility": 65,
+            "IsDrink": false,
+            "Buffs":[
+                {
+                    "Duration": 300,
+                    "CustomAttributes":{
+                        "Attack": 1.0,
+                        "Speed": 1.0
+                    }
+                }
+            ]
+        },
+        "stinkyvicki_CaveGrubDumplings":{
+            "Name":"Cave Grub Dumplings",
+            "DisplayName":"{{i18n:stinkyvicki_CaveGrubDumplings_name}}",
+            "Description":"{{i18n:stinkyvicki_CaveGrubDumpling_description}}",
+            "Type":"Cooking",
+            "Category": -7,
+            "Price": 125,
+            "Texture":"Mods/stinkyvicki.DeliciousInStardew/objects",
+            "SpriteIndex": 2,
+            "Edibility": 40,
+            "IsDrink": false
+        },
+        "stinkyvicki_CheesyBatCasserole":{
+            "Name": "Cheesy Bat Casserole",
+            "DisplayName":"{{i18n:stinkyvicki_CheesyBatCasserole_name}}",
+            "Description":"{{i18n:stinkyvicki_CheesyBatCasserole_description}}",
+            "Type": "Cooking",
+            "Category": -7,
+            "Price": 175,
+            "Texture":"Mods/stinkyvicki.DeliciousInStardew/objects",
+            "SpriteIndex": 3,
+            "Edibility": 35,
+            "IsDrink": false,
+            "Buffs":[
+                {
+                    "Duration": 1000,
+                    "CustomAttributes":{
+                        "Defense": 1.0,
+                        "MaxStamina":35.0
+                    }
+                }
+            ]
+        },
+        "stinkyvicki_ExorcismSorbet":{
+            "Name": "Exorcism Sorbet",
+            "DisplayName":"{{i18n:stinkyvicki_ExorcismSorbet_name}}",
+            "Description": "{{i18n:stinkyvicki_ExorcismSorbet_description}}",
+            "Type": "Cooking",
+            "Category": -7,
+            "Price": 300,
+            "Texture":"Mods/stinkyvicki.DeliciousInStardew/objects",
+            "SpriteIndex": 4,
+            "Edibility": 50,
+            "IsDrink": false,
+            "Buffs": [
+                {
+                    "Duration": 450,
+                    "CustomAttributes":{
+                        "LuckLevel": 1.0
+                    }
+                }
+            ]
+        },
+        "stinkyvicki_MonsterMedleyStew":{
+            "Name": "Monster Medley Stew",
+            "DisplayName":"{{i18n:stinkyvicki_MonsterMedleyStew_name}}",
+            "Description": "{{i18n:stinkyvicki_MonsterMedleyStew_description}}",
+            "Type":"Cooking",
+            "Category": -7,
+            "Price":350,
+            "Texture":"Mods/stinkyvicki.DeliciousInStardew/objects",
+            "SpriteIndex":5,
+            "Edibility":80,
+            "IsDrink":false,
+            "Buffs":[
+                {
+                    "Duration": 1250,
+                    "CustomAttributes":{
+                        "MiningLevel":2.0,
+                        "LuckLevel":1.0
+                    }
+                }
+            ]
+        },
+        "stinkyvicki_PrehistoricOmelet":{
+            "Name": "Prehistoric Omelet",
+            "DisplayName":"{{i18n:stinkyvicki_PrehistoricOmelet_name}}",
+            "Description":"{{i18n:stinkyvicki_PrehistoricOmelet_description}}",
+            "Type":"Cooking",
+            "Category":-7,
+            "Price":550,
+            "Texture":"Mods/stinkyvicki.DeliciousInStardew/objects",
+            "SpriteIndex":6,
+            "Edibility":70,
+            "IsDrink":false,
+            "Buffs":[
+                {
+                    "Duration":750,
+                    "CustomAttributes":{
+                        "Attack":2.0,
+                        "MaxStamina":50.0
+                    }
+                }
+            ]
+        },
+        "stinkyvicki_RoastedBug":{
+            "Name":"Roasted Bug",
+            "DisplayName":"{{i18n:stinkyvicki_RoastedBug_name}}",
+            "Description":"{{i18n:stinkyvicki_RoastedBug_description}}",
+            "Type":"Cooking",
+            "Category":-7,
+            "Price":100,
+            "Texture":"Mods/stinkyvicki.DeliciousInStardew/objects",
+            "SpriteIndex":7,
+            "Edibility":40,
+            "IsDrink":false
+        },
+        "stinkyvicki_RockCrabHotpot":{
+            "Name":"Rock Crab Hotpot",
+            "DisplayName":"{{i18n:stinkyvicki_RockCrabHotpot_name}}",
+            "Description":"{{i18n:stinkyvicki_RockCrabHotpot_description}}",
+            "Type":"Cooking",
+            "Category":-7,
+            "Price":225,
+            "Texture":"Mods/stinkyvicki.DeliciousInStardew/objects",
+            "SpriteIndex":8,
+            "Edibility":60,
+            "IsDrink":false,
+            "Buffs":[
+                {
+                    "Duration":900,
+                    "CustomAttributes":{
+                        "Attack":1.0,
+                        "Defense":1.0
+                    }
+                }
+            ]
+        },
+        "stinkyvicki_SlimeEggSouffle":{
+            "Name":"Slime Egg Souffle",
+            "DisplayName":"{{i18n:stinkyvicki_SlimeEggSouffle_name}}",
+            "Description":"{{i18n:stinkyvicki_SlimeEggSouffle_description}}",
+            "Type":"Cooking",
+            "Category":-7,
+            "Price":800,
+            "Texture":"Mods/stinkyvicki.DeliciousInStardew/objects",
+            "SpriteIndex":9,
+            "Edibility":80,
+            "IsDrink":false,
+            "Buffs":[
+                {
+                    "Duration":1150,
+                    "CustomAttributes":{
+                        "LuckLevel":2.0,
+                        "MiningLevel":2.0
+                    }
+                }
+            ]
+        },
+        "stinkyvicki_SlimeJellySandwich":{
+            "Name":"Slime Jelly Sandwich",
+            "DisplayName":"{{i18n:stinkyvicki_SlimeJellySandwich_name}}",
+            "Description":"{{i18n:stinkyvicki_SlimeJellySandwich_description}}",
+            "Type":"Cooking",
+            "Category":-7,
+            "Price":130,
+            "Texture":"Mods/stinkyvicki.DeliciousInStardew/objects",
+            "SpriteIndex":10,
+            "Edibility":30,
+            "IsDrink":false
+
+        },
+        "stinkyvicki_SlimeTorte":{
+            "Name": "Slime Torte",
+            "DisplayName":"{{i18n:stinkyvicki_SlimeTorte_name}}",
+            "Description":"{{i18n:stinkyvicki_SlimeTorte_description}}",
+            "Type":"Cooking",
+            "Category":-7,
+            "Price":120,
+            "Texture":"Mods/stinkyvicki.DeliciousInStardew/objects",
+            "SpriteIndex":11,
+            "Edibility":42,
+            "IsDrink":false,
+            "Buffs":[
+                {
+                    "Duration":650,
+                    "CustomAttributes":{
+                        "LuckLevel":1.0,
+                        "Speed":1.0
+                    }
+                }
+            ]
+        },
+        "stinkyvicki_Slimeade":{
+            "Name": "Slimeade",
+            "DisplayName":"{{i18n:stinkyvicki_Slimeade_name}}",
+            "Description":"{{i18n:stinkyvicki_Slimeade_description}}",
+            "Type":"Cooking",
+            "Category":-7,
+            "Price":80,
+            "Texture":"Mods/stinkyvicki.DeliciousInStardew/objects",
+            "SpriteIndex":12,
+            "Edibility":16,
+            "IsDrink":true,
+            "Buffs":[
+                {
+                    "Duration":650,
+                    "CustomAttributes":{
+                        "LuckLevel":1.0
+                    }
+                }
+            ]
+        },
+        "stinkyvicki_ShadowCoffee":{
+            "Name": "Shadow Coffee",
+            "DisplayName":"{{i18n:stinkyvicki_ShadowCoffee_name}}",
+            "Description":"{{i18n:stinkyvicki_ShadowCoffee_description}}",
+            "Type":"Cooking",
+            "Category":-7,
+            "Price":110,
+            "Texture":"Mods/stinkyvicki.DeliciousInStardew/objects",
+            "SpriteIndex":13,
+            "Edibility":22,
+            "IsDrink":true,
+            "Buffs":[
+                {
+                    "Duration":650,
+                    "CustomAttributes":{
+                        "Speed":1.0
+                    }
+                }
+            ]
+        }
+
+    }
+}
+]
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "(CR) Kisaa's Cozy Rustic Cellar",
+  "Author": "crystalinerose",
+  "Version": "1.0.2",
+  "Description": "A rustic multi-floor cellar with decorating space.",
+  "UniqueID": "crystalinerose.RusticCellar",
+  "UpdateKeys": [],
+  "MinimumApiVersion": "4.0.0",
+
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

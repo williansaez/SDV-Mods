@@ -1,0 +1,85 @@
+{
+  "Format": "2.8.0",
+      "ConfigSchema": {
+        "Pickaxe": {
+            "Description": "Altera o nível da ferramenta (muda a potência da picareta). Por exemplo, um nível de picareta 13 permite quebrar as grandes pedras da fazenda com um único golpe.",
+            "Section": "Tool Power Level",
+            "AllowValues": "6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30",
+            "Default": "6"
+        },
+        "Axe": {
+            "Description": "Altera o nível da ferramenta (muda a potência do machado). Por exemplo, um nível de machado 26 permite quebrar os grandes troncos com um único golpe.",
+            "Section": "Tool Power Level",
+            "AllowValues": "6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30",
+            "Default": "6"
+        },
+        "Hoe": {
+            "Description": "Altera o nível da ferramenta (muda a potência da enxada). Por exemplo, um nível de enxada 5 permite arar uma área de 5x5. (Um nível acima de 5 não aumenta a área além de 5x5 sem mods externos que permitam alterar essa área.)",
+            "Section": "Tool Power Level",
+            "AllowValues": "5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30",
+            "Default": "5"
+        },
+        "Watering Can": {
+            "Description": "Altera o nível da ferramenta (muda a potência do regador). Por exemplo, um nível de regador 5 permite regar uma área de 5x5. (Um valor acima de 5 não aumenta a área além de 5x5 sem mods externos que permitam alterar essa área.)",
+            "Section": "Tool Power Level",
+            "AllowValues": "5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30",
+            "Default": "5"
+        },
+        "Rod": {
+            "Description": "Altera o número de espaços para iscas na vara de pesca. Por exemplo, o nível 4 adiciona 3 espaços para bóias.",
+            "Section": "Tool Power Level",
+            "AllowValues": "4, 5",
+            "Default": "4"
+        },
+        "Pan": {
+            "Description": "Altera o nível da ferramenta (muda a potência da panela). Aumenta a quantidade de minérios, tesouros e a chance de aparecer um novo ponto na água. AVISO: Um valor acima de 5 quebra a animação da Infinity Pan (você verá um quadrado vermelho no lugar).",
+            "Section": "Tool Power Level",
+            "AllowValues": "5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20",
+            "Default": "5"
+        },
+        "Recolor": {
+            "Description": "Altera a aparência das ferramentas para ser compatível com outros mods de aparência.",
+            "AllowValues": "Vanilla, Vanilla Tweaks",
+            "Default": "Vanilla"
+        },
+        "Upgrade Price": {
+            "Description": "Custo de upgrade do Clint",
+            "Default": "75000"
+        },
+        "Infinity Pan Animation": {
+            "Description": "AVISO: Este mod modifica bastante a sprite sheet do fazendeiro; conflitos com outros mods que modificam o fazendeiro são possíveis. Essa opção permite desativar a animação da Infinity Pan (você verá um quadrado vermelho no lugar).",
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+	},
+	"Changes": [
+		{
+			"Action": "Include",
+			"FromFile": "Assets/Tools.json, Assets/Objects.json, Assets/Hats.json, Assets/Objects.json, Assets/Events/Caldera.json, Assets/Events/Mail.json"
+		},
+		{
+			"Action": "Load",
+			"Target": "Data/Events/Caldera",
+			"FromFile": "Assets/Events/blank.json"
+		},
+		{
+			"Action": "Load",
+			"Target": "Vanillin.InfinityTools/Tilesheets/{{Recolor}}/Infinity_Tools",
+			"FromFile": "Assets/Tilesheets/{{Recolor}}/{{TargetWithoutPath}}.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Vanillin.InfinityTools/Hats",
+			"FromFile": "Assets/Hats.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Farmer/farmer_base, Characters/Farmer/farmer_base_bald, Characters/Farmer/farmer_girl_base, Characters/Farmer/farmer_girl_base_bald",
+			"FromFile": "Assets/{{TargetWithoutPath}}.png",
+			"Priority": "Low",
+			"When": {
+				"Infinity Pan Animation": "true"
+			}
+		}
+	]
+}

@@ -1,0 +1,46 @@
+{
+   "Name": "Broken Farmhouse by glymr",
+   "Author": "glymr",
+   "Version": "1.1.4",
+   "Description": "Grandpa's farmhouse is broken down and full of junk when you move in! Can you fix it up yourself?",
+   "UniqueID": "glymr.BrokenFarmhouse",
+   "UpdateKeys": [ "Nexus:17466" ],
+   "MinimumApiVersion": "4.0.0",
+   "Dependencies": [
+   {
+      "UniqueID": "DLX.Bundles",
+      "IsRequired": true
+   },
+   {
+      "UniqueID": "mushymato.MMAP",
+      "IsRequired": true
+   },
+   {
+      "UniqueID": "Si.ECM",
+      "IsRequired": true
+   },
+   {
+      "UniqueID": "Rafseazz.RSVCP",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "flashshifter.GrandpasFarm",
+      "IsRequired": false
+   }, 
+   {
+      "UniqueID": "mitekano23.JapaneseTranslationFix",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "DaisyNiko.ZenithFarm",
+      "IsRequired": false
+   },   
+   {
+      "UniqueID": "flashshifter.immersivefarm2remastered",
+      "IsRequired": false
+   },  
+	],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+   },
+}

@@ -1,0 +1,1468 @@
+{
+	
+	//CONFIG TRANSLATIONS
+	
+	"config.section.New Dates.name": "Novos Encontros",
+	"config.section.New Dates.description": "Ativa os encontros que não estão presentes no Date Night original.",
+
+	"config.section.Date Chances.name": "Chance de Encontros",
+	"config.section.Date Chances.description": "Modifique a chance de seu cônjuge pedir um encontro.",
+	
+	"config.section.Date Reactions.name": "Reações de Encontros",
+	"config.section.Date Reactions.description": "Muda as reações dos cônjuges ao ir ou faltar a um encontro.",
+	
+	"config.section.Date Tweaks.name": "Ajustes de Encontros",
+	"config.section.Date Tweaks.description": "Altere a maneira que os pedidos de encontro e os encontros acontecem, incluindo qual cônjuge irá para o encontro se você for casado com várias pessoas, se o diálogo terá distinção entre gêneros, se o final é sugestivo ou não e muito mais.",
+	
+	"config.section.Allowed Dates.name": "Encontros Permitidos",
+	"config.section.Allowed Dates.description": "Desative ou ative encontros específicos de NPCs aqui. Abrange apenas encontros com colegas de quarto (para evitar que tenham encontros românticos) e cônjuges do jogo padrão.",
+
+	"config.IslandDate.name": "Encontro na Ilha",
+    "config.IslandDate.description": "Permite que um novo encontro genérico seja adicionado à lista de encontros disponíveis se o resort da Ilha Gengibre tiver sido desbloqueado.",
+	"config.IslandDate.values.disabled": "desativar Encontro na Ilha",
+	"config.IslandDate.values.enabled": "ativar Encontro na Ilha",
+
+	"config.WinterStarDate.name": "Encontro no Dia da Estrela Invernal",
+    "config.WinterStarDate.description": "Permite que um novo encontro raro aconteça após o Festival da Estrela Invernal.",
+	"config.WinterStarDate.values.disabled": "desativar Encontro no Dia da Estrela Invernal",
+	"config.WinterStarDate.values.enabled": "ativar Encontro no Dia da Estrela Invernal",
+	
+	"config.DateAskPercentChance.name": "Chance de Pedidos de Encontro",
+    "config.DateAskPercentChance.description": "Configure a chance diária de seu cônjuge te convidar para um encontro ao sair da Casa da Fazenda. O padrão é 10%, mas pode ser qualquer porcentagem entre 0-100. Configure para 0 para desativar eventos de encontro.",
+	
+	"config.UniqueDateChance.name": "Chance de Encontros Exclusivos",
+    "config.UniqueDateChance.description": "Escolha a chance de que, quando você for convidado para um encontro, seja para um encontro exclusivo do cônjuge (considerando que o cônjuge tem a chance de convidar para um encontro específico). Isso não afetará nada se o seu cônjuge ainda não possuir encontros exclusivos. Se definido como 0, desativa encontros exclusivos de cônjuges. Se definido como 100, desativa encontros genéricos para cônjuges que possuem encontros exclusivos, a menos que seu cônjuge ainda não tenha nenhum encontro exclusivo; Neste caso, ele ainda te convidará para encontros genéricos.",
+	
+	"config.MinHeartsRequired.name": "Mínimo de Corações para Encontros",
+    "config.MinHeartsRequired.description": "Altere o número mínimo de corações necessários com seu cônjuge para que ele te convide para um encontro. O padrão é 10 corações.",
+	
+	"config.FriendshipBonus.name": "Bônus de Amizade por Encontro",
+    "config.FriendshipBonus.description": "Altere a quantidade de amizade recebida com seu cônjuge se você ir a um encontro com ele. 'Sem bônus de amizade' desativará qualquer bônus de amizade, 'Bônus pequeno' aumentará a amizade em 25 pontos (1/10 de um coração), 'Bônus médio' aumentará em 50 pontos (2/10 de um coração), e 'Bônus grande' aumentará em 100 pontos (4/10 de um coração).",
+	"config.FriendshipBonus.values.none": "Sem bônus de amizade",
+	"config.FriendshipBonus.values.small": "Bônus pequeno de amizade (1/10 de coração)",
+	"config.FriendshipBonus.values.medium": "Bônus médio de amizade (1/5 de coração)",
+	"config.FriendshipBonus.values.large": "Bônus grande de amizade (2/5 de coração)",
+
+	"config.SpouseDispleased.name": "Reações à Encontros Perdidos",
+    "config.SpouseDispleased.description": "Permite que seu cônjuge reaja se você perder o encontro. (As reações de diálogo exigirão que o mod BETAS esteja instalado.)",
+	"config.SpouseDispleased.values.disabled": "padrão (sem reações)",
+	"config.SpouseDispleased.values.enabled": "reações de diálogo (requer BETAS)",
+
+	"config.FriendshipLoss.name": "Penalidade por Perder Encontros",
+    "config.FriendshipLoss.description": "Determina a perda de amizade por não ir a um encontro.",
+	"config.FriendshipLoss.values.none": "sem perda de amizade",
+	"config.FriendshipLoss.values.low": "perda de amizade pequena (1/8 de coração)",
+	"config.FriendshipLoss.values.medium": "perda de amizade média (3/10 de coração)",
+	"config.FriendshipLoss.values.high": "perda de amizade grande (1/2 de coração)",
+	"config.FriendshipLoss.values.heart": "perda de um coração cheio",
+	
+	"config.FreeLovePatch.name": "Compatibilidade com Poliamor",
+    "config.FreeLovePatch.description": "Se um mod de poliamor como 'Polyamory Sweet' ou 'Free Love' estiver instalado e o jogador tiver vários cônjuges, ative essa opção para que um cônjuge aleatório seja escolhido para convidá-lo para um encontro. Não faz nada se nenhum mod de poliamor estiver instalado.",
+	"config.FreeLovePatch.values.disabled": "Cônjuge principal convida para um encontro",
+	"config.FreeLovePatch.values.enabled": "Cônjuge aleatório convida para um encontro",
+	
+	"config.GenderedDialogue.name": "Diálogo com Distinção de Gênero",
+    "config.GenderedDialogue.description": "Ativa o diálogo com distinção de gênero para o diálogo usado nos eventos do Date Night. Por padrão é ativado, mas o diálogo com gênero neutro deverá ser acionado automaticamente se o gênero do seu jogador não for masculino ou feminino (por exemplo, com um mod de gênero neutro).",
+	"config.GenderedDialogue.values.disabled": "Usar diálogo com gênero neutro",
+	"config.GenderedDialogue.values.enabled": "Usar diálogo com distinção de gênero",
+	
+	"config.SuggestiveEndings.name": "Finais Sugestivos",
+    "config.SuggestiveEndings.description": "Ativa/Desativa finais sugestivos para os eventos de encontro. Os finais não são NSFW, mas podem ser desativados caso você queira.",
+	"config.SuggestiveEndings.values.disabled": "Não usar finais sugestivos",
+	"config.SuggestiveEndings.values.enabled": "Usar finais sugestivos",
+	"config.SuggestiveEnds.values.random": "Aleatorizar finais sugestivos",
+	
+	"config.LibraryDateCutscene.name": "Cutscene do Encontro da Biblioteca",
+    "config.LibraryDateCutscene.description": "Ativa/Desativa a seção de cutscene do livro durante o encontro da biblioteca. Eu recomendo vê-la pelo menos uma vez, mas se você quiser cortá-la para tornar os encontros mais curtos, você pode desativar isso depois",
+	"config.LibraryDateCutscene.values.disabled": "Remover cutscene da história da biblioteca",
+	"config.LibraryDateCutscene.values.enabled": "Usar cutscene da história da biblioteca",
+	
+	"config.ModdedSpouseFoods.name": "Pratos de cônjuges de mods",
+    "config.ModdedSpouseFoods.description": "Escolha se os cônjuges do SVE ou RSV entregarão apenas pratos do jogo original ou pratos de seus respectivos mods em seus encontros. Cônjuges do SVE entregarão ambos nos encontros do Saloon e do Piquenique, enquanto os cônjuges do RSV só irão entregá-los no encontro do Piquenique para que Gus não apareça preparando pratos do Village.",
+	"config.ModdedSpouseFoods.values.disabled": "Usar apenas pratos do jogo original",
+	"config.ModdedSpouseFoods.values.enabled": "Usar pratos de mods para cônjuges RSV/SVE",
+	
+	"config.DateReminders.name": "Lembretes de Encontro",
+	"config.DateReminders.description": "Escolha se você receberá um lembrete sobre o seu encontro. Se ativado, você receberá apenas um lembrete de encontro por dia. Não faz nada sem o SpaceCore instalado.",
+	"config.DateReminders.values.disabled": "Não usar lembretes de encontros",
+	"config.DateReminders.values.enabled": "Usar lembretes de encontros",
+
+	"config.DynamicPool.name": "Rota do Bilhar Dinâmica",
+    "config.DynamicPool.description": "Escolha se o final da rota do bilhar será como no mod original ou será mais dinânico, permitindo que seu cônjuge ou você mesmo possa aleatoriamente ganhar. A primeira vez que o encontro acontecer será como é no mod original, mas se o encontro repetir, haverá uma chance igual de o cônjuge ou o jogador ganhar no bilhar.",
+	"config.DynamicPool.values.disabled": "Usar rota do bilhar original",
+	"config.DynamicPool.values.enabled": "Usar final dinâmico da rota do bilhar",
+
+	"config.DatesOnFestivalDays.name": "Encontros em Dias de Festival",
+    "config.DatesOnFestivalDays.description": "Ativa/Desativa ser convidado a ir em um encontro em dias de festival. Geralmente muitas áreas estão fechadas ou fora de alcance em dias de festival, tornando impossível para você completar o encontro se você for convidado. Ativar isso irá permitir que você seja convidado a ir a um encontro com um festival, mesmo que você não possa concluí-lo. Quando desativado, você nunca será convidado a ir a um encontro em um dia de festival (exceto em festivais passivos). Funciona com todos os festivais originais, a Sopa Potluck da Vila Pelicanos, e os festivais do Ridgeside - mais pode ser adicionado se solicitado.",
+	"config.DatesOnFestivalDays.values.disabled": "Sem encontros em dias de festival",
+	"config.DatesOnFestivalDays.values.enabled": "Permitir encontros em dias de festival",
+
+	"config.Alcoholism.name": "Cônjuge Bebe",
+    "config.Alcoholism.description": "No Encontro na Ilha, escolha se o cônjuge pode pedir bebidas alcoólicas. O padrão é não, para que o cônjuge (como Penny) não beba sem motivo. 'Sem álcool para NPCs específicos' configura como sim, EXCETO para os NPCs listados manualmente na lista negra (veja a configuração abaixo).",
+	"config.Alcoholism.values.sober": "sem bebidas alcoólicas",
+	"config.Alcoholism.values.alcohol": "todos as bebidas são permitidas",
+	"config.Alcoholism.values.varies": "sem álcool para NPCs específicos",
+
+	"config.DesignatedDrivers.name": "NPCs Sóbrios",
+    "config.DesignatedDrivers.description": "se a configuração de escolha de bebidas estiver definida como 'sem álcool para NPCs específicos', esta lista determinará quais deles não poderão pedir bebidas. Deve ser especificado manualmente pelo usuário. Não faz nada se a configuração acima não estiver definida como 'sem álcool para NPCs específicos'. Se deixada em branco e se 'sem álcool para NPCs específicos' estiver selecionada acima, o comportamento será como se todos os cônjuges pudessem beber álcool.",
+
+	"config.ForceDateType.name": "Forçar a Escolha de um Encontro",
+    "config.ForceDateType.description": "Escolha um encontro genérico específico para ser acionado, independente das restrições do encontro, desde que você tenha sucesso no teste de encontro (o que é garantido com uma chance de 100%). Útil para testes ou se você só quer um encontro específico!",
+	"config.ForceDateType.values.none": "não escolher um encontro específico",
+	"config.ForceDateType.values.saloon": "encontro no saloon",
+	"config.ForceDateType.values.grocery": "encontro das Compras",
+	"config.ForceDateType.values.beach": "encontro na Praia",
+	"config.ForceDateType.values.forest": "encontro do Piquenique",
+	"config.ForceDateType.values.dance": "encontro da Dança (Raro)",
+	"config.ForceDateType.values.camping": "encontro do Acampamento",
+	"config.ForceDateType.values.library": "encontro da Biblioteca",
+	"config.ForceDateType.values.winterstar": "encontro do Dia da Estrela Invernal (Raro)",
+	"config.ForceDateType.values.island": "encontro na Ilha",
+	"config.ForceDateType.values.common": "escolher entre todos os encontros não raros aleatoriamente",
+
+	"config.ForceUniqueDate.name": "Forçar a Escolha de um Encontro Único",
+    "config.ForceUniqueDate.description": "Força o acionamento do encontro exclusivo de um personagem se este for Alex, Maru, Haley ou Emily e a chance estiver definida como 100%, exceto se o encontro for substituído por um encontro raro. Não funciona com nenhum outro encontro.",
+	"config.ForceUniqueDate.values.disabled": "não forçar encontros únicos",
+	"config.ForceUniqueDate.values.enabled": "forçar encontros únicos",
+	
+	"config.AllowRoommateDates.name": "Encontros com Colegas de Quarto",
+    "config.AllowRoommateDates.description": "Ativa/Desativa ser convidado para um encontro por colega de quarto platônico. NOTA: Isso não faz os eventos serem platônicos, apenas desbloqueia a possibilidade deles acontecerem. O diálogo ainda será fortemente romântico no momento.",
+	"config.AllowRoommateDates.values.disabled": "Sem encontros com colegas de quarto",
+	"config.AllowRoommateDates.values.enabled": "Permitir encontros com colegas de quarto",
+	
+	"config.DisabledDates.name": "Remover",
+    "config.DisabledDates.description": "Ativa/Desativa certos cônjuges do jogo padrão de te convidarem a ir em um encontro. Funciona bem com mods como o 'Platonic Partners and Friendships', se você tiver um colega de quarto platônico que normalmente era solteiro. Se um NPC tiver essa opção definida como true, ele nunca convidará você para um encontro. Definido como false para todos por padrão.",
+	"config.DisabledDates.values.Abigail": "Encontros de Abigail",
+	"config.DisabledDates.values.Leah": "Encontros de Leah",
+	"config.DisabledDates.values.Penny": "Encontros de Penny",
+	"config.DisabledDates.values.Maru": "Encontros de Maru",
+	"config.DisabledDates.values.Haley": "Encontros de Haley",
+	"config.DisabledDates.values.Emily": "Encontros de Emily",
+	"config.DisabledDates.values.Sebastian": "Encontros de Sebastian",
+	"config.DisabledDates.values.Elliott": "Encontros de Elliott",
+	"config.DisabledDates.values.Sam": "Encontros de Sam",
+	"config.DisabledDates.values.Harvey": "Encontros de Harvey",
+	"config.DisabledDates.values.Alex": "Encontros de Alex",
+	"config.DisabledDates.values.Shane": "Encontros de Shane",
+	
+	
+	//Date Translations
+	
+	//Common Date Lines
+	
+	"AcceptDate.Choice": "Ir a um encontro com [CharacterName {{Date}}]?",
+	"AcceptDate.Yes": "Sim",
+	"AcceptDate.No": "Não",
+	
+	"RejectDate.1": "Ah...$s#$b#Muito ${ocupado¦ocupada¦ocupade}$ de novo?$s",
+	"RejectDate.2": "Tá tudo bem, vamos deixar pra outra hora. Você pode voltar ao trabalho.", //Applies to all generic dates except Dance, Grocery and Unique Dates
+	"RejectDate.3": "Não se preocupe, não tô com raiva.#$b#Eu sei que você tá ${ocupado¦ocupada}$...Eu sabia no que estava me metendo quando me casei com você.",
+	
+	//GENERIC DATES
+	
+	//Saloon Date
+	
+		//Intro
+		"SaloonDateIntro.1": "Ei, @...",
+		"SaloonDateIntro.2": "${Querido¦Querida¦Queride}$, antes de você ir...",
+		"SaloonDateIntro.3": "@, espera aí!",
+		"SaloonDateIntro.4": "Amor, espere.",
+
+		"SaloonDateIntro.2.PPAF": "{{termofEndearment}}, antes de você ir...",
+		"SaloonDateIntro.4.PPAF": "{{termofEndearment}}, espere.",
+		
+		"SaloonDateIntro.5": "Hum, Eu estava me perguntando se talvez você queria, uh...$l#$b#...ir a um encontro hoje à noite?$l",
+		"SaloonDateIntro.6": "Eu esperava que você, talvez, uh...$l#$b#...queria sair comigo esta noite?$l",
+		
+		"SaloonDateIntro.7.Gendered": "Você está sempre tão ocupado e eu quero passar mais tempo com meu marido.$l^Você está sempre tão ocupada e eu quero passar mais tempo com minha esposa.$l",
+		"SaloonDateIntro.7.Neutral": "Você está sempre tão ocupade e eu quero passar mais tempo com você.$l",
+		
+		"SaloonDateIntro.8.Gendered": "Quero passar mais tempo com meu marido.$l^Quero passar mais tempo com minha esposa.$l",
+		"SaloonDateIntro.8.Neutral": "Quero passar mais tempo com você.$l",
+		
+		"SaloonDateIntro.9": "Eu sei que você tem muito trabalho, mas eu realmente quero ter um tempo só pra nós.$l",
+		"SaloonDateIntro.10": "Incrível, vamos nos encontrar no Saloon depois das 6.$h#$b#Mal posso esperar pra te ver!$l",
+		"SaloonDateIntro.End": "Eu tô tão feliz, ${querido¦querida¦queride}$.$h#$b#Lembre-se, é no Saloon depois das 6, ok? Não se esqueça!$h",
+
+		"SaloonDateIntro.End.PPAF": "Eu tô tão feliz, {{termofEndearment}}.$h#$b#Lembre-se, é no Saloon depois das 6, ok? Não se esqueça!$h",
+	
+		//Date
+		"SaloonDate.1": "@! Aí está você! Já tava achando que você não viria.",
+		"SaloonDate.2": "[CharacterName {{Gus}}] me deixou reservar essa sala todinha só pra gente, muito legal né?",
+		"SaloonDate.3": "Venha, se sente.",
+		"SaloonDate.4": "Estou tão feliz que você encontrou um tempinho do seu dia pra ficar comigo, @.$l",
+		"SaloonDate.5": "Eu já fiz o pedido com o [CharacterName {{Gus}}].#$b#Não se preocupe, eu pedi seu favorito!$h",
+		"SaloonDate.6": "Eu jamais acreditaria se me dissesem que eu iria me apaixonar ${pelo¦pela¦pelo}$ ${novo¦nova¦nove}$ ${fazendeiro¦fazendeira¦fazendeire}$ que se mudou pra Vila Pelicanos, mas veja onde estamos agora.$l",
+		"SaloonDate.7": "Você é a melhor coisa que aconteceu pra mim, @. Não queria que nada fosse diferente.$l",
+		"SaloonDate.8": "De qualquer forma, obrigado por aceitar esse encontro. Eu sei que você é muito ${ocupado¦ocupada¦ocupade}$",
+		"SaloonDate.9": "Seu pedido está pronto, [CharacterName {{Date}}].",
+		"SaloonDate.10": "Obrigado [CharacterName {{Gus}}]! Eu assumo daqui.", //Look into alternatives for this - translations won't translate dynamic tokens
+		"SaloonDate.11": "Mmm... do jeito que eu gosto! [CharacterName {{Date}}] me conhece tão bem!",
+		"SaloonDate.12": "Eu sabia que você ia gostar!$h", //Split into two for item giving
+		"SaloonDate.13": "Também pedi um pouco mais!",
+		"SaloonDate.14": "Certo, ${querido¦querida¦queride}$, o que você quer fazer agora?",
+		"SaloonDate.15": "O que você quer fazer agora?",
+		"SaloonDate.16": "Vamos jogar bilhar!",
+		"SaloonDate.17": "Vamos ver as ondas na praia.",
+
+		"SaloonDate.14.PPAF": "Certo, {{termofEndearment}}. O que você quer fazer agora?",
+		
+			//Beach Fork
+		
+		"Waves.1": "Você quer ver as ondas na praia?$h#$b#Isso parece romântico. Vamos lá!$h",
+		"Waves.2": "@, Eu nunca contei isso antes, mas...",
+		"Waves.3": "Na noite antes de você chegar na Vila Pelicanos, eu vim aqui pra limpar minha mente.",
+		"Waves.4": "A verdade é que... Eu não tava feliz. Naquela noite eu desejei algo que me ajudasse a me sentir feliz de novo, algo que mudasse minha vida...$s",
+		"Waves.5": "@, meu desejo se realizou.$l#$b#Meu desejo era você...",
+		"Waves.6": "Eu te amo, @.",
+		"Waves.7": "Que noite romântica. Eu sou tão ${agradecido¦agradecida¦agradecide}$ por [CharacterName {{Date}}] estar em minha vida!",
+		
+		"Waves.8": "Essa noite tem sido mágica, @.",
+		"Waves.9": "Ei, @...$l#$b#Por que não voltamos pra casa e continuamos a noite por lá?$l",
+		"Waves.10": "Uau... Isso foi ótimo, @...$l#$b#Ha, eu estou exausto(a)...$l",
+		
+			//Pool Fork
+			
+		"Pool.1": "Você quer jogar bilhar? Beleza!$h#$b#Mas eu vou ganhar de você!$h",
+		
+		"Pool.2.Gendered": "Não ache que só porque você é meu marido que eu vou pegar leve com você!^Não ache que só porque você é minha esposa que eu vou pegar leve com você!",
+		"Pool.2.Neutral": "Não ache que só porque eu me casei com você eu vou pegar leve!",
+		
+		"Pool.3": "Toma essa!",
+		"Pool.4": "A bola mal se move pra frente.",
+		"Pool.5": "Oops...",
+		"Pool.6": "[CharacterName {{Date}}] tentou seu máximo, mas eu venci facilmente, que noite divertida!",
+		
+		"Pool.7": "Eu vou vencer da próxima vez, ${querido¦querida¦queride}$. Você vai ver!$h",
+		"Pool.8": "Ei, @. Que tal irmos para casa e você me ensinar alguns dos seus truques?$l",
+		"Pool.9": "Uau... Isso foi ótimo, @...$l#$b#Ha, eu estou exausto(a)...$l",
+		
+		"Pool.7.PPAF": "Eu vou vencer da próxima vez, {{termofEndearment}}. Você vai ver!$h",
+
+		"SaloonDate.End": "Isso foi divertido... Vamos fazer isso de novo outra hora.$l",
+		
+	//Picnic Date
+	
+		//Intro
+		"PicnicDateIntro.1": "Ei, @...",
+		"PicnicDateIntro.2": "${Querido¦Querida¦Queride}$, antes de você ir...",
+		"PicnicDateIntro.3": "@, espera aí!",
+		"PicnicDateIntro.4": "Amor, espere.",
+
+		"PicnicDateIntro.2.PPAF": "{{termofEndearment}}, antes de você ir...",
+		"PicnicDateIntro.4.PPAF": "{{termofEndearment}}, espere.",
+
+		"PicnicDateIntro.5": "Hum, Eu estava me perguntando se talvez você queria, uh...$l#$b#...ir a um encontro hoje?$l",
+		"PicnicDateIntro.6": "Eu esperava que você, talvez, uh...$l#$b#...queria ir a um encontro comigo hoje?$l",
+		"PicnicDateIntro.7": "Faz tempo que quero te perguntar isso...$l#$b#@, você quer ir a um encontro comigo hoje?$l",
+		
+		"PicnicDateIntro.8.Gendered": "É que você tá sempre tão ocupado e eu quero passar mais tempo com meu incrível marido.$l^É que você tá sempre tão ocupada e eu quero passar mais tempo com minha incrível esposa.$l",
+		"PicnicDateIntro.8.Neutral": "Você está sempre tão ocupade e eu quero passar mais tempo com você.$l",
+		
+		"PicnicDateIntro.9.Gendered": "Quero passar mais tempo com meu marido.$l^Quero passar mais tempo com minha esposa.$l",
+		"PicnicDateIntro.9.Neutral": "Quero passar mais tempo com você.$l",
+		
+		"PicnicDateIntro.10": "Eu sei que você é muito ${atarefado¦atarefada¦atarefade}$, mas quero ter um tempo só pra nós.$l",
+		"PicnicDateIntro.11": "Eu quero que você veja uma coisa.$l",
+		"PicnicDateIntro.12": "Sério? Que ótimo! Me encontre na Floresta Cinzaseiva por volta do meio-dia.$h#$b#Mal posso esperar pra te ver, @!$l",
+		"PicnicDateIntro.End": "Eu tô tão feliz, ${querido¦querida¦queride}$.$h#$b#Lembre-se, venha pra floresta ao meio-dia!$h",
+		
+		"PicnicDateIntro.End.PPAF": "Eu tô tão feliz, ${querido¦querida¦queride}$.$h#$b#Lembre-se, venha pra floresta ao meio-dia!$h",
+
+		//Date
+		
+		"PicnicDate.1": "@! Você chegou bem na hora!$h",
+		"PicnicDate.2": "Então, o que você acha?$l#$b#Eu terminei de preparar agorinha...$l#$b#É um piquenique pra nós!$h",
+		"PicnicDate.3": "Eu tenho o seu Almoço de Fazendeiro preferido pronto pra você!$h#$b#Espero que goste.$l",
+		"PicnicDate.4": "Hum! Do jeitinho que eu gosto!",
+		"PicnicDate.5": "Sabe, estar aqui fora realmente me lembrou de agradecer muito mesmo pela vida que temos aqui no vale.",
+		"PicnicDate.6": "Tudo é tão lindo até onde os olhos podem ver...",
+		
+		"PicnicDate.7.Gendered": "Especialmente esse homem parado bem na minha frente!$l^Especialmente essa mulher parada bem na minha frente!$l",
+		"PicnicDate.7.Neutral": "Especialmente essa pessoa parada bem na minha frente!$l",
+		
+		"PicnicDate.8": "Toda vez que eu olho pra nossa fazenda, @, Eu me lembro de toda a sorte que eu tive.$l",
+		"PicnicDate.9": "De ter você, ter a fazenda...$l#$b#Eu devo ser a pessoa mais sortuda viva!$h",
+		"PicnicDate.10": "Que delícia!$h",
+		"PicnicDate.11": "Que bom que gostou da sua refeição, @.$l",
+		"PicnicDate.12": "Parece que ainda temos um pouco de comida... e tempo livre!#$b#O que você quer fazer agora, ${querido¦querida¦queride}$?",
+		"PicnicDate.13": "O que você quer fazer agora?",
+		"PicnicDate.14": "Vamos relaxar no lago.",
+		"PicnicDate.15": "Vamos explorar a floresta juntos!",
+
+		"PicnicDate.12.PPAF": "Parece que ainda temos um pouco de comida... e tempo livre!#$b#O que você quer fazer agora, {{termofEndearment}}?",
+
+			//Forest Fork
+			
+		"Forest.1": "A floresta? Claro! Eu nunca fui muito fundo na floresta...#$b#E não tem ninguém com quem eu queira explorar a não ser você!",
+		"Forest.2": "Certo, vamos lá!",
+		"Forest.3": "Vamos, @! Suba logo!",
+		"Forest.4": "Não se preocupe, ${querido¦querida¦queride}$! Eu te ajudo!",
+		"Forest.5": "Uau... Você consegue ver tudo daqui.",
+		"Forest.6": "Obrigado por vir neste encontro comigo, @.$l",
+		"Forest.7": "@, você me ajudou nos momentos mais difíceis. Não sei um jeito de te agradecer mais por isso.$l",
+		"Forest.8": "Eu te amo, @. Pra sempre.",
+		"Forest.9": "[CharacterName {{Date}}] realmente pôs seu coração nisso... Eu tenho muita sorte de tê-lo(a)!",
+
+		"Forest.4.PPAF": "Não se preocupe, {{termofEndearment}}! Eu te ajudo!",
+		
+			//Lake Fork
+			
+		"Lake.1": "O lago? Ah, essa é uma ótima ideia! Ouvi dizer que o lago é lindo nessa época do ano.",
+		"Lake.2": "Tudo bem então, vamos lá!",
+		"Lake.3": "Uau... Eles estavam certos.#$b#O lago tá lindo hoje.",
+		"Lake.4": "Mas não tanto quanto você.$l",
+		"Lake.5": "Obrigado por vir neste encontro comigo, @.#$b#Realmente significa muito pra mim.",
+		"Lake.6": "Você tem feito tanta coisa por mim desde que se mudou pra Vila Pelicanos...#$b#Eu só queria fazer algo especial, pra agradecer por tudo que você me deu.",
+		"Lake.7": "@, obrigado por tudo. Você me fez mais feliz do que nunca.$l",
+		"Lake.8": "Eu te amo mais que tudo, @.$l",
+		"Lake.9": "[CharacterName {{Date}}] realmente pôs seu coração nisso... Eu tenho muita sorte de tê-lo(a)!",
+		
+		//Suggestive End
+		"PicnicDate.Suggestive.1": "Ei, @...$l",
+		"PicnicDate.Suggestive.2": "Vamos nos divertir um pouco nesses arbustos antes de voltarmos?$l",
+		"PicnicDate.Suggestive.3": "Haha, Eu tô brincando!$h",
+		"PicnicDate.Suggestive.4": "Vamos pra casa ao invés disso...$l",
+		"PicnicDate.Suggestive.5": "Isso foi divertido, @!$l#$b#Vamos fazer isso de novo outra hora...$l",
+		
+		"PicnicDate.End": "Obrigado por vir, ${querido¦querida¦queride}$.$l",
+		
+		"PicnicDate.End.PPAF": "Obrigado por vir, {{termofEndearment}}.$l",
+
+	//Library Date
+	
+		//Intro
+		"LibraryDateIntro.1": "@, espere!",
+		"LibraryDateIntro.2": "${Querido¦Querida¦Queride}$, espere!",
+		"LibraryDateIntro.3": "@, espera aí!",
+		"LibraryDateIntro.4": "Amor, espera aí!",
+
+		"LibraryDateIntro.2.PPAF": "{{termofEndearment}}, espere!",
+		"LibraryDateIntro.4.PPAF": "{{termofEndearment}}, espera aí!",
+
+		"LibraryDateIntro.5": "Brr...",
+		"LibraryDateIntro.6": "Nossa, tá frio aqui fora!",
+		"LibraryDateIntro.7": "Brr... Está frio hoje.",
+		"LibraryDateIntro.8": "Nossa! Não sabia que hoje ia estar tão frio!",
+		"LibraryDateIntro.9": "Ei, @, Eu tenho uma ideia!",
+		"LibraryDateIntro.10": "Hmm... Espera, eu acho que sei o que devemos fazer hoje!",
+		"LibraryDateIntro.11": "Espera, @! Eu tenho a ideia perfeita do que podemos fazer hoje!",
+		"LibraryDateIntro.12": "Eu sei um lugar perfeito para irmos num encontro juntos! Você vem, @?$h",
+		"LibraryDateIntro.13": "Ótimo! Venha para a Biblioteca a qualquer hora hoje. Eu tenho a coisa perfeita para este dia frio!$h#$b#Mal posso esperar pra te ver!$l",
+		"LibraryDateIntro.End": "Não esqueça!$h#$b#Venha para a bibioteca a qualquer hora, ok?$h",
+		
+		//Date
+		
+		"LibraryDate.1": "Ah, @, você está aqui! Desculpe, estava deixando esse café quentinho pra você.",
+		"LibraryDate.2": "Aqui, tome um pouco!",
+		"LibraryDate.3": "Mmm... Quente e delicioso! Justo que eu precisava hoje!",
+		"LibraryDate.4": "Obrigado! Eu me certifiquei de que ficaria do jeito que você gosta.",
+		"LibraryDate.5": "Parece que eu fiz um pouco mais também!$h",
+		"LibraryDate.6": "Ei, @, Eu tive uma ideia.#$b#Vamos ler um livro juntos!$h",
+		"LibraryDate.7": "Escolha qualquer livro que você goste. Eu não ligo, contanto que eu possa ler com você!",
+		
+			//Book Choices
+		"LibraryDate.BookChoice": "Que livro deríamos ler?",
+		"LibraryDate.Detective": "Detetive La{{PlayerName}} e o Tesouro Roubado",
+		
+			//Detective Book (Default)
+		"Detective.1": "'Detetive La{{PlayerName}} e o Tesouro Roubado'...#$b#Parece divertido!$h",
+		"Detective.2": "[CharacterName {{Date}}] se aconchega mais perto de você.",
+		"Detective.3": "Vamos ler isso juntos, @!$h#$b#Você lê primeiro.",
+		"Detective.4": "'La{{PlayerName}} não era ${um¦uma¦ume}$ ${morador¦moradora¦moradore}$ qualquer de uma cidade pequena.",
+		
+		"Detective.5.Male": "'Ele se mudou para a Vila Gaivota depois de ter se cansado da sua vida sobrecarregada na cidade.'",
+		"Detective.5.Female": "'Ela se mudou para a Vila Gaivota depois de ter se cansado da sua vida sobrecarregada na cidade.'",
+		"Detective.5.Neutral": "'Elu se mudou para a Vila Gaivota depois de ter se cansado da sua vida sobrecarregada na cidade.'",
+		
+		"Detective.6": "Ei, é assim como você, @! Até seus nomes são parecidos!",
+		"Detective.7": "'Mas La{{PlayerName}} não era ${um¦uma¦ume}$ ${secretário¦secretária¦secretárie}$ de escritório qualquer.'",
+		
+		"Detective.8.Male": "'Ele era um detetive de classe mundial!'",
+		"Detective.8.Female": "'Ela era uma detetive de classe mundial!'",
+		"Detective.8.Neutral": "'Elu era ume detetive de classe mundial!'",
+		
+		"Detective.9": "Minha vez!",
+		"Detective.10": "Onde estávamos...",
+		"Detective.11": "Aha! Ok...",
+		"Detective.12": "Em uma noite fria, um problema surgiu em sua cidade pacífica...",
+		
+		"Detective.Skip": "[CharacterName {{Date}}] e eu lemos o livro o dia todo. Foi tão interessante! [CharacterName {{Date}}] disse que La{{PlayerName}} lembra a mim por algum motivo...", //Library Cutscene Disabled
+		
+				//Detective Story
+		"Detective.13": "Ei!",
+		"Detective.14": "Josie: Volte aqui, ladrão!",
+		"Detective.15": "Josie: Oh, La{{PlayerName}}! Graças a Ioba!",
+		"Detective.16": "La{{PlayerName}}: O que há de errado, Josie?",
+		"Detective.17": "Josie: Algum vândalo roubou minha preciosa herança de família! Foi passada para mim pela minha avó.",
+		
+		"Detective.18.Male": "'La{{PlayerName}} sabia o que ele tinha que fazer.'",
+		"Detective.18.Female": "'La{{PlayerName}} sabia o que ela tinha que fazer.'",
+		"Detective.18.Neutral": "'La{{PlayerName}} sabia o que tinha que fazer.'",
+		
+		"Detective.19": "'Para outros, pode ter parecido que o ladrão desapareceu no ar...#$b#...porém La{{PlayerName}} era mais ${esperto¦esperta¦esperte}$!'",
+		
+		"Detective.20.Male": "'Ele seguiu as pistas, e isso o levou direto para...'",
+		"Detective.20.Female": "'Ela seguiu as pistas, e isso o levou direto para...'",
+		"Detective.20.Neutral": "'Elu seguiu as pistas, e isso levou direto para...'",
+		
+		"Detective.21": "O esconderijo do ladrão!#$b#Isso é tão emocionante, @! Sua vez!",
+		"Detective.22": "La{{PlayerName}}: Apareça, ladrão!",
+		"Detective.23": "La{{PlayerName}}: Parado aí, ladrão! Eu vou desmascará-lo, quem quer que você seja!",
+		"Detective.24": "'O ladrão era ninguém mais, ninguém menos que...'",
+		"Detective.25": "Ah, quem será que pode ser?! Estou na borda da cadeira!",
+		"Detective.26": "[CharacterName {{Date}}]zita!", //Translator note: This is the Date's name with -reap appended to it. Likely doesn't need translating, but if you have a better idea on how to make the name work better, feel free to alter.
+		"Detective.27": "La{{PlayerName}}: [CharacterName {{Date}}]zita? Mas porquê? Você era uma pessoa boa e normal!",
+		"Detective.28": "[CharacterName {{Date}}]zita: É tarde demais! Eu já tenho tudo o que quero!",
+		"Detective.29": "[CharacterName {{Date}}]zita: Tudo que eu preciso é de um sinal dos céus, e em breve a profecia será cumprida!",
+		"Detective.30": "Profecia? Que profecia? Nós pulamos alguma parte, @?",
+		"Detective.31": "[CharacterName {{Date}}]zita: Sim, finalmente! Eu sou-",
+		
+				//Story ends here (merge no cutscene and cutscene dialogues here)
+		"Detective.32": "Com licença, [CharacterName {{Date}}] e @.",
+		"Detective.33": "Hein?",
+		"Detective.34": "Desculpe atrapalhar o casal, mas eu já estou fechando por hoje.",
+		"Detective.35": "Ah! Realmente foi tão longo assim?",
+		"Detective.36": "Eu acho que o tempo voa quando você está com a pessoa que você mais ama!",
+		"Detective.37": "Desculpe, Sr. [CharacterName {{Gunther}}], já estamos de saída.",
+		"Detective.38": "Obrigado, [CharacterName {{Date}}].",
+		"Detective.39": "Certo, @. É melhor irmos logo pra casa. É uma pena que nós não terminamos o livro, queria saber o que aconteceu depois...#$b#Ah, e eu te contei? Enquanto estávamos lendo, eu imaginei a história em minha cabeça.#$b#[CharacterName {{Jodi}}] era Josie, você era La{{PlayerName}}...#$b#E eu era [CharacterName {{Date}}]zita!$h",
+		"Detective.39.NoStory": "Certo, @. É melhor irmos logo pra casa. É uma pena que nós não terminamos o livro, queria saber o que aconteceu depois...#$b#Ah, e eu te contei? Enquanto estávamos lendo, eu imaginei a história em minha cabeça.#$b#{{Jodi}} era a cidadã em apuros, Josie, você era ${o¦a¦o}$ ${corajoso¦corajosa¦corajose}$ ${herói¦heroína¦herói}$, La{{PlayerName}}...#$b#E eu era a(o) vilã(o) [CharacterName {{Date}}]zita!$h",
+		
+		"Detective.40": "Obrigado por vir hoje, @. Eu me diverti muito.#$b#Espero que possamos fazer isso de novo outra hora.",
+		"Detective.41": "[CharacterName {{Date}}] e eu nos divertimos muito na biblioteca. que encontro maravilhoso!",
+		
+		"Detective.40.Suggestive": "Obrigado por vir hoje, @. Eu me diverti muito.",
+		"Detective.41.Suggestive": "Ei, @, quer continuar a diversão em casa?",
+		"Detective.42.Suggestive": "Isso foi incrível, @...$l#$b#Estou exausto(a)!$h",
+		
+		"LibraryDate.End": "Obrigado por vir, @. Eu agradeço muito.$l",
+	
+	//Dance Date (1st of Season)
+	
+		"DanceDate.1": "Oi, @.$l",
+		"DanceDate.2": "Eu só queria te desejar uma feliz {{Season}}. O tempo está passando rápido demais...$l#$b#Cada dia que eu passo com você é incrível, ${querido¦querida¦queride}$.$l",
+		"DanceDate.3": "Aqui, @. Eu tenho algo pra você.",
+		"DanceDate.4": "Eu mesmo(a) as colhi. Eu sei que não sou um(a) fazendeiro(a) tão bom(a) quanto você, mas espero que goste.#$b#Para mim, essa flor representa vida e felicidade...#$b#...Algo que sempre terei com você ao meu lado.$l",
+		"DanceDate.5": "Ei, @...$l",
+		"DanceDate.6": "Eu sei que isso é meio brega, mas...$l#$b#Você quer dançar comigo? Seremos só eu e você, juntos, em frente da fazenda que mudou nossas vidas.$l",
+		"DanceDate.7": "Dançar com [CharacterName {{Date}}]?",
+		"DanceDate.8": "Obrigado, ${querido¦querida¦queride}$. Vou colocar a música.$l",
+		
+		"DanceDate.2.PPAF": "Eu só queria te desejar uma feliz {{Season}}. O tempo está passando rápido demais...$l#$b#Cada dia que eu passo com você é incrível, {{termofEndearment}}.$l",
+		"DanceDate.8.PPAF": "Obrigado, {{termofEndearment}}. Vou colocar a música.$l",
+		
+		"DanceDate.9.Suggestive": "Obrigado por dançar comigo, @.$l#$b#Já posso sentir a grande estação que nos espera.$l",
+		"DanceDate.10.Suggestive": "Ei, você tem um tempinho antes de ter que trabalhar, né?$l#$b#O que acha de voltarmos pra dentro e nos divertirmos um pouco?$l",
+		"DanceDate.11.Suggestive": "Haha...$l#$b#Isso foi muito bom...$l#$b#Você é incrível, @. Eu te amo.$l",
+		
+		"DanceDate.9": "Obrigado por dançar comigo, @.$l#$b#Já posso sentir a grande estação que nos espera. Eu te amo, @.$l",
+		
+		"DanceDate.ILoveYou": "Eu também te amo, [CharacterName {{Date}}].",
+		"DanceDate.End": "Obrigado por dançar comigo, ${querido¦querida¦queride}$, tenha uma ótima {{Season}}.",
+		
+		"DanceRefusal.1": "Ah...$s#$b#Muito ${ocupado¦ocupada¦ocupade}$?$s",
+		"DanceRefusal.2": "Eu entendo. O início de uma nova estação significa mais trabalho pra você.$s#$b#Tudo bem, acho que podemos passar um tempo juntos mais tarde...$s#$b#Eu só queria que você tivesse mais tempo pra mim...",
+		"DanceRefusal.3": "Não se preocupe, não tô com raiva.#$b#Eu sei que você tá ${ocupado¦ocupada¦ocupade}$... Eu sabia no que estava me metendo quando me casei com você.",
+	
+	//Beach Date
+	
+		//Intro
+		"BeachDateIntro.1": "Ei, @...",
+		"BeachDateIntro.2": "${Querido¦Querida¦Queride}$, antes de você ir...",
+		"BeachDateIntro.3": "@, espera aí!",
+		"BeachDateIntro.4": "Amor, espere.",
+
+		"BeachDateIntro.2.PPAF": "{{termofEndearment}}, antes de você ir...",
+		"BeachDateIntro.4.PPAF": "{{termofEndearment}}, espere.",
+
+		"BeachDateIntro.5": "Nossa... Tá muito quente aqui fora.",
+		"BeachDateIntro.6": "Caramba, eu posso sentir o sol batendo forte hoje.",
+		"BeachDateIntro.7": "Nossa! Eu sei que é verão, mas tá mais quente do que eu esperava!",
+		
+		"BeachDateIntro.8.Gendered": "Ei, @, eu tenho uma ideia...#$b#Você quer ir à praia hoje?#$b#Seria ótimo para se refrescar e relaxar. Eu sei que você tá sempre ${ocupado¦ocupada}$ e merece um tempo pra relaxar.#$b#Além disso, posso passar tempo com meu incrível marido!$l^Além disso, posso passar tempo com minha incrível esposa!$l",
+		"BeachDateIntro.8.Neutral": "Ei, @, eu tenho uma ideia...#$b#Você quer ir à praia hoje?#$b#Seria ótimo para se refrescar e relaxar. Eu sei que você tá sempre ocupade e merece um tempo pra relaxar.#$b#Além disso, posso passar tempo com você!$l",
+		
+		"BeachDateIntro.9": "E então, ${querido¦querida¦queride}$?",
+		"BeachDateIntro.10": "Sério? Ótimo!$h#$b#Me encontre na praia depois das 10.#$b#Mas venha antes de escurecer!#$b#Ainda quero ter tempo suficiente pra ficar com você.$l",
+		"BeachDateIntro.11": "Tudo certo ${querido¦querida¦queride}$, tenha uma ótima manhã! Te vejo mais tarde!",
+		"BeachDateIntro.11.PPAF": "Tudo certo {{termofEndearment}}, tenha uma ótima manhã! Te vejo mais tarde!",
+		"BeachDateIntro.End": "Oi, amorzinho! Eu tô tão ansioso(a) pro nosso encontro hoje.$l#$b#Lembre-se, venha para a praia depois das 10 mas antes de escurecer, ok?",
+		
+		"BeachDateIntro.End.PPAF": "Oi, {{termofEndearment}}! Eu tô tão ansioso(a) pro nosso encontro hoje.$l#$b#Lembre-se, venha para a praia depois das 10 mas antes de escurecer, ok?",
+
+		//Date
+		
+		"BeachDate.1": "@, você está aqui!$h",
+		"BeachDate.2": "O que você acha? Passei a manhã toda preparando isso para nós.#$b#Vai ser o dia de praia perfeito!",
+		"BeachDate.3": "Trouxe uma pizza fresquinha do Saloon e até comprei um pouco de vinho para aproveitarmos!",
+		"BeachDate.4": "Espero que você goste, @.$l",
+		"BeachDate.5": "Ok, vamos comer!$h",
+		"BeachDate.6": "Certo, @! Vamos devorar isso!",
+		"BeachDate.7": "Hum! A pizza está perfeita!",
+		"BeachDate.8": "Que delícia! A pizza do Saloon nunca desaponta!$h",
+		"BeachDate.9": "Mmm... Este vinho valeu a pena!#$b#Temos muito mais, também!",
+		"BeachDate.10": "Aqui, @. Guarde para um dia chuvoso.",
+		"BeachDate.11": "Certo! Agora é hora de se divertir!#$b#O que você quer fazer, ${querido¦querida¦queride}$?",
+		"BeachDate.12": "O que devemos fazer?",
+		"BeachDate.13": "Vamos nadar!",
+		"BeachDate.14": "Vamos ver as piscinas naturais!",
+
+		"BeachDate.11.PPAF": "Certo! Agora é hora de se divertir!#$b#O que você quer fazer, {{termofEndearment}}?",
+		
+			//Swimming Fork
+			
+		"Swim.1": "Nadar? Parece divertido!$h#$b#Assim podemos nos refrescar um pouco desse calor escaldante.",
+		"Swim.2": "Certo, ${querido¦querida¦queride}$, vamos lá!",
+		"Swim.3": "Nossa... Isso é legal!$h#$b#A brisa refrescante do mar me traz um sentimento de paz, por algum motivo.",
+		"Swim.4": "O mundo é enorme além do oceano, mas...#$b#Não há lugar onde eu gostaria de estar mais do que aqui, ao seu lado.$l",
+		"Swim.5": "Muito bem, ${querido¦querida¦queride}$?",
+		"Swim.6": "Vamos dar um mergulho!",
+		"Swim.7": "Vem cá, ${querido¦querida¦queride}$! A água está ótima!",
+		"Swim.8": "Ha! Isso é legal.$h",
+		"Swim.9": "O que foi, ${querido¦querida¦queride}$?$s#$b#Não precisa ter medo, ${querido¦querida¦queride}$. Eu estou aqui.",
+		"Swim.10": "Vou garantir que você esteja bem.#$b#Sempre vou estar aqui, ${querido¦querida¦queride}$. Nos piores e melhores momentos. Pode ter certeza de que estarei lá pra você.",
+		"Swim.11": "Eu te amo, @.",
+		"Swim.12": "Eu também te amo, [CharacterName {{Date}}].",
+		"Swim.13": "Eu sempre estarei lá pra você também.",
+		"Swim.14": "Espero que nós possamos ficar juntos pra sempre.",
+		"Swim.15": "Haha, viu?$h#$b#Você não precisa ficar com medo enquanto estiver ao meu lado. O oceano é divertido!",
+		"Swim.16": "Esse é o espírito, ${querido¦querida¦queride}$!",
+		"Swim.17": "Os respingos de [CharacterName {{Date}}] encharcam você de água.",
+		"Swim.18": "Oops! Me desculpa, ${querido¦querida¦queride}$!",
+		"Swim.19": "Eu persegui [CharacterName {{Date}}] por um longo tempo para tentar encharcá-lo(a) de volta.",
+		"Swim.20": "Depois de quase 5 minutos de perseguição, eu finalmente consegui!",
+		"Swim.21": "Haha, ok ${querido¦querida¦queride}$, você me pegou!$h",
+		"Swim.22": "Isso foi divertido!$h#$b#Agora nós dois estamos encharcados!$h",
+		"Swim.23": "Eu estava me divertindo tanto com [CharacterName {{Date}}] que perdi a noção do tempo! Que encontro maravilhoso!",
+		
+				//Suggestive Lines
+		"Swim.24": "Ei, ${querido¦querida¦queride}$...$l#$b#Não podemos continuar nosso dia com nossos trajes de banho, né?$l#$b#Vamos voltar para casa e tirá-los...",
+		"Swim.25": "Nossa, @... Isso foi ótimo...$l#$b#Você é incrível, sabia? Não sei se alguém já te disse isso, mas acredite em mim...$l",
+		
+
+		"Swim.2.PPAF": "Certo, {{termofEndearment}}, vamos lá!",
+		"Swim.5.PPAF": "Muito bem, {{termofEndearment}}?",
+		"Swim.7.PPAF": "Vem cá, {{termofEndearment}}! A água está ótima!",
+		"Swim.9.PPAF": "O que foi, {{termofEndearment}}?$s#$b#Não precisa ter medo, {{termofEndearment}}. Eu estou aqui.",
+		"Swim.10.PPAF": "Vou garantir que você esteja bem.#$b#Sempre vou estar aqui, {{termofEndearment}}. Nos piores e melhores momentos. Pode ter certeza de que estarei lá pra você.",
+		"Swim.16.PPAF": "Esse é o espírito, {{termofEndearment}}!",
+		"Swim.18.PPAF": "Oops! Me desculpa, {{termofEndearment}}!",
+		"Swim.21.PPAF": "Haha, ok {{termofEndearment}}, você me pegou!$h",
+		
+				//Suggestive Lines
+		"Swim.24.PPAF": "Ei, @...$l#$b#Não podemos continuar nosso dia com nossos trajes de banho, né?$l#$b#Vamos voltar para casa e tirá-los...", 
+		
+		
+			//Tide Pool Fork
+			
+		"TidePool.1": "As piscinas naturais? Ah, parece legal! Nunca mais fui lá desde que a ponte foi destruída.#$b#Ouvi dizer que é um espetáculo pra se ver durante o verão!$h",
+		"TidePool.2": "Certo, ${querido¦querida¦queride}$, vamos lá!",
+		"TidePool.3": "Uau, realmente parece legal nesta época do ano!",
+		"TidePool.4": "O que é isso?",
+		"TidePool.5": "É um caranguejo!#$b#Mas por que parece tão assustado?$s",
+		
+		"TidePool.6.Gendered": "Ei, Sr. Caranguejo, você está bem?$s^Ei, Sra. Caranguejo, você está bem?",
+		"TidePool.6.Neutral": "Ei, Carangueje, você está bem?$s", //Small change for gender neutral players, since the game supports gender neutral dialogues now and if someone sets it to non-gendered, should have a backup line
+		
+		"TidePool.7": "*clamp...*",
+		"TidePool.8": "Parece tão solitário, @...$s#$b#Eu queria ajudá-lo, mas eu sei que dizem que devemos deixar a natureza intocada...$s",
+		
+		"TidePool.9.Gendered": "Sentimos muito, Sr. Caranguejo. Gostaríamos de poder ajudá-lo...$s^Sentimos muito, Sra. Caranguejo. Gostaríamos de poder ajudá-la...$s",
+		"TidePool.9.Neutral": "Sentimos muito, Carangueje. Gostaríamos de poder te ajudar...$s",
+		
+		"TidePool.10": "Tem alguma outra coisa por aqui?",
+		"TidePool.11": "O que é isso, ${querido¦querida¦queride}$?",
+		
+		"TidePool.12.Gendered": "Esse deve ser a amiga dele!$h^Esse deve ser o amigo dela!$h",
+		"TidePool.12.Neutral": "Esse deve ser a amigue delu!$h",
+		
+		"TidePool.13.Gendered": "Ela voltou por ele, @!^Ele voltou por ela, @!", //Consider making this non-heterosexual? Granted, they're crabs, so it shouldn't matter that much.
+		"TidePool.13.Neutral": "Elu voltou por Elu, @!",
+		
+		"TidePool.14.Gendered": "Ela sabia que ele estava triste, então ela veio ajudar.^Ele sabia que ela estava triste, então ele veio ajudar.#$b#É como eu e você, ${querido¦querida}$!$h#$b#Eu estarei aqui por você sempre que você se sentir triste ou com medo.$l#$b#Eu sempre vou te ajudar, ${querido¦querida}$.$l",
+		"TidePool.14.Neutral": "Elu sabia que su amigue estava triste, então elu veio ajudar.#$b#É como eu e você, queride!$h#$b#Eu estarei aqui por você sempre que você se sentir triste ou com medo.$l#$b#Eu sempre vou te ajudar, queride.$l",
+		
+		"TidePool.15": "O amor é algo universal. Mesmo em animais como esses caranguejos, o amor consegue uni-los.",
+		"TidePool.16": "Eu te amo, @. Espero que saiba disso.#$b#Eu te amo muito.",
+		"TidePool.17": "Eu também te amo, [CharacterName {{Date}}].",
+		"TidePool.18": "Eu sempre estarei aqui por você também.",
+		"TidePool.19": "Espero que nós possamos ficar juntos pra sempre.",
+		"TidePool.20": "*Clamp!*",
+		"TidePool.21": "Ver aqueles caranguejos realmente me lembrou de como eu sou sortudo(a) de ter alguém como você, @.$l#$b#Esse encontro com você foi incrível.",
+		
+		"TidePool.22.NotSuggestive": "Que encontro maravilhoso! Eu me diverti muito com [CharacterName {{Date}}]. Mal posso esperar pra fazer isso de novo!",
+		
+		"TidePool.22": "Ei, ainda temos algum tempo antes de você voltar ao trabalho...$l#$b#Que tal voltarmos para casa e tirar essas roupas cheias de areia...$l",
+		"TidePool.23": "Nossa, @... Isso foi ótimo...$l#$b#Você é incrível, sabia? Não sei se alguém já te disse isso, mas acredite em mim...$l",
+
+		"TidePool.2.PPAF": "Certo, {{termofEndearment}}, vamos lá!",
+		"TidePool.11.PPAF": "O que é isso, {{termofEndearment}}?",
+		
+		"TidePool.14.Gendered.PPAF": "${Ela^Ele^Elu}$ sabia que ${ele^ela^su amigue}$ estava triste, então ${ela^ele^elu}$ veio ajudar.#$b#É como eu e você, {{termofEndearment}}!$h#$b#Eu estarei aqui por você sempre que você se sentir triste ou com medo.$l#$b#Eu sempre vou te ajudar, {{termofEndearment}}.$l",
+		"TidePool.14.Neutral.PPAF": "Elu sabia que su amigue estava triste, então elu veio ajudar.#$b#É como eu e você, {{termofEndearment}}!$h#$b#Eu estarei aqui por você sempre que você se sentir triste ou com medo.$l#$b#Eu sempre vou te ajudar, {{termofEndearment}}.$l",
+		
+		"BeachDate.End": "Ah, não se importe comigo, ${querido¦querida¦queride}$. Eu ainda estou maravilhado(a) com a sorte que tive por ter encontrado você.$l#$b#Obrigado por esse encontro mágico, @.",
+	
+		"BeachDate.End.PPAF": "Ah, não se importe comigo, {{termofEndearment}}. Eu ainda estou maravilhado(a) com a sorte que tive por ter encontrado você.$l#$b#Obrigado por esse encontro mágico, @.",
+
+	//Grocery Date
+	
+		//Intro
+		"GroceryDateIntro.1": "Ah, oi ${querido¦querida¦queride}$.",
+		"GroceryDateIntro.2": "Eu estava indo para o Armazém do Pierre para fazer as compras da semana. Temos que manter a comida estocada! Eu odeio te ver com fome depois de um dia longo de trabalho.",
+		"GroceryDateIntro.3": "Ei, @...$l#$b#Eu pensei que você talvez quisesse ir comigo? Eu sei que não é o encontro mais romântico do mundo, mas eu faria qualquer coisa para passar mais tempo com você...",
+		"GroceryDateIntro.4": "Sério? Ótimo!$h#$b#Vamos nos encontrar no Armazém do Pierre antes que feche. Eu vou entrar e pegar outra sacola pra você.",
+		"GroceryDateIntro.End": "Obrigado por aceitar vir comigo, @. Fazer compras no supermercado não é muito divertido, mas tudo se torna mais divertido com você ao meu lado.$l",
+		
+		"GroceryDateIntro.1.PPAF": "Ah, oi {{termofEndearment}}.",
+
+		"GroceryDate.Refusal.1": "Ah...$s#$b#Muito ${ocupado¦ocupada¦ocupade}$ de novo?$s",
+		"GroceryDate.Refusal.2": "Tudo bem, podemos fazer isso outra hora, você pode voltar ao trabalho. Eu posso ir sozinho(a) hoje.",
+		"GroceryDate.Refusal.3": "Não se preocupe, não tô com raiva.#$b#Eu sei que você tá ${ocupado¦ocupada¦ocupade}$... Eu sabia no que estava me metendo quando me casei com você.",
+	
+		//Date
+		"GroceryDate.1": "@! Você chegou aqui rápido!",
+		"GroceryDate.2": "Certo, ${querido¦querida¦queride}$, vamos fazer compras!",
+		"GroceryDate.3": "Vamos precisar disso para o jantar esta noite...#$b#Ah, também vamos pegar alguns biscoitos para a sobremesa!",
+		"GroceryDate.4": "Você precisa de alguma coisa, ${querido¦querida¦queride}$?",
+		"GroceryDate.5": "Eu preciso de alguma coisa da loja?",
+		"GroceryDate.6": "Ovos!",
+		"GroceryDate.7": "Leite!",
+		"GroceryDate.8": "Frutas!",
+		"GroceryDate.9": "Sementes!",
+		"GroceryDate.10": "Guloseimas!",
+		"GroceryDate.11": "Não, eu estou bem!",
+
+		"GroceryDate.2.PPAF": "Certo, {{termofEndearment}}, vamos fazer compras!",
+		"GroceryDate.4.PPAF": "Você precisa de alguma coisa, {{termofEndearment}}?",
+		
+			//Eggs Fork
+		"Eggs.1": "Ah, você precisa de ovos?#$b#É isso aí, consumir proteína é importante, ainda mais pra alguém que trabalha tanto como você.$l",
+		"Eggs.2": "Tudo bem, ${querido¦querida¦queride}$, vamos comprar ovos. Eles devem estar aqui em algum lugar...",
+		"Eggs.3": "Aqui, ${querido¦querida¦queride}$#$b#Espero que você faça uma omelete com isso... Você cozinha muito bem!",
+
+		"Eggs.2.PPAF": "Tudo bem, {{termofEndearment}}, vamos comprar ovos. Eles devem estar aqui em algum lugar...",
+		"Eggs.3.PPAF": "Aqui, {{termofEndearment}}!#$b#Espero que você faça uma omelete com isso... Você cozinha muito bem!",
+			
+			//Milk Fork
+		"Milk.1": "Você quer comprar leite? Ok!#$b#${Um¦Uma¦Ume}$ ${trabalhador¦trabalhadora¦trabalhadore}$ ${esforçado¦esforçada¦esforçade}$ como você precisa de muita energia, não é mesmo?",
+		"Milk.2": "Tudo bem, ${querido¦querida¦queride}$, vamos comprar leite. Deve estar aqui em algum lugar...",
+		"Milk.3": "Aqui, ${querido¦querida¦queride}$!#$b#Beba e fique mais forte do que você já é!",
+
+		"Milk.2.PPAF": "Tudo bem, {{termofEndearment}}, vamos comprar leite. Deve estar aqui em algum lugar...",
+		"Milk.3.PPAF": "Aqui, {{termofEndearment}}!#$b#Beba e fique mais forte do que você já é!",
+		
+			//Fruit Fork
+		"Fruit.1": "Ah, isso é uma ótima ideia!#$b#Algumas frutas seriam ótimas. Uma mistura perfeita de doçura e saúde!",
+		"Fruit.2": "Certo, ${querido¦querida¦queride}$, vamos comprar frutas. Elas devem estar aqui em algum lugar...",
+		"Fruit.3": "Aqui, @. Vamos levar algumas dessas. Ouvi dizer que elas são ótimas pra comer depois de um dia longo de trabalho!",
+		
+		"Fruit.2.PPAF": "Certo, {{termofEndearment}}, vamos comprar frutas. Elas devem estar aqui em algum lugar...",
+
+			//Seeds Fork
+		"Seeds.1": "Sementes? É claro!#$b#${Um¦Uma¦Ume}$ ${fazendeiro¦fazendeira¦fazendeire}$ ${trabalhador¦trabalhadora¦trabalhadore}$ como você precisa estar sempre ${preparado¦preparada¦preparade}$.$l",
+		"Seeds.2": "Certo, ${querido¦querida¦queride}$, vamos comprar sementes. Elas devem estar aqui em algum lugar...",
+		"Seeds.3": "Aqui, ${querido¦querida¦queride}$! Algumas sementes pra você. Plante-as e faça nossa fazenda brilhar, ${querido¦querida¦queride}$!#$b#Ah, e se você tiver colheitas sobrando, Eu não me importaria de comer alguns de seus pratos incríveis com ingredientes frescos...$l",
+		
+		"Seeds.2.PPAF": "Certo, {{termofEndearment}}, vamos comprar sementes. Elas devem estar aqui em algum lugar...",
+		"Seeds.3.PPAF": "Aqui, {{termofEndearment}}! Some seeds for you. Algumas sementes pra você. Plante-as e faça nossa fazenda brilhar, {{termofEndearment}}!#$b#Ah, e se você tiver colheitas sobrando, Eu não me importaria de comer alguns de seus pratos incríveis com ingredientes frescos...$l",
+
+			//Treats Fork
+		"Treats.1": "Guloseimas? É claro!#$b#Eu sei que devemos ter uma dieta saudável, mas um ou dois salgadinhos não machucam ninguém, né?",
+		"Treats.2": "Acho que tem ótimas opções por aqui, ${querido¦querida¦queride}$... Vamos dar uma olhada.",
+		"Treats.3": "Hum! Vamos levar esses, @. Mal posso esperar pra comer isso na sobremesa!",
+		
+		//Date (continued)
+		
+		"GroceryDate.12": "Certo, ${querido¦querida¦queride}$! Vamos conferir com o [CharacterName {{Pierre}}] então!",
+		"GroceryDate.13": "Olá, [CharacterName {{Pierre}}]! Aqui está o que vamos comprar hoje.",
+		"GroceryDate.14": "Olá, ${Fazendeiro¦Fazendeira¦Fazendeire}$ @ e [CharacterName {{Date}}]. Obrigado por comprarem no Armazém do Pierre.#$b#Vocês encontraram tudo o que queriam, certo?",
+		"GroceryDate.15": "Sim! Estava tudo ótimo.",
+		"GroceryDate.16": "É muito bom ouvir isso.#$b#Tudo bem, o total deve ser de cerca de 700 ouros.",
+		"GroceryDate.17": "Ótimo! Tenho dinheiro bem aqui...",
+		"GroceryDate.18": "Se oferecer para pagar",
+		"GroceryDate.19": "Deixar [CharacterName {{Date}}] Pagar",
+
+		"GroceryDate.12.PPAF": "Certo, {{termofEndearment}}! Vamos conferir com o [CharacterName {{Pierre}}] então!",
+		
+			//Offer to Pay
+		"Offer.1": "O quê, ${querido¦querida¦queride}$?#$b#Você quer pagar?#$b#Não se preocupe, ${querido¦querida¦queride}$! Você não precisa! Você já faz tanto por nós e eu quero ajudar da maneira que puder.",
+		"Offer.2": "Insistir em pagar",
+		"Offer.3": "Deixar [CharacterName {{Date}}] Pagar",
+
+		"Offer.1.PPAF": "O quê, {{termofEndearment}}?#$b#Você quer pagar?#$b#Não se preocupe, {{termofEndearment}}! Você não precisa! Você já faz tanto por nós e eu quero ajudar da maneira que puder.",
+		
+			//Date Pays
+		"DatePay.1": "Certo, [CharacterName {{Date}}], obrigado por vir!#$b#Tenham um bom dia.",
+		"DatePay.2": "Obrigado, você também!",
+		"DatePay.3": "Obrigado por me deixar pagar, ${querido¦querida¦queride}$. Eu sei que você trabalha muito, então eu só queria deixar sua vida mais fácil.",
+		
+		"DatePay.3.PPAF": "Obrigado por me deixar pagar, {{termofEndearment}}. Eu sei que você trabalha muito, então eu só queria deixar sua vida mais fácil.",
+
+			//Player Pays
+		"PlayerPay.1": "!!!$l#$b#${Querido¦Querida¦Queride}$, O que eu fiz para merecer você?$l#$b#Se você insiste, tudo bem. Eu deixo você pagar dessa vez...$l#$b#Mas eu pago da próxima vez, tá bom?$l",
+		"PlayerPay.2": "Você pagou 700 ouros.",
+		"PlayerPay.3": "Obrigado, @! Tenham um ótimo dia.",
+
+		"PlayerPay.1.PPAF": "!!!$l#$b#{{termofEndearment}}, O que eu fiz para merecer você?$l#$b#Se você insiste, tudo bem. Eu deixo você pagar dessa vez...$l#$b#Mas eu pago da próxima vez, tá bom?$l",
+
+		//Date End
+		
+		"GroceryDate.20": "Certo, ${querido¦querida¦queride}$. Vamos pra casa.",
+		"GroceryDate.21": "Obrigado por vir fazer as compras comigo, @. Eu sei que não é a coisa mais emocionante, mas se torna infinitamente mais emocionante quando eu faço isso com você.",
+		
+		"GroceryDate.22": "Ei, @...$l",
+		"GroceryDate.23": "[CharacterName {{Date}}] começa a sussurrar em seu ouvido.",
+		"GroceryDate.24": "Vamos levar essas sacolas pra casa e nos divertir um pouco, ok?$l",
+		"GroceryDate.25": "Isso foi divertido, @....$l#$b#Acho que vou começar a te pedir para vir comigo à loja mais vezes agora...$l",
+		
+		"GroceryDate.22.NotSuggestive": "Venha, vamos pra casa e relaxar um pouco agora.",
+		"GroceryDate.23.NotSuggestive": "Isso foi divertido, @.$l#$b#Acho que vou começar a te pedir para vir comigo à loja mais vezes agora!$l",
+		
+		"GroceryDate.DateEnd": "Eu também quero ir à loja mais vezes com [CharacterName {{Date}}]!",
+		
+		"GroceryDate.End": "Obrigado de novo, ${querido¦querida¦queride}$. Você faz qualquer tarefa chata virar algo especial.$l",
+	
+		"GroceryDate.20.PPAF": "Certo, {{termofEndearment}}. Vamos pra casa.",
+		
+		"GroceryDate.End.PPAF": "Obrigado de novo, {{termofEndearment}}. Você faz qualquer tarefa chata virar algo especial.$l",
+
+	//Camping Date
+	
+		//Intro
+		"CampingDateIntro.1": "Ei, @...",
+		"CampingDateIntro.2": "${Querido¦Querida¦Queride}$, antes de você ir...",
+		"CampingDateIntro.3": "@, espera aí!",
+		"CampingDateIntro.4": "Amor, espere.",
+
+		"CampingDateIntro.2.PPAF": "{{termofEndearment}}, antes de você ir...",
+		"CampingDateIntro.4.PPAF": "{{termofEndearment}}, espere.",
+
+		"CampingDateIntro.5": "O dia está lindo hoje...#$b#Eu estava me perguntando se você talvez queria, uh...$l#$b#... Acampar comigo hoje à noite?$l#$b#Vai ser divertido, só eu e você na natureza tranquila.",
+		"CampingDateIntro.6": "Obrigado, @! Vamos nos encontrar na floresta Cinzaseiva depois das 8 da noite. Eu vou preparar tudo.#$b#Mal posso esperar para te ver lá! Ah, e lembre-se de terminar seu trabalho antes de vir. Vamos passar a noite inteira juntos!$h",
+		"CampingDateIntro.7": "Eu vou deixar tudo pronto pro nosso encontro hoje à noite, @.$h#$b#Você só precisa chegar na floresta depois das 8 da noite!$h#$b#Não se esqueça!",
+		
+		//Date
+		"CampingDate.1": "Oi, ${querido¦querida¦queride}$.$l#$b#Eu passei a tarde toda preparando isso pra nós. Espero que você goste.$l",
+		"CampingDate.2": "Aqui, eu assei um pouco de comida pra nós!",
+		"CampingDate.3": "Que Delícia! Peixe é sempre melhor quando está recém-assado!",
+		"CampingDate.4": "Estou feliz que você gostou, ${querido¦querida¦queride}$!$h#$b#Vem cá, vamos sentar perto da fogueira.$l",
+		"CampingDate.5": "[CharacterName {{Date}}] se aconchega mais perto de você.",
+		"CampingDate.6": "Sabe, alguma coisa nessa vista tranquila me faz sentir à vontade.#$b#Eu costumava ter muito estresse, muitas preocupações...#$b#Mas quando estou com você, tudo isso vai embora...$l#$b#Eu serei eternamente grato(a) por isso, @.",
+		"CampingDate.7": "Ok, ${querido¦querida¦queride}$! O que você quer fazer agora?",
+		"CampingDate.8": "O que você quer fazer agora?",
+		"CampingDate.9": "Vamos lançar algumas pedras na água.",
+		"CampingDate.10": "Vamos ver as estrelas juntos.",
+
+		"CampingDate.1.PPAF": "Oi, {{termofEndearment}}.$l#$b#Eu passei a tarde toda preparando isso pra nós. Espero que você goste.$l",
+		"CampingDate.4.PPAF": "Estou feliz que você gostou, {{termofEndearment}}!$h#$b#Vem cá, vamos sentar perto da fogueira.$l",
+		"CampingDate.7.PPAF": "Ok, {{termofEndearment}}! O que você quer fazer agora?",
+
+			//Rock Skipping Fork
+			
+		"RockSkip.1": "Lançar pedras parece uma ótima ideia, ${querido¦querida¦queride}$.$l#$b#Vamos fazer isso!$h",
+		"RockSkip.2": "A água parece ainda mais calma à noite.$l",
+		"RockSkip.3": "Muito bem, ${querido¦querida¦queride}$, veja isso!",
+		"RockSkip.4": "Uau! Essa foi boa!$h",
+		"RockSkip.5": "Sua vez, ${querido¦querida¦queride}$",
+		"RockSkip.6": "Haha! Não se preocupe, ${querido¦querida¦queride}$. Eu posso te ensinar como fazer isso melhor.",
+		"RockSkip.7": "Primeiro, você tem que segurar a pedra desse jeito...",
+		"RockSkip.8": "[CharacterName {{Date}}] coloca a mão em seu ombro.",
+		"RockSkip.9": "Depois, você tem que sacudir seu pulso assim quando for jogar...",
+		"RockSkip.10": "E certifique-se de dar tudo de si!",
+		"RockSkip.11": "Muito bom, @! Tudo o que você precisava era de uma pequena ajuda minha, mas você tem o dom!",
+		"RockSkip.12": "Eu sempre estarei aqui pra você, ${querido¦querida¦queride}$. Sempre!$l",
+		
+		"RockSkip.13.Suggestive": "Por que não vamos até a barraca? Eu posso te ensinar um pouco mais lá dentro...$l",
+		"RockSkip.14.Suggestive": "Haha... Isso foi divertido...$l#$b#Acho que vou te pedir para acampar mais vezes agora!#$b#Vamos dormir agora, ${querido¦querida¦queride}$.",
+		
+		"RockSkip.13": "Certo, ${querido¦querida¦queride}$, vamos voltar para a barraca agora. Temos um longo dia pela frente!",
+		"RockSkip.14": "Obrigado por vir acampar comigo essa noite, @.$l#$b#Espero que possamos fazer isso de novo outra hora.$l",
+		"RockSkip.15": "Espero que eu possa passar mais tempo com [CharacterName {{Date}}] também!",
+		"RockSkip.16": "*Bocejo*#$b#Agora vamos dormir...",
+
+		"RockSkip.1.PPAF": "Lançar pedras parece uma ótima ideia, {{termofEndearment}}.$l#$b#Vamos fazer isso!$h",
+		"RockSkip.3.PPAF": "Muito bem, {{termofEndearment}}, veja isso!",
+		"RockSkip.5.PPAF": "Sua vez, {{termofEndearment}}!",
+		"RockSkip.6.PPAF": "Haha! Não se preocupe, {{termofEndearment}}. Eu posso te ensinar como fazer isso melhor.",
+		"RockSkip.12.PPAF": "Eu sempre estarei aqui pra você, {{termofEndearment}}. Sempre!$l",
+
+		"RockSkip.14.Suggestive.PPAF": "Haha... Isso foi divertido...$l#$b#Acho que vou te pedir para acampar mais vezes agora!#$b#Vamos dormir agora, {{termofEndearment}}.",
+		
+		"RockSkip.13.PPAF": "Certo, {{termofEndearment}}, vamos voltar para a barraca agora. Temos um longo dia pela frente!",
+			
+			//Stargazing Fork
+			
+		"Stars.1": "Ver as estrelas? Isso parece romântico!$h#$b#Vamos fazer isso, ${querido¦querida¦queride}$.$l",
+		"Stars.2": "Uau... É lindo!",
+		"Stars.3": "Há tanta coisa lá fora... O universo é muito maior do que podemos imaginar, @.$l#$b#Você e eu somos apenas pequenas manchas na imensidão da galáxia...$l",
+		"Stars.4": "É meio incrível, não é, @?#$b#Das trilhões de coisas neste universo...#$b#Nós fomos reunidos...$l",
+		"Stars.5": "Eu serei profundamente grato(a) por ter te conhecido, ${querido¦querida¦queride}$.$l",
+		
+		"Stars.6.Suggestive": "Ei, @...",
+		"Stars.7.Suggestive": "Por que não entramos na barraca? Eu posso te mostrar algo de outro mundo...$l",
+		"Stars.8.Suggestive": "Haha... Isso foi divertido...$l#$b#Acho que vou te pedir para acampar mais vezes agora!#$b#Vamos dormir agora, ${querido¦querida¦queride}$.",
+		
+		"Stars.6": "Certo, ${querido¦querida¦queride}$, vamos voltar para a barraca agora. Temos um longo dia pela frente!",
+		"Stars.7": "Obrigado por vir acampar comigo essa noite, @.$l#$b#Espero que possamos fazer isso de novo outra hora.$l",
+		"Stars.8": "Espero que eu possa passar mais tempo com [CharacterName {{Date}}] também!",
+		"Stars.9": "*Bocejo*#$b#Agora vamos dormir...",
+	
+		"Stars.1.PPAF": "Ver as estrelas? Isso parece romântico!$h#$b#Vamos fazer isso, {{termofEndearment}}.$l",
+		"Stars.5.PPAF": "Eu serei profundamente grato(a) por ter te conhecido, {{termofEndearment}}.$l",
+		
+		"Stars.8.Suggestive.PPAF": "Haha... Isso foi divertido...$l#$b#Acho que vou te pedir para acampar mais vezes agora!#$b#Vamos dormir agora, {{termofEndearment}}.",
+		
+		"Stars.6.PPAF": "Certo, {{termofEndearment}}, vamos voltar para a barraca agora. Temos um longo dia pela frente!",
+
+	//UNIQUE DATES
+	
+	//Maru Eclipse Date
+	
+		//Intro
+		"Maru.EclipseDate.Intro.1": "${Querido¦Querida¦Queride}$! Espere!",
+		"Maru.EclipseDate.Intro.2": "Ah, que bom. Eu te encontrei antes de você começar a trabalhar!#$b#Algo muito especial vai acontecer hoje, ${querido¦querida¦queride}$.#$b#Acontece apenas uma vez por mês, hoje à noite haverá um lindo eclipse lunar no céu.#$b#A lua ficará vermelha, e um brilho lindo irá aquecer nosso vale tranquilo por alguns minutos.#$b#Eu realmente quero que você veja isso, @, então eu estava me perguntando se...#$b#... Você talvez quisesse se juntar a mim esta noite? Poderíamos acampar no bosque e fazermos uma festinha particular pra vermos o eclipse!",
+		"Maru.EclipseDate.Intro.3": "Incrível! Isso vai ser muito divertido!$h#$b#Me encontre no bosque depois das 8 da noite. Eu vou preparar a nossa pequena área de observação.#$b#Seremos dois observadores de estrelas sozinhos olhando para o universo acima das nossas cabeças.$l#$b#Eu mal posso esperar!$h",
+		"Maru.EclipseDate.Intro.End": "Essa vai ser uma noite linda, @. Eu mal posso esperar.$l#$b#Lembre-se, venha ao bosque depois das 8 da noite. Eu vou preparar tudo.$l",
+		
+		"Maru.EclipseDate.Intro.Refuse.1": "Ah...$s#$b#Muito ${ocupado¦ocupada¦ocupade}$ de novo?$s",
+		"Maru.EclipseDate.Intro.Refuse.2": "Tudo bem, podemos fazer isso outra hora, pode voltar ao trabalho.#$b#Vou ver o eclipse sozinha, eu acho.$s",
+		"Maru.EclipseDate.Intro.Refuse.End": "Não se preocupe, não tô com raiva.#$b#Eu sei que você está ${ocupado¦ocupada¦ocupade}$... Eu sabia onde estava me metendo quando me casei com você.",
+		
+		"Maru.EclipseDate.Intro.1.PPAF": "{{termofEndearment}}! Espere!",
+		"Maru.EclipseDate.Intro.2.PPAF": "Ah, que bom. Eu te encontrei antes de você começar a trabalhar!#$b#Algo muito especial vai acontecer hoje, {{termofEndearment}}.#$b#Acontece apenas uma vez por mês, hoje à noite haverá um lindo eclipse lunar no céu.#$b#A lua ficará vermelha, e um brilho lindo irá aquecer nosso vale tranquilo por alguns minutos.#$b#Eu realmente quero que você veja isso, @, então eu estava me perguntando se...#$b#... Você talvez quisesse se juntar a mim esta noite? Poderíamos acampar no bosque e fazermos uma festinha particular pra vermos o eclipse!",
+
+		//Date
+		"Maru.EclipseDate.1": "Oi, ${querido¦querida¦queride}$.$l#$b#Estou feliz que você veio.$l",
+		"Maru.EclipseDate.2": "Então, o que você acha do nosso pequeno acampamento?",
+		"Maru.EclipseDate.3": "Está ótimo, Maru!",
+		"Maru.EclipseDate.4": "Parece tão aconchegante.",
+		"Maru.EclipseDate.5": "Eu adorei a fogueira!",
+		"Maru.EclipseDate.6": "Obrigado, ${querido¦querida¦queride}$! Eu tentei deixar o mais aconchegante e quente possível.",
+		"Maru.EclipseDate.7": "Ah! E mais uma coisa...",
+		"Maru.EclipseDate.8": "Trouxe alguns peixes que podemos fritar na fogueira aqui. É a verdadeira experiência de acampamento, @!",
+		"Maru.EclipseDate.9": "Aqui, @. Espero que esteja gostoso!",
+		"Maru.EclipseDate.10": "Hum! Quentinho e crocante, perfeito! Maru cozinhou direitinho!",
+		"Maru.EclipseDate.11": "Nossa! Isso está ótimo!",
+		"Maru.EclipseDate.12": "Estou cheia, haha. Eu poderia comer isso o dia todo.$h",
+		"Maru.EclipseDate.13": "Obrigado de novo por vir, @.$l#$b#O eclipse deve acontecer a qualquer momento...",
+		"Maru.EclipseDate.14": "É isso aí! Está acontecendo! Venha aqui, ${querido¦querida¦queride}$, vamos ver!",
+		"Maru.EclipseDate.15": "Uau... Isso é lindo! Não acredito que estou testemunhando isso!$h",
+		"Maru.EclipseDate.16": "Aqui, ${querido¦querida¦queride}$, veja!",
+		"Maru.EclipseDate.17": "Um eclipse lunar ocorre quando nosso planeta fica entre a Lua e o Sol.#$b#A Lua se esconde na sombra da Terra, e a única luz que ela recebe é a tonalidade vermelha do nosso pôr do sol.",
+		"Maru.EclipseDate.18": "Quando eu era pequena, eu costumava olhar para o céu e me perguntar o que as estrelas e planetas realmente significavam.#$b#Será que realmente existe um sentido para nossa existência? Acho que nunca vamos saber.",
+		"Maru.EclipseDate.19": "Eu sempre pensei...$s#$b#Não...$s#$b#Eu sempre soube...$l#$b#... Que as estrelas iriam me guiar pela minha vida.",
+		"Maru.EclipseDate.20": "A primeira vez que vi um eclipse lunar assim, meu pai me disse uma coisa...#$b#Ele me disse 'Maru, não existem motivos para estudar a galáxia. Nunca seremos capazes de explorá-la em nossas vidas, nem nossos filhos, e nem os filhos dos nossos filhos serão capazes disso. A vida deve ser focada aqui, no chão.'.#$b#Eu nunca entendi por que ele disse isso. Sempre quis explorar o desconhecido.#$b#Agora, acho que está claro que não estarei mais aqui pra ver o que realmente tem lá fora, mas, estranhamente...#$b#Eu consigo aceitar isso.",
+		"Maru.EclipseDate.21": "Depois de te conhecer, @...$l#$b#Eu não gostaria de estar em nenhum outro lugar!",
+		"Maru.EclipseDate.22": "É muito simbólico se você parar pra pensar.#$b#Vermelho pode representar raiva, frustração, negatividade...#$b#Mas também pode representar amor, carinho e paixão.",
+		"Maru.EclipseDate.23": "Eu sou tão sortuda por ter você na minha vida, @... Espero que você esteja feliz por eu estar em sua vida também.",
+		"Maru.EclipseDate.24": "Parece que o eclipse está acabando, ${querido¦querida¦queride}$. A Lua passou pela sombra amorosa do nosso planeta e está de volta ao seu estado normal, prateada.",
+		"Maru.EclipseDate.25": "*Bocejo*",
+		"Maru.EclipseDate.26": "Estou ficando cansada, @. O que você acha de voltarmos para a barraca pra passar a noite?",
+		
+		"Maru.EclipseDate.27": "Ei, @...$l#$b#Eu te amo.",
+		
+		"Maru.EclipseDate.27.Suggestive": "Ei, @...$l#$b#Eu tenho mais uma surpresa para você na barraca...$l",
+		"Maru.EclipseDate.28.Suggestive": "Ha... Isso foi bom...$l#$b#Estou exausta depois disso! Vamos dormir agora, ${querido¦querida¦queride}$...$h",
+		
+		"Maru.EclipseDate.End": "Eu tive uma noite estelar assistindo o eclipse com Maru. Foi tão romântico!",
+	
+		"Maru.EclipseDate.1.PPAF": "Oi, {{termofEndearment}}.$l#$b#Estou feliz que você veio.$l",
+		"Maru.EclipseDate.6.PPAF": "Obrigado, {{termofEndearment}}! Eu tentei deixar o mais aconchegante e quente possível.",
+		"Maru.EclipseDate.14.PPAF": "É isso aí! Está acontecendo! Venha aqui, {{termofEndearment}}, vamos ver!",
+		"Maru.EclipseDate.16.PPAF": "Aqui, {{termofEndearment}}, veja!",
+		"Maru.EclipseDate.24.PPAF": "Parece que o eclipse está acabando, {{termofEndearment}}. A Lua passou pela sombra amorosa do nosso planeta e está de volta ao seu estado normal, prateada.",
+		
+		"Maru.EclipseDate.28.Suggestive.PPAF": "Ha... Isso foi bom...$l#$b#Estou exausta depois disso! Vamos dormir agora, {{termofEndearment}}...$h",
+
+	//Haley Desert Date
+	
+		//Intro
+		"Haley.DesertDate.Intro.1": "Tudo bem, vamos ver se há alguma carta hoje...",
+		"Haley.DesertDate.Intro.2": "O que é isso?",
+		"Haley.DesertDate.Intro.3": "Ah, olá ${querido¦querida¦queride}$!",
+		"Haley.DesertDate.Intro.3.PPAF": "Ah, olá {{termofEndearment}}!",
+		"Haley.DesertDate.Intro.4": "Eu só tava vendo se tinha alguma carta hoje.",
+		"Haley.DesertDate.Intro.5": "Ei, na verdade, ${querido¦querida¦queride}$...$l",
+		"Haley.DesertDate.Intro.5.PPAF": "Ei, na verdade, {{termofEndearment}}...$l",
+		"Haley.DesertDate.Intro.6": "Eu acabei de receber uma carta da minha irmã.#$b#Ela me convidou para ir com ela ao Deserto para visitar a amiga dela, a Sandy.#$b#Agora que o ônibus foi consertado, nós podemos ir ao Deserto com mais frequência.",
+		
+		"Haley.DesertDate.Intro.7.Gendered": "Quer ir comigo, ${querido¦querida}$? O Deserto é um ótimo lugar para tirar fotos... a paisagem é perfeita.#$b#Seria um tempo só pra nós dois...$l#$b#Explorando o vasto deserto e tirando fotos de memórias que vão durar pra sempre... Não consigo pensar em nada mais romântico pra fazer com meu marido.$l^Explorando o vasto deserto e tirando fotos de memórias que vão durar pra sempre... não consigo pensar em nada mais romântico pra fazer com minha esposa.$l",
+		"Haley.DesertDate.Intro.7.Neutral": "Quer ir comigo, queride? O Deserto é um ótimo lugar para tirar fotos... a paisagem é perfeita.#$b#Seria um tempo só pra nós dois...$l#$b#Explorando o vasto deserto e tirando fotos de memórias que vão durar pra sempre... Não consigo pensar em nada mais romântico pra fazer com você.$l",
+		
+		"Haley.DesertDate.Intro.7.Gendered.PPAF": "Quer ir comigo, {{termofEndearment}}? O Deserto é um ótimo lugar para tirar fotos... a paisagem é perfeita.#$b#Seria um tempo só pra nós dois...$l#$b#Explorando o vasto deserto e tirando fotos de memórias que vão durar pra sempre... Não consigo pensar em nada mais romântico pra fazer com ${meu marido^minha esposa^você}$.$l",
+		"Haley.DesertDate.Intro.7.Neutral.PPAF": "Quer ir comigo, {{termofEndearment}}? O Deserto é um ótimo lugar para tirar fotos... a paisagem é perfeita.#$b#Seria um tempo só pra nós dois...$l#$b#Explorando o vasto deserto e tirando fotos de memórias que vão durar pra sempre... Não consigo pensar em nada mais romântico pra fazer com você.$l",
+
+		"Haley.DesertDate.Intro.8": "E então, ${querido¦querida¦queride}$?",
+		"Haley.DesertDate.Intro.8.PPAF": "E então, {{termofEndearment}}?",
+		"Haley.DesertDate.Intro.9": "Eba! Obrigado, @!$h#$b#Isso vai ser muito divertido. Venha ao ponto de ônibus hoje antes das 5 da tarde. Eu vou pegar algumas coisas, então eu estarei esperando com Emily por você.",
+		"Haley.DesertDate.Intro.10": "Mal posso esperar pra passar um tempo com você, @.$l",
+		"Haley.DesertDate.Intro.End": "Estou tão animada, ${querido¦querida¦queride}$.$h#$b#Eu só vou terminar de fazer as malas e depois vou para o ponto de ônibus.#$b#É só chegar antes das 5 da tarde e estaremos a caminho!$h",
+		"Haley.DesertDate.Intro.End.PPAF": "Estou tão animada, {{termofEndearment}}.$h#$b#Eu só vou terminar de fazer as malas e depois vou para o ponto de ônibus.#$b#É só chegar antes das 5 da tarde e estaremos a caminho!$h",
+		
+		"Haley.DesertDate.Intro.Refusal.9": "Ah...$s#$b#Muito ${ocupado¦ocupada¦ocupade}$ outra vez?$s",
+		"Haley.DesertDate.Intro.Refusal.10": "Tudo bem, Podemos fazer isso outra hora. Pode voltar ao trabalho.",
+		"Haley.DesertDate.Intro.Refusal.End": "Relaxa, eu não tô com raiva.#$b#Eu sei que você tá ${ocupado¦ocupada¦ocupade}$... Eu sabia no que estava me metendo quando casei com você.#$b#Nós vamos em outra hora, eu acho...$s",
+		
+		//Date
+		"Haley.DesertDate.1": "@, você tá aqui!$h#$b#Estou feliz que você decidiu vir.",
+		"Haley.DesertDate.2": "Emily tá comprando nossas passagens de ônibus agora. Nós vamos pegar o ônibus em um minuto.",
+		"Haley.DesertDate.3": "Tudo bem mana, acho que deu certo. Vamos lá!",
+		"Haley.DesertDate.4": "Oi, @! Eu comprei a passagem pra você também, não se preocupe.#$b#Você é da família agora!$h",
+		"Haley.DesertDate.5": "Certo, ${querido¦querida¦queride}$! Vamos entrar neste ônibus e ir!",
+		"Haley.DesertDate.5.PPAF": "Certo, {{termofEndearment}}! Vamos entrar neste ônibus e ir!",
+		"Haley.DesertDate.6": "Estou tão animada!$h",
+		"Haley.DesertDate.7": "Muito bem garotas, vamos lá...",
+		"Haley.DesertDate.8": "Oi Sandy!",
+		"Haley.DesertDate.9": "Oi Emily!",
+		"Haley.DesertDate.10": "É bom ver você de novo, Sandy!",
+		"Haley.DesertDate.11": "É ótimo ver você também, querida.",
+		"Haley.DesertDate.12": "Oh, e quem é essa aí?",
+		"Haley.DesertDate.13": "Oh, olá Haley! Já faz um tempão que eu não te vejo.",
+		
+		"Haley.DesertDate.14.Gendered": "Eu vi que você trouxe o seu lindo marido junto com você também.^Eu vi que você trouxe a sua linda esposa junto com você também.",
+		"Haley.DesertDate.14.Neutral": "Eu vi que você trouxe su linde parceire junto com você também.",
+		
+		"Haley.Giggle": "*risadinha*",
+		
+		"Haley.DesertDate.15": "É muito bom te ver também, Sandy!",
+		"Haley.DesertDate.16": "Certo mana, eu e Sandy vamos para o Oásis. Nós vamos ficar por lá. Você pode se divertir no deserto com @!",
+		"Haley.DesertDate.17": "Ok Emi! Te vejo mais tarde.",
+		"Haley.DesertDate.18": "Muito bem, ${querido¦querida¦queride}$! Aqui estamos!$h#$b#Tem tantos lugares incríveis para tirarmos fotos aqui!$h",
+		"Haley.DesertDate.18.PPAF": "Muito bem, {{termofEndearment}}! Aqui estamos!$h#$b#Tem tantos lugares incríveis para tirarmos fotos aqui!$h",
+		"Haley.DesertDate.19": "Nossa, tá mais quente do que eu pensei...$s",
+		"Haley.DesertDate.20": "Ei, @, tudo bem se pararmos na loja da Sandy?#$b#Podemos comprar algumas coisas para nos refrescar enquanto estivermos lá. Não queremos ser cozidos por esse calor!",
+		"Haley.DesertDate.21": "Vamos lá, então!",
+		"Haley.DesertDate.22": "Ele realmente disse isso?",
+		"Haley.DesertDate.23": "Pois é, eu sei!",
+		"Haley.DesertDate.24": "Olá, meus amores. O que trouxe vocês até aqui? Pensei que vocês iam explorar o deserto juntos.",
+		"Haley.DesertDate.25": "Ah, nós ainda vamos, Sandy!#$b#A gente só decidiu parar pra ver como as coisas estavam indo e comprar algumas coisas essenciais.",
+		"Haley.DesertDate.26": "Ah, é claro!$h#$b#Aqui, tomem um pouco de leite gelado. Isso vai refrescá-los desse calor.#$b#Eu vou deixar você levar por conta da casa, já que você é irmã da minha melhor amiga!$h",
+		"Haley.DesertDate.27": "Nossa, você é tão legal, Sandy!",
+		"Haley.DesertDate.28": "Obrigado!",
+		"Haley.DesertDate.29": "Aqui está, ${querido¦querida¦queride}$!",
+		"Haley.DesertDate.30": "Ok, vamos sair!",
+		"Haley.DesertDate.31": "Na verdade, Sandy, antes de irmos embora...",
+		"Haley.DesertDate.32": "Posso tirar uma foto disso? Eu quero me lembrar dessa viagem por um bom tempo!",
+		"Haley.DesertDate.33": "Claro que pode, querida.",
+		"Haley.DesertDate.34": "Yay!",
+		"Haley.DesertDate.35": "Você vai ficar ali, ${querido¦querida¦queride}$.#$b#Vou preparar a câmera.",
+		"Haley.DesertDate.35.PPAF": "Você vai ficar ali, {{termofEndearment}}.#$b#Vou preparar a câmera.",
+		"Haley.DesertDate.36": "Perfeito!",
+		"Haley.DesertDate.37": "Certo, todo mundo! Sorriam!$h",
+		"Haley.DesertDate.38": "Xiiis!",
+		"Haley.DesertDate.39": "Parece que ficou ótima! Muito obrigado gente!$h",
+		"Haley.DesertDate.40": "Sem problema!",
+		"Haley.DesertDate.41": "Certo, @. Vamos sair!",
+		"Haley.DesertDate.42": "Haley e eu andamos pelo deserto e tiramos algumas fotos.",
+		"Haley.DesertDate.43": "Vimos todas as belas paisagens que tinha para ver no Deserto.",
+		"Haley.DesertDate.44": "Mas tinha um último lugar que Haley queria ver...",
+		"Haley.DesertDate.45": "Aww, é tão fofinho!",
+		"Haley.DesertDate.46": "O nome dele é Hunfredo.",
+		"Haley.DesertDate.47": "Hunfredo?#$b#É adorável!$h",
+		"Haley.DesertDate.48": "Você gosta disso, Hunfredo?",
+		"Haley.DesertDate.49": "Sabe, @...",
+		"Haley.DesertDate.50": "Eu jamais estaria aqui fazendo isso hoje se não tivesse me apaixonado por você.$l",
+		"Haley.DesertDate.51": "Você mostrou as outras pessoas que realmente tinha algo mais em mim do que só ser bonita...$l#$b#... Você me mostrou que eu valia mais do que eu pensava...$l",
+		"Haley.DesertDate.52": "Eu te amo, @. Mais do que tudo.$l#$b#É por sua causa que consigo fazer viagens como essas, lugares que sempre quis conhecer...$l",
+		"Haley.DesertDate.53": "... E coisas que eu sempre quis tentar.$l#$b#Como acariciar um camelo!$h",
+		"Haley.DesertDate.54": "Isso Humfredo, bom garoto!",
+		"Haley.DesertDate.55": "Obrigado ${querido¦querida¦queride}$. Essa viagem foi incrível, e foi ainda mais incrível porque eu pude fazer tudo com você.$l",
+		"Haley.DesertDate.55.PPAF": "Obrigado ${querido¦querida¦queride}$. Essa viagem foi incrível, e foi ainda mais incrível porque eu pude fazer tudo com você.$l",
+		"Haley.DesertDate.56": "Haley, @! Nosso ônibus sai em breve, então venham rápido!",
+		"Haley.DesertDate.57": "Estamos indo, Emily!",
+		"Haley.DesertDate.58": "Só mais uma coisa antes de irmos.",
+		"Haley.DesertDate.59": "Diga xis, @!",
+		"Haley.DesertDate.60": "Haley e eu nos divertimos muito no Deserto. Foi bom passar um tempo com ela.",
+		"Haley.DesertDate.61": "Uau, Haley! Parece que sua expedição foi muito divertida!",
+		"Haley.DesertDate.62": "Sim, foi incrível!$h#$b#Aqui, deixa eu te mostrar as minhas fotos!$h",
+		"Haley.DesertDate.63": "Aqui está a primeira que tirei, da areia quando chegamos...",
+		"Haley.DesertDate.64": "Que fofo!",
+		"Haley.DesertDate.65": "E aqui está a que eu tirei de todos nós na loja da Sandy!",
+		"Haley.DesertDate.66": "Uau, Haley, todas elas estão ótimas",
+		"Haley.DesertDate.67": "Obrigado! Agora a próxima é...",
+		"Haley.DesertDate.68": "AH!$l",
+		"Haley.DesertDate.69": "Ah! Bem, não é uma gracinha?",
+		"Haley.DesertDate.70": "Hehe, bem...$l",
+		"Haley.DesertDate.71": "Eu, uh, não percebi que a câmera ainda estava funcionando...$l",
+		"Haley.DesertDate.72": "É lindo! Vocês estão tão apaixonados. Estou feliz que vocês dois se encontraram.",
+		"Haley.DesertDate.73": "Estou feliz por ter encontrado Haley também.",
+		
+		"Haley.DesertDate.74": "Ei, hum, @...$l#$b#Não tínhamos algo importante pra fazer lá em casa?$l",
+		"Haley.DesertDate.75": "Deveríamos voltar rápido, para que possamos começar...$l",
+		"Haley.DesertDate.76": "Ei Vocês dois, não façam nada que eu não faria!", //giggle with textabovehead after this, see above
+		"Haley.DesertDate.77": "Isso foi ótimo, @...#$b#Quer uma próxima rodada?$13",
+		
+		"Haley.DesertDate.End": "Que dia maravilhoso com você, @.",
+		
+	
+	//Emily Gem Date
+	
+		//Intro
+		"Emily.GemDate.Intro.1": "Acho que já tenho tudo...",
+		"Emily.GemDate.Intro.2": "Espera! Eu esqueci...",
+		"Emily.GemDate.Intro.3": "Oh! @! Desculpe, ${querido¦querida¦queride}$.",
+		"Emily.GemDate.Intro.3.PPAF": "Oh! @! Desculpe, {{termofEndearment}}.",
+		"Emily.GemDate.Intro.4": "Eu ia deixar algumas coisas na minha antiga casa para Haley e pegar algumas coisas que deixei lá hoje.#$b#Eu não queria te acordar... Você parece tão ${tranquilo¦tranquila¦tranquile}$ quando tá dormindo.$l",
+		"Emily.GemDate.Intro.5": "Eu ia, mas acabei de lembrar que deixei algo lá dentro.",
+		"Emily.GemDate.Intro.6": "Ei, ${querido¦querida¦queride}$...$l",
+		"Emily.GemDate.Intro.6.PPAF": "Ei, {{termofEndearment}}...$l",
+		
+		"Emily.GemDate.Intro.7.Gendered": "Você quer vir junto? Eu poderia te mostrar algumas das minhas coisas antigas...$l#$b#Poderia ser só um tempinho de tempo pra nós.#$b#Poder passar um tempo com meu incrível marido... Eu não poderia imaginar um dia mais perfeito!^Poder passar um tempo com minha incrível esposa... Eu não poderia imaginar um dia mais perfeito!",
+		"Emily.GemDate.Intro.7.Neutral": "Você quer vir junto? Eu poderia te mostrar algumas das minhas coisas antigas...$l#$b#Poderia ser só um tempinho de tempo pra nós.#$b#Poder passar um tempo com você... Eu não poderia imaginar um dia mais perfeito!",
+		
+		"Emily.GemDate.Intro.8": "E então, ${querido¦querida¦queride}$?",
+		"Emily.GemDate.Intro.9": "Esplêndido! Isso vai ser muito divertido, @!$h#$b#Eu só vou pegar o que esqueci e depois vou sair.#$b#É Só passar na minha antiga casa depois de fazer seu trabalho!$h#$b#Mal posso esperar pra te ver, ${querido¦querida¦queride}$!$l",
+		"Emily.GemDate.Intro.End": "Eu vou pra casa da Haley em breve.#$b#Não se esqueça de passar por lá a qualquer hora, ${querido¦querida¦queride}$!",
+
+		"Emily.GemDate.Intro.9.PPAF": "Esplêndido! Isso vai ser muito divertido, @!$h#$b#Eu só vou pegar o que esqueci e depois vou sair.#$b#É Só passar na minha antiga casa depois de fazer seu trabalho!$h#$b#Mal posso esperar pra te ver, {{termofEndearment}}!$l",
+		"Emily.GemDate.Intro.End.PPAF": "Eu vou pra casa da Haley em breve.#$b#Não se esqueça de passar por lá a qualquer hora, {{termofEndearment}}!",
+		
+		"Emily.GemDate.Intro.Refusal.9": "Ah...$s#$b#Muito ${ocupado¦ocupada¦ocupade}$ de novo?$s",
+		"Emily.GemDate.Intro.Refusal.10": "Tudo bem ${querido¦querida¦queride}$, podemos passar um tempo juntos outro dia. Você pode voltar ao trabalho.",
+		"Emily.GemDate.Intro.Refusal.10.PPAF": "Tudo bem {{termofEndearment}}, podemos passar um tempo juntos outro dia. Você pode voltar ao trabalho.",
+		"Emily.GemDate.Intro.Refusal.11": "Acho que vou só pegar o que esqueci e sair.$s#$b#Pensando bem, acho que não vou a lugar nenhum hoje...$s",
+		"Emily.GemDate.Intro.Refusal.End": "Não se preocupe, @. Eu não tô com raiva.#$b#Eu sei que você tá ${ocupado¦ocupada¦ocupade}$... Eu sabia onde estava me metendo quando me casei com você.",
+		
+		//Date
+		"Emily.GemDate.1": "Pronto!",
+		"Emily.GemDate.2": "Isso é tudo!",
+		"Emily.GemDate.3": "*Suspiro*... Eu queria que Haley não fosse tão bagunçeira...$s#$b#Eu concordei em deixar ela usar meu quarto depois que me mudei, mas o mínimo que ela poderia fazer era limpá-lo...$s",
+		"Emily.GemDate.4": "'1 Mensagem não lida'",
+		"Emily.GemDate.5": "Oh, eu me pergunto de quem é!",
+		"Emily.GemDate.6": "Assunto: Como você está indo querida?",
+		"Emily.GemDate.7": "From: Sandy",
+		"Emily.GemDate.8": "'Olá Emi! Já faz um tempo desde que eu tive notícias suas. Espero que você esteja bem! Se você se sentir sozinha, lembre-se sempre que você tem uma boa amiga aqui no deserto.'",
+		"Emily.GemDate.9": "Ah, Sandy! Você é tão gentil!",
+		"Emily.GemDate.10": "Apesar de que eu não acho que você vai se sentir sozinha tão cedo, considerando que você se casou com ${aquele¦aquela¦aquelu}$ ${belo¦bela¦fazendeire}$ ${fazendeiro¦fazendeira¦atraente}$, {{PlayerName}}.",
+		"Emily.GemDate.11": "Qual é, Emi! Acha que eu não sabia? Ainda me mantenho atualizada das notícias no Vale. Esqueceu de me contar, querida? Estou tão feliz por você querida!",
+		"Emily.GemDate.12": "Ah não! Eu esqueci completamente de contar a Sandy sobre o meu casamento!$s",
+		"Emily.GemDate.13": "É melhor eu planejar uma visita o quanto antes. Deixa eu responder isso.",
+		"Emily.GemDate.14": "'Querida Sandy,'#$b#'Eu sinto muito por esquecer de te contar sobre @.'#$b#'Eu estava tão envolvida no casamento que esqueci completamente de te dizer.'#$b#'Por favor, não se sinta excluída. Eu me sinto horrível pelo que fiz e vou visitá-la o mais rápido possível.'",
+		
+		"Emily.GemDate.15.Gendered": "'Quanto a @...'$l#$b#'Ele é a melhor coisa que já me aconteceu.'$l^'Ela é a melhor coisa que já me aconteceu.'$l#$b#'Ele faz eu me sentir segura, feliz, eu valorizo todos os dias com ele. Eu amo seu-$l^'Ela faz eu me sentir segura, feliz, eu valorizo todos os dias com ela. Eu amo sua-'$l",
+		"Emily.GemDate.15.Neutral": "'Quanto a @...'$l#$b#'Elu é a melhor coisa que já me aconteceu.'$l#$b#'Elu faz eu me sentir segura, feliz e eu valorizo todos os dias que passo com elu. Eu amo su-'$l",
+		
+		"Emily.GemDate.16": "@! ${Querido¦Querida¦Queride}$, você está aqui!$h",
+		"Emily.GemDate.16.PPAF": "@! ${Querido¦Querida¦Queride}$, você está aqui!$h",
+		"Emily.GemDate.17": "Eu tava conversando com minha amiga Sandy sobre você.",
+		"Emily.GemDate.18": "Eu disse a ela que você é a pessoa mais honesta, leal, inteligente, corajosa e incrível que eu conheço.$l",
+		"Emily.GemDate.19": "Ah, ei! Eu queria te mostrar uma coisa.",
+		"Emily.GemDate.20": "Venha, olhe mais de perto!",
+		"Emily.GemDate.21": "Essa era uma dos meus 'Cristais de Limpeza da Tristeza'.$3",
+		"Emily.GemDate.22": "Sempre que me sentia triste ou sozinha depois de um longo dia de trabalho no Saloon, ou depois de brigar com a Haley, eu pegava uma dessas e aprisionava meus sentimentos tristes dentro deles.$s",
+		"Emily.GemDate.23": "Eu pensava que aprisionando a energia negativa nesses cristais, eu poderia mantê-las escondidas, longe do mundo.$3#$b#Eu não queria que nenhuma energia negativa fosse liberada para os outros por minha causa.$s#$b#E de certa forma, esses cristais também eram eu tentando esconder minhas memórias negativas...$s",
+		"Emily.GemDate.24": "Aqui tem o cristal da primeira noite em que eu e Haley ficamos sozinhas depois que nossos pais foram embora...$s#$b#tem o cristal da noite em que Clint e eu discutimos...$s#$b#E esse é o meu último cristal...$s",
+		"Emily.GemDate.25": "@, a última vez que usei um desses cristais para capturar meus sentimentos foi na noite antes de nos conhecermos.$3#$b#Eu tive uma briga feia com a Haley, e me senti tão sozinha.$s",
+		"Emily.GemDate.26": "Mas depois que você chegou na minha vida, @. Eu sabia desde que nos conhecemos que você tinha uma aura positiva e amorosa...$l#$b#Eu sabia que nossos destinos iriam se entrelaçar...$l",
+		"Emily.GemDate.27": "Aqui, @. Eu quero que você fique com esse cristal.",
+		
+		"Emily.GemDate.28.Gendered": "Não pense nisso como se eu estivesse sobrecarregando você com minhas emoções negativas...$s#$b#Mas sim como eu dando ao meu incrível marido os meus sentimentos para protegê-los e mantê-los seguros.$l^Mas sim como eu dando a minha incrível esposa os meus sentimentos para protegê-los e mantê-los seguros.$l",
+		"Emily.GemDate.28.Neutral": "Não pense nisso como se eu estivesse sobrecarregando você com minhas emoções negativas...$s#$b#Mas sim como eu dando a você os meus sentimentos para protegê-los e mantê-los seguros.$l",
+		
+		"Emily.GemDate.29": "Obrigado por vir, @. Estou feliz por ter feito essa viagem pelas minhas memórias com você.",
+		
+		"Emily.GemDate.30.Suggestive": "Ei, @...$l",
+		"Emily.GemDate.31.Suggestive": "Haley não vai voltar por algumas horas...$l#$b#Temos a casa toda só pra nós...$l",
+		"Emily.GemDate.32.Suggestive": "Eu nunca me diverti tanto antes, @.$l#$b#Vamos fazer isso de novo, tá bom?$l",
+		"Emily.GemDate.End.Suggestive": "Isso foi legal...$l#$b#Ah, e lembre-se de manter esse cristal em segurança!",
+		
+		"Emily.GemDate.30": "Acho que ainda tenho alguns dos meus 'Cristais de Limpeza para Situações Vergonhosas' por aqui também...#$b#Tive que usar um monte desses depois que saí com Clint!$h",
+		"Emily.GemDate.31": "Que boa maneira de passar o tempo com Emily. Estou feliz que ela não vai mais precisar usar uma desses cristais da tristeza de novo!",
+		"Emily.GemDate.End": "Isso foi legal, @.$l#$b#Lembre-se de manter esse cristal em segurança!",
+	
+	//Alex Gridball Date
+	
+		//Intro
+		"Alex.Gridball.Intro.1": "@, espera aí!",
+		"Alex.Gridball.Intro.2": "Adivinha o que acabei de comprar?",
+		"Alex.Gridball.Intro.3": "Não...#$b#São...#$b#Dois ingressos para o jogo dos Tunnelers hoje à noite!$h",
+		"Alex.Gridball.Intro.4": "Então, ${querido¦querida¦queride}$? Você quer assistir comigo? Seria ótimo!$h",
+		"Alex.Gridball.Intro.4.PPAF": "Então, {{termofEndearment}}? Você quer assistir comigo? Seria ótimo!$h",
+		
+		"Alex.Gridball.Intro.Refusal.5": "Ah...$s#$b#Muito ${ocupado¦ocupada¦ocupade}$ de novo?$s",
+		"Alex.Gridball.Intro.Refusal.6": "Tudo bem, podemos fazer isso outra hora. Você pode voltar ao trabalho.#$b#Eu acho que eu vou chamar outra pessoa pra assistir...$s",
+		"Alex.Gridball.Intro.Refusal.7.Gendered": "Não se preocupe, eu não tô com raiva.#$b#Eu sei que você tá ${ocupado¦ocupada}$... Eu sabia onde estava me metendo quando me casei com você.#$b#Só teria sido bom ir com meu marido.^Só teria sido bom ir com minha esposa.",
+		"Alex.Gridball.Intro.Refusal.7.Neutral": "Não se preocupe, eu não tô com raiva.#$b#Eu sei que você tá ocupade... Eu sabia onde estava me metendo quando me casei com você.#$b#Só teria sido bom ir com você.",
+		
+		"Alex.Gridball.Intro.5": "Incrível! Isso vai ser muito divertido!$h#$b#Venha para o ponto de ônibus depois do meio-dia, mas antes das 7 da noite, @. Queremos chegar cedo!$h#$b#Vou levar o essencial e esperar lá fora por você.#$b#Não vejo a hora de assistir!$h",
+		"Alex.Gridball.Intro.End": "Lembre-se, @! No ponto de ônibus depois do meio-dia, mas antes das 7 da noite!#$b#Nós vamos nos divertir muito juntos, ${querido¦querida¦queride}$!$h",
+
+		"Alex.Gridball.Intro.End.PPAF": "Lembre-se, @! No ponto de ônibus depois do meio-dia, mas antes das 7 da noite!#$b#Nós vamos nos divertir muito juntos, {{termofEndearment}}!$h",
+		
+		//Date
+		"Alex.Gridball.1": "Ei, garoto! Você vem?! Nós temos que sair agora se quisermos chegar a tempo!",
+		"Alex.Gridball.2": "Espera aí, Pam! Eu estou esperando alguém...",
+		"Alex.Gridball.3": "Hmph.",
+		"Alex.Gridball.4": "@! Você finalmente chegou!#$b#Vamos lá, nós temos que ir! Não queremos chegar atrasados!",
+		"Alex.Gridball.5": "Isso vai ser incrível, ${querido¦querida¦queride}$. Mal posso esperar!$h",
+		"Alex.Gridball.6": "Chegamos a tempo! Vamos lá, @!$h",
+		"Alex.Gridball.7": "Vamos ver...",
+		"Alex.Gridball.8": "Parece que os Tunnelers estão na liderança, @!$h",
+		"Alex.Gridball.9": "UHUUUL!",
+		"Alex.Gridball.10": "É isso aí! Os Tunnelers marcaram um ponto!$h#$b#Estamos aumentando ainda mais a nossa liderança!$h",
+		"Alex.Gridball.11": "Aww, parece que eles estão chamando um intervalo.",
+		"Alex.Gridball.12": "Narrador: É hora de mais uma rodada da Câmera do Beijo!",
+		"Alex.Gridball.13": "Narrador: Vamos ver...",
+		"Alex.Gridball.14": "Narrador: Esse lindo casal perto do fundo!",
+		"Alex.Gridball.15": "É-é a gente, @!",
+		"Alex.Gridball.16": "Bem, ${querido¦querida¦queride}$?",
+		"Alex.Gridball.17": "Narrador: Que gracinha!",
+		"Alex.Gridball.18": "Ei, isso foi legal.$l",
+		"Alex.Gridball.19": "Parece que o jogo voltou, @!$h",
+		"Alex.Gridball.20": "WOO!",
+		"Alex.Gridball.21": "Outro ponto, @!$h#$b#Essa é a melhor partida dos Tunnelers de toda a temporada!$h",
+		"Alex.Gridball.22": "VAI!",
+		"Alex.Gridball.23": "Alex e eu nos divertimos muito no jogo dos Tunnelers. Os Tunnelers venceram por uma vitória esmagadora!",
+		"Alex.Gridball.24": "Isso foi incrível, @!#$b#Os Tunnelers estão melhores do que nunca!$h",
+		"Alex.Gridball.25": "Obrigado por vir assistir o jogo comigo, ${querido¦querida¦queride}$.#$b#Sempre é melhor com você por perto.$l",
+		
+		"Alex.Gridball.26.Suggestive": "Ei, ${querido¦querida¦queride}$...$l#$b#O que você acha de continuarmos essa festa quando voltarmos pra casa?$l",
+		"Alex.Gridball.27.Suggestive": "Ei, isso foi divertido...$l#$b#Deveríamos, uh, tentar isso de novo algum dia...$l",
+		
+		"Alex.Gridball.26": "Venha, vamos voltar para casa.#$b#Podemos ver todas as fotos que tiramos, haha!$h",
+		"Alex.Gridball.27": "Alex e eu tivemos o melhor encontro hoje. Tenho muita sorte de ter me casado com ele!",
+
+		"Alex.Gridball.5.PPAF": "Isso vai ser incrível, {{termofEndearment}}. Mal posso esperar!$h",
+		"Alex.Gridball.16.PPAF": "Bem, {{termofEndearment}}?",
+		"Alex.Gridball.25.PPAF": "Obrigado por vir assistir o jogo comigo, {{termofEndearment}}.#$b#Sempre é melhor com você por perto.$l",
+		
+		"Alex.Gridball.26.Suggestive.PPAF": "Ei, {{termofEndearment}}...$l#$b#O que você acha de continuarmos essa festa quando voltarmos pra casa?$l",
+
+	//2.1 Lines
+		
+	//NPC Tokens Compat
+	
+		//Make ABSOLUTELY sure these do not apply with spouses which swap gender or have a non-binary gender presentation or otherwise. Not having specific pronouns is something to fix, but the fix *cannot* be misgendering an NPC.
+	
+		//Generic Alterations
+		
+		"Pool.6.M": "[CharacterName {{Date}}] tentou seu máximo, mas eu o venci facilmente, que noite divertida!",
+		"Pool.6.F": "[CharacterName {{Date}}] tentou seu máximo, mas eu a venci facilmente, que noite divertida!",
+		
+		"Forest.9.M": "[CharacterName {{Date}}] realmente pôs seu coração nisso... Eu tenho muita sorte de tê-lo!",
+		"Forest.9.F": "[CharacterName {{Date}}] realmente pôs seu coração nisso... Eu tenho muita sorte de tê-la!",
+		
+		"Lake.9.M": "[CharacterName {{Date}}] realmente pôs seu coração nisso... Eu tenho muita sorte de tê-lo!",
+		"Lake.9.F": "[CharacterName {{Date}}] realmente pôs seu coração nisso... Eu tenho muita sorte de tê-la!",
+		
+		"Swim.19.M": "Eu persegui [CharacterName {{Date}}] por um longo tempo para tentar encharcá-lo de volta.",
+		"Swim.20.M": "Depois de quase 5 minutos de perseguição, eu finalmente peguei ele!",
+		"Swim.19.F": "Eu persegui [CharacterName {{Date}}] por um longo tempo para tentar encharcá-la de volta.",
+		"Swim.20.F": "Depois de quase 5 minutos de perseguição, eu finalmente peguei ela!",
+		
+		//Unique Alterations (for genderbent mods)
+		
+		"Haley.DesertDate.60.M": "Haley e eu nos divertimos muito no Deserto. Foi bom passar um tempo com ele.", //Haley is male
+		"Alex.Gridball.27.F": "Alex e eu tivemos o melhor encontro hoje. Tenho muita sorte de ter me casado com ela!", //Alex is female
+		
+			//More Specific Changes
+		"Haley.DesertDate.Intro.6.M": "Eu acabei de receber uma carta do meu irmão.#$b#Ele me convidou para ir com ele ao Deserto para visitar a amiga dele, a Sandy.#$b#Agora que o ônibus foi consertado, nós podemos ir ao Deserto com mais frequência.", //Emily is male
+		"Haley.DesertDate.3.M": "Tudo bem Haley, acho que deu certo. Vamos lá!", //Haley is male - "bro" doesn't quite fit here.
+		"Haley.DesertDate.16.M": "Certo Haley, eu e Sandy vamos para o Oásis. Nós vamos ficar por lá. Você pode se divertir no deserto com @!", //Haley is male
+		"Haley.DesertDate.26.M": "Ah, é claro!$h#$b#Aqui, tomem um pouco de leite gelado. Isso vai refrescá-los desse calor.#$b#Eu vou deixar você levar por conta da casa, já que você é irmão da minha melhor amiga!$h", //Haley is male
+		"Emily.GemDate.3.M": "*Suspiro*... Eu queria que Haley não fosse tão bagunçeiro...$s#$b#Eu concordei em deixar ele usar meu quarto depois que me mudei, mas o mínimo que ele poderia fazer era limpá-lo...$s", //Haley is male
+		
+	//Small additional line fix for Abigail in Grocery Date
+	
+	"GroceryDate.13.Abigail": "Oi, pai! Aqui está o que vamos comprar hoje.", //Suggested by nomorenamesleft - one line change for consistency.
+	
+	//Dynamic Pool endings
+	
+		//Pool Fork - Date Wins
+			
+		"PoolWin.1": "Você quer jogar bilhar? Beleza!#$b#Eu ando praticando um pouco desde a última vez que jogamos. Eu vou ganhar de você dessa vez!$h",
+		
+		"PoolWin.2.Gendered": "Não vai ser tão fácil me vencer dessa vez!$h#$b#É hora de mostrar ao meu marido o que eu realmente posso fazer...^É hora de mostrar à minha esposa o que eu realmente posso fazer...",
+		"PoolWin.2.Neutral": "Não vai ser tão fácil me vencer dessa vez!$h#$b#É hora de mostrar ao meu cônjuge o que realmente posso fazer...",
+		
+		"PoolWin.3": "Toma essa!",
+		"PoolWin.4": "A bola branca espalha as outras bolas, derrubando algumas bolas de cores sólidas nos buracos no processo.",
+		"PoolWin.5": "Isso!",
+		"PoolWin.6": "Foi uma partida bem acirrada, mas [CharacterName {{Date}}] conseguiu vencer! Acho que é melhor eu continuar praticando...",
+		
+		"PoolWin.7": "Não acredito que ganhei! Acho que toda a minha prática valeu a pena!$h",
+		"PoolWin.8": "Ei, @. Que tal nós irmos pra casa e eu te mostrar alguns dos movimentos que eu aprendi?$l",
+		"PoolWin.9": "Nossa... Isso foi ótimo, @...$l#$b#Ha, Estou exausto(a)...$l",
+		
+		//Pool Fork - Player Wins
+		
+		"PoolLose.1": "Você quer jogar bilhar? Beleza!#$b#Eu ando praticando um pouco desde a última vez que jogamos. Eu vou ganhar de você dessa vez!$h",
+		
+		"PoolLose.2.Gendered": "Não vai ser tão fácil me vencer dessa vez!$h#$b#É hora de mostrar ao meu marido o que eu realmente posso fazer...^É hora de mostrar à minha esposa o que eu realmente posso fazer...",
+		"PoolLose.2.Neutral": "Não vai ser tão fácil me vencer dessa vez!$h#$b#É hora de mostrar ao meu cônjuge o que realmente posso fazer...",
+		
+		"PoolLose.3": "Toma essa!",
+		"PoolLose.4": "A bola branca apenas bate em algumas das outras bolas de bilhar e cai em um buraco.",
+		"PoolLose.5": "Oops...",
+		"PoolLose.6": "[CharacterName {{Date}}] tentou seu máximo, mas eu consegui vencer! Nos divertimos muito jogando bilhar juntos.",
+		
+		"PoolLose.7": "Eu vou vencer da próxima vez, ${querido¦querida¦queride}$. Você vai ver!$h",
+		"PoolLose.8": "Ei, @. Que tal irmos para casa e você me ensinar alguns dos seus truques?$l",
+		"PoolLose.9": "Uau... Isso foi ótimo, @...$l#$b#Ha, eu estou exausto(a)...$l",
+		
+		"SaloonDate.End.PoolFork": "Eu me diverti muito jogando bilhar com você, ${querido¦querida¦queride}$. Vamos fazer isso de novo outra hora!$l",
+
+		"PoolLose.7.PPAF": "Eu vou vencer da próxima vez, {{termofEndearment}}. Você vai ver!$h",
+		"SaloonDate.End.PoolFork.PPAF": "Eu me diverti muito jogando bilhar com você, {{termofEndearment}}. Vamos fazer isso de novo outra hora!$l",
+	
+	//Date Reminders!
+
+		"SaloonReminder": "[CharacterName {{Date}}] Está te esperando no Saloon...",
+		"PicnicReminder": "[CharacterName {{Date}}] Está te esperando na Floresta...",
+		"LibraryReminder": "[CharacterName {{Date}}] Está te esperando no Museu...",
+		"BeachReminder": "[CharacterName {{Date}}] Está te esperando na Praia...",
+		"GroceryReminder": "[CharacterName {{Date}}] Está te esperando na loja do Pierre...",
+		"CampingReminder": "[CharacterName {{Date}}] Está te esperando na Floresta! Certifique-se de terminar o seu trabalho na fazenda antes de ir...",
+		"EmilyReminder.": "[CharacterName {{Date}}] Está te esperando na antiga casa dela...",
+		"EmilyReminder.F": "[CharacterName {{Date}}] Está te esperando na antiga casa dela...",
+		"EmilyReminder.M": "[CharacterName {{Date}}] Está te esperando na antiga casa dele...",
+		"HaleyReminder": "[CharacterName {{Date}}] Está te esperando no Ponto de Ônibus...",
+		"AlexReminder": "[CharacterName {{Date}}] Está te esperando no Ponto de Ônibus...",
+		"MaruReminder": "[CharacterName {{Date}}] Está te esperando na Floresta! Certifique-se de terminar o seu trabalho na fazenda antes de ir...",
+
+		"MissedPicnic": "Você esqueceu o seu piquenique com [CharacterName {{Date}}]!",
+		"MissedBeach": "Você esqueceu o seu dia de praia com [CharacterName {{Date}}]!",
+		"MissedGrocery": "Você esqueceu a sua ida às compras com [CharacterName {{Date}}]!",
+		"MissedHaley": "Você esqueceu o seu encontro no Deserto com [CharacterName {{Date}}]!",
+		"MissedAlex": "Você esqueceu o seu encontro de Gradebol com [CharacterName {{Date}}]!",
+
+
+
+		//Spouse Disappointment dialogues
+	
+	"SaloonDispleased": "Fiquei magoado(a) por você não ter aparecido no nosso encontro ontem à noite, @.#$b#O Gus me serviu comida por conta da casa assim que percebeu que eu não iria te ver ontem à noite. Foi horrível você ter me dado um bolo.$s#$e#Acho que só quero ficar sozinho(a) hoje, @. Depois conversamos, mas por enquanto... só quero ficar sozinho(a).$s",
+	"ForestDispleased": "@, sei que você anda muito ${ocupado¦ocupada¦ocupade}$, mas você esqueceu completamente do nosso piquenique ontem?$a#$b#Eu sei que pode ter acontecido um imprevisto, mas quando você disse que viria, pensei que faríamos um piquenique.$s#$e#Dei as sobras para a Marnie. Acho que ela vai gostar da comida.$s",
+	"LibraryDispleased": "Gunther teve que me mandar sair da biblioteca ontem. Pedi um pouquinho mais de tempo, mas...$s#$b#Acho que ele sabia que você não ia aparecer. Foi horrível sair de lá sem te ver.$s",
+	"BeachDispleased": "Me diverti muito na praia ontem. Tinha um bom vinho, uma pizza e o sol quente me aquecendo.#$b#A única coisa que faltou... foi você.$s",
+	"GroceryDispleased": "Acho que forcei um músculo trazendo as compras para casa ontem...#$b#Comprei muitas coisas achando que você estaria lá para me ajudar, como havia dito. Mas, como você não apareceu, tive que carregar tudo sozinho(a).#$e#...Eu cuido disso sozinho(a). Assim, tenho certeza de que tudo será feito do jeito certo.$a",
+	"CampingDispleased": "Passei frio ontem à noite, dormindo em uma barraca sem você.$s#$b#Se você queria que eu saísse de casa, poderia ter dito logo de uma vez...$s",
+	
+	"EmilyGemDispleased": "Não achei que aumentaria minha coleção de Cristais de Limpeza da Tristeza depois de te conhecer, mas...$s#$b#Passei o dia com a [CharacterName Haley] quando ela voltou para casa. Ainda era horrível voltar para nossa casa, mas ela me ajudou quando você não apareceu.$a",
+	"EmilyGemDispleased.M": "Não achei que aumentaria minha coleção de Cristais de Limpeza da Tristeza depois de te conhecer, mas...$s#$b#Passei o dia com o [CharacterName Haley] quando ele voltou para casa. Ainda era horrível voltar para nossa casa, mas ele me ajudou quando você não apareceu.$a",
+	"HaleyDesertDispleased": "Eu estava tão animada para ir ao deserto ontem, mas não queria ir sem você.$s#$b#Era de se esperar que ${meu marido¦minha esposa¦meu cônjuge}$ aparecesse, mas acho que ${ele¦ela¦elu}$ não conseguiu encontrar o caminho até o ponto de ônibus. Ao lado da nossa casa.$u",
+	"MaruLunarDispleased": "Vendo o vasto espacio vazio do universo... me senti como uma partícula de poeira no universo em que vivemos.$8#$b#...Mas me senti ainda menor quando você não apareceu como tinha prometido.$s#$e#Achei que seria legal ver um evento raro com você, mas acho que nunca mais vou saber como é isso, né?$s",
+	"AlexGridballDispleased": "Encontrei o [CharacterName Shane] pouco antes do ônibus partir para o jogo ontem, e acabamos indo juntos.$9#$b#Assistir à derrota dos Tunnelers não foi tão ruim quanto explicar ao [CharacterName Shane] que você me deixou na mão.$a#$e#Se não quiser ir, da próxima vez é só falar, tá bom?$s",
+	
+	//Winter Star Rare Date!
+	
+	"WinterStarDate.1": "Oi, @. Eu estava guardando os pratos de mais cedo.",
+	
+	"WinterStarDate.2.NoKids": "Foi muito bom ter a celebração da Estrela Invernal só pra nós dois.$l",
+	"WinterStarDate.2.OneKid": "Acabei de colocar %kid1 para dormir. Ele(a) estava bem cansado(a) do festival e das nossas próprias comemorações.",
+	"WinterStarDate.2.TwoKids": "Acabei de colocar %kid1 e %kid2 para dormir. Eles estavam bem cansados do festival e das nossas próprias comemorações.",
+	
+	"WinterStarDate.3": "Você teve uma boa Estrela Invernal? Espero que tenha recebido tudo o que queria debaixo da árvore da Estrela Invernal...#$b#Se não, eu sempre posso ser seu presente do ano. Pode ser meio clichê, mas você é um dos melhores presentes que já ganhei, então...$l",
+	"WinterStarDate.4": "Sabe, a Estrela Invernal me lembra do que é importante na vida.#$b#Amigos, família e as memórias que construímos ao longo do caminho...$l",
+	
+	"WinterStarDate.5.WinterStar": "Os presentes também são bem-vindos!$h",
+	"WinterStarDate.5.Solstice": "A comida também é bem-vinda!$h",
+	
+	"WinterStarDate.6.WinterStar": "Falando em presentes, esqueci de te dar isso antes.",
+	"WinterStarDate.6.Solstice": "Falando em comida, esqueci de te dar isso antes.",
+	
+	"WinterStarDate.7.WinterStar.NoKids": "Fiquei pensando se tinha contado errado antes, quando estávamos trocando presentes, mas então vi isso na bancada da cozinha e percebi.",
+	"WinterStarDate.7.WinterStar.OneKid": "Percebi, quando %kid1 estava abrindo os presentes, que havia esquecido, mas pensei em te dar quando tivéssemos um tempinho a sós.",
+	"WinterStarDate.7.WinterStar.TwoKids": "Eu estava tão ocupado(a) garantindo que %kid1 e %kid2 recebessem seus presentes que acabei me esquecendo disso na bancada! Ainda bem que encontrei antes que virasse um presente de Estrela Invernal atrasado.",
+	
+	"WinterStarDate.7.Solstice.NoKids": "Fiquei pensando se tinha contado errado antes, quando estávamos trocando os pratos de comida, mas então vi isso na bancada da cozinha e percebi. Ainda está fresco!",
+	"WinterStarDate.7.Solstice.OneKid": "Percebi, quando %kid1 já estava na metade da refeição, que havia esquecido, mas pensei em te dar quando tivéssemos um tempinho a sós.",
+	"WinterStarDate.7.Solstice.TwoKids": "Eu estava tão ocupado(a) garantindo que %kid1 e %kid2 comessem seus pratos de Estrela Invernal que esqueci isso na bancada!#$b#Ainda bem que encontrei antes que estragasse ou algo assim.",
+	
+	"WinterStarDate.8": "E então, ${querido¦querida¦queride}$? Você vai abrir?",
+	"WinterStarDate.8.PPAF": "E então, {{termofEndearment}}, Você vai abrir?",
+	"WinterStarDate.9": "[CharacterName {{Date}}] te entrega um [ItemName {{GiftList}} bugreportpls]!", //For translators, you just need to translate the "gave you a". Tokenizable strings will automatically translate the name and the item name - "bugreportpls" is what it outputs if there's an error, so someone will likely report it. (The output will be something like "Abigail gave you a Magic Rock Candy!", varied by item given and date.)
+	
+	"WinterStarDate.10.WinterStar": "Achei que você poderia gostar de algo assim como presente. Não queria comprar nada muito caro, e isso me fez pensar em você.#$b#Espero que goste.$l",
+	"WinterStarDate.10.Solstice": "Achei que você poderia querer algo assim para comer. Achei que seria bom para quando você estiver tendo um dia longo na fazenda e ficar ${cansado¦cansada¦cansade}$.#$b#Vai ser um pequeno estímulo que vai te fazer lembrar de mim.$l",
+	
+	"WinterStarDate.Yawn": "*bocejo*",
+	
+	"WinterStarDate.11": "Bem, estou quase pronto para encerrar a noite. Você vem para a cama, @?$h",
+	
+	"WinterStarDate.12": "Ir para a cama com [CharacterName {{Date}}]?",
+	"WinterStarDate.13": "Sim, estou pronto para ir dormir também",
+	"WinterStarDate.14": "Preciso fazer algumas coisas primeiro e depois eu vou.",
+	
+		//Player decides to go to sleep, ends the day
+	
+	"WinterStarDate.Sleep.1": "Tudo bem, vou apagar o resto das luzes. Vamos para a cama, ${querido¦querida¦queride}$.",
+	"WinterStarDate.Sleep.1.PPAF": "Tudo bem, vou apagar o resto das luzes. Vamos para a cama, {{termofEndearment}}.",
+	"WinterStarDate.Sleep.2": "[CharacterName {{Date}}] levanta a cabeça do travesseiro.",
+	"WinterStarDate.Sleep.2.M": "[CharacterName {{Date}}] levanta a cabeça do travesseiro.",
+	"WinterStarDate.Sleep.2.F": "[CharacterName {{Date}}] levanta a cabeça do travesseiro.",
+	"WinterStarDate.Sleep.3": "Ei, @? Eu te amo.$l",
+	"WinterStarDate.Sleep.4": "Eu também te amo, [CharacterName {{Date}}].",
+	
+	"WinterStarDate.Sleep.Suggestive.1": "Tudo bem, vamos para a cama.$h",
+	"WinterStarDate.Sleep.Suggestive.2": "Mas talvez ainda não precisemos ir dormir... Pensei em algumas coisas que poderíamos fazer antes de irmos para a cama, se você não estiver muito ${cansado¦cansada¦cansade}$...$l",
+	"WinterStarDate.Sleep.Suggestive.3": "Hum... isso foi ótimo. Mas agora estou com um pouco de frio com todo esse ar frio lá fora...$h#$b#Mas acho que o calor do seu corpo vai me manter aquecido(a) a noite toda. Eu te amo, @.$l",
+	"WinterStarDate.Sleep.Suggestive.4": "Eu também te amo, [CharacterName {{Date}}].",
+		
+		//Player needs to keep playing for the last minutes of the day
+	
+	"WinterStarDate.Awake.1": "Bem, não deixe que eu interrompa suas tarefas. Sei que você trabalha muito para manter esta fazenda funcionando. Me avise se houver algo que eu possa fazer para ajudar.",
+	"WinterStarDate.Awake.2": "Mas talvez eu vá para a cama e ajude você de manhã, se tudo der certo?$h",
+	"WinterStarDate.Awake.3": "Bem, boa noite, @. Te vejo amanhã de manhã.$l",
+	
+	"WinterStarDate.Awake.3.Suggestive": "Mas, sabe, se eu ainda estiver acordado(a) quando você voltar, talvez eu tenha outro presente para você abrir quando for para a cama...$l",
+	
+	"WinterStarReminder": "[CharacterName {{Date}}] está te esperando na casa da fazenda...",
+	
+	"WinterStarDispleased": "Os olhos de %[CharacterName [Spiderbuttons.BETAS_PlayerModData DNRWinterStarMissed]] estão vermelhos de tanto chorar.#$b#Fiquei tão preocupado(a) quando você demorou tanto para voltar que pensei que você tivesse congelado no frio quando não voltou para a nossa celebração da Estrela Invernal...$s#$e#Estou feliz que você esteja bem, mas também não sei se consigo te perdoar por me deixar tão preocupado(a).$s", // In order to get this dialogue, you essentially have to get home, either from festival or otherwise, and then never enter the farmhouse - while there are other places you can sleep, it would be incredibly strange to not enter the farmhouse on Winter Star night.
+	
+	//Island Date!
+	
+		//Intro
+	
+	"IslandDate.Intro.1": "Amor, espere.",
+	"IslandDate.Intro.1.PPAF": "{{termofEndearment}}, espere.",
+	"IslandDate.Intro.2": "Ah, @, Eu quase me esqueci!",
+	"IslandDate.Intro.3": "Antes de você ir, @...",
+	"IslandDate.Intro.4": "Ei, @?",
+	"IslandDate.Intro.5": "Você tem trabalhado muito ultimamente, então eu queria tirar um tempo para relaxarmos juntos.",
+	"IslandDate.Intro.6": "Que bom que consegui falar com você antes de você sair. Estava pensando que talvez a gente pudesse tirar um dia de folga hoje?",
+	"IslandDate.Intro.7": "Se você não tiver nada planejado para hoje, gostaria de passar algum tempo comigo? Eu esperava que nós dois pudéssemos fazer algo...",
+	"IslandDate.Intro.8": "Estava pensando em ir hoje para a Ilha Gengibre para relaxar no resort lá, e queria saber se talvez... você gostaria de ir comigo?$l",
+	
+	"IslandDate.Intro.DateAsk": "Ir ao resort com [CharacterName {{Date}}]?", //specialized date ask
+	
+	"IslandDate.Intro.Refusal.1": "Ah... tudo bem, @.$s",
+	"IslandDate.Intro.Refusal.2": "Sei que pedi isso de repente e você provavelmente tem outras coisas para fazer hoje.#$b#Bem, boa sorte nas suas tarefas de hoje, ${querido¦querida¦queride}$. Te vejo mais tarde?$h",
+	"IslandDate.Intro.Refusal.2.PPAF": "Sei que pedi isso de repente e você provavelmente tem outras coisas para fazer hoje.#$b#Bem, boa sorte nas suas tarefas de hoje, {{termofEndearment}}. Te vejo mais tarde?$h",
+	"IslandDate.Intro.Refusal.End": "Que gentileza sua se preocupar comigo, ${querido¦querida¦queride}$, mas estou bem. Sei que você está ${ocupado¦ocupada¦ocupade}$ às vezes.#$b#Talvez possamos ir juntos outro dia?$l",
+	
+	"IslandDate.Intro.Acceptance.1": "Que bom que você aceitou, @. Eu estava um pouco preocupado(a) por ter sido tão repentino...$h#$b#Te vejo no resort perto do meio-dia, se estiver tudo bem para você.$l",
+	"IslandDate.Intro.Acceptance.2": "Ah, mas lembre-se de chegar antes das 6! Não quero perder o barco de volta para casa#$b#E não se preocupe em trazer sua roupa de banho. Sei que você tem muito o que fazer, então não me importo se você vier com suas roupas normais.$l",
+	"IslandDate.Intro.Acceptance.End": "Encontro você no resort hoje à tarde, @. Lembre-se de chegar antes das 6, tá?$l",
+	
+		//Main Date
+		
+	"IslandDate.1": "Estava me perguntando quando você chegaria, @! Acabei de terminar de preparar algumas coisas.$h",
+	"IslandDate.2": "Trouxe {{Food}} para a nossa viagem. Esqueci de trazer bebidas, mas, felizmente, o [CharacterName {{Gus}}] veio com a gente para a ilha hoje, então podemos pedir bebidas com ele.",
+	"IslandDate.3": "Eu ia comprar algo para mim. Você quer vir comigo, @?$h",
+	"IslandDate.4": "Bem, vamos ver o que têm então!$h#$b#Não se preocupe, @, desta vez quem paga as bebidas sou eu.",
+	"IslandDate.5": "Oi [CharacterName {{Gus}}]! O que você tem pra gente hoje?",
+	
+	"IslandDate.GusBartender": "Olá, @ e [CharacterName {{Date}}]! Tenho bebidas perfeitas para vocês dois.$h#$b# Posso preparar uns [ItemName 873 bugreportpls], uns [ItemName 348 bugreportpls] para compartilhar, uns [ItemName 303 bugreportpls] ou, se vocês estiverem procurando bebidas não alcoólicas, tenho uns [ItemName 903 bugreportpls], uns [ItemName 612 bugreportpls] ou uns [ItemName 614 bugreportpls].",
+	"IslandDate.EmilyBartender": "Olá, [CharacterName {{Date}}]! É bom ver você e @ tirando um tempo para relaxar.$h#$b#Posso trazer alguns [ItemName 903 bugreportpls]s, uns [ItemName 612 bugreportpls], ou alguns copos de [ItemName 614 bugreportpls], ou se vocês estiverem se sentindo aventureiros, posso trazer dois [ItemName 873 bugreportpls]s, [ItemName 348 bugreportpls], ou até alguns [ItemName 303 bugreportpls]!$h", //For translators - do not translate "bugreportpls". The syntax for the tokenizable string is "get the item name of this item (in the relevant language) *and if not available, output bugreportpls*". If that ever outputs, it's intentional to have the user bug report something's gone wrong.
+	
+	"IslandDate.6": "Acho que já sei o que quero. Vá em frente e compre o que você quer primeiro, @.",	
+	"IslandDate.7": "O que você quer beber?",
+	
+	"IslandDate.8": "Vou querer um {{Drink}}, [CharacterName {{Gus}}]!$h",
+	"IslandDate.ComingRightUp": "Já está saindo!$h",
+	
+	"IslandDate.9": "Bem, agora que temos algo para comer, podemos começar a relaxar. Vamos voltar ao nosso {{Food}}!$h",
+	"IslandDate.10.Gendered": "Isto é que é vida... ${meu marido^minha esposa^meu cônjuge}$, uma praia quentinha e uma comida gostosa para compartilhar com você.$h#$b#Bom, vamos comer, @.$l", // In case a mod defines a third gender, the neutral dialogue is a fallback.
+	"IslandDate.10.Neutral": "Isto é que é vida... meu cônjuge, uma praia quentinha e uma comida gostosa para compartilhar com você.$h#$b#Bom, vamos comer, @.$l",
+	"IslandDate.11": "A comida estava deliciosa! Nós dois terminamos a {{Food}} enquanto relaxávamos na areia da praia.",
+	"IslandDate.12": "Hmmm, estava bom. Trazer {{Food}} foi uma ótima ideia.$h#$b#E agora... para acompanhar com um pouco de {{Drink}}...",
+	"IslandDate.13": "Hmm, isso foi ótimo.$h#$b#Mas acho que o [CharacterName {{Gus}}] me deu um pouco a mais. Talvez ele pensou que poderíamos dividir?$l",
+	"IslandDate.14": "[{{DrinkID}}] Aqui, se não terminarmos antes de irmos embora, pode tomar como uma bebida rápida enquanto faz outras coisas mais tarde.$l",
+	"IslandDate.15": "Bem, ainda temos algum tempo antes que o barco nos leve de volta... porém, podemos passar a noite aqui se perdermos o barco.",
+	"IslandDate.16": "O que você quer fazer, {{PlayerName}}?",
+	"IslandDate.17": "Quer visitar nossa casa na ilha?",
+	"IslandDate.18": "Podemos explorar um pouco a ilha...",
+	"IslandDate.19": "Quer dar um mergulho?",
+		
+		// Island Southeast - Resort Swimming (derivative of Beach fork)
+	
+	"IslandDateSE.1": "Parece divertido! Estamos em um resort tropical, então por que não ir nadar?$h",
+	"IslandDateSE.2": "Mas a água pode estar um pouco cheia por aqui. Acho que há alguns lugares livres perto do resort principal que poderíamos ir...$l",
+	"IslandDateSE.3": "Uau... a água é cristalina. A vista é incrível...$h",
+	"IslandDateSE.4": "...e não estou falando só da paisagem.$l",
+	"IslandDateSE.5": "Acho que nós dois precisávamos muito disso. Um tempo só para nós.#$b#A vida pode ser bem louca, sabe? São esses pequenos momentos que são os mais importantes.#$b#Só você, eu e o som suave das ondas batendo na praia...$l",
+	"IslandDateSE.6": "Tá pronto pra se divertir no sol, @?$l",
+	"IslandDateSE.7": "%[CharacterName {{Date}}] começa a correr loucamente em direção à água.#$b#Vamos lá, @! Vamos ver quem chega primeiro!$h",
+	"IslandDateSE.8": "A temperatura da água está perfeita... Poderia ficar aqui o dia todo!$h",
+	"IslandDateSE.9": "Ei, @? ... Obrigado por ter vindo comigo hoje.",
+	"IslandDateSE.10": "É sério, sabe? Gosto de poder dedicar tempo só para nós dois.",
+	"IslandDateSE.11": "Eu te amo. Você sabe disso, né?$l",
+	"IslandDateSE.12": "Eu também te amo, [CharacterName {{Date}}].",
+	"IslandDateSE.13": "Eu sei, [CharacterName {{Date}}]. Eu também te amo.",
+	"IslandDateSE.14": "Sim. Obrigado por decidir passar a sua vida comigo, [CharacterName {{Date}}].",
+	"IslandDateSE.15": "Desculpe, @, estava ficando um pouco sério demais. A gente está tentando se divertir aqui.$h",
+	"IslandDateSE.16": "Oh, começou, @. Volte aqui!$h",
+	"IslandDateSE.17": "[CharacterName {{Date}}] agarra seus ombros e mergulha você na água. Você volta à superfície ofegante, tentando respirar.",
+	"IslandDateSE.18": "Desta vez te peguei, @!$h#$b#Se você desistir, talvez ganhe um beijo de consolação.$l",
+	"IslandDateSE.19": "[CharacterName {{Date}}] e eu nos divertimos muito nadando juntos... foi ótimo passar um tempo a sós na ilha.",
+	"IslandDateSE.20": "Faz tempo que não via [CharacterName {{Date}}] tão feliz!",
+	"IslandDateSE.21": "Está bem, desisto! Você é implacável, @!$h",
+	"IslandDateSE.22": "Foi muito divertido... obrigado por ter vindo comigo hoje.$l",
+	
+	"IslandDateSE.23.Suggestive": "Sabe... Eu ainda não quero voltar com os outros.#$b#Podemos voltar para a nossa casa na ilha? Tenho mais algumas coisas para te mostrar... sem o traje de banho.$l",
+	"IslandDateSE.24.Suggestive.Gendered": "Um encontro em uma ilha tropical, passando tempo com ${meu marido^minha esposa^meu cônjuge}$, e terminando desse jeito?$h#$b#Isso é que é vida. Vou garantir que a gente se divirta ainda mais da próxima vez que estivermos aqui...$l",
+	"IslandDateSE.24.Suggestive.Neutral": "Um encontro em uma ilha tropical, passando tempo com meu cônjuge, e terminando desse jeito?$h#$b#Isso é que é vida. Vou garantir que a gente se divirta ainda mais da próxima vez que estivermos aqui...$l",
+	
+	"IslandDateSE.23.Gendered": "Um encontro em uma ilha tropical, passando tempo com  ${meu marido^minha esposa^meu cônjuge}$...#$b#Isso é que é vida. Já estou pensando no que podemos fazer da próxima vez que estivermos aqui...$l",
+	"IslandDateSE.23.Neutral": "Um encontro em uma ilha tropical, passando tempo com  spouse...#$b#Isso é que é vida. Já estou pensando no que podemos fazer da próxima vez que estivermos aqui...$l",
+	
+	"IslandDateSE.End": "Acho que não parei de sorrir desde o nosso encontro hoje, @.$h#$b#Obrigado por ter vindo comigo hoje.$l",
+	
+		//Island Tour - visit Island East, West, and North at various spots. 
+		
+	"IslandDateTour.1": "Parece ótimo! Sempre quis conhecer o resto da ilha, mas o Willy era bastante rigoroso quanto a ficar no resort.$h", // See Abigail's resort dialogue for justification for this one.
+	"IslandDateTour.2": "Mas se você estiver comigo, acho que podemos ir a qualquer lugar que você quiser.$l#$b#Você primeiro, @. Tenho certeza de que ficarei feliz com qualquer coisa que você quiser me mostrar.",
+	"IslandDateTour.3": "Acho que vi um gorila!",
+	"IslandDateTour.4": "Me alcance se puder, {{PlayerName}}!",
+	"IslandDateTour.5": "Espera, aquilo é um navio pirata?",
+	"IslandDateTour.6": "O vulcão não fica mais perto do resort?",
+	"IslandDateTour.7": "Estamos quase voando???",
+	"IslandDateTour.8": "Você acha que esse vulcão vai entrar em erupção algum dia?",
+	"IslandDateTour.9": "...Está em erupção agora??",
+	"IslandDateTour.10": "Hoje foi muito divertido! Você deveria fazer tours por este lugar, @.$h#$b#Mas eu gosto da ideia de que este foi um tour particular, só para mim.$l",
+	"IslandDateTour.11": "Ei, @? Promete que podemos fazer isso de novo algum dia? Eu me diverti muito hoje e adoraria criar mais memórias assim com você.",
+	"IslandDateTour.12": "Eu prometo.",
+	"IslandDateTour.13": "Vamos fazer muito mais na próxima vez, [CharacterName {{Date}}].",
+	"IslandDateTour.14": "Vamos fazer algo diferente na próxima vez, mas adoro fazer qualquer coisa com você, [CharacterName {{Date}}].",
+	"IslandDateTour.15": "%[CharacterName {{Date}}] encosta a cabeça no seu ombro.#$b#Podemos ficar aqui um pouco, @? Só quero ver o pôr do sol com você.$l",
+	"IslandDateTour.16": "[CharacterName {{Date}}] e eu assistimos ao sol se pôr no horizonte e então voltamos para o resort.",
+	"IslandDateTour.17": "Pronto para voltar, @?$h",
+	
+	"IslandDateTour.18": "Vou sentir falta de poder ver tudo o que a ilha tem para oferecer...#$b#...mas acho que o lar fica onde você está, @.$l",
+	
+	"IslandDateTour.18.Suggestive": "Ah, mas talvez a gente não volte ainda. Esqueci uma coisa na Casa da Fazenda da Ilha enquanto estávamos lá.#$b#Você deveria vir comigo, @. Podemos nos divertir um pouco mais antes de voltarmos...$l",
+	"IslandDateTour.19.Suggestive": "Bem, o barco provavelmente já foi embora. Acho que o Willy não teria ficado por aqui se tivesse ouvido os barulhos que você estava fazendo.$h#$b#É brincadeira, @. Acho que ainda temos um tempinho antes que o barco volte...$l",
+	
+	"IslandDateTour.End.Suggestive": "Me diverti muito no passeio pela ilha hoje, @. Temos que explorar a ilha de novo outro dia.#$e#Mas se ficarmos muito tempo de novo, não sei se o Willy vai conseguir olhar na nossa cara outra vez! Ele já estava bem sem jeito na volta.$h",
+	"IslandDateTour.End": "Me diverti muito no passeio pela ilha hoje, @. Temos que explorar a ilha de novo outro dia.",
+	
+		//Island West - visit Island Farm and talk with spouse
+		
+	"IslandDateWest.1.Suggestive": "@, se você queria ir para um lugar mais reservado, era só pedir.$h",
+	"IslandDateWest.1": "A casa da fazenda na ilha? Deve ser menos movimentada do que aqui...#$b#E vai ser legal ver o que você tem plantado aqui também.$h",
+	"IslandDateWest.2.Suggestive": "É brincadeira, não se preocupe. Vamos ver nossa casa longe de casa.$l#$b#Você primeiro, @. Acho que é minha vez de apreciar a vista durante nossa caminhada.$l",
+	"IslandDateWest.2": "Vamos ver nossa casa longe de casa. Você primeiro, @.$l",
+	
+	"IslandDateWest.3": "Sabe, quando pensei no que devíamos fazer hoje, pensei em muitas coisas.#$b#Nadar, explorar, até mesmo relaxar sob o sol quente.",
+	"IslandDateWest.4": "[CharacterName {{Date}}] bate levemente em seu ombro.",
+	"IslandDateWest.5.Gendered": "Mas isso é muito mais legal. Tipo, dá pra passar um tempinho tranquilo com ${meu marido^minha esposa^meu cônjuge}$, numa ilha tropical, com uma vista linda.$l#$b#Bem, ou quase uma vista linda. É meio estranho ver plantações numa ilha.$h",
+	"IslandDateWest.5.Neutral": "Mas isso é muito mais legal. Tipo, dá pra passar um tempinho tranquilo com meu cônjuge, numa ilha tropical, com uma vista linda.$l#$b#Bem, ou quase uma vista linda. É meio estranho ver plantações numa ilha.$h",
+	"IslandDateWest.6": "Não que seja uma coisa ruim, @! É que não combina muito com a imagem de uma 'ilha tropical', sabe?$h",
+	"IslandDateWest.7": "Mas falando sério, @. Fico feliz por estarmos juntos assim.$l#$b#Sei que nós dois podemos estar ocupados às vezes, mas poder passar algum tempo a sós com você... Não trocaria isso por nada.",
+	"IslandDateWest.8": "Me abrace por mais um tempinho, tá bom, @? Ainda não estou pronto(a) para ir embora.$l",
+	"IslandDateWest.9": "[CharacterName {{Date}}] e eu ficamos juntos no alpendre por um tempo e depois exploramos o resto da Fazenda da Ilha.",
+	"IslandDateWest.10": "Depois de um tempo, voltamos para o alpendre.",
+	"IslandDateWest.11": "Bem, isso foi relaxante. Eu me diverti muito hoje, @.",
+	
+	"IslandDateWest.12.Suggestive": "Agora, tenho certeza de que [CharacterName {{Gus}}] e os outros não esperam que a gente volte pra casa com eles, já que viemos pra cá...#$b#Então, tive uma ideia.$l",
+	"IslandDateWest.13.Suggestive": "Os olhos de [CharacterName {{Date}}] ficam maliciosos.",
+	"IslandDateWest.14.Suggestive": "Podemos ir para casa com todos...$h#$b#Ou podemos passar um tempo juntos aqui dentro. Não sei você, mas tenho algumas ideias muito boas do que podemos fazer.$l",
+	"IslandDateWest.15.Suggestive": "Foi um final perfeito para o dia de hoje, @. Eu te amo muito.$l",
+	
+	"IslandDateWest.12": "Agora, tenho certeza de que [CharacterName {{Gus}}] e os outros não esperam que a gente volte pra casa com eles, já que viemos pra cá...",
+	"IslandDateWest.13.Gendered": "Então vamos ficar aqui mais um pouco, não é? Quero passar algum tempo longe do resort e com ${o homem^a mulher^a pessoa}$ que amo.$l",
+	"IslandDateWest.13.Neutral": "Então vamos ficar aqui mais um pouco, não é? Quero passar algum tempo longe do resort e com a pessoa que amo.$l",
+	
+	"IslandDateWest.End": "Ei, @, a gente deveria voltar pra Ilha um dia desses e relaxar na nossa casa lá.#$e#Acho que seria umas férias legais pra gente. O que você acha, @, tá a fim?$l",
+	
+		
+		//Miscellaneous Island strings
+	
+	"IslandReminder": "[CharacterName {{Date}}] está te esperando no Resort da Ilha Gengibre...",
+	"IslandMissed": "Você perdeu o encontro no resort com [CharacterName {{Date}}]!",
+	
+	"IslandDispleased": "Bem, me diverti muito relaxando no resort hoje.$a#$b#Acho que não era só uma folga que eu estava precisando. Talvez eu só precisasse de um tempo longe de você.$a",
+}

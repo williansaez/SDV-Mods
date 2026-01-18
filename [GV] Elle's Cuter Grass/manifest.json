@@ -1,0 +1,17 @@
+{	"Name": "Elle's Cuter Grass",
+    "Author": "Elle/Junimods",
+    "Version": "1.0.1",
+    "Description": "Adds flowery grass to your farm!",
+    "UniqueID": "Elle.CuterGrass",
+   "UpdateKeys": [ "Nexus:37798" ],
+    "MinimumApiVersion": "4.0.0",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "mushymato.GrassVariety",
+            "IsRequired": true
+        }
+    ]
+}

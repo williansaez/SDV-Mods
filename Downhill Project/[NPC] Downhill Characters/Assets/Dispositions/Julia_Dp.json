@@ -1,0 +1,22 @@
+{
+  "Changes": [
+	{	//Arts Load
+		"Action": "Load", "Priority": "Low",
+		"Target": "Characters/Julia, Characters/Julia_Winter, Portraits/Julia, Portraits/Julia_Winter",
+		"FromFile": "Assets/Arts/{{TargetPathOnly}}/Julia/{{TargetWithoutPath}}.png"
+    },
+	{	// NPC ?
+        "Action": "EditData",
+        "Target": "Data/Characters",
+		"Update": "OnDayStart",
+        "Entries": {
+			"Julia": { "DisplayName": "{{i18n:Julia.Name}}", "Gender": "Male", "Age": "Adult", "BirthSeason": "Winter", "BirthDay": 9, "Manner": "Neutral", "SocialAnxiety": "Outgoing", "Optimism": "Positive", "CanBeRomanced": false, "WinterStarParticipant": "false", "CanVisitIsland": "false", "DumpsterDiveEmote": 28, "HomeRegion": "Town",
+            "Home": [ { "Id": "DH.Julia.House", "Location": "DH.Julia.House", "Tile": { "X": 5, "Y": 4 }, "Direction": "Up" }, ],
+			"Appearance": [ 
+				{ "Season": "Winter", "Sprite": "Characters/Julia_Winter", "Portrait": "Portraits/Julia_Winter" },
+				{ "Sprite": "Characters/Julia", "Portrait": "Portraits/Julia" } ]
+		}
+	  }
+	}
+  ]
+}

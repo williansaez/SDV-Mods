@@ -1,0 +1,25 @@
+{
+	"Changes": [
+        {
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			"Entries": {
+				"{{ModId}}_Clint_Infinity_Tools_Mail": "{{i18n:Clint_Infinity_Tools_Mail}}",
+			}
+		},
+        {
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+			 "{{ModId}}_Clint_Infinity_Tools_Mail_Trigger": {
+				"Id": "{{ModId}}_Clint_Infinity_Tools_Mail_Trigger",
+				"Trigger": "DayEnding",
+				"Condition": "PLAYER_HAS_SEEN_EVENT Current Vanillin.InfinityTools_Clint_Infinity_Tools",
+				"Actions": [
+					"AddMail Current {{ModId}}_Clint_Infinity_Tools_Mail"
+					]
+				}
+			}
+		},
+	]
+}

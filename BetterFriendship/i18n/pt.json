@@ -1,0 +1,36 @@
+{
+    
+    "config.option.prompt_speak.name": "Oportunidade de falar com os moradores",
+    "config.option.prompt_speak.description": "Exibe um indicador se um aldeão não tiver sido contatado hoje.",
+
+    "config.option.gift_preference.name": "Preferência de sugestão de presentes",
+    "config.option.gift_preference.description": "O nível mais baixo de correspondência que você deseja para as sugestões de presentes. As sugestões de presentes vêm de itens atualmente em seu inventário, ordenados pela preferência de presente do presenteado, qualidade do item e preço mais barato.",
+    "config.option.gift_preference.value.love": "Mostrar apenas presentes amados",
+    "config.option.gift_preference.value.like": "Mostrar presentes apreciados e acima",
+    "config.option.gift_preference.value.neutral": "Mostrar presentes neutros e acimae",
+    "config.option.gift_preference.value.none": "Ocultar todas as sugestões",
+
+    "config.option.gift_max_count.name": "Máximo de presentes a serem exibidos",
+    "config.option.gift_max_count.description": "O número máximo de sugestões de presentes a serem alternadas.",
+
+    "config.option.gift_display_time.name": "Tempo de exibição do presente (ms)",
+    "config.option.gift_display_time.description": "O tempo para exibir cada presente sugerido, em milissegundos.",
+
+    "config.option.gift_generic_prompts.name": "Exibir prompts de presentes genéricos",
+    "config.option.gift_generic_prompts.description": "Exibe um indicador de presente genérico se um aldeão puder receber um presente, mas nada em seu inventário corresponder ao gosto dele.",
+
+    "config.option.ignore_maxed.name": "Ignore as amizades maximizadas",
+    "config.option.ignore_maxed.description": "Oculta sugestões e avisos para relacionamentos que não decairão.",
+
+    "config.option.spouse_prompts.name": "Sempre exibir prompts para o cônjuge",
+    "config.option.spouse_prompts.description": "Substitui outras configurações para sempre exibir avisos de presentes e conversas para seu cônjuge.",
+
+    "config.option.only_highest_quality.name": "Mostrar somente a mais alta qualidade",
+    "config.option.only_highest_quality.description": "Exibir somente a versão de maior qualidade dos itens disponíveis. Por exemplo, se o senhor tiver um pimenta quente de qualidade ouro e prata, apenas a pimenta de qualidade ouro será sugerida.",
+
+    "config.option.enable_bubbles.name": "[!] Ativar bolhas de sugestões",
+    "config.option.enable_bubbles.description": "Permite que bolhas flutuantes sejam exibidas sobre os aldeões. Aviso: Ao desativar essa opção, você ocultará TODAS as bolhas flutuantes ativadas por esse mod (avisos de conversa, sugestões de presentes etc.).",
+    
+    "config.option.bubble_display_range.name": "Faixa de exibição",
+    "config.option.bubble_display_range.description": "Intervalo no qual as bolhas são exibidas."
+}

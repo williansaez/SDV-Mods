@@ -1,0 +1,38 @@
+{
+    "Changes": [
+        {
+            "Action":"EditData",
+            "Target": "Data/Mail",
+            "Entries":
+            {
+                "NQR.Wizard1.Complete": "[letterbg 2]{{i18n:Wizard1Mail}} %item craftingRecipe Transmute_(IR) %%[#]{{i18n:Wizard1Title}}",
+                "NQR.Wizard2.Complete": "[letterbg 2]{{i18n:Wizard2Mail}} %item craftingRecipe Transmute_(RA) %%[#]{{i18n:Wizard2Title}}"
+            }
+        },
+        {
+            "Action":"EditData",
+            "Target":"Strings/SpecialOrderStrings",
+            "Entries":
+            {
+                "NQR.TransmutationI_Objective_1_Text": "{{i18n:WizTransIObj1}}",
+                "NQR.TransmutationI_Objective_2_Text": "{{i18n:WizTransIObj2}}",
+                "NQR.TransmutationII_Objective_1_Text": "{{i18n:WizTransIIObj1}}",
+                "NQR.TransmutationII_Objective_2_Text": "{{i18n:WizTransIIObj2}}"
+            } 
+        },
+        {
+            "Action":"EditData",
+            "Target":"Strings/SpecialOrderStrings",
+            "When": {
+				"Spouse |contains=Wizard": true
+            },
+            "Entries":
+            {
+                "NQR.Transmutation.Reaction1": "{{i18n:WizTransIReact1.married}}",
+                "NQR.Transmutation.Reaction2": "{{i18n:WizTransIReact2.married}}",
+                "NQR.Transmutation2.Reaction1": "{{i18n:WizTransIIReact1.married}}",
+                "NQR.Transmutation2.Reaction2": "{{i18n:WizTransIIReact2.married}}"
+            } 
+        }
+    ]
+}

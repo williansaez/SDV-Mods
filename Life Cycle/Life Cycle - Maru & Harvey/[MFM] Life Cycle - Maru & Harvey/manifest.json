@@ -1,0 +1,15 @@
+{
+  "Name": "[MFM] Life Cycle - Maru & Harvey Wedding Mail",
+  "Author": "nraittanna",
+  "Version": "4.3.0",
+  "Description": "Mail for Maru and Harvey married version.",
+  "UniqueID": "nraittanna.LifeCycleMaruHarveyMail",
+  "Dependencies": [
+		{
+			"UniqueID": "nraittanna.LifeCycleMaruHarvey"
+		}
+	],
+  "ContentPackFor": {
+    "UniqueID": "DIGUS.MailFrameworkMod"
+  }
+}

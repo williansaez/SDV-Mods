@@ -1,0 +1,118 @@
+{
+    "Format": "2.4.0",
+	"ConfigSchema": {
+		"MatureEvent": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"AllowBlank": false,
+			"Section": "gameplay"
+		},
+		"AutoSingle": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"AllowBlank": false,
+			"Section": "gameplay"
+		},
+		"SorkrimArt": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false,
+			"Section": "graphics"
+		},
+		"PortraitStyle": {
+			"AllowValues": "Spring, Summer, Fall, WinterIndoor, WinterOutdoor, Beach, FlowerDance, SpiritEve",
+			"Default": "Beach",
+			"AllowBlank": false,
+			"Section": "graphics"
+		},
+		"MarriageDialogue": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false,
+			"Section": "compatibility"
+		}
+	},
+	"DynamicTokens": [
+		{
+            "Name": "Variant",
+            "Value": "Spring",
+			"When":
+			{
+				"SorkrimArt": "true"
+			}
+        },
+		{
+            "Name": "Variant",
+            "Value": "Summer",
+            "When":
+            {
+                "Season": "Summer",
+				"SorkrimArt": "true"
+            }
+        },
+		{
+            "Name": "Variant",
+            "Value": "Fall",
+            "When":
+            {
+                "Season": "Fall",
+				"SorkrimArt": "true"
+            }
+        },
+		{
+            "Name": "Variant",
+            "Value": "Winter_Indoor",
+            "When":
+            {
+                "Season": "Winter",
+				"SorkrimArt": "true"
+            },
+        },
+		{
+            "Name": "Variant",
+            "Value": "Winter_Outdoor",
+            "When":
+            {
+                "Season": "Winter",
+				"SorkrimArt": "true"
+            },
+        },
+	],
+    "Changes": [
+		{
+			"Action": "Include",
+			"FromFile": "data/schedules.json",
+		},
+		{
+            "Action": "Include",
+            "FromFile": "data/maps.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "data/disposition.json"
+        },
+		{
+            "Action": "Include",
+            "FromFile": "data/dialogue.json"
+        },
+		{
+			"Action": "Include",
+			"FromFile": "data/mail.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/events.json"
+		},
+		{
+			"Action": "Include",
+			"When": {
+                "Spouse |contains=Caroline": true,
+            },
+			"FromFile": "data/festival.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/items.json"
+		},
+    ],
+}

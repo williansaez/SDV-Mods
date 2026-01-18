@@ -1,0 +1,638 @@
+{
+    "Format": "2.0.0",
+    "ConfigSchema": {
+        "Version": {
+            "AllowValues": "dating, married",
+            "Default": "dating"
+        },
+        "Save": {
+            "AllowValues": "new, old",
+            "Default": "old"
+        }
+    },
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Marnie",
+            "When": {
+                "Version": "dating",
+                "Save": "old",
+                "HasSeenEvent": "59020016"
+            },
+            "Entries": {
+                "Tue4": "É tão maravilhoso finalmente estar livre para passar todo o tempo que quero com o Lewis.$1",
+                "Fri4": "Estou tão feliz que você se mudou para cá, @.$0#$b#Você realmente ajudou o Lewis e eu.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Lewis",
+            "When": {
+                "Version": "dating",
+                "Save": "old",
+                "HasSeenEvent": "59020016"
+            },
+            "Entries": {
+                "Mon4": "Eu nem sei por que pensei que todos vocês reagiriam mal ao fato de eu e a Marnie estarmos namorando.$0",
+                "Wed4": "Olá, @.$0#$e#Não consigo agradecer o suficiente por me incentivar a admitir meu relacionamento publicamente.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Shane",
+            "When": {
+                "Version": "dating",
+                "Save": "old",
+                "HasSeenEvent": "59020016"
+            },
+            "Entries": {
+                "Tue4": "Ainda é um pouco estranho ver o Lewis o dia todo na nossa casa...$2",
+                "Wed2": "Não sei se é bom a Jas passar tanto tempo com o Lewis quando não faz muito que eles meio que eram estranhos.$2",
+                "Sat6": "Provavelmente o Lewis vai aparecer por aqui de novo hoje...$3",
+                "Sun4": "A Jas realmente gosta de brincar com o Lewis.$3#$b#Acho que ele é uma influência melhor do que eu.$3"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jas",
+            "When": {
+                "Version": "dating",
+                "Save": "old",
+                "HasSeenEvent": "59020016"
+            },
+            "Entries": {
+                "Entries": {
+                    "Mon6": "Olá, Senhor @.^Olá, Senhorita @.$0#$e#Você acha que o Tio Lewis vai morar conosco algum dia?$3",
+                    "Tue4": "Você está procurando pela Tia Marnie?$0#$e#Ou talvez pelo Tio Lewis?$1",
+                    "Tue10": "Gosto do Tio Lewis, ele sempre brinca comigo quando visita a Tia Marnie.$1",
+                    "Wed6": "Shane e a Tia Marnie estão sempre ocupados, mas agora posso brincar com o Tio Lewis!$1",
+                    "Wed8": "Vou pedir ao Tio Lewis para ampliar o parque.$0#$b#Já serve para o Vincent e eu, mas quero que outras crianças venham brincar conosco!$1",
+                    "Thu6": "Eu devo pedir ao Tio Lewis e à Tia Marnie para fazerem um bolo rosa comigo.$1#$e#Tchau!$1",
+                    "Fri8": "Gosto quando o Tio Lewis vem para nossa casa.$0#$b#Ele sempre traz lindas rosas de fada.$1",
+                    "Fri10": "Adivinha?$0#$b#O Tio Lewis me deu uma nova boneca ontem.$1#$b#Quer brincar comigo?$0",
+                    "Sat8": "Amanhã vou assistir ao novo filme da Fada Minsa com o Shane, a Tia Marnie e o Tio Lewis!$1",
+                    "Sun4": "Sempre achei estranho o Tio Lewis vir à noite para nossa casa.$3",
+                    "Sun10": "O Tio Lewis prometeu que vai me levar para Zuzu City algum dia com a Tia Marnie.$1"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "When": {
+                "Version": "dating",
+                "Save": "old",
+                "HasSeenEvent": "59020016"
+            },
+            "Entries": {
+                "spring_20": "É tão bom ver a Marnie e o Lewis juntos.$1",
+                "summer_28": "Olá, @.$0#$e#Não conte para o Lewis e a Marnie, mas...$0#$b#Todo mundo da cidade já sabia deles.$1",
+                "spring_20_2": "É tão bom ver a Marnie e o Lewis juntos.$1",
+                "summer_28_2": "Olá, @.$0#$e#Não conte para o Lewis e a Marnie, mas...$0#$b#Todo mundo da cidade já sabia deles.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Caroline",
+            "When": {
+                "Version": "dating",
+                "Save": "old",
+                "HasSeenEvent": "59020016"
+            },
+            "Entries": {
+                "summer_3": "Pierre e eu costumávamos conversar às vezes sobre a Marnie e o Lewis.$0#$b#Acontece que estávamos certos sobre eles.$0#$e#Eles formam um bom casal.$1",
+                "winter_19": "Olá, @.$0#$e#Estava pensando... por que Lewis e Marnie estavam tentando esconder o relacionamento deles?$0#$b#Não era nem segredo para a maioria das pessoas da cidade.$0",
+                "summer_3_2": "Pierre e eu costumávamos conversar às vezes sobre a Marnie e o Lewis.$0#$b#Acontece que estávamos certos sobre eles.$0#$e#Eles formam um bom casal.$1",
+                "winter_19_2": "Olá, @.$0#$e#Estava pensando... por que Lewis e Marnie estavam tentando esconder o relacionamento deles?$0#$b#Não era nem segredo para a maioria das pessoas da cidade.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Evelyn",
+            "When": {
+                "Version": "dating",
+                "Save": "old",
+                "HasSeenEvent": "59020016"
+            },
+            "Entries": {
+                "summer_23": "Que bom que o Lewis finalmente admitiu o relacionamento com a Marnie.$0#$b#Achei que eles ficariam escondidos para sempre.$0",
+                "winter_15": "Olá, querido.$0#$e#Seu avô ficaria feliz em ver a Marnie e o Lewis finalmente juntos.$0#$b#Ele e eu sempre pensamos que eles formavam um bom casal.",
+                "summer_23_2": "Que bom que o Lewis finalmente admitiu o relacionamento com a Marnie.$0#$b#Achei que eles ficariam escondidos para sempre.$0",
+                "winter_15_2": "Olá, querido.$0#$e#Seu avô ficaria feliz em ver a Marnie e o Lewis finalmente juntos.$0#$b#Ele e eu sempre pensamos que eles formavam um bom casal."
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Gus",
+            "When": {
+                "Version": "dating",
+                "Save": "old",
+                "HasSeenEvent": "59020016"
+            },
+            "Entries": {
+                "spring_10": "A Marnie e o Lewis eram tão óbvios.$0#$b#Eles vão ao bar toda sexta e só conversam um com o outro.$1",
+                "fall_21": "Eu sempre soube que o Lewis tinha algo com a Marnie.$0#$b#Sabe, as vantagens de ser bartender.$1",
+                "spring_10_2": "A Marnie e o Lewis eram tão óbvios.$0#$b#Eles vão ao bar toda sexta e só conversam um com o outro.$1",
+                "fall_21_2": "Eu sempre soube que o Lewis tinha algo com a Marnie.$0#$b#Sabe, as vantagens de ser bartender.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24.xnb",
+            "When": {
+                "HasSeenEvent": "59020016"
+            },
+            "Entries": {
+                "Marnie": "O amor está no ar...$0#$b#Talvez o Lewis me convide para dançar mais tarde...$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/schedules/Marnie",
+            "When": {
+                "Version": "dating",
+                "Save": "old",
+                "HasSeenEvent": "59020016"
+            },
+            "Entries": {
+                "spring.001": "A Caroline compartilhou algumas de suas receitas de chá comigo.$0#$b#O Lewis ama chá.$1",
+                "spring.002": "Pedi ao Lewis para me ensinar jardinagem.$0#$b#Mas não sei se vou ter tempo para cuidar de um jardim.$2",
+                "summer.001": "O Lewis faz um trabalho excelente como Prefeito.$1",
+                "summer.002": "Depois de me exercitar, é relaxante caminhar pela praia.$1",
+                "fall.001": "O Lewis e eu alimentamos as vacas mais cedo.$0",
+                "fall.002": "@!?$4#$b#O-O que você está fazendo aqui?!$4",
+                "winter.001": "@!?$4#$b#E-Esse é o quarto do Lewis!$4",
+                "winter.002": "@!?$4#$b#P-Poderia ir embora?$4"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Marnie",
+            "When": {
+                "Version": "dating",
+                "Save": "old",
+                "HasSeenEvent": "59020016"
+            },
+            "Entries": {
+                "spring_Wed": "830 AnimalShop 17 5 0/850 AnimalShop 12 14 2/1530 ManorHouse 4 8 3 \"Strings\\schedules\\Marnie:spring.001\"/2300 AnimalShop 12 5 3 marnie_sleep",
+                "spring_Sun": "830 AnimalShop 17 5 0/850 AnimalShop 12 14 2/1630 Town 66 87 2 \"Strings\\schedules\\Marnie:spring.002\"/2100 AnimalShop 12 5 3 marnie_sleep",
+                "summer_Mon": "810 SeedShop 11 20 0/1200 AnimalShop 24 15 0/1600 AnimalShop 7 15 3 \"Strings\\schedules\\Marnie:summer.001\"/2100 AnimalShop 12 5 3 marnie_sleep",
+                "summer_Tue": "900 AnimalShop 17 5 0/1000 SeedShop 23 16 2/1300 SeedShop 28 17 2 marnie_exercise/1600 Beach 20 24 2 \"Strings\\schedules\\Marnie:summer.002\"/2100 AnimalShop 12 5 3 marnie_sleep",
+                "fall_Tue": "900 AnimalShop 17 5 0/1000 SeedShop 23 16 2/1300 SeedShop 28 17 2 marnie_exercise/1600 Forest 100 23 2 \"Strings\\schedules\\Marnie:fall.001\"/2100 AnimalShop 12 5 3 marnie_sleep",
+                "fall_Thu": "900 AnimalShop 17 5 0/1600 AnimalShop 24 15 0/2100 AnimalShop 12 5 3 marnie_sleep \"Strings\\schedules\\Marnie:fall.002\"",
+                "winter_Wed": "830 AnimalShop 17 5 0/850 AnimalShop 12 14 2/1600 AnimalShop 17 8 1/1700 Saloon 9 22 1 marnie_drink/2130 ManorHouse 22 3 3 marnie_sleep \"Strings\\schedules\\Marnie:winter.001\"",
+                "winter_Sun": "830 AnimalShop 17 5 0/850 AnimalShop 12 14 2/1600 AnimalShop 17 8 1/1700 Saloon 9 22 1 marnie_drink/2130 ManorHouse 22 3 3 marnie_sleep \"Strings\\schedules\\Marnie:winter.002\""
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/schedules/Lewis",
+            "When": {
+                "Version": "dating",
+                "Save": "old",
+                "HasSeenEvent": "59020016"
+            },
+            "Entries": {
+                "spring.001": "A Marnie faz o melhor chá verde.$1",
+                "spring.002": "Fico feliz que a Marnie pense tão bem do meu jardim.$1",
+                "summer.001": "Adoro ir à casa da Marnie.$1#$b#A minha fica muito quieta desde que moro sozinho.$0",
+                "summer.002": "A Marnie quer ir à praia com a Jas algum dia.$0#$b#Talvez o Shane também possa ir com a gente.$0",
+                "fall.001": "A floresta está linda nesta época do ano.$1",
+                "fall.002": "Como você entrou aqui, @?!$4#$b#Vai embora, por favor!$4",
+                "winter.001": "O que é isso?!$4#$b#Sai, @!$4",
+                "winter.002": "Este é o meu quarto, @!$4#$b#Por favor, vá embora!$4"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Lewis",
+            "When": {
+                "Version": "dating",
+                "Save": "old",
+                "HasSeenEvent": "59020016"
+            },
+            "Entries": {
+                "spring.001": "A Marnie faz o melhor chá verde.$1",
+                "spring.002": "Fico feliz que a Marnie pense tão bem do meu jardim.$1",
+                "summer.001": "Adoro ir à casa da Marnie.$1#$b#A minha fica muito quieta desde que moro sozinho.$0",
+                "summer.002": "A Marnie quer ir à praia com a Jas algum dia.$0#$b#Talvez o Shane também possa ir com a gente.$0",
+                "fall.001": "A floresta está linda nesta época do ano.$1",
+                "fall.002": "Como você entrou aqui, @?!$4#$b#Vai embora, por favor!$4",
+                "winter.001": "O que é isso?!$4#$b#Sai, @!$4",
+                "winter.002": "Este é o meu quarto, @!$4#$b#Por favor, vá embora!$4"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "When": {
+                "Save": "old"
+            },
+            "Entries": {
+                "59020016/F/f Marnie 1000/f Lewis 1000/w sunny/t 2100 2400": "nightTime/68 83/farmer 65 79 1 Lewis 69 83 1 Marnie 69 84 0/skippable/pause 1000/faceDirection Lewis 2/pause 200/emote Lewis 28/pause 350/speak Lewis \"Marnie... nós não podemos.$2#$b#Se a notícia vazasse, isso poderia minar minha posição de autoridade na cidade!$2\"/pause 600/faceDirection Marnie 1/pause 180/emote Marnie 12/pause 650/speak Lewis \"Você entende... não entende?$2\"/pause 1000/speak Marnie \"Você se importa demais com o seu trabalho, Lewis.$2#$b#Existem outras coisas na vida, sabe.$2\"/pause 350/faceDirection Marnie 2/pause 800/speak Marnie \"...Mas sim, eu entendo.$2#$b#Acho que vamos ter que manter... nós... em segredo.$2\"/pause 900/playSound leafrustle/pause 200/faceDirection Marnie 3 true/faceDirection Lewis 3 true/showFrame Lewis 24/showFrame Marnie 16/jump Lewis/jump Marnie/shake Lewis 2000/shake Marnie 2000/pause 100/move farmer 4 0 2/pause 100/showFrame Lewis 12/showFrame Marnie 12/pause 100/faceDirection Lewis 0/faceDirection Marnie 0/pause 380/emote Lewis 16/speak Marnie \"Gahh!$4\"/pause 800/speak Lewis \"$q 210 null#@...Você ouviu tudo, não é?$2#$r 210 50 Town_Event1#Sim, eu ouvi tudo.#$r 210 -100 Town_Event2#Sim... e acho que todo mundo deveria saber.\"/pause 650/speak Lewis \"Sou o prefeito e não seria apropriado para mim.$2\"/pause 500/emote farmer 8/pause 380/speak Marnie \"Viu, Lewis?$2#$b#@ também acha que não é grande coisa.$3\"/pause 500/faceDirection Lewis 2/pause 500/speak Marnie \"Lewis, por favor...$2#$b#Eu não gosto de me esconder dos outros para te ver.$2#$b#Às vezes a Jas pergunta aonde eu vou tarde da noite e eu me sinto horrível de inventar uma desculpa...$2\"/pause 350/emote Marnie 28/pause 250/speak Marnie \"Não estamos fazendo nada errado, todo mundo vai entender...$2\"/pause 800/faceDirection Lewis 1/pause 550/emote Lewis 40/pause 800/speak Lewis \"Eu...$2#$b#...acho que vocês dois estão certos.$2\"/pause 550/faceDirection Lewis 2/pause 300/speak Lewis \"Marnie, desculpe por você ter sofrido por minha causa.$2\"/pause 500/speak Lewis \"Eu estava... inseguro.$2\"/pause 600/speak Lewis \"Inseguro sobre o que as pessoas poderiam pensar de nós.$2\"/pause 500/speak Lewis \"Mas você me fez perceber que nosso relacionamento é só nosso... e a sua é a única opinião que realmente importa para mim.$0\"/pause 500/speak Lewis \"Além disso, é fato que nossa comunidade aqui em Pelican Town é ótima. Os moradores certamente ficarão felizes por nós.$1\"/pause 700/speak Lewis \"Marnie, prometo que nunca mais tentarei esconder nosso relacionamento.$0\"/pause 380/emote Marnie 20/pause 390/faceDirection Lewis 0/pause 380/speak Lewis \"E @, obrigado por me ajudar a perceber que eu estava errado.$1\"/pause 500/speak Lewis \"Agora, se nos der licença...$0\"/pause 300/faceDirection Lewis 2/pause 900/end dialogue Marnie \"Oh, @, estou tão feliz agora...$1\""
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/AnimalShop",
+            "When": {
+                "Save": "old"
+            },
+            "Entries": {
+                "59020013/e 59020016/F/f Marnie 1500/f Lewis 1500/t 1600 1800": "marnieShop/1000 1000/farmer -100 -100 0 Marnie 100 100 2 Lewis 123 111 3/skippable/changeToTemporaryMap MarnieBarn false/viewport -2000 -2000/addTemporaryActor White_Chicken 16 16 8 5 2 false Animal chicken1/addTemporaryActor White_Chicken 16 16 8 9 3 false Animal chicken2/addTemporaryActor White_Chicken 16 16 7 7 1 false Animal chicken3/addTemporaryActor White_Chicken 16 16 14 11 3 false Animal chicken4/addTemporaryActor White_Chicken 16 16 9 11 2 false Animal chicken5/warp Marnie 5 3/warp Lewis 4 3/faceDirection Marnie 2/faceDirection Lewis 2/viewport 7 5 true/pause 500/move chicken5 -1 0 2 true/pause 1000/move chicken2 3 0 1 true/pause 1500/move chicken4 0 1 2 true/pause 500/speak Marnie \"A pequena se chama Candy.$0#$b#Aquela ali é a Honey.$0#$b#E a de olhos pequeninos é a Lay.$0\"/pause 500/speak Marnie \"A Jas gosta de dar nomes às galinhas, então deixei que ela escolhesse.$1\"/pause 600/faceDirection Marnie 3/pause 300/speak Marnie \"Bem, o que você acha?$0\"/pause 320/faceDirection Lewis 2/pause 500/speak Lewis \"Vejo que você está fazendo um excelente trabalho com elas.$1\"/pause 500/speak Lewis \"Não é à toa que a qualidade dos seus produtos é muito superior à da Joja.$0\"/pause 700/speak Marnie \"Fico triste de pensar que as galinhas deles não são bem cuidadas...$2\"/pause 180/emote Marnie 28/pause 200/speak Lewis \"Não, Marnie, o que importa é que você cuide delas o melhor que puder.$0\"/pause 600/speak Marnie \"Sim, está bem...$2\"/pause 500/speak Lewis \"Olha, agora que conheci suas galinhas, que tal irmos ao bar para te animar?$0\"/pause 650/speak Marnie \"Ótima ideia.$0#$b#Vou pedir para a Penny cuidar da Jas.$0\"/pause 600/speak Lewis \"E talvez o Shane queira vir com a gente.$0\"/pause 600/speak Marnie \"Sim, vamos.$1\"/pause 180/emote Marnie 32/pause 200/move Marnie 0 2 2/end dialogue Lewis \"Quero que a Marnie aproveite a vida todos os dias.$1\""
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Marnie",
+            "When": {
+                "Version": "dating",
+                "Save": "new",
+                "HasSeenEvent": "639373"
+            },
+            "Entries": {
+                "Tue4": "É tão maravilhoso finalmente estar livre para passar todo o tempo que quero com o Lewis.$1",
+                "Fri4": "Estou tão feliz que você se mudou para cá, @.$0#$b#Você realmente ajudou o Lewis e eu.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Lewis",
+            "When": {
+                "Version": "dating",
+                "Save": "new",
+                "HasSeenEvent": "639373"
+            },
+            "Entries": {
+                "Entries": {
+                    "Mon4": "Eu nem sei por que pensei que vocês reagiriam mal ao fato de eu e a Marnie estivermos namorando.$0",
+                    "Wed4": "Olá, @.$0#$e#Não consigo agradecer o suficiente por me incentivar a admitir meu relacionamento publicamente.$0"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Shane",
+            "When": {
+                "Version": "dating",
+                "Save": "new",
+                "HasSeenEvent": "639373"
+            },
+            "Entries": {
+                "Tue4": "Ainda é um pouco estranho ver o Lewis o dia todo na nossa casa...$2",
+                "Wed2": "Não sei se é bom a Jas passar tanto tempo com o Lewis quando não faz muito que eles meio que eram estranhos.$2",
+                "Sat6": "Provavelmente o Lewis vai aparecer por aqui de novo hoje...$3",
+                "Sun4": "A Jas realmente gosta de brincar com o Lewis.$3#$b#Acho que ele é uma influência melhor do que eu.$3"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jas",
+            "When": {
+                "Version": "dating",
+                "Save": "new",
+                "HasSeenEvent": "639373"
+            },
+            "Entries": {
+                "Mon6": "Olá, Senhor @.^Olá, Senhorita @.$0#$e#Você acha que o Tio Lewis vai morar conosco algum dia?$3",
+                "Tue4": "Você está procurando pela Tia Marnie?$0#$e#Ou talvez pelo Tio Lewis?$1",
+                "Tue10": "Eu gosto do Tio Lewis, ele sempre brinca comigo quando visita a Tia Marnie.$1",
+                "Wed6": "Shane e a Tia Marnie estão sempre ocupados, mas agora posso brincar com o Tio Lewis!$1",
+                "Wed8": "Vou pedir ao Tio Lewis para ampliar o parque.$0#$b#Já serve para o Vincent e eu, mas quero que outras crianças venham brincar conosco!$1",
+                "Thu6": "Devo pedir ao Tio Lewis e à Tia Marnie para fazerem um bolo rosa comigo.$1#$e#Tchau!$1",
+                "Fri8": "Gosto quando o Tio Lewis vem para nossa casa.$0#$b#Ele sempre traz lindas rosas de fada.$1",
+                "Fri10": "Adivinha?$0#$b#O Tio Lewis me deu uma nova boneca ontem.$1#$b#Quer brincar comigo?$0",
+                "Sat8": "Amanhã vou assistir ao novo filme da Fada Minsa com o Shane, a Tia Marnie e o Tio Lewis!$1",
+                "Sun4": "Sempre achei estranho o Tio Lewis vir à noite para nossa casa.$3",
+                "Sun10": "O Tio Lewis prometeu que vai me levar para Zuzu City algum dia com a Tia Marnie.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "When": {
+                "Version": "dating",
+                "Save": "new",
+                "HasSeenEvent": "639373"
+            },
+            "Entries": {
+                "spring_20": "É tão bom ver a Marnie e o Lewis juntos.$1",
+                "summer_28": "Olá, @.$0#$e#Não conte para o Lewis e a Marnie, mas...$0#$b#Todo mundo da cidade já sabia deles.$1",
+                "spring_20_2": "É tão bom ver a Marnie e o Lewis juntos.$1",
+                "summer_28_2": "Olá, @.$0#$e#Não conte para o Lewis e a Marnie, mas...$0#$b#Todo mundo da cidade já sabia deles.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Caroline",
+            "When": {
+                "Version": "dating",
+                "Save": "new",
+                "HasSeenEvent": "639373"
+            },
+            "Entries": {
+                "summer_3": "Pierre e eu costumávamos conversar às vezes sobre a Marnie e o Lewis.$0#$b#Acontece que estávamos certos sobre eles.$0#$e#Eles formam um bom casal.$1",
+                "winter_19": "Olá, @.$0#$e#Estava pensando... por que o Lewis e a Marnie estavam tentando esconder o relacionamento deles?$0#$b#Não era nem segredo para a maioria das pessoas da cidade.$0",
+                "summer_3_2": "Pierre e eu costumávamos conversar às vezes sobre a Marnie e o Lewis.$0#$b#Acontece que estávamos certos sobre eles.$0#$e#Eles formam um bom casal.$1",
+                "winter_19_2": "Olá, @.$0#$e#Estava pensando... por que o Lewis e a Marnie estavam tentando esconder o relacionamento deles?$0#$b#Não era nem segredo para a maioria das pessoas da cidade.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Evelyn",
+            "When": {
+                "Version": "dating",
+                "Save": "new",
+                "HasSeenEvent": "639373"
+            },
+            "Entries": {
+                "summer_23": "É tão bom que o Lewis finalmente admitiu o relacionamento com a Marnie.$0#$b#Achei que eles ficariam escondidos para sempre.$0",
+                "winter_15": "Olá, querido.$0#$e#Seu avô ficaria feliz em ver a Marnie e o Lewis finalmente juntos.$0#$b#Ele e eu sempre achamos que eles formavam um bom casal.",
+                "summer_23_2": "É tão bom que o Lewis finalmente admitiu o relacionamento com a Marnie.$0#$b#Achei que eles ficariam escondidos para sempre.$0",
+                "winter_15_2": "Olá, querido.$0#$e#Seu avô ficaria feliz em ver a Marnie e o Lewis finalmente juntos.$0#$b#Ele e eu sempre achamos que eles formavam um bom casal."
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Gus",
+            "When": {
+                "Version": "dating",
+                "Save": "new",
+                "HasSeenEvent": "639373"
+            },
+            "Entries": {
+                "spring_10": "A Marnie e o Lewis eram tão óbvios.$0#$b#Eles vão ao bar toda sexta e só conversam um com o outro.$1",
+                "fall_21": "Eu sempre soube que o Lewis tinha algo com a Marnie.$0#$b#Sabe, as vantagens de ser bartender.$1",
+                "spring_10_2": "A Marnie e o Lewis eram tão óbvios.$0#$b#Eles vão ao bar toda sexta e só conversam um com o outro.$1",
+                "fall_21_2": "Eu sempre soube que o Lewis tinha algo com a Marnie.$0#$b#Sabe, as vantagens de ser bartender.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24.xnb",
+            "When": {
+                "HasSeenEvent": "639373"
+            },
+            "Entries": {
+                "Marnie": "O amor está no ar...$0#$b#Talvez o Lewis me convide para dançar com ele mais tarde...$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/schedules/Marnie",
+            "When": {
+                "Version": "dating",
+                "Save": "new",
+                "HasSeenEvent": "639373"
+            },
+            "Entries": {
+                "spring.001": "A Caroline compartilhou algumas de suas receitas de chá comigo.$0#$b#O Lewis ama chá.$1",
+                "spring.002": "Pedi ao Lewis para me ensinar jardinagem.$0#$b#Mas não sei se vou ter tempo para cuidar de um jardim.$2",
+                "summer.001": "O Lewis faz um trabalho excelente como Prefeito.$1",
+                "summer.002": "Depois de me exercitar, é relaxante caminhar pela praia.$1",
+                "fall.001": "O Lewis e eu alimentamos as vacas mais cedo.$0",
+                "fall.002": "@!?$4#$b#O-O que você está fazendo aqui?!$4",
+                "winter.001": "@!?$4#$b#E-Esse é o quarto do Lewis!$4",
+                "winter.002": "@!?$4#$b#P-Poderia ir embora?$4"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Marnie",
+            "When": {
+                "Version": "dating",
+                "Save": "new",
+                "HasSeenEvent": "639373"
+            },
+            "Entries": {
+                "spring_Wed": "830 AnimalShop 17 5 0/850 AnimalShop 12 14 2/1530 ManorHouse 4 8 3 \"Strings\\schedules\\Marnie:spring.001\"/2300 AnimalShop 12 5 3 marnie_sleep",
+                "spring_Sun": "830 AnimalShop 17 5 0/850 AnimalShop 12 14 2/1630 Town 66 87 2 \"Strings\\schedules\\Marnie:spring.002\"/2100 AnimalShop 12 5 3 marnie_sleep",
+                "summer_Mon": "810 SeedShop 11 20 0/1200 AnimalShop 24 15 0/1600 AnimalShop 7 15 3 \"Strings\\schedules\\Marnie:summer.001\"/2100 AnimalShop 12 5 3 marnie_sleep",
+                "summer_Tue": "900 AnimalShop 17 5 0/1000 SeedShop 23 16 2/1300 SeedShop 28 17 2 marnie_exercise/1600 Beach 20 24 2 \"Strings\\schedules\\Marnie:summer.002\"/2100 AnimalShop 12 5 3 marnie_sleep",
+                "fall_Tue": "900 AnimalShop 17 5 0/1000 SeedShop 23 16 2/1300 SeedShop 28 17 2 marnie_exercise/1600 Forest 100 23 2 \"Strings\\schedules\\Marnie:fall.001\"/2100 AnimalShop 12 5 3 marnie_sleep",
+                "fall_Thu": "900 AnimalShop 17 5 0/1600 AnimalShop 24 15 0/2100 AnimalShop 12 5 3 marnie_sleep \"Strings\\schedules\\Marnie:fall.002\"",
+                "winter_Wed": "830 AnimalShop 17 5 0/850 AnimalShop 12 14 2/1600 AnimalShop 17 8 1/1700 Saloon 9 22 1 marnie_drink/2130 ManorHouse 22 3 3 marnie_sleep \"Strings\\schedules\\Marnie:winter.001\"",
+                "winter_Sun": "830 AnimalShop 17 5 0/850 AnimalShop 12 14 2/1600 AnimalShop 17 8 1/1700 Saloon 9 22 1 marnie_drink/2130 ManorHouse 22 3 3 marnie_sleep \"Strings\\schedules\\Marnie:winter.002\""
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/schedules/Lewis",
+            "When": {
+                "Version": "dating",
+                "Save": "new",
+                "HasSeenEvent": "639373"
+            },
+            "Entries": {
+                "spring.001": "A Marnie faz o melhor chá verde.$1",
+                "spring.002": "Fico feliz que a Marnie pense tão bem do meu jardim.$1",
+                "summer.001": "Adoro ir à casa da Marnie.$1#$b#Minha é muito silenciosa desde que moro sozinho.$0",
+                "summer.002": "A Marnie quer ir à praia com a Jas algum dia.$0#$b#Talvez o Shane também possa ir com a gente.$0",
+                "fall.001": "A floresta está linda nesta época do ano.$1",
+                "fall.002": "Como você entrou aqui, @?!$4#$b#Vá embora, por favor!$4",
+                "winter.001": "O que é isso?!$4#$b#Sai, @!$4",
+                "winter.002": "Este é o meu quarto, @!$4#$b#Por favor, vá embora!$4"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Lewis",
+            "When": {
+                "Version": "dating",
+                "Save": "new",
+                "HasSeenEvent": "639373"
+            },
+            "Entries": {
+                "spring_Wed": "800 ManorHouse 8 5 0/900 Town 62 88 0/940 Town 65 86 3 lewis_garden/1600 ManorHouse 2 8 1 \"Strings\\schedules\\Lewis:spring.001\"/1830 ManorHouse 3 6 0/2300 ManorHouse 22 4 1 lewis_sleep",
+                "spring_Sun": "800 ManorHouse 8 5 0/900 Town 62 88 0/940 Town 65 86 3 lewis_garden/1330 ManorHouse 3 6 0/1700 Town 65 87 2 \"Strings\\schedules\\Lewis:spring.002\"/2100 ManorHouse 22 4 1 lewis_sleep",
+                "summer_Mon": "800 ManorHouse 8 5 0/1000 Town 65 86 3 lewis_garden/1300 ManorHouse 3 6 0/1530 AnimalShop 7 16 3 \"Strings\\schedules\\Lewis:summer.001\"/2200 ManorHouse 22 4 1 lewis_sleep",
+                "summer_Tue": "800 ManorHouse 8 5 0/1000 Town 62 88 0/1040 Town 65 86 3 lewis_garden/1140 SeedShop 6 19 0 \"Strings\\schedules\\Lewis:Tue.000\"/1600 Beach 19 24 2 \"Strings\\schedules\\Lewis:summer.002\"/2100 ManorHouse 3 6 0/2200 ManorHouse 22 4 1 lewis_sleep",
+                "fall_Tue": "800 ManorHouse 8 5 0/1000 Town 62 88 0/1040 Town 65 86 3 lewis_garden/1140 SeedShop 6 19 0 \"Strings\\schedules\\Lewis:Tue.000\"/1600 Forest 99 23 2 \"Strings\\schedules\\Lewis:fall.001\"/2100 ManorHouse 3 6 0/2200 ManorHouse 22 4 1 lewis_sleep",
+                "fall_Thu": "900 AnimalShop 17 5 0/1030 Hospital 12 14 0/1330 Hospital 4 6 1 \"Strings\\schedules\\Lewis:fall_9.000\"/1600 AnimalShop 24 15 0/2100 AnimalShop 12 5 3 \"Strings\\schedules\\Lewis:fall.002\"",
+                "winter_Wed": "800 ManorHouse 8 5 0/1000 Town 62 88 0/1040 Town 65 86 3 lewis_garden/1140 Town 30 56 2/1400 Town 29 27 3/1700 Saloon 9 22 3 lewis_drink/2130 ManorHouse 22 3 1 lewis_sleep \"Strings\\schedules\\Lewis:winter.001\"",
+                "winter_Sun": "800 ManorHouse 8 5 0/1000 Town 62 88 0/1040 Town 65 86 3 lewis_garden/1140 Town 30 56 2/1400 Town 29 27 3/1700 Saloon 9 22 3 lewis_drink/2130 ManorHouse 22 3 1 lewis_sleep \"Strings\\schedules\\Lewis:winter.002\""
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "When": {
+                "Save": "new"
+            },
+            "Entries": {
+                "639373/F/f Marnie 1000/f Lewis 1000/w sunny/t 2100 2400": "nightTime/68 83/farmer 65 79 1 Lewis 69 83 1 Marnie 69 84 0/skippable/pause 1000/faceDirection Lewis 2/pause 200/emote Lewis 28/pause 350/speak Lewis \"Marnie... nós não podemos.$2#$b#Se a notícia vazasse, isso poderia minar minha posição de autoridade na cidade!$2\"/pause 600/faceDirection Marnie 1/pause 180/emote Marnie 12/pause 650/speak Lewis \"Você entende... não entende?$2\"/pause 1000/speak Marnie \"Você se importa demais com o seu trabalho, Lewis.$2#$b#Existem outras coisas na vida, sabe.$2\"/pause 350/faceDirection Marnie 2/pause 800/speak Marnie \"...Mas sim, eu entendo.$2#$b#Acho que vamos ter que manter... nós... em segredo.$2\"/pause 900/playSound leafrustle/pause 200/faceDirection Marnie 3 true/faceDirection Lewis 3 true/showFrame Lewis 24/showFrame Marnie 16/jump Lewis/jump Marnie/shake Lewis 2000/shake Marnie 2000/pause 100/move farmer 4 0 2/pause 100/showFrame Lewis 12/showFrame Marnie 12/pause 100/faceDirection Lewis 0/faceDirection Marnie 0/pause 380/emote Lewis 16/speak Marnie \"Gahh!$4\"/pause 800/speak Lewis \"$q 210 null#@...Você ouviu tudo, não é?$2#$r 210 50 Town_Event1#Sim, eu ouvi tudo.#$r 210 -100 Town_Event2#Sim... e acho que todo mundo deveria saber.\"/pause 650/speak Lewis \"Sou o prefeito e não seria apropriado para mim.$2\"/pause 500/emote farmer 8/pause 380/speak Marnie \"Viu, Lewis?$2#$b#@ também acha que não é grande coisa.$3\"/pause 500/faceDirection Lewis 2/pause 500/speak Marnie \"Lewis, por favor...$2#$b#Eu não gosto de me esconder dos outros para te ver.$2#$b#Às vezes a Jas pergunta aonde eu vou tarde da noite e eu me sinto horrível de inventar uma desculpa...$2\"/pause 350/emote Marnie 28/pause 250/speak Marnie \"Não estamos fazendo nada errado, todo mundo vai entender...$2\"/pause 800/faceDirection Lewis 1/pause 550/emote Lewis 40/pause 800/speak Lewis \"Eu...$2#$b#...acho que vocês dois estão certos.$2\"/pause 550/faceDirection Lewis 2/pause 300/speak Lewis \"Marnie, desculpe por você ter sofrido por minha causa.$2\"/pause 500/speak Lewis \"Eu estava... inseguro.$2#$b#Inseguro sobre o que as pessoas poderiam pensar de nós.$2\"/pause 600/speak Lewis \"Mas você me fez perceber que nosso relacionamento é só nosso... e a sua é a única opinião que realmente importa para mim.$0\"/pause 500/speak Lewis \"Além disso, é fato que nossa comunidade aqui em Pelican Town é ótima. Os moradores certamente ficarão felizes por nós.$1\"/pause 700/speak Lewis \"Marnie, prometo que nunca mais tentarei esconder nosso relacionamento.$0\"/pause 380/emote Marnie 20/pause 390/faceDirection Lewis 0/pause 380/speak Lewis \"E @, obrigado por me ajudar a perceber que eu estava errado.$1\"/pause 500/speak Lewis \"Agora, se nos der licença...$0\"/pause 300/faceDirection Lewis 2/pause 900/end dialogue Marnie \"Oh, @, estou tão feliz agora...$1\""
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/AnimalShop",
+            "When": {
+                "Save": "new"
+            },
+            "Entries": {
+                "59020013/e 639373/F/f Marnie 1500/f Lewis 1500/t 1600 1800": "marnieShop/1000 1000/farmer -100 -100 0 Marnie 100 100 2 Lewis 123 111 3/skippable/changeToTemporaryMap MarnieBarn false/viewport -2000 -2000/addTemporaryActor White_Chicken 16 16 8 5 2 false Animal chicken1/addTemporaryActor White_Chicken 16 16 8 9 3 false Animal chicken2/addTemporaryActor White_Chicken 16 16 7 7 1 false Animal chicken3/addTemporaryActor White_Chicken 16 16 14 11 3 false Animal chicken4/addTemporaryActor White_Chicken 16 16 9 11 2 false Animal chicken5/warp Marnie 5 3/warp Lewis 4 3/faceDirection Marnie 2/faceDirection Lewis 2/viewport 7 5 true/pause 500/move chicken5 -1 0 2 true/pause 1000/move chicken2 3 0 1 true/pause 1500/move chicken4 0 1 2 true/pause 500/speak Marnie \"A pequena se chama Candy.$0#$b#Aquela ali é a Honey.$0#$b#E a de olhos pequeninos é a Lay.$0\"/pause 500/speak Marnie \"A Jas gosta de dar nomes às galinhas, então deixei que ela escolhesse.$1\"/pause 600/faceDirection Marnie 3/pause 300/speak Marnie \"Bem, o que você acha?$0\"/pause 320/faceDirection Lewis 2/pause 500/speak Lewis \"Vejo que você está fazendo um excelente trabalho com elas.$1\"/pause 500/speak Lewis \"Não é à toa que a qualidade dos seus produtos é muito superior à da Joja.$0\"/pause 700/speak Marnie \"Fico triste de pensar que as galinhas deles não são bem cuidadas...$2\"/pause 180/emote Marnie 28/pause 200/speak Lewis \"Não, Marnie, o que importa é que você cuide delas o melhor que puder.$0\"/pause 600/speak Marnie \"Sim, está bem...$2\"/pause 500/speak Lewis \"Olha, agora que conheci suas galinhas, que tal irmos ao bar para te animar?$0\"/pause 650/speak Marnie \"Ótima ideia.$0#$b#Vou pedir para a Penny cuidar da Jas.$0\"/pause 600/speak Lewis \"E talvez o Shane queira vir com a gente.$0\"/pause 600/speak Marnie \"Sim, vamos.$1\"/pause 180/emote Marnie 32/pause 200/move Marnie 0 2 2/end dialogue Lewis \"Quero que a Marnie aproveite a vida todos os dias.$1\""
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Marnie",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020013"
+            },
+            "Entries": {
+                "Tue6": "Oh, @, sou tão grata por você ter convencido o Lewis naquela noite.$1#$b#Se algum dia precisar de algo, é só me avisar!$1",
+                "Thu6": "A Caroline convidou o Lewis e eu para tomar chá com ela.$0#$b#Estou ansiosa por isso, o solário dela é lindo.$1",
+                "Sun6": "O Lewis às vezes vem me ajudar com os animais.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Lewis",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020013"
+            },
+            "Entries": {
+                "Tue6": "Lamento ter escondido meu relacionamento com a Marnie por tanto tempo.$2#$b#Eu sabia que a Marnie estava sofrendo, mas fui um covarde...$2",
+                "Thu6": "Olá, @.$0#$b#A Marnie tem me dado ideias de como melhorar nossa cidade.$1",
+                "Sun6": "Olá, @$0#$e#Eu nunca tive animais só meus, mas acho que a Marnie também é assim comigo.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Marnie",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020015"
+            },
+            "Entries": {
+                "Mon10": "O Lewis é tão gentil com a Jas, eu adoro esse lado dele.$1#$b#E a Jas adora brincar com o Lewis.$1",
+                "Tue10": "O Lewis pode ficar estressado facilmente por causa do trabalho como Prefeito.$0#$b#Quando isso acontece, eu o convido para vir e fazemos um jantar com o Shane e a Jas.$1",
+                "Wed10": "A verdade é que, entre o Shane, a Jas e os animais, não consigo muito tempo a sós com o Lewis.$2",
+                "Thu10": "O Lewis me ama do jeito que eu sou.$1#$b#Essa é uma das razões pelas quais acho que ele é o certo para mim.$1",
+                "Fri10": "O Shane ama pizza, então o Lewis está tentando aprender a fazê-la.$1#$b#Acho que ele vai pedir ajuda ao Gus.$1",
+                "Sat10": "Às vezes me atraso com as tarefas de casa.$0#$b#Agora que posso ficar livremente com o Lewis, tenho me distraído de tudo mais.$0",
+                "Sun10": "A casa do Lewis é tão tranquila...$0#$e#Ah, não é que eu não goste de ter a Jas e o Shane por perto.$0#$b#Às vezes só preciso de um tempo para relaxar.$0",
+                "spring_Mon10": "Olá, @.$0#$e#A primavera é a estação do amor.$1#$e#Deveria visitar o Lewis com mais frequência.$1",
+                "spring_Wed10": "A Jas foi com o Vincent brincar na floresta semana passada.$0#$b#Ela colheu narcisos para o Lewis, o Shane e eu.$1#$e#Ela é uma criança tão boa.$1",
+                "spring_Thu10": "Olá, @.$0#$e#Ontem o Lewis me trouxe um buquê de flores.$1#$e#Ele é tão romântico...$1",
+                "summer_Tue10": "Talvez eu vá à praia com a Jas e o Lewis hoje.$0#$b#O Vincent também devia vir com a gente, vou contar para a Jodi.$1",
+                "summer_Wed10": "Se fôssemos mais jovens, talvez o Lewis e eu pensaríamos em ter filhos.$3",
+                "summer_Fri10": "Acho que os animais estão ficando muito apegados ao Lewis.$1#$b#Especialmente nossa vaca Chenny.$1#$e#Tenha um bom dia!$1",
+                "fall_Tue10": "Olá, @.$0#$e#Não esqueça de guardar feno suficiente para o inverno.$0#$e#O Lewis está me ajudando a preparar tudo o que preciso.$0#$e#Mas ele meio que é desajeitado com os animais.$1",
+                "fall_Sat10": "O Lewis tem muito trabalho durante o outono.$0#$b#A feira é um evento importante para a cidade porque atrai muitos turistas.$1",
+                "fall_Sun10": "O Lewis ajudou a Jas com o dever de casa ontem.$0#$e#Além disso, ele comprou um livro novo para ela ler.$1#$e#Eles estão se dando muito bem.$1",
+                "winter_Mon10": "Tenho tantas coisas para agradecer neste ano.$0#$b#Estou ansiosa para passar o próximo ano com as pessoas que amo.$1",
+                "winter_Thu10": "O inverno é uma das minhas estações favoritas.$0#$e#Bem... é quando passo mais tempo com o Lewis.$1",
+                "winter_Sat10": "Olá, @.$0#$e#Nossa vaca Lulu teve filhote ontem à noite.$0#$b#O Lewis me disse para dar o nome dele ao bebê.$1",
+                "spring_7": "Olá, @.$0#$e#A Jas vai me ajudar a fazer um bolo para o Lewis.$1#$b#Você não sabia? É aniversário dele hoje.$1",
+                "summer_10": "O Lewis e eu já escolhemos os ingredientes para amanhã.$0#$b#Tenho certeza de que você também vai trazer algo excelente.$1",
+                "fall_15": "Vou reunir meus melhores produtos para a feira de amanhã.$0#$b#Espero poder ganhar.$0#$b#Ah, mas não se preocupe, o Lewis vai jogar limpo.$0",
+                "spring_7_2": "Olá, @.$0#$e#A Jas vai me ajudar a fazer um bolo para o Lewis.$1#$b#Você não sabia? É aniversário dele hoje.$1",
+                "summer_10_2": "O Lewis e eu já escolhemos os ingredientes para amanhã.$0#$b#Tenho certeza de que você também vai trazer algo excelente.$1",
+                "fall_15_2": "Vou reunir meus melhores produtos para a feira de amanhã.$0#$b#Espero poder ganhar.$0#$b#Ah, mas não se preocupe, o Lewis vai jogar limpo.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Lewis",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020015"
+            },
+            "Entries": {
+                "Mon10": "Adoro visitar a Marnie, a casa dela é sempre tão animada.$1#$e#Percebi que às vezes é triste morar sozinho.$2",
+                "Tue10": "Olá, @!$1#$e#Tenho um encontro especial com a Marnie hoje, por isso estou tão feliz.$1#$e#Foi bom conversar com você. Preciso ir agora, tenha um bom dia!$1",
+                "Wed10": "A Jas pediu para eu ampliar o parque para que ela e o Vincent não briguem mais por quem usa o balanço primeiro.$0#$b#Crianças são tão adoráveis.$1",
+                "Thu10": "Lembro quando a Marnie se mudou como se fosse ontem.$0#$b#Ela estava tão linda naquele vestido amarelo.$1",
+                "Fri10": "Olá, @.$0#$e#A Marnie e eu vamos nos encontrar no bar mais tarde.$0#$b#O Shane também vai estar lá.$1#$e#Você devia vir também.$1",
+                "Sat10": "A Marnie me diz que a Penny é uma ótima professora para as crianças.$0#$e#Talvez eu devesse pensar em construir uma escola na cidade.$0",
+                "Sun10": "A Jas e o Shane são boas crianças.$0#$b#Sempre me recebem bem quando vou à casa deles.$1",
+                "spring_Tue10": "A Marnie e eu vamos levar a Jas para a floresta neste fim de semana.$0#$e#Ela disse que quer procurar dentes-de-leão.$1",
+                "spring_Wed10": "Olá, @.$0#$e#A primavera é uma estação tão romântica.$0#$b#Não é mesmo, @?$1",
+                "spring_Fri10": "Foi por volta dessa época do ano que convidei a Marnie para o nosso primeiro encontro...$0#$b#Fomos para a Floresta Secreta e fizemos um piquenique.$1",
+                "summer_Mon10": "Olá, @.$0#$e#Vou jantar na casa da Marnie hoje.$0#$b#Vamos fazer uma pizza!$1#$b#O Shane vai adorar.$1",
+                "summer_Wed10": "Não acho que a Marnie e eu teremos filhos.$0#$b#Somos velhos demais para isso.$0#$b#Além disso, a Jas já é como nossa filha.$1",
+                "summer_Thu10": "A Jas gosta de ir à praia atualmente.$1#$b#Ela brinca com o Vincent enquanto a Marnie e eu tomamos sol.$1",
+                "fall_Tue10": "A Marnie e eu conversamos sobre morar juntos, mas acho que não vamos.$0",
+                "fall_Sat10": "Olá, @.$0#$e#O Shane e eu ajudamos a Marnie com as galinhas ontem.$1#$b#Agora que o inverno está chegando, ela está realmente ocupada preparando tudo.$0",
+                "fall_Sun10": "Olá, @.$0#$e#Tenho estado muito ocupado esses dias por causa da feira.$0#$e#Sinto falta da Marnie...$2",
+                "winter_Thu10": "Olá, @.$0#$e#O inverno é a melhor estação para estar com seu parceiro.$1",
+                "winter_Fri10": "Que dia maravilhoso.$0#$b#Deveria visitar a Marnie hoje.$1",
+                "winter_Sun10": "Olá, @.$0#$e#Sabe, seu avô sempre soube que a Marnie e eu tínhamos algo especial.$0",
+                "spring_23": "Se eu não fosse tão velho, convidaria a Marnie para dançar comigo no Dança das Flores.$1",
+                "fall_18": "Olá, @.$0#$e#Hoje é o aniversário da Marnie, então vou convidá-la para jantar.$1",
+                "winter_24": "Olá, @.$0#$e#Você está pronto para a Festa da Estrela de Inverno?$0#$b#A Marnie e eu compramos uma casa de bonecas para a Jas e algumas cervejas para o Shane.$1",
+                "spring_23_2": "Se eu não fosse tão velho, convidaria a Marnie para dançar comigo no Dança das Flores.$1",
+                "fall_18_2": "Olá, @.$0#$e#Hoje é o aniversário da Marnie, então vou convidá-la para jantar.$1",
+                "winter_24_2": "Olá, @.$0#$e#Você está pronto para a Festa da Estrela de Inverno?$0#$b#A Marnie e eu compramos uma casa de bonecas para a Jas e algumas cervejas para o Shane.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Marnie",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020014"
+            },
+            "Entries": {
+                "Mon8": "O Shane e o Lewis ficaram mais próximos ultimamente.$0#$b#O Lewis o vê como se fosse seu filho.$0",
+                "Wed8": "Olhando para trás, talvez já fosse notório que havia algo entre eu e o Lewis...$2",
+                "Fri8": "A casa do Lewis está sempre arrumada e organizada.$0#$e#Eu nunca conseguiria isso com a Jas e o Shane por perto.$3",
+                "Sat8": "É realmente constrangedor pensar em como o Lewis e eu costumávamos nos encontrar às escondidas...$2#$b#Não consigo agradecer o suficiente pela sua ajuda, @.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Lewis",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020014"
+            },
+            "Entries": {
+                "Tue8": "Olá, @.$0#$e#Você viu a Marnie hoje? Ela está linda.$1",
+                "Fri8": "Olá, @.$0#$e#Eu e a Marnie gostamos de ir ao bar às sextas.$1#$b#Você devia vir conosco hoje.$1",
+                "Sat8": "@, se você precisar de ajuda pode contar comigo ou com a Marnie.$0#$b#Nós ajudaremos com prazer.$1",
+                "Sun8": "A Marnie quer aprender jardinagem.$0#$e#Felizmente ela tem o melhor professor da cidade.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Shane",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020014"
+            },
+            "Entries": {
+                "Mon8": "A Marnie parece mais feliz com o Lewis.$0#$e#Ela merece um tempo só para ela, depois de ter criado a Jas de forma inesperada.$0",
+                "Tue8": "É bom que a Jas passe tempo com a Marnie e o Lewis.$0#$e#Eles são boas influências para ela.$0",
+                "Wed8": "O Lewis me ajudou a ser uma pessoa melhor para a Marnie e a Jas.$3#$b#Sou grato por isso, realmente preciso de incentivo para manter a cabeça no lugar.$0",
+                "Thu8": "Agora parece natural a Jas e eu jantarmos com o Lewis.$0",
+                "Sun8": "Acho que a Marnie, a Jas, o Lewis e eu somos uma espécie de família estranha agora.$0#$e#Mas é bom.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Lewis",
+            "Entries": {
+                "Town_Event1": "Por favor, não conte para ninguém, a cidade não pode saber disso...$2",
+                "Town_Event2": "Não... a cidade não pode saber disso...$2"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Saloon",
+            "Entries": {
+                "59020014/F/e 59020013/e 3910975/f Marnie 2000/f Lewis 2000/f Shane 1500/d Mon Tue Wed Thu Sat Sun/t 1900 2100": "Saloon1/1400 1200/farmer 20 19 3 Emily 10 18 2 Gus 16 18 2 Demetrius 22 19 1 Robin 23 19 3 Pierre 16 20 0 Pam 7 18 1 Clint 18 22 2 Willy 19 23 3 Shane 9 22 1 Marnie 10 21 2 Lewis 11 21 2/skippable/animate Gus false true 280 18 19 20/viewport 14 23 true/pause 1000/speak Marnie \"Shane, como está sua cerveja?$0\"/pause 800/speak Shane \"Boa...$2\"/pause 800/speak Marnie \"...$2\"/pause 900/emote Lewis 40/pause 600/speak Lewis \"Shane, que tal irmos para um lugar mais tranquilo e conversar...$0\"/pause 800/speak Shane \"Tá...$2\"/pause 700/move Lewis 0 -1 3/move Lewis -5 0 2/move Lewis 0 2 3/move Lewis -3 0 0/move Lewis 0 -1 3/move Lewis -2 0 2/move Lewis 0 1 2/move Shane -3 0 2/move Shane 0 1 3/move Shane -3 0 3/animate Marnie false true 150 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 21 22 22 23 23/pause 900/speak Shane \"O que você quer?$2\"/pause 650/speak Lewis \"Shane, eu não quero que esse clima desconfortável entre nós continue.$0#$b#Eu sei que você não tem nada pessoal contra mim, é que você age assim com todo mundo.$2\"/pause 700/speak Shane \"Isso não é da sua conta, Lewis.$2\"/pause 600/speak Lewis \"Talvez não seja da minha conta, mas com certeza isso está afetando a Marnie.$0\"/pause 700/speak Shane \"...$2\"/pause 700/speak Lewis \"Olha, Shane, eu te conheço há muito tempo, e mesmo que você não goste de se aproximar de muita gente, sei que a Marnie e a Jas são importantes para você.$0#$b#E elas também são importantes para mim.$0\"/pause 600/speak Lewis \"Shane, por favor, não precisamos ser amigos, mas poderíamos ao menos manter uma relação cordial daqui pra frente?$0#$b#Meu relacionamento com a Marnie é sério, e sua opinião realmente importa para mim.$0#$b#Sabe, Shane, eu não tenho filhos... mas gostaria de pensar em você e na Jas como meus próprios filhos.$0\"/pause 600/speak Lewis \"Você é um bom homem, Shane, e ultimamente tem melhorado muito.$0#$b#@ te ajudou, não foi?$0#$b#Bem, eu sei que talvez você não queira minha ajuda, mas pode vir até mim também se precisar de qualquer coisa.$0#$b#Eu falo sério, de verdade, Shane.$0\"/pause 900/speak Lewis \"Então... o que você me diz?$0\"/pause 900/speak Shane \"Eu nunca tive um pai de verdade...$2#$b#...então não acho que posso te ver como um.$2\"/pause 500/emote Shane 40/pause 500/speak Shane \"Mas acho que temos um acordo.$0\"/pause 500/speak Shane \"Mas você tem que me convidar para uma cerveja.$0\"/pause 600/speak Lewis \"Fechado.$1#$b#Vamos voltar com a Marnie.$0\"/pause 380/move Lewis 0 -1 1/end dialogue Marnie \"Não sei o que o Lewis disse ao Shane, mas eles estão se entendendo melhor agora.$1\""
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Forest",
+            "Entries": {
+                "59020015/F/e 59020014/f Marnie 2000/f Lewis 2000/w sunny/t 1800 1900": "sweet/40 11/farmer 100 100 0 Marnie 42 10 2 Lewis 41 10 2/skippable/pause 1500/speak Marnie \"Eu adoro passar tempo com você, Lewis.$1\"/pause 600/speak Lewis \"Eu também.$1\"/pause 700/speak Lewis \"Sinto que estamos criando uma família à nossa maneira.$0#$b#Eu me sentia muito sozinho antes de te conhecer, Marnie.$2#$b#Nunca me casei ou tive filhos, então vivi sozinho por muito tempo...$2\"/pause 500/faceDirection Lewis 1/pause 250/faceDirection Marnie 3/pause 500/speak Lewis \"Ter você, a Jas e o Shane na minha vida realmente me traz alegria.$1\"/pause 700/speak Marnie \"Eu é quem deveria te agradecer, Lewis.$1#$b#Foi difícil cuidar deles sozinha...$2\"/pause 1300/speak Lewis \"Também quero pedir desculpas por como me comportei no passado...$2#$b#Acho que nunca te disse o quanto me arrependo de esconder nosso relacionamento...$2\"/pause 380/speak Lewis \"Sinto muito por você ter sofrido tanto por minha causa...$2#$b#Não estou tentando me justificar, mas pensei que isso prejudicaria minha posição como prefeito.$2\"/pause 380/speak Lewis \"Só quero que você saiba que, se pudesse voltar no tempo, não teria feito as coisas daquela forma.$2\"/pause 1000/speak Lewis \"Eu...$0#$b#...eu te amo, Marnie, falo sério.$0\"/pause 380/emote Marnie 20/pause 500/speak Marnie \"Ah, Lewis, você não precisa se preocupar com nada.$1#$b#Talvez eu também estivesse um pouco com medo...$3\"/pause 500/speak Marnie \"Mas estamos onde queremos estar agora, Lewis.$1\"/pause 700/speak Marnie \"Eu também te amo, Lewis.$1\"/pause 500/specificTemporarySprite heart 42 10/pause 900/end dialogue Marnie \"Ah, @, nunca estive tão feliz.$1\""
+            }
+        }
+    ]
+}

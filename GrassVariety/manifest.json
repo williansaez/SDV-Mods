@@ -1,0 +1,22 @@
+{
+  /*
+   | This file is automatically updated by ModManifestBuilder
+   | when the project is compiled.
+   | 
+   | Changes made to this file may be overwritten.
+   | 
+   */
+  "$schema": "https://smapi.io/schemas/manifest.json",
+  "UniqueID": "mushymato.GrassVariety",
+  "Name": "GrassVariety",
+  "Author": "mushymato",
+  "Version": "1.2.5",
+  "Description": "Add skins to grass.",
+  "MinimumApiVersion": "4.3.2",
+  "MinimumGameVersion": "1.6.15",
+  "EntryDll": "GrassVariety.dll",
+  "UpdateKeys": [
+    "Nexus:36458",
+    "GitHub:Mushymato/GrassVariety"
+  ]
+}

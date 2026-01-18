@@ -1,0 +1,59 @@
+{
+	"Changes": [
+
+        // MAIL
+        {
+            "LogName": "Rasmodia resort mail",
+            "Action": "EditData",
+            "Target": "Data/mail",
+            "Entries": {
+                "Rasmodia_Resort": "[letterbg 2]{{i18n:rasmodia.mail.1}}"
+            }
+        },
+        // MAIL TRIGGER
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModID}}.letter.Rasmodia_Resort": {
+                    "Id": "{{ModID}}.letter.Rasmodia_Resort",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Wizard Married, PLAYER_HAS_MAIL Current Island_Resort, RANDOM 0.2, !PLAYER_HAS_MAIL Current Rasmodia_Resort",
+                    "Action": "AddMail Current Rasmodia_Resort now"
+                }
+            }
+        },
+        /*
+        {
+            "LogName": "Rasmodia mail trigger event",
+            "Action": "EditData",
+            "Target": "data/events/Farm",
+            "When": {
+                "Relationship:Wizard": "Married",
+                "HasFlag": "Island_Resort"
+            },
+            "Entries": {
+                "826501/r 0.2/x Rasmodia_Resort": "null"
+            }
+        },*/
+        // RASMODIA RESORT EVENT
+        {
+            "LogName": "Resort event",
+            "Action": "EditData",
+            "Target": "data/events/IslandSouth",
+            "Entries": {
+                "826502/DayOfWeek Sat Sun/Weather sunny/n Rasmodia_Resort": "tropical_island_day_ambient/18 25/farmer 18 30 0 Wizard_Beach 17 19 1/skippable/changeName Wizard_Beach Rasmodia/move farmer 0 -5 0/pause 1000/emote farmer 8/pause 1000/speak Wizard_Beach \"{{i18n:rasmodia.resort.event1}}\"/pause 1000/move Wizard_Beach 2 0 2/move Wizard_Beach 0 6 2/move farmer 0 0 1/pause 1000/speak Wizard_Beach \"{{i18n:rasmodia.resort.event2}}\"/emote farmer 20/pause 500/speak Wizard_Beach \"{{i18n:rasmodia.resort.event3}}\"/pause 500/move Wizard_Beach 0 0 3/pause 500/speak Wizard_Beach \"{{i18n:rasmodia.resort.event4}}\"/speak Wizard_Beach \"{{i18n:rasmodia.resort.event5}}\"/emote farmer 56/speak Wizard_Beach \"{{i18n:rasmodia.resort.event6}}\"/pause 1500/speak Wizard_Beach \"{{i18n:rasmodia.resort.event7}}\"/emote farmer 32/showFrame Wizard_Beach 52/positionOffset Wizard_Beach -2 0/pause 10/positionOffset Wizard_Beach -2 0/pause 10/positionOffset Wizard_Beach -2 0/pause 10/positionOffset Wizard_Beach -2 0/pause 10/positionOffset Wizard_Beach -2 0/pause 10/animate farmer false true 100 101/pause 1000/specificTemporarySprite heart 19 24/pause 1500/globalFade/viewport -1000 -1000/speak Wizard_Beach \"{{i18n:rasmodia.resort.event8}}\"/pause 1000/end dialogue Wizard \"{{i18n:rasmodia.resort.eventEnd}}\""
+            }
+        },
+
+        // Resort dialogue
+        {
+            "LogName": "Resort event",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Wizard",
+            "Entries": {
+                "Resort": "{{i18n:rasmodia.resort.dialogue}}"
+            }
+        }
+    ]
+}

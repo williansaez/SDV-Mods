@@ -1,0 +1,127 @@
+{
+  "Changes":
+  [
+    {
+      "Action": "EditData",
+      "Target": "characters/schedules/Caroline",
+      "Entries": {
+        // GENERIC DAY
+        "marriage_Tue": "
+          930 SeedShop 22 14 0 \"Strings\\schedules\\Caroline:Tue.000\"/
+          1030 SeedShop 24 17 3 \"Strings\\schedules\\Caroline:Tue.001\"/
+          1300 SeedShop 24 21 0 caroline_exercise/
+          1600 SeedShop 23 15 1 \"Strings\\schedules\\Caroline:Tue.002\"/
+          1630 BathHouse_Pool 11 10 2 \"Strings\\schedules\\Caroline:bathhouse_pool\"/
+          2000 bed",
+        "marriage_Wed": "
+          1200 Town 23 27 1 \"Strings\\schedules\\Caroline:fountain\"/
+          1800 Town 48 87 3 \"Strings\\schedules\\Caroline:graveyard\"/
+          2100 bed",
+        "marriage_Fri": "
+          700 AnimalShop 11 16 0 \"Strings\\schedules\\Caroline:caroline_to_marnie\"/
+          1000 Forest 28 12 0 \"Strings\\schedules\\Caroline:traveling_cart\"/
+          1130 ArchaeologyHouse 14 4 2 caroline_read \"Strings\\schedules\\Caroline:museum_reading_spouse\"/
+          1700 bed",
+        "marriage_Sat": "
+          MAIL IsCommunityCenterComplete/GOTO marriage_spring_6/
+          730 ScienceHouse 7 20 0 \"Strings\\schedules\\Caroline:caroline_to_robin\"/
+          1100 CommunityCenter 26 9 0/
+          1430 Town 23 27 1 \"Strings\\schedules\\Caroline:fountain\"/
+          2100 bed",
+        "marriage_Sun": "
+          900 Town 16 15 0 \"Strings\\schedules\\Caroline:playground\"/
+          1230 Town 34 79 0 square_3_1_0 \"Strings\\schedules\\Caroline:helping\"/
+          1500 Town 48 33 2/
+          1830 Mountain 49 32 1 \"Strings\\schedules\\Caroline:mountain\"/
+          2100 bed",
+        
+        // DATE SPECIFIC
+        //// Extra pluff for Sat Sched CC not complete
+        "marriage_spring_6": "
+          800 ScienceHouse 7 20 0 \"Strings\\schedules\\Caroline:caroline_to_robin\"/
+          1200 Town 63 16 2 caroline_read/
+          1430 Town 23 27 1 \"Strings\\schedules\\Caroline:fountain\"/
+          1730 bed",
+        //// Caroline Bond with Abigail
+        "marriage_spring_11": "
+          900 Town 47 87 0 \"Strings\\schedules\\Caroline:graveyard\"/
+          1300 Town 72 54 2 \"Strings\\schedules\\Caroline:bridge\"/
+          2100 bed",
+        "marriage_spring_25": "GOTO marriage_spring_11",
+        "marriage_summer_11": "GOTO marriage_spring_11",
+        "marriage_summer_25": "GOTO marriage_spring_11",
+        "marriage_fall_11": "GOTO marriage_spring_11",
+        "marriage_winter_11": "GOTO marriage_spring_11",
+        "marriage_winter_25": "GOTO marriage_spring_11",
+        //// Vanila Hospital Schedule
+        "marriage_fall_25": "
+          1200 Hospital 13 14 0 \"Strings\\schedules\\Caroline:fall_25.001\"/
+          1330 Hospital 4 6 1 \"Strings\\schedules\\Caroline:fall_25.002\"/
+          1600 bed",
+        // FESTIVAL SPECIFIC
+        "marriage_DesertFestival_1": "
+          900 Desert 30 43 2 \"Strings\\1_6_Strings:DesertFestival_Caroline\"/
+          2450 bed",
+        "marriage_winter_16": "
+          900 Town 16 15 0 \"Strings\\schedules\\Caroline:playground\"/
+          1330 Town 23 71 2/
+          1600 Beach 24 32 3 \"Strings\\schedules\\Caroline:winter_16.000\"/
+          2100 bed",
+      },
+    },
+    // Change position to accomodate Evelyn's changing position
+    {
+      "Action": "EditData",
+      "Target": "characters/schedules/Caroline",
+      "When": {
+        "Season": "summer",
+        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": "true",
+      },
+      // "Update": "OnDayStart",
+      "Entries": {
+        "marriage_Sun": "
+          900 Town 16 15 0 \"Strings\\schedules\\Caroline:playground\"/
+          1230 Town 18 63 0 \"Strings\\schedules\\Caroline:helping\"/
+          1500 Town 48 33 2/
+          1830 Mountain 49 32 1 \"Strings\\schedules\\Caroline:mountain\"/
+          2100 bed",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "characters/schedules/Caroline",
+      "When": {
+        "Season": "summer",
+      },
+      // "Update": "OnDayStart",
+      "Entries": {
+        "marriage_Sun": "
+          900 Town 16 15 0 \"Strings\\schedules\\Caroline:playground\"/
+          1230 Town 19 63 0 \"Strings\\schedules\\Caroline:helping\"/
+          1500 Town 48 33 2/
+          1830 Mountain 49 32 1 \"Strings\\schedules\\Caroline:mountain\"/
+          2100 bed",
+      }
+    },
+    // SVE Additions
+    {
+      "Action": "EditData",
+      "Target": "characters/schedules/Caroline",
+      "When": {
+        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": "true",
+      },
+      "Entries": {
+        // GENERIC DAY
+        "marriage_Wed": "
+          1200 Town 97 104 0/
+          1400 Town 103 102 1/
+          1430 Town 101 101 3/
+          1500 Town 104 100 2/
+          1530 Town 96 65 1/
+          1800 Town 48 87 3 \"Strings\\schedules\\Caroline:graveyard\"/
+          2130 bed",
+      }
+    }
+    // 1800 JojaMart 8 8 0 square_5_1_0/
+  ]
+}

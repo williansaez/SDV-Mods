@@ -1,0 +1,704 @@
+{
+  "Changes": [
+    // ========== LITTLE GREENHOUSE ==========
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Amichwan.More.Buildings_LittleGreenhouse",
+      "MapProperties": {
+        "IsGreenhouse": "T",
+        "DayTiles": "",
+        "NightTiles": "",
+        "Type": "Buildable" 
+      },
+      "When": { "Little Greenhouse": "True" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/Amichwan.More.Buildings_LittleGreenhouse",
+      "FromFile": "assets/LittleGreenhouse.tmx",
+      "When": { "Little Greenhouse": "True" }
+    },
+    {
+      "When": { "Little Greenhouse": "True" },
+      "Action": "EditData",
+      "Target": "Data/Buildings",
+      "Entries": {
+        "Amichwan.More.Buildings_LittleGreenhouse": {
+          "Name": "{{i18n: LittleGreenhouseName}}",
+          "Description": "{{i18n: LittleGreenhouseDescription}}",
+          "Texture": "Amichwan.More.Buildings/LittleGreenhouse",
+          "DrawShadow": true,
+          "Size": { "X": 5, "Y": 3 },
+          "FadeWhenBehind": true,
+          "SourceRect": { "X": 0, "Y": 0, "Width": 80, "Height": 112 },
+          "Builder": "Robin",
+          "BuildCondition": null,
+          "BuildDays": "{{LittleGreenhouse_BuildDays}}",
+          "BuildCost": "{{LittleGreenhouse_BuildCost}}",
+          "BuildMaterials": [
+              { "ItemId": "(O)388", "Amount": "{{LittleGreenhouse_WoodAmount}}" },
+              { "ItemId": "(O)709", "Amount": "{{LittleGreenhouse_HardwoodAmount}}" },
+              { "ItemId": "(O)390", "Amount": "{{LittleGreenhouse_StoneAmount}}" }
+          ],
+
+          "BuildingToUpgrade": null,
+          "MagicalConstruction": false,
+          "BuildMenuDrawOffset": {"X": 0, "Y": 0},
+          "HumanDoor": {"X": 2, "Y": 2},
+          "AnimalDoor": {"X": -1, "Y": -1, "Width": 0, "Height": 0},
+          "AnimalDoorOpenDuration": 0.0,
+          "AnimalDoorOpenSound": null,
+          "AnimalDoorCloseDuration": 0.0,
+          "AnimalDoorCloseSound": null,
+          "NonInstancedIndoorLocation": null,
+          "IndoorMap": "Amichwan.More.Buildings_LittleGreenhouse",
+          "IndoorMapType": null,
+          "MaxOccupants": 20,
+          "ValidOccupantTypes": [],
+          "AllowAnimalPregnancy": false,
+          "IndoorItemMoves": null,
+          "IndoorItems": null,
+          "AddMailOnBuild": null,
+          "Metadata": {},
+          "ModData": {
+            "Amichwan.More.Buildings/IsCustomBuilding": "true",
+            "Pathoschild.Automate/IsAutomationIgnored": "false"
+          },
+          "HayCapacity": 0,
+          "Chests": null,
+          "DefaultAction": null,
+          "AdditionalTilePropertyRadius": 2,
+          "AllowsFlooringUnderneath": true,
+          "ActionTiles": [],
+          "TileProperties": [],
+          "ItemConversions": null,
+          "DrawLayers": null,
+          "CustomFields": null
+        }
+      }
+    },
+
+    // ========== BIG GREENHOUSE ==========
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Amichwan.More.Buildings_BigGreenhouse",
+      "MapProperties": {
+        "IsGreenhouse": "T",
+        "DayTiles": "",
+        "NightTiles": "",
+        "Type": "Buildable"
+      },
+      "When": { "Big Greenhouse": "True" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/Amichwan.More.Buildings_BigGreenhouse",
+      "FromFile": "assets/BigGreenhouse.tmx",
+      "When": { "Big Greenhouse": "True" }
+    },
+    {
+      "When": { "Big Greenhouse": "True" },
+      "Action": "EditData",
+      "Target": "Data/Buildings",
+      "Entries": {
+        "Amichwan.More.Buildings_BigGreenhouse": {
+          "Name": "{{i18n: BigGreenhouseName}}",
+          "Description": "{{i18n: BigGreenhouseDescription}}",
+          "Texture": "Amichwan.More.Buildings/BigGreenhouse",
+          "DrawShadow": true,
+          "Size": { "X": 5, "Y": 3 },
+          "FadeWhenBehind": true,
+          "SourceRect": { "X": 0, "Y": 0, "Width": 80, "Height": 112 },
+          "Builder": "Robin",
+          "BuildCondition": null,
+          "BuildDays": "{{BigGreenhouse_BuildDays}}",
+          "BuildCost": "{{BigGreenhouse_BuildCost}}",
+          "BuildMaterials": [
+              { "ItemId": "(O)388", "Amount": "{{BigGreenhouse_WoodAmount}}" },
+              { "ItemId": "(O)709", "Amount": "{{BigGreenhouse_HardwoodAmount}}" },
+              { "ItemId": "(O)390", "Amount": "{{BigGreenhouse_StoneAmount}}" }
+          ],
+          "BuildingToUpgrade": "Amichwan.More.Buildings_LittleGreenhouse",
+          "MagicalConstruction": false,
+          "BuildMenuDrawOffset": {"X": 0, "Y": 0},
+          "HumanDoor": {"X": 2, "Y": 2},
+          "AnimalDoor": {"X": -1, "Y": -1, "Width": 0, "Height": 0},
+          "AnimalDoorOpenDuration": 0.0,
+          "AnimalDoorOpenSound": null,
+          "AnimalDoorCloseDuration": 0.0,
+          "AnimalDoorCloseSound": null,
+          "NonInstancedIndoorLocation": null,
+          "IndoorMap": "Amichwan.More.Buildings_BigGreenhouse",
+          "IndoorMapType": null,
+          "MaxOccupants": 20,
+          "ValidOccupantTypes": [],
+          "AllowAnimalPregnancy": false,
+          "IndoorItemMoves": null,
+          "IndoorItems": null,
+          "AddMailOnBuild": null,
+          "Metadata": {},
+          "ModData": {
+            "Amichwan.More.Buildings/IsCustomBuilding": "true",
+            "Pathoschild.Automate/IsAutomationIgnored": "false"
+          },
+          "HayCapacity": 0,
+          "Chests": null,
+          "DefaultAction": null,
+          "AdditionalTilePropertyRadius": 2,
+          "AllowsFlooringUnderneath": true,
+          "ActionTiles": [],
+          "TileProperties": [],
+          "ItemConversions": null,
+          "DrawLayers": null,
+          "CustomFields": null
+        }
+      }
+    },
+
+    // ========== DELUXE GREENHOUSE ==========
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Amichwan.More.Buildings_DeluxeGreenhouse",
+      "MapProperties": {
+        "IsGreenhouse": "T",
+        "DayTiles": "",
+        "NightTiles": "",
+        "Type": "Buildable"
+      },
+      "When": { "Deluxe Greenhouse": "True" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/Amichwan.More.Buildings_DeluxeGreenhouse",
+      "FromFile": "assets/DeluxeGreenhouse.tmx",
+      "When": { "Deluxe Greenhouse": "True" }
+    },
+    {
+      "When": { "Deluxe Greenhouse": "True" },
+      "Action": "EditData",
+      "Target": "Data/Buildings",
+      "Entries": {
+        "Amichwan.More.Buildings_DeluxeGreenhouse": {
+          "Name": "{{i18n: DeluxeGreenhouseName}}",
+          "Description": "{{i18n: DeluxeGreenhouseDescription}}",
+          "Texture": "Amichwan.More.Buildings/DeluxeGreenhouse",
+          "DrawShadow": true,
+          "Size": { "X": 5, "Y": 3 },
+          "FadeWhenBehind": true,
+          "SourceRect": { "X": 0, "Y": 0, "Width": 80, "Height": 112 },
+          "Builder": "Robin",
+          "BuildCondition": null,
+          "BuildDays": "{{DeluxeGreenhouse_BuildDays}}",
+          "BuildCost": "{{DeluxeGreenhouse_BuildCost}}",
+          "BuildMaterials": [
+              { "ItemId": "(O)388", "Amount": "{{DeluxeGreenhouse_WoodAmount}}" },
+              { "ItemId": "(O)709", "Amount": "{{DeluxeGreenhouse_HardwoodAmount}}" },
+              { "ItemId": "(O)390", "Amount": "{{DeluxeGreenhouse_StoneAmount}}" },
+              { "ItemId": "(O)334", "Amount": "{{DeluxeGreenhouse_CopperBarAmount}}" }
+          ],
+
+          "BuildingToUpgrade": "Amichwan.More.Buildings_BigGreenhouse",
+          "MagicalConstruction": false,
+          "BuildMenuDrawOffset": {"X": 0, "Y": 0},
+          "HumanDoor": {"X": 2, "Y": 2},
+          "AnimalDoor": {"X": -1, "Y": -1, "Width": 0, "Height": 0},
+          "AnimalDoorOpenDuration": 0.0,
+          "AnimalDoorOpenSound": null,
+          "AnimalDoorCloseDuration": 0.0,
+          "AnimalDoorCloseSound": null,
+          "NonInstancedIndoorLocation": null,
+          "IndoorMap": "Amichwan.More.Buildings_DeluxeGreenhouse",
+          "IndoorMapType": null,
+          "MaxOccupants": 20,
+          "ValidOccupantTypes": [],
+          "AllowAnimalPregnancy": false,
+          "IndoorItemMoves": null,
+          "IndoorItems": null,
+          "AddMailOnBuild": null,
+          "Metadata": {},
+          "ModData": {
+            "Amichwan.More.Buildings/IsCustomBuilding": "true",
+            "Pathoschild.Automate/IsAutomationIgnored": "false"
+          },
+          "HayCapacity": 0,
+          "Chests": null,
+          "DefaultAction": null,
+          "AdditionalTilePropertyRadius": 2,
+          "AllowsFlooringUnderneath": true,
+          "ActionTiles": [],
+          "TileProperties": [],
+          "ItemConversions": null,
+          "DrawLayers": null,
+          "CustomFields": null
+        }
+      }
+    },
+        // ========== TREE GREENHOUSE ==========
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Amichwan.More.Buildings_TreeGreenhouse",
+      "MapProperties": {
+        "IsGreenhouse": "T",
+        "DayTiles": "",
+        "NightTiles": "",
+        "Type": "Buildable"
+      },
+      "When": { "Tree Greenhouse": "True" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/Amichwan.More.Buildings_TreeGreenhouse",
+      "FromFile": "assets/TreeGreenhouse.tmx",
+      "When": { "Tree Greenhouse": "True" }
+    },
+    {
+      "When": { "Tree Greenhouse": "True" },
+      "Action": "EditData",
+      "Target": "Data/Buildings",
+      "Entries": {
+        "Amichwan.More.Buildings_TreeGreenhouse": {
+          "Name": "{{i18n: TreeGreenhouseName}}",
+          "Description": "{{i18n: TreeGreenhouseDescription}}",
+          "Texture": "Amichwan.More.Buildings/TreeGreenhouse",
+          "DrawShadow": true,
+          "Size": { "X": 5, "Y": 3 },
+          "FadeWhenBehind": true,
+          "SourceRect": { "X": 0, "Y": 0, "Width": 80, "Height": 112 },
+          "Builder": "Robin",
+          "BuildCondition": null,
+          "BuildDays": "{{TreeGreenhouse_BuildDays}}",
+          "BuildCost": "{{TreeGreenhouse_BuildCost}}",
+          "BuildMaterials": [
+              { "ItemId": "(O)388", "Amount": "{{TreeGreenhouse_WoodAmount}}" },
+              { "ItemId": "(O)709", "Amount": "{{TreeGreenhouse_HardwoodAmount}}" },
+              { "ItemId": "(O)390", "Amount": "{{TreeGreenhouse_StoneAmount}}" }
+          ],
+          "BuildingToUpgrade": null,
+          "MagicalConstruction": false,
+          "BuildMenuDrawOffset": {"X": 0, "Y": 0},
+          "HumanDoor": {"X": 2, "Y": 2},
+          "AnimalDoor": {"X": -1, "Y": -1, "Width": 0, "Height": 0},
+          "AnimalDoorOpenDuration": 0.0,
+          "AnimalDoorOpenSound": null,
+          "AnimalDoorCloseDuration": 0.0,
+          "AnimalDoorCloseSound": null,
+          "NonInstancedIndoorLocation": null,
+          "IndoorMap": "Amichwan.More.Buildings_TreeGreenhouse",
+          "IndoorMapType": null,
+          "MaxOccupants": 20,
+          "ValidOccupantTypes": [],
+          "AllowAnimalPregnancy": false,
+          "IndoorItemMoves": null,
+          "IndoorItems": null,
+          "AddMailOnBuild": null,
+          "Metadata": {},
+          "ModData": {
+            "Amichwan.More.Buildings/IsCustomBuilding": "true",
+            "Pathoschild.Automate/IsAutomationIgnored": "false"
+          },
+          "HayCapacity": 0,
+          "Chests": null,
+          "DefaultAction": null,
+          "AdditionalTilePropertyRadius": 2,
+          "AllowsFlooringUnderneath": true,
+          "ActionTiles": [],
+          "TileProperties": [],
+          "ItemConversions": null,
+          "DrawLayers": null,
+          "CustomFields": null
+        }
+      }
+    },
+
+    // ========== BIG TREE GREENHOUSE ==========
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Amichwan.More.Buildings_BigTreeGreenhouse",
+      "MapProperties": {
+        "IsGreenhouse": "T",
+        "DayTiles": "",
+        "NightTiles": "",
+        "Type": "Buildable"
+      },
+      "When": { "Big Tree Greenhouse": "True" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/Amichwan.More.Buildings_BigTreeGreenhouse",
+      "FromFile": "assets/BigTreeGreenhouse.tmx",
+      "When": { "Big Tree Greenhouse": "True" }
+    },
+    {
+      "When": { "Big Tree Greenhouse": "True" },
+      "Action": "EditData",
+      "Target": "Data/Buildings",
+      "Entries": {
+        "Amichwan.More.Buildings_BigTreeGreenhouse": {
+          "Name": "{{i18n: BigTreeGreenhouseName}}",
+          "Description": "{{i18n: BigTreeGreenhouseDescription}}",
+          "Texture": "Amichwan.More.Buildings/BigTreeGreenhouse",
+          "DrawShadow": true,
+          "Size": { "X": 5, "Y": 3 },
+          "FadeWhenBehind": true,
+          "SourceRect": { "X": 0, "Y": 0, "Width": 80, "Height": 112 },
+          "Builder": "Robin",
+          "BuildCondition": null,
+          "BuildDays": "{{BigTreeGreenhouse_BuildDays}}",
+          "BuildCost": "{{BigTreeGreenhouse_BuildCost}}",
+          "BuildMaterials": [
+              { "ItemId": "(O)388", "Amount": "{{BigTreeGreenhouse_WoodAmount}}" },
+              { "ItemId": "(O)709", "Amount": "{{BigTreeGreenhouse_HardwoodAmount}}" },
+              { "ItemId": "(O)390", "Amount": "{{BigTreeGreenhouse_StoneAmount}}" }
+          ],
+          "BuildingToUpgrade": "Amichwan.More.Buildings_TreeGreenhouse",
+          "MagicalConstruction": false,
+          "BuildMenuDrawOffset": {"X": 0, "Y": 0},
+          "HumanDoor": {"X": 2, "Y": 2},
+          "AnimalDoor": {"X": -1, "Y": -1, "Width": 0, "Height": 0},
+          "AnimalDoorOpenDuration": 0.0,
+          "AnimalDoorOpenSound": null,
+          "AnimalDoorCloseDuration": 0.0,
+          "AnimalDoorCloseSound": null,
+          "NonInstancedIndoorLocation": null,
+          "IndoorMap": "Amichwan.More.Buildings_BigTreeGreenhouse",
+          "IndoorMapType": null,
+          "MaxOccupants": 20,
+          "ValidOccupantTypes": [],
+          "AllowAnimalPregnancy": false,
+          "IndoorItemMoves": null,
+          "IndoorItems": null,
+          "AddMailOnBuild": null,
+          "Metadata": {},
+          "ModData": {
+            "Amichwan.More.Buildings/IsCustomBuilding": "true",
+            "Pathoschild.Automate/IsAutomationIgnored": "false"
+          },
+          "HayCapacity": 0,
+          "Chests": null,
+          "DefaultAction": null,
+          "AdditionalTilePropertyRadius": 2,
+          "AllowsFlooringUnderneath": true,
+          "ActionTiles": [],
+          "TileProperties": [],
+          "ItemConversions": null,
+          "DrawLayers": null,
+          "CustomFields": null
+        }
+      }
+    },
+
+    // ========== DELUXE TREE GREENHOUSE ==========
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Amichwan.More.Buildings_DeluxeTreeGreenhouse",
+      "MapProperties": {
+        "IsGreenhouse": "T",
+        "DayTiles": "",
+        "NightTiles": "",
+        "Type": "Buildable"
+      },
+      "When": { "Deluxe Tree Greenhouse": "True" }
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/Amichwan.More.Buildings_DeluxeTreeGreenhouse",
+      "FromFile": "assets/DeluxeTreeGreenhouse.tmx",
+      "When": { "Deluxe Tree Greenhouse": "True" }
+    },
+    {
+      "When": { "Deluxe Tree Greenhouse": "True" },
+      "Action": "EditData",
+      "Target": "Data/Buildings",
+      "Entries": {
+        "Amichwan.More.Buildings_DeluxeTreeGreenhouse": {
+          "Name": "{{i18n: DeluxeTreeGreenhouseName}}",
+          "Description": "{{i18n: DeluxeTreeGreenhouseDescription}}",
+          "Texture": "Amichwan.More.Buildings/DeluxeTreeGreenhouse",
+          "DrawShadow": true,
+          "Size": { "X": 5, "Y": 3 },
+          "FadeWhenBehind": true,
+          "SourceRect": { "X": 0, "Y": 0, "Width": 80, "Height": 112 },
+          "Builder": "Robin",
+          "BuildCondition": null,
+          "BuildDays": "{{DeluxeTreeGreenhouse_BuildDays}}",
+          "BuildCost": "{{DeluxeTreeGreenhouse_BuildCost}}",
+          "BuildMaterials": [
+              { "ItemId": "(O)388", "Amount": "{{DeluxeTreeGreenhouse_WoodAmount}}" },
+              { "ItemId": "(O)709", "Amount": "{{DeluxeTreeGreenhouse_HardwoodAmount}}" },
+              { "ItemId": "(O)390", "Amount": "{{DeluxeTreeGreenhouse_StoneAmount}}" },
+              { "ItemId": "(O)335", "Amount": "{{DeluxeTreeGreenhouse_IronBarAmount}}" }
+          ],
+          "BuildingToUpgrade": "Amichwan.More.Buildings_BigTreeGreenhouse",
+          "MagicalConstruction": false,
+          "BuildMenuDrawOffset": {"X": 0, "Y": 0},
+          "HumanDoor": {"X": 2, "Y": 2},
+          "AnimalDoor": {"X": -1, "Y": -1, "Width": 0, "Height": 0},
+          "AnimalDoorOpenDuration": 0.0,
+          "AnimalDoorOpenSound": null,
+          "AnimalDoorCloseDuration": 0.0,
+          "AnimalDoorCloseSound": null,
+          "NonInstancedIndoorLocation": null,
+          "IndoorMap": "Amichwan.More.Buildings_DeluxeTreeGreenhouse",
+          "IndoorMapType": null,
+          "MaxOccupants": 20,
+          "ValidOccupantTypes": [],
+          "AllowAnimalPregnancy": false,
+          "IndoorItemMoves": null,
+          "IndoorItems": null,
+          "AddMailOnBuild": null,
+          "Metadata": {},
+          "ModData": {
+            "Amichwan.More.Buildings/IsCustomBuilding": "true",
+            "Pathoschild.Automate/IsAutomationIgnored": "false"
+          },
+          "HayCapacity": 0,
+          "Chests": null,
+          "DefaultAction": null,
+          "AdditionalTilePropertyRadius": 2,
+          "AllowsFlooringUnderneath": true,
+          "ActionTiles": [],
+          "TileProperties": [],
+          "ItemConversions": null,
+          "DrawLayers": null,
+          "CustomFields": null
+        }
+      }
+    },
+    // ========== LITTLE CELLAR ==========
+    {
+      "Action": "Load",
+      "Target": "Maps/Amichwan.More.Buildings_LittleCellar",
+      "FromFile": "assets/LittleCellar.tmx",
+      "When": { "Little Cellar": "True" }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Amichwan.More.Buildings_LittleCellar",
+      "MapProperties": {
+        "DayTiles": "",
+        "NightTiles": "",
+        "Type": "Buildable"
+      },
+      "When": { "Little Cellar": "True" }
+    },
+    {
+      "When": { "Little Cellar": "True" },
+      "Action": "EditData",
+      "Target": "Data/Buildings",
+      "Entries": {
+        "Amichwan.More.Buildings_LittleCellar": {
+          "Name": "{{i18n: LittleCellarName}}",
+          "Description": "{{i18n: LittleCellarDescription}}",
+          "Texture": "Amichwan.More.Buildings/LittleCellar",
+          "DrawShadow": true,
+          "Size": { "X": 4, "Y": 4 },
+          "FadeWhenBehind": true,
+          "SourceRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+          "SortTileOffset": 1.0,
+          "CollisionMap": "XXXX\n          XXXX\n          XXXX\n          OOOO",
+          "Builder": "Robin",
+          "BuildCondition": null,
+          "BuildDays": "{{LittleCellar_BuildDays}}",
+          "BuildCost": "{{LittleCellar_BuildCost}}",
+          "BuildMaterials": [
+              { "ItemId": "(O)388", "Amount": "{{LittleCellar_WoodAmount}}" },
+              { "ItemId": "(O)709", "Amount": "{{LittleCellar_HardwoodAmount}}" },
+              { "ItemId": "(O)390", "Amount": "{{LittleCellar_StoneAmount}}" }
+          ],
+
+          "BuildingToUpgrade": null,
+          "MagicalConstruction": false,
+          "BuildMenuDrawOffset": {"X": 0, "Y": 0},
+          "HumanDoor": {"X": 1, "Y": 2},
+          "AnimalDoor": {"X": -1, "Y": -1, "Width": 0, "Height": 0},
+          "AnimalDoorOpenDuration": 0.0,
+          "AnimalDoorOpenSound": null,
+          "AnimalDoorCloseDuration": 0.0,
+          "AnimalDoorCloseSound": null,
+          "NonInstancedIndoorLocation": null,
+          "IndoorMap": "Amichwan.More.Buildings_LittleCellar",
+          "IndoorMapType": null,
+          "MaxOccupants": 20,
+          "ValidOccupantTypes": [],
+          "AllowAnimalPregnancy": false,
+          "IndoorItemMoves": null,
+          "IndoorItems": null,
+          "AddMailOnBuild": null,
+          "Metadata": {},
+          "ModData": {
+            "Amichwan.More.Buildings/IsCustomBuilding": "true",
+            "Pathoschild.Automate/IsAutomationIgnored": "false"
+          },
+          "HayCapacity": 0,
+          "Chests": null,
+          "DefaultAction": null,
+          "AdditionalTilePropertyRadius": 2,
+          "AllowsFlooringUnderneath": true,
+          "ActionTiles": [ { "X": 2, "Y": 3, "Action": "Warp 8 15 Amichwan.More.Buildings_LittleCellar" } ],
+          "TileProperties": [],
+          "ItemConversions": null,
+          "DrawLayers": null,
+          "CustomFields": null
+        }
+      }
+    },
+
+    // ========== BIG CELLAR ==========
+    {
+      "Action": "Load",
+      "Target": "Maps/Amichwan.More.Buildings_BigCellar",
+      "FromFile": "assets/BigCellar.tmx",
+      "When": { "Big Cellar": "True" }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Amichwan.More.Buildings_BigCellar",
+      "MapProperties": {
+        "DayTiles": "",
+        "NightTiles": "",
+        "Type": "Buildable"
+      },
+      "When": { "Big Cellar": "True" }
+    },
+    {
+      "When": { "Big Cellar": "True" },
+      "Action": "EditData",
+      "Target": "Data/Buildings",
+      "Entries": {
+        "Amichwan.More.Buildings_BigCellar": {
+          "Name": "{{i18n: BigCellarName}}",
+          "Description": "{{i18n: BigCellarDescription}}",
+          "Texture": "Amichwan.More.Buildings/BigCellar",
+          "DrawShadow": true,
+          "Size": { "X": 4, "Y": 4 },
+          "FadeWhenBehind": true,
+          "SourceRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+          "SortTileOffset": 1.0,
+          "CollisionMap": "XXXX\n          XXXX\n          XXXX\n          OOOO",
+          "Builder": "Robin",
+          "BuildCondition": null,
+          "BuildDays": "{{BigCellar_BuildDays}}",
+          "BuildCost": "{{BigCellar_BuildCost}}",
+          "BuildMaterials": [
+              { "ItemId": "(O)388", "Amount": "{{BigCellar_WoodAmount}}" },
+              { "ItemId": "(O)709", "Amount": "{{BigCellar_HardwoodAmount}}" },
+              { "ItemId": "(O)390", "Amount": "{{BigCellar_StoneAmount}}" }
+          ],
+          "BuildingToUpgrade": "Amichwan.More.Buildings_LittleCellar",
+          "MagicalConstruction": false,
+          "BuildMenuDrawOffset": {"X": 0, "Y": 0},
+          "HumanDoor": {"X": 1, "Y": 2},
+          "AnimalDoor": {"X": -1, "Y": -1, "Width": 0, "Height": 0},
+          "AnimalDoorOpenDuration": 0.0,
+          "AnimalDoorOpenSound": null,
+          "AnimalDoorCloseDuration": 0.0,
+          "AnimalDoorCloseSound": null,
+          "NonInstancedIndoorLocation": null,
+          "IndoorMap": "Amichwan.More.Buildings_BigCellar",
+          "IndoorMapType": null,
+          "MaxOccupants": 20,
+          "ValidOccupantTypes": [],
+          "AllowAnimalPregnancy": false,
+          "IndoorItemMoves": null,
+          "IndoorItems": null,
+          "AddMailOnBuild": null,
+          "Metadata": {},
+          "ModData": {
+            "Amichwan.More.Buildings/IsCustomBuilding": "true",
+            "Pathoschild.Automate/IsAutomationIgnored": "false"
+          },
+          "HayCapacity": 0,
+          "Chests": null,
+          "DefaultAction": null,
+          "AdditionalTilePropertyRadius": 2,
+          "AllowsFlooringUnderneath": true,
+          "ActionTiles": [],
+          "TileProperties": [],
+          "ItemConversions": null,
+          "DrawLayers": null,
+          "CustomFields": null
+        }
+      }
+    },
+
+    // ========== DELUXE CELLAR ==========
+    {
+      "Action": "Load",
+      "Target": "Maps/Amichwan.More.Buildings_DeluxeCellar",
+      "FromFile": "assets/DeluxeCellar.tmx",
+      "When": { "Deluxe Cellar": "True" }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Amichwan.More.Buildings_DeluxeCellar",
+      "MapProperties": {
+        "DayTiles": "",
+        "NightTiles": "",
+        "Type": "Buildable"
+      },
+      "When": { "Deluxe Cellar": "True" }
+    },
+    {
+      "When": { "Deluxe Cellar": "True" },
+      "Action": "EditData",
+      "Target": "Data/Buildings",
+      "Entries": {
+        "Amichwan.More.Buildings_DeluxeCellar": {
+          "Name": "{{i18n: DeluxeCellarName}}",
+          "Description": "{{i18n: DeluxeCellarDescription}}",
+          "Texture": "Amichwan.More.Buildings/DeluxeCellar",
+          "DrawShadow": true,
+          "Size": { "X": 4, "Y": 4 },
+          "FadeWhenBehind": true,
+          "SourceRect": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+          "SortTileOffset": 1.0,
+          "CollisionMap": "XXXX\n          XXXX\n          XXXX\n          OOOO",
+          "Builder": "Robin",
+          "BuildCondition": null,
+          "BuildDays": "{{DeluxeCellar_BuildDays}}",
+          "BuildCost": "{{DeluxeCellar_BuildCost}}",
+          "BuildMaterials": [
+              { "ItemId": "(O)388", "Amount": "{{DeluxeCellar_WoodAmount}}" },
+              { "ItemId": "(O)709", "Amount": "{{DeluxeCellar_HardwoodAmount}}" },
+              { "ItemId": "(O)390", "Amount": "{{DeluxeCellar_StoneAmount}}" },
+              { "ItemId": "(O)336", "Amount": "{{DeluxeCellar_GoldBarAmount}}" }
+          ],
+
+          "BuildingToUpgrade": "Amichwan.More.Buildings_BigCellar",
+          "MagicalConstruction": false,
+          "BuildMenuDrawOffset": {"X": 0, "Y": 0},
+          "HumanDoor": {"X": 1, "Y": 2},
+          "AnimalDoor": {"X": -1, "Y": -1, "Width": 0, "Height": 0},
+          "AnimalDoorOpenDuration": 0.0,
+          "AnimalDoorOpenSound": null,
+          "AnimalDoorCloseDuration": 0.0,
+          "AnimalDoorCloseSound": null,
+          "NonInstancedIndoorLocation": null,
+          "IndoorMap": "Amichwan.More.Buildings_DeluxeCellar",
+          "IndoorMapType": null,
+          "MaxOccupants": 20,
+          "ValidOccupantTypes": [],
+          "AllowAnimalPregnancy": false,
+          "IndoorItemMoves": null,
+          "IndoorItems": null,
+          "AddMailOnBuild": null,
+          "Metadata": {},
+          "ModData": {
+            "Amichwan.More.Buildings/IsCustomBuilding": "true",
+            "Pathoschild.Automate/IsAutomationIgnored": "false"
+          },
+          "HayCapacity": 0,
+          "Chests": null,
+          "DefaultAction": null,
+          "AdditionalTilePropertyRadius": 2,
+          "AllowsFlooringUnderneath": true,
+          "ActionTiles": [],
+          "TileProperties": [],
+          "ItemConversions": null,
+          "DrawLayers": null,
+          "CustomFields": null
+        }
+      }
+    }
+  ]
+}

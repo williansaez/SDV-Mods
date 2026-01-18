@@ -1,0 +1,143 @@
+{
+	"Changes": [
+			{ //Linus
+	        "Action": "EditData",
+	        "Target": "Characters/Dialogue/Linus",
+	        "Entries": {
+	            "Mon4_inlaw_Wizard": "{{i18n:Linus.Mon4_inlaw_Wizard}}",
+	            "married_Wizard": "{{i18n:Linus.married_Wizard}}",
+				"dating_Wizard": "{{i18n:Linus.dating_Wizard}}",
+				"divorced_Wizard": "{{i18n:Linus.divorced_Wizard}}",
+		            },
+		    },
+	        { //Marlon
+	        "Action": "EditData",
+	        "Target": "Characters/Dialogue/Marlon",
+	        "Entries": {
+	            "Sat4_inlaw_Wizard": "{{i18n:Marlon.Sat4_inlaw_Wizard}}",
+	            "married_Wizard": "{{i18n:Marlon.married_Wizard}}",
+				"dating_Wizard": "{{i18n:Marlon.dating_Wizard}}",
+				"divorced_Wizard": "{{i18n:Marlon.divorced_Wizard}}",
+		        	},
+		    },
+		    { //Caroline
+	        "Action": "EditData",
+	        "Target": "Characters/Dialogue/Caroline",
+	        "Entries": {
+	            "married_Wizard": "{{i18n:Caroline.married_Wizard}}",
+				"dating_Wizard": "{{i18n:Caroline.dating_Wizard}}",
+				"divorced_Wizard": "{{i18n:Caroline.divorced_Wizard}}",
+		        	}, 
+		    },
+		    { //Abigail
+	        "Action": "EditData",
+	        "Target": "Characters/Dialogue/Abigail",
+	        "Entries": {
+	            "married_Wizard": "{{i18n:Abigail.married_Wizard}}",
+				"dating_Wizard": "{{i18n:Abigail.dating_Wizard}}",
+		        	},
+		    },
+		    { //Jodi
+	        "Action": "EditData",
+	        "Target": "Characters/Dialogue/Jodi",
+	        "Entries": {
+	            "married_Wizard_memory_oneday": "{{i18n:Jodi.married_Wizard_memory_oneday}}",
+		        	},
+		    },
+		    { //Leah
+	        "Action": "EditData",
+	        "Target": "Characters/Dialogue/Leah",
+	        "Entries": {
+	            "married_Wizard": "{{i18n:Leah.married_Wizard}}",
+				"dating_Wizard": "{{i18n:Leah.dating_Wizard}}",
+				"divorced_Wizard": "{{i18n:Leah.divorced_Wizard}}",
+		        	},
+		    },
+		    { //Marnie
+	        "Action": "EditData",
+	        "Target": "Characters/Dialogue/Marnie",
+	        "Entries": {
+	            "married_Wizard": "{{i18n:Marnie.married_Wizard}}",
+		        	},
+		    },
+		    { //Lewis
+	        "Action": "EditData",
+	        "Target": "Characters/Dialogue/Lewis",
+	        "Entries": {
+	            "married_Wizard": "{{i18n:Lewis.married_Wizard}}",
+		        	},
+		    },
+		    { //Harvey
+	        "Action": "EditData",
+	        "Target": "Characters/Dialogue/Harvey",
+	        "Entries": {
+	            "married_Wizard_memory_oneweek": "{{i18n:Harvey.married_Wizard_memory_oneweek}}",
+		        	},
+		    },
+		    { //Robin
+	        "Action": "EditData",
+	        "Target": "Characters/Dialogue/Robin",
+	        "Entries": {
+	            "married_Wizard": "{{i18n:Robin.married_Wizard}}",
+		        	},
+		    },
+
+		    //ModdedNPCs
+		    //SVE
+		    { //Camilla
+	        "Action": "EditData",
+	        "Target": "Characters/Dialogue/Camilla",
+	        "Entries": {
+	            "married_Wizard": "{{i18n:Camilla.married_Wizard}}",
+				"dating_Wizard": "{{i18n:Camilla.dating_Wizard}}",
+		        	},
+		    },
+		    { //Lance
+	        "Action": "EditData",
+	        "Target": "Characters/Dialogue/Lance",
+	        "Entries": {
+	            "married_Wizard": "{{i18n:Lance.married_Wizard}}",
+		        	},
+		    },
+		    /*{ //Morgan //Already has married_Wizard dialogue in SVE
+	        "Action": "EditData",
+	        "Target": "Characters/Dialogue/Morgan",
+	        "Entries": {
+	            "married_Wizard": "Congratulations on the marriage. You and Rasmodius certainly make for a powerful duo.",
+		        	},
+		    },*/
+		    { //Olivia
+	        "Action": "EditData",
+	        "Target": "Characters/Dialogue/Olivia",
+	        "Entries": {
+	            "married_Wizard": "{{i18n:Olivia.married_Wizard}}",
+		        	},
+		    },
+		    //RSV
+		    { //Aguar
+	        "Action": "EditData",
+	        "Target": "Characters/Dialogue/Aguar",
+	        "Entries": {
+	            "married_Wizard": "{{i18n:Aguar.married_Wizard}}",
+		        	},
+		    },
+
+		    //No Ex toggle
+		    { //Marlon
+	        "Action": "EditData",
+	        "Target": "Characters/Dialogue/Marlon",
+	        "When": {"Ex-Wife mentions": "disabled"},
+	        "Entries": {
+	            "married_Wizard": "{{i18n:Marlon.married_Wizard_noEx}}",
+		        	},
+		    },
+		    { //Linus
+	        "Action": "EditData",
+	        "Target": "Characters/Dialogue/Linus",
+	        "When": {"Ex-Wife mentions": "disabled"},
+	        "Entries": {
+	            "Mon4_inlaw_Wizard": "{{i18n:Linus.Mon4_inlaw_Wizard_noEx}}",
+		            },
+		    },
+	]
+}

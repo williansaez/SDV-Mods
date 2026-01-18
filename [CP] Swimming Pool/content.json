@@ -1,0 +1,110 @@
+{
+  "$schema": "https://smapi.io/schemas/content-patcher.json",
+  "Format": "2.7.0",
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "{{ModId}}_SwimmingPool",
+      "FromFile": "assets/building.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Buildings",
+      "Entries": {
+        "{{ModId}}": {
+          "Name": "Swimming Pool",
+          "Description": "A refreshing outdoor pool, the perfect place to relax on a hot summer day.",
+          "Texture": "{{ModId}}_SwimmingPool",
+          "DrawShadow": true,
+          "Size": {
+            "X": 7,
+            "Y": 5
+          },
+          "FadeWhenBehind": true,
+          "SourceRect": {
+            "X": 0,
+            "Y": 0,
+            "Width": 112,
+            "Height": 80
+          },
+          "CollisionMap": "XXXXXXX\nXOOOOOO\nXOOXXXX\nXOOOOOX\nXXXXXXX",
+          "Builder": "Robin",
+          "BuildDays": 2,
+          "BuildCost": 15000,
+          "BuildMaterials": [
+            {
+              "ItemId": "(O)390",
+              "Amount": 500
+            }
+          ],
+          "DefaultAction": null,
+          "AdditionalTilePropertyRadius": 0,
+          "AllowsFlooringUnderneath": true,
+          "TileProperties": [
+            {
+              "Id": "{{ModId}}_ChangeIntoSwimsuit",
+              "Name": "TouchAction",
+              "Value": "ChangeIntoSwimsuit",
+              "Layer": "Back",
+              "TileArea": {
+                "X": 4,
+                "Y": 1,
+                "Width": 1,
+                "Height": 1
+              }
+            },
+            {
+              "Id": "{{ModId}}_ChangeOutOfSwimsuit",
+              "Name": "TouchAction",
+              "Value": "ChangeOutOfSwimsuit",
+              "Layer": "Back",
+              "TileArea": {
+                "X": 5,
+                "Y": 1,
+                "Width": 1,
+                "Height": 1
+              }
+            },
+            {
+              "Id": "{{ModId}}_PoolEntrance",
+              "Name": "TouchAction",
+              "Value": "PoolEntrance",
+              "Layer": "Back",
+              "TileArea": {
+                "X": 2,
+                "Y": 1,
+                "Width": 1,
+                "Height": 1
+              }
+            }
+          ],
+          "DrawLayers": [
+            {
+              "Id": "{{ModId}}_WaterAnim",
+              "SourceRect": {
+                "X": 0,
+                "Y": 80,
+                "Width": 112,
+                "Height": 80
+              },
+              "DrawInBackground": true,
+              "FrameDuration": 300,
+              "FrameCount": 7,
+              "FramesPerRow": 1
+            },
+            {
+              "Id": "{{ModId}}_Edge",
+              "SourceRect": {
+                "X": 0,
+                "Y": 640,
+                "Width": 112,
+                "Height": 48
+              },
+              "DrawInBackground": true
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+	"Changes": [
+        {
+			"Action": "EditData",
+			"Target": "Data/Hats",
+			"Entries": {
+				"InfinityPanHat": "Infinity Pan/{{i18n:InfinityPanHat_description}}/false/true//{{i18n:InfinityPan_name}}/0/Vanillin.InfinityTools\\Hats",
+			}
+		}
+  ]
+}

@@ -1,0 +1,4 @@
+{
+    "template.start": "{{mod}} iniciado da pasta: {{folder}}",
+    "template.key": "Tecla de Debug pressionada"
+}

@@ -1,0 +1,136 @@
+{
+"Changes": [
+{       
+	 "Action": "EditData",
+	 "LogName": "Tainted Algae Event",
+	 "Target": "data/events/railroad",
+	 "Entries": {
+     "529955/i MNF.MoreNewFish_void_algae/y 3":"continue/54 36/farmer 54 36 2 Demetrius 53 38 0/speak Demetrius \"{{i18n:MNF.529955_01}}\"/pause 50/speak Demetrius \"{{i18n:MNF.529955_02}}\"/addObject 53 36 MNF.MoreNewFish_void_algae/removeItem MNF.MoreNewFish_void_algae/pause 25/removeObject 54 37/speak Demetrius \"{{i18n:MNF.529955_03}}\"/end",
+	 },
+},
+{       
+	 "Action": "EditData",
+	 "LogName": "Farm Events",
+	 "Target": "data/events/farm",
+	 "Entries": {
+     "529956/e 529955/t 600 1200":"continue/64 15/farmer 64 16 2 Demetrius 64 18 0/pause 500/speak Demetrius \"{{i18n:MNF.529956_01}}\"/addQuest MNF.231/end",
+	 "529960/z spring/z summer/y 2":"continue/64 15/farmer 64 16 2 Willy 64 18 0/pause 500/speak Willy \"{{i18n:MNF.529960_01}}\"/addQuest MNF.233/end",
+	 },
+},
+{       
+	 "Action": "EditData",
+	 "LogName": "Tainted Algae Chained Event",
+	 "Target": "data/events/wizardhouse",
+	 "Entries": {
+     "529957/e 529956/i MNF.MoreNewFish_void_algae": "WizardSong/2 14/farmer 3 14 3 Wizard 1 14 1/removeQuest MNF.231/pause 500/speak Wizard \"{{i18n:MNF.529957_01}}\"/pause 50/addObject 2 14 MNF.MoreNewFish_void_algae/removeItem MNF.MoreNewFish_void_algae/pause 500/speak Wizard \"{{i18n:MNF.529957_02}}\"/removeTemporarySprites/pause 500/addObject 2 14 96/speak Wizard \"{{i18n:MNF.529957_03}}\"/removeTemporarySprites/playSound reward/message \"{{i18n:MNF.529957_04}}\"/addCraftingRecipe Warrior Elixir/pause 500/speak Wizard \"{{i18n:MNF.529957_05}}\"/emote farmer 32/end",
+	 },
+},
+{       
+	 "Action": "EditData",
+	 "LogName": "Fishing Elixir Event",
+	 "Target": "data/events/beach",
+	 "Entries": {
+ "529958/e 529960/i MNF.MoreNewFish_spiny_dogfish 1/i MNF.MoreNewFish_small_goblin_shark 1/i MNF.MoreNewFish_small_manta_ray 1/i MNF.MoreNewFish_small_swordfish 1/i MNF.MoreNewFish_bonnethead 1/t 600 1710": "ocean/44 35/farmer 42 35 1 Willy 44 35 1/removeQuest MNF.233/animate Willy false true 250 28 29 30 31/playSound seagulls/pause 2000/stopAnimation Willy/playSound dwop/faceDirection Willy 3/speak Willy \"{{i18n:MNF.529958_01}}\"/emote Willy 20/pause 500/playSound seagulls/speak Willy \"{{i18n:MNF.529958_02}}\"/addObject 43 35 842/speak Willy \"{{i18n:MNF.529958_03}}\"/removeTemporarySprites/playSound reward/message \"{{i18n:MNF.529958_04}}\"/addCraftingRecipe Fishing Elixir/pause 500/friendship Willy 500/pause 500/playSound seagulls/addQuest MNF.234/speak Willy \"{{i18n:MNF.529958_05}}\"/end",
+   },
+   },
+   {
+		"Action": "EditData",
+		"LogName": "Quests",
+      "Target": "Data/Quests",
+      "Entries": {
+		"MNF.228": "ItemDelivery/{{i18n:MNF.228_00}}/{{i18n:MNF.228_01}}/{{i18n:MNF.228_02}}/Demetrius MNF.MoreNewFish_blinky/-1/1000/-1/false/{{i18n:MNF.228_03}}",
+        "MNF.230": "ItemDelivery/{{i18n:MNF.230_00}}/{{i18n:MNF.230_01}}/{{i18n:MNF.230_02}}/Kent MNF.MoreNewFish_starfish/-1/150/-1/false/{{i18n:MNF.230_03}}",
+		"MNF.231": "Basic/{{i18n:MNF.231_00}}/{{i18n:MNF.231_01}}/{{i18n:MNF.231_02}}/null/-1/0/-1/false",
+		"MNF.232": "ItemDelivery/{{i18n:MNF.232_00}}/{{i18n:MNF.232_01}}/{{i18n:MNF.232_02}}/Wizard MNF.MoreNewFish_trapped_soul/-1/2500/-1/false/{{i18n:MNF.232_03}}",
+		"MNF.233": "Basic/{{i18n:MNF.233_00}}/{{i18n:MNF.233_01}}/{{i18n:MNF.233_02}}/null/-1/0/-1/false",
+		"MNF.234": "ItemDelivery/{{i18n:MNF.234_00}}/{{i18n:MNF.234_01}}/{{i18n:MNF.234_02}}/Willy MNF.MoreNewFish_fishing_elixir/-1/8000/-1/false/{{i18n:MNF.234_03}}",
+	 },
+},
+	 {
+	 "Action": "EditData",
+	 "LogName": "Willy Dialogues",
+	 "When": {"EnableWillyDialogues":"true"},
+ 	 "Target": "Characters/Dialogue/Willy",
+	 "Entries": {
+	 "Mon8": "{{i18n:MNF.Willy_01}}",
+	 "spring_Tue8": "{{i18n:MNF.Willy_28}}",
+	 "spring_Tue8": "{{i18n:MNF.Willy_02}}",
+	 "spring_Wed": "{{i18n:MNF.Willy_03}}",
+	 "spring_Wed8": "{{i18n:MNF.Willy_04}}",
+	 "spring_Mon": "{{i18n:MNF.Willy_05}}",
+	 "spring_Mon8": "{{i18n:MNF.Willy_06}}",
+	 "spring_Thu": "{{i18n:MNF.Willy_07}}",
+	 "spring_Thu8": "{{i18n:MNF.Willy_08}}",
+	 "spring_Fri": "{{i18n:MNF.Willy_09}}",
+	 "summerBeach": "{{i18n:MNF.Willy_10}}",
+	 "summer_Mon": "{{i18n:MNF.Willy_11}}",
+	 "summer_Mon8": "{{i18n:MNF.Willy_12}}",
+	 "summer_Sun": "{{i18n:MNF.Willy_13}}",
+	 "summer_Sun8": "{{i18n:MNF.Willy_14}}",
+	 "summer_Fri": "{{i18n:MNF.Willy_15}}",
+	 "summer_Fri8": "{{i18n:MNF.Willy_16}}",
+	 "fall_Tue": "{{i18n:MNF.Willy_17}}",
+	 "fall_Sun": "{{i18n:MNF.Willy_18}}",
+	 "winter_Sat": "{{i18n:MNF.Willy_19}}",
+	 "winter_Fri": "{{i18n:MNF.Willy_20}}",
+	 "winter_Fri8": "{{i18n:MNF.Willy_21}}",
+	 "winter_Tue": "{{i18n:MNF.Willy_22}}",
+	 "winter_Thu": "{{i18n:MNF.Willy_23}}",
+	 "winter_Wed": "{{i18n:MNF.Willy_24}}",
+	 "winter_Sun": "{{i18n:MNF.Willy_25}}",
+	 },
+	 },
+	 {
+	 "Action": "EditData",
+	 "LogName": "Lewis Dialogues",
+ 	 "Target": "Characters/Dialogue/Lewis",
+	 "Entries": {
+	 "AcceptGift_(O)MNF.MoreNewFish_i_voted_sticker": "{{i18n:MNF.Lewis_01}}",
+	 },
+	 },
+	 {
+	 "Action": "EditData",
+	 "LogName": "Willy Dialogues",
+ 	 "Target": "Characters/Dialogue/Willy",
+	 "Entries": {
+	 "AcceptGift_(O)MNF.MoreNewFish_fishing_elixir": "{{i18n:MNF.Willy_27}}",
+	 },
+	 },
+	 {
+	 "Action": "EditData",
+	 "LogName": "Alex Dialogues",
+ 	 "Target": "Characters/Dialogue/Alex",
+	 "Entries": {
+	 "AcceptGift_(O)MNF.MoreNewFish_pangasius": "{{i18n:MNF.Alex_01}}",
+	 },
+	 },
+	 {
+	 "Action": "EditData",
+	 "LogName": "Jas Dialogues",
+ 	 "Target": "Characters/Dialogue/Jas",
+	 "Entries": {
+	 "AcceptGift_(O)MNF.MoreNewFish_goldfish": "{{i18n:MNF.Jas_01}}",
+	 "AcceptGift_(O)MNF.MoreNewFish_comet": "{{i18n:MNF.Jas_02}}",
+	 "AcceptGift_(O)MNF.MoreNewFish_lionhead": "{{i18n:MNF.Jas_02}}",
+	 },
+	 },
+	 {
+	 "Action": "EditData",
+	 "LogName": "Vincent Dialogues",
+ 	 "Target": "Characters/Dialogue/Vincent",
+	 "Entries": {
+	 "AcceptGift_(O)MNF.MoreNewFish_telescope": "{{i18n:MNF.Vincent_01}}",
+	 "AcceptGift_(O)MNF.MoreNewFish_celestial_eye": "{{i18n:MNF.Vincent_01}}",
+	 },
+	 },
+	 {    
+	 "Action": "EditData",
+	 "Target": "Characters/Dialogue/rainy",
+	 "LogName": "Willy Raining Dialogue",
+	 "When": {"EnableWillyDialogues":"true"},
+	 "Entries": {
+	 "Willy": "{{i18n:MNF.Willy_26}}",
+	 },
+	 },
+	 ],
+	 }

@@ -1,0 +1,490 @@
+{
+    //  E V E N T S
+    //(EventID.number)
+    //Solarion
+    "69660001.1": "... Então eu digo para o Rei Lich...",//Sam
+    "69660001.2": "Rei Lich?!",//Clint
+    "69660001.3": "(Sussurrando) Oh... Caramba. Clint está olhando para cá.$2",//Abigail
+    "69660001.4": "Ei, Clint. Como vai?",//Sam
+    "69660001.5": "Olá. Vocês estão brincando de Crônicas de Solarion?",//Clint
+    "69660001.6": "Sim estamos! Você conhece? Você ja jogou?",//Sam
+    "69660001.7": "Claro! Na primeira edição durante a escola.#$b#Mas ninguém nunca quis jogar comigo.$2",//Clint
+    "69660001.8": "Eu quero saber porque...",//Abigail
+    "69660001.9": "Que edição eles estão agora?",//Clint
+    "69660001.10": "Sexta edição. Muito épico! Ei... Quer se juntar a nós?",
+    "69660001.11": "Seria bom um clérigo. Os zumbis do necromante realmente chutaram nossas bundas.",
+    "69660001.12": "Sério?",
+    "69660001.13": "Oh... Eu não acho que isso é uma boa ideia.$2#$b#Vou indo, a gente se vê por ai.",
+    "69660001.14": "Ele se foi", //Sebastian
+    "69660001.15": "Obrigado Yoba",//Abigail
+    "69660001.16": "Oh, coé gente!#$b#Ele é apenas solitário.",//Sam
+    "69660001.17": "Olá @. Suponho que você ouviu isso?",//Clint (to farmer)
+    "69660001.18": "Eu não sei o que eu esperava... De qualquer forma, acho que vou voltar para minha loja agora.",//Clint
+    "69660001.19": "Ei @.#$b#$q 696601 null#Você gostaria de jogar Solarion com a gente?#$r 696602 25 Solarion_Y#Sim, Eu gostaria.#$r 696603 0 Solarion_N#Não, não é realmente a minha praia.#$r 696603 0 Solarion_B#Eu não tenho tempo.#$r 696604 0 Solarion_Clint#Que falta de respeito. Vocês deveriam ter convidado o Clint.",//Abigail
+    "69660001.20": "Podemos voltar ao jogo, por favor?",//Sebastian
+    "69660001.21": "Até mais tarde, @.",//Sam
+    "69660001.22": "Então, aqui está sua folha de personagem...$1",//Sam
+    "69660001.23": "Ótimo, agora onde estávamos... Você tinha acabado de invadir as catacumbas e...",//Sebastian
+    "69660001.24": "Não sei... Ele é estranho.#$b#Devemos dar-lhe uma chance. Sabe-se lá? Ele pode saber alguns truques.",//Sam
+    "69660001.25": "Ok, tudo bem. Mas se ele for um desastre, meu necromante vai transformá-lo em comida zumbi.$5",//Sebastian
+    "69660001.26": "E se ele olhar para mim do jeito que olha para Emily... Bem, espero que ele goste do gosto de aço frio!$1",//Abigail
+    "69660001.27": "Obrigado pessoal.",//Sam
+    "69660002.1": "Dano Crítico.",//Sebastian
+    "69660002.2": "Ai, isso realmente doeu!$2#$b#Nós realmente precisamos de um clérigo agora.#$b#Por que você escolheu um ladrão?",//Sam
+    "69660002.3": "Ela não é uma ladra... Ela é uma trapaceira!$5",//Abigail
+    "69660002.4": "Mesma coisa...",//Sam
+    "69660002.5": "Você precisa se curar, ou nosso guerreiro vai morrer, aproximadamente nas próximas três rodadas.",//Sebastian
+    "69660002.6": "Clint.",//Sam
+    "69660002.7": "O que...?",//Clint
+    "69660002.8": "Nós realmente precisamos de uma ajudinha agora...#$b#Abigail tem algo a dizer a você.",//Sam
+    "69660002.9": "Abby...",///Sam
+    "69660002.10": "Certo",//Abigail
+    "69660002.11": "Sinto muito por ter sido desagradável. Você se juntaria a nós.#$b#Para um jogo. Só um. Uma espécie de período de teste. Para ver se você é bom.",//Abigail
+    "69660002.12": "Eu gostaria. Sim.#$b#Um, vocês tem certeza?$2",//Clint
+    "69660002.13": "Sim, claro que temos certeza.#$b#Sam, dê-lhe a folha de personagem já.$2",//Sebastian
+    "69660002.14": "Bem-vindo ao time. Você é o nosso novo clérigo.$1#$b#Agora, você pode por favor curar o guerreiro do Sam antes que ele sangre até a morte.",//Sebastian
+    "69660002.15": "Claro. Então, eu desenhei uma carta e vou rolar um dado agora, certo?",//Clint
+    "69660002.16": "Clint não é tão ruim. Ele salvou a vida do Sam pelo menos três vezes, a minha uma vez.#$b#E ele não mencionou nada sobre a Emily... Então, sim, ele foi bem... Eu acho.",//Abigail
+    //Cooking Classes
+    "69660003.1": "Ah, Srta. Penny! Como você está hoje?$1",//Gus
+    "69660003.2": "Vim pedir um favor. Se estiver tudo bem?",//Penny
+    "69660003.3": "Claro! Você está querendo que eu faça o almoço para as crianças?",//Gus
+    "69660003.4": "Não. Eles trazem seu próprio almoço... Isso é... Bem, é um favor pessoal.$2",//Penny
+    "69660003.5": "Oh... Bem, eu gosto muito da Pam, mas não dessa forma...$2",//Gus
+    "69660003.6": "Oh não, não!$4#$b#Uma vez eu tentei cozinhar para @.#$b#$p 73#Me disse que estava delicioso... Mas eu sei que só estava sendo educado.$2| E foi terrível.$2",//Penny
+    "69660003.7": "Agora, sem JojaMart... Eu estou tendo que fazer mais das minhas próprias refeições.#$b##E eu estava esperando que você pudesse me ensinar a cozinhar?",//Penny
+    "69660003.8": "Dificilmente alguém aprecia os simples prazeres de uma refeição caseira hoje em dia.#$b#Eu vou te dizer Srta. Penny, que tal nos encontrarmos aqui nas manhãs de quinta-feira?",//Gus
+    "69660003.9": "Isso seria ótimo!",//Penny
+    "69660003.10": "Excelente, eu sempre quis uma aprendiz.",//Gus
+    "69660003.11": "@! Ótimas notícias! Gus concordou em me ensinar a cozinhar.#$b#$p 72#Eu vou ser capaz de melhorar meu prato 'Chili de @'!$1| Eu vou ser capaz de cozinhar uma refeição decente um dia!$1#$b#Como isso soa?$3",//Penny
+    "69660004.1": "Agora, você tem que ter cuidado para não sobrepor o espaguete.#$b#Ninguém gosta de macarrão encharcado!",//Gus
+    "69660004.2": "Eu não posso acreditar que você está confiando a mim, a receita para o seu molho especial!$4",//Penny
+    "69660004.3": "Uma coisa é certa, Srta. Penny, é que há mais em uma receita do que apenas os ingredientes.#$b#A maior parte da arte de cozinhar está na técnica.#$b#E isso, leva anos de prática.",//Gus
+    "69660004.4": "Hum... Oi?",//Jasper
+    "69660004.5": "Ah, bom dia Professor Jasper!",//Gus
+    "69660004.6": "Será que o aroma do meu molho de macarrão especial te atraiu?",//Gus
+    "69660004.7": "Não exatamente. Mas ouvi dizer que você estava dando uma aula de culinária?#$b#E... Bem, eu me perguntava se eu poderia ser capaz de me juntar?#$b#Por favor?$4",//Jasper
+    "69660004.8": "Claro, você pode.#$b#Deixe-me adivinhar? Você também está perdido sem os jantares congelados de JojaMart?$1",//Gus
+    "69660004.9": "Nos encontraremos aqui, nas manhãs de quinta-feira.",//Gus
+    "69660004.10": "Obrigado. Prometo que serei um estudante mais diligente.#$b#E Srta. Penny, é sempre um prazer vê-la também.$3",//Jasper
+    //EggFestPrep
+    "69660005.1": "Oi @! Sua fazenda está ótima!#$b#O Festival do Ovo é semana que vem...#$b#... E decidimos fazer uma reuniao para a pintura de ovos!", //Emily
+    "69660005.2": "Se você quiser se juntar a nós, venha ao Centro Comunitário na sexta-feira de manhã.#$b#Será divertido!#$b#De qualquer forma, nos vemos por ai!",//Emily
+    //Poetry Discussion
+    "69660006.1": "... Enquanto eu concordo que as letras das músicas podem ser bastante profundas, eu devo discordar respeitosamente que uma canção explicitamente sobre... *Tosse*#$b#... Relações íntimas, não constituem poesia.$5",//Elliott
+    "69660006.2": "Sério? Porque eu li suas recomendaçoes... E algumas delas eram escandalosas!$3",//Haley
+    "69660006.3": "A diferença, talvez, está na sutileza. A metáfora e a virada da frase. Este? Isso é apenas grosseiro!$8",//Elliott
+    "69660006.4": "Hum, eu nunca levei para um esnobe literário, Elliott. Ou uma puritana.$3",//Haley
+    "69660006.5": "De qualquer forma... Ei, @, o que você acha?#$b#A música popular deve contar como poesia?",//Haley
+    "69660006.6": "#Sim, claro!#Não de nenhuma maneira.#Vou ficar fora dessa.#Isso.",
+    "69660006.7": "Haha! Veja?",//Haley
+    "69660006.8": "Ah, eu vejo @, você tem gostos refinados também.",//Elliott
+    "69660006.9": "Desmancha-prazeres.",//Haley
+    "69660006.10": "Claro, sim, falado como um verdadeiro neutralista.#$b#Poesia, como a arte, é de fato subjetiva.",//Elliott
+    "69660006.11": "Vocês dois podem concordar em discordar sobre isso?#$b#Agora, vamos ouvir o poema para hoje, ou não?",//Leah
+    "69660006.12": "Estou preparado para chegar a um acordo sobre um compromisso, Haley.",//Elliott
+    "69660006.13": "Para a poesia deve, em seu nível base, evocar emoção, e se sua música popular afeta você nesse nível, então que assim seja.$1",//Elliott
+    "69660006.14": "Err, obrigado. Eu acho...",//Haley
+    "69660006.15": "Agora, se você quiser começar a leitura de hoje...",//Elliott
+    "69660006.16": "Quer dizer que eu tenho que ler isso... Em voz alta?! $8",//Haley
+    //Leo joins the class
+    "69660010.00": "Quem é você?",//Eloise
+    "69660010.01": "Esse é o meu lugar!$3",//Eloise
+    "69660010.02": "Eu sou Leo. Desculpe, não queria tomar seu lugar.$2",//Leo.
+    "69660010.03": "Tudo bem. Eu não me importo de sentar ao lado de Vinnie.$1",//Eloise
+    "69660010.04": "Eu gostei das suas roupas... Você coleciona penas também?$3",//Eloise
+    "69660010.05": "São presentes... Da minha... Família de pássaros.",//Leo
+    "69660010.06": "Sua família de pássaros? Você tem uma família de pássaros? Como animais de estimação? Que espécie? Eram papagaios? Porque parecem penas de papagaio!$3",//Eloise
+    "69660010.07": "Não animais de estimação... Como amigos... Família...$2",//Leo
+    "69660010.08": "Eu sei que você tem muitas perguntas ao Leo, Eloise. Mas seria uma boa ideia deixa-las para depois.",//Leo
+    "69660010.09": "Leo é tímido. E você está assustando ele.$4",//Jas
+    "69660010.10": "Sinto muito, Leo. Eu não queria te assustar...$2#$b#Fiquei animada. Eu realmente amo os pássaros! Podemos ser amigos?$3",//Eloise
+    "69660010.11": "Eu gostaria de ser amigo, sim. Gostaria de conhecer um pouco da minha família de pássaros?$3",//Leo
+    "69660010.12": "Eu adoraria isso.$1#$b#E eu prometo que não vou fazer muitas perguntas, certo?",//Eloise
+    "69660010.13": "Posso falar menos se quiser!",//Eloise
+    "69660010.14": "Está tudo bem. Minha família de pássaros, eles podem ser muito barulhentos também.$1",//Leo
+    "69660010.15": "Desculpe-me crianças, mas é hora da aula de hoje...",//Penny
+    "69660010.16": "Hoje vamos aprender um pouco sobre...",///Penny
+    "69660010.17": "Oh...",//Eloise
+    //Follow-up ************************ N E W *****************
+    "69660015.01": "@! Você é amigo de Ellie, certo?",
+    "69660015.02": "Ela parece não querer mais falar comigo.$2#$b#Acho que talvez eu tenha cometido algum erro estúpido e agora ela está brava comigo.$3",
+    "69660015.03": "Ela acha que você vai gostar mais dela se ela for mais quieta.",
+    "69660015.04": "Ela tem uma queda por você, e ela está com ciúmes de Jas.",
+    "69660015.05": "Por que você não pergunta a ela você mesmo?",
+    "69660015.06": "Ela acha que você é estranho.",
+    "69660015.07": "Por que ela pensaria isso? Porque eu disse que ela tagarelava como um papagaio?$2#$b#Achei isso um elogio. Papagaios são incríveis.$3",
+    "69660015.08": "Ela gosta... De mim? Mas ela é tão divertida e amigável. Por que ela gostaria de um cara como eu?$3",
+    "69660015.09": "Sim... Eu provavelmente deveria. Mas e se ela disser algo ruim?$3#$b#Ah, tenho certeza que ela não vai. Eu ficarei bem.$1",
+    "69660015.10": "Ela... Oh... $2#$b#Tudo bem. Linus diz que é bom ser diferente. É o que nos torna todos únicos.",
+    "69660015.11": "Você sabe o que? Vou falar com ela agora.#$b#Tchau @.",
+    "69660015.12": "Ellie!",
+    "69660015.13": "Então... Ellie... você tem estado meio quieta recentemente. E há algo que eu tenho que falar com você...$3",
+    //Book Club Discussion (3 variations)
+    "69660007.958700.01": "Não posso deixar de sentir que é uma espécie de auto-inserção.",
+    "69660007.958700.02": "Sério? Então, quem você acha que Clara é?",
+    "69660007.958700.03": "Leah, possivelmente?",
+    "69660007.958700.04": "Hum, talvez. Ela não é realmente material de aeromoça, é?",
+    "69660007.958700.05": "Horatio estava realmente sem esperança, não estava?#$b#Eu teria pensado que ela era mais adequada para Gozman.#$b#É uma pena que ele nunca tenha confessado seus sentimentos para ela.",
+    "69660007.958700.06": "Oi, @! Bem-vindo ao nosso clube do livro. Estávamos discutindo 'Estação Camellia'.#$b#Você já leu?",
+    "69660007.958700.07": "Eu estive querendo.",
+    "69660007.958700.08": "Ah sim, foi maravilhoso. Chorei.",
+    "69660007.958700.09": "Eu tentei, não era para mim.",
+    "69660007.958700.10": "Ah, eu não leio.",
+    "69660007.958700.11": "Ah... você deveria! Especialmente porque é dedicado a você.#$b#Mas suponho que com a vida na fazenda você tem muito pouco tempo para ler?",
+    "69660007.958700.12": "Oh eu também! Principalmente esse final. Quem sabia que Elliott tinha uma alma tão romântica?$2",
+    "69660007.958700.13": "É uma pena. Especialmente porque é dedicado a você.#$b#Suponho que seu uso da linguagem demore um pouco para se acostumar.",
+    "69660007.958700.14": "Você não? Você está perdendo. Ainda assim, cada um na sua, eu acho.",
+    "69660007.958700.15": "Sabe, eu vejo um pouco de Clara em você, @.#$b#Com algumas mudanças, claro, mas ela tem seu espírito, sua determinação. Sua dedicação feroz.",
+    "69660007.958700.16": "Oh...!#$b#Acho que nosso Elliott tem sentimentos por você!$4",
+    "69660007.958700.17": "Não seja ridículo!",
+    "69660007.958700.18": "Claro que sim, não é todo mundo?",
+    "69660007.958700.19": "Bem, eles certamente não são correspondidos!",
+    "69660007.958700.20": "Oh eu sei. Eu também tenho sentimentos por ele!",
+    "69660007.958700.21": "Oh, eu não seria tão rápido em desprezar, se eu fosse você. Afinal, ele dedicou este livro a você.$1",
+    "69660007.958700.22": "Ah, eu não diria todos.$4",
+    "69660007.958700.23": "Oh querido, você vai partir o coração daquele jovem.$2",
+    "69660007.958700.24": "É claro! Oh, ser jovem de novo e apaixonado.$3",
+    "69660007.958700.25": "Bem, suponho que você poderia se juntar a nós, se quisesse?",
+    "69660008.958701.01": "Oh, eu nunca pensei que nosso Elliott tivesse isso nele...#$b#Era mais o tipo de livro que eu esperaria que Abigail lesse.$2",
+    "69660008.958701.02": "Isso me manteve acordado até tarde da noite. Cada batida do vento e eu estávamos imaginando aquelas... aquelas coisas... arranhando as paredes trêmulas da minha barraca biológica.$2",
+    "69660008.958701.03": "George continuou resmungando que eu o estava mantendo acordado. Mas eu tinha que saber se Yutkin ia conseguir!",
+    "69660008.958701.04": "Oi, @! Bem-vindo ao nosso clube do livro. Estávamos discutindo 'A Ascensão e Queda do Planeta Yazzo'.#$b#Você já leu?",
+    "69660008.958701.05": "Eu estive querendo.",
+    "69660008.958701.06": "Ah sim, foi maravilhoso. Eu não poderia colocá-lo para baixo!.",
+    "69660008.958701.07": "Eu tentei, não era para mim.",
+    "69660008.958701.08": "Quem tem tempo para ler?",
+    "69660008.958701.09": "Eu entendo. Levei alguns vai para entrar em mim mesmo.",
+    "69660008.958701.10": "Sério? Você não achou um pouco assustador e escuro demais?$2",
+    "69660008.958701.11": "Ah, nem eu. Foi um pouco estranho demais para o meu gosto.#$b#Sam parecia gostar.",
+    "69660008.958701.12": "Claro, a vida deve ser muito ocupada na fazenda.",
+    "69660008.958701.13": "Aquele confronto nas ruínas do Grande Pináculo... quando o amigo do Capitão Yutkin desapareceu...$2#$b#Ah, não consegui dormir! E quando eles só encontraram o dele... Oh! *estremece*",
+    "69660008.958701.14": "Foi um pouco horrível.$2#$b#Mas o estilo de escrita... Isso realmente me deu calafrios!",
+    "69660008.958701.15": "Ele disse que você foi a inspiração dele, @. Você colocou essas ideias assustadoras na cabeça dele?",
+    "69660008.958701.16": "É claro! Macabro é meu nome do meio.",
+    "69660008.958701.17": "Não! Isso é tudo ele. Nada a ver comigo.",
+    "69660008.958701.18": "Tenho certeza que ele é inspirado pelo mar.",
+    "69660008.958701.19": "Oh!$4#$b#Desculpe, @, agora estou com um pouco de medo de você.$2",
+    "69660008.958701.20": "Nunca soube que uma alma tão poética pudesse abrigar uma imaginação tão macabra.",
+    "69660008.958701.21": "Ah sim, os exoesqueletos... as garras gigantes... estou vendo agora!",
+    "69660008.958701.22": "Enfim, @, você gostaria de se juntar a nós?",
+    "69660007.958699.01": "Mistério e distopia... não, não era realmente meu gênero. Isso me manteve adivinhando!$1",
+    "69660007.958699.02": "Nosso Elliott realmente tem jeito com as palavras. 'Onisciência Enigmática'? O que isso significa? $2",
+    "69660007.958699.03": "Poético... e surreal. E o final... bem...",
+    "69660007.958699.04": "Foi tudo um pouco complicado para mim... Por que ele não conseguiu escrever um romance legal e direto?$2",
+    "69660007.958699.05": "Eu mesmo gostei. Foi realmente um vislumbre da imaginação do nosso jovem rapaz.#$b#E pensar que o Sr. Lu orquestrou a coisa toda! Oh, ele realmente jogou Jenu para um tolo.$1",
+    "69660007.958699.06": "Oi, @! Bem-vindo ao nosso clube do livro. Estávamos discutindo 'Blue Tower'.#$b#Você já leu?",
+    "69660007.958699.07": "Eu estive querendo.",
+    "69660007.958699.08": "Ah sim, e eu certamente nunca imaginei essa reviravolta!",
+    "69660007.958699.09": "Eu tentei, mas foi um pouco pretensioso para mim.",
+    "69660007.958699.10": "Ah, eu não leio.",
+    "69660007.958699.11": "Ah... bem, o enredo foi um pouco confuso para mim, mas é muito filosófico!$1",
+    "69660007.958699.12": "Ah, nem eu! Realmente parecia inesperado. Exceto que, quando olhei para trás, tudo fazia sentido.#$b#Bem, tanto quanto qualquer coisa naquele mundo trágico e distorcido fazia sentido, eu acho.$2",
+    "69660007.958699.13": "Sim, seu uso da linguagem demora um pouco para se acostumar, não é??",
+    "69660007.958699.14": "Você não? Você está perdendo.",
+    "69660007.958699.15": "Ele dedicou o livro a você, você sabia disso?",
+    "69660007.958699.16": "Oh, Jenu poderia ser baseada em você?",
+    "69660007.958699.17": "Possivelmente, eu sou absolutamente encantador e certamente experiente.",
+    "69660007.958699.18": "Oh, eu sou mais como o Sr. Lu; Aquele que secretamente puxa as cordas.",
+    "69660007.958699.19": "Hah, não, isso é ridículo!",
+    "69660007.958699.20": "Ele Ele. Não posso discutir com isso, você certamente fez seu nome aqui.$1",
+    "69660007.958699.21": "Oh! É melhor ficarmos de olho em você então!$1",
+    "69660007.958699.22": "Oh sério? Sim... ridículo. É claro.$2",
+    "69660007.958699.23": "De qualquer forma, @, você gostaria de se juntar a nós, por um tempo?",
+    //**********************end New *********************************************
+    //  S T R I N G S
+    //(keyword.NPC.number)
+    //EggFest
+    "EggFest.Emily": "Espero que você encontre muitos ovos hoje! As crianças pintaram algumas especialmente para você!",
+    "spring12.Jas.1": "Estou pintando uma galinha nesse! É para o Tio Shane.$1",
+    "spring12.Jas.2": "Qual é a sua cor favorita, fazendeiro @? O meu é verde! Mas eu gosto muito de roxo também...$1^Qual é a sua cor favorita, fazendeira @? O meu é verde! Mas eu gosto muito de roxo também...$1",
+    "spring12.Jas.3": "Oh não! Eu pingei um pouco de tinta no meu vestido.$3",
+    "spring12.Vincent.1": "Estou pintando todo o arco-íris nesse!$1",
+    "spring12.Vincent.2": "Oops! Mamãe vai ficar brava! Tenho tinta nas minhas roupas.$3",
+    "spring12.Vincent.3": "Olha o meu ovo, fazendeiro @! Você gostou?^Olha o meu ovo, fazendeira @! Você gostou?",
+    "spring12.Eloise.0": "Vamos pintar ovos hoje pai! Procure o meu amanhã. Eles vão ter pássaros desenhados!",
+    "spring12.Eloise.1": "Tenho tentado fazer o Sr. Clint me dar dicas de pinturas. Mas ele não parece querer falar.",
+    "spring12.Eloise.2": "O ovo do Sr. Clint é muito bonito. Você pode dizer a ele, fazendeiro @? Ele não vai acreditar em mim.$3^O ovo do Sr. Clint é muito bonito. Você pode dizer a ele, fazendeira @? Ele não vai acreditar em mim.$3",
+    "spring12.Eloise.3": "Você gosta do meu ovo, fazendeiro @? Tentei pintar um pelicano, mas saiu tudo errado.$2^Você gosta do meu ovo, fazendeira @? Tentei pintar um pelicano, mas saiu tudo errado.$2",
+    "spring12.Clint.1": "Eu nem sei por que estou aqui... Mas Emily pediu.$2",
+    "spring12.Clint.2": "Este ovo está uma bagunça... Eu não sou nenhum artista.$2",
+    "spring12.Clint.3": "*Suspira* Eu estava tentando pintar um ovo especial para Emily... Mas parece terrível. Ela não vai querer.$2",
+    "spring12.Clint.4": "Ellie realmente faz um monte de perguntas, não é?$2",
+    "spring12.Clint.5": "*Suspira* Eu estava tentando pintar um ovo especial para Emily... Mas parece terrível. Ela não vai querer.$2",
+    "spring12.Clint.6": "Eu nem sei por que estou aqui... Mas Emily pediu.$2",
+    "spring12.Emily.1": "Oh, esse ovo é tão bonito Vincent! Tão colorido! E Shane vai amar o seu, Jas.$1",
+    "spring12.Emily.2": "Eu não acho que Clint está muito feliz. Talvez eu não devesse tê-lo convidado... Mas ele precisa fazer amigos.$2",
+    "spring12.Emily.3": "Gosto de decorar ovos com pessoas em mente. Você acha que essas cores capturam a essência da Haley?",
+    "spring12.Penny.1": "É bom poder relaxar de ensinar e expressar minha criatividade.$1",
+    "spring12.Penny.2": "Você acha que essas cores combinam bem? Não? Eu também não tenho certeza.$2",
+    "spring12.Penny.3": "Espero que as pessoas encontrem meus ovos amanhã! Eu não gostaria que eles ficassem podres.",
+    "spring12.Haley.1": "*Boceja* Emily me acordou cedo para isso? Bem, acho que é divertido.",
+    "spring12.Haley.2": "Eu estive trabalhando neste ovo a manhã toda, @. Bobagem, não é? Mas eu quero que seja perfeito.$1",
+    "spring12.Haley.3": "Por que eu não ajudaria minha irmã? Além disso, isso é realmente muito divertido.$1",
+    //Cooking Class
+    "CookingClass.Gus.1": "O truque para a pizza perfeita está na maneira como você amassa a massa. Siga meu exemplo.$1",
+    "CookingClass.Gus.2": "Agora você adiciona um pouco de água. O vapor adiciona ar.",
+    "CookingClass.Gus.3": "Ah, Linus me deixou um pouco de peixe. Então hoje estamos fazendo rolos maki.",
+    "CookingClass.Penny.1": "Talvez um dia eu seja capaz de impressionar Sam com uma pizza caseira.$4",
+    "CookingClass.Penny.2": "Você gosta de omeletes, @? Você tem ovos frescos na sua fazenda?$1",
+    "CookingClass.Penny.3": "Oh... Parece um pouco viscoso. Eu realmente não tenho certeza sobre essa receita, Gus.$2",
+    "CookingClass.Jasper.1": "Há alguma maneira em que mirtilos podem se tornar uma cobertura de pizza? Não? Oh...$2",
+    "CookingClass.Jasper.2": "Oh, omeletes me trazem lembranças. Minha mãe costumava adicionar um pouco de creme.$3",
+    "CookingClass.Jasper.3": "Hmmm, eu não acho que eu rolei o meu firmemente o suficiente. Está caindo aos pedaços.$2",
+    // C O M M U N I T Y   C E N T E R   D I A L O G U E
+    //(keyword.NPC.number)
+    //Community Center specific dialogue
+    "CommunityCenter.Gus.1": "Bom dia @! Eu mantenho a geladeira bem abastecida com as sobras.#$b#Eu não gostaria que ninguém nesta Vila passasse fome.",
+    "CommunityCenter.Linus.1": "Boa tarde, meu amigo. Ah sim, por mais que eu goste do chuveiro da natureza, uma refeição quente e um telhado robusto fazem maravilhas em restaurar o espírito.$1^Boa tarde, minha amiga. Ah sim, por mais que eu goste do chuveiro da natureza, uma refeição quente e um telhado robusto fazem maravilhas em restaurar o espírito.$1",
+    "CommunityCenter.Linus.2": "Boa tarde, meu amigo. Ah sim, eles são barulhentos, mas é grandioso ouvir esse entusiasmo espirituoso.$1^Boa tarde, minha amiga. Ah sim, eles são barulhentos, mas é grandioso ouvir esse entusiasmo espirituoso.$1",
+    //Schoolroom dialogue (name at front is speaker)
+    "Penny.sch1": "Os rios da Vila Pelicanos estão repletos de vida, de pequenos invertebrados a peixes grandes.",
+    "Penny.sch2": "Olá @. Hoje estamos discutindo ciclos de vida de insetos. Do ovo ao adulto!",
+    "Penny.sch3": "As plantas absorvem energia através da luz solar, usando um processo chamado fotossíntese.",
+    "Penny.sch4": "Então crianças, se tivéssemos doze pedaços de doces para dividir uniformemente entre nós, quanto doce teríamos cada um?",
+    "Penny.sch5": "Tudo é feito com formas. Qual é a sua forma favorita, @?$1",
+    "Penny.sch6": "Olá @! Você me assustou! Eu estava planejando minhas aulas para sexta-feira.",
+    "Penny.sch4.jasper": "O Professor Jasper é realmente paciente com as crianças. E ele sabe muito sobre minerais também.",
+    "Penny.sch5.jasper": "O Professor Jasper falando sobre os duendes novamente para Vincent.$2#$b#Espero que ele não esteja dando a ele nenhuma ideia...$2",
+    "Penny.sch6.jasper": "Eu sei que são ingredientes comuns da cozinha... Mas ainda estou um pouco nervosa.$2#$b#Espero que o vulcão do Professor Jasper não faça muita bagunça.$2",
+    "Penny.sch7": "As crianças estão fazendo uma escrita criativa. Eu sempre adoro ler o que eles pensão!",
+    "Penny.sch8": "Silêncio não é? Adoro ver crianças absortos em livros.$1",
+    "Penny.sch9": "Poemas não precisam rimar. Eles são mais sobre colocar seus sentimentos em palavras.",
+    "Jas.sch1": "Você sabia que os salmões nadam pelos rios no outono para procriar?$3#$b#Alguns são comidos por ursos. E mesmo que eles consigam, uma vez que colocam seus ovos, eles morrem.$2",
+    "Jas.sch2": "Borboletas colocam seus ovos nas ervas daninhas no nosso jardim.$1#$b#Havia tantas delas, que comeram quase todas as folhas!$3",
+    "Jas.sch3": "As plantas são produtoras, produzem energia para o resto da cadeia alimentar consumir.$4",
+    "Jas.sch4": "Ooooh divisão!#$b#%Jas começa a rabiscar em seu papel. Ela parece bem focada. É melhor não distraí-la.",
+    "Jas.sch5": "Estou desenhando um favo de mel. Eles são feitos de hexágonos!$1",
+    "Jas.sch6": "Matemática é difícil. Palavras fazem mais sentido do que números, você não acha?$3",
+    "Jas.sch4.jasper": "Professor Jasper está nos ensinando sobre pedras preciosas!$1#$b#Ele vai trazer alguns minérios para abrirmos.$3#$b#Espero que o meu tenha algo de especial!",
+    "Jas.sch5.jasper": "Professor Jasper diz que duendes vivem em florestas velhas e assustadoras.#$b#Eu me pergunto se algum mora na floresta perto da minha casa?$3#$b#É muito assustadora a noite...$2",
+    "Jas.sch6.jasper": "Você sabia que há um tipo de pedra feita de lava? É chamado de obsidiano, um nome que parece perverso!",
+    "Jas.sch7": "Como você soletra 'Indomável' @? Quero usá-lo na minha história... Mas eu esqueci.$3",
+    "Jas.sch8": "Shiu!  @... Estamos lendo!$4",
+    "Jas.sch9": "Estou escrevendo um poema sobre uma galinha. É para o tio Shane.$1#$b#Espero que ele goste.$3",
+    "Vincent.sch1": "Eu costumava ir pescar com o papai. Certa vez, ele ficou bravo comigo por jogar pedras na água.$2#$b#Mas foi muito chato... Apenas sentado e esperando que algo aconteça...$3",
+    "Vincent.sch2": "Há uma vespa que coloca ovos em um casulo, então em vez de uma borboleta, montes de vespas estouram em vez disso!$3#$b#Tão nojento, né?$1",
+    "Vincent.sch3": "Mamãe diz que se você falar com as plantas elas crescem melhor. Mas eu acho que realmente só o milho pode.#$b#Por quê? Porque o milho tem orelhas!$1",
+    "Vincent.sch4": "...#$b#Eu não tenho doces, Srta. Penny, porque eu já comi todos os meus!$1",
+    "Vincent.sch5": "... Eu queria desenhar um círculo. Mas é mais difícil do que eu pensei que seria @!",
+    "Vincent.sch6": "Oi @! Você pode me ajudar com meu problema de matemática?#$b#Quanto é 6x9?$3#$b#Não, não é 42!$1",
+    "Vincent.sch4.jasper": "Hehe! Há uma pedra chamada Xisto!$3",
+    "Vincent.sch5.jasper": "Você sabia que os duendes comem principalmente cogumelos? Eles soam como caras muito divertidos!$3#$b#Cara divertido - Fungos! Entendeu?$1",
+    "Vincent.sch6.jasper": "Ei @! Professor Jasper vai nos mostrar como fazer um vulcão!#$b#BOOM!$1",
+    "Vincent.sch7": "A Srta. Penny quer que escrevamos uma história... A minha é sobre uma banana espacial!#$b#Não é muito boa.",
+    "Vincent.sch8": "Estou entediado...$2",
+    "Vincent.sch9": "Já houve um menino da Vila Pelicanos...#$b#Ei, versos são poemas também!",
+    "Eloise.sch1": "Uma vez que eles chocaram, o salmão bebê nada todo o caminho de volta para o mar.$3#$b#Por que ela não coloca seus ovos mais perto do mar? Porque eles seriam erodidos 'Lavados' e todos bebês morriam.$2",
+    "Eloise.sch2": "Papai e eu colocamos suco de fruta para as borboletas, porque elas migram um longo caminho, e precisam de muita energia.#$b#Papai diz que não devemos interferir muito com a natureza, mas podemos dar uma mãozinha, às vezes.$1",
+    "Eloise.sch3": "As plantas são realmente importantes para o ecossistema.#$b#Os insetos mordiscam as folhas, e pássaros comem os insetos...#$b$Então raposas e mamíferos e às vezes os raptores comem as aves.$3#$b#É chamado de cadeia alimentar.$1",
+    "Eloise.sch4": "12 dividido por 4... Oh, isso é fácil. 3 partes!$1",
+    "Eloise.sch5": "Minha forma favorita? Provavelmente uma crescente, como a lua.$1",
+    "Eloise.sch6": "Shiu, @. Estamos fazendo uma planilha.#$b#Eu tenho que me concentrar!",
+    "Eloise.sch4.jasper": "Olá @! Você sabia que...#$b#%Eloise compartilha seu _extenso_ novo conhecimento sobre pedras preciosas com você",
+    "Eloise.sch5.jasper": "Você sabia que o Professor Jasper vivia com os duendes?$3#$b#Eles soam legais, mas também bastante assustadores. Não sei se gostaria de conhecer um.$2",
+    "Eloise.sch6.jasper": "Não sei por que Vinnie está tão animado.#$b#É só vinagre e bicarbonato de sódio. Meu pai usa para limpar os ralos.",
+    "Eloise.sch7": "Estamos escrevendo histórias hoje! O meu é sobre um papagaio.#$b#Que escapou de sua gaiola, e agora ele está tendo uma grande aventura!",
+    "Eloise.sch8": "%Eloise está focada em seu livro.",
+    "Eloise.sch9": "Oh @! Você pode me ajudar? Estamos escrevendo poemas... E nada rima com 'Laranja'...$2#$b#Estranho? Não... Isso não está certo...",
+    "Jasper.sch4": "No subterrâneo de Vale Stardew contém uma riqueza de tesouros raros e intrigantes.$1",
+    "Jasper.sch5": "Deveríamos estar discutindo placas tectonicas... Mas de alguma forma eu permiti que as crianças me afastassem do tema.$2#$b#Eu não acho que a Srta. Penny está muito satisfeita.$2",
+    "Jasper.sch6": "Uma coisa que me lembro @, é que as crianças estão mais interessadas em ciência prática.$1#$b#Faça uma explosão ou um fedor, e você pode mantê-las presas por horas.$3",
+    //******** N E W ************************
+    "Dianna.sch.0": "Estou animada para conhecer tudo ao redor de sua Vila @! A mana Lunna prometeu me mostrar TUDO!$1#$b#Vai ser tão divertido!",
+    "Dianna.sch.1": "Srta. Penny nos fez escrever histórias! A minha é muito legal! É sobre uma garota, só que às vezes ela é uma aranha. Hehehe! Assustador, não é?$1",
+    "Dianna.sch.2": "Eu deveria estar lendo este livro... Você quer me seguir para fora daqui? Vinny virá também, certo?$1",
+    "Dianna.sch.3": "Estamos escrevendo poemas! Hehehe, isso é muito legal! Mal posso esperar para ler a minha para a irmã mais velha Lunna!#$b#Você quer ouvir, @? É realmente engraçado!$1",
+    //Jasper Cooking Class Marriage Dialogue
+    "jasper.cooking.funleave": "Bom dia! Eu me pergunto que tipo de treinamento culinário Gus vai nos ensinar hoje?$1",
+    "jasper.cooking.funreturn": "Bem-vindo, meu amor. Aqui, eu fiz o jantar. Eu espero que você goste.^Bem-vinda, meu amor. Aqui, eu fiz o jantar. Eu espero que você goste.",
+    "CookingClass.Jasper.spouse": "Oh meu amor, você me pegou. Era para ser uma surpresa!$4",
+    //************ E N D   N E W *****************************************************************
+    //answers
+    "solarion. Y": "Incrível! Então você vai jogar o Clérigo?$1#$b#Me cura primeiro, a última sereia zumbi quase me dizimou.$2",//Abigail
+    "solarion. N": "Sério? Suponho que esses jogos não são nada comparados com o negócio real, certo?",//Abigail
+    "solarion. B": "Claro, aposto que você está correndo para as minas para ter uma aventura real!$1",//Abigail
+    "solarion. C": "Sério? Nós fomos um pouco maus.#$b#Mas o cara é um esquisitão. Você viu o jeito que ele olha para Emily?$5",//Abigail
+    // S T R I N G S
+    //Solarion Chronicles
+    "RainyDayA.Abigail.1": "Você distrai os guardas, eu vou procurar passagens secretas.",
+    "RainyDayA.Abigail.2": "Estou indo direto pela frente. O que há ali?",
+    "RainyDayA.Abigail.3": "Enquanto ele estiver distraído, eu vou entrar escondido. E esfaqueá-lo pelas costas!",
+    "RainyDayA.Sam.1": "Prove metal frio, escória de zumbi!",
+    "RainyDayA.Sam.2": "O mal não tem chance!",
+    "RainyDayA.Sam.3": "Eu ataquei! O cara mau vai cair!",
+    "RainyDayA.Sebastian.1": "Dois guerreiros esqueléticos estão de frente para a porta. As chamas piscam em suas órbitas oculares...",
+    "RainyDayA.Sebastian.2": "Na câmara sombreada, você pode ver o que parece ser caixas grandes. E coisas se arrastam ao longo das parede...",
+    "RainyDayA.Sebastian.3": "O Rei Lich sorri para você. Seu rosto está enrugado, pele enrugada em seu crânio...",
+    "RainyDayA.Clint.1": "Oh, eu esmago os demônios sujos com meu martelo divino!",
+    "RainyDayA.Clint.2": "Eu bato palmas, e faço com que bolas de luzes apareçam. O que eu vejo?",
+    "RainyDayA.Clint.3": "Bom... Podemos tentar falar com ele? Talvez ele possa ser argumentado com? Não... Oh, ok.$2",
+    //Book Group
+    "RainyDayB.Evelyn.1": "Ele é muito velho para ela... Ele pode ser para sempre jovem, mas ela é uma adolescente. O que ele podia ver nela?$2",
+    "RainyDayB.Evelyn.2": "Oh, eu não poderia colocá-lo para baixo! Tantas reviravoltas. Eu não vi esse final chegando.$1",
+    "RainyDayB.Evelyn.3": "Quando você chega na minha idade, a única paixão que você vê está nos livros. E oh meu Yoba, esse livro certamente me fez corar!$1",
+    "RainyDayB.Caroline.1": "Sabe, eu gostaria de ver a garota se salvar, mesmo uma vez. Mas não... Sempre tem que ser seu 'Cavaleiro'.$2",
+    "RainyDayB.Caroline.2": "O autor está orgulhoso de sua pesquisa... mas tenho certeza que a maior parte foi bobagem. Ainda assim, foi divertido.$1",
+    "RainyDayB.Caroline.3": "Ela teve que viajar no tempo para conhecer sua alma gêmea. Sim, é brega.$1",
+    "RainyDayB.Jodi.1": "Oh, amor jovem. É sempre tão... Tão apaixonado.$1",
+    "RainyDayB.Jodi.2": "Receio não ter concluído. Não gosto muito de suspenses. Ser popular nem sempre significa que é bom.",
+    "RainyDayB.Jodi.3": "Gostei bastante do romance... Mas foi tão violento! Por que tantos livros históricos devem focar em mulheres sendo maltratadas?$2",
+    "RainyDayB.Marnie.1": "Eu? Achei romântico. É com o que todos sonhamos, não foi? ",
+    "RainyDayB.Marnie.2": "Suspeito que muitas de suas 'Grandes Verdades' foram inventadas... Mas isso realmente te faz pensar, não é?$2",
+    "RainyDayB.Marnie.3": "É romântico, sim. Porque são iguais. Ele a resgata, e ela o resgata. De diferentes formas!$1",
+    "RainyDayB.Jas.1": "Espero que eles sejam felizes aqui. Você acha que peixe tem emoções @?$3",
+    "RainyDayB.Jas.2": "Eles são chamados de carpa da meia-noite... Mas eles parecem peixes de fada. Não é?$1",
+    "RainyDayB.Jas.3": "Li um dos livros da Tia Marnie uma vez. Foi chato... Beijos demais.",
+    "RainyDayB.Jas.4": "Shiu @. Estou tentando ler. Frisby acaba de ser capturada pelos humanos!$4",
+    "RainyDayB.Jas.5": "Eu sugeri um livro para o clube do livro uma vez. Eles riram. Mas aposto que eles teriam adorado se dessem uma chance!$4",
+    "RainyDayB.Jas.6": "Eu gostaria que Vincent se interessasse pelos livros, mas ele continua dizendo que eles são chatos.$3",
+    "RainyDayB.Vincent.1": "Isso é chato... Por que não posso ir lá fora brincar? É só água, e mamãe sempre diz que eu deveria tomar mais banhos.$2",
+    "RainyDayB.Vincent.2": "Às vezes, Jas e eu costumávamos entrar aqui e brincar. Foi assustador! Parecia ter algo aqui antes. Você acha que esse lugar é assombrado?$3",
+    "RainyDayB.Vincent.3": "Por que os adultos sempre querem falar sobre coisas esatranhas como livros de poesias? Por que eles não podem falar sobre coisas legais, como dinossauros?$3",
+    "RainyDayB.Vincent.4": "Peixe peida @?",
+    "RainyDayB.Vincent.5": "Vou te contar um segredo @, mas você tem que prometer não contar a ninguem! Uma vez derrubei varias Lagarta no tanque de Peixes. Pelo menos eles adoraram!$1",
+    "RainyDayB.Vincent.6": "Ei @! Como se chama um peixe sem olhos? 'Fishualmente prejudicado'!$1#$b#Nota: Trocadilho em ingles.",
+    //Dance Meditation
+    "RainyDayC.Emily.1": "Oh! Você me assustou! Desculpe.$6",
+    "RainyDayC.Emily.2": "%Emily aparece perdida em seu próprio mundo. É melhor não perturbá-la.",
+    "RainyDayC.Emily.3": "@! Olá, Você quer se juntar a nós? Basta fechar os olhos e focar na música.",
+    "RainyDayC.Emily.4": "Ufa, estou exausta! Foi um ótimo treino.$1",
+    "RainyDayC.Emily.5": "%Emily não parece notar você.",
+    "RainyDayC.Emily.6": "Ah... Respirar....",
+    "RainyDayC.Elliott.1": "Ah, bom dia para você, @! Veio participar na dança?",
+    "RainyDayC.Elliott.2": "... Com um olhar longe, Deana embarcou... Olá @! Eu estava lendo em voz alta, não estava?$1",
+    "RainyDayC.Elliott.3": "@! Bem-vindo. No momento, estou tentando entender 'Digerir' o enredo de um livro.$1",
+    "RainyDayC.Elliott.4": "Não há nada como entrar em um livro e ser levado para outro mundo, não é?",
+    "RainyDayC.Elliott.5": "Sinto como se tivesse viajado muito, profundamente nas profundezas da minha imaginação! A realidade é apenas um tom pálido em comparação.",
+    "RainyDayC.Elliott.6": "Ah, meu corpo se sente tão mais flexível, e minha mente tão clara e livre! Emily realmente tem as ideias mais maravilhosas, não é?",
+    "RainyDayC.Leah.1": "É bom esticar meus músculos. Esculpir é um trabalho duro.$2",
+    "RainyDayC.Leah.2": "Eu pensei que era um absurdo, mas agora eu sou uma só com a música - A inspiração está fluindo bem melhor agora!$1",
+    "RainyDayC.Leah.3": "Olá @! O exercício é uma ótima maneira de se sentir vivo, não acha?",
+    "RainyDayC.Leah.4": "Tantas ideias! Eu gostaria de poder escrever mais rápido.",
+    "RainyDayC.Leah.5": "Oh! Meu corpo dói, mas é uma dor boa, sabe?",
+    "RainyDayC.Leah.6": "Só tenho que fazer alguns esboços rápidos... Vou transformá-las em pinturas mais tarde.$1",
+    "RainyDayC.Maru.1": "Dance como se ninguém estivesse assistindo, certo? Sem essa! É divertido.$1",
+    "RainyDayC.Maru.2": "Vamos, agite seu quadril! Hehe, eu amo essa música!$1",
+    "RainyDayC.Maru.3": "Essa brincadeira meditativa dançando... É estranhamente revigorante!",
+    "RainyDayC.Riley.1": "Se me sinto tola dançando sozinha? Não! Estou me divertindo mais do que todo mundo!$10",
+    "RainyDayC.Riley.2": "Dançar é um ótimo exercício, e muito mais divertido do que um treino tradicional!$h",
+    "RainyDayC.Riley.3": "Ei @! Dance com a gente!$10",
+    //Jamming Session
+    "RainyDayD1.Sam.1": "%Sam parece perdido em sua música. É melhor não perturbá-lo.",
+    "RainyDayD1.Sam.2": "Oh, oi @! O que você acha? Escrevi para uma certa pessoa. Oh, eu não estou dizendo quem.$10",
+    "RainyDayD1.Sam.3": "Papai precisava de silêncio esta manhã. E aqui eu posso tocar tão alto quanto eu quiser!",
+    "RainyDayD1.Penny.1": "Adoro ouvir o Sam tocar. Ele é bom, não é?$1",
+    "RainyDayD1.Penny.2": "Oh? Eu já li este parágrafo seis vezes.$4",
+    "RainyDayD1.Penny.3": "Este livro tem uma excelente trilha sonora, você não acha?$1",
+    "RainyDayD1.Sheila.1": "Estou aqui para ver Sam jogar? Claro que não! Estou aqui para ler meu livro, viu?$1",
+    "RainyDayD1.Sheila.2": "*suspiros* Às vezes eu até me pergunto se ele percebe que eu existo.$2",
+    "RainyDayD1.Sheila.3": "Já desejou que o romance fosse como nos livros? Sim, eu também.$2",
+    "RainyDayD2.Denver.1": "%Denver está focado em sua música. Melhor deixá-lo em paz.",
+    "RainyDayD2.Denver.2": "Preciso praticar muito para não enferrujar.$h",
+    "RainyDayD2.Denver.3": "Cara, isso meio que me faz perder meus dias de banda.",
+    "RainyDayD2.Mike.1": "Este não é o meu tipo de música... mas é divertido fazer parte de uma banda.$1",
+    "RainyDayD2.Mike.2": "O quê? Sinto muito, não posso ouvi-lo.$2",
+    "RainyDayD2.Mike.3": "%Mike está preso na música.",
+    "RainyDayD2.Juliet.1": "%Juliet está realmente batendo os tambores. Parece cansativo.",
+    "RainyDayD2.Juliet.2": "Ei @! A próxima música é para você!$1",
+    "RainyDayD2.Juliet.3": "@! Confira! Somos uma banda!$1",
+    "RainyDayD2.Cecilia.1": "%Cecilia está curtindo a música.",
+    "RainyDayD2.Cecilia.2": "Eles são muito bons, não são?$h",
+    "RainyDayD2.Cecilia.3": "Venha curtir a música, @?",
+    //Poetry Club
+    "RainyDayE.Elliott.1": "Um bom exemplo de poesia narrativa. Romântico, mas trágico.$2",
+    "RainyDayE.Elliott.2": "A escrita é tão evocativa, que quase sinto o sol no meu rosto, o calor contra minha pele.$1",
+    "RainyDayE.Elliott.3": "Que imagens sombrias, e tão forboding! Oh, é justo me dá um arrepio.$2",
+    "RainyDayE.Leah.1": "Não posso dizer que sou fã de toda a narrativa de 'sacrificar sua vida pela de um homem'. Especialmente quando ele morreu de qualquer maneira.$2",
+    "RainyDayE.Leah.2": "Espero que você não esteja fingindo que este poema é sobre você, Elliott!$1",
+    "RainyDayE.Leah.3": "É um pouco escuro e melancólico. A dor do narrador realmente ressoa nas palavras.$2",
+    "RainyDayE.Haley.0": "Não acredito que estou acordando cedo em um dia como hoje para falar sobre poesia.$2",
+    "RainyDayE.Haley.1": "É tão deprimente. Queria que houvesse uma maneira de eles estarem juntos. Mas isso é poesia, não é? Miséria romântica.$2",
+    "RainyDayE.Haley.2": "Tenho certeza que o poeta está apaixonado por ele. Ei @, que tipo de dia você me compararia?$1",
+    "RainyDayE.Haley.3": "Ravens? São pássaros nojentos. Este é muito assustador para mim. Aposto que Sebastian adoraria.$2",
+    "RainyDayE.Isla.1": "'A lua era um galeão fantasmagórico jogado sobre mares nublados'. Oh, como as palavras evocativas de Noyes me fazem pensar em noites tempestuosas no Mar das Joias.$8",
+    "RainyDayE.Isla.2": "Muitas vezes me pergunto de quem Shakespeare poderia estar falando...$4",
+    "RainyDayE.Isla.3": "O poema de Poe sempre me dá arrepios frios na espinha. Qual seria o significado do corvo?",
+    //Woodwork Class
+    "RainyDayF.Robin.1": "Gaiola... Elas são pequenas, fáceis de fazer e práticas.$1",
+    "RainyDayF.Robin.2": "Gostaria de participar da aula algum dia? Acho que está muito ocupado.",
+    "RainyDayF.Robin.3": "Criar algo com suas próprias mãos é realmente gratificante.",
+    "RainyDayF.Shane.1": "Isso é mais difícil do que parece, né?$2",
+    "RainyDayF.Shane.2": "Pinte em todos os lugares... Ainda bem que estou de roupas velhas.$1",
+    "RainyDayF.Shane.3": "Talvez eu devesse deixar Jas terminar o meu para mim. Nenhum pássaro vai querer fazer ninho aqui.$2",
+    "RainyDayF.Jas.1": "Espero que Jeremy e sua amiga gostem da casa que estou fazendo para eles!$1",
+    "RainyDayF.Jas.2": "Eu me ofereci para ajudar o Tio Shane... Mas ele apenas recusou com uma cara feia.$3",
+    "RainyDayF.Jas.3": "Essas casas vão ser tão aconchegantes! Espero que tenhamos muitos passarinhos esse ano.$1",
+    "RainyDayF.Harvey.1": "Eu prátiquei muito pintando pequenas coisas. Você gostou @?$2",
+    "RainyDayF.Harvey.2": "%Harvey está focado atentamente em sua casinha de pássaros. Ele está fazendo um bom trabalho.",
+    "RainyDayF.Harvey.3": "É bom sair e conhecer pessoas fora do trabalho. Você não acha?$1",
+    "RainyDayF.MisterGinger0.1": "Miau!$3",
+    "RainyDayF.MisterGinger0.2": "Miau?",
+    "RainyDayF.MisterGinger0.3": "Miau!$1",
+    "RainyDayF.MisterGinger.1": "Ela está me construindo uma casa de pássaros. Imagine isso, minha própria despensa privada.$1",
+    "RainyDayF.MisterGinger.2": "O quê? Não posso ajudá-la. Oh, você se acha tão presunçoso com os dedos e tudo mais.",
+    "RainyDayF.MisterGinger.3": "Aconchegante, não é? Talvez eu devesse ir à escola com Jas mais vezes. Sabe-se lá? Eu poderia até aprender alguma coisa.",
+    "RainyDayF.Tristan.4": "Ainda bem que Shane finalmente entrou no papel de padrinho, agora ele tem um pouco de competição.$1",
+    "RainyDayF.Tristan.5": "A casa de pássaros do Jas parece melhor que a do Shane. Me? Oh, eu seria inútil. Nem vou tentar.$1",
+    "RainyDayF.Tristan.6": "Vou tricotar um cachecol ao Shane. Qual a cor que acha que lhe serviria? Sei que ele nunca usaria.",
+    "RainyDayF.Tristan.7": "Este design? Chama-se surrealismo. Os pássaros vão adorar.$1",
+    "RainyDayF.Tristan.8": "Droga... Eu coloquei o poleiro acima do buraco. De novo...$2",
+    "RainyDayF.Tristan.9": "O que você quer dizer com um pássaro não pode caber lá? Eles são pequenos. Ok... talvez não _que_ pequeno!$3",
+    "RainyDayF.Jade.1": "Se eu fizer isso bom o suficiente... talvez uma fada se mude.$4",
+    "RainyDayF.Jade.2": "Oh... Está torto. Outra vez. Como Jas fez o dela?$2",
+    "RainyDayF.Jade.3": "Por que você não se junta a nós, @? Pássaros são bons para o controle de pragas. Bem, exceto quando eles são a peste!",
+    //Leo strings
+    "RainyDay.Leo.1":"Vê-los nadar me faz sentir sonolento. E com um pouco de fome também!$1",
+    "RainyDay.Leo.2":"Esse lugar é muito bonito. Parece seguro. Mas não é tão aconchegante quanto minha casa na árvore.",
+    "RainyDay.Leo.3":"Linus está cozinhando o almoço. Gostaria de se juntar a nós? O peixe é realmente fresco! Nós o pegamos esta manhã.",
+    //Community Day
+    "CommunityDay.Vincent.1": "Esse lugar era muito mais legal quando estava cheio de insetos!",
+    //Community Center Strings and Bulletin Board
+    "CCBulletinBoard.1": "Quer seu adicionar algo aqui?^^Entre em contato comigo no Discord: lemurkat3754",
+    "CCBulletinBoard.2": "ESPECIALISTAS EM CONTROLE DE PRAGAS^Os Slimes? Um monstro se esconde debaixo da sua cama? Seus amigos da Guilda dos Aventureiros estão aqui para ajudar!^\"Cotações gratuitas\"^^Ligue para Marlon ou Gil XXX-XXXX.",
+    "CCBulletinBoard.3": "Precisa de uma pausa longe de tudo?^Visite as Ilhas Mermaid!^Delicie-se com frutas exóticas, mergulhe os pés no mar, pesque peixes raros e exóticos - E testemunhe o pôr do sol mais bonito do mundo.^Ligue para N3XU5-1D-4216 e reserve sua grande fuga hoje!",
+    "CCBulletinBoard.4": "Banda disponível para tocar em qualquer local. Tarifas competitivas.^Ligue para Sam XXX-XXXX",
+    "CCBulletinBoard.5": "Há algo estranho acontecendo em um lago na floresta, se você quiser conferir, não hesite em entrar em contato comigo.^^Ligue N3XUS-1D-6626^^- Anônimo",
+    "CCBulletinBoard.6": "Cecilia Miller foi vista pela última vez saindo da casa de seus pais. Testemunhas afirmam que ela pode ter desaparecido no campo.^^Se você tiver alguma informação sobre o paradeiro dela, Ligue N3XUS-1D-6246",
+    "CCBulletinBoard.7": "PROCURA-SE^^Meias usadas. Devem fazer parte de um par descombinado e terem sido usadas e lavadas pelo menos uma vez. Certifique-se de que nenhum par possa ser encontrado. Meias cujos pares foram deliberadamente destruídos ou deslocados não serão aceitas. Nós saberemos. Pagaremos 100G por meia.^^Por favor, deposite as meias entre as raízes do grande carvalho em Cindersap com suas informações de contato. O pagamento pelas meias válidas será enviado pelo correio no dia seguinte. Meias inválidas serão devolvidas.",
+    "CCBulletinBoard.8": "ASSISTENTE PROCURADO^^Para um projeto de pesquisa. Não é necessária experiência. Deve ter uma mente aberta, capacidade de ler e escrever enquanto corre e tolerância a temperaturas extremas. Armas e treinamento serão fornecidos.^^Os candidatos podem responder a este anúncio ligando para XXX-XXXX",
+    "CCBulletinBoard.9": "Deseja possuir uma bela nova propriedade à beira-mar? Então East Scarp é o lugar para você!^^Oferecendo residências à beira-mar em um ambiente de parque, é um refúgio para pescadores e famílias, enquanto também fica a uma curta caminhada da excelente biblioteca da Vila Pelicanos e a uma longa caminhada até a praça da cidade.^^Candidate-se ligando para N3XU5-1D-5787 hoje!",
+    "CCBulletinBoard.10": "VOCÊ É A PESCA DO DIA?^^O Aquário do Vale Stardew, busca pescadores competentes para ajudar a doar para sua coleção.^^Se você realmente sabe pescar, entre em contato conosco pelo telefone N3XU5-1D-6372",
+    "CCBulletinBoard.11": "Procurando novos conjuntos de móveis para complementar sua decoração? Temos estilos fabulosos disponíveis hoje!^^Ligue para N3XU5-1D-4580 para agendar uma visualização.",
+    "CCBulletinBoard.12": "Procurando por gado mais exótico?^Já considerou criar galinhas da Guiné?^Elas são especialistas em controle de pragas e seus ovos são deliciosos!^Entre em contato conosco pelo telefone N3XU5-1D-6928",
+    "CCBulletinBoard.13": "Vários avistamentos de uma criatura peluda enorme perto da floresta foram relatados recentemente. Pedimos que você fique dentro de casa à noite e mantenha seu gado seguro.^^Por favor, relate qualquer acontecimento estranho ligando para N3XUS-1D-4594.",
+    "CCBulletinBoard.14": "Precisa de um teto sobre sua cabeça?^^A pensão do Joel oferece acomodações de curto e longo prazo para qualquer pessoa que procure o santuário de Stardew Valley.^^Ligue para N3XU5-1D-4120 para mais informações.",
+    "CCBulletinBoard.15": "Você está cansado de colher colheitas da maneira normal? Procurando por alguma emoção extra em sua fazenda? Com uma pequena 'Ajuda' de uma bruxa, suas colheitas podem ganhar uma vida bestial e enfrentá-lo em um combate glorioso! Ganhe experiência e colha bônus valiosos. Para se conectar com sua bruxa local, ligue para N3XU5-1D-6030 hoje!",
+    "CCBulletinBoard.16": "Procurando os looks mais recentes? Procurando os estilos desta estação? Oferecemos roupas para qualquer clima e todas as ocasiões, em diversas modas que se adaptam a todas as culturas, tamanhos e corpos. Misture e combine para criar um look que combina com VOCÊ! Ligue para M0DDR0P-1D-1072828 hoje para uma medição gratuita.",
+    "CCBulletinBoard.17": "Todas as estações podem ser temporada de praia com Swimsuit Selections! Encontre o seu estilo na nossa coleção boutique - quer esteja à procura de algo clássico, algo desportivo, algo suave ou simplesmente algo para si, damos as boas-vindas e aceitamos todos! Ligue para M0DDR0P-1D-1222192 para saber nosso horário de funcionamento.",
+    "CCBulletinBoard.18": "Procurando informações sobre misteriosos espíritos da floresta vistos na floresta ao redor de Stardew Valley que se assemelham aos junimos da lenda. Se alguém souber de algo ou os viu pessoalmente, ligue para M0DDR0P-1D-990780!"
+    ,
+    "CCBulletinBoard.19": "Você é corajoso de coração e forte de espírito? Sim? Então a Guilda dos Aventureiros precisa de VOCÊ!^^As criaturas do vazio estão se tornando cada vez mais ousadas e representam uma ameaça para o bom povo de Stardew Valley.^^Se você acha que tem o que é preciso para se tornar um Defensor do Vale, chame no Adventurer's Guild e fale com Marlon ou Gill.^^*O recrutamento envolverá um teste físico. A Guilda dos Aventureiros não é responsável pela perda de vidas ou membros durante este processo.",
+    "CCBulletinBoard.20": "Seu pet merece o melhor! Quer você goste de gatos ou de cachorros, temos tudo o que seu bebê peludo precisa para mantê-los entretidos, descansar com luxo ou comer como um rei. Ligue para M0DDR0P-1D-1012480 para solicitar nosso catálogo ou entre e veja nossos produtos na loja!"
+    ,
+    "CCBulletinBoard.21": "Sua simpática empresa de televisão local está buscando novos talentos locais para nossos canais de acesso público. Envolva seus vizinhos com a comunidade e descubra o que eles têm a lhe dizer! Para certificar-se de ter esses canais instalados, ligue para nossa linha de serviço em N3XU5-1D-5605.",
+    "CCBulletinBoard.22": "Olá, chicas! Bem-vindo... à Glam Kitchen! Você quer algo novo para assistir, eu sei, algo para encantar sua vida chata de cozinhar. Bem, você está com sorte porque estou aqui para lhe ensinar todos os segredos de cozinhar com PAIXÃO. Ligue para M0DDR0P-1D-1140091 para curtir e se inscrever.",
+    "CCBulletinBoard.23": "Ganhe todos os dias com Joja Lottery!(TM) Máquinas de bilhetes estão disponíveis em seu JojaMart local ou ligue para M0DDR0P-1D-1183472 para comprar bilhetes Joja Lottery(TM).",
+    "CCBulletinBoard.24": "Em busca de seus livros de poesia mais antigos e amados. Por favor, deixe-os no cais. Prometo cuidar deles da melhor maneira possível.^^Há um código riscado abaixo: N3XU5-1D-6931",
+    "CCBulletinBoard.25": "A Biblioteca Regional do Vale Stardew está procurando uma remessa de livros que foram perdidos recentemente. Embora todos tenham capas diferentes, podem ser reconhecidos pelo carimbo na folha de guarda. Se algum for encontrado, ligue para M0DDR0P-1D-892327 para providenciar a devolução dos livros à sua biblioteca local.",
+    "CCBulletinBoard.26": "Vila Pelicanos pode ser o refúgio dos seus sonhos! Com belas praias, bosques tranquilos e um ambiente charmoso e rústico, esta cidade do interior tem tudo o que você precisa para escapar da cidade nas próximas férias. Ligue para Ferngill Getaways em M0DDR0P-1D-1202850 e nossos simpáticos agentes de viagens ajudarão a fazer sua reserva!",
+    "CCBulletinBoard.27": "FAÇA FLORES, NÃO GUERRA^^Chamando todos os jardineiros guerrilheiros, ativistas artísticos e amantes das flores! Você pode adicionar um toque de cor a qualquer pedaço de terra monótono e subutilizado em sua área e ajudar a trazer a natureza de volta para nossas vidas. Entre em contato com Leah em N3XU5-1D-6228 para obter instruções!",
+    "CCBulletinBoard.28": "Procurando algo novo para apimentar seu paladar? Quer adicionar alguma variedade ao seu repertório culinário? A loja de receitas de Khadija cuida de você! De ingredientes frescos, raros e exóticos a livros de receitas especializados, nosso estoque nunca é o mesmo duas vezes. Venha visitar nosso estande, agora em Pelican Town! (Isenção de responsabilidade: não vendemos carne de cobra e nunca venderemos. Pedimos desculpas pela inconveniência).^^Há uma pequena nota rabiscada na parte inferior do pôster:^Também agora vendendo armas e projetos. Fins de semana apenas. Também não vendemos produtos de pele de cobra, então não se preocupe em perguntar.",
+    //  //"Make your next Egg Festival egg-cellent with our DIY egg decoration set! With over 25 possible designs, it's an egg-stravaganza of colours and that's no egg-xaggeration! Call M0DDR0P-1D-983501 to order yours today and receive two BONUS designs!"
+    // //Regular CC stuff
+    "CCMonday.11": "Plano de Aula: Ecologia do Vale:^^O que é ecologia?^Por que é importante?^O que há de tão especial no Vale Stardew?",
+    "CCTuesday.11": "Plano de Aula: Ecologia do Vale:^^O que é ecologia?^Por que é importante?^O que há de tão especial no Vale Stardew?",
+    "CCWednesday.11": "Plano de aula: ROCHAS do Vale Stardew.^^Como a geologia moldou a paisagem.",
+    "CCThursday.11": "Plano de Aula: Compreensão de Leitura.",
+    "CCFriday.11": "Plano de Aula: Compreensão de Leitura.",
+    "CCSaturday.11": "Plano de aula: Aproveitem seu fim de semana!",
+    "CCSunday.11": "Plano de aula: Aproveitem seu fim de semana!",
+    "CommunityCenter.011": "Plano de aula para a semana:^Aritmética^Literatura^Ciências.",
+    "CommunityCenter.012": "Ai, pobre espinha!^^É um romance de viagem no tempo. Eu me pergunto quem deixou isso aqui?",
+    "CommunityCenter.013": "É um livro de matemática. Há esboços de pássaros nas margens.",
+    "CommunityCenter.014": "Pequena biblioteca gratuita^^Esta biblioteca é de todos!^^Pegue um livro, ou deixe um livro.",
+    "CommunityCenter.015": "É uma mistura de livros didáticos e enciclopédias.",
+    "CommunityCenter.016": "Uma cópia surrada e desgastada do 'Solarion Chronicles' 6ª Edição.",
+    "CommunityCenter.017": "Oh, olhe para todos esses lindos panfletos! Há um sobre passeios pela área do Vale Stardew.^E aqui está um sobre compras em Grampleton!",
+    "CommunityCenter.018": "\"Uma rosa para o meu Velotte.\"^^O que significa? Há um número gravado embaixo dele: 6213",
+    "CommunityCenter.019": "É um volume surrado sobre tecelagem e tingimento, cheio de post-its."
+}

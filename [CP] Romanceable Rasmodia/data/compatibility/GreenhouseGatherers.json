@@ -1,0 +1,11 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+            "Entries": {
+                "WizardHarvestStatueRecipe": "{{i18n:GreenhouseGatherers.mail}}"
+            }
+        }
+    ]
+}

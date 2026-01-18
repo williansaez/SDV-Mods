@@ -1,0 +1,400 @@
+{
+  "Changes": [
+    
+    { //Machinist Compat with kegs
+      "LogName": "Iron Keg Machinist",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC){{ModId}}_IronKeg",
+        "ReadyTimeModifiers"
+      ] ,
+      "Entries": {
+        "VPPCompat.MachinistProfession": {
+				"Id": "VPPCompat.MachinistProfession",
+				"Amount": 0.75,
+				"Modification": "Multiply",
+				"Condition": "KediDili.VanillaPlusProfessions_PlayerHasProfession Current Machinist"
+			  }
+      }
+    },
+
+    {
+      "LogName": "Gold Keg Machinist",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC){{ModId}}_GoldKeg",
+        "ReadyTimeModifiers"
+      ] ,
+      "Entries": {
+        "VPPCompat.MachinistProfession": {
+				"Id": "VPPCompat.MachinistProfession",
+				"Amount": 0.75,
+				"Modification": "Multiply",
+				"Condition": "KediDili.VanillaPlusProfessions_PlayerHasProfession Current Machinist"
+				}
+      }
+    },
+
+    {
+      "LogName": "Iridium keg Machinist",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC){{ModId}}_IridiumKeg",
+        "ReadyTimeModifiers"
+      ] ,
+      "Entries": {
+        "VPPCompat.MachinistProfession": {
+				"Id": "VPPCompat.MachinistProfession",
+				"Amount": 0.75,
+				"Modification": "Multiply",
+				"Condition": "KediDili.VanillaPlusProfessions_PlayerHasProfession Current Machinist"
+				}
+      }
+    },
+
+    {
+      "LogName": "Radioactive keg Machinist",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC){{ModId}}_RadioactiveKeg",
+        "ReadyTimeModifiers"
+      ] ,
+      "Entries": {
+        "VPPCompat.MachinistProfession": {
+				"Id": "VPPCompat.MachinistProfession",
+				"Amount": 0.75,
+				"Modification": "Multiply",
+				"Condition": "KediDili.VanillaPlusProfessions_PlayerHasProfession Current Machinist"
+			  }
+      }
+    },
+
+
+    { //Machinist Compat with Preserves jars
+      "LogName": "Iron Preserve Jar Machinist",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC){{ModId}}_IronPreserveJar",
+        "ReadyTimeModifiers"
+      ] ,
+      "Entries": {
+        "VPPCompat.MachinistProfession": {
+				"Id": "VPPCompat.MachinistProfession",
+				"Amount": 0.75,
+				"Modification": "Multiply",
+				"Condition": "!ITEM_ID Input (O)812, !ITEM_ID Input (O)430, KediDili.VanillaPlusProfessions_PlayerHasProfession Current Machinist"
+			  }
+      }
+    },
+
+    {
+      "LogName": "Gold Preserve Jar Machinist",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC){{ModId}}_GoldPreserveJar",
+        "ReadyTimeModifiers"
+      ] ,
+      "Entries": {
+        "VPPCompat.MachinistProfession": {
+				"Id": "VPPCompat.MachinistProfession",
+				"Amount": 0.75,
+				"Modification": "Multiply",
+				"Condition": "!ITEM_ID Input (O)812, !ITEM_ID Input (O)430, KediDili.VanillaPlusProfessions_PlayerHasProfession Current Machinist"
+				}
+      }
+    },
+
+    {
+      "LogName": "Iridium Preserve Jar Machinist",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC){{ModId}}_IridiumPreserveJar",
+        "ReadyTimeModifiers"
+      ] ,
+      "Entries": {
+        "VPPCompat.MachinistProfession": {
+				"Id": "VPPCompat.MachinistProfession",
+				"Amount": 0.75,
+				"Modification": "Multiply",
+				"Condition": "!ITEM_ID Input (O)812, !ITEM_ID Input (O)430, KediDili.VanillaPlusProfessions_PlayerHasProfession Current Machinist"
+			  }
+      }
+    },
+
+    {
+      "LogName": "Radioactive Preserve Jar Machinist",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC){{ModId}}_RadioactivePreserveJar",
+        "ReadyTimeModifiers"
+      ] ,
+      "Entries": {
+        "VPPCompat.MachinistProfession": {
+				"Id": "VPPCompat.MachinistProfession",
+				"Amount": 0.75,
+				"Modification": "Multiply",
+				"Condition": "!ITEM_ID Input (O)812, !ITEM_ID Input (O)430, KediDili.VanillaPlusProfessions_PlayerHasProfession Current Machinist"
+			  }
+      }
+    },
+
+    { //Machinist Compat with Dehydrator
+      "LogName": "Iron Dehydrator Machinist",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC){{ModId}}_IronDehydrator",
+        "ReadyTimeModifiers"
+      ] ,
+      "Entries": {
+        "VPPCompat.MachinistProfession": {
+				"Id": "VPPCompat.MachinistProfession",
+				"Amount": 0.75,
+				"Modification": "Multiply",
+				"Condition": "KediDili.VanillaPlusProfessions_PlayerHasProfession Current Machinist"
+			  }
+      }
+    },
+
+    {
+      "LogName": "Gold Dehydrator Machinist",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC){{ModId}}_GoldDehydrator",
+        "ReadyTimeModifiers"
+      ] ,
+      "Entries": {
+        "VPPCompat.MachinistProfession": {
+				"Id": "VPPCompat.MachinistProfession",
+				"Amount": 0.75,
+				"Modification": "Multiply",
+				"Condition": "KediDili.VanillaPlusProfessions_PlayerHasProfession Current Machinist"
+			  }
+      }
+    },
+
+    {
+      "LogName": "Iridium Dehydrator Machinist",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC){{ModId}}_IridiumDehydrator",
+        "ReadyTimeModifiers"
+      ] ,
+      "Entries": {
+        "VPPCompat.MachinistProfession": {
+				"Id": "VPPCompat.MachinistProfession",
+				"Amount": 0.75,
+				"Modification": "Multiply",
+				"Condition": "KediDili.VanillaPlusProfessions_PlayerHasProfession Current Machinist"
+			  }
+      }
+    },
+
+    {
+      "LogName": "Radioactive Dehydrator Machinist",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC){{ModId}}_RadioactiveDehydrator",
+        "ReadyTimeModifiers"
+      ] ,
+      "Entries": {
+        "VPPCompat.MachinistProfession": {
+				"Id": "VPPCompat.MachinistProfession",
+				"Amount": 0.75,
+				"Modification": "Multiply",
+				"Condition": "KediDili.VanillaPlusProfessions_PlayerHasProfession Current Machinist"
+				}
+      }
+    },
+
+    { //Roemance Compat with Preserve Jar including VMV
+      "LogName": "Iron Jar Roemance Roe",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC){{ModId}}_IronPreserveJar", "OutputRules", "Default_Roe", "OutputItem", "Default", "PriceModifiers" ],
+			"Entries":{ 
+				"VPPCompat.RoeMance": {
+					"Id": "VPPCompat.RoeMance",
+					"Amount": 0.75,
+					"Modification": "Multiply",
+					"Condition": "KediDili.VanillaPlusProfessions_PlayerHasTalent Current Roemance" 
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC){{ModId}}_IronPreserveJar", "OutputRules", "Default_SturgeonRoe", "OutputItem", "(O)445", "PriceModifiers" ],
+			"Entries":{ 
+				"VPPCompat.RoeMance.Caviar": {
+					"Id": "VPPCompat.RoeMance.Caviar",
+					"Amount": 0.75,
+					"Modification": "Multiply",
+					"Condition": "KediDili.VanillaPlusProfessions_PlayerHasTalent Current Roemance"
+				}
+			}
+		},
+    {
+      "When":{
+        "HasMod": "Lumisteria.MtVapius"
+      },
+      "LogName" : "Vendace Caviar VMV Roemance",
+      "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC){{ModId}}_IronPreserveJar", "OutputRules", "Lumisteria.MtVapius_PreserveJarWhiteVendaceRoeRules", "OutputItem", "(O)Lumisteria.MtVapius_ArtisanGoods_VendaceCaviar", "PriceModifiers" ],
+			"Entries":{ 
+				"VPPCompat.RoeMance.VendaceCaviar": {
+					"Id": "VPPCompat.RoeMance.VendaceCaviar",
+					"Amount": 0.75,
+					"Modification": "Multiply",
+					"Condition": "KediDili.VanillaPlusProfessions_PlayerHasTalent Current Roemance"
+				}
+			} 
+    },
+
+
+        {
+      "LogName": "Gold Jar Roemance Roe",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC){{ModId}}_GoldPreserveJar", "OutputRules", "Default_Roe", "OutputItem", "Default", "PriceModifiers" ],
+			"Entries":{ 
+				"VPPCompat.RoeMance": {
+					"Id": "VPPCompat.RoeMance",
+					"Amount": 0.75,
+					"Modification": "Multiply",
+					"Condition": "KediDili.VanillaPlusProfessions_PlayerHasTalent Current Roemance" 
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC){{ModId}}_GoldPreserveJar", "OutputRules", "Default_SturgeonRoe", "OutputItem", "(O)445", "PriceModifiers" ],
+			"Entries":{ 
+				"VPPCompat.RoeMance.Caviar": {
+					"Id": "VPPCompat.RoeMance.Caviar",
+					"Amount": 0.75,
+					"Modification": "Multiply",
+					"Condition": "KediDili.VanillaPlusProfessions_PlayerHasTalent Current Roemance"
+				}
+			}
+		},
+    {
+      "When":{
+        "HasMod": "Lumisteria.MtVapius"
+      },
+      "LogName" : "Vendace Caviar VMV Roemance",
+      "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC){{ModId}}_GoldPreserveJar", "OutputRules", "Lumisteria.MtVapius_PreserveJarWhiteVendaceRoeRules", "OutputItem", "(O)Lumisteria.MtVapius_ArtisanGoods_VendaceCaviar", "PriceModifiers" ],
+			"Entries":{ 
+				"VPPCompat.RoeMance.VendaceCaviar": {
+					"Id": "VPPCompat.RoeMance.VendaceCaviar",
+					"Amount": 0.75,
+					"Modification": "Multiply",
+					"Condition": "KediDili.VanillaPlusProfessions_PlayerHasTalent Current Roemance"
+				}
+			} 
+    },
+    {
+      "LogName": "Iridium Jar Roemance Roe",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC){{ModId}}_IridiumPreserveJar", "OutputRules", "Default_Roe", "OutputItem", "Default", "PriceModifiers" ],
+			"Entries":{ 
+				"VPPCompat.RoeMance": {
+					"Id": "VPPCompat.RoeMance",
+					"Amount": 0.75,
+					"Modification": "Multiply",
+					"Condition": "KediDili.VanillaPlusProfessions_PlayerHasTalent Current Roemance" 
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC){{ModId}}_IridiumPreserveJar", "OutputRules", "Default_SturgeonRoe", "OutputItem", "(O)445", "PriceModifiers" ],
+			"Entries":{ 
+				"VPPCompat.RoeMance.Caviar": {
+					"Id": "VPPCompat.RoeMance.Caviar",
+					"Amount": 0.75,
+					"Modification": "Multiply",
+					"Condition": "KediDili.VanillaPlusProfessions_PlayerHasTalent Current Roemance"
+				}
+			}
+		},
+    {
+      "When":{
+        "HasMod": "Lumisteria.MtVapius"
+      },
+      "LogName" : "Vendace Caviar VMV Roemance",
+      "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC){{ModId}}_IridiumPreserveJar", "OutputRules", "Lumisteria.MtVapius_PreserveJarWhiteVendaceRoeRules", "OutputItem", "(O)Lumisteria.MtVapius_ArtisanGoods_VendaceCaviar", "PriceModifiers" ],
+			"Entries":{ 
+				"VPPCompat.RoeMance.VendaceCaviar": {
+					"Id": "VPPCompat.RoeMance.VendaceCaviar",
+					"Amount": 0.75,
+					"Modification": "Multiply",
+					"Condition": "KediDili.VanillaPlusProfessions_PlayerHasTalent Current Roemance"
+				}
+			} 
+    },
+        {
+      "LogName": "Radioactive Jar Roemance Roe",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC){{ModId}}_RadioactivePreserveJar", "OutputRules", "Default_Roe", "OutputItem", "Default", "PriceModifiers" ],
+			"Entries":{ 
+				"VPPCompat.RoeMance": {
+					"Id": "VPPCompat.RoeMance",
+					"Amount": 0.75,
+					"Modification": "Multiply",
+					"Condition": "KediDili.VanillaPlusProfessions_PlayerHasTalent Current Roemance" 
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC){{ModId}}_RadioactivePreserveJar", "OutputRules", "Default_SturgeonRoe", "OutputItem", "(O)445", "PriceModifiers" ],
+			"Entries":{ 
+				"VPPCompat.RoeMance.Caviar": {
+					"Id": "VPPCompat.RoeMance.Caviar",
+					"Amount": 0.75,
+					"Modification": "Multiply",
+					"Condition": "KediDili.VanillaPlusProfessions_PlayerHasTalent Current Roemance"
+				}
+			}
+		},
+    {
+      "When":{
+        "HasMod": "Lumisteria.MtVapius"
+      },
+      "LogName" : "Vendace Caviar VMV Roemance",
+      "Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC){{ModId}}_RadioactivePreserveJar", "OutputRules", "Lumisteria.MtVapius_PreserveJarWhiteVendaceRoeRules", "OutputItem", "(O)Lumisteria.MtVapius_ArtisanGoods_VendaceCaviar", "PriceModifiers" ],
+			"Entries":{ 
+				"VPPCompat.RoeMance.VendaceCaviar": {
+					"Id": "VPPCompat.RoeMance.VendaceCaviar",
+					"Amount": 0.75,
+					"Modification": "Multiply",
+					"Condition": "KediDili.VanillaPlusProfessions_PlayerHasTalent Current Roemance"
+				}
+			} 
+    }
+  ]
+}

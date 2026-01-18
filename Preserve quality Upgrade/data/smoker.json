@@ -1,0 +1,388 @@
+{
+    "Changes": [
+
+    {   "LogName": "Iridium Fish Smoker Recipe",
+        "Action": "EditData",
+        "Target": "Data/CraftingRecipes",
+        "Entries": {
+            "{{ModId}}_IridiumFishSmoker": "768 10 337 4 432 1 (BC)FishSmoker 1/Home/{{ModId}}_IridiumFishSmoker/true/null/"
+        }
+    },
+    
+    {   "LogName": "Iridium Fish Smoker craftable",
+        "Action": "EditData",
+        "Target": "Data/BigCraftables",
+        "Entries": {
+        "{{ModId}}_IridiumFishSmoker": {
+        "Name": "{{ModId}}_IridiumFishSmoker",
+        "DisplayName": "{{i18n:JackHero06.IridiumFishSmoker.Name}}",
+        "Description": "{{i18n:JackHero06.IridiumFishSmoker.Description}}",
+        "Price": 1450,
+        "Fragility": 0,
+        "CanBePlacedOutdoors": true,
+        "CanBePlacedIndoors": true,
+        "IsLamp": false,
+        "Texture": "Mods\\{{ModId}}\\craftables",
+        "SpriteIndex": 12,
+        "ContextTags": null,
+        "CustomFields": null
+        }
+      }
+    },
+
+
+    {
+        "LogName": "Iridium Fish Smoker machine definition",
+        "Action": "EditData",
+        "Target": "Data/Machines",
+        "Entries": {
+          "(BC){{ModId}}_IridiumFishSmoker": {
+            "HasInput": false,
+              "HasOutput": false,
+              "InteractMethod": null,
+              "OutputRules": [
+
+                {
+                  "Id": "SmokedFish",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": null,
+					            "RequiredTags": [
+										    "category_fish"
+									    ],
+                      "RequiredCount": 1,
+                      "Condition": null
+                    }
+                  ],
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": false,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "Default",
+                      "ItemId": "FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 1,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id": "normal-silver Iridium",
+                          "Condition": "ITEM_QUALITY Input 0 0, Random 0.3",
+                          "Modification": "Set",
+                          "Amount": 1
+                        },
+                        {  
+                          "Id": "silver-gold Iridium",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.3",
+                          "Modification": "Set",
+                          "Amount": 2
+                        },
+                        {  
+                          "Id": "gold-iridium Iridium",
+                          "Condition": "ITEM_QUALITY Input 2 2, Random 0.2",
+                          "Modification": "Set",
+                          "Amount": 4
+                        }
+                      ],
+                      "StackModifiers": [
+                        {
+                          "Id": "Aditional item",
+									        "Condition": "Random 0.55",
+									        "Modification": "Add",
+									        "Amount": 1
+                        },
+                        {  
+                          "Id": "Aditional Item Quality",
+                          "Condition": "ITEM_QUALITY Input 4 4, Random 0.1",
+                          "Modification": "Add",
+                          "Amount": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 60,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                }
+              ],
+		          "AdditionalConsumedItems": [
+                {
+                  "ItemId": "(O)382",
+                  "RequiredCount": 1,
+                  "InvalidCountMessage": "{{i18n:JackHero06.InvalidCountMessage.coal}}"
+                }
+              ],
+              "PreventTimePass": null,
+              "ReadyTimeModifiers": null,
+              "ReadyTimeModifierMode": "Stack",
+              "InvalidItemMessage": null,
+              "InvalidItemMessageCondition": null,
+              "InvalidCountMessage": null,
+              "LoadEffects": [
+                {
+                  "Id": "Default",
+                  "Condition": null,
+                  "Sounds": [
+                  {
+                    "Id": "furnace",
+                    "Delay": 0
+                  }
+                ]
+              }
+            ],
+            "WorkingEffectChance": 0.33,
+            "AllowLoadWhenFull": false,
+            "WobbleWhileWorking": true,
+            "LightWhileWorking": {
+              "Radius": 1.5,
+						  "Color": "DarkCyan"
+            },
+            "ShowNextIndexWhileWorking": true,
+            "ShowNextIndexWhenReady": false,
+            "AllowFairyDust": true,
+            "IsIncubator": false,
+            "ClearContentsOvernightCondition": null,
+            "StatsToIncrementWhenLoaded": null,
+            "StatsToIncrementWhenHarvested": null,
+            "ExperienceGainOnHarvest": null,
+            "CustomFields": null
+          }
+      }
+    },
+
+
+    {   "LogName": "Radioactive Fish Smoker Recipe",
+        "Action": "EditData",
+        "Target": "Data/CraftingRecipes",
+        "Entries": {
+            "{{ModId}}_RadioactiveFishSmoker": "910 4 852 1 872 1 (BC){{ModId}}_IridiumFishSmoker 1/Home/{{ModId}}_RadioactiveFishSmoker/true/null/"
+        }
+    },
+    
+    {   "LogName": "Radioactive Fish Smoker craftable",
+        "Action": "EditData",
+        "Target": "Data/BigCraftables",
+        "Entries": {
+        "{{ModId}}_RadioactiveFishSmoker": {
+        "Name": "{{ModId}}_RadioactiveFishSmoker",
+        "DisplayName": "{{i18n:JackHero06.RadioactiveFishSmoker.Name}}",
+        "Description": "{{i18n:JackHero06.RadioactiveFishSmoker.Description}}",
+        "Price": 4100,
+        "Fragility": 0,
+        "CanBePlacedOutdoors": true,
+        "CanBePlacedIndoors": true,
+        "IsLamp": false,
+        "Texture": "Mods\\{{ModId}}\\craftables",
+        "SpriteIndex": 14,
+        "ContextTags": null,
+        "CustomFields": null
+        }
+      }
+    },
+
+
+    {
+        "LogName": "Radioactive Fish Smoker machine definition",
+        "Action": "EditData",
+        "Target": "Data/Machines",
+        "Entries": {
+          "(BC){{ModId}}_RadioactiveFishSmoker": {
+            "HasInput": false,
+              "HasOutput": false,
+              "InteractMethod": null,
+              "OutputRules": [
+
+                {
+                  "Id": "SmokedFish",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": null,
+					            "RequiredTags": [
+										    "category_fish"
+									    ],
+                      "RequiredCount": 1,
+                      "Condition": null
+                    }
+                  ],
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": false,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "Default",
+                      "ItemId": "FLAVORED_ITEM SmokedFish DROP_IN_ID DROP_IN_QUALITY",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 2,
+                      "MaxStack": 2,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id": "normal-silver Radioactive",
+                          "Condition": "ITEM_QUALITY Input 0 0, Random 0.55",
+                          "Modification": "Set",
+                          "Amount": 1
+                        },
+                        {  
+                          "Id": "silver-gold Radioactive",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.55",
+                          "Modification": "Set",
+                          "Amount": 2
+                        },
+                        {  
+                          "Id": "gold-iridium Radioactive",
+                          "Condition": "ITEM_QUALITY Input 2 2, Random 0.25",
+                          "Modification": "Set",
+                          "Amount": 4
+                        }
+                      ],
+                      "StackModifiers": [
+                        {
+                          "Id": "Aditional item",
+									        "Condition": "Random 0.15",
+									        "Modification": "Add",
+									        "Amount": 1
+                        },
+                        {
+                          "Id": "Aditional Item Quality",
+									        "Condition": "ITEM_QUALITY Input 4 4, Random 0.2",
+									        "Modification": "Add",
+									        "Amount": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 80,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                }
+              ],
+		          "AdditionalConsumedItems": [
+                {
+                  "ItemId": "(O)382",
+                  "RequiredCount": 1,
+                  "InvalidCountMessage": "{{i18n:JackHero06.InvalidCountMessage.coal}}"
+                }
+              ],
+              "PreventTimePass": null,
+              "ReadyTimeModifiers": null,
+              "ReadyTimeModifierMode": "Stack",
+              "InvalidItemMessage": null,
+              "InvalidItemMessageCondition": null,
+              "InvalidCountMessage": null,
+              "LoadEffects": [
+                {
+                  "Id": "Default",
+                  "Condition": null,
+                  "Sounds": [
+                  {
+                    "Id": "furnace",
+                    "Delay": 0
+                  }
+                ]
+              }
+            ],
+            "WorkingEffectChance": 0.33,
+            "AllowLoadWhenFull": false,
+            "WobbleWhileWorking": true,
+            "LightWhileWorking": {
+              "Radius": 1.5,
+						  "Color": "DarkCyan"
+            },
+            "ShowNextIndexWhileWorking": true,
+            "ShowNextIndexWhenReady": false,
+            "AllowFairyDust": true,
+            "IsIncubator": false,
+            "ClearContentsOvernightCondition": null,
+            "StatsToIncrementWhenLoaded": null,
+            "StatsToIncrementWhenHarvested": null,
+            "ExperienceGainOnHarvest": null,
+            "CustomFields": null
+          }
+      }
+    },
+
+    {
+        "LogName": "Load Iridium Fish Smoker Recipe for Willy Shop",
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "TargetField": ["FishShop", "Items"],
+        "Entries": {
+          "{{ModId}}_IridiumFishSmoker": {
+            "Id": "{{ModId}}_IridiumFishSmoker",
+            "ItemId": "(BC){{ModId}}_IridiumFishSmoker",
+            "ObjectInternalName": "{{ModId}}_IridiumFishSmoker",
+            "AvailableStock": 1,
+            "AvailableStockLimit": "Player",
+            "IsRecipe": true,
+            "Price": 250000,
+            "IgnoreShopPriceModifiers": true
+          }
+        }
+    },
+
+
+    {
+        "LogName": "Load Radioactive Fish Smoker Recipe for Ginger Island Shop",
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "TargetField": ["QiGemShop", "Items"],
+        "Entries": {
+          "{{ModId}}_RadioactiveFishSmoker": {
+            "Id": "{{ModId}}_RadioactiveFishSmoker",
+            "ItemId": "(BC){{ModId}}_RadioactiveFishSmoker",
+            "ObjectInternalName": "{{ModId}}_RadioactiveFishSmoker",
+            "AvailableStock": 1,
+            "AvailableStockLimit": "Player",
+            "TradeItemId": "(O)858",
+			      "TradeItemAmount": 45,
+            "IsRecipe": true,
+            "IgnoreShopPriceModifiers": true
+          }
+        }
+    }
+
+  ]
+}

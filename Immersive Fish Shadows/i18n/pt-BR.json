@@ -1,0 +1,43 @@
+{
+  "config.section.visuals": "Visuais",
+  "config.opacity.name": "Opacidade da Sombra",
+  "config.opacity.tooltip": "Quão escuras são as sombras (0.1 = fraco, 1.0 = preto sólido).",
+  "config.scale.name": "Escala da Sombra",
+  "config.scale.tooltip": "Tamanho das sombras em relação aos peixes.",
+  "config.fade.name": "Ativar Efeitos de Fade",
+  "config.fade.tooltip": "Se ativado, os peixes aparecem e desaparecem suavemente.",
+  "config.section.population": "População",
+  "config.max-fish.name": "Máx. Peixes",
+  "config.max-fish.tooltip": "Número máximo de peixes permitidos em um local.",
+  "config.density.name": "Densidade de Spawn",
+  "config.density.tooltip": "Probabilidade de um peixe aparecer por verificação de tile.",
+  "config.section.locations": "Locais e Tempo",
+  "config.farm-only.name": "Apenas Fazenda",
+  "config.farm-only.tooltip": "Se ativado, os peixes aparecem apenas na fazenda.",
+  "config.excluded.name": "Locais Excluídos",
+  "config.excluded.tooltip": "Lista separada por vírgulas de nomes de locais a ignorar (ex: Esgoto, Terra dos Insetos).",
+  "config.hide-night.name": "Ocultar à Noite",
+  "config.hide-night.tooltip": "Se ativado, os peixes desaparecerão após o pôr do sol.",
+  "config.sunset-offset.name": "Horas após Pôr do Sol",
+  "config.sunset-offset.tooltip": "Quantas horas após o pôr do sol antes de os peixes desaparecerem (Padrão: 2).",
+
+  "config.section.behavior": "Comportamento e Física",
+  "config.personalities.name": "Ativar Física",
+  "config.personalities.tooltip": "Se verdadeiro, os peixes usam física realista de parar e seguir. Se falso, nadam constantemente em círculos.",
+
+  "config.constant-swim.name": "Chance de Nadar Constante",
+  "config.constant-swim.tooltip": "A porcentagem de peixes (0.0 - 1.0) que NUNCA pararão para descansar, independentemente da personalidade.",
+
+  "config.speed.name": "Velocidade Global de Nado",
+  "config.speed.tooltip": "Multiplicador para a velocidade de nado dos peixes. Menor = mais lento, mais relaxado.",
+  "config.idle-min.name": "Tempo Mínimo Parado (seg)",
+  "config.idle-min.tooltip": "Tempo mínimo que um peixe permanece parado antes de se mover.",
+  "config.idle-max.name": "Tempo Máximo Parado (seg)",
+  "config.idle-max.tooltip": "Tempo máximo que um peixe permanece parado antes de se mover.",
+  "config.burst-chance.name": "Chance de Aceleração",
+  "config.burst-chance.tooltip": "A chance (0.0 - 1.0) de um peixe fazer um sprint rápido em vez de nadar lentamente.",
+
+  "config.min-fish.name": "Quantidade Mínima de Peixes",
+  "config.min-fish.tooltip": "Número mínimo de peixes a gerar ao entrar em um local."
+
+}

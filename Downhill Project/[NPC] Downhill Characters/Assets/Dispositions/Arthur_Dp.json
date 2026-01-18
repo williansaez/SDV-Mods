@@ -1,0 +1,22 @@
+{
+  "Changes": [
+	{	//Arts Load
+		"Action": "Load", "Priority": "Low",
+		"Target": "Characters/Arthur, Characters/Arthur_Winter, Portraits/Arthur, Portraits/Arthur_Winter",
+		"FromFile": "Assets/Arts/{{TargetPathOnly}}/Arthur/{{TargetWithoutPath}}.png"
+    },
+	{	// NPC Arthur
+        "Action": "EditData",
+        "Target": "Data/Characters",
+		"Update": "OnDayStart",
+        "Entries": {
+			"Arthur": { "DisplayName": "{{i18n:Arthur.Name}}", "Gender": "Male", "Age": "Adult", "BirthSeason": "Summer", "BirthDay": 12, "Manner": "Neutral", "SocialAnxiety": "Outgoing", "Optimism": "Positive", "CanBeRomanced": false, "WinterStarParticipant": "false", "CanVisitIsland": "false", "DumpsterDiveEmote": 8, "HomeRegion": "Town",
+            "Home": [ { "Id": "DH.Arthur.House", "Location": "DH.Arthur.House", "Tile": { "X": 17, "Y": 6 }, "Direction": "Up" } ],
+			"Appearance": [ 
+				{ "Season": "Winter", "Sprite": "Characters/Arthur_Winter", "Portrait": "Portraits/Arthur_Winter" },
+				{ "Sprite": "Characters/Arthur", "Portrait": "Portraits/Arthur" } ]
+		}
+	  }
+	}
+  ]
+}

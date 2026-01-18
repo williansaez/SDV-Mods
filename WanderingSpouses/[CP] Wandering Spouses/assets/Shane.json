@@ -1,0 +1,45 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Shane",
+      "Priority": "Early",
+      "Entries": {
+        "Wander_Default": "{{i18n: Shane_Wander_Default_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21}}}}",
+        "Wander_Building": "{{i18n: Shane_Wander_Building_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}}}}",
+        "Wander_Scenic": "{{i18n: Shane_Wander_Scenic_{{Random:1,2,3,4,5}}}}",
+        "Wander_Farmer": "{{i18n: Shane_Wander_Farmer_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19}}}}",
+        "Wander_Barn": "{{i18n: Shane_Wander_Barn_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17}}}}",
+        "Wander_Barn_Cow": "{{i18n: Shane_Wander_Barn_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,Cow_1,Cow_2,Cow_3,Cow_4,Cow_5,Cow_6,Cow_7,Cow_8,Cow_9,Cow_10,Cow_11,Cow_12,Cow_13,Cow_14}}}}",
+        "Wander_Barn_Ostrich": "{{i18n: Shane_Wander_Barn_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,Ostrich_1,Ostrich_2,Ostrich_3,Ostrich_4,Ostrich_5,Ostrich_6,Ostrich_7,Ostrich_8,Ostrich_9,Ostrich_10}}}}",
+        "Wander_Coop": "{{i18n: Shane_Wander_Coop_{{Random:1,2,3,4,5,6,7,8,9,10,11}}}}",
+        "Wander_Coop_Chicken": "{{i18n: Shane_Wander_Coop_{{Random:1,2,3,4,5,6,7,8,9,10,11,Chicken_1,Chicken_2,Chicken_3,Chicken_4,Chicken_5,Chicken_6,Chicken_7,Chicken_8,Chicken_9,Chicken_10,Chicken_11,Chicken_12,Chicken_13,Chicken_14}}}}",
+        "Wander_Coop_BlueChicken": "{{i18n: Shane_Wander_Coop_{{Random:1,2,3,4,5,6,7,8,9,10,11,Chicken_1,Chicken_2,Chicken_3,Chicken_4,Chicken_5,Chicken_6,Chicken_7,Chicken_8,Chicken_9,Chicken_10,Chicken_11,Chicken_12,Chicken_13,Chicken_14,BlueChicken_1,BlueChicken_2,BlueChicken_3,BlueChicken_4,BlueChicken_5,BlueChicken_6,BlueChicken_7,BlueChicken_8,BlueChicken_9,BlueChicken_10,BlueChicken_11,BlueChicken_12,BlueChicken_13}}}}",
+        "Wander_FishPond": "{{i18n: Shane_Wander_FishPond_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13}}}}",
+        "Wander_Tree": "{{i18n: Shane_Wander_Tree_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24}}}}",
+        "Wander_Water": "{{i18n: Shane_Wander_Water_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19}}}}",
+        "Wander_MatureCrop": "{{i18n: Shane_Wander_MatureCrop_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13}}}}",
+        "Wander_MatureCrop_HotPepper": "{{i18n: Shane_Wander_MatureCrop_HotPepper_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17}}}}",
+        "Wander_Patio": "{{i18n: Shane_Wander_Patio_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15}}}}",
+        "Wander_JunimoHut": "{{i18n: Shane_Wander_JunimoHut_{{Random:1,2,3,4,5,6,7,8,9}}}}",
+        "Wander_FruitTree": "{{i18n: Shane_Wander_{{Random:FruitTree_1,FruitTree_2,FruitTree_3,FruitTree_4,FruitTree_5,FruitTree_6,FruitTree_7,FruitTree_8,FruitTree_9,FruitTree_10,Tree_3,Tree_5,Tree_8,Tree_10,Tree_16,Tree_17}}}}",
+        "Wander_BrokenFence": "{{i18n: Shane_Wander_BrokenFence_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14}}}}",
+        "Wander_Cave": "{{i18n: Shane_Wander_Cave_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17}}}}",
+        "Wander_Shed": "{{i18n: Shane_Wander_Shed_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}}}}",
+        "Wander_Greenhouse": "{{i18n: Shane_Wander_Greenhouse_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14}}}}",
+        "Wander_Stable": "{{i18n: Shane_Wander_Stable_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15}}}}",
+        "Wander_GrandpaShrine": "{{i18n: Shane_Wander_GrandpaShrine_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14}}}}",
+        "Wander_SlimeHutch": "{{i18n: Shane_Wander_SlimeHutch_{{Random:1,2,3,4,5,6,7}}}}"
+      }
+    },
+    {
+      "LogName": "Animation Description",
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "shane_charlie": "28/28 28 28 28 28 28 28 28 28 28/28",
+        "shane_film": "17/16 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17/17"
+      }
+    }
+  ]
+}

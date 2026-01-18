@@ -1,0 +1,20 @@
+{
+    "LittleGreenhouseName": "Little Greenhouse",
+    "LittleGreenhouseDescription": "A place to grow crops from any season all year round!",
+    "BigGreenhouseName": "Big Greenhouse",
+    "BigGreenhouseDescription": "More space to grow your crops all year round!",
+    "DeluxeGreenhouseName": "Deluxe Greenhouse",
+    "DeluxeGreenhouseDescription": "An improved greenhouse with greater capacity for your crops all year round!",
+    "TreeGreenhouseName": "Tree Greenhouse",
+    "TreeGreenhouseDescription": "A place to plant trees from any season all year round!",
+    "BigTreeGreenhouseName": "Big Tree Greenhouse",
+    "BigTreeGreenhouseDescription": "More space to plant trees from any season all year round!",
+    "DeluxeTreeGreenhouseName": "Deluxe Tree Greenhouse",
+    "DeluxeTreeGreenhouseDescription": "A spacious greenhouse to grow more trees regardless of the season!",
+    "LittleCellarName": "Little Cellar",
+    "LittleCellarDescription": "Houses casks that can age products to increase their quality and value.",
+    "BigCellarName": "Big Cellar",
+    "BigCellarDescription": "A spacious area to place more casks and improve products on a large scale.",
+    "DeluxeCellarName": "Deluxe Cellar",
+    "DeluxeCellarDescription": "An upgraded cellar with extra space for superior aging."
+}

@@ -1,0 +1,223 @@
+{
+	"Changes": [
+
+	//Optionally changes the intro, letter text, and conversation with Lewis and Robin so the lore makes more sense in this mod
+	{
+		"Action": "EditData",
+		"Target": "Strings/StringsFromCSFiles",
+		"When": { "ChangeGrandpaMonologue": "true" },
+			"Entries": {
+		"GrandpaStory.cs.12034": "{{i18n:glymr.BrokenFarmhouse.GrandpaStory.cs.Replacement01}}",
+		"GrandpaStory.cs.12035": "{{i18n:glymr.BrokenFarmhouse.GrandpaStory.cs.Replacement02}}",
+			},
+	},
+	{
+		"Action": "EditData",
+		"Target": "Strings/StringsFromCSFiles",
+		"When": { "ChangeLetter": "true" },
+			"Entries": {
+		"GrandpaStory.cs.12055": "{{i18n:glymr.BrokenFarmhouse.GrandpaStory.cs.Replacement03}}",
+		"GrandpaStory.cs.12051": "{{i18n:glymr.BrokenFarmhouse.GrandpaStory.cs.Replacement03}}",
+		},	
+	},	
+	{
+		"Action": "EditData",
+		"Target": "Data/Events/BusStop",
+		"When": { "ChangeFirstConversation": "true", },
+		"Entries": {
+			"60367/u 0": "none/-1000 -1000/farmer 22 10 2 Robin 22 13 0 Lewis -100 -100 2/skippable/pause 500/playSound busDoorOpen/pause 5000/viewport 23 10 clamp true/move farmer 0 2 2/playMusic SettlingIn/speak Robin \"{{i18n:glymr.BrokenFarmhouse.Robin01a}}#$b#{{i18n:glymr.BrokenFarmhouse.Robin01b}}#$b#{{i18n:glymr.BrokenFarmhouse.Robin01c}}\"/viewport move 0 2 800/move Robin 0 5 2 true/pause 800/move farmer 0 4 2 true/fade/speed farmer 2/viewport -200 -200/changeLocation Farm/halt/warp Robin 78 17/faceDirection Robin 3/warp farmer 79 17/faceDirection farmer 3/viewport 70 16 clamp/viewport move -1 0 4000/move Robin -8 0 3 farmer -8 0 3/pause 700/faceDirection Robin 2/speak Robin \"{{i18n:glymr.BrokenFarmhouse.Robin02}}\"/pause 500/faceDirection farmer 2/showFrame 94/jump farmer/startJittering/pause 1000/emote farmer 28/showFrame 0/stopJittering/pause 800/faceDirection Robin 1/pause 200/speak Robin \"{{i18n:glymr.BrokenFarmhouse.Robin03a}}#$b#{{i18n:glymr.BrokenFarmhouse.Robin03b}}#$b#{{i18n:glymr.BrokenFarmhouse.Robin03c}}\"/pause 500/faceDirection farmer 3/pause 200/move Robin -7 0 0 farmer -7 0 0/pause 400/faceDirection Robin 0/speak Robin \"{{i18n:glymr.BrokenFarmhouse.Robin04}}$h\"/pause 300/faceDirection farmer 0/pause 500/playSound doorClose/warp Lewis 64 15/pause 1500/speak Lewis \"{{i18n:glymr.BrokenFarmhouse.Lewis01}}$h\"/move Lewis 0 1 2/move Lewis 1 0 2/move Lewis 0 1 3/faceDirection farmer 1/faceDirection Robin 1/pause 600/speak Lewis \"{{i18n:glymr.BrokenFarmhouse.Lewis02}}#$b#{{i18n:glymr.BrokenFarmhouse.Lewis03}}#$b#{{i18n:glymr.BrokenFarmhouse.Lewis04}}\"/pause 1000/faceDirection Lewis 3/pause 100/faceDirection Lewis 0/pause 500/speak Lewis \"{{i18n:glymr.BrokenFarmhouse.Lewis05}}#$b#{{i18n:glymr.BrokenFarmhouse.Lewis06}}\"/pause 300/faceDirection Robin 0 true/faceDirection farmer 0/viewport move 0 -1 2000/pause 2000/speak Robin \"{{i18n:glymr.BrokenFarmhouse.Robin05}}$4#$b#{{i18n:glymr.BrokenFarmhouse.Robin06}}$4\"/faceDirection Lewis 3 true/jump Lewis/shake Lewis 1600/textAboveHead Lewis \"{{i18n:glymr.BrokenFarmhouse.Lewis07}}\"/showFrame Lewis 24/pause 500/faceDirection Robin 1 true/pause 100/faceDirection Robin 2 true/pause 100/animate Robin false true 100 32 33/faceDirection farmer 2/pause 1000/showFrame Lewis 12/stopAnimation Robin/pause 300/faceDirection Robin 1/showFrame Lewis 12/faceDirection farmer 1/speak Lewis \"{{i18n:glymr.BrokenFarmhouse.Lewis08}}$u\"/showFrame Lewis 12/showFrame Robin 19/shake Robin 800/pause 1200/showFrame Robin 0/pause 600/animate Robin false true 300 34 35/textAboveHead Robin \"{{i18n:glymr.BrokenFarmhouse.Robin07}}\"/pause 1500/speak Lewis \"{{i18n:glymr.BrokenFarmhouse.Lewis09}}#$b#{{i18n:glymr.BrokenFarmhouse.Lewis10}}#$b#{{i18n:glymr.BrokenFarmhouse.Lewis11}}\"/move Lewis 4 0 1 true/viewport move 1 0 2000/pause 3000/proceedPosition Lewis/faceDirection Lewis 0/pause 500/faceDirection Lewis 3/speak Lewis \"{{i18n:glymr.BrokenFarmhouse.Lewis12}}#$b#{{i18n:glymr.BrokenFarmhouse.Lewis13}}\"/pause 300/move Lewis 8 0 1 true/faceDirection farmer 0/stopAnimation Robin/faceDirection Robin 1 true/speak Robin \"{{i18n:glymr.BrokenFarmhouse.Robin08}}\"/speak Robin \"{{i18n:glymr.BrokenFarmhouse.Robin09}}$4#$b#{{i18n:glymr.BrokenFarmhouse.Robin10}}\"/advancedMove Robin false 0 1 2 0 0 -1 5 0/pause 1000/globalFade/viewport -1000 -1000/playMusic none/pause 2000/playSound rooster/pause 1000/end beginGame",
+		},
+	},
+	//Moves seed box in vanilla maps (and my map)
+	{
+		"Action": "EditMap",
+		"Target": "Maps/Farm, Maps/Farm_Foraging, Maps/Farm_Combat, Maps/Farm_Fishing, Maps/Farm_FourCorners, Maps/Farm_Mining, Maps/Farm_Island, Maps/Farm_Ranching, Maps/Beautiful_Vista_Farm",
+		"MapProperties": {
+			"FarmHouseStarterSeedsPosition": "27 26",
+			},
+		"When": {
+           "FarmType": "Standard, Forest, Hilltop, Riverland, Wilderness, FourCorners, Beach, MeadowlandsFarm, glymr.BeautifulVistaFarm",
+			},
+	},
+	//Moves seed box (less precisely) in custom maps
+    {
+		"Action": "EditData",
+		"Target": "Data/TriggerActions",
+		"When": {
+			"FarmType |contains=Standard, Forest, Hilltop, Riverland, Wilderness, FourCorners, Beach, MeadowlandsFarm": false,
+		},
+		"Entries": {
+			"glymr.BrokenFarmhouse.MoveSeeds": {
+			"Id":"glymr.BrokenFarmhouse.MoveSeeds",
+			"Condition": "PLAYER_FARMHOUSE_UPGRADE Current 0 0",
+			"Trigger": "DayStarted",
+			"Actions": [
+			"mushymato.MMAP_ShiftContents 2 4 22 23 8 7",
+			],
+			"MarkActionApplied": true,
+			},
+		},
+	},
+	{
+		//Removes starting furniture (even from custom maps!) and substitutes my own (bed, table, chairs, TV, dresser, lamps, broken television, trash, etc)
+		"Action": "EditMap",
+		"Target": "Maps/FarmHouse",
+		"MapProperties": {
+		"mushymato.MMAP_FarmHouseFurnitureRemove": "ALL",
+		"mushymato.MMAP_FarmHouseFurnitureAdd": "2048 30 24 0 1134 19 27 0 0 18 27 0 0 21 28 3 704 43 31 2 1680 20 31 0 1449 46 14 0 1449 52 14 0 1758 27 15 0 BrokenTelevision 16 16 0 2076 37 14 0 2076 41 14 0 MoldyCouch 50 18 2 AluminumCan 53 17 0 PlasticLawnEndTable 46 18 0 PlasticLawnChair 45 18 2 PlasticBag 52 15 0",
+		},
+	},
+	{
+		//Keeps farmhouse furniture from being shifted during upgrade and adds SpouseRoomPosition
+		"Action": "EditMap",
+		"Target": "Maps/FarmHouse, Maps/FarmHouse1, Maps/FarmHouse2, Maps/FarmHouse1_marriage, Maps/FarmHouse2_marriage",
+		"MapProperties": {
+        "mushymato.MMAP_SkipMoveObjectsForHouseUpgrade": "T",
+		"SpouseRoomPosition": "50 20",
+		},
+    },
+	{
+		//Fixes farmhouse entry for starting and first upgrade/married farmhouse. Not sure if this is necessary since it's also built into the map properties.
+			"Action": "EditMap",
+			"Target": "Maps/FarmHouse, Maps/FarmHouse1, Maps/FarmHouse1_marriage",
+			"MapProperties": {
+				"EntryLocation": "27 30",
+				},
+	},
+	{
+		//***Replaces starting farmhouse with full broken map 
+		"LogName": "Broken Farmhouse 0 Patch",
+		"Action": "Load",
+		"Target": "Maps/FarmHouse",
+		"FromFile": "assets/BrokenFarmhouse0.tmx",
+	},
+	{
+		//***Replaces first upgrade farmhouse with half-broken map 
+		"LogName": "Broken Farmhouse 1 Patch",
+		"Action": "Load",
+		"Target": "Maps/Farmhouse1",
+		"FromFile": "assets/BrokenFarmhouse1.tmx",
+	},
+    {
+		//***Replaces first upgrade farmhouse (married version) with half-broken map 
+		"LogName": "Broken Farmhouse 1 Marriage Patch",
+        "Action": "Load",
+        "Target": "Maps/Farmhouse1_marriage",
+        "FromFile": "assets/BrokenFarmhouse1.tmx",
+    },	
+	{
+		//***Replaces second upgrade farmhouse with quarter-broken map 
+		"LogName": "Broken Farmhouse 2 Patch",
+		"Action": "Load",
+		"Target": "Maps/Farmhouse2",
+		"FromFile": "assets/BrokenFarmhouse2.tmx",
+		"When": {
+			"FarmhouseUpgrade |contains=2": "true", 
+			},
+	},
+	{
+		//***Replaces second upgrade farmhouse (married version) with quarter-broken map 
+		"LogName": "Broken Farmhouse 2 Patch",
+		"Action": "Load",
+		"Target": "Maps/Farmhouse2_marriage",
+		"FromFile": "assets/BrokenFarmhouse2.tmx",
+		"When": {
+			"FarmhouseUpgrade |contains=2": "true", 
+			},
+	},
+	{
+		//***Replaces third upgrade farmhouse with unbroken map 
+		"LogName": "Broken Farmhouse 3 Patch",
+		"Action": "Load",
+		"Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+		"FromFile": "assets/BrokenFarmhouse3.tmx",
+		"When": {
+			"FarmhouseUpgrade |contains=3": "true", 
+			},
+	},
+	{
+		//Creates the broken cellar Location
+		"LogName": "Broken Cellar location creation",
+		"Action": "EditData",
+		"Target": "Data/Locations",
+		"Entries": {
+		"glymr.BrokenFarmhouseCellar": {
+			"CreateOnLoad": {
+				"MapPath": "Maps/glymr.BrokenFarmhouseCellar",
+				},
+			},
+		},
+	},
+	{
+	//Loads the broken cellar map
+		"Action": "Load",
+		"Target": "Maps/glymr.BrokenFarmhouseCellar",
+		"FromFile": "assets/BrokenFarmhouseCellar.tmx",
+	},
+	{
+		//Replaces funky tile in corner room add
+		"LogName": "Broken Farmhouse Corner Room Add Tile Fix",
+		"Action": "EditMap",
+		"PatchMode": "ReplaceByLayer",
+		"Target": "Maps/FarmHouse_CornerRoom_Add",
+		"FromFile": "assets/BrokenFarmhouse_CornerRoom_TileFix1.tmx",
+		"FromArea": { "X": 0, "Y": 0, "Width": 1, "Height": 1 },
+		"ToArea": { "X": 49, "Y": 19, "Width": 1, "Height": 1 },
+	},
+	{
+		//Replaces funky tile in corner room remove
+		"LogName": "Broken Farmhouse Corner Remove Room Tile Fix",
+		"Action": "EditMap",
+		"PatchMode": "ReplaceByLayer",
+		"Target": "Maps/FarmHouse_CornerRoom_Remove",
+		"FromFile": "assets/BrokenFarmhouse_CornerRoom_TileFix2.tmx",
+		"FromArea": { "X": 0, "Y": 0, "Width": 1, "Height": 1 },
+		"ToArea": { "X": 49, "Y": 19, "Width": 1, "Height": 1 },
+	},
+	//Custom bundle type
+	{
+	"Action": "EditData",
+	"Target": "UnlockableBundles/BundleThemes",
+	"Entries": {		
+		"glymr.BrokenFarmhouse.TaskList": {
+			"ShopType": "Dialogue",
+			"ShopTexture": "{{InternalAssetKey: assets/notepad.png}}",
+			"ShopTextureSource": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64,64",
+			"ShopDrawOffset": "0,64",
+			"DrawQuestionMark": true,
+			"QuestionMarkOffset": "24,36",
+			"CanPayCondition": "UB_PLAYER_OWNS_LOCATION CURRENT",
+			"ShopEvent": "carpentry",
+			"InstantShopRemoval": true,
+			"BundleCompletedRibbon": "glymr.BrokenFarmhouse.Ribbon",
+			},
+		},
+	},
+	//Custom bundle completion ribbon
+	{
+	"Action": "EditData",
+	"Target": "UnlockableBundles/CompletionRibbons",
+	"Entries": {
+  
+		"glymr.BrokenFarmhouse.Ribbon": { 
+		"Texture": "{{InternalAssetKey: assets/TaskCompletedRibbon.png}}", 
+		"TextureSource": { "X": 0, "Y": 0, "Width": 161, "Height": 71 },
+		},
+	  },
+	},	
+	//German bundle completion ribbon
+	{
+	"Action": "EditData",
+	"Target": "UnlockableBundles/CompletionRibbons",
+	"When": { "Language": "de" },
+	"Entries": {
+  
+		"glymr.BrokenFarmhouse.Ribbon": { 
+		"Texture": "{{InternalAssetKey: assets/TaskCompletedRibbon.de-DE.png}}", 
+		"TextureSource": { "X": 0, "Y": 0, "Width": 161, "Height": 71 },
+		},
+	  },
+	},	
+]
+}

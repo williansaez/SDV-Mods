@@ -1,0 +1,196 @@
+{
+  "Format": "2.8.0",
+  "ConfigSchema":
+    {
+      "Rarity":
+	{
+	  "Default": "0.09",
+	  "Section": "Balancing"
+	},
+      "SaplingNumber":
+	{
+	  "Default": "3",
+	  "Section": "Balancing"
+	},
+      "UnlockTrigger":
+	{
+	  "AllowValues": "None, CC, Grandpa, Perfection",
+	  "Default": "None",
+	  "Section": "Balancing"
+	},
+      "SVBO":
+	{
+	  "AllowValues": "True, False",
+	  "Default": "False",
+	  "Section": "Balancing"
+	},
+	"ExcludeTracking":
+	{
+	  "AllowValues": "True, False",
+	  "Default": "True",
+	  "Section": "Balancing"
+	},
+      "FruitSprites":
+	{
+	  "AllowValues": "Vanilla, VT",
+	  "Default": "Vanilla",
+	  "Section": "Sprites"
+	},
+      "SaplingSprites":
+	{
+	  "AllowValues": "Vanilla, VT",
+	  "Default": "Vanilla",
+	  "Section": "Sprites"
+	}
+    },
+  "DynamicTokens": 
+    [
+      {
+	"Name": "PFTrigger",
+	"Value": "Spiderbuttons.BETAS_HAS_MOD Pathoschild.ContentPatcher",
+	"When": {"UnlockTrigger": "None"}
+      },
+      {
+	"Name": "PFTrigger",
+	"Value": "PLAYER_HAS_SEEN_EVENT Any 191393",
+	"When": {"UnlockTrigger": "CC"}
+      },
+      {
+	"Name": "PFTrigger",
+	"Value": "Spiderbuttons.BETAS_GRANDPA_SCORE Score 12",
+	"When": {"UnlockTrigger": "Grandpa"}
+      },
+      {
+	"Name": "PFTrigger",
+	"Value": "PLAYER_HAS_ACHIEVEMENT Any 44",
+	"When": {"UnlockTrigger": "Perfection"}
+      },
+      {
+	"Name": "TP",
+	"Value": "False",
+	"When": {"ExcludeTracking": "False"}
+      },
+      {
+	"Name": "TP",
+	"Value": "True",
+	"When": {"ExcludeTracking": "True"}
+      },
+      {
+	"Name": "CherryPrice",
+	"Value": "400",
+	"When": {"SVBO": "False"}
+      },
+      {
+	"Name": "CherryPrice",
+	"Value": "550",
+	"When": {"SVBO": "True"}
+      },
+      {
+	"Name": "ApricotPrice",
+	"Value": "250",
+	"When": {"SVBO": "False"}
+      },
+      {
+	"Name": "ApricotPrice",
+	"Value": "550",
+	"When": {"SVBO": "True"}
+      },
+      {
+	"Name": "OrangePrice",
+	"Value": "500",
+	"When": {"SVBO": "False"}
+      },
+      {
+	"Name": "OrangePrice",
+	"Value": "600",
+	"When": {"SVBO": "True"}
+      },
+      {
+	"Name": "PeachPrice",
+	"Value": "700",
+	"When": {"SVBO": "False"}
+      },
+      {
+	"Name": "PeachPrice",
+	"Value": "650",
+	"When": {"SVBO": "True"}
+      },
+      {
+	"Name": "PomegranatePrice",
+	"Value": "700",
+	"When": {"SVBO": "False"}
+      },
+      {
+	"Name": "PomegranatePrice",
+	"Value": "650",
+	"When": {"SVBO": "True"}
+      },
+      {
+	"Name": "ApplePrice",
+	"Value": "500",
+	"When": {"SVBO": "False"}
+      },
+      {
+	"Name": "ApplePrice",
+	"Value": "600",
+	"When": {"SVBO": "True"}
+      },
+      {
+	"Name": "BananaPrice",
+	"Value": "750",
+	"When": {"SVBO": "False"}
+      },
+      {
+	"Name": "BananaPrice",
+	"Value": "650",
+	"When": {"SVBO": "True"}
+      },
+      {
+	"Name": "MangoPrice",
+	"Value": "650",
+	"When": {"SVBO": "False"}
+      },
+      {
+	"Name": "MangoPrice",
+	"Value": "600",
+	"When": {"SVBO": "True"}
+      },
+      {
+	"Name": "FruitTexture",
+	"Value": "Mods/appleseed.PF/Assets/Objects",
+	"When": {"FruitSprites": "Vanilla"}
+      },
+      {
+	"Name": "FruitTexture",
+	"Value": "Mods/appleseed.PF/Assets/ObjectsVT",
+	"When": {"FruitSprites": "VT"}
+      },
+      {
+	"Name": "SaplingTexture",
+	"Value": "Mods/appleseed.PF/Assets/Objects",
+	"When": {"SaplingSprites": "Vanilla"}
+      },
+      {
+	"Name": "SaplingTexture",
+	"Value": "Mods/appleseed.PF/Assets/ObjectsVT",
+	"When": {"SaplingSprites": "VT"}
+      }
+    ],
+  "Changes":
+    [
+      {
+	"Action": "Load",
+	"Target": "Mods/appleseed.PF/Assets/Objects",
+	"FromFile": "Assets/Objects.png"
+      },
+      {
+	"Action": "Load",
+	"Target": "Mods/appleseed.PF/Assets/ObjectsVT",
+	"FromFile": "Assets/ObjectsVT.png"
+      },
+      {
+	"Action": "Include",
+	"FromFile": "Data/Objects.json, Data/FruitTrees.json, Data/Shops.json"
+      }
+    ]
+}

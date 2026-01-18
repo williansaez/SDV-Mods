@@ -1,0 +1,18 @@
+{
+    "SuperCoopName": "Super Coop",
+    "SuperCoopDescription": "Houses 16 coop animals. Includes an extra incubator.",
+    "SuperBarnName": "Super Barn",
+    "SuperBarnDescription": "Houses 16 barn animals.",
+    "PremiumCoopName": "Premium Coop",
+    "PremiumCoopDescription": "Houses 20 coop animals. Adds an Auto-Petter.",
+    "PremiumBarnName": "Premium Barn",
+    "PremiumBarnDescription": "Houses 20 barn animals. Adds an Auto-Petter.",
+    "BigSiloName": "Big Silo",
+    "BigSiloDescription": "Allows you to store twice as much hay for your animals.",
+    "DeluxeSiloName": "Deluxe Silo",
+    "DeluxeSiloDescription": "You can store a ton of hay. Perfect for winter!",
+    "DeluxeShedName": "Deluxe Shed",
+    "DeluxeShedDescription": "Adds an extra room inside. The interior can be decorated.",
+    "PremiumShedName": "Premium Shed",
+    "PremiumShedDescription": "Increases the size of the second room. The interior can be decorated."
+}

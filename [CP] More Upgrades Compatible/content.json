@@ -1,0 +1,1360 @@
+{
+  "Format": "2.0.0",
+   "ConfigSchema": {
+    "Super Barn": {
+		"AllowValues": "True, False",
+		"Default": "True"
+    },
+	"Super Coop": {
+		"AllowValues": "True, False",
+		"Default": "True"
+    },
+  "Premium Barn": {
+      "AllowValues": "True, False",
+      "Default": "True"
+      },
+  "Premium Coop": {
+      "AllowValues": "True, False",
+      "Default": "True"
+      },
+ "Big Silo": {
+      "AllowValues": "True, False",
+      "Default": "True"
+      },
+  "Deluxe Silo": {
+      "AllowValues": "True, False",
+      "Default": "True"
+      },
+  "Deluxe Shed": {
+		"AllowValues": "True, False",
+		"Default": "True"
+    },
+  "Premium Shed": {
+      "AllowValues": "True, False",
+      "Default": "True"
+      }
+
+    },
+  "CustomLocations": [    
+    {
+      "Name": "Amichwan.More.upgrades_Barn4",
+      "FromMapFile": "assets/Barn4.tmx",
+      "When": {
+	  "Super Barn": "True"
+	}
+    },
+    {
+      "Name": "Amichwan.More.upgrades_Coop4",
+      "FromMapFile": "assets/Coop4.tmx",
+      "When": {
+	  "Super Coop": "True"
+	}
+    },
+    {
+      "Name": "Amichwan.More.upgrades_Barn5",
+      "FromMapFile": "assets/Barn5.tmx",
+      "When": {
+	  "Premium Barn": "True"
+	}
+    },
+    {
+      "Name": "Amichwan.More.upgrades_Coop5",
+      "FromMapFile": "assets/Coop5.tmx",
+      "When": {
+	  "Premium Coop": "True"
+	}
+
+    },
+    {
+      "Name": "Amichwan.More.upgrades_Shed3",
+      "FromMapFile": "assets/Shed3.tmx",
+      "When": {
+	  "Deluxe Shed": "True"
+	}
+
+    },
+    {
+      "Name": "Amichwan.More.upgrades_Shed4",
+      "FromMapFile": "assets/Shed4.tmx",
+      "When": {
+	  "Premium Shed": "True"
+	}
+
+    }
+  ],
+  "Changes": [
+// Super Barn
+    {
+      "LogName": "Create Super Barn",
+      "Action": "EditData",
+      "Target": "Data/Buildings",
+      "When": {
+	  "Super Barn": "True"
+      },
+      "Entries": {
+        "{{ModId}}_SuperBarn": {
+          "ID": "{{i18n: SuperBarnName}}",
+          "Name": "{{i18n: SuperBarnName}}",
+          "Description": "{{i18n: SuperBarnDescription}}",
+          "Texture": "Buildings\\Deluxe Barn",
+          "Skins": [],
+          "DrawShadow": true,
+          "UpgradeSignTile": "4.5, 2",
+          "UpgradeSignHeight": 31.0,
+          "Size": {
+            "X": 7,
+            "Y": 4
+          },
+          "FadeWhenBehind": true,
+          "SourceRect": {
+            "X": 0,
+            "Y": 0,
+            "Width": 112,
+            "Height": 112
+          },
+          "SeasonOffset": {
+            "X": 0,
+            "Y": 0
+          },
+          "DrawOffset": "0, 0",
+          "SortTileOffset": 0.0,
+          "CollisionMap": null,
+          "AdditionalPlacementTiles": null,
+          "BuildingType": null,
+          "Builder": "Robin",
+          "BuildCondition": null,
+          "BuildDays": 2,
+          "BuildCost": 50000,
+          "BuildMaterials": [
+            {
+              "ItemId": "(O)388",
+              "Amount": 750
+            },
+            {
+              "ItemId": "(O)709",
+              "Amount": 350
+            },
+            {
+              "ItemId": "(O)390",
+              "Amount": 500
+            }
+          ],
+          "BuildingToUpgrade": "Deluxe Barn",
+          "MagicalConstruction": false,
+          "BuildMenuDrawOffset": {
+            "X": 0,
+            "Y": 0
+          },
+          "HumanDoor": {
+            "X": 1,
+            "Y": 3
+          },
+          "AnimalDoor": {
+            "X": 4,
+            "Y": 3,
+            "Width": 2,
+            "Height": 1
+          },
+          "AnimalDoorOpenDuration": 0.4,
+          "AnimalDoorOpenSound": "doorCreak",
+          "AnimalDoorCloseDuration": 0.6,
+          "AnimalDoorCloseSound": "doorCreakReverse",
+          "NonInstancedIndoorLocation": null,
+          "IndoorMap": "Amichwan.More.upgrades_Barn4",
+          "IndoorMapType": "StardewValley.AnimalHouse",
+          "MaxOccupants": 16,
+          "ValidOccupantTypes": [
+            "Barn"
+          ],
+          "AllowAnimalPregnancy": true,
+          "IndoorItemMoves": null,
+          "IndoorItems": [
+            {
+              "Id": "Default_FeedHopper",
+              "ItemId": "(BC)99",
+              "Tile": {
+                "X": 6,
+                "Y": 3
+              },
+              "Indestructible": true
+            }
+          ],
+          "AddMailOnBuild": null,
+          "Metadata": {},
+          "ModData": {},
+          "HayCapacity": 0,
+          "Chests": null,
+          "DefaultAction": null,
+          "AdditionalTilePropertyRadius": 0,
+          "AllowsFlooringUnderneath": true,
+          "ActionTiles": [],
+          "TileProperties": [],
+          "ItemConversions": null,
+          "DrawLayers": [
+            {
+              "Id": "Default_AnimalDoor_Bottom",
+              "Texture": null,
+              "SourceRect": {
+                "X": 0,
+                "Y": 112,
+                "Width": 32,
+                "Height": 16
+              },
+              "DrawPosition": "64, 96",
+              "DrawInBackground": false,
+              "SortTileOffset": 0.02,
+              "OnlyDrawIfChestHasContents": null,
+              "FrameDuration": 90,
+              "FrameCount": 1,
+              "FramesPerRow": -1,
+              "AnimalDoorOffset": {
+                "X": 0,
+                "Y": -19
+              }
+            },
+            {
+              "Id": "Default_AnimalDoor_Top",
+              "Texture": null,
+              "SourceRect": {
+                "X": 0,
+                "Y": 112,
+                "Width": 32,
+                "Height": 12
+              },
+              "DrawPosition": "64, 84",
+              "DrawInBackground": false,
+              "SortTileOffset": 0.02,
+              "OnlyDrawIfChestHasContents": null,
+              "FrameDuration": 90,
+              "FrameCount": 1,
+              "FramesPerRow": -1,
+              "AnimalDoorOffset": {
+                "X": 0,
+                "Y": -19
+              }
+            },
+            {
+              "Id": "Default_AnimalDoor_Open_Top",
+              "Texture": null,
+              "SourceRect": {
+                "X": 32,
+                "Y": 112,
+                "Width": 32,
+                "Height": 16
+              },
+              "DrawPosition": "64, 80",
+              "DrawInBackground": false,
+              "SortTileOffset": 1.0,
+              "OnlyDrawIfChestHasContents": null,
+              "FrameDuration": 90,
+              "FrameCount": 1,
+              "FramesPerRow": -1,
+              "AnimalDoorOffset": {
+                "X": 0,
+                "Y": 0
+              }
+            },
+            {
+              "Id": "Default_AnimalDoor_Open_Bottom",
+              "Texture": null,
+              "SourceRect": {
+                "X": 64,
+                "Y": 112,
+                "Width": 32,
+                "Height": 16
+              },
+              "DrawPosition": "64, 96",
+              "DrawInBackground": false,
+              "SortTileOffset": 1.0,
+              "OnlyDrawIfChestHasContents": null,
+              "FrameDuration": 90,
+              "FrameCount": 1,
+              "FramesPerRow": -1,
+              "AnimalDoorOffset": {
+                "X": 0,
+                "Y": 0
+              }
+            }
+          ],
+          "CustomFields": null
+        }
+      }
+    },
+// Premium Barn
+{
+  "LogName": "Create Premium Barn",
+  "Action": "EditData",
+  "Target": "Data/Buildings",
+  "When": {
+"Premium Barn": "True"
+  },
+  "Entries": {
+    "{{ModId}}_PremiumBarn": {
+      "ID": "{{i18n: PremiumBarnName}}",
+      "Name": "{{i18n: PremiumBarnName}}",
+      "Description": "{{i18n: PremiumBarnDescription}}",
+      "Texture": "Buildings\\Deluxe Barn",
+      "Skins": [],
+      "DrawShadow": true,
+      "UpgradeSignTile": "4.5, 2",
+      "UpgradeSignHeight": 31.0,
+      "Size": {
+        "X": 7,
+        "Y": 4
+      },
+      "FadeWhenBehind": true,
+      "SourceRect": {
+        "X": 0,
+        "Y": 0,
+        "Width": 112,
+        "Height": 112
+      },
+      "SeasonOffset": {
+        "X": 0,
+        "Y": 0
+      },
+      "DrawOffset": "0, 0",
+      "SortTileOffset": 0.0,
+      "CollisionMap": null,
+      "AdditionalPlacementTiles": null,
+      "BuildingType": null,
+      "Builder": "Robin",
+      "BuildCondition": null,
+      "BuildDays": 2,
+      "BuildCost": 100000,
+      "BuildMaterials": [
+        {
+          "ItemId": "(O)388",
+          "Amount": 900
+        },
+        {
+          "ItemId": "(O)709",
+          "Amount": 500
+        },
+        {
+          "ItemId": "(O)390",
+          "Amount": 750
+        }
+      ],
+      "BuildingToUpgrade": "Amichwan.More.upgrades_SuperBarn",
+      "MagicalConstruction": false,
+      "BuildMenuDrawOffset": {
+        "X": 0,
+        "Y": 0
+      },
+      "HumanDoor": {
+        "X": 1,
+        "Y": 3
+      },
+      "AnimalDoor": {
+        "X": 4,
+        "Y": 3,
+        "Width": 2,
+        "Height": 1
+      },
+      "AnimalDoorOpenDuration": 0.4,
+      "AnimalDoorOpenSound": "doorCreak",
+      "AnimalDoorCloseDuration": 0.6,
+      "AnimalDoorCloseSound": "doorCreakReverse",
+      "NonInstancedIndoorLocation": null,
+      "IndoorMap": "Amichwan.More.upgrades_Barn5",
+      "IndoorMapType": "StardewValley.AnimalHouse",
+      "MaxOccupants": 20,
+      "ValidOccupantTypes": [
+        "Barn"
+      ],
+      "AllowAnimalPregnancy": true,
+      "IndoorItemMoves": null,
+      "IndoorItems": [
+        {
+          "Id": "Default_FeedHopper",
+          "ItemId": "(BC)99",
+          "Tile": {
+            "X": 6,
+            "Y": 3
+          },
+          "Indestructible": true
+        },
+        {
+          "Id": "Default_Auto-Petter",
+          "ItemId": "(BC)272",
+          "Tile": {
+            "X": 1,
+            "Y": 4
+          },
+          "Indestructible": true
+        }
+      ],
+      "AddMailOnBuild": null,
+      "Metadata": {},
+      "ModData": {},
+      "HayCapacity": 0,
+      "Chests": null,
+      "DefaultAction": null,
+      "AdditionalTilePropertyRadius": 0,
+      "AllowsFlooringUnderneath": true,
+      "ActionTiles": [],
+      "TileProperties": [],
+      "ItemConversions": null,
+      "DrawLayers": [
+        {
+          "Id": "Default_AnimalDoor_Bottom",
+          "Texture": null,
+          "SourceRect": {
+            "X": 0,
+            "Y": 112,
+            "Width": 32,
+            "Height": 16
+          },
+          "DrawPosition": "64, 96",
+          "DrawInBackground": false,
+          "SortTileOffset": 0.02,
+          "OnlyDrawIfChestHasContents": null,
+          "FrameDuration": 90,
+          "FrameCount": 1,
+          "FramesPerRow": -1,
+          "AnimalDoorOffset": {
+            "X": 0,
+            "Y": -19
+          }
+        },
+        {
+          "Id": "Default_AnimalDoor_Top",
+          "Texture": null,
+          "SourceRect": {
+            "X": 0,
+            "Y": 112,
+            "Width": 32,
+            "Height": 12
+          },
+          "DrawPosition": "64, 84",
+          "DrawInBackground": false,
+          "SortTileOffset": 0.02,
+          "OnlyDrawIfChestHasContents": null,
+          "FrameDuration": 90,
+          "FrameCount": 1,
+          "FramesPerRow": -1,
+          "AnimalDoorOffset": {
+            "X": 0,
+            "Y": -19
+          }
+        },
+        {
+          "Id": "Default_AnimalDoor_Open_Top",
+          "Texture": null,
+          "SourceRect": {
+            "X": 32,
+            "Y": 112,
+            "Width": 32,
+            "Height": 16
+          },
+          "DrawPosition": "64, 80",
+          "DrawInBackground": false,
+          "SortTileOffset": 1.0,
+          "OnlyDrawIfChestHasContents": null,
+          "FrameDuration": 90,
+          "FrameCount": 1,
+          "FramesPerRow": -1,
+          "AnimalDoorOffset": {
+            "X": 0,
+            "Y": 0
+          }
+        },
+        {
+          "Id": "Default_AnimalDoor_Open_Bottom",
+          "Texture": null,
+          "SourceRect": {
+            "X": 64,
+            "Y": 112,
+            "Width": 32,
+            "Height": 16
+          },
+          "DrawPosition": "64, 96",
+          "DrawInBackground": false,
+          "SortTileOffset": 1.0,
+          "OnlyDrawIfChestHasContents": null,
+          "FrameDuration": 90,
+          "FrameCount": 1,
+          "FramesPerRow": -1,
+          "AnimalDoorOffset": {
+            "X": 0,
+            "Y": 0
+          }
+        }
+      ],
+      "CustomFields": null
+    }
+  }
+},
+// Super Coop
+{
+  "LogName": "Create Super Coop",
+  "Action": "EditData",
+  "Target": "Data/Buildings",
+  "When": {
+"Super Coop": "True"
+  },
+  "Entries": {
+    "{{ModId}}_SuperCoop": {
+      "ID": "{{i18n: SuperCoopName}}",
+      "Name": "{{i18n: SuperCoopName}}",
+      "Description": "{{i18n: SuperCoopDescription}}",
+      "Texture": "Buildings\\Deluxe Coop",
+      "Skins": [],
+      "DrawShadow": true,
+      "UpgradeSignTile": "2, 2",
+      "UpgradeSignHeight": 18.0,
+      "Size": {
+        "X": 6,
+        "Y": 3
+      },
+    "FadeWhenBehind": true,
+    "SourceRect": {
+      "X": 0,
+      "Y": 0,
+      "Width": 96,
+      "Height": 112
+    },
+    "SeasonOffset": {
+      "X": 0,
+      "Y": 0
+    },
+    "DrawOffset": "0, 0",
+    "SortTileOffset": 0.0,
+    "CollisionMap": null,
+    "AdditionalPlacementTiles": null,
+    "BuildingType": null,
+    "Builder": "Robin",
+    "BuildCondition": null,
+    "BuildDays": 2,
+    "BuildCost": 40000,
+    "BuildMaterials": [
+      {
+        "ItemId": "(O)388",
+        "Amount": 650
+      },
+      {
+        "ItemId": "(O)709",
+        "Amount": 300
+      },
+      {
+        "ItemId": "(O)390",
+        "Amount": 400
+      }
+    ],
+    "BuildingToUpgrade": "Deluxe Coop",
+    "MagicalConstruction": false,
+    "BuildMenuDrawOffset": {
+      "X": 0,
+      "Y": 0
+    },
+    "HumanDoor": {
+      "X": 1,
+      "Y": 2
+    },
+    "AnimalDoor": {
+      "X": 2,
+      "Y": 2,
+      "Width": 1,
+      "Height": 1
+    },
+    "AnimalDoorOpenDuration": 0.3125,
+    "AnimalDoorOpenSound": "doorCreak",
+    "AnimalDoorCloseDuration": 0.3125,
+    "AnimalDoorCloseSound": "doorCreakReverse",
+    "NonInstancedIndoorLocation": null,
+    "IndoorMap": "Amichwan.More.upgrades_Coop4",
+    "IndoorMapType": "StardewValley.AnimalHouse",
+    "MaxOccupants": 16,
+    "ValidOccupantTypes": [
+      "Coop"
+    ],
+    "AllowAnimalPregnancy": false,
+   "IndoorItemMoves": [
+    {
+      "Id": "Default_KeepAlongWall_Top",
+      "Source": {
+        "X": 14,
+        "Y": 4
+      },
+      "Destination": {
+        "X": 20,
+        "Y": 4
+      },
+      "Size": {
+        "X": 1,
+        "Y": 1
+      },
+      "UnlessItemId": null
+    },
+    {
+      "Id": "Default_KeepAlongWall_Middle",
+      "Source": {
+        "X": 14,
+        "Y": 7
+      },
+      "Destination": {
+        "X": 21,
+        "Y": 7
+      },
+      "Size": {
+        "X": 1,
+        "Y": 1
+      },
+      "UnlessItemId": null
+    },
+    {
+      "Id": "Default_KeepAlongWall_Bottom",
+      "Source": {
+        "X": 14,
+        "Y": 8
+      },
+      "Destination": {
+        "X": 21,
+        "Y": 8
+      },
+      "Size": {
+        "X": 1,
+        "Y": 1
+      },
+      "UnlessItemId": null
+    }
+    ],
+    "IndoorItems": [
+      {
+        "Id": "Default_FeedHopper",
+        "ItemId": "(BC)99",
+        "Tile": {
+          "X": 3,
+          "Y": 3
+        },
+        "Indestructible": true
+      },
+      {
+        "Id": "Default_Incubator",
+        "ItemId": "(BC)101",
+        "Tile": {
+          "X": 2,
+          "Y": 3
+        },
+        "Indestructible": true
+      },
+      {
+        "Id": "Default_Incubator",
+        "ItemId": "(BC)101",
+        "Tile": {
+          "X": 1,
+          "Y": 4
+        },
+        "Indestructible": true
+      }
+    ],
+    "AddMailOnBuild": [
+      "incubator"
+    ],
+    "Metadata": {},
+    "ModData": {},
+    "HayCapacity": 0,
+    "Chests": null,
+    "DefaultAction": null,
+    "AdditionalTilePropertyRadius": 0,
+    "AllowsFlooringUnderneath": true,
+    "ActionTiles": [],
+    "TileProperties": [],
+    "ItemConversions": null,
+    "DrawLayers": [
+      {
+        "Id": "Default_AnimalDoor",
+        "Texture": null,
+        "SourceRect": {
+          "X": 0,
+          "Y": 112,
+          "Width": 16,
+          "Height": 16
+        },
+        "DrawPosition": "32, 96",
+        "DrawInBackground": false,
+        "SortTileOffset": 0.02,
+        "OnlyDrawIfChestHasContents": null,
+        "FrameDuration": 90,
+        "FrameCount": 1,
+        "FramesPerRow": -1,
+        "AnimalDoorOffset": {
+          "X": 0,
+          "Y": -13
+        }
+      },
+      {
+        "Id": "Default_AnimalDoor_Open",
+        "Texture": null,
+        "SourceRect": {
+          "X": 16,
+          "Y": 112,
+          "Width": 16,
+          "Height": 16
+        },
+        "DrawPosition": "32, 96",
+        "DrawInBackground": false,
+        "SortTileOffset": 1.0,
+        "OnlyDrawIfChestHasContents": null,
+        "FrameDuration": 90,
+        "FrameCount": 1,
+        "FramesPerRow": -1,
+        "AnimalDoorOffset": {
+          "X": 0,
+          "Y": 0
+        }
+      }
+    ],
+    "CustomFields": null
+  }
+ }
+},   
+// Premium Coop
+{
+  "LogName": "Create Premium Coop",
+  "Action": "EditData",
+  "Target": "Data/Buildings",
+  "When": {
+"Super Coop": "True"
+  },
+  "Entries": {
+    "{{ModId}}_PremiumCoop": {
+      "ID": "{{i18n: PremiumCoopName}}",
+      "Name": "{{i18n: PremiumCoopName}}",
+      "Description": "{{i18n: PremiumCoopDescription}}",
+      "Texture": "Buildings\\Deluxe Coop",
+      "Skins": [],
+      "DrawShadow": true,
+      "UpgradeSignTile": "2, 2",
+      "UpgradeSignHeight": 18.0,
+      "Size": {
+        "X": 6,
+        "Y": 3
+      },
+    "FadeWhenBehind": true,
+    "SourceRect": {
+      "X": 0,
+      "Y": 0,
+      "Width": 96,
+      "Height": 112
+    },
+    "SeasonOffset": {
+      "X": 0,
+      "Y": 0
+    },
+    "DrawOffset": "0, 0",
+    "SortTileOffset": 0.0,
+    "CollisionMap": null,
+    "AdditionalPlacementTiles": null,
+    "BuildingType": null,
+    "Builder": "Robin",
+    "BuildCondition": null,
+    "BuildDays": 2,
+    "BuildCost": 80000,
+    "BuildMaterials": [
+      {
+        "ItemId": "(O)388",
+        "Amount": 850
+      },
+      {
+        "ItemId": "(O)709",
+        "Amount": 500
+      },
+      {
+        "ItemId": "(O)390",
+        "Amount": 600
+      }
+    ],
+    "BuildingToUpgrade": "Amichwan.More.upgrades_SuperCoop",
+    "MagicalConstruction": false,
+    "BuildMenuDrawOffset": {
+      "X": 0,
+      "Y": 0
+    },
+    "HumanDoor": {
+      "X": 1,
+      "Y": 2
+    },
+    "AnimalDoor": {
+      "X": 2,
+      "Y": 2,
+      "Width": 1,
+      "Height": 1
+    },
+    "AnimalDoorOpenDuration": 0.3125,
+    "AnimalDoorOpenSound": "doorCreak",
+    "AnimalDoorCloseDuration": 0.3125,
+    "AnimalDoorCloseSound": "doorCreakReverse",
+    "NonInstancedIndoorLocation": null,
+    "IndoorMap": "Amichwan.More.upgrades_Coop5",
+    "IndoorMapType": "StardewValley.AnimalHouse",
+    "MaxOccupants": 20,
+    "ValidOccupantTypes": [
+      "Coop"
+    ],
+    "AllowAnimalPregnancy": false,
+   "IndoorItemMoves": [
+    {
+      "Id": "Default_KeepAlongWall_Top",
+      "Source": {
+        "X": 14,
+        "Y": 4
+      },
+      "Destination": {
+        "X": 20,
+        "Y": 4
+      },
+      "Size": {
+        "X": 1,
+        "Y": 1
+      },
+      "UnlessItemId": null
+    },
+    {
+      "Id": "Default_KeepAlongWall_Middle",
+      "Source": {
+        "X": 14,
+        "Y": 7
+      },
+      "Destination": {
+        "X": 21,
+        "Y": 7
+      },
+      "Size": {
+        "X": 1,
+        "Y": 1
+      },
+      "UnlessItemId": null
+    },
+    {
+      "Id": "Default_KeepAlongWall_Bottom",
+      "Source": {
+        "X": 14,
+        "Y": 8
+      },
+      "Destination": {
+        "X": 21,
+        "Y": 8
+      },
+      "Size": {
+        "X": 1,
+        "Y": 1
+      },
+      "UnlessItemId": null
+    }
+    ],
+    "IndoorItems": [
+      {
+        "Id": "Default_FeedHopper",
+        "ItemId": "(BC)99",
+        "Tile": {
+          "X": 3,
+          "Y": 3
+        },
+        "Indestructible": true
+      },
+      {
+        "Id": "Default_Incubator",
+        "ItemId": "(BC)101",
+        "Tile": {
+          "X": 2,
+          "Y": 3
+        },
+        "Indestructible": true
+      },
+      {
+        "Id": "Default_Incubator",
+        "ItemId": "(BC)101",
+        "Tile": {
+          "X": 1,
+          "Y": 4
+        },
+        "Indestructible": true
+      },
+      {
+        "Id": "Default_Auto-Petter",
+        "ItemId": "(BC)272",
+        "Tile": {
+          "X": 1,
+          "Y": 5
+        },
+        "Indestructible": true
+      }
+    ],
+    "AddMailOnBuild": [
+      "incubator"
+    ],
+    "Metadata": {},
+    "ModData": {},
+    "HayCapacity": 0,
+    "Chests": null,
+    "DefaultAction": null,
+    "AdditionalTilePropertyRadius": 0,
+    "AllowsFlooringUnderneath": true,
+    "ActionTiles": [],
+    "TileProperties": [],
+    "ItemConversions": null,
+    "DrawLayers": [
+      {
+        "Id": "Default_AnimalDoor",
+        "Texture": null,
+        "SourceRect": {
+          "X": 0,
+          "Y": 112,
+          "Width": 16,
+          "Height": 16
+        },
+        "DrawPosition": "32, 96",
+        "DrawInBackground": false,
+        "SortTileOffset": 0.02,
+        "OnlyDrawIfChestHasContents": null,
+        "FrameDuration": 90,
+        "FrameCount": 1,
+        "FramesPerRow": -1,
+        "AnimalDoorOffset": {
+          "X": 0,
+          "Y": -13
+        }
+      },
+      {
+        "Id": "Default_AnimalDoor_Open",
+        "Texture": null,
+        "SourceRect": {
+          "X": 16,
+          "Y": 112,
+          "Width": 16,
+          "Height": 16
+        },
+        "DrawPosition": "32, 96",
+        "DrawInBackground": false,
+        "SortTileOffset": 1.0,
+        "OnlyDrawIfChestHasContents": null,
+        "FrameDuration": 90,
+        "FrameCount": 1,
+        "FramesPerRow": -1,
+        "AnimalDoorOffset": {
+          "X": 0,
+          "Y": 0
+        }
+      }
+    ],
+    "CustomFields": null
+  }
+ }
+},
+// Big Silo
+{
+  "LogName": "Create Big Silo",
+  "Action": "EditData",
+  "Target": "Data/Buildings",
+  "When": {
+"Big Silo": "True"
+  },
+  "Entries": {
+    "{{ModId}}_BigSilo": {
+      "ID": "{{i18n: BigSiloName}}",
+      "Name": "{{i18n: BigSiloName}}",
+      "Description": "{{i18n: BigSiloDescription}}",
+      "Texture": "Buildings\\Silo",
+      "Skins": [],
+      "DrawShadow": true,
+      "UpgradeSignTile": "1, 2",
+      "UpgradeSignHeight": 16.0,
+      "Size": {
+        "X": 3,
+        "Y": 3
+      },
+      "FadeWhenBehind": true,
+      "SourceRect": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "SeasonOffset": {
+        "X": 0,
+        "Y": 0
+      },
+      "DrawOffset": "0, 0",
+      "SortTileOffset": 0.0,
+      "CollisionMap": null,
+      "AdditionalPlacementTiles": null,
+      "BuildingType": null,
+      "Builder": "Robin",
+      "BuildCondition": null,
+      "BuildDays": 2,
+      "BuildCost": 1000,
+      "BuildMaterials": [
+        {
+          "ItemId": "(O)390",
+          "Amount": 200
+        },
+        {
+          "ItemId": "(O)330",
+          "Amount": 50
+        },
+        {
+          "ItemId": "(O)335",
+          "Amount": 10
+        }
+      ],
+      "BuildingToUpgrade": "Silo",
+      "MagicalConstruction": false,
+      "BuildMenuDrawOffset": {
+        "X": 0,
+        "Y": 0
+      },
+      "HumanDoor": {
+        "X": -1,
+        "Y": -1
+      },
+      "AnimalDoor": {
+        "X": -1,
+        "Y": -1,
+        "Width": 0,
+        "Height": 0
+      },
+      "AnimalDoorOpenDuration": 0.0,
+      "AnimalDoorOpenSound": null,
+      "AnimalDoorCloseDuration": 0.0,
+      "AnimalDoorCloseSound": null,
+      "NonInstancedIndoorLocation": null,
+      "IndoorMap": null,
+      "IndoorMapType": null,
+      "MaxOccupants": 20,
+      "ValidOccupantTypes": [],
+      "AllowAnimalPregnancy": false,
+      "IndoorItemMoves": null,
+      "IndoorItems": null,
+      "AddMailOnBuild": null,
+      "Metadata": {},
+      "ModData": {},
+      "HayCapacity": 480,
+      "Chests": null,
+      "DefaultAction": "BuildingSilo",
+      "AdditionalTilePropertyRadius": 0,
+      "AllowsFlooringUnderneath": true,
+      "ActionTiles": [],
+      "TileProperties": [],
+      "ItemConversions": null,
+      "DrawLayers": null,
+      "CustomFields": null
+    }
+  }
+},
+// Deluxe Silo
+{
+"LogName": "Create Deluxe Silo",
+"Action": "EditData",
+"Target": "Data/Buildings",
+"When": {
+"Deluxe Silo": "True"
+},
+"Entries": {
+"{{ModId}}_DeluxeSilo": {
+  "ID": "{{i18n: DeluxeSiloName}}",
+  "Name": "{{i18n: DeluxeSiloName}}",
+  "Description": "{{i18n: DeluxeSiloDescription}}",
+  "Texture": "Buildings\\Silo",
+  "Skins": [],
+  "DrawShadow": true,
+  "UpgradeSignTile": "1, 2",
+  "UpgradeSignHeight": 16.0,
+  "Size": {
+    "X": 3,
+    "Y": 3
+  },
+  "FadeWhenBehind": true,
+  "SourceRect": {
+    "X": 0,
+    "Y": 0,
+    "Width": 0,
+    "Height": 0
+  },
+  "SeasonOffset": {
+    "X": 0,
+    "Y": 0
+  },
+  "DrawOffset": "0, 0",
+  "SortTileOffset": 0.0,
+  "CollisionMap": null,
+  "AdditionalPlacementTiles": null,
+  "BuildingType": null,
+  "Builder": "Robin",
+  "BuildCondition": null,
+  "BuildDays": 2,
+  "BuildCost": 3000,
+  "BuildMaterials": [
+    {
+      "ItemId": "(O)390",
+      "Amount": 300
+    },
+    {
+      "ItemId": "(O)330",
+      "Amount": 10
+    },
+    {
+      "ItemId": "(O)336",
+      "Amount": 20
+    }
+  ],
+  "BuildingToUpgrade": "Amichwan.More.upgrades_BigSilo",
+  "MagicalConstruction": false,
+  "BuildMenuDrawOffset": {
+    "X": 0,
+    "Y": 0
+  },
+  "HumanDoor": {
+    "X": -1,
+    "Y": -1
+  },
+  "AnimalDoor": {
+    "X": -1,
+    "Y": -1,
+    "Width": 0,
+    "Height": 0
+  },
+  "AnimalDoorOpenDuration": 0.0,
+  "AnimalDoorOpenSound": null,
+  "AnimalDoorCloseDuration": 0.0,
+  "AnimalDoorCloseSound": null,
+  "NonInstancedIndoorLocation": null,
+  "IndoorMap": null,
+  "IndoorMapType": null,
+  "MaxOccupants": 20,
+  "ValidOccupantTypes": [],
+  "AllowAnimalPregnancy": false,
+  "IndoorItemMoves": null,
+  "IndoorItems": null,
+  "AddMailOnBuild": null,
+  "Metadata": {},
+  "ModData": {},
+  "HayCapacity": 720,
+  "Chests": null,
+  "DefaultAction": "BuildingSilo",
+  "AdditionalTilePropertyRadius": 0,
+  "AllowsFlooringUnderneath": true,
+  "ActionTiles": [],
+  "TileProperties": [],
+  "ItemConversions": null,
+  "DrawLayers": null,
+  "CustomFields": null
+}
+}
+},
+// Deluxe Shed
+{
+  "LogName": "Create Deluxe Shed",
+  "Action": "EditData",
+  "Target": "Data/Buildings",
+  "When": {
+"Deluxe Shed": "True"
+  },
+  "Entries": {
+    "{{ModId}}_DeluxeShed": {
+      "ID": "{{i18n: DeluxeShedName}}",
+      "Name": "{{i18n: DeluxeShedName}}",
+      "Description": "{{i18n: DeluxeShedDescription}}",
+      "Texture": "Buildings\\Big Shed",
+      "Skins": [],
+      "DrawShadow": true,
+    "UpgradeSignTile": "4.8125, 2",
+    "UpgradeSignHeight": 20.0,
+    "Size": {
+      "X": 7,
+      "Y": 3
+    },
+    "FadeWhenBehind": true,
+    "SourceRect": {
+      "X": 0,
+      "Y": 0,
+      "Width": 0,
+      "Height": 0
+    },
+    "SeasonOffset": {
+      "X": 0,
+      "Y": 0
+    },
+    "DrawOffset": "0, 0",
+    "SortTileOffset": 0.0,
+    "CollisionMap": null,
+    "AdditionalPlacementTiles": null,
+    "BuildingType": null,
+    "Builder": "Robin",
+    "BuildCondition": null,
+    "BuildDays": 2,
+    "BuildCost": 35000,
+    "BuildMaterials": [
+      {
+        "ItemId": "(O)388",
+        "Amount": 700
+      },
+      {
+        "ItemId": "(O)709",
+        "Amount": 300
+      },
+      {
+        "ItemId": "(O)390",
+        "Amount": 600
+      }
+    ],
+    "BuildingToUpgrade": "Big Shed",
+    "MagicalConstruction": false,
+    "BuildMenuDrawOffset": {
+      "X": 0,
+      "Y": 0
+    },
+    "HumanDoor": {
+      "X": 3,
+      "Y": 2
+    },
+    "AnimalDoor": {
+      "X": -1,
+      "Y": -1,
+      "Width": 0,
+      "Height": 0
+    },
+    "AnimalDoorOpenDuration": 0.0,
+    "AnimalDoorOpenSound": null,
+    "AnimalDoorCloseDuration": 0.0,
+    "AnimalDoorCloseSound": null,
+    "NonInstancedIndoorLocation": null,
+    "IndoorMap": "Amichwan.More.upgrades_Shed3",
+    "IndoorMapType": "StardewValley.Shed",
+    "MaxOccupants": 20,
+    "ValidOccupantTypes": [],
+    "AllowAnimalPregnancy": false,
+    "IndoorItemMoves": null,
+    "IndoorItems": null,
+    "AddMailOnBuild": null,
+    "Metadata": {},
+    "ModData": {},
+    "HayCapacity": 0,
+    "Chests": null,
+    "DefaultAction": null,
+    "AdditionalTilePropertyRadius": 0,
+    "AllowsFlooringUnderneath": true,
+    "ActionTiles": [],
+    "TileProperties": [],
+    "ItemConversions": null,
+    "DrawLayers": null,
+    "CustomFields": null
+  }
+ }
+},
+
+// Premium Shed
+{
+  "LogName": "Create Premium Shed",
+  "Action": "EditData",
+  "Target": "Data/Buildings",
+  "When": {
+"Premium Shed": "True"
+  },
+  "Entries": {
+    "{{ModId}}_PremiumShed": {
+      "ID": "{{i18n: PremiumShedName}}",
+      "Name": "{{i18n: PremiumShedName}}",
+      "Description": "{{i18n: PremiumShedDescription}}",
+      "Texture": "Buildings\\Big Shed",
+      "Skins": [],
+      "DrawShadow": true,
+    "UpgradeSignTile": "4.8125, 2",
+    "UpgradeSignHeight": 20.0,
+    "Size": {
+      "X": 7,
+      "Y": 3
+    },
+    "FadeWhenBehind": true,
+    "SourceRect": {
+      "X": 0,
+      "Y": 0,
+      "Width": 0,
+      "Height": 0
+    },
+    "SeasonOffset": {
+      "X": 0,
+      "Y": 0
+    },
+    "DrawOffset": "0, 0",
+    "SortTileOffset": 0.0,
+    "CollisionMap": null,
+    "AdditionalPlacementTiles": null,
+    "BuildingType": null,
+    "Builder": "Robin",
+    "BuildCondition": null,
+    "BuildDays": 2,
+    "BuildCost": 45000,
+    "BuildMaterials": [
+      {
+        "ItemId": "(O)388",
+        "Amount": 900
+      },
+      {
+        "ItemId": "(O)709",
+        "Amount": 500
+      },
+      {
+        "ItemId": "(O)390",
+        "Amount": 850
+      }
+    ],
+    "BuildingToUpgrade": "Amichwan.More.upgrades_DeluxeShed",
+    "MagicalConstruction": false,
+    "BuildMenuDrawOffset": {
+      "X": 0,
+      "Y": 0
+    },
+    "HumanDoor": {
+      "X": 3,
+      "Y": 2
+    },
+    "AnimalDoor": {
+      "X": -1,
+      "Y": -1,
+      "Width": 0,
+      "Height": 0
+    },
+    "AnimalDoorOpenDuration": 0.0,
+    "AnimalDoorOpenSound": null,
+    "AnimalDoorCloseDuration": 0.0,
+    "AnimalDoorCloseSound": null,
+    "NonInstancedIndoorLocation": null,
+    "IndoorMap": "Amichwan.More.upgrades_Shed4",
+    "IndoorMapType": "StardewValley.Shed",
+    "MaxOccupants": 20,
+    "ValidOccupantTypes": [],
+    "AllowAnimalPregnancy": false,
+    "IndoorItemMoves": null,
+    "IndoorItems": null,
+    "AddMailOnBuild": null,
+    "Metadata": {},
+    "ModData": {},
+    "HayCapacity": 0,
+    "Chests": null,
+    "DefaultAction": null,
+    "AdditionalTilePropertyRadius": 0,
+    "AllowsFlooringUnderneath": true,
+    "ActionTiles": [],
+    "TileProperties": [],
+    "ItemConversions": null,
+    "DrawLayers": null,
+    "CustomFields": null
+  }
+ }
+},  
+//Paint
+{
+  "LogName": "Adding Paint Data",
+  "Action": "EditData",
+  "Target": "Data/PaintData",
+  "Entries": {
+    "Amichwan.More.upgrades_PremiumShed": "Building/-45 -10/Roof/-20 5/Trim/-25 0",
+    "Amichwan.More.upgrades_PremiumCoop": "Building/-25 0/Roof/-15 5/Trim/-25 0",
+    "Amichwan.More.upgrades_PremiumBarn": "Building/-15 0/Roof/-10 5/Trim/-10 5",
+    "Amichwan.More.upgrades_DeluxeSilo": "Building/0 28/Roof/7 0/Trim/0 28"
+  }
+}
+  ]
+}

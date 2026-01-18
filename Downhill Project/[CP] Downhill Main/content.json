@@ -1,0 +1,133 @@
+{
+	"Format": "2.5.0", 	
+	"Changes": [
+		{	//Loads Strings Maps
+		"Action": "Include",
+		"FromFile": "Assets/StringsMaps.json"
+		},
+		{	//Loads Tiles
+        "Action": "Load",
+        "Target": "Maps/spring_DH.Tile, Maps/summer_DH.Tile, Maps/fall_DH.Tile, Maps/winter_DH.Tile",
+        "FromFile": "Assets/Tilesheets/{{TargetWithoutPath}}.png"
+        },
+		{
+        "Action": "Load",
+        "Target": "Maps/DH.Tile_Mine",
+        "FromFile": "Assets/Tilesheets/VanillaEdits/{{TargetWithoutPath}}.png"
+        },
+		{	//Load Map
+		"Action":"Load",
+		"Target":"Maps/Downhill, Maps/Fix.BusStop, Maps/Fix.BusStop.Sidewalk, Maps/Fix.Church, Maps/Fix.Statue, Maps/DH.Mine, Maps/DH.Church",
+		"FromFile":"Assets/{{TargetWithoutPath}}.tmx"
+		},
+		{
+		"Action":"Load",
+		"Target":"Maps/Fix.RSVCableCar, Maps/Fix.RSVCable",
+		"FromFile":"Assets/{{TargetWithoutPath}}.tmx",
+		"When": { "HasMod |contains=Rafseazz.RSVCP": true }
+		},
+		{
+		"Action":"Load",
+		"Target":"Maps/Fix.SVERailroad",
+		"FromFile":"Assets/{{TargetWithoutPath}}.tmx",
+        "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+		{	//Map Identification
+		"Action": "EditData",
+        "Target": "Data/Locations",
+        "Entries": { 
+			"Downhill": { "DisplayName": "{{i18n:Downhill}}", "CreateOnLoad": { "MapPath": "Maps\\Downhill" }, "ExcludeFromNpcPathfinding": false, "FormerLocationNames": [ "Custom_Downhill" ] },
+			"DH.Mine": { "DisplayName": "{{i18n:DH.Mine}}", "CreateOnLoad": { "MapPath": "Maps\\DH.Mine" }, "ExcludeFromNpcPathfinding": false, "FormerLocationNames": [ "Custom_DH.Mine" ] },
+			"DH.Church": { "DisplayName": "{{i18n:DH.Church}}", "CreateOnLoad": { "MapPath": "Maps\\DH.Church" }, "ExcludeFromNpcPathfinding": false, "FormerLocationNames": [ "Custom_DH.Church"] } 
+			}
+		},
+		{	//Event Map Downhill
+		"Action": "Load",
+		"Target": "Data/Events/Downhill, Data/Events/DH.Mine, Data/Events/DH.Church",
+		"FromFile": "Assets/Events.json"
+		},
+		{	//Edit of Maps Vanilla Properties
+        "Action": "EditMap",
+        "Target": "Maps/BusStop",
+        "TextOperations": [ { "Operation": "Append", "Target": [ "MapProperties", "Warp" ], "Value": "21 2 Downhill 28 80 20 2 Downhill 28 80 19 2 Downhill 28 80 18 2 Downhill 25 80 17 2 Downhill 22 80", "Delimiter": " " } ]
+		},
+		{
+        "Action": "EditMap",
+        "Target": "Maps/Mountain",
+        "TextOperations": [ { "Operation": "Append", "Target": [ "MapProperties", "Warp" ], "Value": "0 12 Downhill 81 32 0 13 Downhill 81 32 0 14 Downhill 81 32", "Delimiter": " " } ]
+        },
+		{
+        "Action": "EditMap",
+        "Target": "Maps/Backwoods",
+        "TextOperations": [ { "Operation": "Append", "Target": [ "MapProperties", "Warp" ], "Value": "49 10 Downhill 3 73 49 11 Downhill 3 73 49 12 Downhill 3 73 49 13 Downhill 3 73 49 14 Downhill 3 73 49 15 Downhill 3 73 49 16 Downhill 3 73 49 17 Downhill 3 73", "Delimiter": " " } ]
+        },
+		{	//Fix BusStop
+		"Action" : "EditMap", 
+		"Target" : "Maps/BusStop", 
+		"FromFile" : "Assets/Fix.BusStop.tmx",
+		"PatchMode" : "Replace",
+		"ToArea" : { "X" : 15, "Y" : 0, "Width" : 6, "Height" : 11 }
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/BusStop", 
+		"FromFile" : "Assets/Fix.BusStop.Sidewalk.tmx",
+		"PatchMode" : "Replace",
+		"ToArea" : { "X" : 21, "Y" : 0, "Width" : 2, "Height" : 6 }
+		},
+		{	//Fix Ridgeside
+		"Action" : "EditMap", 
+		"Target" : "Maps/Downhill", 
+		"FromFile" : "Assets/Fix.RSVCableCar.tmx",
+		"PatchMode" : "Replace",
+		"ToArea" : { "X" : 40, "Y" : 63, "Width" : 16, "Height" : 21 },
+		"When": { "HasMod |contains=Rafseazz.RSVCP": true }
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Downhill", 
+		"FromFile" : "Assets/Fix.RSVCable.tmx",
+		"PatchMode" : "Overlay",
+		"ToArea" : { "X" : 0, "Y" : 60, "Width" : 41, "Height" : 14 },
+		"When": { "HasMod |contains=Rafseazz.RSVCP": true }
+		},
+		{
+        "Action": "EditMap",
+        "Target": "Maps/Downhill",
+        "TextOperations": [ { "Operation": "Append", "Target": [ "MapProperties", "Light" ], "Value": "52 74 6 47 83 4", "Delimiter": " " }, { "Operation": "Append", "Target": [ "MapProperties", "DayTiles" ], "Value": "AlwaysFront 52 73 907 AlwaysFront 47 83 907", "Delimiter": " " }, { "Operation": "Append", "Target": [ "MapProperties", "NightTiles" ], "Value": "AlwaysFront 52 73 908 AlwaysFront 47 83 908", "Delimiter": " " } ],
+        "When": { "HasMod |contains=Rafseazz.RSVCP": true }
+		},
+		{	//Fix Expanded
+		"Action" : "EditMap", 
+		"Target" : "Maps/Downhill", 
+		"FromFile" : "Assets/Fix.SVERailroad.tmx",
+		"PatchMode" : "Replace",
+		"ToArea" : { "X" : 60, "Y" : 0, "Width" : 24, "Height" : 12 },
+		"When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+		{
+        "Action": "EditMap",
+        "Target": "Maps/Downhill",
+        "TextOperations": [ { "Operation": "Append", "Target": [ "MapProperties", "Light" ], "Value": "65 7 4", "Delimiter": " " }, { "Operation": "Append", "Target": [ "MapProperties", "DayTiles" ], "Value": "AlwaysFront 65 6 907", "Delimiter": " " }, { "Operation": "Append", "Target": [ "MapProperties", "NightTiles" ], "Value": "AlwaysFront 65 6 908", "Delimiter": " " } ],
+        "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+		{	//Fix Downhill
+		"Action" : "EditMap", 
+		"Target" : "Maps/Downhill", 
+		"FromFile" : "Assets/Fix.Church.tmx",
+		"PatchMode" : "Replace",
+		"ToArea" : { "X" : 39, "Y" : 29, "Width" : 13, "Height" : 15 },
+		"When": { "HasSeenEvent: anyPlayer|contains=28645005": true },
+		"Update": "OnDayStart"
+		},
+		{
+		"Action" : "EditMap", 
+		"Target" : "Maps/Downhill", 
+		"FromFile" : "Assets/Fix.Statue.tmx",
+		"PatchMode" : "Replace",
+		"ToArea" : { "X" : 34, "Y" : 34, "Width" : 3, "Height" : 5 },
+		"When": { "HasSeenEvent: anyPlayer|contains=28645005": true },
+		"Update": "OnDayStart"
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+    "Name": "More upgrades",
+    "Author": "Amichwan",
+    "Version": "1.0.5",
+    "UniqueID": "Amichwan.More.upgrades",
+    "MinimumApiVersion": "4.0.0",
+    "Description": "Adds new upgrades to different buildings.",
+    "UpdateKeys": [ "Nexus: 38430" ],
+     "ContentPackFor": {
+         "UniqueID": "Pathoschild.ContentPatcher"
+    }
+  }

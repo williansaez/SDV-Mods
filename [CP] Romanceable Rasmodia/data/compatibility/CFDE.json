@@ -1,0 +1,33 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Krobus",
+            "Entries": {
+                "AcceptGift_(O)373": "{{i18n: CFE_Krobus_GoldPumpkin}}",
+                "Tue8": "{{i18n: CFE_Krobus_Tue8}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogueKrobus",
+            "Entries": {
+                "Rainy_Day_2": "{{i18n: CFE_Krobus_Married_RainyDay_{{Random: 5,6}}}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Linus",
+            "Entries": {
+                "winter_Wed8": "{{i18n: CFE_Linus_winterWed8}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Wizard",
+            "Entries": {
+                "summer_Wed10": "{{i18n: CFE_Wizard_summerWed10}}"
+            }
+        }
+    ]
+}

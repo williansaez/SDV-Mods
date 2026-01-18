@@ -1,0 +1,12 @@
+{
+	"Changes": [
+		{
+        "Action": "EditData",
+        "Target": "Data/Quests",
+        "Entries": {
+			"111": "ItemDelivery/{{i18n:111.title}}/{{i18n:111.text}}/{{i18n:111.objective}}/Wizard 769/-1/1000/-1/true/{{i18n:111.reaction {{expressionList}} }}",
+		    "123": "ItemDelivery/{{i18n:123.title}}/{{i18n:123.text}}/{{i18n:123.objective}}/Wizard 337/-1/5000/-1/true/{{i18n:123.reaction {{expressionList}} }}",
+			},
+        },
+	]
+}

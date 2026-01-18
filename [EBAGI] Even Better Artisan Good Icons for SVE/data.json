@@ -1,0 +1,10 @@
+﻿{
+  "Fruits": [ "Dewdrop Berry", "Joja Berry", "Monster Fruit", "Slime Berry", "Bearberrys", "Red Baneberry", "Salal Berry", "Nectarine", "Pear", "Persimmon" ],
+  "Vegetables": [ "Joja Veggie", "Monster Mushroom", "Void Root", "Ancient Fiber", "Butternut Squash", "Cucumber", "Gold Carrot", "Sweet Potato" ],
+  "Flowers": null,
+  "Honey": null,
+  "Jelly": "assets/jelly.png",
+  "Juice": "assets/juice.png",
+  "Pickles": "assets/pickles.png",
+  "Wine": "assets/wine.png"
+}

@@ -1,0 +1,209 @@
+{
+  "Changes": [
+    // Big Silo
+    {
+      "LogName": "Create Big Silo",
+      "Action": "EditData",
+      "Target": "Data/Buildings",
+      "When": {
+        "Big Silo": "True"
+      },
+      "Entries": {
+        "{{ModId}}_BigSilo": {
+          "ID": "{{i18n: BigSiloName}}",
+          "Name": "{{i18n: BigSiloName}}",
+          "Description": "{{i18n: BigSiloDescription}}",
+          "Texture": "Buildings\\Silo",
+          "Skins": [],
+          "DrawShadow": true,
+          "UpgradeSignTile": "1, 2",
+          "UpgradeSignHeight": 16.0,
+          "Size": {
+            "X": 3,
+            "Y": 3
+          },
+          "FadeWhenBehind": true,
+          "SourceRect": {
+            "X": 0,
+            "Y": 0,
+            "Width": 0,
+            "Height": 0
+          },
+          "SeasonOffset": {
+            "X": 0,
+            "Y": 0
+          },
+          "DrawOffset": "0, 0",
+          "SortTileOffset": 0.0,
+          "CollisionMap": null,
+          "AdditionalPlacementTiles": null,
+          "BuildingType": null,
+          "Builder": "Robin",
+          "BuildCondition": null,
+          "BuildDays": "{{BigSilo_BuildDays}}",
+          "BuildCost": "{{BigSilo_BuildCost}}",
+          "BuildMaterials": [
+            {
+              "ItemId": "(O)390",
+              "Amount": "{{BigSilo_StoneAmount}}"
+            },
+            {
+              "ItemId": "(O)330",
+              "Amount": "{{BigSilo_ClayAmount}}"
+            },
+            {
+              "ItemId": "(O)335",
+              "Amount": "{{BigSilo_IronBarAmount}}"
+            }
+          ],
+          "BuildingToUpgrade": "Silo",
+          "MagicalConstruction": false,
+          "BuildMenuDrawOffset": {
+            "X": 0,
+            "Y": 0
+          },
+          "HumanDoor": {
+            "X": -1,
+            "Y": -1
+          },
+          "AnimalDoor": {
+            "X": -1,
+            "Y": -1,
+            "Width": 0,
+            "Height": 0
+          },
+          "AnimalDoorOpenDuration": 0.0,
+          "AnimalDoorOpenSound": null,
+          "AnimalDoorCloseDuration": 0.0,
+          "AnimalDoorCloseSound": null,
+          "NonInstancedIndoorLocation": null,
+          "IndoorMap": null,
+          "IndoorMapType": null,
+          "MaxOccupants": 20,
+          "ValidOccupantTypes": [],
+          "AllowAnimalPregnancy": false,
+          "IndoorItemMoves": null,
+          "IndoorItems": null,
+          "AddMailOnBuild": null,
+          "Metadata": {},
+          "ModData": {
+            "Pathoschild.Automate/IsAutomationIgnored": "false"
+          },
+          "HayCapacity": 480,
+          "Chests": null,
+          "DefaultAction": "BuildingSilo",
+          "AdditionalTilePropertyRadius": 0,
+          "AllowsFlooringUnderneath": true,
+          "ActionTiles": [],
+          "TileProperties": [],
+          "ItemConversions": null,
+          "DrawLayers": null,
+          "CustomFields": null
+        }
+      }
+    },
+
+    // Deluxe Silo
+    {
+      "LogName": "Create Deluxe Silo",
+      "Action": "EditData",
+      "Target": "Data/Buildings",
+      "When": {
+        "Deluxe Silo": "True"
+      },
+      "Entries": {
+        "{{ModId}}_DeluxeSilo": {
+          "ID": "{{i18n: DeluxeSiloName}}",
+          "Name": "{{i18n: DeluxeSiloName}}",
+          "Description": "{{i18n: DeluxeSiloDescription}}",
+          "Texture": "Buildings\\Silo",
+          "Skins": [],
+          "DrawShadow": true,
+          "UpgradeSignTile": "1, 2",
+          "UpgradeSignHeight": 16.0,
+          "Size": {
+            "X": 3,
+            "Y": 3
+          },
+          "FadeWhenBehind": true,
+          "SourceRect": {
+            "X": 0,
+            "Y": 0,
+            "Width": 0,
+            "Height": 0
+          },
+          "SeasonOffset": {
+            "X": 0,
+            "Y": 0
+          },
+          "DrawOffset": "0, 0",
+          "SortTileOffset": 0.0,
+          "CollisionMap": null,
+          "AdditionalPlacementTiles": null,
+          "BuildingType": null,
+          "Builder": "Robin",
+          "BuildCondition": null,
+          "BuildDays": "{{DeluxeSilo_BuildDays}}",
+          "BuildCost": "{{DeluxeSilo_BuildCost}}",
+          "BuildMaterials": [
+            {
+              "ItemId": "(O)390",
+              "Amount": "{{DeluxeSilo_StoneAmount}}"
+            },
+            {
+              "ItemId": "(O)330",
+              "Amount": "{{DeluxeSilo_ClayAmount}}"
+            },
+            {
+              "ItemId": "(O)336",
+              "Amount": "{{DeluxeSilo_GoldBarAmount}}"
+            }
+          ],
+          "BuildingToUpgrade": "Amichwan.More.upgrades_BigSilo",
+          "MagicalConstruction": false,
+          "BuildMenuDrawOffset": {
+            "X": 0,
+            "Y": 0
+          },
+          "HumanDoor": {
+            "X": -1,
+            "Y": -1
+          },
+          "AnimalDoor": {
+            "X": -1,
+            "Y": -1,
+            "Width": 0,
+            "Height": 0
+          },
+          "AnimalDoorOpenDuration": 0.0,
+          "AnimalDoorOpenSound": null,
+          "AnimalDoorCloseDuration": 0.0,
+          "AnimalDoorCloseSound": null,
+          "NonInstancedIndoorLocation": null,
+          "IndoorMap": null,
+          "IndoorMapType": null,
+          "MaxOccupants": 20,
+          "ValidOccupantTypes": [],
+          "AllowAnimalPregnancy": false,
+          "IndoorItemMoves": null,
+          "IndoorItems": null,
+          "AddMailOnBuild": null,
+          "Metadata": {},
+          "ModData": {
+            "Pathoschild.Automate/IsAutomationIgnored": "false"
+          },
+          "HayCapacity": 720,
+          "Chests": null,
+          "DefaultAction": "BuildingSilo",
+          "AdditionalTilePropertyRadius": 0,
+          "AllowsFlooringUnderneath": true,
+          "ActionTiles": [],
+          "TileProperties": [],
+          "ItemConversions": null,
+          "DrawLayers": null,
+          "CustomFields": null
+        }
+      }
+    }
+  ]
+}

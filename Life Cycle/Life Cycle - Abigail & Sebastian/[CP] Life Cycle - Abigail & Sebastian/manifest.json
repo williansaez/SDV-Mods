@@ -1,0 +1,10 @@
+{
+  "Name": "[CP] Life Cycle - Abigail & Sebastian",
+  "Author": "nraittanna",
+  "Version": "4.3.0",
+  "Description": "A mod that makes Stardew Valley NPCs more lively | Abigail and Sebastian version.",
+  "UniqueID": "nraittanna.LifeCycleAbigailSebastian",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

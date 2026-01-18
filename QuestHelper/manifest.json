@@ -1,0 +1,10 @@
+﻿{
+	"Name": "Quest Helper",
+	"Author": "aedenthorn",
+	"Version": "0.3.2",
+	"Description": "Quest Helper.",
+	"UniqueID": "aedenthorn.QuestHelper",
+	"EntryDll": "QuestHelper.dll",
+	"MinimumApiVersion": "4.0.0",
+	"UpdateKeys": [ "Nexus:41150" ]
+}

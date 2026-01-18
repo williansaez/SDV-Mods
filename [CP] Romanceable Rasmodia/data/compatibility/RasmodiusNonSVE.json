@@ -1,0 +1,113 @@
+{
+	"Changes": [
+		// 	M A I L	 
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				"wizardNap": "{{i18n:RomRas.wizardNap.text}}[#]{{i18n:RomRas.wizardNap.title}}",
+				"teachMagic": "{{i18n:RomRas.teachMagic.text}}[#]{{i18n:RomRas.teachMagic.title}}"
+			}
+		},
+		// STRINGS
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"Entries": {
+				"NPC.cs.4439": "{{i18n:RomRas.NPC.cs.4439}}",
+				"NPC.cs.4427": "{{i18n:RomRas.NPC.cs.4427}}",
+				"NPC.cs.4429": "{{i18n:RomRas.NPC.cs.4429}}"
+				},
+			"When": {
+				"Relationship:Wizard": "Married"
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"Spouseroom.15": "{{i18n:RomRas.Spouseroom.15}}"		
+			}
+		},
+		// DIALOGUE
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			"Entries": {
+				"spring_Mon10": "{{i18n:RomRas.spring_Mon10}}",
+				"winter_Sat6": "{{i18n:RomRas.winter_Sat6}}",
+				"winter_Fri10": "{{i18n:RomRas.winter_Fri10}}",
+				"winter_Mon10": "{{i18n:RomRas.winter_Mon10}}",
+				"spring_Fri6": "{{i18n:RomRas.spring_Fri6}}",
+				"winter_Wed6": "{{i18n:RomRas.winter_Wed6}}",
+				"ExtraDialogue_NewChild_SecondChild1": "{{i18n:RomRas.ExtraDialogue_NewChild_SecondChild1}}"
+				}
+		},
+		// MARRIAGE DIALOGUE
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueWizard",
+			"Entries": {
+				"Rainy_Day_1": "{{i18n:RomRas.Rainy_Day_1}}",
+				"TwoKids_0": "{{i18n:RomRas.TwoKids_0}}",
+				"TwoKids_2": "{{i18n:RomRas.TwoKids_2}}",
+				"TwoKids_3": "{{i18n:RomRas.TwoKids_3}}",
+				"winter_4": "{{i18n:RomRas.winter_4}}",
+				"Good_0": "{{i18n:RomRas.Good_0}}",
+				"Good_6": "{{i18n:RomRas.Good_6}}",
+				"Good_4": "{{i18n:RomRas.Good_4}}",
+				"winter_2": "{{i18n:RomRas.winter_2}}"
+			}
+		},
+
+		// FURNITURE
+		{
+			"Action": "EditImage",
+			"Target": "Mods/Wolf.RomRas/Rasmodius_Portrait",
+			"FromFile": "assets/Misc/Witch_PortraitFurniture.png"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Furniture",
+			"Entries": {
+                "Wolf.RomRas_RasmodiusPortrait": "RasmodiusPortrait/painting/2 2/2 2/1/999/-1/{{i18n:MagnusPortrait}}/0/Mods\\Wolf.RomRas\\Rasmodius_Portrait/true"
+			}
+		},
+
+		// EVENTS
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Forest",
+			"Entries": {
+				"3073003/f Wizard 1500/f Leah 500/w sunny/t 800 1600": "WizardSong/-1000 -1000/farmer 94 37 3 Leah 76 40 0 Wizard 66 40 1/skippable/viewport 77 40 true/pause 1000/faceDirection Leah 1/pause 200/faceDirection Leah 3/pause 200/speak Leah \"{{i18n:RomRas.6heart.0}}\"/pause 300/move Wizard 5 0 1/pause 200/speak Leah \"{{i18n:RomRas.6heart.1}}\"/pause 300/move Wizard 3 0 1/pause 200/speak Leah \"{{i18n:RomRas.6heart.2}}\"/pause 300/move Wizard 1 0 1/pause 100/move Leah 1 0 3/pause 200/speak Leah \"{{i18n:RomRas.6heart.3}}\"/pause 300/speak Wizard \"{{i18n:RomRas.6heart.4}}\"/pause 300/emote Leah 8/pause 300/speak Leah \"{{i18n:RomRas.6heart.5}}\"/pause 300/move Wizard 1 0 1/pause 200/speak Wizard \"{{i18n:RomRas.6heart.6}}\"/pause 300/move Leah 1 0 3/pause 200/speak Leah \"{{i18n:RomRas.6heart.7}}\"/pause 300/move Wizard 1 0 1/pause 200/speak Wizard \"{{i18n:RomRas.6heart.8}}\"/pause 200/emote Leah 40/pause 200/move Leah 1 0 3/pause 500/emote Wizard 40/pause 300/speed farmer 2/move farmer -10 0 3/faceDirection Leah 0/speak Leah \"{{i18n:RomRas.6heart.9}}\"/speed farmer 3/move farmer -6 0 3/move farmer 0 2 2/speak Leah \"{{i18n:RomRas.6heart.10}}\"/faceDirection Leah 3/pause 300/speak Wizard \"{{i18n:RomRas.6heart.11}}\"/speak Wizard \"{{i18n:RomRas.6heart.12}}\"/pause 300/speak Wizard \"{{i18n:RomRas.6heart.13}}\"/speak Wizard \"{{i18n:RomRas.6heart.14}}\"/pause 300/speak Leah \"{{i18n:RomRas.6heart.15}}\"/pause 300/speak Wizard \"{{i18n:RomRas.6heart.16}}\"/speak Leah \"{{i18n:RomRas.6heart.17}}\"/pause 500/speak Wizard \"{{i18n:RomRas.6heart.18}}\"/pause 300/emote Leah 40/pause 200/emote Wizard 40/pause 200/emote farmer 40/pause 300/speak Wizard \"{{i18n:RomRas.6heart.19}}\"/speak Wizard \"{{i18n:RomRas.6heart.20}}\"/pause 500/speak Wizard \"{{i18n:RomRas.6heart.21}}\"/pause 500/playSound shwip/faceDirection Wizard 3 true/pause 50/faceDirection Wizard 0 true/pause 50/faceDirection Wizard 1 true/pause 50/faceDirection Wizard 2 true/pause 50/showFrame Wizard 16/pause 500/playSound wand/warp Wizard -3000 -3000/specificTemporarySprite wizardWarp/pause 100/jump Leah/pause 200/faceDirection farmer 3/faceDirection Leah 1/pause 200/faceDirection Leah 3/pause 200/move Leah -1 0 3/speak Leah \"{{i18n:RomRas.6heart.22}}\"/pause 500/faceDirection Leah 0/faceDirection farmer 2/emote Leah 40/pause 100/emote farmer 40/pause 500/speak Leah \"{{i18n:RomRas.6heart.23}}\"/end"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/WizardHouse",
+			"Entries": {
+				"3073004/f Wizard 2000/t 600 2300": "WizardSong/7 17/farmer 8 24 0 Wizard 3 19 2/skippable/pause 1000/speak Wizard \"{{i18n:RomRas.8heart.0}}\"/pause 200/pause 200/speak Wizard \"{{i18n:RomRas.8heart.1}}\"/pause 500/speak Wizard \"{{i18n:RomRas.8heart.2}}\"/pause 500/speak Wizard \"{{i18n:RomRas.8heart.3}}\"/pause 300/emote Wizard 12/move farmer 0 -5 3/move farmer -3 0 3/pause 200/faceDirection Wizard 1/speak Wizard \"{{i18n:RomRas.8heart.4}}\"/pause 500/question fork1 \"{{i18n:RomRas.8heart.5}}\"/fork leaveWizard/pause 300/speak Wizard \"{{i18n:RomRas.8heart.6}}\"/pause 800/speak Wizard \"{{i18n:RomRas.8heart.7}}\"/pause 500/emote Wizard 12/speak Wizard \"{{i18n:RomRas.8heart.8}}\"/pause 500/speak Wizard \"{{i18n:RomRas.8heart.9}}\"/speed Wizard 3/move Wizard 0 -1 1/speed Wizard 3/move Wizard 5 0 1/faceDirection farmer 1/pause 300/emote Wizard 40/pause 1000/speed Wizard 3/move Wizard 0 -3 1/speed Wizard 3/move Wizard 3 0 1/pause 800/emote Wizard 12/pause 1000/faceDirection Wizard 2/pause 500/emote Wizard 40/pause 1000/question fork1 \"{{i18n:RomRas.8heart.10}}\"/fork leaveWizard/pause 1000/move farmer 0 -4 1/move farmer 5 0 1/faceDirection Wizard 3/emote Wizard 8/pause 1000/emote Wizard 40/pause 1500/speak Wizard \"{{i18n:RomRas.8heart.11}}\"/pause 1000/speak Wizard \"{{i18n:RomRas.8heart.12}}\"/pause 800/speak Wizard \"{{i18n:RomRas.8heart.13}}\"/pause 300/emote farmer 32/pause 1000/globalFade/viewport -1000 -1000/warp Wizard 21 17/showFrame Wizard 51/positionOffset Wizard -10 0 true/warp farmer 19 17/playMusic desolate/faceDirection farmer 1/viewport 18 17 true/pause 1000/speak Wizard \"{{i18n:RomRas.8heart.14}}\"/pause 500/emote farmer 8/pause 500/speak Wizard \"{{i18n:RomRas.8heart.15}}\"/pause 3000/emote Wizard 24/pause 1000/emote farmer 40/pause 1500/message \"{{i18n:RomRas.8heart.16}}\"/pause 1500/emote Wizard 24/pause 1500/message \"{{i18n:RomRas.8heart.17}}\"/pause 500/message \"{{i18n:RomRas.8heart.18}}\"/pause 1000/globalFade/viewport -1000 -1000/changeLocation WizardHouse/viewport -1000 -1000/mail wizardNap/friendship Wizard 250/end warpOut",
+				"leaveWizard": "pause 1000/message \"{{i18n:RomRas.8heart.leave.0}}\"/pause 500/emote Wizard 12/pause 400/speak Wizard \"{{i18n:RomRas.8heart.leave.1}}\"/pause 300/emote farmer 40/pause 1500/end dialogue Wizard \"{{i18n:RomRas.8heart.leave.2}}\"",
+				"3073012/n hasPickedUpMagicInk/o Wizard/k 3073013": "WizardSong/2 14/farmer 3 14 3 Wizard 1 14 1/skippable/pause 1000/speak Wizard \"{{i18n:RomRas.MagicInk.0}}\"/move Wizard 1 0 1/pause 1000/speak Wizard \"{{i18n:RomRas.MagicInk.1}}\"/faceDirection Wizard 2/pause 500/showFrame Wizard 18/pause 500/speak Wizard \"{{i18n:RomRas.MagicInk.2}}\"/pause 500/showFrame Wizard 0/emote Wizard 12/pause 500/faceDirection Wizard 3/pause 500/speak Wizard \"{{i18n:RomRas.MagicInk.3}}\"/pause 500/pause 500/faceDirection Wizard 2/pause 500/speak Wizard \"{{i18n:RomRas.MagicInk.4}}\"/move Wizard -1 0 1/pause 800/faceDirection Wizard 2/pause 1000/showFrame Wizard 16/pause 800/specificTemporarySprite arcaneBook/playSound fireball/shake Wizard 500/pause 4000/faceDirection farmer 0/faceDirection Wizard 1/faceDirection Wizard 0/pause 500/speak Wizard \"{{i18n:RomRas.MagicInk.5}}\"/pause 500/faceDirection farmer 3/faceDirection Wizard 1/speak Wizard \"{{i18n:RomRas.MagicInk.6}}\"/pause 1000/emote farmer 32/pause 800/end"
+				//"3073013/n hasPickedUpMagicInk/O Wizard/k 3073012": "sweet/2 16/farmer 8 24 0 Wizard 3 13 2/skippable/pause 1000/speak Wizard \"{{i18n:RomRas.MagicInk.Married.0}}\"/move farmer 0 -6 0/move farmer -6 0 3/move farmer 0 -4 1/move Wizard 0 1 3/positionOffset Wizard 0 2/pause 10/positionOffset Wizard 0 2/pause 10/positionOffset Wizard 0 2/pause 10/positionOffset Wizard 0 2/pause 10/positionOffset Wizard 0 2/pause 10/positionOffset Wizard 0 2/pause 1000/speak Wizard \"{{i18n:RomRas.MagicInk.Married.1}}\"/faceDirection Wizard 2/pause 500/showFrame Wizard 18/pause 500/speak Wizard \"{{i18n:RomRas.MagicInk.Married.2}}\"/pause 500/showFrame Wizard 0/pause 500/faceDirection Wizard 3/pause 500/speak Wizard \"{{i18n:RomRas.MagicInk.Married.3}}\"/pause 500/pause 500/faceDirection Wizard 3/pause 500/speak Wizard \"{{i18n:RomRas.MagicInk.Married.4}}\"/move Wizard 0 -1 2/pause 800/faceDirection farmer 0/pause 1000/showFrame Wizard 16/pause 800/specificTemporarySprite arcaneBook/playSound fireball/shake Wizard 500/pause 4000/faceDirection Wizard 3/pause 500/speak Wizard \"{{i18n:RomRas.MagicInk.Married.5}}\"/pause 500/move Wizard 0 1 3/positionOffset Wizard 0 2/pause 10/positionOffset Wizard 0 2/pause 10/positionOffset Wizard 0 2/pause 10/positionOffset Wizard 0 2/pause 10/positionOffset Wizard 0 2/pause 10/positionOffset Wizard 0 2/faceDirection farmer 1/speak Wizard \"{{i18n:RomRas.MagicInk.Married.6}}\"/pause 500/emote farmer 56/pause 500/speak Wizard \"{{i18n:RomRas.MagicInk.Married.7}}\"/pause 1000/showFrame Wizard 52/positionOffset Wizard -2 0/pause 10/positionOffset Wizard -2 0/pause 10/positionOffset Wizard -2 0/pause 10/positionOffset Wizard -2 0/pause 10/positionOffset Wizard -2 0/pause 10/animate farmer false true 100 101/pause 1000/specificTemporarySprite heart 3 13/pause 2000/stopAnimation farmer/showFrame Wizard 12/positionOffset Wizard 2 0/pause 50/positionOffset Wizard 2 0/pause 50/positionOffset Wizard 2 0/pause 500/speak Wizard \"{{i18n:RomRas.MagicInk.Married.8}}\"/pause 2000/globalFade/viewport -1000 -1000/end warpOut"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Railroad",
+			"Entries": {
+				"3073010/o Wizard/k 3073011 529952/C": "WizardSong/54 36/Wizard 54 36 0 farmer 50 40 1/addQuest 28/skippable/move farmer 1 0 0/move farmer 0 -4 1/faceDirection Wizard 3 true/move farmer 1 0 1/pause 800/faceDirection Wizard 0/pause 600/emote Wizard 40/pause 500/speak Wizard \"{{i18n:RomRas.InkStart.0}}\"/pause 800/faceDirection Wizard 3/pause 400/faceDirection Wizard 0/pause 400/speak Wizard \"{{i18n:RomRas.InkStart.1}}\"/pause 800/faceDirection Wizard 3 true/pause 50/faceDirection Wizard 2/pause 800/showFrame Wizard 18/pause 800/speak Wizard \"{{i18n:RomRas.InkStart.2}}\"/pause 500/showFrame Wizard 0/pause 800/faceDirection Wizard 3/speak Wizard \"{{i18n:RomRas.InkStart.3}}\"/pause 400/faceDirection Wizard 0/speak Wizard \"{{i18n:RomRas.InkStart.4}}\"/pause 1000/speak Wizard \"{{i18n:RomRas.InkStart.5}}\"/move Wizard -1 0 3/speak Wizard \"{{i18n:RomRas.InkStart.6}}\"/move Wizard 1 0 0/speak Wizard \"{{i18n:RomRas.InkStart.7}}\"/pause 500/faceDirection Wizard 3/speak Wizard \"{{i18n:RomRas.InkStart.8}}\"/pause 500/faceDirection Wizard 2/pause 500/showFrame Wizard 16/pause 500/playSound wand/warp Wizard -3000 -3000/specificTemporarySprite wizardWarp2/faceDirection farmer 2 true/showFrame farmer 94/pause 3000/showFrame farmer 0/specificTemporarySprite witchFlyby/pause 4000/end"
+				//"3073011/O Wizard/k 3073010 529952/C": "WizardSong/54 36/Wizard 54 36 0 farmer 50 40 1/skippable/move farmer 1 0 0/move farmer 0 -4 1/faceDirection Wizard 3 true/move farmer 1 0 1/pause 800/faceDirection Wizard 0/pause 600/emote Wizard 40/pause 500/speak Wizard \"{{i18n:RomRas.InkStart.Married.0}}\"/pause 800/faceDirection Wizard 3/pause 400/faceDirection Wizard 0/pause 400/speak Wizard \"{{i18n:RomRas.InkStart.Married.1}}\"/pause 800/faceDirection Wizard 3 true/pause 50/faceDirection Wizard 2/pause 800/showFrame Wizard 18/pause 800/speak Wizard \"{{i18n:RomRas.InkStart.Married.2}}\"/pause 500/showFrame Wizard 0/pause 800/faceDirection Wizard 3/speak Wizard \"{{i18n:RomRas.InkStart.Married.3}}\"/pause 400/faceDirection Wizard 0/speak Wizard \"{{i18n:RomRas.InkStart.Married.4}}\"/pause 1000/speak Wizard \"{{i18n:RomRas.InkStart.Married.5}}\"/move Wizard -1 0 3/speak Wizard \"{{i18n:RomRas.InkStart.Married.6}}\"/move Wizard 1 0 0/speak Wizard \"{{i18n:RomRas.InkStart.Married.7}}\"/faceDirection Wizard 3/pause 500/speak Wizard \"{{i18n:RomRas.InkStart.Married.8}}\"/pause 1000/question fork1 \"{{i18n:RomRas.InkStart.Married.9}}\"/fork rejectQuest/emote Wizard 20/pause 500/speak Wizard \"{{i18n:RomRas.InkStart.Married.10}}\"/pause 1000/speak Wizard \"{{i18n:RomRas.InkStart.Married.11}}\"/pause 500/move Wizard -1 0 3/speak Wizard \"{{i18n:RomRas.InkStart.Married.12}}\"/pause 500/animate Wizard true true 100 28/positionOffset Wizard -2 0/pause 10/positionOffset Wizard -2 0/pause 10/positionOffset Wizard -2 0/pause 10/positionOffset Wizard -2 0/pause 10/positionOffset Wizard -2 0/pause 10/positionOffset Wizard -2 0/pause 10/positionOffset Wizard -2 0/pause 10/positionOffset Wizard -2 0/pause 10/positionOffset Wizard -2 0/pause 10/positionOffset Wizard -2 0/pause 10/faceDirection farmer 1 true/animate farmer false true 100 101/pause 1000/pause 2000/stopAnimation farmer/stopAnimation Wizard 12/positionOffset Wizard 2 0/pause 10/positionOffset Wizard 2 0/pause 10/positionOffset Wizard 2 0/pause 10/positionOffset Wizard 2 0/pause 1500/speak Wizard \"{{i18n:RomRas.InkStart.Married.13}}\"/pause 500/faceDirection Wizard 2/pause 500/showFrame Wizard 16/pause 500/playSound wand/warp Wizard -3000 -3000/specificTemporarySprite wizardWarp2/faceDirection farmer 2 true/pause 3000/specificTemporarySprite witchFlyby/pause 4000/addQuest 28/friendship Wizard 100/end warpOut",
+				//"rejectQuest": "pause 1500/speak Wizard \"{{i18n:RomRas.InkStart.reject.0}}\"/pause 1000/speak Wizard \"{{i18n:RomRas.InkStart.reject.1}}\"/pause 500/faceDirection Wizard 2/pause 500/showFrame Wizard 16/pause 500/playSound wand/warp Wizard -3000 -3000/specificTemporarySprite wizardWarp2/faceDirection farmer 2 true/pause 3000/specificTemporarySprite witchFlyby/pause 4000/friendship Wizard -500/end warpOut"
+			}
+		}
+		/*
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Railroad",
+			"Entries": {
+				"3073009/f Wizard 3500/O Wizard/e 3073008/t 1900 2600" : "spaceMusic/-1000 -1000/farmer 10 29 0 Wizard 11 12 0/changeToTemporaryMap Wolf.RomRas_EventSummit/viewport 21 17/warp farmer 20 29/ warp Wizard 21 12/pause 1000/move farmer 0 -12 0/pause 1000/speak Wizard \"{{i18n:14hearts.Summit.0}}\"/move farmer 0 -2 0/move farmer -1 0 0/move farmer 0 -2 0/move farmer 1 0 0/move farmer 0 -1 0/quickQuestion {{i18n:14hearts.Summit.1}}(break)pause 100\\speak Wizard \"{{i18n:14hearts.Summit.2}}\"(break)pause 100\\emote Wizard 32\\pause 500\\speak Wizard \"{{i18n:14hearts.Summit.3}}\"(break)pause 100\\speak Wizard \"{{i18n:14hearts.Summit.4}}\"/pause 1000/speak Wizard \"{{i18n:14hearts.Summit.5}}\"/pause 500/faceDirection Wizard 3/pause 100/faceDirection farmer 1/pause 500/speak Wizard \"{{i18n:14hearts.Summit.6}}\"/quickQuestion {{i18n:14hearts.Summit.7}}(break)pause 100\\speak Wizard \"{{i18n:14hearts.Summit.8}}\"(break)pause 100\\speak Wizard \"{{i18n:14hearts.Summit.9}}\"(break)pause 100/pause 1000/speak Wizard \"{{i18n:14hearts.Summit.10}}\"/faceDirection Wizard 0/faceDirection farmer 0/pause 500/viewport move 0 -2 5000/speak Wizard \"{{i18n:14hearts.Summit.11}}\"/pause 500/faceDirection Wizard 3/faceDirection farmer 1/pause 500/speak Wizard \"{{i18n:14hearts.Summit.12}}\"/pause 500/emote farmer 32/pause 500/speak Wizard \"{{i18n:14hearts.Summit.13}}\"/pause 1000/speak Wizard \"{{i18n:14hearts.Summit.14}}\"/pause 1000/speak Wizard \"{{i18n:14hearts.Summit.15}}\"/playMusic starshoot/pause 500/emote farmer 20/pause 1000/speak Wizard \"{{i18n:14hearts.Summit.16}}\"/pause 1000/speak Wizard \"{{i18n:14hearts.Summit.17}}\"/pause 1000/speak Wizard \"{{i18n:14hearts.Summit.18}}\"/pause 500/showFrame Wizard 52/positionOffset Wizard -2 0/pause 20/positionOffset Wizard -2 0/pause 20/positionOffset Wizard -2 0/pause 20/positionOffset Wizard -2 0/pause 20/positionOffset Wizard -2 0/pause 20/positionOffset Wizard -2 0/pause 20/positionOffset Wizard -2 0/pause 20/positionOffset Wizard -2 0/pause 20/positionOffset Wizard -2 0/pause 20/positionOffset Wizard -2 0/pause 20/faceDirection farmer 1 true/animate farmer false true 100 101/pause 2000/globalFade/ viewport -1000 -1000/pause 500/speak Wizard \"{{i18n:14hearts.Summit.19}}\"/changeLocation Railroad/viewport 200 200/pause 1000/end warpOut"			}
+		}*/
+	]
+}

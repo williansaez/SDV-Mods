@@ -1,0 +1,20 @@
+{
+	"Changes": [
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Jade",
+		"Entries": {
+			"Thu": "{{i18n:dialogue.Thu}}"
+			}
+	},
+		
+	{
+        "Action": "EditData",
+        "Target": "Data/Events/Forest",
+        "Entries": {
+			"57960007/f Jade 2000/e 57960006/n jade8heartmail/t 2000 2100/w sunny/z winter": "Secret Gnomes/-100 -100/Jade 20 15 2 farmer 21 15 2 Emily 0 0 0 Abigail 0 0 0 Leah 0 0 0/viewport -200 -100/pause 1/changeToTemporaryMap Jade8HeartMap/viewport 21 14/bgColor 0 0 0/ambientLight 100 100 100/warp Jade 33 15/warp farmer 34 14/warp Emily 35 15/warp Leah 35 14/warp Abigail 34 15/viewport 21 16/pause 3000/speak Jade \"{{i18n:8heart.0.1}}\"/pause 500/speak Jade \"{{i18n:8heart.0.2}}\"/pause 500/message \"{{i18n:8heart.0.3}}\"/pause 250/move farmer -12 0 2 true/move Abigail -12 0 3 true/move Leah -11 0 3 true/move Emily -12 0 0 true/move Jade -12 0 0 false/move Jade 0 -2 2 true/move Abigail -1 0 0 true/move farmer 0 -1 2 false/pause 500/speak Abigail \"{{i18n:8heart.0.4}}\"/speak Jade \"{{i18n:8heart.0.5}}\"/speak Emily \"{{i18n:8heart.0.6}}\"/speak Abigail \"{{i18n:8heart.0.7}}\"/speak Emily \"{{i18n:8heart.0.8}}\"/shake Emily 500/pause 250/speak Jade \"{{i18n:8heart.0.9}}\"/pause 1000/speak Leah \"{{i18n:8heart.0.10}}\"/speak Jade \"{{i18n:8heart.0.11}}\"/pause 500/speak Abigail \"{{i18n:8heart.0.12}}\"/speak Jade \"{{i18n:8heart.0.13}}\"/speak Abigail \"{{i18n:8heart.0.14}}\"/speak Emily \"{{i18n:8heart.0.15}}\"/speed Abigail 4/move Emily -20 0 0 true/move Leah -20 0 0 true/move Abigail -20 0 3 false/pause 250/move Jade 0 -2 0 false/move Jade -3 0 2 false/move farmer -1 0 3 false/move farmer 0 -2 0 false/move farmer -2 0 2 false/pause 2000/message \"{{i18n:8heart.0.16}}\"/pause 1000/speak Jade \"{{i18n:8heart.0.17}}\"/pause 500/faceDirection Jade 1/pause 100/faceDirection farmer 3/pause 500/speak Jade \"{{i18n:8heart.0.18}}\"/pause 500/playMusic mermaidSong/pause 500/speak Jade \"{{i18n:8heart.0.19}}\"/pause 500/speak Jade \"{{i18n:8heart.0.20}}\"/pause 500/speak Jade \"{{i18n:8heart.0.21}}\"/pause 500/faceDirection Jade 2/pause 200/faceDirection farmer 2/pause 3000/message \"{{i18n:8heart.0.22}}\"/pause 3000/speak Jade \"{{i18n:8heart.0.23}}\"/pause 500/playSound stardrop/pause 500/addTemporaryActor 8heartjadefae1 16 32 -999 -999 0 false/addTemporaryActor 8heartjadefae2 16 32 -999 -999 0 false/addTemporaryActor 8heartjadefae3 16 32 -999 -999 0 false/addTemporaryActor 8heartjadefae4 16 32 -999 -999 0 false/showFrame 8heartjadefae1 19/showFrame 8heartjadefae2 19/showFrame 8heartjadefae3 19/showFrame 8heartjadefae4 19/warp 8heartjadefae1 19 17/warp 8heartjadefae2 20 17/warp 8heartjadefae3 21 17/warp 8heartjadefae4 22 17/animate 8heartjadefae1 false false 500 23 26 29 0/animate 8heartjadefae2 false false 500 23 26 29 0/animate 8heartjadefae3 false false 500 23 26 29 0/animate 8heartjadefae4 false false 500 23 26 29 0/pause 2000/animate 8heartjadefae1 false true 250 2 4 6 8 10 12 10 8 6 4 2 0/animate 8heartjadefae2 false true 250 2 4 6 8 10 12 10 8 6 4 2 0/animate 8heartjadefae3 false true 250 2 4 6 8 10 12 10 8 6 4 2 0/animate 8heartjadefae4 false true 250 2 4 6 8 10 12 10 8 6 4 2 0/pause 5000/shake Jade 500/pause 5000/speak Jade \"{{i18n:8heart.0.24}}\"/pause 4000/speak Jade \"#$q 57960087 null#... #$r 57960088 0 jadeRomantic#{{i18n:8heart.0.q1}}#$r 57960089 0 jadePlatonic#{{i18n:8heart.0.q2}}\"/fork 57960089 jadePlatonic/pause 1000/emote Jade 16/pause 1000/emote Jade 20 true/pause 500/emote farmer 20/pause 4000/stopMusic/speak Abigail \"{{i18n:8heart.0.25}}\"/animate 8heartjadefae1 false false 100 0 29 26 23 19/animate 8heartjadefae2 false false 100 0 29 26 23 19/animate 8heartjadefae3 false false 100 0 29 26 23 19/animate 8heartjadefae4 false false 100 0 29 26 23 19/pause 400/warp 8heartjadefae1 -999 -999/warp 8heartjadefae2 -999 -999/warp 8heartjadefae3 -999 -999/warp 8heartjadefae4 -999 -999/pause 4000/message \"{{i18n:8heart.0.26}}\"/emote farmer 8/pause 1000/faceDirection Jade 1/pause 100/faceDirection farmer 3/message \"{{i18n:8heart.0.27}}\"/pause 1000/speak Jade \"{{i18n:8heart.0.28}}\"/pause 1000/end"
+			}
+	}
+	]
+}

@@ -1,0 +1,61 @@
+{
+    "Changes": [
+
+		// Portraits
+        {
+			"Action": "EditImage",
+			"Target": "Portraits/Magnus_{{Season}}",
+			"FromFile": "assets/Portraits/{{Portrait Style}}{{HatPortrait}}/Witch_{{PortraitSVE}}.png",
+			"When": {
+				"Spiderbuttons.CMCT/Config: Poltergeister.SeasonalCuteSpritesSVE, SlightlyCuterMagnus": true
+			}
+		},
+        // Sprites
+        {
+			"Action": "EditImage",
+			"Target": "Characters/Magnus_{{Season}}",
+			"FromFile": "assets/Characters/{{Character Style}}{{HatCharacter}}/Witch.png",
+			"When": {
+				"Spiderbuttons.CMCT/Config: Poltergeister.SeasonalCuteSpritesSVE, SlightlyCuterMagnus": true
+			}
+		},
+        // Flower Dance
+        {
+			"Action": "EditImage",
+			"Target": "Portraits/Magnus_FlowerDance",
+			"FromFile": "assets/Portraits/{{Portrait Style}}{{HatPortrait}}/Witch_FlowerDance.png",
+			"When": {
+				"Spiderbuttons.CMCT/Config: Poltergeister.SeasonalCuteSpritesSVE, SlightlyCuterMagnus": true
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Magnus_FlowerDance",
+			"FromFile": "assets/Characters/{{Character Style}}{{HatCharacter}}/Witch_FlowerDance.png",
+			"When": {
+				"Spiderbuttons.CMCT/Config: Poltergeister.SeasonalCuteSpritesSVE, SlightlyCuterMagnus": true
+			}
+		},
+        // Nose
+        {
+			"Action": "EditImage",
+			"Target": "Characters/Magnus_{{Season}}",
+			"FromFile": "assets/Characters/{{Character Style}}/Overlays/Witch_Nose.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"Spiderbuttons.CMCT/Config: Poltergeister.SeasonalCuteSpritesSVE, SlightlyCuterMagnus": true,
+				"Nose Overlay Toggle": true
+			}
+		},
+        {
+			"Action": "EditImage",
+			"Target": "Characters/Magnus_FlowerDance",
+			"FromFile": "assets/Characters/{{Character Style}}/Overlays/Witch_FlowerDance_Nose.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"Spiderbuttons.CMCT/Config: Poltergeister.SeasonalCuteSpritesSVE, SlightlyCuterMagnus": true,
+				"Nose Overlay Toggle": true
+			}
+		}
+    ]
+}

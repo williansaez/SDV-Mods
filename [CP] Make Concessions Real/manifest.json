@@ -1,0 +1,13 @@
+{
+   "Name": "Make Concessions Real",
+   "Author": "Forsy",
+   "Version": "1.0.2",
+   "Description": "Buy concessions. They're REAL",
+   "UniqueID": "Forsy.MCR",
+   "MinimumApiVersion": "",
+   "UpdateKeys": [ "Nexus:38168" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+   
+}

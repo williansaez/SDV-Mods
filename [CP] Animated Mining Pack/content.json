@@ -1,0 +1,2563 @@
+{
+    "$schema": "https://smapi.io/schemas/content-patcher.json",
+    "ConfigSchema": {
+        "Aerinite": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Alemite": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Amethyst": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "AmethystNode": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Aquamarine": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "AquamarineNode": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "ArtifactTrove": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Baryte": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Basalt": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Bixite": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Calcite": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Celestine": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "CinderShard": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "CinderShardNode1": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "CinderShardNode2": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "CopperBar": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "CopperNode": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "CopperNode2": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "CopperOre": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Crystal1": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Crystal2": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Crystal3": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Diamond": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "DiamondNode": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Dolomite": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "DragonTooth": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "EarthCrystal": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Emerald": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "EmeraldNode": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Esperite": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "FairyStone": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "FireOpal": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "FireQuartz": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Fluorapatite": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "FrozenGeode": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "FrozenGeodeNode": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "FrozenTear": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Geminite": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "GemNode": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Geode": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "GeodeNode": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "GhostCrystal": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "GoldBar": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "GoldNode": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "GoldOre": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Granite": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Helvite": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Hermatite": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "IridiumBar": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "IridiumNode": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "IridiumOre": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "IronBar": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "IronNode": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "IronNode2": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "IronOre": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Jade": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "JadeNode": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Jagoite": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Jamborite": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Jasper": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Kyanite": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "LemonStone": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Limestone": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Lunarite": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "MagmaGeode": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "MagmaGeodeNode": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Malachite": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Marble": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Meteorite": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Mudstone": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "MysticStone": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Nekoite": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Neptunite": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Obsidian": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "OceanStone": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "OmniGeode": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "OmniGeodeNode": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Opal": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Orpiment": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "PetrifiedSlime": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "PrismaticShard": {
+            "AllowValues": "true,false",
+            "Default": "false",
+            "AllowMultiple": false
+        },
+        "PrismaticShard2": {
+            "AllowValues": "true,false",
+            "Default": "false",
+            "AllowMultiple": false
+        },
+        "PrismaticShard3D": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Pyrite": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Quartz": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "RadioactiveOre": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "RadioactiveNode": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "RadioactiveBar": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "RefinedQuartz": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Ruby": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "RubyNode": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Sandstone": {
+            "AllowValues": "true,false",
+            "Default": "false",
+            "AllowMultiple": false
+        },
+        "Slate": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Soapstone": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "StarShards": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "ThunderEgg": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Tigerseye": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Topaz": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "TopazNode": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        }
+    },
+    "Format": "2.4.0",
+    "Changes": [
+        {
+            "LogName": "Aerinite",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Aerinite": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Aerinite": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 208,
+                        "Y": 352,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/aerinite.png}}:0..3@10"
+                }
+            }
+        },
+        {
+            "LogName": "Alemite",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Alemite": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Alemite": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 160,
+                        "Y": 352,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/alemite.png}}:0..3@10"
+                }
+            }
+        },
+        {
+            "LogName": "Amethyst",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Amethyst": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Amethyst": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 288,
+                        "Y": 32,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/amethyst.png}}:0..11@10"
+                }
+            }
+        },
+        {
+            "LogName": "Amethyst Node",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "AmethystNode": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_AmethystNode": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 128,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/amethystnode.png}}:0..19@10"
+                }
+            }
+        },
+        {
+            "LogName": "Aquamarine",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Aquamarine": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Aquamarine": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 224,
+                        "Y": 32,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/aquamarine.png}}:0..11@10"
+                }
+            }
+        },
+        {
+            "LogName": "Aquamarine Node",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "AquamarineNode": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_AquamarineNode": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 224,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/aquamarinenode.png}}:0..19@10"
+                }
+            }
+        },
+        {
+            "LogName": "Artifact Trove",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "ArtifactTrove": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_ArtifactTrove": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 176,
+                        "Y": 176,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/artifacttrove.png}}:0..11@10"
+                }
+            }
+        },
+        {
+            "LogName": "Baryte",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Baryte": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Baryte": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 192,
+                        "Y": 352,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/baryte.png}}:0..5@15"
+                }
+            }
+        },
+        {
+            "LogName": "Basalt",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Basalt": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Basalt": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 288,
+                        "Y": 368,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/basalt.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Bixite",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Bixite": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Bixite": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 176,
+                        "Y": 352,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/bixite.png}}:0..11@10"
+                }
+            }
+        },
+        {
+            "LogName": "Calcite",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Calcite": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Calcite": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 224,
+                        "Y": 352,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/calcite.png}}:0..3@10"
+                }
+            }
+        },
+        {
+            "LogName": "Celestine",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Celestine": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Celestine": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 224,
+                        "Y": 368,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/celestine.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Cinder Shard",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "CinderShard": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_CinderShard": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 128,
+                        "Y": 560,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/cinder_shard.png}}:0..14@10"
+                }
+            }
+        },
+        {
+            "LogName": "Cinder Shard Node1",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "CinderShardNode1": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_CinderShardNode1": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 48,
+                        "Y": 560,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/cinder_shard_node1.png}}:0..14@10"
+                }
+            }
+        },
+        {
+            "LogName": "Cinder Shard Node2",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "CinderShardNode2": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_CinderShardNode2": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 64,
+                        "Y": 560,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/cinder_shard_node2.png}}:0..14@10"
+                }
+            }
+        },
+        {
+            "LogName": "Copper Bar",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "CopperBar": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_CopperBar": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 352,
+                        "Y": 208,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/copperbar.png}}:0..23@5"
+                }
+            }
+        },
+        {
+            "LogName": "Copper Node",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "CopperNode": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_CopperNode": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 112,
+                        "Y": 496,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/coppernode.png}}:0..14@10"
+                }
+            }
+        },
+        {
+            "LogName": "Copper Node2",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "CopperNode2": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_CopperNode2": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 144,
+                        "Y": 560,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/coppernode2.png}}:0..14@10"
+                }
+            }
+        },
+        {
+            "LogName": "CopperOre",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "CopperOre": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_CopperOre": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 288,
+                        "Y": 240,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/copperore.png}}:0..11@10"
+                }
+            }
+        },
+        {
+            "LogName": "Crystal1",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Crystal1": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Crystal1": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 112,
+                        "Y": 208,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/crystal1.png}}:0..21@5"
+                }
+            }
+        },
+        {
+            "LogName": "Crystal2",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Crystal2": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Crystal2": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 128,
+                        "Y": 208,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/crystal2.png}}:0..21@5"
+                }
+            }
+        },
+        {
+            "LogName": "Crystal3",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Crystal3": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Crystal3": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 144,
+                        "Y": 208,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/crystal3.png}}:0..21@5"
+                }
+            }
+        },
+        {
+            "LogName": "Diamond",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Diamond": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Diamond": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 0,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/diamond.png}}:0..11@10"
+                }
+            }
+        },
+        {
+            "LogName": "Diamond Node",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "DiamondNode": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_DiamondNode": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 32,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/diamondnode.png}}:0..14@10"
+                }
+            }
+        },
+        {
+            "LogName": "Dolomite",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Dolomite": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Dolomite": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 240,
+                        "Y": 352,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/dolomite.png}}:0..3@10"
+                }
+            }
+        },
+        {
+            "LogName": "Dragon Tooth",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "DragonTooth": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_DragonTooth": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 192,
+                        "Y": 560,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/dragon_tooth.png}}:0..19@15"
+                }
+            }
+        },
+        {
+            "LogName": "Earth Crystal",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "EarthCrystal": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_EarthCrystal": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 224,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/earthcrystal.png}}:0..13@10"
+                }
+            }
+        },
+        {
+            "LogName": "Emerald",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Emerald": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Emerald": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 192,
+                        "Y": 32,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/emerald.png}}:0..11@10"
+                }
+            }
+        },
+        {
+            "LogName": "Emerald Node",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "EmeraldNode": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_EmeraldNode": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 192,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/emeraldnode.png}}:0..9@10"
+                }
+            }
+        },
+        {
+            "LogName": "Esperite",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Esperite": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Esperite": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 256,
+                        "Y": 352,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/esperite.png}}:0..3@15"
+                }
+            }
+        },
+        {
+            "LogName": "Fairy Stone",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "FairyStone": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_FairyStone": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 16,
+                        "Y": 384,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/fairystone.png}}:0..3@15"
+                }
+            }
+        },
+        {
+            "LogName": "Fire Opal",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "FireOpal": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_FireOpal": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 208,
+                        "Y": 368,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/fireopal.png}}:0..4@15"
+                }
+            }
+        },
+        {
+            "LogName": "Fire Quartz",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "FireQuartz": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_FireQuartz": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 160,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/firequartz.png}}:0..11@10"
+                }
+            }
+        },
+        {
+            "LogName": "Fluorapatite",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Fluorapatite": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Fluorapatite": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 272,
+                        "Y": 352,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/fluorapatite.png}}:0..5@10"
+                }
+            }
+        },
+        {
+            "LogName": "Frozen Geode",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "FrozenGeode": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_FrozenGeode": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 128,
+                        "Y": 352,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/frozengeode.png}}:0..11@10"
+                }
+            }
+        },
+        {
+            "LogName": "Frozen Geode Node",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "FrozenGeodeNode": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_FrozenGeodeNode": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 64,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/frozengeodenode.png}}:0..23@10"
+                }
+            }
+        },
+        {
+            "LogName": "Frozen Tear",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "FrozenTear": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_FrozenTear": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 192,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/frozentear.png}}:0..11@10"
+                }
+            }
+        },
+        {
+            "LogName": "Geminite",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Geminite": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Geminite": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 288,
+                        "Y": 352,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/geminite.png}}:0..4@10"
+                }
+            }
+        },
+        {
+            "LogName": "Gem Node",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "GemNode": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_GemNode": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 320,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/gemnode.png}}:0..23@10"
+                }
+            }
+        },
+        {
+            "LogName": "Geode",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Geode": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Geode": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 112,
+                        "Y": 352,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/geode.png}}:0..11@10"
+                }
+            }
+        },
+        {
+            "LogName": "Geode Node",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "GeodeNode": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_GeodeNode": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 48,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/geodenode.png}}:0..23@10"
+                }
+            }
+        },
+        {
+            "LogName": "Ghost Crystal",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "GhostCrystal": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_GhostCrystal": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 144,
+                        "Y": 368,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/ghostcrystal.png}}:0..3@10"
+                }
+            }
+        },
+        {
+            "LogName": "Gold Bar",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "GoldBar": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_GoldBar": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 0,
+                        "Y": 224,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/goldbar.png}}:0..23@5"
+                }
+            }
+        },
+        {
+            "LogName": "Gold Node",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "GoldNode": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_GoldNode": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 320,
+                        "Y": 496,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/goldnode.png}}:0..9@10"
+                }
+            }
+        },
+        {
+            "LogName": "Gold Ore",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "GoldOre": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_GoldOre": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 0,
+                        "Y": 256,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/goldore.png}}:0..11@8"
+                }
+            }
+        },
+        {
+            "LogName": "Granite",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Granite": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Granite": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 272,
+                        "Y": 368,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/Granite.png}}:0..3@15"
+                }
+            }
+        },
+        {
+            "LogName": "Helvite",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Helvite": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Helvite": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 304,
+                        "Y": 352,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/helvite.png}}:0..5@15"
+                }
+            }
+        },
+        {
+            "LogName": "Hermatite",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Hermatite": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Hermatite": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 336,
+                        "Y": 368,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/hermatite.png}}:0..3@15"
+                }
+            }
+        },
+        {
+            "LogName": "Iridium Bar",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "IridiumBar": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_IridiumBar": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 16,
+                        "Y": 224,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/iridiumbar.png}}:0..29@5"
+                }
+            }
+        },
+        {
+            "LogName": "Iridium Node",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "IridiumNode": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_IridiumNode": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 336,
+                        "Y": 496,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/iridiumnode.png}}:0..9@10"
+                }
+            }
+        },
+        {
+            "LogName": "Iridium Crab",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "IridiumNode": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_IridiumCrab": {
+                    "TargetTexture": "Characters/Monsters/Iridium Crab",
+                    "TargetRect": {
+                        "X": 0,
+                        "Y": 8,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/iridiumnode.png}}:0..9@10"
+                }
+            }
+        },
+        {
+            "LogName": "Iridium Crab1",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "IridiumNode": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_IridiumCrab1": {
+                    "TargetTexture": "Characters/Monsters/Iridium Crab",
+                    "TargetRect": {
+                        "X": 16,
+                        "Y": 3,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/iridiumcrab1.png}}:0..9@10"
+                }
+            }
+        },
+        {
+            "LogName": "Iridium Crab2",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "IridiumNode": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_IridiumCrab2": {
+                    "TargetTexture": "Characters/Monsters/Iridium Crab",
+                    "TargetRect": {
+                        "X": 32,
+                        "Y": 3,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/iridiumcrab2.png}}:0..9@10"
+                }
+            }
+        },
+        {
+            "LogName": "Iridium Crab3",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "IridiumNode": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_IridiumCrab3": {
+                    "TargetTexture": "Characters/Monsters/Iridium Crab",
+                    "TargetRect": {
+                        "X": 48,
+                        "Y": 3,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/iridiumcrab3.png}}:0..9@10"
+                }
+            }
+        },
+        {
+            "LogName": "Iridium Ore",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "IridiumOre": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_IridiumOre": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 32,
+                        "Y": 256,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/iridiumore.png}}:0..11@8"
+                }
+            }
+        },
+        {
+            "LogName": "Iron Bar",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "IronBar": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_IronBar": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 368,
+                        "Y": 208,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/ironbar.png}}:0..23@5"
+                }
+            }
+        },
+        {
+            "LogName": "Iron Node",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "IronNode": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_IronNode": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 32,
+                        "Y": 192,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/ironnode.png}}:0..9@10"
+                }
+            }
+        },
+        {
+            "LogName": "Iron Node2",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "IronNode2": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_IronNode2": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 160,
+                        "Y": 560,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/ironnode2.png}}:0..14@10"
+                }
+            }
+        },
+        {
+            "LogName": "Iron Ore",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "IronOre": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_IronOre": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 320,
+                        "Y": 240,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/ironore.png}}:0..11@12"
+                }
+            }
+        },
+        {
+            "LogName": "Jade",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Jade": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Jade": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 352,
+                        "Y": 32,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/jade.png}}:0..11@10"
+                }
+            }
+        },
+        {
+            "LogName": "Jade Node",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "JadeNode": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_JadeNode": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 96,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/jadenode.png}}:0..7@10"
+                }
+            }
+        },
+        {
+            "LogName": "Jagoite",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Jagoite": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Jagoite": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 336,
+                        "Y": 352,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/jagoite.png}}:0..3@15"
+                }
+            }
+        },
+        {
+            "LogName": "Jamborite",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Jamborite": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Jamborite": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 320,
+                        "Y": 352,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/jamborite.png}}:0..3@15"
+                }
+            }
+        },
+        {
+            "LogName": "Jasper",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Jasper": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Jasper": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 176,
+                        "Y": 368,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/jasper.png}}:0..3@15"
+                }
+            }
+        },
+        {
+            "LogName": "Kyanite",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Kyanite": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Kyanite": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 352,
+                        "Y": 352,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/kyanite.png}}:0..5@15"
+                }
+            }
+        },
+        {
+            "LogName": "Lemon Stone",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "LemonStone": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_LemonStone": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 32,
+                        "Y": 368,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/lemonstone.png}}:0..3@15"
+                }
+            }
+        },
+        {
+            "LogName": "Limestone",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Limestone": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Limestone": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 304,
+                        "Y": 368,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/limestone.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Lunarite",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Lunarite": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Lunarite": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 368,
+                        "Y": 352,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/lunarite.png}}:0..3@15"
+                }
+            }
+        },
+        {
+            "LogName": "Magma Geode",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "MagmaGeode": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_MagmaGeode": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 144,
+                        "Y": 352,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/magmageode.png}}:0..11@10"
+                }
+            }
+        },
+        {
+            "LogName": "Magma Geode Node",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "MagmaGeodeNode": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_MagmaGeodeNode": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 80,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/magmageodenode.png}}:0..23@10"
+                }
+            }
+        },
+        {
+            "LogName": "Malachite",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Malachite": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Malachite": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 0,
+                        "Y": 368,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/malachite.png}}:0..3@15"
+                }
+            }
+        },
+        {
+            "LogName": "Marble",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Marble": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Marble": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 240,
+                        "Y": 368,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/Marble.png}}:0..3@15"
+                }
+            }
+        },
+        {
+            "LogName": "Meteorite",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Meteorite": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Meteorite": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 352,
+                        "Y": 400,
+                        "Width": 32,
+                        "Height": 32
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/meteorite.png}}:0..23@10"
+                }
+            }
+        },
+        {
+            "LogName": "Mudstone",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Mudstone": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Mudstone": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 352,
+                        "Y": 368,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/mudstone.png}}:0..3@15"
+                }
+            }
+        },
+        {
+            "LogName": "Mystic Stone",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "MysticStone": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_MysticStone": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 352,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/mysticstone.png}}:0..22@10"
+                }
+            }
+        },
+        {
+            "LogName": "Nekoite",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Nekoite": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Nekoite": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 48,
+                        "Y": 368,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/nekoite.png}}:0..4@15"
+                }
+            }
+        },
+        {
+            "LogName": "Neptunite",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Neptunite": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Neptunite": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 16,
+                        "Y": 368,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/neptunite.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Obsidian",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Obsidian": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Obsidian": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 368,
+                        "Y": 368,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/obsidian.png}}:0..3@15"
+                }
+            }
+        },
+        {
+            "LogName": "Ocean Stone",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "OceanStone": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_OceanStone": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 128,
+                        "Y": 368,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/oceanstone.png}}:0..3@10"
+                }
+            }
+        },
+        {
+            "LogName": "Omni Geode",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "OmniGeode": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_OmniGeode": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 80,
+                        "Y": 496,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/omnigeode.png}}:0..11@24"
+                }
+            }
+        },
+        {
+            "LogName": "Omni Geode Node",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "OmniGeodeNode": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_OmniGeodeNode": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 48,
+                        "Y": 544,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/omni_geode_node.png}}:0..23@12"
+                }
+            }
+        },
+        {
+            "LogName": "Opal",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Opal": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Opal": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 192,
+                        "Y": 368,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/opal.png}}:0..13@10"
+                }
+            }
+        },
+        {
+            "LogName": "Orpiment",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Orpiment": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Orpiment": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 64,
+                        "Y": 368,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/orpiment.png}}:0..3@10"
+                }
+            }
+        },
+        {
+            "LogName": "Petrified Slime",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "PetrifiedSlime": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_PetrifiedSlime": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 80,
+                        "Y": 368,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/petrifiedslime.png}}:0..3@15"
+                }
+            }
+        },
+        {
+            "LogName": "Prismatic Shard",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "PrismaticShard": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_PrismaticShard": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 32,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/prismaticshard.png}}:0..11@10"
+                }
+            }
+        },
+        {
+            "LogName": "Prismatic Shard2",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "PrismaticShard2": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_PrismaticShard2": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 32,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/prismaticshard2.png}}:0..24@10"
+                }
+            }
+        },
+        {
+            "LogName": "Prismatic Shard3D",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "PrismaticShard3D": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_PrismaticShard3D": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 32,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/prismaticshard3d.png}}:0..59@3"
+                }
+            }
+        },
+        {
+            "LogName": "Pyrite",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Pyrite": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Pyrite": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 112,
+                        "Y": 368,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/pyrite.png}}:0..3@15"
+                }
+            }
+        },
+        {
+            "LogName": "Quartz",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Quartz": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Quartz": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 128,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/quartz.png}}:0..11@10"
+                }
+            }
+        },
+        {
+            "LogName": "Radioactive Ore",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "RadioactiveOre": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_RadioactiveOre": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 336,
+                        "Y": 592,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/radioactive_ore.png}}:0..14@10"
+                }
+            }
+        },
+        {
+            "LogName": "Radioactive Node",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "RadioactiveNode": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_RadioactiveNode": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 368,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/radioactive_node.png}}:0..14@10"
+                }
+            }
+        },
+        {
+            "LogName": "Radioactive Bar",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "RadioactiveBar": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_RadioactiveBar": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 352,
+                        "Y": 592,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/radioactive_bar.png}}:0..14@10"
+                }
+            }
+        },
+        {
+            "LogName": "Refined Quartz",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "RefinedQuartz": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_RefinedQuartz": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 32,
+                        "Y": 224,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/refinedquartz.png}}:0..23@5"
+                }
+            }
+        },
+        {
+            "LogName": "Ruby",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Ruby": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Ruby": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 256,
+                        "Y": 32,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/ruby.png}}:0..13@10"
+                }
+            }
+        },
+        {
+            "LogName": "Ruby Node",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "RubyNode": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_RubyNode": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 64,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/rubynode.png}}:0..9@10"
+                }
+            }
+        },
+        {
+            "LogName": "Sandstone",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Sandstone": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Sandstone": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 256,
+                        "Y": 368,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/sandstone.png}}:0..3@30"
+                }
+            }
+        },
+        {
+            "LogName": "Slate",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Slate": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Slate": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 0,
+                        "Y": 384,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/slate.png}}:0..3@10"
+                }
+            }
+        },
+        {
+            "LogName": "Soapstone",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Soapstone": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Soapstone": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 320,
+                        "Y": 368,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/soapstone.png}}:0..3@10"
+                }
+            }
+        },
+        {
+            "LogName": "Star Shards",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "StarShards": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_StarShards": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 32,
+                        "Y": 384,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/starshards.png}}:0..3@10"
+                }
+            }
+        },
+        {
+            "LogName": "Thunder Egg",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "ThunderEgg": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_ThunderEgg": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 96,
+                        "Y": 368,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/thunderegg.png}}:0..11@10"
+                }
+            }
+        },
+        {
+            "LogName": "Tigerseye",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Tigerseye": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Tigerseye": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 160,
+                        "Y": 368,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/tigerseye.png}}:0..3@15"
+                }
+            }
+        },
+        {
+            "LogName": "Topaz",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Topaz": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_Topaz": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 320,
+                        "Y": 32,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/topaz.png}}:0..11@10"
+                }
+            }
+        },
+        {
+            "LogName": "Topaz Node",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "TopazNode": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMiningPack_TopazNode": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 160,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/topaznode.png}}:0..9@10"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,475 @@
+{
+  "Format": "2.0.0",
+  
+  "ConfigSchema": {
+    "Icon 1 (¢)": {
+	"AllowValues": "smile, sunny, thumbsup, tinyheart, iridiumstar, meh, frown, raincloud, tear, thumbsdown, x",
+	"AllowMultiple": false,
+	"Default": "thumbsup",
+	"Description": "The icon that replaces '¢'."
+	},
+    "Icon 2 (£)": {
+	"AllowValues": "smile, sunny, thumbsup, tinyheart, iridiumstar, meh, frown, raincloud, tear, thumbsdown, x",
+	"AllowMultiple": false,
+	"Default": "thumbsdown",
+	"Description": "The icon that replaces '£'."
+	},
+	"Icon 3 (¤)": {
+	"AllowValues": "smile, sunny, thumbsup, tinyheart, iridiumstar, meh, frown, raincloud, tear, thumbsdown, x",
+	"AllowMultiple": false,
+	"Default": "tear",
+	"Description": "The icon that replaces '¤'."
+	}
+},
+  
+  "Changes": [
+	{
+    "Action": "EditImage",
+    "Target": "LooseSprites/font_bold",
+    "FromFile": "assets/smile.png",
+    "ToArea": {
+		"X": 16,
+        "Y": 128,
+        "Width": 8,
+        "Height": 16 },
+	"When": { "Icon 1 (¢)": "smile" },
+	"Priority": "Late",
+    },
+	{
+    "Action": "EditImage",
+    "Target": "LooseSprites/font_bold",
+    "FromFile": "assets/sunny.png",
+    "ToArea": {
+		"X": 16,
+        "Y": 128,
+        "Width": 8,
+        "Height": 16 },
+	"When": { "Icon 1 (¢)": "sunny" },
+	"Priority": "Late",
+    },
+	{
+    "Action": "EditImage",
+    "Target": "LooseSprites/font_bold",
+    "FromFile": "assets/thumbsup.png",
+    "ToArea": {
+		"X": 16,
+        "Y": 128,
+        "Width": 8,
+        "Height": 16 },
+	"When": { "Icon 1 (¢)": "thumbsup" },
+	"Priority": "Late",
+    },
+	{
+    "Action": "EditImage",
+    "Target": "LooseSprites/font_bold",
+    "FromFile": "assets/tinyheart.png",
+    "ToArea": {
+		"X": 16,
+        "Y": 128,
+        "Width": 8,
+        "Height": 16 },
+	"When": { "Icon 1 (¢)": "tinyheart" },
+	"Priority": "Late",
+    },
+	{
+    "Action": "EditImage",
+    "Target": "LooseSprites/font_bold",
+    "FromFile": "assets/iridiumstar.png",
+    "ToArea": {
+		"X": 16,
+        "Y": 128,
+        "Width": 8,
+        "Height": 16 },
+	"When": { "Icon 1 (¢)": "iridiumstar" },
+	"Priority": "Late",
+    },
+	{
+    "Action": "EditImage",
+    "Target": "LooseSprites/font_bold",
+    "FromFile": "assets/meh.png",
+    "ToArea": {
+		"X": 16,
+        "Y": 128,
+        "Width": 8,
+        "Height": 16 },
+	"When": { "Icon 1 (¢)": "meh" },
+	"Priority": "Late",
+    },
+	{
+    "Action": "EditImage",
+    "Target": "LooseSprites/font_bold",
+    "FromFile": "assets/frown.png",
+    "ToArea": {
+		"X": 16,
+        "Y": 128,
+        "Width": 8,
+        "Height": 16 },
+	"When": { "Icon 1 (¢)": "frown" },
+	"Priority": "Late",
+    },
+	{
+    "Action": "EditImage",
+    "Target": "LooseSprites/font_bold",
+    "FromFile": "assets/raincloud.png",
+    "ToArea": {
+		"X": 16,
+        "Y": 128,
+        "Width": 8,
+        "Height": 16 },
+	"When": { "Icon 1 (¢)": "raincloud" },
+	"Priority": "Late",
+    },
+	{
+    "Action": "EditImage",
+    "Target": "LooseSprites/font_bold",
+    "FromFile": "assets/tear.png",
+    "ToArea": {
+		"X": 16,
+        "Y": 128,
+        "Width": 8,
+        "Height": 16 },
+	"When": { "Icon 1 (¢)": "tear" },
+	"Priority": "Late",
+    },
+	{
+    "Action": "EditImage",
+    "Target": "LooseSprites/font_bold",
+    "FromFile": "assets/thumbsdown.png",
+    "ToArea": {
+		"X": 16,
+        "Y": 128,
+        "Width": 8,
+        "Height": 16 },
+	"When": { "Icon 1 (¢)": "thumbsdown" },
+	"Priority": "Late",
+    },
+	{
+    "Action": "EditImage",
+    "Target": "LooseSprites/font_bold",
+    "FromFile": "assets/x.png",
+    "ToArea": {
+		"X": 16,
+        "Y": 128,
+        "Width": 8,
+        "Height": 16 },
+	"When": { "Icon 1 (¢)": "x" },
+	"Priority": "Late",
+    },
+	{
+    "Action": "EditImage",
+    "Target": "LooseSprites/font_bold",
+    "FromFile": "assets/smile.png",
+    "ToArea": {
+		"X": 24,
+        "Y": 128,
+        "Width": 8,
+        "Height": 16 },
+	"When": { "Icon 2 (£)": "smile" },
+	"Priority": "Late",
+    },
+	{
+    "Action": "EditImage",
+    "Target": "LooseSprites/font_bold",
+    "FromFile": "assets/sunny.png",
+    "ToArea": {
+		"X": 24,
+        "Y": 128,
+        "Width": 8,
+        "Height": 16 },
+	"When": { "Icon 2 (£)": "sunny" },
+	"Priority": "Late",
+    },
+	{
+    "Action": "EditImage",
+    "Target": "LooseSprites/font_bold",
+    "FromFile": "assets/thumbsup.png",
+    "ToArea": {
+		"X": 24,
+        "Y": 128,
+        "Width": 8,
+        "Height": 16 },
+	"When": { "Icon 2 (£)": "thumbsup" },
+	"Priority": "Late",
+    },
+	{
+    "Action": "EditImage",
+    "Target": "LooseSprites/font_bold",
+    "FromFile": "assets/tinyheart.png",
+    "ToArea": {
+		"X": 24,
+        "Y": 128,
+        "Width": 8,
+        "Height": 16 },
+	"When": { "Icon 2 (£)": "tinyheart" },
+	"Priority": "Late",
+    },
+	{
+    "Action": "EditImage",
+    "Target": "LooseSprites/font_bold",
+    "FromFile": "assets/iridiumstar.png",
+    "ToArea": {
+		"X": 24,
+        "Y": 128,
+        "Width": 8,
+        "Height": 16 },
+	"When": { "Icon 2 (£)": "iridiumstar" },
+	"Priority": "Late",
+    },
+	{
+    "Action": "EditImage",
+    "Target": "LooseSprites/font_bold",
+    "FromFile": "assets/meh.png",
+    "ToArea": {
+		"X": 24,
+        "Y": 128,
+        "Width": 8,
+        "Height": 16 },
+	"When": { "Icon 2 (£)": "meh" },
+	"Priority": "Late",
+    },
+	{
+    "Action": "EditImage",
+    "Target": "LooseSprites/font_bold",
+    "FromFile": "assets/frown.png",
+    "ToArea": {
+		"X": 24,
+        "Y": 128,
+        "Width": 8,
+        "Height": 16 },
+	"When": { "Icon 2 (£)": "frown" },
+	"Priority": "Late",
+    },
+	{
+    "Action": "EditImage",
+    "Target": "LooseSprites/font_bold",
+    "FromFile": "assets/raincloud.png",
+    "ToArea": {
+		"X": 24,
+        "Y": 128,
+        "Width": 8,
+        "Height": 16 },
+	"When": { "Icon 2 (£)": "raincloud" },
+	"Priority": "Late",
+    },
+	{
+    "Action": "EditImage",
+    "Target": "LooseSprites/font_bold",
+    "FromFile": "assets/tear.png",
+    "ToArea": {
+		"X": 24,
+        "Y": 128,
+        "Width": 8,
+        "Height": 16 },
+	"When": { "Icon 2 (£)": "tear" },
+	"Priority": "Late",
+    },
+	{
+    "Action": "EditImage",
+    "Target": "LooseSprites/font_bold",
+    "FromFile": "assets/thumbsdown.png",
+    "ToArea": {
+		"X": 24,
+        "Y": 128,
+        "Width": 8,
+        "Height": 16 },
+	"When": { "Icon 2 (£)": "thumbsdown" },
+	"Priority": "Late",
+    },
+	{
+    "Action": "EditImage",
+    "Target": "LooseSprites/font_bold",
+    "FromFile": "assets/x.png",
+    "ToArea": {
+		"X": 24,
+        "Y": 128,
+        "Width": 8,
+        "Height": 16 },
+	"When": { "Icon 2 (£)": "x" },
+	"Priority": "Late",
+    },
+	{
+    "Action": "EditImage",
+    "Target": "LooseSprites/font_bold",
+    "FromFile": "assets/smile.png",
+    "ToArea": {
+		"X": 32,
+        "Y": 128,
+        "Width": 8,
+        "Height": 16 },
+	"When": { "Icon 3 (¤)": "smile" },
+	"Priority": "Late",
+    },
+	{
+    "Action": "EditImage",
+    "Target": "LooseSprites/font_bold",
+    "FromFile": "assets/sunny.png",
+    "ToArea": {
+		"X": 32,
+        "Y": 128,
+        "Width": 8,
+        "Height": 16 },
+	"When": { "Icon 3 (¤)": "sunny" },
+	"Priority": "Late",
+    },
+	{
+    "Action": "EditImage",
+    "Target": "LooseSprites/font_bold",
+    "FromFile": "assets/thumbsup.png",
+    "ToArea": {
+		"X": 32,
+        "Y": 128,
+        "Width": 8,
+        "Height": 16 },
+	"When": { "Icon 3 (¤)": "thumbsup" },
+	"Priority": "Late",
+    },
+	{
+    "Action": "EditImage",
+    "Target": "LooseSprites/font_bold",
+    "FromFile": "assets/tinyheart.png",
+    "ToArea": {
+		"X": 32,
+        "Y": 128,
+        "Width": 8,
+        "Height": 16 },
+	"When": { "Icon 3 (¤)": "tinyheart" },
+	"Priority": "Late",
+    },
+	{
+    "Action": "EditImage",
+    "Target": "LooseSprites/font_bold",
+    "FromFile": "assets/iridiumstar.png",
+    "ToArea": {
+		"X": 32,
+        "Y": 128,
+        "Width": 8,
+        "Height": 16 },
+	"When": { "Icon 3 (¤)": "iridiumstar" },
+	"Priority": "Late",
+    },
+	{
+    "Action": "EditImage",
+    "Target": "LooseSprites/font_bold",
+    "FromFile": "assets/meh.png",
+    "ToArea": {
+		"X": 32,
+        "Y": 128,
+        "Width": 8,
+        "Height": 16 },
+	"When": { "Icon 3 (¤)": "meh" },
+	"Priority": "Late",
+    },
+	{
+    "Action": "EditImage",
+    "Target": "LooseSprites/font_bold",
+    "FromFile": "assets/frown.png",
+    "ToArea": {
+		"X": 32,
+        "Y": 128,
+        "Width": 8,
+        "Height": 16 },
+	"When": { "Icon 3 (¤)": "frown" },
+	"Priority": "Late",
+    },
+	{
+    "Action": "EditImage",
+    "Target": "LooseSprites/font_bold",
+    "FromFile": "assets/raincloud.png",
+    "ToArea": {
+		"X": 32,
+        "Y": 128,
+        "Width": 8,
+        "Height": 16 },
+	"When": { "Icon 3 (¤)": "raincloud" },
+	"Priority": "Late",
+    },
+	{
+    "Action": "EditImage",
+    "Target": "LooseSprites/font_bold",
+    "FromFile": "assets/tear.png",
+    "ToArea": {
+		"X": 32,
+        "Y": 128,
+        "Width": 8,
+        "Height": 16 },
+	"When": { "Icon 3 (¤)": "tear" },
+	"Priority": "Late",
+    },
+	{
+    "Action": "EditImage",
+    "Target": "LooseSprites/font_bold",
+    "FromFile": "assets/thumbsdown.png",
+    "ToArea": {
+		"X": 32,
+        "Y": 128,
+        "Width": 8,
+        "Height": 16 },
+	"When": { "Icon 3 (¤)": "thumbsdown" },
+	"Priority": "Late",
+    },
+	{
+    "Action": "EditImage",
+    "Target": "LooseSprites/font_bold",
+    "FromFile": "assets/x.png",
+    "ToArea": {
+		"X": 32,
+        "Y": 128,
+        "Width": 8,
+        "Height": 16 },
+	"When": { "Icon 3 (¤)": "x" },
+	"Priority": "Late",
+    },
+	// Logographic Languages
+	// Chinese (zh)
+	{
+    "Action": "Load",
+    "Target": "Fonts/Chinese",
+    "FromFile": "assets/Chinese.fnt",
+    },
+	{
+    "Action": "EditImage",
+    "Target": "Fonts/Chinese_3",
+    "FromFile": "assets/ja_ko_zh.png",
+    "ToArea": {
+		"X": 0,
+        "Y": 128,
+        "Width": 48,
+        "Height": 16 },
+	"Priority": "Late",
+    },
+	// Japanese (ja)
+	{
+    "Action": "Load",
+    "Target": "Fonts/Japanese",
+    "FromFile": "assets/Japanese.fnt",
+    },
+	{
+    "Action": "EditImage",
+    "Target": "Fonts/Japanese_1",
+    "FromFile": "assets/ja_ko_zh.png",
+    "ToArea": {
+		"X": 0,
+        "Y": 176,
+        "Width": 48,
+        "Height": 16 },
+	"Priority": "Late",
+    },
+	// Korean (ko)
+	{
+    "Action": "Load",
+    "Target": "Fonts/Korean",
+    "FromFile": "assets/Korean.fnt",
+    },
+	{
+    "Action": "EditImage",
+    "Target": "Fonts/Korean_11",
+    "FromFile": "assets/ja_ko_zh.png",
+    "ToArea": {
+		"X": 0,
+        "Y": 480,
+        "Width": 48,
+        "Height": 16 },
+	"Priority": "Late",
+    }
+  ]
+}

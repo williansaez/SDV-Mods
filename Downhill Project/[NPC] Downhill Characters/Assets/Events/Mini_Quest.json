@@ -1,0 +1,12 @@
+{
+	"Changes": [
+    {	//Quests All NPCs
+		"Action": "EditData",
+		"Target": "Data/Quests",
+		"Entries": { 
+		"185601": "ItemDelivery/{{i18n:Church.Fix.01.A}}/{{i18n:Church.Fix.02.A}}/{{i18n:Church.Fix.03.A}}/Anderson 709 350/286501/5000/-1/true/{{i18n:Church.Fix.04.A}}",
+		"286501": "ItemDelivery/{{i18n:Church.Fix.01.B}}/{{i18n:Church.Fix.02.B}}/{{i18n:Church.Fix.03.B}}/Anderson 335 200/-1/10000/-1/true/{{i18n:Church.Fix.04.B}}#$action AddMail All DH.Invite_Church tomorrow",
+	  }
+    }
+  ]
+}

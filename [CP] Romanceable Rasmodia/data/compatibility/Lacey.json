@@ -1,0 +1,19 @@
+{
+	"Changes": [
+		{
+			"Target": "Strings/ichortower.HatMouseLacey_HatReactions",
+			"Action": "EditData",
+			"Entries": {
+                "SV.ArcaneHat": "{{i18n: hatreactions.60}}"
+            }
+        },
+        {
+			"Target": "Characters/Dialogue/ichortower.HatMouseLacey_Lacey",
+			"Action": "EditData",
+			"Entries": {
+                "RejectItem_(O)868": "{{i18n: dialogue.reject_868}}",
+                "Wed4": "{{i18n: dialogue.Wed4}}"
+            }
+        }
+    ]
+}

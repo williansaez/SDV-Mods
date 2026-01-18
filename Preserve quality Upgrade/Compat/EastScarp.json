@@ -1,0 +1,451 @@
+{
+	"Changes": [
+	  {
+		  "LogName": "Iron Keg Compatibility with East Scarp",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC){{ModId}}_IronKeg",
+        "OutputRules"
+        ],
+        "Entries": {
+          "{{ModId}}_BrewingGingerTea": {
+          "Id": "EastScarp.BrewingGingerTea",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O)829",
+              "RequiredCount": 1
+            }
+          ],
+          "UseFirstValidOutput": true,
+          "OutputItem": [
+            {
+              "ItemId": "(O)EastScarp_Ginger_Tea",                   
+              "CopyQuality": false,
+              "QualityModifiers": [
+                {  
+                  "Id":"lose quality",
+                  "Condition": "ITEM_QUALITY Input 4 4",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id":"lose quality",
+                  "Condition": "ITEM_QUALITY Input 2 2",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id":"Maybe not lose quality",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.5",
+                  "Modification": "Set",
+                  "Amount": 1
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 180,
+          "InvalidCountMessage": null
+        },
+          "{{ModId}}_BrewingFrostBerryTea": {
+          "Id": "EastScarp.BrewingFrostBerryTea",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O)EastScarp_FrostBerry",
+              "RequiredCount": 5
+            }
+          ],
+          "UseFirstValidOutput": true,
+          "OutputItem": [
+            {
+              "ItemId": "(O)Lemurkat.EastScarp_FrostBerryTea",                   
+              "CopyQuality": false,
+              "QualityModifiers": [
+                {  
+                  "Id":"lose quality",
+                  "Condition": "ITEM_QUALITY Input 4 4",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id":"lose quality",
+                  "Condition": "ITEM_QUALITY Input 2 2",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id":"Maybe not lose quality",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.5",
+                  "Modification": "Set",
+                  "Amount": 1
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 180,
+          "InvalidCountMessage": "{{i18n:JackHero06.InvalidCountMessage.FrostBerry}}"
+        }
+      },
+      "MoveEntries": [
+        {
+          "Id": "EastScarp.BrewingGingerTea",
+          "ToPosition": "Top"
+        },
+        {
+          "Id": "EastScarp.BrewingFrostBerryTea",
+          "ToPosition": "Top"
+        }
+      ]
+    },
+
+
+    {
+		  "LogName": "Gold Keg Compatibility with ancient crops",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC){{ModId}}_GoldKeg",
+        "OutputRules"
+        ],
+        "Entries": {
+          "{{ModId}}_BrewingGingerTea": {
+          "Id": "EastScarp.BrewingGingerTea",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O)829",
+              "RequiredCount": 1
+            }
+          ],
+          "UseFirstValidOutput": true,
+          "OutputItem": [
+            {
+              "ItemId": "(O)EastScarp_Ginger_Tea",                   
+              "CopyQuality": true,
+              "MinStack": 1,
+			        "MaxStack": 1,
+              "QualityModifiers": [
+                {  
+                  "Id":"silver-gold Gold",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.15",
+                  "Modification": "Set",
+                  "Amount": 2
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional Item",
+					        "Condition": "Random 0.1",
+									"Modification": "Add",
+					        "Amount": 1
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 220,
+          "InvalidCountMessage": null
+        },
+          "{{ModId}}_BrewingFrostBerryTea": {
+          "Id": "EastScarp.BrewingFrostBerryTea",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O)EastScarp_FrostBerry",
+              "RequiredCount": 5
+            }
+          ],
+          "UseFirstValidOutput": true,
+          "OutputItem": [
+            {
+              "ItemId": "(O)Lemurkat.EastScarp_FrostBerryTea",                   
+              "CopyQuality": true,
+              "MinStack": 1,
+			        "MaxStack": 1,
+              "QualityModifiers": [
+                {  
+                  "Id":"silver-gold Gold",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.15",
+                  "Modification": "Set",
+                  "Amount": 2
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional Item",
+					        "Condition": "Random 0.1",
+									"Modification": "Add",
+					        "Amount": 1
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 220,
+          "InvalidCountMessage": "{{i18n:JackHero06.InvalidCountMessage.FrostBerry}}"
+        }
+      },
+      "MoveEntries": [
+        {
+          "Id": "EastScarp.BrewingGingerTea",
+          "ToPosition": "Top"
+        },
+        {
+          "Id": "EastScarp.BrewingFrostBerryTea",
+          "ToPosition": "Top"
+        }
+      ]
+    },
+
+
+    {
+		  "LogName": "Iridiium Keg Compatibility with ancient crops",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC){{ModId}}_IridiumKeg",
+        "OutputRules"
+        ],
+        "Entries": {
+          "{{ModId}}_BrewingGingerTea": {
+          "Id": "EastScarp.BrewingGingerTea",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O)829",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "ItemId": "(O)EastScarp_Ginger_Tea",                   
+              "CopyQuality": true,
+              "MinStack": 1,
+			        "MaxStack": 1,
+              "QualityModifiers": [
+                {  
+                  "Id": "normal-silver Iridium",
+                  "Condition": "ITEM_QUALITY Input 0 0, Random 0.2",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id": "silver-gold Iridium",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.25",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id": "gold-iridium Iridium",
+                  "Condition": "ITEM_QUALITY Input 2 2, Random 0.1",
+                  "Modification": "Set",
+                  "Amount": 4
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional item",
+									"Condition": "Random 0.5",
+					        "Modification": "Add",
+									"Amount": 1
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 240,
+          "InvalidCountMessage": null
+        },
+          "{{ModId}}_BrewingFrostBerryTea": {
+          "Id": "EastScarp.BrewingFrostBerryTea",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O)EastScarp_FrostBerry",
+              "RequiredCount": 5
+            }
+          ],
+          "OutputItem": [
+            {
+              "ItemId": "(O)Lemurkat.EastScarp_FrostBerryTea",                   
+              "CopyQuality": true,
+              "MinStack": 1,
+			        "MaxStack": 1,
+              "QualityModifiers": [
+                {  
+                  "Id": "normal-silver Iridium",
+                  "Condition": "ITEM_QUALITY Input 0 0, Random 0.2",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id": "silver-gold Iridium",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.25",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id": "gold-iridium Iridium",
+                  "Condition": "ITEM_QUALITY Input 2 2, Random 0.1",
+                  "Modification": "Set",
+                  "Amount": 4
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional item",
+									"Condition": "Random 0.5",
+					        "Modification": "Add",
+									"Amount": 1
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 240,
+          "InvalidCountMessage": "{{i18n:JackHero06.InvalidCountMessage.FrostBerry}}"
+        }
+      },
+      "MoveEntries": [
+        {
+          "Id": "EastScarp.BrewingGingerTea",
+          "ToPosition": "Top"
+        },
+        {
+          "Id": "EastScarp.BrewingFrostBerryTea",
+          "ToPosition": "Top"
+        }
+      ]
+    },
+
+
+
+    {
+		  "LogName": "Radioactive Keg Compatibility with ancient crops",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC){{ModId}}_RadioactiveKeg",
+        "OutputRules"
+        ],
+        "Entries": {
+          "{{ModId}}_BrewingGingerTea": {
+          "Id": "EastScarp.BrewingGingerTea",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O)829",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "ItemId": "(O)EastScarp_Ginger_Tea",                   
+              "CopyQuality": true,
+              "MinStack": 2,
+			        "MaxStack": 2,
+              "QualityModifiers": [
+                {  
+                  "Id": "normal-silver Radioactive",
+                  "Condition": "ITEM_QUALITY Input 0 0, Random 0.4",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id": "silver-gold Radioactive",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.45",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id": "gold-iridium Radioactive",
+                  "Condition": "ITEM_QUALITY Input 2 2, Random 0.2",
+                  "Modification": "Set",
+                  "Amount": 4
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional item",
+					        "Condition": "Random 0.1",
+					        "Modification": "Add",
+									"Amount": 1
+                },
+                {
+                  "Id": "Aditional Item Quality",
+						      "Condition": "ITEM_QUALITY Input 4 4, Random 0.15",
+						      "Modification": "Add",
+					        "Amount": 1
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 270,
+          "InvalidCountMessage": null
+        },
+          "{{ModId}}_BrewingFrostBerryTea": {
+          "Id": "EastScarp.BrewingFrostBerryTea",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O)EastScarp_FrostBerry",
+              "RequiredCount": 5
+            }
+          ],
+          "OutputItem": [
+            {
+              "ItemId": "(O)Lemurkat.EastScarp_FrostBerryTea",                   
+              "CopyQuality": true,
+              "MinStack": 2,
+			        "MaxStack": 2,
+              "QualityModifiers": [
+                {  
+                  "Id": "normal-silver Radioactive",
+                  "Condition": "ITEM_QUALITY Input 0 0, Random 0.4",
+                  "Modification": "Set",
+                  "Amount": 1
+                },
+                {  
+                  "Id": "silver-gold Radioactive",
+                  "Condition": "ITEM_QUALITY Input 1 1, Random 0.45",
+                  "Modification": "Set",
+                  "Amount": 2
+                },
+                {  
+                  "Id": "gold-iridium Radioactive",
+                  "Condition": "ITEM_QUALITY Input 2 2, Random 0.2",
+                  "Modification": "Set",
+                  "Amount": 4
+                }
+              ],
+              "StackModifiers": [
+                {
+                  "Id": "Aditional item",
+					        "Condition": "Random 0.1",
+					        "Modification": "Add",
+									"Amount": 1
+                },
+                {
+                  "Id": "Aditional Item Quality",
+						      "Condition": "ITEM_QUALITY Input 4 4, Random 0.15",
+						      "Modification": "Add",
+					        "Amount": 1
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 270,
+          "InvalidCountMessage": "{{i18n:JackHero06.InvalidCountMessage.FrostBerry}}"
+        }
+      },
+      "MoveEntries": [
+        {
+          "Id": "EastScarp.BrewingGingerTea",
+          "ToPosition": "Top"
+        },
+        {
+          "Id": "EastScarp.BrewingFrostBerryTea",
+          "ToPosition": "Top"
+        }
+      ]
+    }
+	]
+}

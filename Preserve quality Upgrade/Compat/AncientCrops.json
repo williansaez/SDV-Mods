@@ -1,0 +1,283 @@
+{
+	"Changes": [
+	  {
+		  "LogName": "Iron Keg Compatibility with ancient crops",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC){{ModId}}_IronKeg",
+        "OutputRules"
+        ],
+        "Entries": {
+          "{{ModId}}_AncientCoffee": {
+          "Id": "SOJA.AncientCrops_AncientCoffee",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O)SOJA.AncientCrops_AncientCoffeeSeeds",
+              "RequiredCount": 5
+            }
+          ],
+          "OutputItem": [
+            {
+              "ItemId": "(O)SOJA.AncientCrops_AncientCoffee",                   
+              "CopyQuality": true,
+              "StackModifiers":[
+                {
+                  "Id": "Aditional item",
+									"Condition": "Random 0.2",
+									"Modification": "Add",
+									"Amount": 1
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 120,
+          "InvalidCountMessage": "{{i18n:JackHero06.InvalidCountMessage.AncientCoffeeBeans}}"
+        },
+          "{{ModId}}_AncientFernTea": {
+          "Id": "SOJA.AncientCrops_AncientFernTea",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O)SOJA.AncientCrops_AncientFern",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "ItemId": "(O)SOJA.AncientCrops_AncientFernTea",                   
+              "CopyQuality": true,
+              "StackModifiers":[
+                {
+                  "Id": "Aditional item",
+									"Condition": "Random 0.2",
+									"Modification": "Add",
+									"Amount": 1
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 180
+        }
+      }
+    },
+
+
+    {
+		  "LogName": "Gold Keg Compatibility with ancient crops",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC){{ModId}}_GoldKeg",
+        "OutputRules"
+        ],
+        "Entries": {
+          "{{ModId}}_AncientCoffee": {
+          "Id": "SOJA.AncientCrops_AncientCoffee",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O)SOJA.AncientCrops_AncientCoffeeSeeds",
+              "RequiredCount": 5
+            }
+          ],
+          "OutputItem": [
+            {
+              "ItemId": "(O)SOJA.AncientCrops_AncientCoffee",                   
+              "CopyQuality": true,
+              "MinStack": 1,
+			        "MaxStack": 1,
+              "StackModifiers":[
+                {
+                  "Id": "Aditional item",
+									"Condition": "Random 0.5",
+									"Modification": "Add",
+									"Amount": 1
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 140,
+          "InvalidCountMessage": "{{i18n:JackHero06.InvalidCountMessage.AncientCoffeeBeans}}"
+        },
+          "{{ModId}}_AncientFernTea": {
+          "Id": "SOJA.AncientCrops_AncientFernTea",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O)SOJA.AncientCrops_AncientFern",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "ItemId": "(O)SOJA.AncientCrops_AncientFernTea",                   
+              "CopyQuality": true,
+              "MinStack": 1,
+			        "MaxStack": 1,
+              "StackModifiers":[
+                {
+                  "Id": "Aditional item",
+									"Condition": "Random 0.5",
+									"Modification": "Add",
+									"Amount": 1
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 220
+        }
+      }
+    },
+
+
+    {
+		  "LogName": "Iridiium Keg Compatibility with ancient crops",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC){{ModId}}_IridiumKeg",
+        "OutputRules"
+        ],
+        "Entries": {
+          "{{ModId}}_AncientCoffee": {
+          "Id": "SOJA.AncientCrops_AncientCoffee",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O)SOJA.AncientCrops_AncientCoffeeSeeds",
+              "RequiredCount": 5
+            }
+          ],
+          "OutputItem": [
+            {
+              "ItemId": "(O)SOJA.AncientCrops_AncientCoffee",                   
+              "CopyQuality": true,
+              "MinStack": 1,
+			        "MaxStack": 2,
+              "StackModifiers":[
+                {
+                  "Id": "Aditional item",
+									"Condition": "Random 0.75",
+									"Modification": "Add",
+									"Amount": 1
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 160,
+          "InvalidCountMessage": "{{i18n:JackHero06.InvalidCountMessage.AncientCoffeeBeans}}"
+        },
+          "{{ModId}}_AncientFernTea": {
+          "Id": "SOJA.AncientCrops_AncientFernTea",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O)SOJA.AncientCrops_AncientFern",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "ItemId": "(O)SOJA.AncientCrops_AncientFernTea",                   
+              "CopyQuality": true,
+              "MinStack": 1,
+			        "MaxStack": 2,
+              "StackModifiers":[
+                {
+                  "Id": "Aditional item",
+									"Condition": "Random 0.75",
+									"Modification": "Add",
+									"Amount": 1
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 240
+        }
+      }
+    },
+
+
+
+    {
+		  "LogName": "Radioactive Keg Compatibility with ancient crops",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC){{ModId}}_RadioactiveKeg",
+        "OutputRules"
+        ],
+        "Entries": {
+          "{{ModId}}_AncientCoffee": {
+          "Id": "SOJA.AncientCrops_AncientCoffee",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O)SOJA.AncientCrops_AncientCoffeeSeeds",
+              "RequiredCount": 5
+            }
+          ],
+          "OutputItem": [
+            {
+              "ItemId": "(O)SOJA.AncientCrops_AncientCoffee",                   
+              "CopyQuality": true,
+              "MinStack": 2,
+			        "MaxStack": 2,
+              "StackModifiers":[
+                {
+                  "Id": "Aditional item",
+									"Condition": "Random 0.25",
+									"Modification": "Add",
+									"Amount": 1
+                },
+                {
+                  "Id": "Aditional item 2",
+									"Condition": "Random 0.3",
+									"Modification": "Add",
+									"Amount": 1
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 180,
+          "InvalidCountMessage": "{{i18n:JackHero06.InvalidCountMessage.AncientCoffeeBeans}}"
+        },
+          "{{ModId}}_AncientFernTea": {
+          "Id": "SOJA.AncientCrops_AncientFernTea",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O)SOJA.AncientCrops_AncientFern",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "ItemId": "(O)SOJA.AncientCrops_AncientFernTea",                   
+              "CopyQuality": true,
+              "MinStack": 2,
+			        "MaxStack": 2,
+              "StackModifiers":[
+                {
+                  "Id": "Aditional item",
+									"Condition": "Random 0.25",
+									"Modification": "Add",
+									"Amount": 1
+                },
+                {
+                  "Id": "Aditional item 2",
+									"Condition": "Random 0.3",
+									"Modification": "Add",
+									"Amount": 1
+                }
+              ]
+            }
+          ],
+          "MinutesUntilReady": 270
+        }
+      }
+    }
+	]
+}

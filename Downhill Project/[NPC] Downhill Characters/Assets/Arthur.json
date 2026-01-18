@@ -1,0 +1,22 @@
+{
+  "Changes": [
+	{ 	// Arthur Parameters
+      "Action": "Include",
+      "FromFile": "Assets/Dispositions/Arthur_Dp.json, Assets/Schedules/Arthur_Schedules.json"
+	},
+	{
+      "LogName": "Conversation, Animations, Events",
+      "Action": "Include",
+      "FromFile": "Assets/Conversation/Arthur_Dialogue.json, Assets/Animations/Animations.json, Assets/Events/Arthur_Events.json"
+    },
+	{	//Festivals
+      "Action": "Include",
+      "FromFile": "Assets/Festivals/Arthur_Festivals.json"
+    },
+	{	//Dialogos & Reações
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": { "Arthur": "{{i18n:Art.Gift_Love}}/-5/{{i18n:Art.Gift_Like}}/-26 -2 -12 -4/{{i18n:Art.Gift_Disl}}/-81 -79 -20 -6/{{i18n:Art.Gift_Hate}}/-75 -80/{{i18n:Art.Gift_Neut}}/-27 -7/ " }
+    }
+  ]
+}

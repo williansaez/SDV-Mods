@@ -1,0 +1,43 @@
+{
+	"Changes": [
+
+    // Dialogue
+        {
+            "LogName": "House-mate Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogueDwarfRoommate",
+            "Entries": {
+                "fall_26": "{{i18n:fall_26}}"
+            }
+        },
+
+    // Mail
+        {
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "Krobus_LemonStoneRequest": "{{i18n:krobuslemonstone}}%item quest 964201 %%[#]{{i18n:krobuslemonstone.title}}"            }
+        },
+
+
+    // Events
+        {
+            "LogName": "Mine events",
+            "Action": "EditData",
+            "Target": "Data/Events/Mine",
+            "Entries": {
+                "96420004/f Dwarf 1000/e 691039/t 610 1100": "EarthMine/-100 -100/Dwarf -1000 -1000 2 farmer 18 13 0/skippable/viewport 23 9 clamp true/pause 500/move farmer 0 -5 0/pause 500/playSound stairsdown/pause 100/faceDirection farmer 1/emote farmer 8/warp Dwarf 23 9/jump Dwarf 3/move Dwarf 0 -1 2/animate Dwarf false true 150 16 17 18 19 18 17 16 16 16 17 18 19 18 17 16/emote farmer 28/pause 2000/textAboveHead Dwarf \"{{i18n:96420004.01}}\"/stopAnimation Dwarf 16/jump Dwarf 3/pause 500/showFrame Dwarf 0/playSound explosion/faceDirection farmer 2/showFrame farmer 94/jump farmer 5/screenFlash 1/pause 1500/showFrame farmer 0/faceDirection farmer 1/pause 500/speak Dwarf \"{{i18n:96420004.02}}\"/pause 500/faceDirection Dwarf 3/speak Dwarf \"{{i18n:96420004.03}}\"/move Dwarf -4 0 3/emote farmer 28/pause 500/speak Dwarf \"{{i18n:96420004.04}}\"/pause 500/faceDirection Dwarf 1/pause 500/move Dwarf 1 0 1/jump Dwarf 3/emote Dwarf 16/faceDirection Dwarf 3/textAboveHead Dwarf \"{{i18n:96420004.05}}\"/pause 2500/emote farmer 8/pause 500/speak Dwarf \"{{i18n:96420004.06}}\"/animate Dwarf false true 150 16 17 18 19 18 17 16 16 16 17 18 19 18 17 16/speak Dwarf \"{{i18n:96420004.07}}\"/emote farmer 28/speak Dwarf \"{{i18n:96420004.08}}\"/quickQuestion #{{i18n:96420004.09}}#{{i18n:96420004.10}}#{{i18n:96420004.11}}(break)pause 500\\emote Dwarf 12\\speak Dwarf \"{{i18n:96420004.12}}\"(break)speak Dwarf \"{{i18n:96420004.13}}\"(break)speak Dwarf \"{{i18n:96420004.14}}\"/pause 1000/textAboveHead Dwarf \"{{i18n:96420004.15}}\"/pause 500/playSound shwip/stopAnimation Dwarf 0/pause 500/faceDirection Dwarf 3/speak Dwarf \"{{i18n:96420004.16}}\"/faceDirection Dwarf 1/pause 500/textAboveHead Dwarf \"{{i18n:96420004.17}}\"/move Dwarf 12 0 1 true/pause 1000/emote farmer 28/pause 2000/end"
+            }
+        },
+
+        {
+            "LogName": "Events in the Mountains",
+            "Action": "EditData",
+            "Target": "Data/Events/Mountain",
+            "Entries": {
+                //5 heart event (4 hearts Krobus) *Ends newDay*
+                "96420005/e 691039/f Krobus 1000/f Dwarf 1250/d Fri/t 2430 2600": "nightTime/40 23/Krobus 34 23 1 Dwarf 41 18 2 farmer 40 10 2/skippable/addLantern 735 44 23 3/move Dwarf 0 5 3 true/move Krobus 5 0 1 true/pause 1500/emote Dwarf 16 true/emote Krobus 16 true/pause 500/speak Dwarf \"{{i18n:96420005.01}}\"/speak Krobus \"{{i18n:96420005.02}}\"/speak Dwarf \"{{i18n:96420005.03}}\"/textAboveHead Krobus \"{{i18n:96420005.04}}\"/shake Dwarf 3000 true/shake Krobus 3000 true/move farmer 0 10 2/emote farmer 8/textAboveHead Dwarf \"{{i18n:96420005.05}}\"/jump Dwarf/pause 500/animate Krobus false true 50 4 5 6 7/jump Krobus/pause 500/animate Dwarf false true 50 12 13 14 15/pause 1000/emote farmer 16/speed farmer 5/move farmer 0 3 2/jump farmer 5/stopAnimation Krobus/stopAnimation Dwarf/emote farmer 36/faceDirection farmer 1/pause 500/faceDirection farmer 3/pause 1000/emote Dwarf 12 true/emote Krobus 12 true/speak Dwarf \"{{i18n:96420005.06}}\"/speak Krobus \"{{i18n:96420005.07}}\"/faceDirection farmer 3/pause 500/speak Dwarf \"{{i18n:96420005.08}}\"/faceDirection farmer 1/pause 500/textAboveHead Krobus \"{{i18n:96420005.09}}\"/faceDirection farmer 3/pause 1500/faceDirection farmer 2/startJittering/emote farmer 28/pause 500/stopJittering/animate farmer false false 200 16 16 16 16 16 0 0 16 16 16 16 16 4 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5/pause 1500/jump Dwarf/jump Krobus/emote Dwarf 16 true/emote Krobus 16 true/pause 1500/stopAnimation farmer/showFrame farmer 5/emote farmer 24/pause 1000/textAboveHead Krobus \"{{i18n:96420005.10}}\"/speak Dwarf \"{{i18n:96420005.11}}\"/textAboveHead Krobus \"{{i18n:96420005.12}}\"/speak Krobus \"{{i18n:96420005.13}}\"/speak Dwarf \"{{i18n:96420005.14}}\"/emote Krobus 16/textAboveHead Dwarf \"{{i18n:96420005.15}}\"/speak Krobus \"{{i18n:96420005.16}}\"/emote farmer 24/speak Dwarf \"{{i18n:96420005.17}}\"/speak Krobus \"{{i18n:96420005.18}}\"/speak Dwarf \"{{i18n:96420005.19}}\"/emote Krobus 12/jump Krobus 5/speak Krobus \"{{i18n:96420005.20}}\"/faceDirection Krobus 0/speak Krobus \"{{i18n:96420005.21}}\"/pause 500/playSound dogs/pause 1000/textAboveHead Dwarf \"{{i18n:96420005.22}}\"/pause 500/speak Dwarf \"{{i18n:96420005.23}}\"/faceDirection Krobus 1/speak Krobus \"{{i18n:96420005.24}}\"/speak Dwarf \"{{i18n:96420005.25}}\"/emote Krobus 32/pause 1000/fade/viewport -1000 -1000/playSound grassyStep/pause 500/playSound grassyStep/pause 500/playSound grassyStep/pause 500/playSound stairsdown/speak Krobus \"{{i18n:96420005.26}}\"/pause 500/playSound doorOpen/pause 500/playSound woodyStep/pause 500/playSound woodyStep/speak Dwarf \"{{i18n:96420005.27}}\"/pause 500/playSound Ship/speak Krobus \"{{i18n:96420005.28}}\"/changeLocation BusStop/viewport -1000 -1000/warp Dwarf 26 23/warp Krobus 24 23/viewport 24 23 clamp true/pause 1000/speak Krobus \"{{i18n:96420005.29}}\"/emote Dwarf 12/pause 1000/speak Dwarf \"{{i18n:96420005.30}}\"/pause 500/faceDirection Dwarf 1/move Dwarf 14 0 1 true/pause 2000/textAboveHead Krobus \"{{i18n:96420005.31}}\"/pause 1000/message \"{{i18n:96420005.32}}\"/pause 2000/end newDay"
+            }
+        }
+    ]
+}

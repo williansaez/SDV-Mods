@@ -1,0 +1,14 @@
+{
+  // Credits to alvarovictor
+  "HolderName": "Item de suporte ExtraMachineConfig",
+  "HolderDescription": "Este é um item fictício feito para contornar a limitação das máquinas que não conseguem produzir chapéus, armas e outros tipos de itens. Se você está vendo isso, provavelmente está usando Lookup Anything/CJB Item Spawner, ou algo deu errado com o EMC ou com um de seus arquivos.",
+  // Buff icon display
+  "AttackMultiplierBuff": "{0} Multiplicador de Ataque",
+  "ImmunityBuff": "{0} Imunidade",
+  "KnockbackMultiplierBuff": "{0} Multiplicador de Recuo",
+  "WeaponSpeedMultiplierBuff": "{0} Multiplicador de Velocidade da Arma",
+  "CriticalChanceMultiplierBuff": "{0} Multiplicador de Chance Crítica",
+  "CriticalPowerMultiplierBuff": "{0} Multiplicador de Dano Crítico",
+  "WeaponPrecisionMultiplierBuff": "{0} Multiplicador de Precisão da Arma"
+}
+

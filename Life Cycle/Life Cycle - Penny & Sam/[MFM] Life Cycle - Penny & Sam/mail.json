@@ -1,0 +1,16 @@
+[
+    {
+        "Id": "LifeCycle.PennySam",
+        "Title": "Penny and Sam Wedding Invitation",
+        "Text": "^    Dear @,^    we invite you to celebrate our marriage today,^   22nd of spring, at 5 in the town square.",
+        "LetterBG": "PennySam.png",
+        "WhichBG": 0,
+        "TextColor": 8, // -1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+
+        // CONDITIONS FOR DELIVERY
+        "Date": "22 spring Y3", // Must be that date or after it. "[1-28] [spring|summer|fall|winter] Y[1-999]"
+        "Weather": "sunny",
+        "EventsSeen": [59020036], // Require one of the events to have been seen by the player.
+        "RequireAllEventsSeen":  true, // If true, require that all the events in the "EventsSeen" list to have been seen by the player. Default is false.
+    }
+]

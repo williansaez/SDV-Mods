@@ -1,0 +1,12 @@
+{
+  "DisplayTalkPrompts": true,
+  "DisplayGenericGiftPrompts": true,
+  "GiftCycleDelay": 2000,
+  "IgnoreMaxedFriendships": false,
+  "SpousePromptsOverride": false,
+  "DisplayBubbles": false,
+  "BubbleDisplayRange": 12,
+  "GiftPreference": "love",
+  "GiftCycleCount": 4,
+  "OnlyHighestQuality": false
+}

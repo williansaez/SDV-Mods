@@ -1,0 +1,12 @@
+{
+   "Name": "Elle's Seasonal Vanilla Buildings",
+   "Author": "Elle/Junimods",
+   "Version": "1.0.4",
+   "Description": "Adds seasonal features to vanilla farm buildings!",
+   "UniqueID": "Elle.SeasonalVanillaBuildings",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "Nexus:6330" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+   }

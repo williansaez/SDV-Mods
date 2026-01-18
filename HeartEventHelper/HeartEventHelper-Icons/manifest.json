@@ -1,0 +1,11 @@
+{
+    "Name": "Heart Event Helper - Icons (CP)",
+    "Author": "bungus",
+    "Version": "1.1.0",
+    "Description": "Optional mod to add extra dialogue icons for Heart Event Helper.",
+    "UniqueID": "bungus.HEHIcons",
+    "UpdateKeys": [ "Nexus:21924" ],
+    "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+    }
+  }

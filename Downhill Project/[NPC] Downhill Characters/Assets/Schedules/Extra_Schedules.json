@@ -1,0 +1,155 @@
+{ 
+	"Changes":
+	[
+		{ // Changes to other NPCs Schedules
+		"Action": "EditData",
+		"Target": "Characters/schedules/Abigail",
+		"When": { "Weather |contains=rain, storm": false },
+		"Entries": 
+			{
+			"spring_11": "900 SeedShop 39 5 0/1030 SeedShop 2 20 3/1300 Downhill 32 57 3/1630 SeedShop 3 6 0 abigail_videogames/1930 SeedShop 1 9 3 abigail_sleep",
+			"summer_17": "900 SeedShop 4 5 0/1030 SeedShop 20 5 1 \"Strings\\schedules\\Abigail:Sun.000\"/1230 Downhill 12 21 0/1630 SeedShop 3 6 0 abigail_videogames/1930 SeedShop 1 9 3 abigail_sleep",
+			"fall_17": "900 SeedShop 39 5 0/1030 SeedShop 2 20 3/1230 Downhill 35 39 2 abigail_sit_down/1700 SeedShop 3 6 0 abigail_videogames/2030 SeedShop 1 9 3 abigail_sleep"
+			}
+		},
+		{
+		"Action": "EditData",
+		"Target": "Characters/schedules/Caroline",
+		"When": { "HasSeenEvent: anyPlayer|contains=28645006": true, "Weather |contains=rain, storm": false },
+		"Entries": 
+			{
+			"spring_9": "800 SeedShop 37 6 3/930 DH.Church 15 17 0/1300 Town 23 71 2/1600 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 caroline_sleep",
+			"fall_Thu": "800 SeedShop 37 6 3/930 DH.Church 15 17 0/1300 Downhill 34 43 1/1430 Town 23 71 2/1630 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 caroline_sleep"
+			}
+		},
+		{
+		"Action": "EditData",
+		"Target": "Characters/schedules/Emily",
+		"When": { "HasSeenEvent: anyPlayer|contains=28645006": false, "Weather |contains=rain, storm": false },
+		"Entries": 
+			{
+			"fall_11": "730 DH.Anderson.House 15 7 3/1200 Saloon 15 17 0 square_5_1_0/2430 HaleyHouse 21 4 1 emily_sleep"
+			}
+		},
+		{
+		"Action": "EditData",
+		"Target": "Characters/schedules/Emily",
+		"When": { "HasSeenEvent: anyPlayer|contains=28645006": true, "Weather |contains=rain, storm": false },
+		"Entries": 
+			{
+			"summer_Sat": "900 DH.Church 16 13 0/1400 Saloon 15 17 0 square_5_1_0/2430 HaleyHouse 21 4 1 emily_sleep",
+			"winter_21": "900 DH.Church 16 13 0/1400 Saloon 15 17 0 square_5_1_0/2430 HaleyHouse 21 4 1 emily_sleep"
+			}
+		},
+		{
+		"Action": "EditData",
+		"Target": "Characters/schedules/Evelyn",
+		"When": { "Weather |contains=rain, storm": false },
+		"Entries": 
+			{
+			"fall_7": "610 DH.Julia.House 18 5 1/1230 Town 84 10 1/1650 JoshHouse 4 17 0 square_3_1_0/1900 JoshHouse 17 17 0/2130 JoshHouse 2 5 1",
+			"winter_7": "610 DH.Julia.House 18 5 1/1230 Town 84 10 1/1650 JoshHouse 4 17 0 square_3_1_0/1900 JoshHouse 17 17 0/2130 JoshHouse 2 5 1"
+			}
+		},
+		{
+		"Action": "EditData",
+		"Target": "Characters/schedules/Gus",
+		"When": { "HasSeenEvent: anyPlayer|contains=28645006": true, "Weather |contains=rain, storm": false },
+		"Entries": 
+			{
+			"spring_3": "800 DH.Church 8 17 0/1130 Saloon 14 18 2 gus_clean/1830 Saloon 12 18 0/1850 Saloon 10 18 2/1940 Saloon 12 18 0/1950 Saloon 10 18 2/2030 Saloon 12 18 0/2040 Saloon 10 18 2/2400 Saloon 23 4 1 gus_sleep",
+			"summer_3": "800 DH.Church 8 17 0/1130 Saloon 14 18 2 gus_clean/1830 Saloon 12 18 0/1850 Saloon 10 18 2/1940 Saloon 12 18 0/1950 Saloon 10 18 2/2030 Saloon 12 18 0/2040 Saloon 10 18 2/2400 Saloon 23 4 1 gus_sleep"
+			}
+		},
+		{
+		"Action": "EditData",
+		"Target": "Characters/schedules/Harvey",
+		"When": { "Weather |contains=rain, storm": false },
+		"Entries": 
+			{
+			"winter_7": "630 DH.Julia.House 19 8 0/1200 HarveyRoom 4 5 1 harvey_radio/1600 HarveyRoom 11 5 3 harvey_read/1730 Saloon 18 20 0/2200 HarveyRoom 13 4 1 harvey_sleep",
+			}
+		},
+		{
+		"Action": "EditData",
+		"Target": "Characters/schedules/Jodi",
+		"When": { "HasSeenEvent: anyPlayer|contains=28645006": true, "Weather |contains=rain, storm": false },
+		"Entries": 
+			{
+			"fall_Thu": "730 SamHouse 6 5 0 jodi_dishes/930 DH.Church 16 17 0/1300 Downhill 36 43 3/1430 Town 22 72 1/1630 SamHouse 5 5 0/1900 SamHouse 6 5 0 jodi_dishes/1930 SamHouse 8 13 1/2100 SamHouse 10 22 3/2200 SamHouse 22 5 1 jodi_sleep"
+			}
+		},
+		{
+		"Action": "EditData",
+		"Target": "Characters/schedules/Kent",
+		"When": { "HasSeenEvent: anyPlayer|contains=28645006": true, "Weather |contains=rain, storm": false },
+		"Entries": 
+			{
+			"winter_6": "700 Town 42 102 2/900 DH.Church 5 13 0/1330 Town 6 72 1/1700 SamHouse 2 21 0/1900 SamHouse 8 5 3/2100 Town 6 89 2/2300 SamHouse 21 5 3 kent_sleep"
+			}
+		},
+		{
+		"Action": "EditData",
+		"Target": "Characters/schedules/Leah",
+		"When": { "Weather |contains=rain, storm": false },
+		"Entries": 
+			{
+			"spring_9": "900 LeahHouse 3 7 3 leah_sculpt/1030 Downhill 53 43 2/1300 Downhill 67 67 2 leah_draw/1450 LeahHouse 8 5 0/2000 LeahHouse 13 10 2/2200 LeahHouse 2 4 3 leah_sleep",
+			"spring_25": "900 LeahHouse 3 7 3 leah_sculpt/1200 Downhill 31 59 2 leah_draw/1830 LeahHouse 8 5 0/2200 LeahHouse 13 10 2/2400 LeahHouse 2 4 3 leah_sleep"
+			}
+		},
+		{
+		"Action": "EditData",
+		"Target": "Characters/schedules/Lewis",
+		"When": { "Weather |contains=rain, storm": false },
+		"Entries": 
+			{
+			"summer_9": "650 Downhill 34 40 1/1030 Town 30 56 2/1400 Town 41 57 0/1600 ManorHouse 7 5 0 square_5_1_0/2000 ManorHouse 3 6 0/2200 ManorHouse 22 4 1 lewis_sleep",
+			"fall_15": "750 DH.Anderson.House 15 7 3/1150 Town 30 56 2/1400 Town 41 57 0/1600 ManorHouse 7 5 0 square_5_1_0/2000 ManorHouse 3 6 0/2200 ManorHouse 22 4 1 lewis_sleep",
+			"winter_18": "610 DH.Julia.House 19 8 0/1140 Town 30 56 2/1400 Town 41 57 0/1600 ManorHouse 7 5 0 square_5_1_0/2000 ManorHouse 3 6 0/2200 ManorHouse 22 4 1 lewis_sleep"
+			}
+		},
+		{
+		"Action": "EditData",
+		"Target": "Characters/schedules/Linus",
+		"When": { "Weather |contains=rain, storm": false },
+		"Entries": 
+			{
+			"summer_Fri": "630 Downhill 71 48 3/1040 Downhill 35 31 2 square_3_3/1300 Mountain 48 35 2 square_3_3/1600 Mountain 28 9 1/2000 Mountain 25 5 1/2020 Tent 2 2 2",
+			"fall_Sun": "700 Downhill 75 30 2/900 Downhill 43 62 2/1200 Railroad 20 57 2 square_5_5/1500 Mountain 44 18 1/1900 Tent 2 2 2",
+			"winter_3": "1100 Mountain 28 9 1/1400 BathHouse_Entry 8 6 3/1900 Downhill 34 45 3/2100 Tent 2 2 2",
+			}
+		},
+		{
+		"Action": "EditData",
+		"Target": "Characters/schedules/Marnie",
+		"When": { "HasSeenEvent: anyPlayer|contains=28645006": true, "Weather |contains=rain, storm": false },
+		"Entries": 
+			{
+			"fall_1": "830 DH.Church 15 13 0/1400 AnimalShop 24 15 0/1800 AnimalShop 17 8 1/2100 AnimalShop 12 5 3 marnie_sleep"
+			}
+		},
+		{
+		"Action": "EditData",
+		"Target": "Characters/schedules/Robin",
+		"When": { "Weather |contains=rain, storm": false },
+		"Entries": 
+			{
+			"spring_4": "800 ScienceHouse 8 18 2/1400 DH.Mine 15 31 3/1700 Mountain 29 36 2/1930 ScienceHouse 16 5 0/2100 ScienceHouse 21 4 1 robin_sleep",
+			"suumer_4": "800 ScienceHouse 8 18 2/1400 DH.Mine 15 31 3/1700 Mountain 29 36 2/1930 ScienceHouse 16 5 0/2100 ScienceHouse 21 4 1 robin_sleep",
+			"fall_4": "800 ScienceHouse 8 18 2/1200 DH.Mine 25 30 0/1500 Mountain 29 36 2/1930 ScienceHouse 16 5 0/2100 ScienceHouse 21 4 1 robin_sleep",
+			"winter_4": "800 ScienceHouse 8 18 2/1200 DH.Mine 25 30 0/1500 Mountain 29 36 2/1930 ScienceHouse 16 5 0/2100 ScienceHouse 21 4 1 robin_sleep"
+
+			}
+		},
+		{
+		"Action": "EditData",
+		"Target": "Characters/schedules/Willy",
+		"When": { "HasSeenEvent: anyPlayer|contains=28645006": true, "Weather |contains=rain, storm": false },
+		"Entries": 
+			{
+			"winter_28": "700 DH.Church 6 13 0/1230 FishShop 5 4 2/1700 Saloon 17 22 2/2320 FishShop 5 4 2"
+			}
+		}
+	]
+}

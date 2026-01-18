@@ -1,0 +1,19 @@
+{
+  "config.show-button.name": "Mostrar Botón",
+  "config.show-button.description": "Si debe mostrarse el botón 'Enviar Todo' en los cofres.",
+  
+  "config.keybind.name": "Atajo de Teclado",
+  "config.keybind.description": "Tecla para enviar todos los items al cofre.",
+  
+  "config.manual-lock.name": "Bloqueo Manual de Slots",
+  "config.manual-lock.description": "Habilitar el bloqueo manual de slots cuando Convenient Inventory no está instalado.",
+  
+  "config.locked-slots.name": "Slots Bloqueados",
+  "config.locked-slots.description": "Lista de slots a bloquear separados por comas (ej: 0,1,5,12). Los slots van de 0 a 35.",
+  
+  "button.sendall": "Enviar Todo",
+  
+  "message.sent-items": "Items enviados al cofre.",
+  "message.chest-full": "El cofre está lleno.",
+  "message.no-items": "No hay items para enviar."
+}

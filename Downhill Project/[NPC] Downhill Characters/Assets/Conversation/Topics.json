@@ -1,0 +1,165 @@
+{
+	"Changes": [
+
+	//-------------------//
+	// Topic Vanilla NPC //
+	//-------------------//
+	
+	{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Abigail",
+	"Entries": { 
+		"DH.Anderson.02": "{{i18n:DH.MyTo_NPCs.01}}",
+		"DH.Inauguration_Church": "{{i18n:DH.MyTo_NPCs.02}}"
+	  }
+	},
+	{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Clint",
+	"Entries": { 
+		"DH.Arthur.03": "{{i18n:DH.MyTo_NPCs.03}}"
+	  }
+	},
+	{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Emily",
+	"Entries": { 
+		"DH.Anderson.02": "{{i18n:DH.MyTo_NPCs.04}}",
+		"DH.Inauguration_Church": "{{i18n:DH.MyTo_NPCs.05}}",
+		"DH.Julia.01": "{{i18n:DH.MyTo_NPCs.06}}"
+	  }
+	},
+	{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Evelyn",
+	"Entries": { 
+		"DH.Anderson.02": "{{i18n:DH.MyTo_NPCs.07}}",
+		"DH.Inauguration_Church": "{{i18n:DH.MyTo_NPCs.08}}",
+		"DH.Julia.01": "{{i18n:DH.MyTo_NPCs.09}}",
+		"DH.Julia.03": "{{i18n:DH.MyTo_NPCs.10}}"
+	  }
+	},
+	{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/George",
+	"Entries": { 
+		"DH.Arthur.02": "{{i18n:DH.MyTo_NPCs.11}}",
+		"DH.Arthur.03": "{{i18n:DH.MyTo_NPCs.12}}"
+	  }
+	},
+	{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Gus",
+	"Entries": { 
+		"DH.Julia.02": "{{i18n:DH.MyTo_NPCs.13}}",
+		"DH.Arthur.02": "{{i18n:DH.MyTo_NPCs.14}}"
+	  }
+	},
+	{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Harvey",
+	"Entries": { 
+		"DH.Julia.02": "{{i18n:DH.MyTo_NPCs.15}}",
+		"DH.Julia.03": "{{i18n:DH.MyTo_NPCs.16}}"
+	  }
+	},
+	{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Jas",
+	"Entries": { 
+		"DH.Anderson.02": "{{i18n:DH.MyTo_NPCs.17}}",
+		"DH.Julia.01": "{{i18n:DH.MyTo_NPCs.18}}"
+	  }
+	},
+	{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Jodi",
+	"Entries": { 
+		"DH.Anderson.03": "{{i18n:DH.MyTo_NPCs.19}}",
+		"DH.Julia.03": "{{i18n:DH.MyTo_NPCs.20}}"
+	  }
+	},
+	{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Lewis",
+	"Entries": { 
+		"DH.Anderson.01": "{{i18n:DH.MyTo_NPCs.21}}",
+		"DH.Anderson.03": "{{i18n:DH.MyTo_NPCs.22}}",
+		"DH.Inauguration_Church": "{{i18n:DH.MyTo_NPCs.23}}",
+		"DH.Arthur.02": "{{i18n:DH.MyTo_NPCs.24}}",
+		"DH.Julia.01": "{{i18n:DH.MyTo_NPCs.25}}",
+		"DH.Julia.02": "{{i18n:DH.MyTo_NPCs.26}}"
+	  }
+	},
+	{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Linus",
+	"Entries": { 
+		"DH.Julia.01": "{{i18n:DH.MyTo_NPCs.27}}"
+	  }
+	},
+	{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Marnie",
+	"Entries": { 
+		"DH.Anderson.01": "{{i18n:DH.MyTo_NPCs.28}}",
+		"DH.Inauguration_Church": "{{i18n:DH.MyTo_NPCs.29}}",
+		"DH.Julia.01": "{{i18n:DH.MyTo_NPCs.30}}"
+	  }
+	},
+	{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Pam",
+	"Entries": { 
+		"DH.Arhur.03": "{{i18n:DH.MyTo_NPCs.31}}"
+	  }
+	},
+	{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Pierre",
+	"Entries": { 
+		"DH.Anderson.01": "{{i18n:DH.MyTo_NPCs.32}}",
+		"DH.Inauguration_Church": "{{i18n:DH.MyTo_NPCs.33}}"
+	  }
+	},
+	{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Robin",
+	"Entries": { 
+		"DH.Anderson.01": "{{i18n:DH.MyTo_NPCs.34}}",
+		"DH.Inauguration_Church": "{{i18n:DH.MyTo_NPCs.35}}",
+		"DH.Arthur.01": "{{i18n:DH.MyTo_NPCs.36}}",
+	  	"DH.Julia.02": "{{i18n:DH.MyTo_NPCs.37}}"
+	  }
+	},
+	{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Sebastian",
+	"Entries": { 
+		"DH.Anderson.03": "{{i18n:DH.MyTo_NPCs.38}}" 
+	  }
+	},
+	{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Shane",
+	"Entries": { 
+		"DH.Arthur.01": "{{i18n:DH.MyTo_NPCs.39}}"
+	  }
+	},
+	{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Vincent",
+	"Entries": { 
+		"DH.Arthur.01": "{{i18n:DH.MyTo_NPCs.40}}" 
+	  }
+	},
+	{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Willy",
+	"Entries": { 
+		"DH.Inauguration_Church": "{{i18n:DH.MyTo_NPCs.41}}",
+		"DH.Arthur.01": "{{i18n:DH.MyTo_NPCs.42}}"
+	  }
+	}
+  ]
+}

@@ -1,0 +1,26 @@
+{
+	"Changes": [
+		{	//Loads Maps
+		"Action":"Load",
+		"Target":"Maps/DH.Arthur.House, Maps/DH.Julia.House, Maps/DH.Anderson.House, Maps/DH.Anderson.House_Underground, Maps/DH.Event_Anderson",
+		"FromFile":"Assets/Maps/{{TargetWithoutPath}}.tmx"
+		},
+		{	//Events Fix
+		"Action": "Load",
+		"Target": "Data/Events/DH.Arthur.House, Data/Events/DH.Julia.House, Data/Events/DH.Anderson.House, Data/Events/DH.Anderson.House_Underground, Data/Events/DH.Event_Anderson",
+		"FromFile": "Assets/Maps/Events.json"
+		},
+		{	//Identifying Maps
+        "Action": "EditData",
+        "Target": "Data/Locations",
+        "Entries": { 
+			"DH.Arthur.House": { "DisplayName": "{{i18n:DH.Arthur.House}}", "CreateOnLoad": { "MapPath": "Maps\\DH.Arthur.House" }, "ExcludeFromNpcPathfinding": false, "FormerLocationNames": [ "Custom_DH.Arthur.House"] },
+			"DH.Julia.House": { "DisplayName": "{{i18n:DH.Julia.House}}", "CreateOnLoad": { "MapPath": "Maps\\DH.Julia.House" }, "ExcludeFromNpcPathfinding": false, "FormerLocationNames": [ "Custom_DH.Julia.House"] },
+			"DH.Anderson.House": { "DisplayName": "{{i18n:DH.Anderson.House}}", "CreateOnLoad": { "MapPath": "Maps\\DH.Anderson.House" }, "ExcludeFromNpcPathfinding": false, "FormerLocationNames": [ "Custom_DH.Anderson.House"] },
+			"DH.Anderson.House_Underground": { "DisplayName": "{{i18n:DH.Anderson.House_Underground}}", "CreateOnLoad": { "MapPath": "Maps\\DH.Anderson.House_Underground" }, "ExcludeFromNpcPathfinding": false, "FormerLocationNames": [ "Custom_DH.Anderson.House_Underground"] },
+			"DH.Event_Anderson": { "DisplayName": "{{i18n:DH.Event_Anderson}}", "CreateOnLoad": { "MapPath": "Maps\\DH.Event_Anderson" }, "ExcludeFromNpcPathfinding": false, "FormerLocationNames": [ "Custom_DH.Event_Anderson"] },
+			}
+		}
+	]
+}
+

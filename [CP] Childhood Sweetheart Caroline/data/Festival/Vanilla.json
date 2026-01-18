@@ -1,0 +1,554 @@
+{
+    "Changes": [
+        // EGG HUNT
+        {
+            "LogName": "Caroline Egg Festival - Main Event Remove",
+            "Action": "EditMap",
+            "Target": "Maps/Town-EggFestival",
+            "PatchMode": "ReplaceByLayer",
+            "FromFile": "assets/Maps/festivalMainEvent_R.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 1
+            },
+            "ToArea": {
+                "X": 24,
+                "Y": 63,
+                "Width": 1,
+                "Height": 1
+            },
+        },
+        {
+            "LogName": "Caroline Egg Festival - Main Event",
+            "Action": "EditMap",
+            "Target": "Maps/Town-EggFestival",
+            "PatchMode": "ReplaceByLayer",
+            "FromFile": "assets/Maps/festivalMainEvent_2.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 1
+            },
+            "ToArea": {
+                "X": 26,
+                "Y": 57,
+                "Width": 1,
+                "Height": 1
+            },
+        },
+        {
+            "LogName": "Caroline Egg Festival Y2 - Main Event Remove",
+            "Action": "EditMap",
+            "Target": "Maps/Town-EggFestival2",
+            "PatchMode": "ReplaceByLayer",
+            "FromFile": "assets/Maps/festivalMainEvent_R.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 1
+            },
+            "ToArea": {
+                "X": 26,
+                "Y": 62,
+                "Width": 1,
+                "Height": 1
+            },
+        },
+        {
+            "LogName": "Caroline Egg Festival - Main Event",
+            "Action": "EditMap",
+            "Target": "Maps/Town-EggFestival2",
+            "PatchMode": "ReplaceByLayer",
+            "FromFile": "assets/Maps/festivalMainEvent_1.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 1
+            },
+            "ToArea": {
+                "X": 24,
+                "Y": 72,
+                "Width": 1,
+                "Height": 1
+            },
+        },
+        // FLOWER DANCE
+        {
+            "LogName": "Caroline Flower Dance Y1 - Movement Remove", 
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+
+            "TextOperations": [
+                {
+                    "Operation": "RemoveDelimited",
+                    "Target": ["Entries", "set-up"],
+                    "Search": "advancedMove Caroline true 7 0 0 1 1 18000 0 -1 -7 0 3 18000",
+                    "Delimiter": "/"
+                }]
+        },
+        {
+            "LogName": "Caroline Flower Festival - Main Event Remove",
+            "Action": "EditMap",
+            "Target": "Maps/Forest-FlowerFestival",
+            "PatchMode": "ReplaceByLayer",
+            "FromFile": "assets/Maps/festivalMainEvent_R.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 1
+            },
+            "ToArea": {
+                "X": 17,
+                "Y": 30,
+                "Width": 1,
+                "Height": 1
+            },
+        },
+        {
+            "LogName": "Caroline Flower Festival - Main Event",
+            "Action": "EditMap",
+            "Target": "Maps/Forest-FlowerFestival",
+            "PatchMode": "ReplaceByLayer",
+            "FromFile": "assets/Maps/festivalMainEvent_3.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 1
+            },
+            "ToArea": {
+                "X": 23,
+                "Y": 27,
+                "Width": 1,
+                "Height": 1
+            },
+        },
+        {
+            "LogName": "Caroline Flower Festival Y2 - Main Event Remove",
+            "Action": "EditMap",
+            "Target": "Maps/Forest-FlowerFestival2",
+            "PatchMode": "ReplaceByLayer",
+            "FromFile": "assets/Maps/festivalMainEvent_R.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 1
+            },
+            "ToArea": {
+                "X": 12,
+                "Y": 21,
+                "Width": 1,
+                "Height": 1
+            },
+        },
+        {
+            "LogName": "Caroline Flower Festival Y2 - Main Event",
+            "Action": "EditMap",
+            "Target": "Maps/Forest-FlowerFestival2",
+
+            "PatchMode": "ReplaceByLayer",
+            "FromFile": "assets/Maps/festivalMainEvent_0.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 1
+            },
+            "ToArea": {
+                "X": 13,
+                "Y": 31,
+                "Width": 1,
+                "Height": 1
+            },
+        },
+        // LUAU
+        {
+            "LogName": "Caroline Luau - Main Event Remove",
+            "Action": "EditMap",
+            "Target": "Maps/Beach-Luau",
+            "PatchMode": "ReplaceByLayer",
+            "FromFile": "assets/Maps/festivalMainEvent_R.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 1
+            },
+            "ToArea": {
+                "X": 41,
+                "Y": 13,
+                "Width": 1,
+                "Height": 1
+            },
+        },
+        {
+            "LogName": "Caroline Luau - Main Event",
+            "Action": "EditMap",
+            "Target": "Maps/Beach-Luau",
+            "PatchMode": "ReplaceByLayer",
+            "FromFile": "assets/Maps/festivalMainEvent_2.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 1
+            },
+            "ToArea": {
+                "X": 35,
+                "Y": 6,
+                "Width": 1,
+                "Height": 1
+            },
+        },
+        {
+            "LogName": "Caroline Luau Y2 - Main Event Remove",
+            "Action": "EditMap",
+            "Target": "Maps/Beach-Luau2",
+            "PatchMode": "ReplaceByLayer",
+            "FromFile": "assets/Maps/festivalMainEvent_R.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 1
+            },
+            "ToArea": {
+                "X": 19,
+                "Y": 13,
+                "Width": 1,
+                "Height": 1
+            },
+        },
+        {
+            "LogName": "Caroline Luau Y2 - Main Event",
+            "Action": "EditMap",
+            "Target": "Maps/Beach-Luau2",
+            "PatchMode": "ReplaceByLayer",
+            "FromFile": "assets/Maps/festivalMainEvent_0.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 1
+            },
+            "ToArea": {
+                "X": 20,
+                "Y": 18,
+                "Width": 1,
+                "Height": 1
+            },
+        },
+        // JELLIES
+        {
+            "LogName": "Caroline Jellies - SetUp Event Remove",
+            "Action": "EditMap",
+            "Target": "Maps/Beach-Jellies",
+            "PatchMode": "ReplaceByLayer",
+            "FromFile": "assets/Maps/festivalSetUp_R.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 1
+            },
+            "ToArea": {
+                "X": 8,
+                "Y": 6,
+                "Width": 1,
+                "Height": 1
+            },
+        },
+        {
+            "LogName": "Caroline Jellies - SetUp Event",
+            "Action": "EditMap",
+            "Target": "Maps/Beach-Jellies",
+            "PatchMode": "ReplaceByLayer",
+            "FromFile": "assets/Maps/festivalSetUp_2.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 1
+            },
+            "ToArea": {
+                "X": 13,
+                "Y": 39,
+                "Width": 1,
+                "Height": 1
+          
+            },
+        },
+        {
+            "LogName": "Caroline Jellies - Movement Remove - MainEvent", 
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations": [
+                {
+                    "Operation": "RemoveDelimited",
+                    "Target": ["Entries", "mainEvent"],
+                    "Search": "move Caroline -2 0 3 true",
+                    "Delimiter": "/"
+                }]
+        },
+        {
+            "LogName": "Caroline Jellies Y2 - Movement Remove - SetUp", 
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations": [
+                {
+                    "Operation": "RemoveDelimited",
+                    "Target": ["Entries", "set-up_y2"],
+                    "Search": "advancedMove Caroline false 2 12500 -2 0 0 1 -13 0 0 8 2 300 3 1000",
+                    "Delimiter": "/"
+                }]
+        },
+        {
+            "LogName": "Caroline Jellies Y2 - SetUp Event Remove",
+            "Action": "EditMap",
+            "Target": "Maps/Beach-Jellies2",
+            "PatchMode": "ReplaceByLayer",
+            "FromFile": "assets/Maps/festivalSetUp_R.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 1
+            },
+            "ToArea": {
+                "X": 24,
+                "Y": 6,
+                "Width": 1,
+                "Height": 1
+            },
+        },
+        {
+            "LogName": "Caroline Jellies Y2 - Warp Change - Main Event", 
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations": [
+                {
+                    "Operation": "ReplaceDelimited",
+                    "Target": ["Entries", "mainEvent_y2"],
+                    "Search": "warp Caroline 36 35",
+                    "Value": "warp Caroline 29 36",
+                    "Delimiter": "/"
+                }]
+        },
+        
+        {
+            "LogName": "Caroline Jellies Y2 - Face Direction Farmer - Main Event", 
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations": [
+                {
+                    "Operation": "ReplaceDelimited",
+                    "Target": ["Entries", "mainEvent_y2"],
+                    "Search": "faceDirection Pierre 3 true",
+                    "Value": "faceDirection farmer 1 true",
+                    "Delimiter": "/"
+                }]
+        },
+        {
+            "LogName": "Caroline Jellies Y2 - Face Direction Caroline - Main Event", 
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations": [
+                {
+                    "Operation": "ReplaceDelimited",
+                    "Target": ["Entries", "mainEvent_y2"],
+                    "Search": "faceDirection Caroline 1 true",
+                    "Value": "faceDirection Caroline 3 true",
+                    "Delimiter": "/"
+                }]
+        },
+        {
+            "LogName": "Caroline Jellies Y2 - SetUp Event",
+            "Action": "EditMap",
+            "Target": "Maps/Beach-Jellies2",
+            "PatchMode": "ReplaceByLayer",
+            "FromFile": "assets/Maps/festivalSetUp_3.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 1
+            },
+            "ToArea": {
+                "X": 11,
+                "Y": 28,
+                "Width": 1,
+                "Height": 1
+            },
+        },
+        // FAIR
+        {
+            "LogName": "Caroline Fair - SetUp Event Remove",
+            "Action": "EditMap",
+            "Target": "Maps/Town-Fair",
+            "PatchMode": "ReplaceByLayer",
+            "FromFile": "assets/Maps/festivalSetUp_R.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 1
+            },
+            "ToArea": {
+                "X": 32,
+                "Y": 58,
+                "Width": 1,
+                "Height": 1
+            },
+        },
+        {
+            "LogName": "Caroline Fair - SetUp Event",
+            "Action": "EditMap",
+            "Target": "Maps/Town-Fair",
+            "PatchMode": "ReplaceByLayer",
+            "FromFile": "assets/Maps/festivalSetUp_2.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 1
+            },
+            "ToArea": {
+                "X": 39,
+                "Y": 60,
+                "Width": 1,
+                "Height": 1
+            
+            },
+        },
+        {
+            "LogName": "Caroline Fair Y2 - SetUp Event Remove",
+            "Action": "EditMap",
+            "Target": "Maps/Town-Fair2",
+            "PatchMode": "ReplaceByLayer",
+            "FromFile": "assets/Maps/festivalSetUp_R.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 1
+            },
+            "ToArea": {
+                "X": 47,
+                "Y": 60,
+                "Width": 1,
+                "Height": 1
+            },
+        },
+        {
+            "LogName": "Caroline Fair Y2 - SetUp Event",
+            "Action": "EditMap",
+            "Target": "Maps/Town-Fair2",
+            "PatchMode": "ReplaceByLayer",
+            "FromFile": "assets/Maps/festivalSetUp_2.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 1
+            },
+            "ToArea": {
+                "X": 39,
+                "Y": 60,
+                "Width": 1,
+                "Height": 1
+            
+            },
+        },
+        // ICE FESTIVAL
+        {
+            "LogName": "Caroline Ice Festival - Main Event Remove",
+            "Action": "EditMap",
+            "Target": "Maps/Forest-IceFestival",
+            "PatchMode": "ReplaceByLayer",
+            "FromFile": "assets/Maps/festivalMainEvent_R.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 1
+            },
+            "ToArea": {
+                "X": 68,
+                "Y": 28,
+                "Width": 1,
+                "Height": 1
+            },
+        },
+        {
+            "LogName": "Caroline IceFestival - Main Event",
+            "Action": "EditMap",
+            "When": {
+                "HasMod|contains=FlashShifter.StardewValleyExpandedCP": "false",
+            },
+            "Target": "Maps/Forest-IceFestival",
+            "PatchMode": "ReplaceByLayer",
+            "FromFile": "assets/Maps/festivalMainEvent_0.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 1
+            },
+            "ToArea": {
+                "X": 71,
+                "Y": 42,
+                "Width": 1,
+                "Height": 1
+            },
+        },
+        // XMAS
+        {
+            "LogName": "Caroline X-Mas - SetUp Event Remove",
+            "Action": "EditMap",
+            "Target": "Maps/Town-Christmas",
+            "PatchMode": "ReplaceByLayer",
+            "FromFile": "assets/Maps/festivalSetUp_R.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 1
+            },
+            "ToArea": {
+                "X": 22,
+                "Y": 65,
+                "Width": 1,
+                "Height": 1
+            },
+        },
+        {
+            "LogName": "Caroline X-Mas - SetUp Event",
+            "Action": "EditMap",
+            "When": {
+                "HasMod|contains=FlashShifter.StardewValleyExpandedCP": "false",
+            },
+            "Target": "Maps/Town-Christmas",
+            "PatchMode": "ReplaceByLayer",
+            "FromFile": "assets/Maps/festivalSetUp_3.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 1
+            },
+            "ToArea": {
+                "X": 26,
+                "Y": 65,
+                "Width": 1,
+                "Height": 1
+            },
+        },
+    ]
+}

@@ -1,0 +1,46 @@
+{
+	//-----------//
+	// Maps Name //
+	//-----------//
+
+	"Downhill": "Downhill.",
+	"DH.Mine": "Downhill Mine.",
+	"DH.Church": "Church.",
+
+	//---------------//
+	// Texts on Maps //
+	//---------------//
+
+	"DH.Sign.1": "Monte Mor District^` Coal Mine^> Church.",
+	"DH.Sign.2": "` Mountain^@ Bus Stop.",
+	"DH.Sign.3": "Warning: Narrow and dangerous path^Please avoid this route – Risk of landslide.",
+	"DH.Message.1": "This church looks old, and its interior is in ruins...",
+	"DH.Church.1": "Healthy and well-kept plants!^I wonder who's taking care of them?",
+	"DH.Church.2": "Yoba cares for and sacrifices for his children.^Thank you, Yoba!",
+	"DH.Church.3": "Someone left a bible here.",
+	"DH.Anderson.1": "Notes from Father Anderson...^Strange, they seem to be in another language? I can’t understand the symbols or letters.",
+	"DH.Anderson.2": "Father Anderson has lots of books^And look at that... Action and adventure books! Who would've guessed?^Well, everyone has their own hobbies — quirky or not!",
+	"DH.Anderson.3": "Looks like it was used recently, you can still feel the warm embers.",
+	"DH.Anderson.4": "Standing near this altar gives a feeling of comfort.",
+	"DH.Anderson.5": "Not exactly the kind of stuff I'd expect a 'Father' to have...",
+	"DH.Anderson.6": "A phone, but there’s no way to dial...^It only receives calls.",
+	"DH.Arthur.1": "Arthur’s old TV is stuck on a single channel?^The buttons are broken...^And I think he lost the remote!",
+	"DH.Arthur.2": "It’s an old model, but it sure heats up the place!^Too bad it makes a huge mess... I guess Arthur doesn’t mind.",
+	"DH.Arthur.3": "Arthur’s mess isn’t just outside...^He made sure to bring it inside too!",
+	"DH.Julia.1": "A memorial... An urn with ashes.^Must be Mrs. Julia’s husband.^Rest in peace.",
+	"DH.Julia.2": "Some old belongings are packed in boxes.^I probably shouldn’t be snooping through Mrs. Julia’s things.",
+	"DH.Julia.3": "Old photos... Among them:^A younger Arthur (Hm... He was always kind of short)^A priest? (Doesn’t look like Father Anderson)^Some people I don’t recognize...^And photos of Mrs. Julia with her husband Antonio and... Who’s that girl?",
+	"DH.Objects.1": "This car is really old.",
+	"DH.Objects.2": "There are some small fruits at the bottom of the barrel.",
+	"DH.Objects.3": "Julia stores her seeds in the barrel.",
+	"DH.Objects.4": "Miss Julia’s little garden.",
+	"DH.Mail.1": "House No. 86 – Marino Family.",
+	"DH.Mail.2": "Building No. 74 – Monte Mor Church.",
+	"DH.Mail.3": "House No. 64 – Morgan Family.",
+	"DH.Mine_Out.1": "Rocks, coal, and a bit of copper...",
+	"DH.Mine_Out.2": "Can’t use the cart...^It’s filled with coal.",
+	"DH.Mine_Out.3": "This machine seems to pump water.",
+	"DH.Mine_Out.4": "A bit of water to cool off^After a long day of work.",
+	"DH.Mine_Out.5": "Warning – Bombs!"
+
+}

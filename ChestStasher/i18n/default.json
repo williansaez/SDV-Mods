@@ -1,0 +1,19 @@
+{
+  "config.show-button.name": "Show Button",
+  "config.show-button.description": "Whether to show the 'Send All' button on chest menus.",
+  
+  "config.keybind.name": "Send All Keybind",
+  "config.keybind.description": "Keybind to send all items to the chest.",
+  
+  "config.manual-lock.name": "Manual Slot Locking",
+  "config.manual-lock.description": "Enable manual slot locking when Convenient Inventory is not installed.",
+  
+  "config.locked-slots.name": "Locked Slots",
+  "config.locked-slots.description": "List of slots to lock separated by commas (e.g: 0,1,5,12). Slots range from 0 to 35.",
+  
+  "button.sendall": "Send All",
+  
+  "message.sent-items": "Items sent to chest.",
+  "message.chest-full": "The chest is full.",
+  "message.no-items": "No items to send."
+}

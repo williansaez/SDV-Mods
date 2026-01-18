@@ -1,0 +1,32 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Quests",
+            "Entries": {
+                "MNF.231": "Basic/{{i18n:VoidAlgae.Title}}/{{i18n:VoidAlgae.Description}}/{{i18n:VoidAlgae.Objective}}/null/-1/0/-1/false",
+                "MNF.232": "ItemDelivery/{{i18n:trappedQuest.Title}}/{{i18n:trappedQuest.Text}}/{{i18n:trappedQuest.Objective}}/Wizard MNF.MoreNewFish_trapped_soul/-1/2500/-1/false/{{i18n:trappedQuest.Reaction}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Quests",
+            "When": {
+                "Relationship:Wizard": "Dating, Engaged, Married"
+            },
+            "Entries": {
+                "MNF.232": "ItemDelivery/{{i18n:trappedQuest.Title}}/{{i18n:trappedQuest.Text}}/{{i18n:trappedQuest.Objective}}/Wizard MNF.MoreNewFish_trapped_soul/-1/2500/-1/false/{{i18n:trappedQuest.MarriedReaction}}"
+            }
+        },
+        /*{
+            "Action": "EditData",
+            "Target": "DIGUS.MailFrameworkMod/MailData",
+			"Fields": {
+				"trapped": {
+					//"Text": "{{i18n:MNF.trapped.text}}"
+                    "Text": "Test"
+				}
+			}
+        }*/
+    ]
+}

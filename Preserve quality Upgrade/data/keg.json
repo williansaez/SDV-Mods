@@ -1,0 +1,2891 @@
+{
+  "Changes": [
+      {
+         "Action":"EditData",
+         "Target":"Strings/Objects",
+         "Entries":{
+            "JackHero06.IronFlavoredMead":"{{i18n:JackHero06.IronKeg.Mead}}"
+         }
+      },
+
+      {   "LogName": "Iron Keg Recipe",
+          "Action": "EditData",
+          "Target": "Data/CraftingRecipes",
+          "Entries": {
+              "{{ModId}}_IronKeg": "388 30 335 3 726 1 (BC)12 1/Home/{{ModId}}_IronKeg/true/Farming 9/"
+          }
+      },
+
+      {   "LogName": "Iron keg craftable",
+          "Action": "EditData",
+          "Target": "Data/BigCraftables",
+          "Entries": {
+          "{{ModId}}_IronKeg": {
+          "Name": "{{ModId}}_IronKeg",
+          "DisplayName": "{{i18n:JackHero06.IronKeg.Name}}",
+          "Description": "{{i18n:JackHero06.IronKeg.Description}}",
+          "Price": 350,
+          "Fragility": 0,
+          "CanBePlacedOutdoors": true,
+          "CanBePlacedIndoors": true,
+          "IsLamp": false,
+          "Texture": "Mods\\{{ModId}}\\craftables",
+          "SpriteIndex": 0,
+          "ContextTags": null,
+          "CustomFields": null
+          }
+        }
+      },
+
+      { "LogName": "Iron keg machine definition",
+        "Action": "EditData",
+        "Target": "Data/Machines",
+        "Entries": {
+          "(BC){{ModId}}_IronKeg": {
+              "HasInput": false,
+              "HasOutput": false,
+              "InteractMethod": null,
+              "OutputRules": [
+                {
+                  "Id": "Default_Wheat",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": "(O)262",
+                      "RequiredTags": null,
+                      "Condition": null,
+                      "RequiredCount": 1
+                    }
+                  ],              
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": false,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "(O)346",
+                      "ItemId": "(O)346",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 1,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id":"lose quality",
+                          "Condition": "ITEM_QUALITY Input 4 4",
+                          "Modification": "Set",
+                          "Amount": 2
+                        },
+                        {  
+                          "Id":"lose quality",
+                          "Condition": "ITEM_QUALITY Input 2 2",
+                          "Modification": "Set",
+                          "Amount": 1
+                        },
+                        {  
+                          "Id":"Maybe not lose quality",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.5",
+                          "Modification": "Set",
+                          "Amount": 1
+                        }
+                      ],
+                      "StackModifiers": null
+                    }
+                  ],
+                  "MinutesUntilReady": 1750,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                },
+                {
+                  "Id": "Default_Rice",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": "(O)423",
+                      "RequiredTags": null,
+                      "Condition": null,
+                      "RequiredCount": 1
+                    }
+                  ],              
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": false,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "(O)419",
+                      "ItemId": "(O)419",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 2,
+                      "MaxStack": 2,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id":"lose quality",
+                          "Condition": "ITEM_QUALITY Input 4 4",
+                          "Modification": "Set",
+                          "Amount": 2
+                        },
+                        {  
+                          "Id":"lose quality",
+                          "Condition": "ITEM_QUALITY Input 2 2",
+                          "Modification": "Set",
+                          "Amount": 1
+                        },
+                        {  
+                          "Id":"Maybe not lose quality",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.5",
+                          "Modification": "Set",
+                          "Amount": 1
+                        }
+                      ],
+                      "StackModifiers": null
+                    }
+                  ],
+                  "MinutesUntilReady": 600,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                },
+                {
+                  "Id": "Default_CoffeeBeans",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": "(O)433",
+                      "RequiredTags": null,
+                      "Condition": null,
+                      "RequiredCount": 5
+                    }
+                  ],              
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": false,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "(O)395",
+                      "ItemId": "(O)395",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 1,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id":"lose quality",
+                          "Condition": "ITEM_QUALITY Input 4 4",
+                          "Modification": "Set",
+                          "Amount": 2
+                        },
+                        {  
+                          "Id":"lose quality",
+                          "Condition": "ITEM_QUALITY Input 2 2",
+                          "Modification": "Set",
+                          "Amount": 1
+                        },
+                        {  
+                          "Id":"Maybe not lose quality",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.5",
+                          "Modification": "Set",
+                          "Amount": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 120,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": "{{i18n:JackHero06.InvalidCountMessage.CoffeeBeans}}",
+                  "RecalculateOnCollect": false
+                },
+                {
+                  "Id": "Default_Hops",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": "(O)304",
+                      "RequiredTags": null,
+                      "Condition": null,
+                      "RequiredCount": 1
+                    }
+                  ],              
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": false,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "(O)303",
+                      "ItemId": "(O)303",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 1,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id":"lose quality",
+                          "Condition": "ITEM_QUALITY Input 4 4",
+                          "Modification": "Set",
+                          "Amount": 2
+                        },
+                        {  
+                          "Id":"lose quality",
+                          "Condition": "ITEM_QUALITY Input 2 2",
+                          "Modification": "Set",
+                          "Amount": 1
+                        },
+                        {  
+                          "Id":"Maybe not lose quality",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.5",
+                          "Modification": "Set",
+                          "Amount": 1
+                        }
+                      ],
+                      "StackModifiers": null
+                    }
+                  ],
+                  "MinutesUntilReady": 2250,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                },
+                {
+                  "Id": "Default_TeaLeaves",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": "(O)815",
+                      "RequiredTags": null,
+                      "Condition": null,
+                      "RequiredCount": 1
+                    }
+                  ],              
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": false,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "(O)614",
+                      "ItemId": "(O)614",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 1,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id":"lose quality",
+                          "Condition": "ITEM_QUALITY Input 4 4",
+                          "Modification": "Set",
+                          "Amount": 2
+                        },
+                        {  
+                          "Id":"lose quality",
+                          "Condition": "ITEM_QUALITY Input 2 2",
+                          "Modification": "Set",
+                          "Amount": 1
+                        },
+                        {  
+                          "Id":"Maybe not lose quality",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.5",
+                          "Modification": "Set",
+                          "Amount": 1
+                        }
+                      ],
+                      "StackModifiers": null
+                    }
+                  ],
+                  "MinutesUntilReady": 180,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                },
+                {
+                  "Id": "Default_Juice",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine_Vegetable",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": null,
+                      "RequiredTags": [
+                        "category_vegetable"
+                      ],
+                      "Condition": null,
+                      "RequiredCount": 1
+                    },
+                    {
+                      "Id": "ItemPlacedInMachine_Forage",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": null,
+                      "RequiredTags": [
+                        "category_greens"
+                      ],
+                      "RequiredCount": 1,
+                      "Condition": "!ITEM_CONTEXT_TAG Input edible_mushroom, ITEM_EDIBILITY Input 1"
+                    },
+                    {
+                      "Id": "ItemPlacedInMachine_Juice",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": null,
+                      "RequiredTags": [
+                        "keg_juice"
+                      ],
+                      "RequiredCount": 1,
+                      "Condition": null
+                    }
+                  ],              
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": false,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "Default",
+                      "ItemId": "FLAVORED_ITEM Juice DROP_IN_ID",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 1,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id":"lose quality",
+                          "Condition": "ITEM_QUALITY Input 4 4",
+                          "Modification": "Set",
+                          "Amount": 2
+                        },
+                        {  
+                          "Id":"lose quality",
+                          "Condition": "ITEM_QUALITY Input 2 2",
+                          "Modification": "Set",
+                          "Amount": 1
+                        },
+                        {  
+                          "Id":"Maybe not lose quality",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.5",
+                          "Modification": "Set",
+                          "Amount": 1
+                        }
+                      ],
+                      "StackModifiers": null
+                    }
+                  ],
+                  "MinutesUntilReady": 6000,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                },
+                {
+                  "Id": "Default_Wine",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine_Fruit",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": null,
+                      "RequiredTags": [
+                        "category_fruits"
+                      ],
+                      "Condition": null,
+                      "RequiredCount": 1
+                    },
+                    {
+                      "Id": "ItemPlacedInMachine_Wine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": null,
+                      "RequiredTags": [
+                        "keg_wine"
+                      ],
+                      "RequiredCount": 1,
+                      "Condition": null
+                    }
+                  ],              
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": false,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "Default",
+                      "ItemId": "FLAVORED_ITEM Wine DROP_IN_ID",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 1,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id":"lose quality",
+                          "Condition": "ITEM_QUALITY Input 4 4",
+                          "Modification": "Set",
+                          "Amount": 2
+                        },
+                        {  
+                          "Id":"lose quality",
+                          "Condition": "ITEM_QUALITY Input 2 2",
+                          "Modification": "Set",
+                          "Amount": 1
+                        },
+                        {  
+                          "Id":"Maybe not lose quality",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.5",
+                          "Modification": "Set",
+                          "Amount": 1
+                        }
+                      ],
+                      "StackModifiers": null
+                    }
+                  ],
+                  "MinutesUntilReady": 10000,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                },
+                {
+                  "Id": "Default_Honey",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": "(O)340",
+                      "RequiredTags": null,
+                      "Condition": null,
+                      "RequiredCount": 1
+                    }
+                  ],              
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": true,
+                      "CopyPrice": true,
+                      "CopyQuality": false,
+                      "PreserveType": null,
+                      "PreserveId": "DROP_IN_PRESERVE",
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": [
+                        {
+                          "Modification": "Multiply",
+                          "Amount": 1.5
+                        },
+                        {
+                        "Modification": "Add",
+                        "Amount": 150
+                        }
+                      ],
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "(O)459",
+                      "ItemId": "(O)459",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 1,
+                      "Quality": -1,
+                      "ObjectInternalName": "{0} JackHero06.IronFlavoredMead",
+                      "ObjectDisplayName": "[LocalizedText Strings/Objects:JackHero06.IronFlavoredMead %PRESERVED_DISPLAY_NAME]",
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id":"lose quality",
+                          "Condition": "ITEM_QUALITY Input 4 4",
+                          "Modification": "Set",
+                          "Amount": 2
+                        },
+                        {  
+                          "Id":"lose quality",
+                          "Condition": "ITEM_QUALITY Input 2 2",
+                          "Modification": "Set",
+                          "Amount": 1
+                        },
+                        {  
+                          "Id":"Maybe not lose quality",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.5",
+                          "Modification": "Set",
+                          "Amount": 1
+                        }
+                      ],
+                      "StackModifiers": null
+                    }
+                  ],
+                  "MinutesUntilReady": 3800,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                }
+              ],
+              "AdditionalConsumedItems": null,
+              "PreventTimePass": null,
+              "ReadyTimeModifiers": null,
+              "ReadyTimeModifierMode": "Stack",
+              "InvalidItemMessage": null,
+              "InvalidItemMessageCondition": null,
+              "InvalidCountMessage": null,
+              "LoadEffects": [
+                {
+                  "Id": "Default",
+                  "Condition": null,
+                  "Sounds": [
+                    {
+                      "Id": "Ship",
+                      "Delay": 0
+                    },
+                    {
+                      "Id": "bubbles",
+                      "Delay": 0
+                    }
+                  ]
+                }
+              ],
+              "WorkingEffectChance": 0.33,
+              "AllowLoadWhenFull": false,
+              "WobbleWhileWorking": true,
+              "LightWhileWorking": null,
+              "ShowNextIndexWhileWorking": false,
+              "ShowNextIndexWhenReady": false,
+              "AllowFairyDust": true,
+              "IsIncubator": false,
+              "ClearContentsOvernightCondition": null,
+              "StatsToIncrementWhenLoaded": null,
+              "StatsToIncrementWhenHarvested": [
+                {
+                  "RequiredItemId": null,
+                  "RequiredTags": null,
+                  "StatName": "BeveragesMade"
+                }
+            ],
+            "ExperienceGainOnHarvest": null,
+            "CustomFields": null
+          }
+        }
+      },
+    
+      {
+         "Action":"EditData",
+         "Target":"Strings/Objects",
+         "Entries":{
+            "JackHero06.GoldFlavoredMead":"{{i18n:JackHero06.GoldKeg.Mead}}"
+         }
+      },
+
+      {   "LogName": "Gold Keg Recipe",
+          "Action": "EditData",
+          "Target": "Data/CraftingRecipes",
+          "Entries": {
+              "{{ModId}}_GoldKeg": "390 25 330 2 336 3 {{ModId}}_IronKeg 1/Home/{{ModId}}_GoldKeg/true/Farming 10/"
+          }
+      },
+
+      {   "LogName": "Gold keg craftable",
+          "Action": "EditData",
+          "Target": "Data/BigCraftables",
+          "Entries": {
+          "{{ModId}}_GoldKeg": {
+          "Name": "{{ModId}}_GoldKeg",
+          "DisplayName": "{{i18n:JackHero06.GoldKeg.Name}}",
+          "Description": "{{i18n:JackHero06.GoldKeg.Description}}",
+          "Price": 800,
+          "Fragility": 0,
+          "CanBePlacedOutdoors": true,
+          "CanBePlacedIndoors": true,
+          "IsLamp": false,
+          "Texture": "Mods\\{{ModId}}\\craftables",
+          "SpriteIndex": 1,
+          "ContextTags": null,
+          "CustomFields": null
+          }
+        }
+      },
+
+      { "LogName": "Gold keg machine definition",
+        "Action": "EditData",
+        "Target": "Data/Machines",
+        "Entries": {
+          "(BC){{ModId}}_GoldKeg": {
+              "HasInput": false,
+              "HasOutput": false,
+              "InteractMethod": null,
+              "OutputRules": [
+                {
+                  "Id": "Default_Wheat",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": "(O)262",
+                      "RequiredTags": null,
+                      "Condition": null,
+                      "RequiredCount": 1
+                    }
+                  ],              
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": true,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "(O)346",
+                      "ItemId": "(O)346",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 1,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id":"silver-gold Gold",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.15",
+                          "Modification": "Set",
+                          "Amount": 2
+                        }
+                      ],
+                      "StackModifiers": [
+                        {
+                          "Id": "Aditional Item",
+									        "Condition": "Random 0.1",
+									        "Modification": "Add",
+									        "Amount": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 2100,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                },
+                {
+                  "Id": "Default_Rice",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": "(O)423",
+                      "RequiredTags": null,
+                      "Condition": null,
+                      "RequiredCount": 1
+                    }
+                  ],              
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": true,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "(O)419",
+                      "ItemId": "(O)419",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 2,
+                      "MaxStack": 2,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id":"silver-gold Gold",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.15",
+                          "Modification": "Set",
+                          "Amount": 2
+                        }
+                      ],
+                      "StackModifiers": [
+                        {
+                          "Id": "Aditional Item",
+									        "Condition": "Random 0.1",
+									        "Modification": "Add",
+									        "Amount": 2
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 720,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                },
+                {
+                  "Id": "Default_CoffeeBeans",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": "(O)433",
+                      "RequiredTags": null,
+                      "Condition": null,
+                      "RequiredCount": 5
+                    }
+                  ],              
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": true,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "(O)395",
+                      "ItemId": "(O)395",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 1,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id":"silver-gold Gold",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.15",
+                          "Modification": "Set",
+                          "Amount": 2
+                        }
+                      ],
+                      "StackModifiers": [
+                        {
+                          "Id": "Aditional Item",
+									        "Condition": "Random 0.1",
+									        "Modification": "Add",
+									        "Amount": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 140,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": "{{i18n:JackHero06.InvalidCountMessage.CoffeeBeans}}",
+                  "RecalculateOnCollect": false
+                },
+                {
+                  "Id": "Default_Hops",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": "(O)304",
+                      "RequiredTags": null,
+                      "Condition": null,
+                      "RequiredCount": 1
+                    }
+                  ],              
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": true,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "(O)303",
+                      "ItemId": "(O)303",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 1,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id":"silver-gold Gold",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.15",
+                          "Modification": "Set",
+                          "Amount": 2
+                        }
+                      ],
+                      "StackModifiers": [
+                        {
+                          "Id": "Aditional Item",
+									        "Condition": "Random 0.1",
+									        "Modification": "Add",
+									        "Amount": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 2700,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                },
+                {
+                  "Id": "Default_TeaLeaves",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": "(O)815",
+                      "RequiredTags": null,
+                      "Condition": null,
+                      "RequiredCount": 1
+                    }
+                  ],              
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": true,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "(O)614",
+                      "ItemId": "(O)614",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 1,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id":"silver-gold Gold",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.15",
+                          "Modification": "Set",
+                          "Amount": 2
+                        }
+                      ],
+                      "StackModifiers": [
+                        {
+                          "Id": "Aditional Item",
+									        "Condition": "Random 0.1",
+									        "Modification": "Add",
+									        "Amount": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 220,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                },
+                {
+                  "Id": "Default_Juice",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine_Vegetable",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": null,
+                      "RequiredTags": [
+                        "category_vegetable"
+                      ],
+                      "Condition": null,
+                      "RequiredCount": 1
+                    },
+                    {
+                      "Id": "ItemPlacedInMachine_Forage",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": null,
+                      "RequiredTags": [
+                        "category_greens"
+                      ],
+                      "RequiredCount": 1,
+                      "Condition": "!ITEM_CONTEXT_TAG Input edible_mushroom, ITEM_EDIBILITY Input 1"
+                    },
+                    {
+                      "Id": "ItemPlacedInMachine_Juice",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": null,
+                      "RequiredTags": [
+                        "keg_juice"
+                      ],
+                      "RequiredCount": 1,
+                      "Condition": null
+                    }
+                  ],              
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": true,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "Default",
+                      "ItemId": "FLAVORED_ITEM Juice DROP_IN_ID",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 1,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id":"silver-gold Gold",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.15",
+                          "Modification": "Set",
+                          "Amount": 2
+                        }
+                      ],
+                      "StackModifiers": [
+                        {
+                          "Id": "Aditional Item",
+									        "Condition": "Random 0.1",
+									        "Modification": "Add",
+									        "Amount": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 7200,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                },
+                {
+                  "Id": "Default_Wine",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine_Fruit",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": null,
+                      "RequiredTags": [
+                        "category_fruits"
+                      ],
+                      "Condition": null,
+                      "RequiredCount": 1
+                    },
+                    {
+                      "Id": "ItemPlacedInMachine_Wine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": null,
+                      "RequiredTags": [
+                        "keg_wine"
+                      ],
+                      "RequiredCount": 1,
+                      "Condition": null
+                    }
+                  ],              
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": true,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "Default",
+                      "ItemId": "FLAVORED_ITEM Wine DROP_IN_ID",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 1,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id":"silver-gold Gold",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.15",
+                          "Modification": "Set",
+                          "Amount": 2
+                        }
+                      ],
+                      "StackModifiers": [
+                        {
+                          "Id": "Aditional Item",
+									        "Condition": "Random 0.1",
+									        "Modification": "Add",
+									        "Amount": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 12000,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                },
+                {
+                  "Id": "Default_Honey",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": "(O)340",
+                      "RequiredTags": null,
+                      "Condition": null,
+                      "RequiredCount": 1
+                    }
+                  ],              
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": true,
+                      "CopyPrice": true,
+                      "CopyQuality": true,
+                      "PreserveType": null,
+                      "PreserveId": "DROP_IN_PRESERVE",
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": [
+                        {
+                          "Modification": "Multiply",
+                          "Amount": 1.75
+                        },
+                        {
+                        "Modification": "Add",
+                        "Amount": 175
+                        }
+                      ],
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "(O)459",
+                      "ItemId": "(O)459",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 1,
+                      "Quality": -1,
+                      "ObjectInternalName": "{0} JackHero06.GoldFlavoredMead",
+                      "ObjectDisplayName": "[LocalizedText Strings/Objects:JackHero06.GoldFlavoredMead %PRESERVED_DISPLAY_NAME]",
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifiers": null,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id":"normal-silver Gold",
+                          "Condition": "ITEM_QUALITY Input 0 0, Random 0.15",
+                          "Modification": "Set",
+                          "Amount": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 4560,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                }
+              ],
+              "AdditionalConsumedItems": null,
+              "PreventTimePass": null,
+              "ReadyTimeModifiers": null,
+              "ReadyTimeModifierMode": "Stack",
+              "InvalidItemMessage": null,
+              "InvalidItemMessageCondition": null,
+              "InvalidCountMessage": null,
+              "LoadEffects": [
+                {
+                  "Id": "Default",
+                  "Condition": null,
+                  "Sounds": [
+                    {
+                      "Id": "Ship",
+                      "Delay": 0
+                    },
+                    {
+                      "Id": "bubbles",
+                      "Delay": 0
+                    }
+                  ]
+                }
+              ],
+              "WorkingEffectChance": 0.33,
+              "AllowLoadWhenFull": false,
+              "WobbleWhileWorking": true,
+              "LightWhileWorking": null,
+              "ShowNextIndexWhileWorking": false,
+              "ShowNextIndexWhenReady": false,
+              "AllowFairyDust": true,
+              "IsIncubator": false,
+              "ClearContentsOvernightCondition": null,
+              "StatsToIncrementWhenLoaded": null,
+              "StatsToIncrementWhenHarvested": [
+                {
+                  "RequiredItemId": null,
+                  "RequiredTags": null,
+                  "StatName": "BeveragesMade"
+                }
+            ],
+            "ExperienceGainOnHarvest": null,
+            "CustomFields": null
+          }
+        }
+      },
+
+
+      {
+         "Action":"EditData",
+         "Target":"Strings/Objects",
+         "Entries":{
+            "JackHero06.IridiumFlavoredMead":"{{i18n:JackHero06.IridiumKeg.Mead}}"
+         }
+      },
+
+      {   "LogName": "Iridium Keg Recipe",
+          "Action": "EditData",
+          "Target": "Data/CraftingRecipes",
+          "Entries": {
+              "{{ModId}}_IridiumKeg": "82 2 337 3 72 1 {{ModId}}_GoldKeg 1/Home/{{ModId}}_IridiumKeg/true/null/"
+          }
+      },
+      
+      {   "LogName": "Iridium keg craftable",
+          "Action": "EditData",
+          "Target": "Data/BigCraftables",
+          "Entries": {
+          "{{ModId}}_IridiumKeg": {
+          "Name": "{{ModId}}_IridiumKeg",
+          "DisplayName": "{{i18n:JackHero06.IridiumKeg.Name}}",
+          "Description": "{{i18n:JackHero06.IridiumKeg.Description}}",
+          "Price": 2500,
+          "Fragility": 0,
+          "CanBePlacedOutdoors": true,
+          "CanBePlacedIndoors": true,
+          "IsLamp": false,
+          "Texture": "Mods\\{{ModId}}\\craftables",
+          "SpriteIndex": 2,
+          "ContextTags": null,
+          "CustomFields": null
+          }
+        }
+      },
+
+
+      { "LogName": "Iridium keg machine definition",
+        "Action": "EditData",
+        "Target": "Data/Machines",
+        "Entries": {
+          "(BC){{ModId}}_IridiumKeg": {
+              "HasInput": false,
+              "HasOutput": false,
+              "InteractMethod": null,
+              "OutputRules": [
+                {
+                  "Id": "Default_Wheat",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": "(O)262",
+                      "RequiredTags": null,
+                      "Condition": null,
+                      "RequiredCount": 1
+                    }
+                  ],              
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": true,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "(O)346",
+                      "ItemId": "(O)346",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 1,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id": "normal-silver Iridium",
+                          "Condition": "ITEM_QUALITY Input 0 0, Random 0.25",
+                          "Modification": "Set",
+                          "Amount": 1
+                        },
+                        {  
+                          "Id": "silver-gold Iridium",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.25",
+                          "Modification": "Set",
+                          "Amount": 2
+                        },
+                        {  
+                          "Id": "gold-iridium Iridium",
+                          "Condition": "ITEM_QUALITY Input 2 2, Random 0.1",
+                          "Modification": "Set",
+                          "Amount": 4
+                        }
+                      ],
+                      "StackModifiers": [
+                        {
+                          "Id": "Aditional item",
+									        "Condition": "Random 0.5",
+									        "Modification": "Add",
+									        "Amount": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 2370,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                },
+                {
+                  "Id": "Default_Rice",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": "(O)423",
+                      "RequiredTags": null,
+                      "Condition": null,
+                      "RequiredCount": 1
+                    }
+                  ],              
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": true,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "(O)419",
+                      "ItemId": "(O)419",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 2,
+                      "MaxStack": 2,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id": "normal-silver Iridium",
+                          "Condition": "ITEM_QUALITY Input 0 0, Random 0.2",
+                          "Modification": "Set",
+                          "Amount": 1
+                        },
+                        {  
+                          "Id": "silver-gold Iridium",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.25",
+                          "Modification": "Set",
+                          "Amount": 2
+                        },
+                        {  
+                          "Id": "gold-iridium Iridium",
+                          "Condition": "ITEM_QUALITY Input 2 2, Random 0.1",
+                          "Modification": "Set",
+                          "Amount": 4
+                        }
+                      ],
+                      "StackModifiers": [
+                        {
+                          "Id": "Aditional item",
+									        "Condition": "Random 0.5",
+									        "Modification": "Add",
+									        "Amount": 2
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 810,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                },
+                {
+                  "Id": "Default_CoffeeBeans",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": "(O)433",
+                      "RequiredTags": null,
+                      "Condition": null,
+                      "RequiredCount": 5
+                    }
+                  ],              
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": true,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "(O)395",
+                      "ItemId": "(O)395",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 1,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id": "normal-silver Iridium",
+                          "Condition": "ITEM_QUALITY Input 0 0, Random 0.2",
+                          "Modification": "Set",
+                          "Amount": 1
+                        },
+                        {  
+                          "Id": "silver-gold Iridium",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.25",
+                          "Modification": "Set",
+                          "Amount": 2
+                        },
+                        {  
+                          "Id": "gold-iridium Iridium",
+                          "Condition": "ITEM_QUALITY Input 2 2, Random 0.1",
+                          "Modification": "Set",
+                          "Amount": 4
+                        }
+                      ],
+                      "StackModifiers": [
+                        {
+                          "Id": "Aditional item",
+									        "Condition": "Random 0.5",
+									        "Modification": "Add",
+									        "Amount": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 170,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": "{{i18n:JackHero06.InvalidCountMessage.CoffeeBeans}}",
+                  "RecalculateOnCollect": false
+                },
+                {
+                  "Id": "Default_Hops",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": "(O)304",
+                      "RequiredTags": null,
+                      "Condition": null,
+                      "RequiredCount": 1
+                    }
+                  ],              
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": true,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "(O)303",
+                      "ItemId": "(O)303",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 1,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id": "normal-silver Iridium",
+                          "Condition": "ITEM_QUALITY Input 0 0, Random 0.2",
+                          "Modification": "Set",
+                          "Amount": 1
+                        },
+                        {  
+                          "Id": "silver-gold Iridium",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.25",
+                          "Modification": "Set",
+                          "Amount": 2
+                        },
+                        {  
+                          "Id": "gold-iridium Iridium",
+                          "Condition": "ITEM_QUALITY Input 2 2, Random 0.1",
+                          "Modification": "Set",
+                          "Amount": 4
+                        }
+                      ],
+                      "StackModifiers": [
+                        {
+                          "Id": "Aditional item",
+									        "Condition": "Random 0.5",
+									        "Modification": "Add",
+									        "Amount": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 3040,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                },
+                {
+                  "Id": "Default_TeaLeaves",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": "(O)815",
+                      "RequiredTags": null,
+                      "Condition": null,
+                      "RequiredCount": 1
+                    }
+                  ],              
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": true,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "(O)614",
+                      "ItemId": "(O)614",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 1,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id": "normal-silver Iridium",
+                          "Condition": "ITEM_QUALITY Input 0 0, Random 0.2",
+                          "Modification": "Set",
+                          "Amount": 1
+                        },
+                        {  
+                          "Id": "silver-gold Iridium",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.25",
+                          "Modification": "Set",
+                          "Amount": 2
+                        },
+                        {  
+                          "Id": "gold-iridium Iridium",
+                          "Condition": "ITEM_QUALITY Input 2 2, Random 0.1",
+                          "Modification": "Set",
+                          "Amount": 4
+                        }
+                      ],
+                      "StackModifiers": [
+                        {
+                          "Id": "Aditional item",
+									        "Condition": "Random 0.5",
+									        "Modification": "Add",
+									        "Amount": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 240,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                },
+                {
+                  "Id": "Default_Juice",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine_Vegetable",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": null,
+                      "RequiredTags": [
+                        "category_vegetable"
+                      ],
+                      "Condition": null,
+                      "RequiredCount": 1
+                    },
+                    {
+                      "Id": "ItemPlacedInMachine_Forage",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": null,
+                      "RequiredTags": [
+                        "category_greens"
+                      ],
+                      "RequiredCount": 1,
+                      "Condition": "!ITEM_CONTEXT_TAG Input edible_mushroom, ITEM_EDIBILITY Input 1"
+                    },
+                    {
+                      "Id": "ItemPlacedInMachine_Juice",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": null,
+                      "RequiredTags": [
+                        "keg_juice"
+                      ],
+                      "RequiredCount": 1,
+                      "Condition": null
+                    }
+                  ],              
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": true,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "Default",
+                      "ItemId": "FLAVORED_ITEM Juice DROP_IN_ID",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 1,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id": "normal-silver Iridium",
+                          "Condition": "ITEM_QUALITY Input 0 0, Random 0.2",
+                          "Modification": "Set",
+                          "Amount": 1
+                        },
+                        {  
+                          "Id": "silver-gold Iridium",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.25",
+                          "Modification": "Set",
+                          "Amount": 2
+                        },
+                        {  
+                          "Id": "gold-iridium Iridium",
+                          "Condition": "ITEM_QUALITY Input 2 2, Random 0.1",
+                          "Modification": "Set",
+                          "Amount": 4
+                        }
+                      ],
+                      "StackModifiers": [
+                        {
+                          "Id": "Aditional item",
+									        "Condition": "Random 0.55",
+									        "Modification": "Add",
+									        "Amount": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 8100,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                },
+                {
+                  "Id": "Default_Wine",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine_Fruit",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": null,
+                      "RequiredTags": [
+                        "category_fruits"
+                      ],
+                      "Condition": null,
+                      "RequiredCount": 1
+                    },
+                    {
+                      "Id": "ItemPlacedInMachine_Wine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": null,
+                      "RequiredTags": [
+                        "keg_wine"
+                      ],
+                      "RequiredCount": 1,
+                      "Condition": null
+                    }
+                  ],              
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": true,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "Default",
+                      "ItemId": "FLAVORED_ITEM Wine DROP_IN_ID",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 1,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id": "normal-silver Iridium",
+                          "Condition": "ITEM_QUALITY Input 0 0, Random 0.25",
+                          "Modification": "Set",
+                          "Amount": 1
+                        },
+                        {  
+                          "Id": "silver-gold Iridium",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.3",
+                          "Modification": "Set",
+                          "Amount": 2
+                        },
+                        {  
+                          "Id": "gold-iridium Iridium",
+                          "Condition": "ITEM_QUALITY Input 2 2, Random 0.15",
+                          "Modification": "Set",
+                          "Amount": 4
+                        }
+                      ],
+                      "StackModifiers": [
+                        {
+                          "Id": "Aditional item",
+									        "Condition": "Random 0.6",
+									        "Modification": "Add",
+									        "Amount": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 13500,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                },
+                {
+                  "Id": "Default_Honey",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": "(O)340",
+                      "RequiredTags": null,
+                      "Condition": null,
+                      "RequiredCount": 1
+                    }
+                  ],              
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": true,
+                      "CopyPrice": true,
+                      "CopyQuality": true,
+                      "PreserveType": null,
+                      "PreserveId": "DROP_IN_PRESERVE",
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": [
+                        {
+                          "Modification": "Multiply",
+                          "Amount": 2.4
+                        },
+                        {
+                        "Modification": "Add",
+                        "Amount": 215
+                        }
+                      ],
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "(O)459",
+                      "ItemId": "(O)459",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 1,
+                      "Quality": -1,
+                      "ObjectInternalName": "{0} JackHero06.IridiumFlavoredMead",
+                      "ObjectDisplayName": "[LocalizedText Strings/Objects:JackHero06.IridiumFlavoredMead %PRESERVED_DISPLAY_NAME]",
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifiers": null,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id": "normal-silver Iridium",
+                          "Condition": "ITEM_QUALITY Input 0 0, Random 0.25",
+                          "Modification": "Set",
+                          "Amount": 1
+                        },
+                        {  
+                          "Id": "silver-gold Iridium",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.25",
+                          "Modification": "Set",
+                          "Amount": 2
+                        },
+                        {  
+                          "Id": "gold-iridium Iridium",
+                          "Condition": "ITEM_QUALITY Input 2 2, Random 0.1",
+                          "Modification": "Set",
+                          "Amount": 4
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 5130,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                }
+              ],
+              "AdditionalConsumedItems": null,
+              "PreventTimePass": null,
+              "ReadyTimeModifiers": null,
+              "ReadyTimeModifierMode": "Stack",
+              "InvalidItemMessage": null,
+              "InvalidItemMessageCondition": null,
+              "InvalidCountMessage": null,
+              "LoadEffects": [
+                {
+                  "Id": "Default",
+                  "Condition": null,
+                  "Sounds": [
+                    {
+                      "Id": "Ship",
+                      "Delay": 0
+                    },
+                    {
+                      "Id": "bubbles",
+                      "Delay": 0
+                    }
+                  ]
+                }
+              ],
+              "WorkingEffectChance": 0.33,
+              "AllowLoadWhenFull": false,
+              "WobbleWhileWorking": true,
+              "LightWhileWorking": null,
+              "ShowNextIndexWhileWorking": false,
+              "ShowNextIndexWhenReady": false,
+              "AllowFairyDust": true,
+              "IsIncubator": false,
+              "ClearContentsOvernightCondition": null,
+              "StatsToIncrementWhenLoaded": null,
+              "StatsToIncrementWhenHarvested": [
+                {
+                  "RequiredItemId": null,
+                  "RequiredTags": null,
+                  "StatName": "BeveragesMade"
+                }
+            ],
+            "ExperienceGainOnHarvest": null,
+            "CustomFields": null
+          }
+        }
+      },
+      
+
+      {
+         "Action":"EditData",
+         "Target":"Strings/Objects",
+         "Entries":{
+            "JackHero06.RadioactiveFlavoredMead":"{{i18n:JackHero06.RadioactiveKeg.Mead}}"
+         }
+      },
+
+      {   "LogName": "Radioactive Keg Recipe",
+          "Action": "EditData",
+          "Target": "Data/CraftingRecipes",
+          "Entries": {
+              "{{ModId}}_RadioactiveKeg": "709 15 910 3 787 1 {{ModId}}_IridiumKeg 1/Home/{{ModId}}_RadioactiveKeg/true/null/"
+          }
+      },
+
+      {   "LogName": "Radioactive keg craftable",
+          "Action": "EditData",
+          "Target": "Data/BigCraftables",
+          "Entries": {
+          "{{ModId}}_RadioactiveKeg": {
+          "Name": "{{ModId}}_RadioactiveKeg",
+          "DisplayName": "{{i18n:JackHero06.RadioactiveKeg.Name}}",
+          "Description": "{{i18n:JackHero06.RadioactiveKeg.Description}}",
+          "Price": 8500,
+          "Fragility": 0,
+          "CanBePlacedOutdoors": true,
+          "CanBePlacedIndoors": true,
+          "IsLamp": false,
+          "Texture": "Mods\\{{ModId}}\\craftables",
+          "SpriteIndex": 3,
+          "ContextTags": null,
+          "CustomFields": null
+          }
+        }
+      },
+
+      { "LogName": "Radioactive keg machine definition",
+        "Action": "EditData",
+        "Target": "Data/Machines",
+        "Entries": {
+          "(BC){{ModId}}_RadioactiveKeg": {
+              "HasInput": false,
+              "HasOutput": false,
+              "InteractMethod": null,
+              "OutputRules": [
+                {
+                  "Id": "Default_Wheat",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": "(O)262",
+                      "RequiredTags": null,
+                      "Condition": null,
+                      "RequiredCount": 1
+                    }
+                  ],              
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": true,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "(O)346",
+                      "ItemId": "(O)346",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 3,
+                      "MaxStack": 3,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id": "normal-silver Radioactive",
+                          "Condition": "ITEM_QUALITY Input 0 0, Random 0.4",
+                          "Modification": "Set",
+                          "Amount": 1
+                        },
+                        {  
+                          "Id": "silver-gold Radioactive",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.45",
+                          "Modification": "Set",
+                          "Amount": 2
+                        },
+                        {  
+                          "Id": "gold-iridium Radioactive",
+                          "Condition": "ITEM_QUALITY Input 2 2, Random 0.2",
+                          "Modification": "Set",
+                          "Amount": 4
+                        }
+                      ],
+                      "StackModifiers": [
+                        {
+                          "Id": "Aditional item",
+									        "Condition": "Random 0.1",
+									        "Modification": "Add",
+									        "Amount": 1
+                        },
+                        {
+                          "Id": "Aditional Item Quality",
+									        "Condition": "ITEM_QUALITY Input 4 4, Random 0.15",
+									        "Modification": "Add",
+									        "Amount": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 2630,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                },
+                {
+                  "Id": "Default_Rice",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": "(O)423",
+                      "RequiredTags": null,
+                      "Condition": null,
+                      "RequiredCount": 1
+                    }
+                  ],              
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": true,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "(O)419",
+                      "ItemId": "(O)419",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 4,
+                      "MaxStack": 4,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id": "normal-silver Radioactive",
+                          "Condition": "ITEM_QUALITY Input 0 0, Random 0.4",
+                          "Modification": "Set",
+                          "Amount": 1
+                        },
+                        {  
+                          "Id": "silver-gold Radioactive",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.45",
+                          "Modification": "Set",
+                          "Amount": 2
+                        },
+                        {  
+                          "Id": "gold-iridium Radioactive",
+                          "Condition": "ITEM_QUALITY Input 2 2, Random 0.2",
+                          "Modification": "Set",
+                          "Amount": 4
+                        }
+                      ],
+                      "StackModifiers": [
+                        {
+                          "Id": "Aditional item",
+									        "Condition": "Random 0.1",
+									        "Modification": "Add",
+									        "Amount": 2
+                        },
+                        {
+                          "Id": "Aditional Item Quality",
+									        "Condition": "ITEM_QUALITY Input 4 4, Random 0.15",
+									        "Modification": "Add",
+									        "Amount": 2
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 900,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                },
+                {
+                  "Id": "Default_CoffeeBeans",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": "(O)433",
+                      "RequiredTags": null,
+                      "Condition": null,
+                      "RequiredCount": 5
+                    }
+                  ],              
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": true,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "(O)395",
+                      "ItemId": "(O)395",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 2,
+                      "MaxStack": 2,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id": "normal-silver Radioactive",
+                          "Condition": "ITEM_QUALITY Input 0 0, Random 0.4",
+                          "Modification": "Set",
+                          "Amount": 1
+                        },
+                        {  
+                          "Id": "silver-gold Radioactive",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.45",
+                          "Modification": "Set",
+                          "Amount": 2
+                        },
+                        {  
+                          "Id": "gold-iridium Radioactive",
+                          "Condition": "ITEM_QUALITY Input 2 2, Random 0.2",
+                          "Modification": "Set",
+                          "Amount": 4
+                        }
+                      ],
+                      "StackModifiers": [
+                        {
+                          "Id": "Aditional item",
+									        "Condition": "Random 0.1",
+									        "Modification": "Add",
+									        "Amount": 1
+                        },
+                        {
+                          "Id": "Aditional Item Quality",
+									        "Condition": "ITEM_QUALITY Input 4 4, Random 0.15",
+									        "Modification": "Add",
+									        "Amount": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 180,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": "{{i18n:JackHero06.InvalidCountMessage.CoffeeBeans}}",
+                  "RecalculateOnCollect": false
+                },
+                {
+                  "Id": "Default_Hops",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": "(O)304",
+                      "RequiredTags": null,
+                      "Condition": null,
+                      "RequiredCount": 1
+                    }
+                  ],              
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": true,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "(O)303",
+                      "ItemId": "(O)303",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 2,
+                      "MaxStack": 2,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id": "normal-silver Radioactive",
+                          "Condition": "ITEM_QUALITY Input 0 0, Random 0.4",
+                          "Modification": "Set",
+                          "Amount": 1
+                        },
+                        {  
+                          "Id": "silver-gold Radioactive",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.45",
+                          "Modification": "Set",
+                          "Amount": 2
+                        },
+                        {  
+                          "Id": "gold-iridium Radioactive",
+                          "Condition": "ITEM_QUALITY Input 2 2, Random 0.2",
+                          "Modification": "Set",
+                          "Amount": 4
+                        }
+                      ],
+                      "StackModifiers": [
+                        {
+                          "Id": "Aditional item",
+									        "Condition": "Random 0.1",
+									        "Modification": "Add",
+									        "Amount": 1
+                        },
+                        {
+                          "Id": "Aditional Item Quality",
+									        "Condition": "ITEM_QUALITY Input 4 4, Random 0.15",
+									        "Modification": "Add",
+									        "Amount": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 3380,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                },
+                {
+                  "Id": "Default_TeaLeaves",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": "(O)815",
+                      "RequiredTags": null,
+                      "Condition": null,
+                      "RequiredCount": 1
+                    }
+                  ],              
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": true,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "(O)614",
+                      "ItemId": "(O)614",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 2,
+                      "MaxStack": 2,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id": "normal-silver Radioactive",
+                          "Condition": "ITEM_QUALITY Input 0 0, Random 0.4",
+                          "Modification": "Set",
+                          "Amount": 1
+                        },
+                        {  
+                          "Id": "silver-gold Radioactive",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.45",
+                          "Modification": "Set",
+                          "Amount": 2
+                        },
+                        {  
+                          "Id": "gold-iridium Radioactive",
+                          "Condition": "ITEM_QUALITY Input 2 2, Random 0.2",
+                          "Modification": "Set",
+                          "Amount": 4
+                        }
+                      ],
+                      "StackModifiers": [
+                        {
+                          "Id": "Aditional item",
+									        "Condition": "Random 0.1",
+									        "Modification": "Add",
+									        "Amount": 1
+                        },
+                        {
+                          "Id": "Aditional Item Quality",
+									        "Condition": "ITEM_QUALITY Input 4 4, Random 0.15",
+									        "Modification": "Add",
+									        "Amount": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 270,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                },
+                {
+                  "Id": "Default_Juice",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine_Vegetable",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": null,
+                      "RequiredTags": [
+                        "category_vegetable"
+                      ],
+                      "Condition": null,
+                      "RequiredCount": 1
+                    },
+                    {
+                      "Id": "ItemPlacedInMachine_Forage",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": null,
+                      "RequiredTags": [
+                        "category_greens"
+                      ],
+                      "RequiredCount": 1,
+                      "Condition": "!ITEM_CONTEXT_TAG Input edible_mushroom, ITEM_EDIBILITY Input 1"
+                    },
+                    {
+                      "Id": "ItemPlacedInMachine_Juice",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": null,
+                      "RequiredTags": [
+                        "keg_juice"
+                      ],
+                      "RequiredCount": 1,
+                      "Condition": null
+                    }
+                  ],              
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": true,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "Default",
+                      "ItemId": "FLAVORED_ITEM Juice DROP_IN_ID",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 2,
+                      "MaxStack": 2,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id": "normal-silver Radioactive",
+                          "Condition": "ITEM_QUALITY Input 0 0, Random 0.5",
+                          "Modification": "Set",
+                          "Amount": 1
+                        },
+                        {  
+                          "Id": "silver-gold Radioactive",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.55",
+                          "Modification": "Set",
+                          "Amount": 2
+                        },
+                        {  
+                          "Id": "gold-iridium Radioactive",
+                          "Condition": "ITEM_QUALITY Input 2 2, Random 0.2",
+                          "Modification": "Set",
+                          "Amount": 4
+                        }
+                      ],
+                      "StackModifiers": [
+                        {
+                          "Id": "Aditional item",
+									        "Condition": "Random 0.15",
+									        "Modification": "Add",
+									        "Amount": 1
+                        },
+                        {
+                          "Id": "Aditional Item Quality",
+									        "Condition": "ITEM_QUALITY Input 4 4, Random 0.15",
+									        "Modification": "Add",
+									        "Amount": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 9000,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                },
+                {
+                  "Id": "Default_Wine",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine_Fruit",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": null,
+                      "RequiredTags": [
+                        "category_fruits"
+                      ],
+                      "Condition": null,
+                      "RequiredCount": 1
+                    },
+                    {
+                      "Id": "ItemPlacedInMachine_Wine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": null,
+                      "RequiredTags": [
+                        "keg_wine"
+                      ],
+                      "RequiredCount": 1,
+                      "Condition": null
+                    }
+                  ],              
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": true,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "Default",
+                      "ItemId": "FLAVORED_ITEM Wine DROP_IN_ID",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 2,
+                      "MaxStack": 2,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id": "normal-silver Radioactive",
+                          "Condition": "ITEM_QUALITY Input 0 0, Random 0.55",
+                          "Modification": "Set",
+                          "Amount": 1
+                        },
+                        {  
+                          "Id": "silver-gold Radioactive",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.55",
+                          "Modification": "Set",
+                          "Amount": 2
+                        },
+                        {  
+                          "Id": "gold-iridium Radioactive",
+                          "Condition": "ITEM_QUALITY Input 2 2, Random 0.2",
+                          "Modification": "Set",
+                          "Amount": 4
+                        }
+                      ],
+                      "StackModifiers": [
+                        {
+                          "Id": "Aditional item",
+									        "Condition": "Random 0.2",
+									        "Modification": "Add",
+									        "Amount": 1
+                        },
+                        {
+                          "Id": "Aditional Item Quality",
+									        "Condition": "ITEM_QUALITY Input 4 4, Random 0.2",
+									        "Modification": "Add",
+									        "Amount": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 15000,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                },
+                {
+                  "Id": "Default_Honey",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": "(O)340",
+                      "RequiredTags": null,
+                      "Condition": null,
+                      "RequiredCount": 1
+                    }
+                  ],              
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": true,
+                      "CopyPrice": true,
+                      "CopyQuality": true,
+                      "PreserveType": null,
+                      "PreserveId": "DROP_IN_PRESERVE",
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": [
+                        {
+                          "Modification": "Multiply",
+                          "Amount": 3.5
+                        },
+                        {
+                        "Modification": "Add",
+                        "Amount": 250
+                        }
+                      ],
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "(O)459",
+                      "ItemId": "(O)459",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 1,
+                      "Quality": -1,
+                      "ObjectInternalName": "{0} JackHero06.RadioactiveFlavoredMead",
+                      "ObjectDisplayName": "[LocalizedText Strings/Objects:JackHero06.RadioactiveFlavoredMead %PRESERVED_DISPLAY_NAME]",
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifiers": null,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id": "normal-silver Radioactive",
+                          "Condition": "ITEM_QUALITY Input 0 0, Random 0.55",
+                          "Modification": "Set",
+                          "Amount": 1
+                        },
+                        {  
+                          "Id": "silver-gold Radioactive",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.55",
+                          "Modification": "Set",
+                          "Amount": 2
+                        },
+                        {  
+                          "Id": "gold-iridium Radioactive",
+                          "Condition": "ITEM_QUALITY Input 2 2, Random 0.25",
+                          "Modification": "Set",
+                          "Amount": 4
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 5700,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": null,
+                  "RecalculateOnCollect": false
+                }
+              ],
+              "AdditionalConsumedItems": null,
+              "PreventTimePass": null,
+              "ReadyTimeModifiers": null,
+              "ReadyTimeModifierMode": "Stack",
+              "InvalidItemMessage": null,
+              "InvalidItemMessageCondition": null,
+              "InvalidCountMessage": null,
+              "LoadEffects": [
+                {
+                  "Id": "Default",
+                  "Condition": null,
+                  "Sounds": [
+                    {
+                      "Id": "Ship",
+                      "Delay": 0
+                    },
+                    {
+                      "Id": "bubbles",
+                      "Delay": 0
+                    }
+                  ]
+                }
+              ],
+              "WorkingEffectChance": 0.33,
+              "AllowLoadWhenFull": false,
+              "WobbleWhileWorking": true,
+              "LightWhileWorking": null,
+              "ShowNextIndexWhileWorking": false,
+              "ShowNextIndexWhenReady": false,
+              "AllowFairyDust": true,
+              "IsIncubator": false,
+              "ClearContentsOvernightCondition": null,
+              "StatsToIncrementWhenLoaded": null,
+              "StatsToIncrementWhenHarvested": [
+                {
+                  "RequiredItemId": null,
+                  "RequiredTags": null,
+                  "StatName": "BeveragesMade"
+                }
+            ],
+            "ExperienceGainOnHarvest": null,
+            "CustomFields": null
+          }
+        }
+      },
+
+
+      {
+        "LogName": "Load iridium keg Recipe for Robin Shop",
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "TargetField": ["Carpenter", "Items"],
+        "Entries": {
+          "{{ModId}}_IridiumKeg": {
+            "Id": "{{ModId}}_IridiumKeg",
+            "ItemId": "(BC){{ModId}}_IridiumKeg",
+            "ObjectInternalName": "{{ModId}}_IridiumKeg",
+            "AvailableStock": 1,
+            "AvailableStockLimit": "Player",
+            "IsRecipe": true,
+            "Price": 500000,
+            "IgnoreShopPriceModifiers": true
+          }
+        }
+      },
+
+
+      {
+        "LogName": "Load Radioactive keg Recipe for Ginger Island Shop",
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "TargetField": ["QiGemShop", "Items"],
+        "Entries": {
+          "{{ModId}}_RadioactiveKeg": {
+            "Id": "{{ModId}}_RadioactiveKeg",
+            "ItemId": "(BC){{ModId}}_RadioactiveKeg",
+            "ObjectInternalName": "{{ModId}}_RadioactiveKeg",
+            "AvailableStock": 1,
+            "AvailableStockLimit": "Player",
+            "TradeItemId": "(O)858",
+			      "TradeItemAmount": 65,
+            "IsRecipe": true,
+            "IgnoreShopPriceModifiers": true
+          }
+        }
+      }
+
+    ]
+}

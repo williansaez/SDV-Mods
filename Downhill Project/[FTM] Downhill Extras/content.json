@@ -1,0 +1,272 @@
+{
+  "ForageSpawnEnabled": true,
+  "LargeObjectSpawnEnabled": false,
+  "OreSpawnEnabled": true,
+  "MonsterSpawnEnabled": false,
+  "Forage_Spawn_Settings": {
+    "Areas": [
+      {
+        "SpringItemIndex": [
+          "Wild Horseradish",
+          "Daffodil",
+          "Leek",
+          "Dandelion",
+          "Spring Onion",
+          "Morel",
+          "Common Mushroom",
+          "Salmonberry"
+        ],
+        "SummerItemIndex": [
+          "Grape",
+          "Spice Berry",
+          "Sweet Pea",
+          "Red Mushroom",
+          "Fiddlehead Fern",
+          "Common Mushroom"
+        ],
+        "FallItemIndex": [
+          "Wild Plum",
+          "Common Mushroom",
+          "Hazelnut",
+          "Blackberry",
+          "Chanterelle",
+          "Red Mushroom",
+          "Purple Mushroom"
+        ],
+        "WinterItemIndex": [
+          "Winter Root",
+          "Crystal Fruit",
+          "Snow Yam",
+          "Crocus",
+          "Holly"
+        ],
+        "UniqueAreaID": "Ky.Downhill Forage",
+        "MapName": "Downhill",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "Grass",
+          "Dirt"
+        ],
+        "ExcludeTerrainTypes": [
+          "Diggable",
+          "Stone",
+          "Wood",
+          "Water"
+        ],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "0,0/30,7",
+          "31,0/83,29",
+          "0,8/6,65",
+          "29,63/60,83",
+          "64,75/83,83",
+          "22,66/28,83"
+        ],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      }
+    ],
+    "PercentExtraSpawnsPerForagingLevel": 0,
+    "SpringItemIndex": [
+      16,
+      20,
+      22,
+      257
+    ],
+    "SummerItemIndex": [
+      396,
+      398,
+      402,
+      404
+    ],
+    "FallItemIndex": [
+      281,
+      404,
+      420,
+      422
+    ],
+    "WinterItemIndex": [],
+    "CustomTileIndex": []
+  },
+  "Large_Object_Spawn_Settings": {
+    "Areas": [],
+    "CustomTileIndex": []
+  },
+  "Ore_Spawn_Settings": {
+    "Areas": [
+      {
+        "MiningLevelRequired": {
+          "Stone": 0,
+          "Copper": 0,
+          "Iron": 0,
+          "Gold": 0,
+          "Iridium": 0,
+          "Geode": 0,
+          "FrozenGeode": 0,
+          "MagmaGeode": 0,
+          "OmniGeode": 0,
+          "Gem": 0,
+          "Mystic": 0,
+          "Radioactive": 0,
+          "Diamond": 0,
+          "Ruby": 0,
+          "Jade": 0,
+          "Amethyst": 0,
+          "Topaz": 0,
+          "Emerald": 0,
+          "Aquamarine": 0,
+          "Mussel": 0,
+          "Fossil": 0,
+          "Clay": 0,
+          "CinderShard": 0,
+          "Coal": 0
+        },
+        "StartingSpawnChance": {
+          "Stone": 8,
+          "Copper": 1,
+          "Iron": 0,
+          "Gold": 0,
+          "Iridium": 0,
+          "Geode": 1,
+          "FrozenGeode": 0,
+          "MagmaGeode": 0,
+          "OmniGeode": 0,
+          "Gem": 0,
+          "Mystic": 0,
+          "Radioactive": 0,
+          "Diamond": 0,
+          "Ruby": 0,
+          "Jade": 0,
+          "Amethyst": 0,
+          "Topaz": 0,
+          "Emerald": 0,
+          "Aquamarine": 0,
+          "Mussel": 0,
+          "Fossil": 0,
+          "Clay": 2,
+          "CinderShard": 0,
+          "Coal": 6
+        },
+        "LevelTenSpawnChance": {
+          "Stone": 8,
+          "Copper": 1,
+          "Iron": 0,
+          "Gold": 0,
+          "Iridium": 0,
+          "Geode": 1,
+          "FrozenGeode": 0,
+          "MagmaGeode": 0,
+          "OmniGeode": 0,
+          "Gem": 0,
+          "Mystic": 0,
+          "Radioactive": 0,
+          "Diamond": 0,
+          "Ruby": 0,
+          "Jade": 0,
+          "Amethyst": 0,
+          "Topaz": 0,
+          "Emerald": 0,
+          "Aquamarine": 0,
+          "Mussel": 0,
+          "Fossil": 0,
+          "Clay": 2,
+          "CinderShard": 0,
+          "Coal": 6
+        },
+        "UniqueAreaID": "Ky.Downhill Ores",
+        "MapName": "DH.Mine",
+        "MinimumSpawnsPerDay": 4,
+        "MaximumSpawnsPerDay": 6,
+        "IncludeTerrainTypes": [
+          "Quarry"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "7,15/9,16",
+          "8,17/10,18",
+          "8,24/9,25",
+          "8,31/9,32",
+          "9,32/10,33",
+          "10,33/11,34",
+          "21,27/22,28",
+          "17,13/18,14",
+          "23,8/25,8",
+          "31,20/31,22"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      }
+    ],
+    "PercentExtraSpawnsPerMiningLevel": 0,
+    "MiningLevelRequired": {},
+    "StartingSpawnChance": {},
+    "LevelTenSpawnChance": {},
+    "CustomTileIndex": []
+  },
+  "Monster_Spawn_Settings": {
+    "Areas": [],
+    "CustomTileIndex": []
+  },
+  "QuarryTileIndex": [
+    556,
+    558,
+    583,
+    606,
+    607,
+    608,
+    630,
+    635,
+    636,
+    680,
+    681,
+    685
+  ],
+  "File_Conditions": {
+    "FarmTypes": [],
+    "FarmerNames": [],
+    "SaveFileNames": [],
+    "OtherMods": {}
+  }
+}

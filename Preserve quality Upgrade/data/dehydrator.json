@@ -1,0 +1,1267 @@
+{
+  "Changes": [
+
+    {   "LogName": "Iron Dehydrator Recipe",
+        "Action": "EditData",
+        "Target": "Data/CraftingRecipes",
+        "Entries": {
+            "{{ModId}}_IronDehydrator": "390 35 382 6 335 1 (BC)Dehydrator 1/Home/{{ModId}}_IronDehydrator/true/Foraging 6/"
+        }
+    },
+    
+    {   "LogName": "Iron Dehydrator craftable",
+        "Action": "EditData",
+        "Target": "Data/BigCraftables",
+        "Entries": {
+        "{{ModId}}_IronDehydrator": {
+        "Name": "{{ModId}}_IronDehydrator",
+        "DisplayName": "{{i18n:JackHero06.IronDehydrator.Name}}",
+        "Description": "{{i18n:JackHero06.IronDehydrator.Description}}",
+        "Price": 265,
+        "Fragility": 0,
+        "CanBePlacedOutdoors": true,
+        "CanBePlacedIndoors": true,
+        "IsLamp": false,
+        "Texture": "Mods\\{{ModId}}\\craftables",
+        "SpriteIndex": 8,
+        "ContextTags": null,
+        "CustomFields": null
+        }
+      }
+    },
+
+
+    {
+        "LogName": "Iron Dehydrator machine definition",
+        "Action": "EditData",
+        "Target": "Data/Machines",
+        "Entries": {
+          "(BC){{ModId}}_IronDehydrator": {
+            "HasInput": false,
+              "HasOutput": false,
+              "InteractMethod": null,
+              "OutputRules": [
+
+                {
+                  "Id": "DriedMushrooms",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": null,
+                      "RequiredTags": [
+                        "edible_mushroom"
+                      ],
+                      "RequiredCount": 5,
+                      "Condition": null
+                    }
+                  ],
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": false,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "Default",
+                      "ItemId": "FLAVORED_ITEM DriedMushroom DROP_IN_ID",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 1,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id":"lose quality",
+                          "Condition": "ITEM_QUALITY Input 4 4",
+                          "Modification": "Set",
+                          "Amount": 2
+                        },
+                        {  
+                          "Id":"lose quality",
+                          "Condition": "ITEM_QUALITY Input 2 2",
+                          "Modification": "Set",
+                          "Amount": 1
+                        },
+                        {  
+                          "Id":"Maybe not lose quality",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.5",
+                          "Modification": "Set",
+                          "Amount": 1
+                        }
+                      ],
+                      "StackModifiers": null
+                    }
+                  ],
+                  "MinutesUntilReady": 1440,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": "{{i18n:JackHero06.InvalidCountMessage.Mushrooms}}",
+                  "RecalculateOnCollect": false
+                },
+
+
+                {
+                  "Id": "Raisins",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": "(O)398",
+                      "RequiredTags": null,
+                      "RequiredCount": 5,
+                      "Condition": null
+                    }
+                  ],
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": false,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "(O)Raisins",
+                      "ItemId": "(O)Raisins",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 1,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id":"lose quality",
+                          "Condition": "ITEM_QUALITY Input 4 4",
+                          "Modification": "Set",
+                          "Amount": 2
+                        },
+                        {  
+                          "Id":"lose quality",
+                          "Condition": "ITEM_QUALITY Input 2 2",
+                          "Modification": "Set",
+                          "Amount": 1
+                        },
+                        {  
+                          "Id":"Maybe not lose quality",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.5",
+                          "Modification": "Set",
+                          "Amount": 1
+                        }
+                      ],
+                      "StackModifiers": null
+                    }
+                  ],
+                  "MinutesUntilReady": 1440,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": "{{i18n:JackHero06.InvalidCountMessage.Raisins}}",
+                  "RecalculateOnCollect": false
+                },
+
+                {
+                  "Id": "DriedFruit",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine_Fruit",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": null,
+                      "RequiredTags": [
+                        "category_fruits"
+                      ],
+                      "RequiredCount": 5,
+                      "Condition": null
+                    }
+                  ],
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": false,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "Default",
+                      "ItemId": "FLAVORED_ITEM DriedFruit DROP_IN_ID",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 1,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id":"lose quality",
+                          "Condition": "ITEM_QUALITY Input 4 4",
+                          "Modification": "Set",
+                          "Amount": 2
+                        },
+                        {  
+                          "Id":"lose quality",
+                          "Condition": "ITEM_QUALITY Input 2 2",
+                          "Modification": "Set",
+                          "Amount": 1
+                        },
+                        {  
+                          "Id":"Maybe not lose quality",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.5",
+                          "Modification": "Set",
+                          "Amount": 1
+                        }
+                      ],
+                      "StackModifiers": null
+                    }
+                  ],
+                  "MinutesUntilReady": 1440,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": "{{i18n:JackHero06.InvalidCountMessage.Fruits}}",
+                  "RecalculateOnCollect": false
+                }
+
+
+              ],
+              "AdditionalConsumedItems": null,
+              "PreventTimePass": null,
+              "ReadyTimeModifiers": null,
+              "ReadyTimeModifierMode": "Stack",
+              "InvalidItemMessage": null,
+              "InvalidItemMessageCondition": null,
+              "InvalidCountMessage": null,
+              "LoadEffects": [
+                {
+                  "Id": "Default",
+                  "Condition": null,
+                  "Sounds": [
+                  {
+                    "Id": "fishSlap",
+                    "Delay": 0
+                  }
+                ]
+              }
+            ],
+            "WorkingEffectChance": 0.33,
+            "AllowLoadWhenFull": false,
+            "WobbleWhileWorking": true,
+            "LightWhileWorking": null,
+            "ShowNextIndexWhileWorking": false,
+            "ShowNextIndexWhenReady": false,
+            "AllowFairyDust": true,
+            "IsIncubator": false,
+            "ClearContentsOvernightCondition": null,
+            "StatsToIncrementWhenLoaded": null,
+            "StatsToIncrementWhenHarvested": null,
+            "ExperienceGainOnHarvest": null,
+            "CustomFields": null
+          }
+      }
+    },
+
+
+
+    {   "LogName": "Gold Dehydrator Recipe",
+        "Action": "EditData",
+        "Target": "Data/CraftingRecipes",
+        "Entries": {
+            "{{ModId}}_GoldDehydrator": "771 10 724 2 336 1 {{ModId}}_IronDehydrator 1/Home/{{ModId}}_GoldDehydrator/true/Foraging 7/"
+        }
+    },
+    
+    {   "LogName": "Gold Dehydrator craftable",
+        "Action": "EditData",
+        "Target": "Data/BigCraftables",
+        "Entries": {
+        "{{ModId}}_GoldDehydrator": {
+        "Name": "{{ModId}}_GoldDehydrator",
+        "DisplayName": "{{i18n:JackHero06.GoldDehydrator.Name}}",
+        "Description": "{{i18n:JackHero06.GoldDehydrator.Description}}",
+        "Price": 465,
+        "Fragility": 0,
+        "CanBePlacedOutdoors": true,
+        "CanBePlacedIndoors": true,
+        "IsLamp": false,
+        "Texture": "Mods\\{{ModId}}\\craftables",
+        "SpriteIndex": 9,
+        "ContextTags": null,
+        "CustomFields": null
+        }
+      }
+    },
+
+
+    {
+        "LogName": "Gold Dehydrator machine definition",
+        "Action": "EditData",
+        "Target": "Data/Machines",
+        "Entries": {
+          "(BC){{ModId}}_GoldDehydrator": {
+            "HasInput": false,
+              "HasOutput": false,
+              "InteractMethod": null,
+              "OutputRules": [
+
+                {
+                  "Id": "DriedMushrooms",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": null,
+                      "RequiredTags": [
+                        "edible_mushroom"
+                      ],
+                      "RequiredCount": 5,
+                      "Condition": null
+                    }
+                  ],
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": true,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "Default",
+                      "ItemId": "FLAVORED_ITEM DriedMushroom DROP_IN_ID",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 1,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id":"silver-gold Gold",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.15",
+                          "Modification": "Set",
+                          "Amount": 2
+                        }
+                      ],
+                      "StackModifiers": [
+                        {
+                          "Id": "Aditional Item",
+									        "Condition": "Random 0.05",
+									        "Modification": "Add",
+									        "Amount": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 1730,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": "{{i18n:JackHero06.InvalidCountMessage.Mushrooms}}",
+                  "RecalculateOnCollect": false
+                },
+
+
+                {
+                  "Id": "Raisins",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": "(O)398",
+                      "RequiredTags": null,
+                      "RequiredCount": 5,
+                      "Condition": null
+                    }
+                  ],
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": true,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "(O)Raisins",
+                      "ItemId": "(O)Raisins",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 1,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id":"silver-gold Gold",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.15",
+                          "Modification": "Set",
+                          "Amount": 2
+                        }
+                      ],
+                      "StackModifiers": [
+                        {
+                          "Id": "Aditional Item",
+									        "Condition": "Random 0.05",
+									        "Modification": "Add",
+									        "Amount": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 1730,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": "{{i18n:JackHero06.InvalidCountMessage.Raisins}}",
+                  "RecalculateOnCollect": false
+                },
+
+                {
+                  "Id": "DriedFruit",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine_Fruit",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": null,
+                      "RequiredTags": [
+                        "category_fruits"
+                      ],
+                      "RequiredCount": 1,
+                      "Condition": null
+                    }
+                  ],
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": true,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "Default",
+                      "ItemId": "FLAVORED_ITEM DriedFruit DROP_IN_ID",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 1,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id":"silver-gold Gold",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.15",
+                          "Modification": "Set",
+                          "Amount": 2
+                        }
+                      ],
+                      "StackModifiers": [
+                        {
+                          "Id": "Aditional Item",
+									        "Condition": "Random 0.05",
+									        "Modification": "Add",
+									        "Amount": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 1730,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": "{{i18n:JackHero06.InvalidCountMessage.Fruits}}",
+                  "RecalculateOnCollect": false
+                }
+
+
+              ],
+              "AdditionalConsumedItems": null,
+              "PreventTimePass": null,
+              "ReadyTimeModifiers": null,
+              "ReadyTimeModifierMode": "Stack",
+              "InvalidItemMessage": null,
+              "InvalidItemMessageCondition": null,
+              "InvalidCountMessage": null,
+              "LoadEffects": [
+                {
+                  "Id": "Default",
+                  "Condition": null,
+                  "Sounds": [
+                  {
+                    "Id": "fishSlap",
+                    "Delay": 0
+                  }
+                ]
+              }
+            ],
+            "WorkingEffectChance": 0.33,
+            "AllowLoadWhenFull": false,
+            "WobbleWhileWorking": true,
+            "LightWhileWorking": null,
+            "ShowNextIndexWhileWorking": false,
+            "ShowNextIndexWhenReady": false,
+            "AllowFairyDust": true,
+            "IsIncubator": false,
+            "ClearContentsOvernightCondition": null,
+            "StatsToIncrementWhenLoaded": null,
+            "StatsToIncrementWhenHarvested": null,
+            "ExperienceGainOnHarvest": null,
+            "CustomFields": null
+          }
+      }
+    },
+
+
+    {   "LogName": "Iridium Dehydrator Recipe",
+        "Action": "EditData",
+        "Target": "Data/CraftingRecipes",
+        "Entries": {
+            "{{ModId}}_IridiumDehydrator": "62 2 428 1 337 1 {{ModId}}_GoldDehydrator 1/Home/{{ModId}}_IridiumDehydrator/true/null/"
+        }
+    },
+
+    {   "LogName": "Iridium Dehydrator craftable",
+        "Action": "EditData",
+        "Target": "Data/BigCraftables",
+        "Entries": {
+        "{{ModId}}_IridiumDehydrator": {
+        "Name": "{{ModId}}_IridiumDehydrator",
+        "DisplayName": "{{i18n:JackHero06.IridiumDehydrator.Name}}",
+        "Description": "{{i18n:JackHero06.IridiumDehydrator.Description}}",
+        "Price": 2400,
+        "Fragility": 0,
+        "CanBePlacedOutdoors": true,
+        "CanBePlacedIndoors": true,
+        "IsLamp": false,
+        "Texture": "Mods\\{{ModId}}\\craftables",
+        "SpriteIndex": 10,
+        "ContextTags": null,
+        "CustomFields": null
+        }
+      }
+    },
+
+
+    {
+        "LogName": "Iridium Dehydrator machine definition",
+        "Action": "EditData",
+        "Target": "Data/Machines",
+        "Entries": {
+          "(BC){{ModId}}_IridiumDehydrator": {
+            "HasInput": false,
+              "HasOutput": false,
+              "InteractMethod": null,
+              "OutputRules": [
+
+                {
+                  "Id": "DriedMushrooms",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": null,
+                      "RequiredTags": [
+                        "edible_mushroom"
+                      ],
+                      "RequiredCount": 5,
+                      "Condition": null
+                    }
+                  ],
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": true,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "Default",
+                      "ItemId": "FLAVORED_ITEM DriedMushroom DROP_IN_ID",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 1,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id": "normal-silver Iridium",
+                          "Condition": "ITEM_QUALITY Input 0 0, Random 0.2",
+                          "Modification": "Set",
+                          "Amount": 1
+                        },
+                        {  
+                          "Id": "silver-gold Iridium",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.25",
+                          "Modification": "Set",
+                          "Amount": 2
+                        },
+                        {  
+                          "Id": "gold-iridium Iridium",
+                          "Condition": "ITEM_QUALITY Input 2 2, Random 0.1",
+                          "Modification": "Set",
+                          "Amount": 4
+                        }
+                      ],
+                      "StackModifiers": [
+                        {
+                          "Id": "Aditional item",
+									        "Condition": "Random 0.35",
+									        "Modification": "Add",
+									        "Amount": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 1950,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": "{{i18n:JackHero06.InvalidCountMessage.Mushrooms}}",
+                  "RecalculateOnCollect": false
+                },
+
+
+                {
+                  "Id": "Raisins",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": "(O)398",
+                      "RequiredTags": null,
+                      "RequiredCount": 5,
+                      "Condition": null
+                    }
+                  ],
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": true,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "(O)Raisins",
+                      "ItemId": "(O)Raisins",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 1,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id": "normal-silver Iridium",
+                          "Condition": "ITEM_QUALITY Input 0 0, Random 0.2",
+                          "Modification": "Set",
+                          "Amount": 1
+                        },
+                        {  
+                          "Id": "silver-gold Iridium",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.25",
+                          "Modification": "Set",
+                          "Amount": 2
+                        },
+                        {  
+                          "Id": "gold-iridium Iridium",
+                          "Condition": "ITEM_QUALITY Input 2 2, Random 0.1",
+                          "Modification": "Set",
+                          "Amount": 4
+                        }
+                      ],
+                      "StackModifiers": [
+                        {
+                          "Id": "Aditional item",
+									        "Condition": "Random 0.35",
+									        "Modification": "Add",
+									        "Amount": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 1950,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": "{{i18n:JackHero06.InvalidCountMessage.Raisins}}",
+                  "RecalculateOnCollect": false
+                },
+
+                {
+                  "Id": "DriedFruit",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine_Fruit",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": null,
+                      "RequiredTags": [
+                        "category_fruits"
+                      ],
+                      "RequiredCount": 1,
+                      "Condition": null
+                    }
+                  ],
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": true,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "Default",
+                      "ItemId": "FLAVORED_ITEM DriedFruit DROP_IN_ID",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 1,
+                      "MaxStack": 1,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id": "normal-silver Iridium",
+                          "Condition": "ITEM_QUALITY Input 0 0, Random 0.2",
+                          "Modification": "Set",
+                          "Amount": 1
+                        },
+                        {  
+                          "Id": "silver-gold Iridium",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.25",
+                          "Modification": "Set",
+                          "Amount": 2
+                        },
+                        {  
+                          "Id": "gold-iridium Iridium",
+                          "Condition": "ITEM_QUALITY Input 2 2, Random 0.1",
+                          "Modification": "Set",
+                          "Amount": 4
+                        }
+                      ],
+                      "StackModifiers": [
+                        {
+                          "Id": "Aditional item",
+									        "Condition": "Random 0.35",
+									        "Modification": "Add",
+									        "Amount": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 1950,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": "{{i18n:JackHero06.InvalidCountMessage.Fruits}}",
+                  "RecalculateOnCollect": false
+                }
+
+
+              ],
+              "AdditionalConsumedItems": null,
+              "PreventTimePass": null,
+              "ReadyTimeModifiers": null,
+              "ReadyTimeModifierMode": "Stack",
+              "InvalidItemMessage": null,
+              "InvalidItemMessageCondition": null,
+              "InvalidCountMessage": null,
+              "LoadEffects": [
+                {
+                  "Id": "Default",
+                  "Condition": null,
+                  "Sounds": [
+                  {
+                    "Id": "fishSlap",
+                    "Delay": 0
+                  }
+                ]
+              }
+            ],
+            "WorkingEffectChance": 0.33,
+            "AllowLoadWhenFull": false,
+            "WobbleWhileWorking": true,
+            "LightWhileWorking": null,
+            "ShowNextIndexWhileWorking": false,
+            "ShowNextIndexWhenReady": false,
+            "AllowFairyDust": true,
+            "IsIncubator": false,
+            "ClearContentsOvernightCondition": null,
+            "StatsToIncrementWhenLoaded": null,
+            "StatsToIncrementWhenHarvested": null,
+            "ExperienceGainOnHarvest": null,
+            "CustomFields": null
+          }
+      }
+    },
+
+    {   "LogName": "Radioactive Dehydrator Recipe",
+        "Action": "EditData",
+        "Target": "Data/CraftingRecipes",
+        "Entries": {
+            "{{ModId}}_RadioactiveDehydrator": "709 12 848 5 910 1 {{ModId}}_IridiumDehydrator 1/Home/{{ModId}}_RadioactiveDehydrator/true/null/"
+        }
+    },
+
+    {   "LogName": "Radioactive Dehydrator craftable",
+        "Action": "EditData",
+        "Target": "Data/BigCraftables",
+        "Entries": {
+        "{{ModId}}_RadioactiveDehydrator": {
+        "Name": "{{ModId}}_RadioactiveDehydrator",
+        "DisplayName": "{{i18n:JackHero06.RadioactiveDehydrator.Name}}",
+        "Description": "{{i18n:JackHero06.RadioactiveDehydrator.Description}}",
+        "Price": 3200,
+        "Fragility": 0,
+        "CanBePlacedOutdoors": true,
+        "CanBePlacedIndoors": true,
+        "IsLamp": false,
+        "Texture": "Mods\\{{ModId}}\\craftables",
+        "SpriteIndex": 11,
+        "ContextTags": null,
+        "CustomFields": null
+        }
+      }
+    },
+
+
+    {
+        "LogName": "Radioactive Dehydrator machine definition",
+        "Action": "EditData",
+        "Target": "Data/Machines",
+        "Entries": {
+          "(BC){{ModId}}_RadioactiveDehydrator": {
+            "HasInput": false,
+              "HasOutput": false,
+              "InteractMethod": null,
+              "OutputRules": [
+
+                {
+                  "Id": "DriedMushrooms",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": null,
+                      "RequiredTags": [
+                        "edible_mushroom"
+                      ],
+                      "RequiredCount": 5,
+                      "Condition": null
+                    }
+                  ],
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": true,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "Default",
+                      "ItemId": "FLAVORED_ITEM DriedMushroom DROP_IN_ID",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 2,
+                      "MaxStack": 2,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifiers": [
+                        {  
+                          "Id": "normal-silver Radioactive",
+                          "Condition": "ITEM_QUALITY Input 0 0, Random 0.35",
+                          "Modification": "Set",
+                          "Amount": 1
+                        },
+                        {  
+                          "Id": "silver-gold Radioactive",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.4",
+                          "Modification": "Set",
+                          "Amount": 2
+                        },
+                        {  
+                          "Id": "gold-iridium Radioactive",
+                          "Condition": "ITEM_QUALITY Input 2 2, Random 0.15",
+                          "Modification": "Set",
+                          "Amount": 4
+                        }
+                      ],
+                      "StackModifiers": [
+                        {
+                          "Id": "Aditional item",
+									        "Condition": "Random 0.05",
+									        "Modification": "Add",
+									        "Amount": 1
+                        },
+                        {
+                          "Id": "Aditional Item Quality",
+									        "Condition": "ITEM_QUALITY Input 4 4, Random 0.1",
+									        "Modification": "Add",
+									        "Amount": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 2160,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": "{{i18n:JackHero06.InvalidCountMessage.Mushrooms}}",
+                  "RecalculateOnCollect": false
+                },
+
+
+                {
+                  "Id": "Raisins",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": "(O)398",
+                      "RequiredTags": null,
+                      "RequiredCount": 5,
+                      "Condition": null
+                    }
+                  ],
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": true,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "(O)Raisins",
+                      "ItemId": "(O)Raisins",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 2,
+                      "MaxStack": 2,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id": "normal-silver Radioactive",
+                          "Condition": "ITEM_QUALITY Input 0 0, Random 0.35",
+                          "Modification": "Set",
+                          "Amount": 1
+                        },
+                        {  
+                          "Id": "silver-gold Radioactive",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.4",
+                          "Modification": "Set",
+                          "Amount": 2
+                        },
+                        {  
+                          "Id": "gold-iridium Radioactive",
+                          "Condition": "ITEM_QUALITY Input 2 2, Random 0.15",
+                          "Modification": "Set",
+                          "Amount": 4
+                        }
+                      ],
+                      "StackModifiers": [
+                        {
+                          "Id": "Aditional item",
+									        "Condition": "Random 0.05",
+									        "Modification": "Add",
+									        "Amount": 1
+                        },
+                        {
+                          "Id": "Aditional Item Quality",
+									        "Condition": "ITEM_QUALITY Input 4 4, Random 0.1",
+									        "Modification": "Add",
+									        "Amount": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 2160,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": "{{i18n:JackHero06.InvalidCountMessage.Raisins}}",
+                  "RecalculateOnCollect": false
+                },
+
+                {
+                  "Id": "DriedFruit",
+                  "Triggers": [
+                    {
+                      "Id": "ItemPlacedInMachine_Fruit",
+                      "Trigger": "ItemPlacedInMachine",
+                      "RequiredItemId": null,
+                      "RequiredTags": [
+                        "category_fruits"
+                      ],
+                      "RequiredCount": 5,
+                      "Condition": null
+                    }
+                  ],
+                  "UseFirstValidOutput": false,
+                  "OutputItem": [
+                    {
+                      "CustomData": null,
+                      "OutputMethod": null,
+                      "CopyColor": false,
+                      "CopyPrice": false,
+                      "CopyQuality": true,
+                      "PreserveType": null,
+                      "PreserveId": null,
+                      "IncrementMachineParentSheetIndex": 0,
+                      "PriceModifiers": null,
+                      "PriceModifierMode": "Stack",
+                      "Condition": null,
+                      "Id": "Default",
+                      "ItemId": "FLAVORED_ITEM DriedFruit DROP_IN_ID",
+                      "RandomItemId": null,
+                      "MaxItems": null,
+                      "MinStack": 2,
+                      "MaxStack": 2,
+                      "Quality": -1,
+                      "ObjectInternalName": null,
+                      "ObjectDisplayName": null,
+                      "ToolUpgradeLevel": -1,
+                      "IsRecipe": false,
+                      "StackModifierMode": "Stack",
+                      "ModData": null,
+                      "PerItemCondition": null,
+                      "QualityModifierMode": "Stack",
+                      "QualityModifiers": [
+                        {  
+                          "Id": "normal-silver Radioactive",
+                          "Condition": "ITEM_QUALITY Input 0 0, Random 0.35",
+                          "Modification": "Set",
+                          "Amount": 1
+                        },
+                        {  
+                          "Id": "silver-gold Radioactive",
+                          "Condition": "ITEM_QUALITY Input 1 1, Random 0.4",
+                          "Modification": "Set",
+                          "Amount": 2
+                        },
+                        {  
+                          "Id": "gold-iridium Radioactive",
+                          "Condition": "ITEM_QUALITY Input 2 2, Random 0.15",
+                          "Modification": "Set",
+                          "Amount": 4
+                        }
+                      ],
+                      "StackModifiers": [
+                        {
+                          "Id": "Aditional item",
+									        "Condition": "Random 0.05",
+									        "Modification": "Add",
+									        "Amount": 1
+                        },
+                        {
+                          "Id": "Aditional Item Quality",
+									        "Condition": "ITEM_QUALITY Input 4 4, Random 0.1",
+									        "Modification": "Add",
+									        "Amount": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "MinutesUntilReady": 2160,
+                  "DaysUntilReady": -1,
+                  "InvalidCountMessage": "{{i18n:JackHero06.InvalidCountMessage.Fruits}}",
+                  "RecalculateOnCollect": false
+                }
+
+
+              ],
+              "AdditionalConsumedItems": null,
+              "PreventTimePass": null,
+              "ReadyTimeModifiers": null,
+              "ReadyTimeModifierMode": "Stack",
+              "InvalidItemMessage": null,
+              "InvalidItemMessageCondition": null,
+              "InvalidCountMessage": null,
+              "LoadEffects": [
+                {
+                  "Id": "Default",
+                  "Condition": null,
+                  "Sounds": [
+                  {
+                    "Id": "fishSlap",
+                    "Delay": 0
+                  }
+                ]
+              }
+            ],
+            "WorkingEffectChance": 0.33,
+            "AllowLoadWhenFull": false,
+            "WobbleWhileWorking": true,
+            "LightWhileWorking": null,
+            "ShowNextIndexWhileWorking": false,
+            "ShowNextIndexWhenReady": false,
+            "AllowFairyDust": true,
+            "IsIncubator": false,
+            "ClearContentsOvernightCondition": null,
+            "StatsToIncrementWhenLoaded": null,
+            "StatsToIncrementWhenHarvested": null,
+            "ExperienceGainOnHarvest": null,
+            "CustomFields": null
+          }
+      }
+    },
+
+        {
+        "LogName": "Load iridium Dehydrator Recipe for Gus Shop",
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "TargetField": ["SeedShop", "Items"],
+        "Entries": {
+          "{{ModId}}_IridiumDehydrator": {
+            "Id": "{{ModId}}_IridiumDehydrator",
+            "ItemId": "(BC){{ModId}}_IridiumDehydrator",
+            "ObjectInternalName": "{{ModId}}_IridiumDehydrator",
+            "AvailableStock": 1,
+            "AvailableStockLimit": "Player",
+            "IsRecipe": true,
+            "Price": 175000,
+            "IgnoreShopPriceModifiers": true
+          }
+        }
+      },
+
+
+      {
+        "LogName": "Load Radioactive Dehydrator Recipe for Ginger Island Shop",
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "TargetField": ["IslandTrade", "Items"],
+        "Entries": {
+          "{{ModId}}_RadioactiveDehydrator": {
+            "Id": "{{ModId}}_RadioactiveDehydrator",
+            "ItemId": "(BC){{ModId}}_RadioactiveDehydrator",
+            "ObjectInternalName": "{{ModId}}_RadioactiveDehydrator",
+            "AvailableStock": 1,
+            "AvailableStockLimit": "Player",
+            "TradeItemId": "(O)852",
+			      "TradeItemAmount": 3,
+            "IsRecipe": true,
+            "IgnoreShopPriceModifiers": true
+          }
+        }
+      }
+  ]
+}

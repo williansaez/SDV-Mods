@@ -1,0 +1,41 @@
+{
+    "Changes": [	
+
+	{ // Stardew Valley Fair
+		"Action": "EditData", "Target": "Data/Festivals/fall16", "TextOperations": [ 
+		{ "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters"], "Value": "Arthur 45 62 up", "Delimiter": "/" },
+		{ "Operation": "Append", "Target": ["Entries", "MainEvent_additionalCharacters"], "Value": "Arthur 45 62 up", "Delimiter": "/" } ]
+	},
+	{
+		"Action": "EditData", "Target": "Data/Festivals/fall16", "TextOperations": [ 
+		{ "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters_y2"], "Value": "Arthur 33 61 up", "Delimiter": "/" },
+		{ "Operation": "Append", "Target": ["Entries", "MainEvent_additionalCharacters_y2"], "Value": "Arthur 33 61 up", "Delimiter": "/" } ]
+	},
+	{
+		"Action": "EditData", "Target": "data/festivals/fall16", "Entries": { "Arthur": "{{i18n:Art.Fest.Fair}}" }
+    },
+	{ // Festival of Ice
+		"Action": "EditData", "Target": "Data/Festivals/winter8", "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false }, "TextOperations": [ 
+		{ "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters"], "Value": "Arthur 39 62 up", "Delimiter": "/" },
+		{ "Operation": "Append", "Target": ["Entries", "MainEvent_additionalCharacters"], "Value": "Arthur 80 41 left", "Delimiter": "/" } ]
+	},
+	{
+		"Action": "EditData", "Target": "Data/Festivals/winter8", "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }, "TextOperations": [ 
+		{ "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters"], "Value": "Arthur 61 52 right", "Delimiter": "/" },
+		{ "Operation": "Append", "Target": ["Entries", "MainEvent_additionalCharacters"], "Value": "Arthur 70 55 up", "Delimiter": "/" } ]
+	},
+	{
+		"Action": "EditData", "Target": "Data/Festivals/winter8", "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false }, "TextOperations": [ 
+		{ "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters_y2"], "Value": "Arthur 12 45 left", "Delimiter": "/" },
+		{ "Operation": "Append", "Target": ["Entries", "MainEvent_additionalCharacters_y2"], "Value": "Arthur 54 32 right", "Delimiter": "/" } ]
+	},
+	{
+		"Action": "EditData", "Target": "Data/Festivals/winter8", "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }, "TextOperations": [ 
+		{ "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters_y2"], "Value": "Arthur 64 51 down", "Delimiter": "/" },
+		{ "Operation": "Append", "Target": ["Entries", "MainEvent_additionalCharacters_y2"], "Value": "Arthur 70 55 up", "Delimiter": "/" } ]
+	},
+	{
+		"Action": "EditData", "Target": "data/festivals/winter8", "Entries": { "Arthur": "{{i18n:Art.Fest.Ice}}" }
+    }
+  ]
+}

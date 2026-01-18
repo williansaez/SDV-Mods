@@ -1,0 +1,12 @@
+{
+"Format": "2.0.0",
+
+"Changes": [
+//Wedding arch
+{
+      "Action": "Load",
+      "Target": "Characters/ArchLF",
+      "FromFile": "assets/ArchLF.png"
+    },   
+   ]
+}

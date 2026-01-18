@@ -1,0 +1,11 @@
+{
+    "Name": "Delicious in Stardew",
+    "Author": "stinkyvicki",
+    "Version": "1.0.0",
+    "Description": "Inspired by the Dungeon Meshi manga, this mod adds new cooking recipes that focus on using ingredients found in the mines.",
+    "UniqueID": "stinkyvicki.DeliciousInStardew",
+    "UpdateKeys": ["Nexus:23211"],
+    "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+   }
+ }

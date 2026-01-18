@@ -1,0 +1,47 @@
+{
+	"JackHero06.IronKeg.Name": "Iron Keg",
+	"JackHero06.IronKeg.Description": "Artisanal products will be a lower quality than the inserted crop and silver quality products have 50% chance of not lower their quality",
+	"JackHero06.IronKeg.Mead": "{0} Normal Mead",
+	"JackHero06.GoldKeg.Name": "Gold Keg",
+	"JackHero06.GoldKeg.Description": "Processed objects will retain their quality and have a small chance of doubling their output.",
+	"JackHero06.GoldKeg.Mead": "{0} Better Mead",
+	"JackHero06.IridiumKeg.Name": "Iridium Keg",
+	"JackHero06.IridiumKeg.Description": "A luxury barrel, products can increase quality and double production by 50%, while mead will increase in price.",
+	"JackHero06.IridiumKeg.Mead": "{0} Great Mead",
+	"JackHero06.RadioactiveKeg.Name": "Radioactive Keg",
+	"JackHero06.RadioactiveKeg.Description": "The best keg for making mead, products will double its production with a small probability of additional product, greater chance of increasing quality",
+	"JackHero06.RadioactiveKeg.Mead": "{0} Best Mead",
+
+	"JackHero06.IronPreserveJar.Name": "Iron Preserve Jar",
+	"JackHero06.IronPreserveJar.Description": "Artisanal products will be a lower quality than the inserted crop and silver quality products have 50% chance of not lower their quality",
+	"JackHero06.GoldPreserveJar.Name": "Gold Preserve Jar",
+	"JackHero06.GoldPreserveJar.Description": "Processed objects will retain their quality and have a small chance of doubling their output.",
+	"JackHero06.IridiumPreserveJar.Name": "Iridium Preserve Jar",
+	"JackHero06.IridiumPreserveJar.Description": "crops or roe have a chance of increase quality and double production by 50%",
+	"JackHero06.RadioactivePreserveJar.Name": "Radioactive Preserve Jar",
+	"JackHero06.RadioactivePreserveJar.Description": "Always double the product, have a chance of an additional item and can increase in quality",
+
+	"JackHero06.IronDehydrator.Name": "Iron Dehydrator",
+	"JackHero06.IronDehydrator.Description": "products will be a lower quality than the inserted crop or mushroom and 50% of silver quality products retains said quality",
+	"JackHero06.GoldDehydrator.Name": "Gold Dehydrator",
+	"JackHero06.GoldDehydrator.Description": "Processed objects will retain their quality and have a small chance of doubling their output.",
+	"JackHero06.IridiumDehydrator.Name": "Iridium Dehydrator",
+	"JackHero06.IridiumDehydrator.Description": "Products will have more chance of double their output and chances for input to increase in quality, the chances varies for quality.",
+	"JackHero06.RadioactiveDehydrator.Name": "Radioactive Dehydrator",
+	"JackHero06.RadioactiveDehydrator.Description": "Double products with a chance of an additional output, more chance of increase in quality",
+
+	"JackHero06.IridiumFishSmoker.Name": "Iridium Fish Smoker",
+	"JackHero06.IridiumFishSmoker.Description": "50% chance of double their output and chances for input to increase in quality, the chances varies for quality.",
+	"JackHero06.RadioactiveFishSmoker.Name": "Radioactive Fish Smoker",
+	"JackHero06.RadioactiveFishSmoker.Description": "Double products with a chance of an additional output, more chance of increase in quality",
+	
+	"JackHero06.InvalidCountMessage.CoffeeBeans": "You need five Coffee Beans",
+	"JackHero06.InvalidCountMessage.Mushrooms": "You need five mushrooms",
+	"JackHero06.InvalidCountMessage.Fruits": "You need five fruits",
+	"JackHero06.InvalidCountMessage.Raisins": "You need five grapes",
+	"JackHero06.InvalidCountMessage.coal": "you need coal",
+	"JackHero06.InvalidCountMessage.AncientCoffeeBeans": "You need five Ancient Coffee Beans",
+
+	"JackHero06.BearHoneyMead.Name": "Bear Honey Mead",
+	"JackHero06.BearHoneyMead.Description": "A mead with a majestic flavor, using honey harvested by bears in their natural environment."
+}

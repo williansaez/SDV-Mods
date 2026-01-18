@@ -1,0 +1,11 @@
+{
+  "Name": "Bathrooms for Everyone",
+  "Author": "yuninocorn",
+  "Version": "1.0.0",
+  "Description": "This content pack adds bathrooms to every house in the base game.",
+  "UniqueID": "yuninocorn.bathroomsforeveryone",
+  "UpdateKeys": [ "Nexus:40270" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

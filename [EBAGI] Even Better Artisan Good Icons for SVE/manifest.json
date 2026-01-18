@@ -1,0 +1,14 @@
+{
+    "Name": "Even Better Artisan Good Icons for SVE",
+    "Author": "MidnightChord",
+    "Version": "1.5",
+    "Description": "Adds unique icons for artisan goods added by SVE.",
+    "UniqueID": "MidnightChord.ebagiSVE",
+    "MinimumApiVersion": "4.0.0",
+    "UpdateKeys": ["Nexus:9372"],
+    "ContentPackFor":
+    {
+        "UniqueID": "haze1nuts.evenbetterartisangoodicons",
+        "MinimumVersion": "1.6.3"
+    },
+}

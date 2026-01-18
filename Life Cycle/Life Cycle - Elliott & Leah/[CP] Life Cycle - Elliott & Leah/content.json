@@ -1,0 +1,263 @@
+{
+    "Format": "2.0.0",
+    "ConfigSchema": {
+        "Version": {
+            "AllowValues": "dating, married",
+            "Default": "dating"
+        }
+    },
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Elliott",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020031"
+            },
+            "Entries": {
+                "Mon2": "É natural sentir-se desanimado.$0#$b#Só espero que Leah consiga se reencontrar, ela é uma joia em bruto como artista.$0",
+                "Thu2": "Devo perguntar para Leah como ela está.$0#$b#Ela estava passando por um momento difícil da última vez que a vi.$2"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Leah",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020031"
+            },
+            "Entries": {
+                "Tue2": "Argh, @...$2#$b#Acho que perdi minha caixa de aquarela, não consigo encontrar em lugar nenhum...$2",
+                "Sat2": "Buscar inspiração no oceano...?$0#$b#Talvez funcione...$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Elliott",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020032"
+            },
+            "Entries": {
+                "Wed4": "A melhor parte de viver à beira-mar é quanto inspiração posso tirar disso.$0#$b#Espero que Leah sinta o mesmo.$0",
+                "Fri4": "Na verdade eu gosto de tocar piano.$0#$b#Acho que a música está no mesmo nível de revelação que a escrita.$0#$e#Talvez Leah comece a sentir o mesmo, ela tem vindo à minha casa para tocar piano ultimamente.",
+                "Sun4": "Tomar um bom vinho em boa companhia é um dos prazeres mais civilizados da vida.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Leah",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020032"
+            },
+            "Entries": {
+                "Mon4": "Acontece que eu não sou tão ruim em tocar piano.$1",
+                "Tue4": "O Elliott deve estar ficando sem vinho.$0#$b#Toda vez que vou na casa dele ele abre uma nova garrafa para compartilharmos.$0#$e#Devo comprar algo bonito para ele...$0",
+                "Thu4": "Você conhece o Lang Lang, @?$0#$e#Ele é um pianista realmente talentoso.$0#$b#O Elliott tem me mostrado algumas de suas melhores peças de música.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Elliott",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020033"
+            },
+            "Entries": {
+                "Mon6": "A Leah me pediu para ser modelo novamente ontem.$0#$b#Tenho que admitir que estou um pouco tímido com isso...$2",
+                "Thu6": "A Leah tem me ajudado com meu último romance.$0#$b#Aviso quando terminar os primeiros capítulos.$1",
+                "Sat6": "A Leah quer me levar para buscar alimentos algum dia.$0#$b#Você acha que encontraremos vegetais frescos?$1",
+                "Sun6": "Tenho trabalhado no barco a remo que estava na minha casa ultimamente.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Leah",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020033"
+            },
+            "Entries": {
+                "Tue6": "Nunca pensei em pedir para o Elliott ser meu modelo, mas na verdade ele tem me ajudado muito.$1",
+                "Wed6": "Comprei alguns bolinhos de caranguejo com o Gus mais cedo.$0#$b#É um presente para o Elliott, ele tem sido tão gentil comigo.$1",
+                "Fri6": "Vou ao bar mais tarde, espero que o Elliott também vá.$1",
+                "Sun6": "Não tenho enfrentado bloqueios criativos ultimamente.$0#$b#O Elliott sempre me ensina uma nova fonte de inspiração quando fico sem ideias.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Elliott",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020034"
+            },
+            "Entries": {
+                "Mon8": "Tornei-me independente ainda jovem e tenho vivido sozinho desde então.$0#$b#Mas desde que conheci a Leah, percebi o quanto me sinto solitário quando ela não está por perto.$2",
+                "Tue8": "A Leah e eu nos mudamos para Pelican Town para seguir nossos sonhos artísticos.$0#$b#Tenho sorte de ter alguém que me entende tão bem.$1",
+                "Wed8": "Sempre que escrevo não consigo parar de pensar na Leah.$4#$b#Tenho medo de que todos os meus personagens acabem sendo versões diferentes dela...$2",
+                "Thu8": "Quando cheguei a Pelican Town, buscava inspiração para a minha arte.$0#$b#Jamais imaginaria que minha musa estaria me esperando aqui.$4",
+                "Fri8": "Olá, @.$0#$e#Eu estava trabalhando em um novo poema, é uma surpresa para a Leah.$0#$b#Quer ouvir?$1#$e#Quando contemplo teu rosto maravilhoso, uma joia preciosa de forma e graça, meu coração... dilacerado pelo terror da noite, purifica-se com luz dourada.$0#$b#A poesia é a única forma de começar a descrever meus sentimentos por você.$1#$e#E então, o que acha?$1",
+                "Sat8": "Comecei a escrever um diário.$0#$b#Agora que tenho o prazer de colecionar tantas memórias lindas com a Leah, quero guardar cada uma delas.$1",
+                "Sun8": "Sempre me concentrei mais em prosa desde que comecei a escrever.$0#$b#Mas agora passei a preferir poesia graças à Leah.$1",
+                "spring_Mon8": "Na primavera, o amor é levado pela brisa.$0#$b#Me lembra o quanto sou sortudo por ter a Leah na minha vida.$4",
+                "spring_Wed8": "A primavera traz nova vida ao mundo ao nosso redor.$0#$b#Esta manhã, enquanto caminhava à beira-mar com a Leah, senti a inspiração correr por mim.$1",
+                "spring_Fri8": "A Leah e eu fomos coletar ontem.$0#$b#Tivemos sorte e encontramos vegetais suficientes para fazer uma salada.$1",
+                "summer_Tue8": "Olá, @.$0#$e#Ontem foi um dia produtivo, quase terminei de escrever um capítulo inteiro.$0#$b#Quero ouvir a opinião da Leah, as sugestões dela sempre me ajudam.$1#$e#Tenha um bom dia.$0",
+                "summer_Sat8": "Você já visitou as piscinas naturais, @?$0#$e#A Leah e eu fomos lá ontem, que vista maravilhosa!$1",
+                "summer_Sun8": "A Leah e eu fomos nadar outro dia.$0#$b#Adoro como o verão a envolve como um abraço quente.$1",
+                "fall_Wed8": "Ah, olá, @.$0#$e#Eu estava lendo alguns poemas do Becquer.$0#$b#Eles sempre me fazem pensar na Leah, vou recitar um para você.$1#$e#'O que é poesia?$0#$b#Você pergunta, enquanto fixa as pupilas nas minhas.$0#$b#O que é poesia? Você, de todos, pergunta para mim?$0#$b#Poesia... é Leah.$4#$e#Você gostou? Talvez tenha percebido que adaptei um pouco.$0#$e#Bem, tenha um bom dia, @.$0",
+                "fall_Thu8": "Ah... O outono finalmente chegou.$0#$b#O sol quente se deita baixo no céu, projetando longas sombras sobre os campos dourados.$0#$b#É uma época linda do ano, não acha, @?$1#$e#Você deveria visitar a floresta quando puder, a Leah e eu gostamos de passear lá nessa estação.$1",
+                "fall_Sat8": "O esplendor do outono... Um banquete verde para todos os sentidos desfrutarem...$0#$b#Preciso visitar a Leah e apreciar isso juntos.$1",
+                "winter_Tue8": "Faça o que fizer, não consigo manter minha cabana aquecida no inverno...$2#$e#Talvez eu devesse ficar alguns dias na casa da Leah.$1",
+                "winter_Thu8": "Este ano foi uma bênção para mim.$0#$e#Não há nada melhor neste mundo do que passar meu tempo com a Leah.$4#$b#Não consigo imaginar alguém com quem prefira compartilhar minha vida.$4",
+                "winter_Fri8": "Da mais brilhante estrela de inverno à fragrância da rosa fada... nada se compara à beleza cativante da Leah.$4#$e#Ah, @! Não te vi.$8#$b#Estava sonhando acordado...$7",
+                "spring_23": "Estou ansioso para dançar com a Leah amanhã.$0#$b#Vou vestir minha melhor camisa. Isso não acontece com frequência!$1",
+                "summer_10": "Sempre digo que não esquecerei do Luau, mas este ano certamente lembrarei.$0#$b#Ontem a Leah veio à minha casa e deixou um bilhete na mesa.$1#$e#E você, @, o que vai levar para o jantar comunitário este ano?$0",
+                "winter_23": "Fiz um livro de poemas para o aniversário da Leah.$4#$b#Quero que ela saiba o quanto a amo.$4#$e#Ah, você quer lê-los, @?$7#$b#Receio que os guarde só para a Leah e para mim.$0",
+                "winter_24": "Amanhã é o Festival da Estrela de Inverno, minha tradição favorita da cidade.$0#$b#Lembrarei de brindar a mais um ano maravilhoso com a Leah.$4",
+                "spring_23_2": "Estou ansioso para dançar com a Leah amanhã.$0#$b#Vou vestir minha melhor camisa. Isso não acontece com frequência!$1",
+                "summer_10_2": "Sempre digo que não esquecerei do Luau, mas este ano certamente lembrarei.$0#$b#Ontem a Leah veio à minha casa e deixou um bilhete na mesa.$1#$e#E você, @, o que vai levar para o jantar comunitário este ano?$0",
+                "winter_23_2": "Fiz um livro de poemas para o aniversário da Leah.$4#$b#Quero que ela saiba o quanto a amo.$4#$e#Ah, você quer lê-los, @?$7#$b#Receio que os guarde só para a Leah e para mim.$0",
+                "winter_24_2": "Amanhã é o Festival da Estrela de Inverno, minha tradição favorita da cidade.$0#$b#Lembrarei de brindar a mais um ano maravilhoso com a Leah.$4"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Leah",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020034"
+            },
+            "Entries": {
+                "Mon8": "Costumo ver a Jas brincando perto da minha casa.$0#$b#Isso me fez pensar se o Elliott gostaria de ter filhos em breve...$0",
+                "Tue8": "Eu adoraria desenhar um retrato do Elliott algum dia.$0#$e#Ele seria o modelo mais bonito de todos.$4",
+                "Wed8": "Minha carreira como artista não ia muito bem quando me mudei pra cá...$2#$e#Felizmente, o Elliott sempre acreditou em mim.$0#$b#Ele é muito compreensivo.$1",
+                "Thu8": "Ei, @.$0#$e#Sabe, eu nunca voltaria pra cidade, mesmo tendo sido difícil deixar tudo pra trás.$0#$b#Amo viver no vale, e tenho tantos planos para mim e o Elliott no futuro.$1",
+                "Fri8": "O Elliott realmente me entende, afinal somos dois artistas.$1",
+                "Sat8": "Tive medo de estar me precipitando com o Elliott...$2#$b#Você sabe que meu relacionamento anterior terminou muito mal e eu não queria ficar com ninguém quando me mudei pra cá.$2#$b#Mas então o Elliott apareceu e bagunçou meus planos.$0#$e#Mas fico feliz que tenha acontecido, eu o amo tanto.$4",
+                "Sun8": "O Elliott tem me ensinado piano.$1#$b#Mas acho que nunca chegarei ao nível dele.$0",
+                "spring_Mon8": "Estou com um bloqueio artístico terrível...$2#$e#Devo procurar o Elliott para me inspirar...$7",
+                "spring_Tue8": "Ei, @.$1#$e#Sabe, foi graças a você e ao Elliott que consegui chegar tão longe com minha arte.$0#$e#Você devia vir jantar com a gente qualquer hora, @.$1",
+                "spring_Sun8": "Percebi que quando me mudei pra cá, não estava tentando fazer novas amizades porque ainda processava tantas mudanças.$0#$b#Mas agora converso com todo mundo no bar, ajudo a Marnie com os animais e até tenho um relacionamento maravilhoso com o Elliott.$1",
+                "summer_Wed8": "Devo levar minhas aquarelas da próxima vez que for à praia.$0#$b#Quero fazer alguns esboços rápidos do Elliott.$1",
+                "summer_Thu8": "Nos dias de verão, eu e o Elliott adoramos nadar.$1#$b#Normalmente vamos à praia, mas na verdade o rio também pode ser uma boa opção.$1",
+                "summer_Sat8": "Gosto de visitar a casa do Elliott no verão.$0#$b#Ele mora bem à beira-mar, então é realmente prático ir nadar.$1",
+                "fall_Mon8": "Um amigo antigo de Zuzu City me contou que vai apresentar sua primeira exposição de arte no mês que vem.$1#$b#Vou com o Elliott, talvez ele possa conhecer meus pais enquanto estamos lá.$1",
+                "fall_Thu8": "Adoro caminhar na floresta com o Elliott no outono.$0#$b#A brisa é muito agradável.$1",
+                "fall_Sat8": "As cores do outono são lindas.$0#$b#O Elliott diz que essa estação o inspira a escrever mais poemas do que o normal.$0",
+                "winter_Tue8": "Você já ouviu o Elliott tocando piano?$0#$b#Isso realmente me inspira.$1",
+                "winter_Wed8": "O Elliott me pediu para ensiná-lo a esculpir.$0#$b#Não foi muito bem...$2#$b#Eu o amo, mas talvez ele devesse se limitar a escrever...$2",
+                "winter_Fri8": "Este ano foi o melhor da minha vida até agora.$0#$b#Ver minha arte alcançando mais pessoas, estar com o Elliott, ter um bom relacionamento com os outros moradores... O que não amar?$1",
+                "summer_9": "Ei, @.$0#$e#Estava a caminho de ver o Elliott.$0#$b#Sabe, ele sempre esquece do Luau, então vou lembrá-lo.$1",
+                "fall_5": "Hoje é aniversário do Elliott.$1#$b#Vamos jantar juntos, preparei uma Tom Kha Soup.$1#$e#Também esculpi uma lagosta, acha que ele vai gostar?$0",
+                "fall_26": "Ver Vincent e Jas se divertindo no Spirit's Eve me fez pensar em ter filhos.$0#$e#Será que o Elliott já pensou nisso também...?$4",
+                "winter_8": "Ei, @.$0#$e#Desculpe, mas este ano vou torcer pelo Elliott no concurso de pesca.$0#$b#Boa sorte amanhã!$1",
+                "summer_9_2": "Ei, @.$0#$e#Estava a caminho de ver o Elliott.$0#$b#Sabe, ele sempre esquece do Luau, então vou lembrá-lo.$1",
+                "fall_5_2": "Hoje é aniversário do Elliott.$1#$b#Vamos jantar juntos, preparei uma Tom Kha Soup.$1#$e#Também esculpi uma lagosta, acha que ele vai gostar?$0",
+                "fall_26_2": "Ver Vincent e Jas se divertindo no Spirit's Eve me fez pensar em ter filhos.$0#$e#Será que o Elliott já pensou nisso também...?$4",
+                "winter_8_2": "Ei, @.$0#$e#Desculpe, mas este ano vou torcer pelo Elliott no concurso de pesca.$0#$b#Boa sorte amanhã!$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/schedules/Elliott",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020034"
+            },
+            "Entries": {
+                "spring.001": "Leah, posso ver seus desenhos?$1",
+                "spring.002": "A natureza nos ensina a amar e crescer juntos.$0",
+                "summer.001": "Leah, comprei uma garrafa de vinho ontem.$0#$b#Você me concede o prazer de compartilhá-la comigo?$4",
+                "summer.002": "Fico feliz por você ter me mostrado este lugar, Leah.$1",
+                "fall.001": "...$4",
+                "fall.002": "Cada folha me traz felicidade...$1",
+                "winter.001": "Leah, você se importa se eu ficar aqui esta noite?$4#$b#Minha casa é fria demais no inverno...$2",
+                "winter.002": "Leah disse que eu não posso ver a pintura até que esteja pronta.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Elliott",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020034"
+            },
+            "Entries": {
+                "spring_Wed": "800 ElliottHouse 1 5 0/1000 ElliottHouse 6 4 0/1100 ElliottHouse 1 5 0/1200 Beach 49 19 2/1330 ElliottHouse 1 5 0/1500 Forest 77 44 2 \"Strings\\schedules\\Elliott:spring.001\"/1900 ElliottHouse 7 7 2/2000 ElliottHouse 1 5 0/2400 ElliottHouse 13 4 1 elliott_sleep",
+                "spring_Thu": "800 ElliottHouse 1 5 0/1000 ElliottHouse 6 4 0/1100 ElliottHouse 1 5 0/1130 SeedShop 10 20 0/1500 Forest 34 25 2 \"Strings\\schedules\\Elliott:spring.002\"/1830 ElliottHouse 7 7 2/2100 ElliottHouse 1 5 0/2400 ElliottHouse 13 4 1 elliott_sleep",
+                "summer_Tue": "800 ElliottHouse 1 5 0/1000 ElliottHouse 6 4 0/1100 Beach 42 19 2 \"Strings\\schedules\\Elliott:summer.001\"/1600 ElliottHouse 7 7 2/2200 ElliottHouse 1 5 0/2400 ElliottHouse 13 4 1 elliott_sleep",
+                "summer_Sun": "800 ElliottHouse 1 5 0/1000 Beach 24 32 3 square_1_5_3/1200 Beach 79 16 2 \"Strings\\schedules\\Elliott:summer.002\"/1900 Saloon 4 19 2 elliott_drink/2340 ElliottHouse 13 4 1 elliott_sleep",
+                "fall_Tue": "800 ElliottHouse 1 5 0/900 ElliottHouse 6 4 0/1000 ElliottHouse 1 5 0/1030 ArchaeologyHouse 21 11 2 elliott_read/1300 Town 86 65 3 \"Strings\\schedules\\Elliott:fall.001\"/1800 ElliottHouse 7 7 2/2100 ElliottHouse 1 5 0/2400 ElliottHouse 13 4 1 elliott_sleep",
+                "fall_Wed": "800 ElliottHouse 1 5 0/1000 ElliottHouse 6 4 0/1500 Forest 77 44 2 \"Strings\\schedules\\Elliott:fall.002\"/1900 ElliottHouse 7 7 2/2100 ElliottHouse 1 5 0/2400 ElliottHouse 13 4 1 elliott_sleep",
+                "winter_Tue": "800 ElliottHouse 1 5 0/1000 LeahHouse 5 3 0 \"Strings\\schedules\\Elliott:winter.001\"/1600 ElliottHouse 7 7 2/1900 ElliottHouse 1 5 0/2130 LeahHouse 3 4 1 elliott_sleep",
+                "winter_Sat": "800 ElliottHouse 1 5 0/930 LeahHouse 4 4 2 \"Strings\\schedules\\Elliott:winter.002\"/1600 ElliottHouse 7 7 2/2100 ElliottHouse 1 5 0/2400 ElliottHouse 13 4 1 elliott_sleep"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/schedules/Leah",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020034"
+            },
+            "Entries": {
+                "spring.001": "O Elliott está escrevendo poemas e eu estou desenhando alguns esboços rápidos da paisagem.$1",
+                "spring.002": "O Elliott está tão bonito agora, devo pintá-lo...?$4",
+                "summer.001": "Elliott, posso ir à sua casa e tocar piano mais tarde?$1",
+                "summer.002": "Elliott, o que você acha deste coral? Não está grande demais?$2#$b#Vou desenhá-lo de novo...$2",
+                "fall.001": "Eu te amo tanto, Elliott...$4",
+                "fall.002": "Ei, @.$0#$b#As cores de outono são mais vívidas em Stardew Valley.$1#$b#O Elliott também acha.$1",
+                "winter.001": "Ah, @.$4#$b#Eu e o Elliott estávamos conversando sobre algo importante, você se importaria de vir depois?$4",
+                "winter.002": "Estou pintando um retrato do Elliott.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Leah",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020034"
+            },
+            "Entries": {
+                "spring_Wed": "900 LeahHouse 3 7 3 leah_sculpt/1100 SeedShop 11 23 0 square_3_1_0/1500 Forest 75 44 2 leah_draw \"Strings\\schedules\\Leah:spring.001\"/1900 LeahHouse 8 5 0/2200 LeahHouse 13 10 2/2400 LeahHouse 2 4 3 leah_sleep",
+                "spring_Thu": "900 LeahHouse 3 7 3 leah_sculpt/1200 Forest 68 50 2/1500 Forest 33 25 2 \"Strings\\schedules\\Leah:spring.002\"/1830 Forest 21 29 1/1930 LeahHouse 8 5 0/2200 LeahHouse 13 10 2/2400 LeahHouse 2 4 3 leah_sleep",
+                "summer_Tue": "800 LeahHouse 3 7 3 leah_sculpt/1000 Beach 41 19 2 \"Strings\\schedules\\Leah:summer.001\"/1600 Saloon 2 20 1/2340 LeahHouse 2 4 3 leah_sleep",
+                "summer_Sun": "900 LeahHouse 3 7 3 leah_sculpt/1200 Beach 81 16 2 leah_draw \"Strings\\schedules\\Leah:summer.002\"/1900 LeahHouse 8 5 0/2200 LeahHouse 13 10 2/2400 LeahHouse 2 4 3 leah_sleep",
+                "fall_Tue": "900 LeahHouse 3 7 3 leah_sculpt/1200 Town 86 66 3 \"Strings\\schedules\\Leah:fall.001\"/1800 LeahHouse 8 5 0/2000 LeahHouse 13 10 2/2300 LeahHouse 2 4 3 leah_sleep",
+                "fall_Wed": "900 LeahHouse 3 7 3 leah_sculpt/1200 Town 86 66 3 square_1_5_3/1500 Forest 75 44 2 leah_draw \"Strings\\schedules\\Leah:fall.002\"/1900 LeahHouse 8 5 0/2200 LeahHouse 13 10 2/2400 LeahHouse 2 4 3 leah_sleep",
+                "winter_Tue": "900 LeahHouse 3 7 3 leah_sculpt/1200 LeahHouse 5 2 2 \"Strings\\schedules\\Leah:winter.001\"/1600 Saloon 2 20 1/2340 LeahHouse 2 4 3 leah_sleep",
+                "winter_Sat": "900 LeahHouse 3 7 3 leah_sculpt/1200 LeahHouse 6 5 0 \"Strings\\schedules\\Leah:winter.002\"/1600 Saloon 2 20 1/2340 LeahHouse 2 4 3 leah_sleep"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Saloon",
+            "Entries": {
+                "59020031/F/f Elliott 500/f Leah 500/d Mon Tue Wed Thu Sat/t 1700 1900": "Saloon1/9 20/farmer 18 20 0 Willy 17 22 2 Pam 7 18 1 Clint 19 23 3 Lewis 8 22 1 Marnie 7 22 3 Emily 10 18 2 Gus 14 18 2 Elliott 4 19 2 Leah 2 20 1/skippable/animate Gus false true 250 18 19 20/animate Lewis false true 150 19 19 19 19 19 19 19 19 19 19 19 19 19 19 22 23 23 23/animate Marnie false true 150 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 21 22 22 23 23/pause 2800/speak Elliott \"Quer outro drinque, Leah?$0\"/pause 900/speak Leah \"Isso seria ótimo.$1\"/pause 800/faceDirection Elliott 1/pause 390/speak Elliott \"Garçom!$0#$b#Traga mais uma taça de vinho para a dama.$0\"/pause 300/stopAnimation Gus/pause 390/faceDirection Gus 3/pause 280/speak Gus \"Chegando!$0\"/pause 600/move Gus 0 -1 1/move Gus 3 0 0/pause 280/playSound Milking/pause 1200/move Gus -11 0 2/move Gus 0 3 3/move Gus -1 0 3/pause 350/speak Gus \"Aqui está.$0\"/pause 80/playSound dwoop/pause 500/speak Leah \"Obrigada, Gus.$0\"/pause 650/move Gus 1 0 0/move Gus 0 -3 1/move Gus 8 0 2/move Gus 0 1 2/pause 100/animate Gus false true 250 18 19 20/pause 800/faceDirection Elliott 2/pause 1000/speak Elliott \"E então, como você está ultimamente?$0#$b#Sua arte está indo bem?$0\"/pause 780/speak Leah \"...$2#$b#*suspiro* Nada bem...$2\"/pause 800/speak Elliott \"Ah... O que houve?$2\"/pause 850/speak Leah \"Bem...$2#$b#Quando me mudei pra cá, achei que a vida rural me manteria inspirada o tempo todo, mas não é bem assim...$2\"/pause 680/speak Leah \"Além disso, tenho tido dificuldade em me concentrar...$2\"/pause 1200/speak Leah \"Será que sou mesmo artista...?$2\"/pause 380/emote Leah 28/pause 680/speak Leah \"Elliott, você entende o que estou dizendo, né?$3\"/pause 850/speak Elliott \"Leah, nem pense em duvidar do seu talento como artista.$7\"/pause 720/speak Elliott \"Lembro do dia em que você me mostrou uma pintura sua pela primeira vez.$0\"/pause 720/speak Elliott \"Eu consegui ver a paixão nos seus olhos.$0#$b#Você é e sempre será uma artista, Leah.$0\"/pause 390/emote Leah 60/pause 850/speak Elliott \"Você só precisa de um tempo para clarear a mente.$0#$b#Também tenho dias sem inspiração, isso é natural.$0\"/pause 800/speak Elliott \"Mas eu tenho sorte de morar perto do mar.$0#$b#O oceano mexe com o coração e inspira a imaginação.$1\"/pause 950/speak Elliott \"Talvez você devesse ir até a praia algum dia.$0#$b#Você ainda tem aquela caixa de aquarela? Pode levá-la e tentar refletir a beleza do mar.$0\"/pause 950/speak Elliott \"Ah, e será um prazer convidá-la para minha casa depois e tomar uma taça de vinho juntos.$1\"/pause 800/speak Leah \"Parece ótimo.$1\"/pause 750/speak Leah \"Vou levar uma salada feita com legumes frescos.$0#$b#Sabe, sou boa em forragear.$1\"/pause 390/emote Elliott 32/pause 2100/end dialogue Leah \"O Elliott realmente entende as dificuldades de ser artista.$0\""
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Beach",
+            "Entries": {
+                "59020032/e 59020031/F/f Elliott 1000/f Leah 1000/t 1300 1500/z spring/z fall/z winter/w sunny": "breezy/42 23/farmer 1000 1000 2 Elliott -1000 1000 0 Leah 39 23 2/skippable/animate Leah false true 180 35 35 35 35 35 35 32 32 33 33 33 34 34/pause 5800/stopAnimation Leah/showFrame Leah 35/pause 280/emote Leah 40/pause 700/speak Leah \"Isso parece bom.$1\"/pause 580/speak Leah \"Ah, olha as horas.$0#$b#Devo agradecer ao Elliott antes de voltar para casa.$0\"/pause 800/showFrame Leah 0/pause 500/viewport move 0 -1 1800/move Leah 0 -9 0/globalFade/viewport -1000 -1000/changeLocation ElliottHouse/warp Elliott 8 4/positionOffset Elliott 32 16/animate Elliott false true 400 25 26 26 27 27 26 26 25 26 27 27 26 26 25/playMusic elliottPiano/viewport 8 5 true/pause 24000/stopAnimation Elliott/showFrame Elliott 24/playMusic communityCenter/pause 700/playSound doorOpen/warp Leah 3 9/pause 320/move Leah 0 -3 0/move Leah 4 0 0/pause 500/showFrame Elliott 28/pause 650/speak Elliott \"Olá, Leah.$0#$b#Não esperava pela sua visita, mas é um prazer vê-la.$1\"/pause 380/showFrame Elliott 29/pause 50/positionOffset Elliott 32 16/showFrame Elliott 30/pause 80/playSound woodyStep/pause 50/move Elliott 0 1 3/pause 600/faceDirection Leah 1/pause 800/speak Leah \"Você estava tocando piano, Elliott?$0#$b#Foi incrível!$1#$b#Você é como um homem renascentista.$1\"/pause 800/speak Elliott \"Ah, você me bajula.$0\"/pause 600/speak Elliott \"Eu costumo tocar em busca de inspiração.$0#$b#Às vezes consigo me expressar melhor no piano do que com a escrita.$0\"/pause 720/speak Leah \"Gostaria de poder tocar também, mas nunca fui talentosa com música.$0\"/pause 750/speak Elliott \"Você já tentou?$0#$b#Nunca se sabe o que pode acontecer.$0\"/pause 680/speak Leah \"Bem, nunca toquei piano antes, mas sei com certeza que tocar violão não é pra mim.$1\"/pause 780/speak Elliott \"Então, que tal compartilharmos uma garrafa de vinho enquanto eu te explico alguns conceitos básicos sobre piano?$0\"/pause 750/speak Leah \"Isso parece bom.$1\"/pause 600/speak Leah \"Na verdade, vim porque queria te mostrar alguns esboços que fiz mais cedo.$0#$b#Segui seu conselho e isso realmente ajudou.$1\"/pause 800/speak Elliott \"Fico feliz que tenha ajudado.$1\"/pause 500/speak Elliott \"Agora, vamos?$0\"/pause 390/emote Leah 32/pause 1800/end dialogue Leah \"Talvez eu vire a próxima Beethoven graças às aulas de piano do Elliott.$0#$e#Brincadeira.$1\""
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/LeahHouse",
+            "Entries": {
+                "59020033/e 59020032/F/f Elliott 1500/f Leah 1500/o Elliott/o Leah/t 1300 1400": "breezy/6 6/farmer 1000 1000 2 Leah 3 7 2 Elliott 1000 -1000 2/skippable/animate Leah false true 100 16 17 18 19 19 19 19 16/pause 2800/playSound doorOpen/pause 50/warp Elliott 7 10/faceDirection Elliott 0/pause 800/move Elliott 0 -3 3/move Elliott -2 0 3/pause 750/speak Elliott \"Olá, Leah.$1\"/pause 580/stopAnimation Leah/faceDirection Leah 1/pause 680/speak Leah \"Oh, Elliott!$1#$b#Perfeito timing.$1\"/pause 650/speak Leah \"Acabei de começar uma nova escultura, mas preciso de um modelo masculino.$0\"/pause 780/speak Leah \"Você se importaria de ficar aqui por um tempo?$4\"/pause 800/speak Elliott \"Ah, acho que posso te emprestar um momento...$4\"/pause 820/move Elliott 0 -1 3/move Elliott -2 0 2/pause 820/speak Elliott \"Devo ficar aqui?$0\"/pause 580/faceDirection Leah 0/pause 700/speak Leah \"Sim, isso é perfeito.$1\"/pause 850/animate Leah false true 100 16 17 18 19 19 19 19 16/pause 2500/speak Elliott \"Na verdade vim te emprestar alguns livros de música para piano.$0\"/pause 580/speak Elliott \"Recomendo especialmente 'The Virtuoso Pianist'.$0#$b#Ele me ajudou a treinar minha agilidade e flexibilidade nos pulsos.$0\"/pause 820/speak Leah \"Obrigada, vou começar a ler amanhã.$1\"/pause 1000/speak Leah \"Você pode se mover um pouco para a direita?$0\"/pause 650/speak Elliott \"Claro.$1\"/pause 320/positionOffset Elliott -2 0/pause 80/positionOffset Elliott -2 0/pause 80/positionOffset Elliott -2 0/pause 80/positionOffset Elliott -2 0/pause 80/positionOffset Elliott -2 0/pause 720/speak Leah \"Perfeito.$1#$b#Aguenta só mais um pouco, estou quase terminando.$0\"/pause 1800/stopAnimation Leah/faceDirection Leah 0/pause 800/speak Leah \"Terminei!$1#$b#Obrigada, Elliot.$1\"/pause 800/positionOffset Elliott 2 0/pause 80/positionOffset Elliott 2 0/pause 80/positionOffset Elliott 2 0/pause 80/positionOffset Elliott 2 0/pause 80/positionOffset Elliott 2 0/pause 900/speak Leah \"Está quase na hora do almoço.$0#$b#Você quer ficar aqui e almoçar comigo?$1\"/pause 680/speak Leah \"Fui forragear ontem e tenho muitos vegetais.$0#$b#Posso te preparar minha salada especial.$1\"/pause 720/speak Leah \"O que me diz?$0\"/pause 850/speak Elliott \"Ficarei encantado em almoçar com você.$4\"/pause 390/emote Leah 32/pause 2500/end dialogue Leah \"Elliott é um ótimo modelo...$4\""
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Beach",
+            "Entries": {
+                "59020034/e 59020033/F/f Elliott 2000/f Leah 2000/o Elliott/o Leah/w sunny/t 2000 2100": "moonlightJellies/-1000 -1000/farmer 1000 1000 2 Leah 13 16 2 Elliott 13 27 1/specificTemporarySprite elliottBoat/skippable/viewport 17 26 clamp true/pause 2200/move Leah 0 9 2/pause 680/speak Leah \"Ei, Elliott.$1\"/pause 720/faceDirection Elliott 0/pause 500/speak Elliott \"Olá, Leah.$1#$b#Chegue mais perto, quero que você veja isto.$0\"/pause 650/move Leah 0 1 2/pause 250/faceDirection Elliott 1/pause 120/faceDirection Leah 1/pause 750/speak Elliott \"Olhe... Eu reformei aquele velho barco a remo que estava jogado na minha casa.$0#$b#Bem bonito, né?$0\"/pause 1000/faceDirection Elliott 0/pause 720/speak Elliott \"Leah...$0\"/pause 500/faceDirection Leah 2/pause 780/speak Elliott \"Você me faria a honra de me acompanhar na viagem inaugural dela?$4\"/pause 620/speak Leah \"Eu adoraria...$4\"/pause 950/globalFade/viewport -1000 -1000/changeToTemporaryMap ElliottSea/warp Leah 26 20/warp Elliott 26 20/showFrame Elliott 25/positionOffset Elliott 0 60/positionOffset Leah 0 -25/viewport 25 20 true/pause 3800/speak Elliott \"Navegar pelo oceano tão tarde pode ser avassalador no começo, mas tenho certeza de que você vai aprender a amar isso em pouco tempo.$0\"/pause 1200/speak Leah \"Todo ano, quando a Dança das Medusas Luzentes acontece, eu sonho em nadar com elas no vasto oceano.$0\"/pause 520/speak Leah \"Você acha que poderíamos velejar durante o festival no próximo ano?$1\"/pause 680/speak Elliott \"Claro que podemos.$1\"/pause 1250/speak Elliott \"Leah...$0#$b#Eu te convidei aqui porque tenho algo importante para te dizer.$4\"/pause 820/speak Elliott \"Pois bem, somos amigos há muito tempo agora.$0#$b#E eu soube que havia algo especial em você quando te conheci.$1\"/pause 780/speak Elliott \"Compartilhamos paixões, sonhos, esperanças.$0#$b#E...$0\"/pause 1000/emote Elliott 40/pause 850/speak Elliott \"Pela primeira vez, fico sem palavras...$4\"/pause 850/speak Elliott \"Eu sabia que isso poderia acontecer, por isso escrevi um poema para você.$4#$b#Deixe-me recitá-lo.$4\"/pause 1200/speak Elliott \"Não conheço outra liberdade senão a liberdade de estar aprisionado em você.$4#$b#Você, aquela pessoa por quem eu esqueço esta existência cruel,$4#$b#aquela pessoa que me traz a liberdade do amor,$4#$b#a única liberdade que me traz alegria, a única liberdade pela qual eu morreria.$4\"/pause 950/speak Elliott \"Leah, você justifica minha existência:$4#$b#se eu não a tivesse conhecido, eu não teria vivido;$4#$b#se eu morrer sem ter conhecido você, não morro, porque não vivi.$4\"/pause 800/speak Leah \"Oh, Elliott...$4\"/pause 1000/showFrame Elliott 35/screenFlash 1/warp Elliott 26 20/positionOffset Elliott 24 8/positionOffset Leah -20 16/faceDirection Leah 1 true/showFrame Leah 25/specificTemporarySprite heart 26 20/playSound dwop/pause 2800/end dialogue Elliott \"O amor nos permite caminhar na doce música do nosso coração particular.$4\""
+            }
+        }
+    ]
+}

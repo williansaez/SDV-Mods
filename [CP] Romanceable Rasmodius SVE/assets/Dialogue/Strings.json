@@ -1,0 +1,107 @@
+{
+	"Changes": [
+
+        { //Dating + Engagement + Wedding Dialogue - Base
+        "Action": "EditData",
+        "Target": "Strings/StringsFromCSFiles",
+        "When": {"Override Generic Dialogue": "true",},
+        "Entries": {
+            "Game1.cs.2782": "{{i18n:Wizard.Wedding {{expressionList}} }}",
+            },
+        },
+        { //Wedding Dialogue - (used to be No UCR) "HasMod |contains=misscoriel.UCRFix": false
+        "Action": "EditData",
+        "Target": "Strings/StringsFromCSFiles",
+        "When": {"Override Generic Dialogue": "true"},
+        "Entries": {
+            "NPC.cs.3980": "{{i18n:Wizard.Propose {{expressionList}} }}",
+            },
+        },
+		{ //Marriage Dialogue - Base
+        "Action": "EditData",
+        "Target": "Strings/StringsFromCSFiles",
+        "When": {"Override Generic Dialogue": "true", "Spouse":"Wizard"},
+        "Entries": {
+		    "NPC.cs.4406": "{{i18n:Wizard.NPC.cs.4406 {{expressionList}} }}",
+            "NPC.cs.4422": "{{i18n:Wizard.NPC.cs.4422 {{expressionList}} }}",
+            "NPC.cs.4423": "{{i18n:Wizard.NPC.cs.4423 {{expressionList}} }}",
+            "NPC.cs.4424": "{{i18n:Wizard.NPC.cs.4424 {{expressionList}} }}",
+            "NPC.cs.4425": "{{i18n:Wizard.NPC.cs.4425 {{expressionList}} }}",
+            "NPC.cs.4426": "{{i18n:Wizard.NPC.cs.4426 {{expressionList}} }}",
+            "NPC.cs.4431": "{{i18n:Wizard.NPC.cs.4431 {{expressionList}} }}",
+            "NPC.cs.4432": "{{i18n:Wizard.NPC.cs.4432 {{expressionList}} }}",
+            "NPC.cs.4433": "{{i18n:Wizard.NPC.cs.4433 {{expressionList}} }}",
+            "NPC.cs.4434": "{{i18n:Wizard.NPC.cs.4434 {{expressionList}} }}",
+            "NPC.cs.4435": "{{i18n:Wizard.NPC.cs.4435 {{expressionList}} }}",
+            "NPC.cs.4436": "{{i18n:Wizard.NPC.cs.4436 {{expressionList}} }}",
+            "NPC.cs.4437": "{{i18n:Wizard.NPC.cs.4437 {{expressionList}} }}",
+            "NPC.cs.4438": "{{i18n:Wizard.NPC.cs.4438 {{expressionList}} }}",
+            "NPC.cs.4462": "{{i18n:Wizard.NPC.cs.4462 {{expressionList}} }}",
+            "NPC.cs.4463": "{{i18n:Wizard.NPC.cs.4463 {{expressionList}} }}",
+            "NPC.cs.4470": "{{i18n:Wizard.NPC.cs.4470 {{expressionList}} }}",
+            "NPC.cs.4474": "{{i18n:Wizard.NPC.cs.4474 {{expressionList}} }}",
+            "NPC.cs.4481": "{{i18n:Wizard.NPC.cs.4481 {{expressionList}} }}",
+            "NPC.cs.4488": "{{i18n:Wizard.NPC.cs.4488 {{expressionList}} }}",
+            "NPC.cs.4489": "{{i18n:Wizard.NPC.cs.4489 {{expressionList}} }}",
+            "NPC.cs.4507": "{{i18n:Wizard.PetName.1 {{expressionList}} }}",
+            "NPC.cs.4508": "{{i18n:Wizard.PetName.1 {{expressionList}} }}",
+            "NPC.cs.4509": "{{i18n:Wizard.PetName.1 {{expressionList}} }}",
+            "NPC.cs.4510": "{{i18n:Wizard.PetName.1 {{expressionList}} }}",
+            "NPC.cs.4511": "{{i18n:Wizard.PetName.1 {{expressionList}} }}",
+            "NPC.cs.4512": "{{i18n:Wizard.PetName.1 {{expressionList}} }}",
+            "NPC.cs.4513": "{{i18n:Wizard.PetName.1 {{expressionList}} }}",
+            "NPC.cs.4514": "{{i18n:Wizard.PetName.2 {{expressionList}} }}",
+            "NPC.cs.4515": "{{i18n:Wizard.PetName.2 {{expressionList}} }}",
+            "NPC.cs.4516": "{{i18n:Wizard.PetName.2 {{expressionList}} }}",
+            "NPC.cs.4517": "{{i18n:Wizard.PetName.2 {{expressionList}} }}",
+            "NPC.cs.4518": "{{i18n:Wizard.PetName.2 {{expressionList}} }}",
+            "NPC.cs.4519": "{{i18n:Wizard.PetName.2 {{expressionList}} }}",
+            "NPC.cs.4522": "{{i18n:Wizard.PetName.2 {{expressionList}} }}",
+            "NPC.cs.4523": "{{i18n:Wizard.PetName.2 {{expressionList}} }}",
+				},
+	        },  
+        { //Marriage Dialogue - NO UCR
+        "Action": "EditData",
+        "Target": "Strings/StringsFromCSFiles",
+        "When": {"Override Generic Dialogue": "true", "Spouse":"Wizard"},
+        "Entries": {
+            "NPC.cs.4001": "{{i18n:Wizard.Stardrop {{expressionList}} }}",
+            "NPC.cs.4439": "{{i18n:Wizard.BabyAnxiety {{expressionList}} }}",
+            "NPC.cs.4440": "{{i18n:Wizard.AnnounceAdoption {{expressionList}} }}",
+            "NPC.cs.4441": "{{i18n:Wizard.AnnounceAdoption {{expressionList}} }}",
+            "NPC.cs.4444": "{{i18n:Wizard.AnnouncePregnancy {{expressionList}} }}",
+            "NPC.cs.4447": "{{i18n:Wizard.AnnouncePregnancy {{expressionList}} }}",
+            "NPC.cs.4448": "{{i18n:Wizard.YourePregnant {{expressionList}} }}",
+            "NPC.cs.4452": "{{i18n:Wizard.AloneTime {{expressionList}} }}",
+                },
+            },  
+	    { //Marriage Age Config Dialogue
+        "Action": "EditData",
+        "Target": "Strings/StringsFromCSFiles",
+        "When": {"Wizard Age Appearance": "old", "Override Generic Dialogue": "true", "Spouse":"Wizard"},
+        "Entries": {
+            "NPC.cs.4429": "{{i18n:Wizard.Older.NPC.cs.4429 {{expressionList}} }}",
+            "NPC.cs.4427": "{{i18n:Wizard.Older.NPC.cs.4427 {{expressionList}} }}",
+	        },
+	    },
+        {
+        "Action": "EditData",
+        "Target": "Strings/StringsFromCSFiles",
+        "When": {"Wizard Age Appearance": "young", "Override Generic Dialogue": "true", "Spouse":"Wizard"},
+        "Entries": {
+            "NPC.cs.4429": "{{i18n:Wizard.Younger.NPC.cs.4429 {{expressionList}} }}",
+            "NPC.cs.4427": "{{i18n:Wizard.Younger.NPC.cs.4427 {{expressionList}} }}",
+	        },
+	    },
+        { //Baby Question Dialogue
+        "Action": "EditData",
+        "Target": "Strings/Events",
+        "When": {"Override Generic Dialogue": "true","Relationship:Wizard": "Married"},
+        "Entries": {
+			"HaveBabyQuestion": "{{i18n:Wizard.HaveBabyQuestion {{expressionList}} }}",
+            "HaveBabyQuestion_Adoption": "{{i18n:Wizard.HaveBabyQuestion_Adoption {{expressionList}} }}",
+			},
+		},
+
+	]
+}

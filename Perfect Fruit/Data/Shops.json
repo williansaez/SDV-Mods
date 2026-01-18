@@ -1,0 +1,69 @@
+{
+  "Changes":
+    [
+      {
+	"Action": "EditData",
+	"Target": "Data/Shops",
+	"TargetField": [ "Casino", "Items" ],
+	"Entries": 
+	  {
+	    "PF.PerfectCherrySaplingTrade":
+	      {
+		"Id": "PF.PerfectCherrySaplingTrade",
+		"ItemId": "(O)PF.PerfectCherrySapling",
+		"TradeItemId": "(O)PF.PerfectCherry",
+		"TradeItemAmount": "{{SaplingNumber}}"
+	      },
+	    "PF.PerfectApricotSaplingTrade":
+	      {
+		"Id": "PF.PerfectApricotSaplingTrade",
+		"ItemId": "(O)PF.PerfectApricotSapling",
+		"TradeItemId": "(O)PF.PerfectApricot",
+		"TradeItemAmount": "{{SaplingNumber}}"
+	      },
+	    "PF.PerfectOrangeSaplingTrade":
+	      {
+		"Id": "PF.PerfectOrangeSaplingTrade",
+		"ItemId": "(O)PF.PerfectOrangeSapling",
+		"TradeItemId": "(O)PF.PerfectOrange",
+		"TradeItemAmount": "{{SaplingNumber}}"
+	      },
+	    "PF.PerfectPeachSaplingTrade":
+	      {
+		"Id": "PF.PerfectPeachSaplingTrade",
+		"ItemId": "(O)PF.PerfectPeachSapling",
+		"TradeItemId": "(O)PF.PerfectPeach",
+		"TradeItemAmount": "{{SaplingNumber}}"
+	      },
+	    "PF.PerfectPomegranateSaplingTrade":
+	      {
+		"Id": "PF.PerfectPomegranateSaplingTrade",
+		"ItemId": "(O)PF.PerfectPomegranateSapling",
+		"TradeItemId": "(O)PF.PerfectPomegranate",
+		"TradeItemAmount": "{{SaplingNumber}}"
+	      },
+	    "PF.PerfectAppleSaplingTrade":
+	      {
+		"Id": "PF.PerfectAppleSaplingTrade",
+		"ItemId": "(O)PF.PerfectAppleSapling",
+		"TradeItemId": "(O)PF.PerfectApple",
+		"TradeItemAmount": "{{SaplingNumber}}"
+	      },
+	    "PF.PerfectBananaSaplingTrade":
+	      {
+		"Id": "PF.PerfectBananaSaplingTrade",
+		"ItemId": "(O)PF.PerfectBananaSapling",
+		"TradeItemId": "(O)PF.PerfectBanana",
+		"TradeItemAmount": "{{SaplingNumber}}"
+	      },
+	    "PF.PerfectMangoSaplingTrade":
+	      {
+		"Id": "PF.PerfectMangoSaplingTrade",
+		"ItemId": "(O)PF.PerfectMangoSapling",
+		"TradeItemId": "(O)PF.PerfectMango",
+		"TradeItemAmount": "{{SaplingNumber}}"
+	      }
+	  }
+      }
+    ]
+}

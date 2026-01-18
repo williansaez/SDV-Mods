@@ -1,0 +1,13 @@
+{
+	"Changes": [
+        {
+			"LogName": "MrQi_Event",
+			"Action": "EditData",
+			"Target": "Data/Events/Caldera",
+			"Entries": {
+				"{{ModId}}_Clint_Infinity_Tools/t 600 2600/": "continue/22 24/farmer 22 29 0 MrQi 22 22 0/move farmer 0 -5 0 /pause 2000/faceDirection MrQi 1 true/pause 100/faceDirection MrQi 2/pause 500/showFrame MrQi 1/pause 100/showFrame MrQi 2/pause 100/showFrame MrQi 3/pause 500/showFrame MrQi 2/pause 100/showFrame MrQi 1/pause 100/showFrame MrQi 0/pause 500/speak MrQi \"{{i18n:Clint_Infinity_Tools_01}}\"/pause 500/speak MrQi \"{{i18n:Clint_Infinity_Tools_02}}\"/pause 500/speak MrQi \"{{i18n:Clint_Infinity_Tools_03}}\"/pause 500/move farmer 1 0 0/move farmer 0 -2 3/faceDirection MrQi 1/speak MrQi \"{{i18n:Clint_Infinity_Tools_04}}\"/itemAboveHead 896/addItem 896 1 0/pause 1000/message \"{{i18n:Clint_Infinity_Tools_05}}\"/faceDirection farmer 3/pause 500/speak MrQi \"{{i18n:Clint_Infinity_Tools_06}}\"/jump farmer/pause 500/speak MrQi \"{{i18n:Clint_Infinity_Tools_07}}\"/emote farmer 8/pause 1000/speak MrQi \"{{i18n:Clint_Infinity_Tools_09}}\"/emote farmer 32/pause 500/speak MrQi \"{{i18n:Clint_Infinity_Tools_09}}\"/pause 500/speak MrQi \"{{i18n:Clint_Infinity_Tools_10}}\"/emote farmer 20/pause 500/speak MrQi \"{{i18n:Clint_Infinity_Tools_11}}\"/pause 500/showFrame MrQi 2/pause 1000/screenFlash .9/warp MrQi -3000 -3000/playSound wand/jump farmer/pause 2000/end",
+			},
+		},
+
+	]
+}

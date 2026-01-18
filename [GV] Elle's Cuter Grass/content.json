@@ -1,0 +1,533 @@
+{
+  "Format": "2.8.0",
+  "ConfigSchema": {
+      "Grass Length": {"AllowValues": "tall, short",
+			"Default": "tall",
+			"AllowMultiple": false,
+			"AllowBlank": false},
+      "Flower Grass": {"AllowValues": "daffodil, daisy, hyacinth, marigold, tulip, wallflower, false",
+			"Default": "daffodil, daisy, hyacinth, marigold, tulip, wallflower",
+			"AllowMultiple": true,
+			"AllowBlank": true},
+	},
+	
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "{{ModId}}/grass, {{ModId}}/grass_blue, {{ModId}}/daffodil, {{ModId}}/daffodil_blue, {{ModId}}/daisy, {{ModId}}/daisy_blue, {{ModId}}/hyacinth, {{ModId}}/hyacinth_blue, {{ModId}}/marigold, {{ModId}}/marigold_blue, {{ModId}}/marigold, {{ModId}}/marigold_blue, {{ModId}}/tulip, {{ModId}}/tulip_blue, {{ModId}}/wallflower, {{ModId}}/wallflower_blue",
+      "FromFile": "assets/{{TargetWithoutPath}}.png"
+    },
+	
+	//Grass
+    {
+      "Action": "EditData",
+      "Target": "mushymato.GrassVariety/Data",
+      "Entries": {
+        "{{ModId}}_Grass": {
+          "Id": "{{ModId}}_Grass",
+          "Texture": "{{ModId}}/grass",
+          "Weight": 3,
+          "SubVariants": "{{Range:0,44}}",
+          "ApplyTo": [
+            "springgrass"
+			]
+		},
+	  },
+      "When": { "Grass Length": "tall"},
+    },
+    {
+      "Action": "EditData",
+      "Target": "mushymato.GrassVariety/Data",
+      "Entries": {
+        "{{ModId}}_Grass": {
+          "Id": "{{ModId}}_Grass",
+          "Texture": "{{ModId}}/grass",
+          "Weight": 3,
+          "SubVariants": [3, 4, 5, 6, 7, 8, 12, 13, 14, 15, 16, 17, 21, 22, 23, 24, 25, 26, 30, 31, 32, 33, 34, 35, 39, 40, 41, 42, 43, 44],
+          "ApplyTo": [
+            "springgrass"
+			]
+		},
+	  },
+      "When": { "Grass Length": "short"},
+    },
+	
+	//Blue Grass
+    {
+      "Action": "EditData",
+      "Target": "mushymato.GrassVariety/Data",
+      "Entries": {
+        "{{ModId}}_Grass_Blue": {
+          "Id": "{{ModId}}_Grass__Blue",
+          "Texture": "{{ModId}}/grass_blue",
+          "Weight": 3,
+          "SubVariants": "{{Range:0,26}}",
+          "ApplyTo": [
+            "bluegrass"
+			]
+		},
+	  },
+      "When": { "Grass Length": "tall"},
+    },
+    {
+      "Action": "EditData",
+      "Target": "mushymato.GrassVariety/Data",
+      "Entries": {
+        "{{ModId}}_Grass_Blue": {
+          "Id": "{{ModId}}_Grass__Blue",
+          "Texture": "{{ModId}}/grass_blue",
+          "Weight": 3,
+          "SubVariants": [3, 4, 5, 6, 7, 8, 12, 13, 14, 15, 16, 17, 21, 22, 23, 24, 25, 26],
+          "ApplyTo": [
+            "bluegrass"
+			]
+		},
+	  },
+      "When": { "Grass Length": "short"},
+    },
+	
+	//Daffodil Grass
+    {
+      "Action": "EditData",
+      "Target": "mushymato.GrassVariety/Data",
+      "Entries": {
+        "{{ModId}}_Grass_Daffodil": {
+          "Id": "{{ModId}}_Grass_Daffodil",
+          "Texture": "{{ModId}}/daffodil",
+          "Weight": 1,
+          "SubVariants": "{{Range:0,44}}",
+          "ApplyTo": [
+            "springgrass"
+			]
+		},
+	  },
+      "When": { "Flower Grass": "daffodil",
+				"Grass Length": "tall",
+				"Flower Grass |contains=false": "false"},
+    },
+    {
+      "Action": "EditData",
+      "Target": "mushymato.GrassVariety/Data",
+      "Entries": {
+        "{{ModId}}_Grass_Daffodil": {
+          "Id": "{{ModId}}_Grass_Daffodil",
+          "Texture": "{{ModId}}/daffodil",
+          "Weight": 1,
+          "SubVariants": [3, 4, 5, 6, 7, 8, 12, 13, 14, 15, 16, 17, 21, 22, 23, 24, 25, 26, 30, 31, 32, 33, 34, 35, 39, 40, 41, 42, 43, 44],
+          "ApplyTo": [
+            "springgrass"
+			]
+		},
+	  },
+      "When": { "Flower Grass": "daffodil",
+				"Grass Length": "short",
+				"Flower Grass |contains=false": "false"},
+    },
+    {
+      "Action": "EditData",
+      "Target": "mushymato.GrassVariety/Data",
+      "Entries": {
+        "{{ModId}}_Grass_Daffodil_Blue": {
+          "Id": "{{ModId}}_Grass_Daffodil_Blue",
+          "Texture": "{{ModId}}/daffodil_blue",
+          "Weight": 1,
+          "SubVariants": "{{Range:0,26}}",
+          "ApplyTo": [
+            "bluegrass"
+			]
+		},
+	  },
+      "When": { "Flower Grass": "daffodil",
+				"Grass Length": "tall",
+				"Flower Grass |contains=false": "false"},
+    },
+    {
+      "Action": "EditData",
+      "Target": "mushymato.GrassVariety/Data",
+      "Entries": {
+        "{{ModId}}_Grass_Daffodil_Blue": {
+          "Id": "{{ModId}}_Grass_Daffodil_Blue",
+          "Texture": "{{ModId}}/daffodil_blue",
+          "Weight": 1,
+          "SubVariants": [3, 4, 5, 6, 7, 8, 12, 13, 14, 15, 16, 17, 21, 22, 23, 24, 25, 26],
+          "ApplyTo": [
+            "bluegrass"
+			]
+		},
+	  },
+      "When": { "Flower Grass": "daffodil",
+				"Grass Length": "short",
+				"Flower Grass |contains=false": "false"},
+    },
+	
+	//Daisy Grass
+    {
+      "Action": "EditData",
+      "Target": "mushymato.GrassVariety/Data",
+      "Entries": {
+        "{{ModId}}_Grass_Daisy": {
+          "Id": "{{ModId}}_Grass_Daisy",
+          "Texture": "{{ModId}}/daisy",
+          "Weight": 1,
+          "SubVariants": "{{Range:0,44}}",
+          "ApplyTo": [
+            "springgrass"
+			]
+		},
+	  },
+      "When": { "Flower Grass": "daisy",
+				"Grass Length": "tall",
+				"Flower Grass |contains=false": "false"},
+    },
+    {
+      "Action": "EditData",
+      "Target": "mushymato.GrassVariety/Data",
+      "Entries": {
+        "{{ModId}}_Grass_Daisy": {
+          "Id": "{{ModId}}_Grass_Daisy",
+          "Texture": "{{ModId}}/daisy",
+          "Weight": 1,
+          "SubVariants": [3, 4, 5, 6, 7, 8, 12, 13, 14, 15, 16, 17, 21, 22, 23, 24, 25, 26, 30, 31, 32, 33, 34, 35, 39, 40, 41, 42, 43, 44],
+          "ApplyTo": [
+            "springgrass"
+			]
+		},
+	  },
+      "When": { "Flower Grass": "daisy",
+				"Grass Length": "short",
+				"Flower Grass |contains=false": "false"},
+    },
+    {
+      "Action": "EditData",
+      "Target": "mushymato.GrassVariety/Data",
+      "Entries": {
+        "{{ModId}}_Grass_Daisy_Blue": {
+          "Id": "{{ModId}}_Grass_Daisy_Blue",
+          "Texture": "{{ModId}}/daisy_blue",
+          "Weight": 1,
+          "SubVariants": "{{Range:0,26}}",
+          "ApplyTo": [
+            "bluegrass"
+			]
+		},
+	  },
+      "When": { "Flower Grass": "daisy",
+				"Grass Length": "tall",
+				"Flower Grass |contains=false": "false"},
+    },
+    {
+      "Action": "EditData",
+      "Target": "mushymato.GrassVariety/Data",
+      "Entries": {
+        "{{ModId}}_Grass_Daisy_Blue": {
+          "Id": "{{ModId}}_Grass_Daisy_Blue",
+          "Texture": "{{ModId}}/daisy_blue",
+          "Weight": 1,
+          "SubVariants": [3, 4, 5, 6, 7, 8, 12, 13, 14, 15, 16, 17, 21, 22, 23, 24, 25, 26],
+          "ApplyTo": [
+            "bluegrass"
+			]
+		},
+	  },
+      "When": { "Flower Grass": "daisy",
+				"Grass Length": "short",
+				"Flower Grass |contains=false": "false"},
+    },
+	
+	//Hyacinth Grass
+    {
+      "Action": "EditData",
+      "Target": "mushymato.GrassVariety/Data",
+      "Entries": {
+        "{{ModId}}_Grass_Hyacinth": {
+          "Id": "{{ModId}}_Grass_Hyacinth",
+          "Texture": "{{ModId}}/hyacinth",
+          "Weight": 1,
+          "SubVariants": "{{Range:0,44}}",
+          "ApplyTo": [
+            "springgrass"
+			]
+		},
+	  },
+      "When": { "Flower Grass": "hyacinth",
+				"Grass Length": "tall",
+				"Flower Grass |contains=false": "false"},
+    },
+    {
+      "Action": "EditData",
+      "Target": "mushymato.GrassVariety/Data",
+      "Entries": {
+        "{{ModId}}_Grass_Hyacinth": {
+          "Id": "{{ModId}}_Grass_Hyacinth",
+          "Texture": "{{ModId}}/hyacinth",
+          "Weight": 1,
+          "SubVariants": [3, 4, 5, 6, 7, 8, 12, 13, 14, 15, 16, 17, 21, 22, 23, 24, 25, 26, 30, 31, 32, 33, 34, 35, 39, 40, 41, 42, 43, 44],
+          "ApplyTo": [
+            "springgrass"
+			]
+		},
+	  },
+      "When": { "Flower Grass": "hyacinth",
+				"Grass Length": "short",
+				"Flower Grass |contains=false": "false"},
+    },
+    {
+      "Action": "EditData",
+      "Target": "mushymato.GrassVariety/Data",
+      "Entries": {
+        "{{ModId}}_Grass_Hyacinth_Blue": {
+          "Id": "{{ModId}}_Grass_Hyacinth_Blue",
+          "Texture": "{{ModId}}/hyacinth_blue",
+          "Weight": 1,
+          "SubVariants": "{{Range:0,26}}",
+          "ApplyTo": [
+            "bluegrass"
+			]
+		},
+	  },
+      "When": { "Flower Grass": "hyacinth",
+				"Grass Length": "tall",
+				"Flower Grass |contains=false": "false"},
+    },
+    {
+      "Action": "EditData",
+      "Target": "mushymato.GrassVariety/Data",
+      "Entries": {
+        "{{ModId}}_Grass_Hyacinth_Blue": {
+          "Id": "{{ModId}}_Grass_Hyacinth_Blue",
+          "Texture": "{{ModId}}/hyacinth_blue",
+          "Weight": 1,
+          "SubVariants": [3, 4, 5, 6, 7, 8, 12, 13, 14, 15, 16, 17, 21, 22, 23, 24, 25, 26],
+          "ApplyTo": [
+            "bluegrass"
+			]
+		},
+	  },
+      "When": { "Flower Grass": "hyacinth",
+				"Grass Length": "short",
+				"Flower Grass |contains=false": "false"},
+    },
+	
+	//Marigold Grass
+    {
+      "Action": "EditData",
+      "Target": "mushymato.GrassVariety/Data",
+      "Entries": {
+        "{{ModId}}_Grass_Marigold": {
+          "Id": "{{ModId}}_Grass_Marigold",
+          "Texture": "{{ModId}}/marigold",
+          "Weight": 1,
+          "SubVariants": "{{Range:0,44}}",
+          "ApplyTo": [
+            "springgrass"
+			]
+		},
+	  },
+      "When": { "Flower Grass": "marigold",
+				"Grass Length": "tall",
+				"Flower Grass |contains=false": "false"},
+    },
+    {
+      "Action": "EditData",
+      "Target": "mushymato.GrassVariety/Data",
+      "Entries": {
+        "{{ModId}}_Grass_Marigold": {
+          "Id": "{{ModId}}_Grass_Marigold",
+          "Texture": "{{ModId}}/marigold",
+          "Weight": 1,
+          "SubVariants": [3, 4, 5, 6, 7, 8, 12, 13, 14, 15, 16, 17, 21, 22, 23, 24, 25, 26, 30, 31, 32, 33, 34, 35, 39, 40, 41, 42, 43, 44],
+          "ApplyTo": [
+            "springgrass"
+			]
+		},
+	  },
+      "When": { "Flower Grass": "marigold",
+				"Grass Length": "short",
+				"Flower Grass |contains=false": "false"},
+    },
+    {
+      "Action": "EditData",
+      "Target": "mushymato.GrassVariety/Data",
+      "Entries": {
+        "{{ModId}}_Grass_Marigold_Blue": {
+          "Id": "{{ModId}}_Grass_Marigold_Blue",
+          "Texture": "{{ModId}}/marigold_blue",
+          "Weight": 1,
+          "SubVariants": "{{Range:0,26}}",
+          "ApplyTo": [
+            "bluegrass"
+			]
+		},
+	  },
+      "When": { "Flower Grass": "marigold",
+				"Grass Length": "tall",
+				"Flower Grass |contains=false": "false"},
+    },
+    {
+      "Action": "EditData",
+      "Target": "mushymato.GrassVariety/Data",
+      "Entries": {
+        "{{ModId}}_Grass_Marigold_Blue": {
+          "Id": "{{ModId}}_Grass_Marigold_Blue",
+          "Texture": "{{ModId}}/marigold_blue",
+          "Weight": 1,
+          "SubVariants": [3, 4, 5, 6, 7, 8, 12, 13, 14, 15, 16, 17, 21, 22, 23, 24, 25, 26],
+          "ApplyTo": [
+            "bluegrass"
+			]
+		},
+	  },
+      "When": { "Flower Grass": "marigold",
+				"Grass Length": "short",
+				"Flower Grass |contains=false": "false"},
+    },
+	
+	//Tulip Grass
+    {
+      "Action": "EditData",
+      "Target": "mushymato.GrassVariety/Data",
+      "Entries": {
+        "{{ModId}}_Grass_Tulip": {
+          "Id": "{{ModId}}_Grass_Tulip",
+          "Texture": "{{ModId}}/tulip",
+          "Weight": 1,
+          "SubVariants": "{{Range:0,44}}",
+          "ApplyTo": [
+            "springgrass"
+			]
+		},
+	  },
+      "When": { "Flower Grass": "tulip",
+				"Grass Length": "tall",
+				"Flower Grass |contains=false": "false"},
+    },
+    {
+      "Action": "EditData",
+      "Target": "mushymato.GrassVariety/Data",
+      "Entries": {
+        "{{ModId}}_Grass_Tulip": {
+          "Id": "{{ModId}}_Grass_Tulip",
+          "Texture": "{{ModId}}/tulip",
+          "Weight": 1,
+          "SubVariants": [3, 4, 5, 6, 7, 8, 12, 13, 14, 15, 16, 17, 21, 22, 23, 24, 25, 26, 30, 31, 32, 33, 34, 35, 39, 40, 41, 42, 43, 44],
+          "ApplyTo": [
+            "springgrass"
+			]
+		},
+	  },
+      "When": { "Flower Grass": "tulip",
+				"Grass Length": "short",
+				"Flower Grass |contains=false": "false"},
+    },
+    {
+      "Action": "EditData",
+      "Target": "mushymato.GrassVariety/Data",
+      "Entries": {
+        "{{ModId}}_Grass_Tulip_Blue": {
+          "Id": "{{ModId}}_Grass_Tulip_Blue",
+          "Texture": "{{ModId}}/tulip_blue",
+          "Weight": 1,
+          "SubVariants": "{{Range:0,26}}",
+          "ApplyTo": [
+            "bluegrass"
+			]
+		},
+	  },
+      "When": { "Flower Grass": "tulip",
+				"Grass Length": "tall",
+				"Flower Grass |contains=false": "false"},
+    },
+    {
+      "Action": "EditData",
+      "Target": "mushymato.GrassVariety/Data",
+      "Entries": {
+        "{{ModId}}_Grass_Tulip_Blue": {
+          "Id": "{{ModId}}_Grass_Tulip_Blue",
+          "Texture": "{{ModId}}/tulip_blue",
+          "Weight": 1,
+          "SubVariants": [3, 4, 5, 6, 7, 8, 12, 13, 14, 15, 16, 17, 21, 22, 23, 24, 25, 26],
+          "ApplyTo": [
+            "bluegrass"
+			]
+		},
+	  },
+      "When": { "Flower Grass": "tulip",
+				"Grass Length": "short",
+				"Flower Grass |contains=false": "false"},
+    },
+	
+	//Wallflower Grass
+    {
+      "Action": "EditData",
+      "Target": "mushymato.GrassVariety/Data",
+      "Entries": {
+        "{{ModId}}_Grass_Wallflower": {
+          "Id": "{{ModId}}_Grass_Wallflower",
+          "Texture": "{{ModId}}/wallflower",
+          "Weight": 1,
+          "SubVariants": "{{Range:0,44}}",
+          "ApplyTo": [
+            "springgrass"
+			]
+		},
+	  },
+      "When": { "Flower Grass": "wallflower",
+				"Grass Length": "tall",
+				"Flower Grass |contains=false": "false"},
+    },
+    {
+      "Action": "EditData",
+      "Target": "mushymato.GrassVariety/Data",
+      "Entries": {
+        "{{ModId}}_Grass_Wallflower": {
+          "Id": "{{ModId}}_Grass_Wallflower",
+          "Texture": "{{ModId}}/wallflower",
+          "Weight": 1,
+          "SubVariants": [3, 4, 5, 6, 7, 8, 12, 13, 14, 15, 16, 17, 21, 22, 23, 24, 25, 26, 30, 31, 32, 33, 34, 35, 39, 40, 41, 42, 43, 44],
+          "ApplyTo": [
+            "springgrass"
+			]
+		},
+	  },
+      "When": { "Flower Grass": "wallflower",
+				"Grass Length": "short",
+				"Flower Grass |contains=false": "false"},
+    },
+    {
+      "Action": "EditData",
+      "Target": "mushymato.GrassVariety/Data",
+      "Entries": {
+        "{{ModId}}_Grass_Wallflower_Blue": {
+          "Id": "{{ModId}}_Grass_Wallflower_Blue",
+          "Texture": "{{ModId}}/wallflower_blue",
+          "Weight": 1,
+          "SubVariants": "{{Range:0,26}}",
+          "ApplyTo": [
+            "bluegrass"
+			]
+		},
+	  },
+      "When": { "Flower Grass": "wallflower",
+				"Grass Length": "tall",
+				"Flower Grass |contains=false": "false"},
+    },
+    {
+      "Action": "EditData",
+      "Target": "mushymato.GrassVariety/Data",
+      "Entries": {
+        "{{ModId}}_Grass_Wallflower_Blue": {
+          "Id": "{{ModId}}_Grass_Wallflower_Blue",
+          "Texture": "{{ModId}}/wallflower_blue",
+          "Weight": 1,
+          "SubVariants": [3, 4, 5, 6, 7, 8, 12, 13, 14, 15, 16, 17, 21, 22, 23, 24, 25, 26],
+          "ApplyTo": [
+            "bluegrass"
+			]
+		},
+	  },
+      "When": { "Flower Grass": "wallflower",
+				"Grass Length": "short",
+				"Flower Grass |contains=false": "false"},
+    },
+  ]
+}

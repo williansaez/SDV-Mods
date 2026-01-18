@@ -1,0 +1,57 @@
+{
+	//CONFIG
+	"config.section.Tool Power Level.name": "Tool Power Level",
+	"config.Pickaxe.name": "Pickaxe",
+	"config.Pickaxe.description": "hanges the tool level (changes the pickaxe's power). For example, a pickaxe level of 13 allows you to break large boulders on the farm with one hit.",
+	"config.Axe.name": "Axe",
+	"config.Axe.description": "Changes the tool level (changes the power of the axe) For example, an axe level of 26 allows you to break large logs with one hit.",
+	"config.Hoe.name": "Hoe",
+	"config.Hoe.description": "Changes the tool's level (changes the hoe's power). For example, a hoe level of 5 allows you to till a 5x5 area. (A level above 5 will not change the area above 5x5 without external mods that allow you to change this area.)",
+	"config.Watering Can.name": "Watering Can",
+	"config.Watering Can.description": "Changes the tool's level (changes the watering can's power). For example, a watering can level of 5 allows you to water a 5x5 area. (A level value above 5 will not change the area above 5x5 without external mods that allow you to change this area.)",
+	"config.Rod.name": "Rod",
+	"config.Rod.description": "Changes the number of slots for tackle in the fishing rod. For example, level 4 adds 3 slots for bobblers.",
+	"config.Pan.name": "Pan",
+	"config.Pan.description": "Changes the tool's level (changes the pan's power). Increases the amount of ore, treasures, and the chance of spawning a new spot in water. WARNING: A value above 5 will break the Infinity Pan animation (you'll see a red square instead).",
+	"config.Recolor.name": "Recolor",
+	"config.Recolor.description": "Changes the appearance of tools to be compatible with other appearance mods.",
+	"config.Infinity Pan Animation.name": "Infinity Pan Animation",
+	"config.Infinity Pan Animation.description": "WARNING This mod heavily modifies the farmer's sprite sheet; conflicts with other farmer-modifying mods are possible. This setting allows you to disable the animation for the Infinity Pan (you'll see a red square instead).",
+	"config.Upgrade Price.name": "Upgrade Price",
+	"config.Upgrade Price.description": "Clint's upgrade cost",
+	//TOOLS
+    "Pickaxe_Config_Description": "Pickaxe Powerfull",
+    "InfinityPickaxe_name": "Infinity Pickaxe",
+    "InfinityAxe_Name": "Infinity Axe",
+    "InfinityWateringCan_Name": "Infinity Watering Can",
+    "InfinityHoe_Name": "Infinity Hoe",
+    "InfinityRod_Name": "Infinity Rod",
+    "InfinityRod_description": "Use in the water to catch fish. Up to three bobbers can be attached at once.",
+    "InfinityPan_Name": "Infinity Pan",
+    "InfinityPan_Description": "Use to gather ore from streams. Has the unreal yields of any pan. It also has a high chance to immediately cause another panning spot to appear.",
+	"InfinityPanHat_Description": "You place the infinity pan on your head...",
+	//EVENTS & MAIL
+    "Clint_Infinity_Tools_Mail": "Hello @. ^This morning, a mysterious man in a hat came to see me and told me that you had been to the top of the volcano on Ginger Island. ^He told me about an ancient forge and how it's possible to imbue tools with incredible power using some strange yet fascinating 'Galaxy Soul' that he left with me. ^According to him, only a galactic blacksmith can create legendary tools using this thing, whatever that means... ^He also showed me how to infuse this component into iridium, so if you find 3 of these curious items, come see me, and for a good price, I'll infuse them into your iridium tools. ^   -Clint, the blacksmith[#]Iridium Awakening",
+	"Clint_Infinity_Tools_01": "Well, well, well... Look who made it to the top of the volcano.",
+	"Clint_Infinity_Tools_02": "Good to see you again, @.",
+	"Clint_Infinity_Tools_03": "Take a look at this massive forge, quite impressive, isn't it? This is the ancient Dwarf Forge, capable of working wonders, but it's not all that simple.",
+	"Clint_Infinity_Tools_04": "Take a look at this otherworldly thing, it's a 'Galaxy Soul'.",
+	"Clint_Infinity_Tools_05": "You carefully examine the 'Galaxy Soul'.",
+	"Clint_Infinity_Tools_06": "With three of these, you can forge an otherworldly weapon on this very anvil, but have you ever wished to unlock the potential of your tools as well?",
+	"Clint_Infinity_Tools_07": "Unfortunately, without a true master smith, this forge cannot transform your tools into something greater. But luckily, I know a blacksmith with the requisite talent for crafting such tools.",
+	"Clint_Infinity_Tools_08": "It's Clint from the valley. I'm sure you're already well acquainted with him.",
+	"Clint_Infinity_Tools_09": "Without even knowing it, Clint is a prodigy in the blacksmithing craft, much like the ancient Dwarves.",
+	"Clint_Infinity_Tools_10": "He is the one who will help you with your tools. I possess the knowledge of how to work with the 'Galaxy Soul', and I intend to visit Clint to teach him how to infuse them into iridium, in order to unlock its galactic power.",
+	"Clint_Infinity_Tools_11": "Well, it was good to see you again, @. Visit Clint when you are ready to transform your iridium tools into something greater.",
+	//OTHER
+    "GalaxySoul_Description": "Forge 3 of these into a Galaxy weapon or Iridium tool to unleash its final form.",
+}
+
+
+
+
+    
+
+
+
+

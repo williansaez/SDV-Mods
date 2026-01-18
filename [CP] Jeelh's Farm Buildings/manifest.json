@@ -1,0 +1,12 @@
+{
+	"Name": "Jeelh's Buildings",
+	"Author": "Jeelh",
+	"Version": "1.1.2",
+	"Description": "Gives buildings a fresh look! Many styles and materials to choose from",
+	"UniqueID": "jeelh.Buildings",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [ "Nexus:37726" ],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	}
+}

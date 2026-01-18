@@ -1,0 +1,781 @@
+{
+    "Format": "2.0.0",
+    "ConfigSchema": {
+        "Version": {
+            "AllowValues": "dating, married",
+            "Default": "dating"
+        }
+    },
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sebastian",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020021"
+            },
+            "Entries": {
+                "Fri2": "Hoje a Abigail, o Sam e eu vamos ao bar.$0#$b#Acho que vou pedir pra Abigail jogar Jornada do Rei da Pradaria comigo.$1",
+                "Sat2": "Abigail é uma ótima parceira de jogos.$1#$b#Estou ansioso pra jogar Solarion Chronicles com ela em breve.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Abigail",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020021"
+            },
+            "Entries": {
+                "Wed2": "O Sebastian é muito bom em Jornada do Rei da Pradaria.$1#$e#Nunca joguei com ele antes e fiquei impressionada.$0",
+                "Sun2": "Mal posso esperar pela sexta-feira.$0#$b#Estou pedindo para o Sebastian jogar Jornada do Rei da Pradaria comigo.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sebastian",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020022"
+            },
+            "Entries": {
+                "Tue4": "Percebi que as minas são um lugar perigoso para ir...$0",
+                "Fri4": "Acho que a Abigail ainda está abalada depois do incidente que tivemos na caverna outro dia.$2",
+                "Sat4": "Ei, @.$0#$e#Você vai às cavernas com frequência, né?$0#$b#Talvez você possa ensinar algumas coisas para a Abigail, ela vai gostar.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Abigail",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020022"
+            },
+            "Entries": {
+                "Mon4": "@, como você consegue explorar as cavernas tão facilmente?$2",
+                "Wed4": "Eu preciso melhorar mais meu manejo de espada...$2",
+                "Sun4": "Argh... Não consigo parar de pensar nos morcegos...$2"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sebastian",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020023"
+            },
+            "Entries": {
+                "Tue6": "Devo verificar a Abigail mais tarde...$0",
+                "Wed6": "Espero que a Abigail consiga conversar com os pais em breve, vai ser bom para eles.$0",
+                "Fri6": "Abigail e eu temos tanto em comum.$1",
+                "Sat6": "Ei, @.$0#$b#Você poderia ver como a Abigail está se encontrá-la?$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Abigail",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020023"
+            },
+            "Entries": {
+                "Tue6": "Sebastian sabe como me confortar.$0#$e#Ele é um cara incrível.$1",
+                "Thu6": "*suspiro*$2#$e#Quando devo falar com eles...?$2#$e#Ah, olá, @.$6",
+                "Sat6": "Devo ir conversar com o Sebastian de novo...$2",
+                "Sun6": "Oi, @.$0#$e#Você é minha amiga, então quero saber sua opinião também.$0#$b#Sebastian disse que eu preciso falar com meus pais sobre como me sinto, mas eu não sei...$2"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sebastian",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020024"
+            },
+            "Entries": {
+                "Mon8": "Ei, @.$0#$e#Estou tendo um dia terrível...$2#$b#Deveria ir ver a Abby para me sentir melhor.$7#$e#Tchau.$0",
+                "Tue8": "Você acredita em almas gêmeas, @?$0#$e#Achava que era só uma crença idiota.$0#$b#Mas agora não consigo imaginar viver sem a Abby.$4",
+                "Wed8": "A Abigail e eu somos amigos há tanto tempo.$0#$e#Me arrependo de não ter dito como me sentia antes...$2#$b#Achei que ela não sentiria o mesmo e que isso acabaria com nossa amizade...$2#$e#Mas agora tá tudo bem, estamos muito felizes juntos.$1",
+                "Thu8": "Ei, @.$0#$e#Comprei Blue Starfruit para jogar com a Abby.$1#$b#Ela ficou super animada quando anunciaram o lançamento.$1#$e#Ah, você também pode vir jogar.$7",
+                "Fri8": "Adoro ficar com a Abby, mesmo quando só ficamos em silêncio.$4#$b#Com ela, nem mesmo o silêncio é estranho.$7#$e#É uma sensação estranha... mas eu gosto.$4",
+                "Sat8": "Seria muito chato viver aqui sem a Abby.$0#$e#Ah, e também sem o Sam e você.$1",
+                "Sun8": "Às vezes meu trabalho é muito estressante...$2#$e#Felizmente a Abby percebe isso e aparece quando eu mais preciso.$4",
+                "spring_Thu8": "Antes eu não tinha vontade de fazer nada...$2#$e#Mas, sabe, acho que passar tempo com a Abby me ajudou a me sentir mais positivo com a vida.$1",
+                "spring_Fri8": "Tem dias que só quero ficar na cama.$2#$b#Mas a Abby não iria gostar disso...$0#$e#Preciso animar, não quero que ela se preocupe.$0",
+                "spring_Sun8": "Ei, @.$0#$e#Você sabe que a Abby sempre quis explorar as minas, né?$0#$b#Então, se você a encontrar, cuide bem dela, tá?$0#$e#Não consigo nem imaginar ela se machucando...$2",
+                "summer_Mon8": "Quero tanto que já seja outono. O verão simplesmente não é meu momento.$0#$b#Mas a Abby disse que queria nadar, então acho que vou por ela.$0",
+                "summer_Tue8": "O verão é a estação ideal para focar no trabalho.$0#$e#Mas é complicado porque a Abby gosta de aparecer de surpresa.$0#$e#Não é que eu não goste...$4",
+                "summer_Sat8": "O Sam não para de provocar a Abby e eu...$0#$b#Ele só reclama que é o terceiro elemento.$0",
+                "fall_Tue8": "Ei, @.$0#$e#A Abby e eu não queremos mais nos mudar para a cidade, mas ainda queremos fazer uma viagem lá algum dia.$0#$e#Vamos de moto, ela está animada para andar nela de novo.$1",
+                "fall_Fri8": "Ei, @.$0#$e#Você vai ao bar hoje?$0#$b#A Abigail e eu vamos jogar Prairie King. Acho que estamos perto de vencer.$1",
+                "fall_Sat8": "O outono traz tantas lembranças da minha infância...$0#$e#A Abby e eu costumávamos brincar perto da Torre do Mago.$0#$b#Ela sempre adorou visitar a floresta.$1",
+                "winter_Thu8": "O rosto da Abby fica vermelho por causa do frio.$7#$b#Ela fica muito fofa.$1",
+                "winter_Fri8": "Ei, @.$0#$e#A última vez que a Abby veio na minha casa ela pegou um moletom.$0#$b#Devo pedir para ela me devolver?$0#$e#Não... acho melhor ela ficar com ele.$0#$e#Ela fica linda com ele.$4",
+                "winter_Sun8": "Ei, @.$0#$e#O ano novo está chegando, né?$0#$e#Estou meio inquieto...$2#$b#Mas fico melhor pensando que a Abby ainda estará ao meu lado.$4",
+                "spring_23": "Aff... Eu não gosto da Festa da Flor...$5#$b#Mas a Abby vai estar comigo, então acho que não vai ser tão ruim.$0",
+                "summer_16": "Amanhã é aniversário do Sam.$0#$e#A Abby disse pra eu deixar ele ganhar no sinuca sexta.$1",
+                "fall_13": "Hoje é o aniversário da Abigail.$1#$b#Comprei uma ametista especial na loja do Clint para ela.$1",
+                "fall_26": "Tô ansioso para a Noite do Espírito, é meu festival favorito.$7#$e#Eu nunca entro no labirinto assustador.$0#$b#Mas a Abby disse para eu enfrentar, então acho que vou.$1",
+                "spring_23_2": "Aff... Eu não gosto da Festa da Flor...$5#$b#Mas a Abby vai estar comigo, então acho que não vai ser tão ruim.$0",
+                "summer_16_2": "Amanhã é aniversário do Sam.$0#$e#A Abby disse pra eu deixar ele ganhar no sinuca sexta.$1",
+                "fall_13_2": "Hoje é o aniversário da Abigail.$1#$b#Comprei uma ametista especial na loja do Clint para ela.$1",
+                "fall_26_2": "Tô ansioso para a Noite do Espírito, é meu festival favorito.$7#$e#Eu nunca entro no labirinto assustador.$0#$b#Mas a Abby disse para eu enfrentar, então acho que vou.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Abigail",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020024"
+            },
+            "Entries": {
+                "Mon8": "Eu costumava achar Pelican Town um lugar chato.$0#$b#Meu sonho era me mudar para a cidade e viver aventuras.$1#$e#Mas agora não sei mais...$0#$b#Sinto que este é o lugar ideal para o Sebastian e eu morarmos.",
+                "Tue8": "Ainda é cedo para dizer, mas se Seb e eu tivermos filhos, eu vou garantir que eles possam ser o que quiserem.$0#$e#O mais importante é que sejam felizes com a vida deles.$0",
+                "Wed8": "Não sei quantas vezes desejei ter nascido na cidade...$2#$b#Mas, pensando bem, eu não teria conhecido o Seb dessa maneira.$0",
+                "Thu8": "O Seb é uma pessoa muito reservada.$0#$b#Por isso fico ainda mais feliz quando ele se abre comigo.$1",
+                "Fri8": "Eu amo sextas-feiras.$1#$b#Hoje vou jogar Prairie King com o Seb.$0#$b#Talvez finalmente consigamos zerar!$1",
+                "Sat8": "Tenho planejado explorar as minas com o Seb desde sempre.$0#$b#Mas ele não parece convencido, acho que está preocupado comigo...$2",
+                "Sun8": "O Seb e eu basicamente crescemos juntos.$0#$e#Nossas mães eram amigas e acabamos ficando muito próximas.$0#$e#Não sei o que faria sem ele...$4",
+                "spring_Mon8": "Aff... Oi, @...$3#$e#Não dormi bem... O Seb e eu jogamos Solarion Chronicles a noite toda...$3#$e#Mas valeu a pena! Nos divertimos demais.$1",
+                "spring_Tue8": "Oi, @.$1#$e#Ah, por que estou tão feliz? É porque o Seb apareceu no meu sonho na noite passada.$1#$b#Mas não me pergunte mais, não consigo contar o que aconteceu...$4",
+                "spring_Wed8": "Sabe, @, sinto que desde que comecei a namorar o Seb, meu relacionamento com meus pais também melhorou.$0#$e#Acho que eles finalmente estão entendendo que já não sou mais uma criança.$0",
+                "summer_Tue8": "Fico feliz que o Seb mora na montanha.$0#$b#O ar lá em cima é revigorante nos dias de verão.$1#$e#Além disso, quando chove, aparecem sapos perto do lago. Talvez o Seb e eu devêssemos adotar um.$1",
+                "summer_Thu8": "Oi, @.$1#$e#Não ache que o Seb e eu somos estranhos, mas adoramos passar um tempo no cemitério.$0#$b#É quase o único lugar na cidade onde podemos ficar a sós.$0",
+                "summer_Fri8": "Convidei o Seb para ir à praia comigo como brincadeira. Sabe, ele não gosta muito do calor.$0#$b#Mas ele disse que iria se for o que eu quisesse.$1#$e#Ele é tão fofo às vezes...$4",
+                "fall_Mon8": "Espero que chova logo.$0#$b#O lago perto da casa do Seb é o melhor lugar para ficar em dias chuvosos.$0#$e#De qualquer forma, vou visitá-lo hoje.$1",
+                "fall_Sat8": "Eu amo os dias de outono.$0#$b#Queria que essa estação durasse eternamente, me lembra quando o Seb e eu brincávamos na floresta quando crianças.$0",
+                "fall_Sun8": "O Seb vai me ajudar a pintar o cabelo mais tarde.$1#$b#Eu estava pensando em manter roxo, mas o Seb disse que azul também ia ficar legal.$0",
+                "winter_Wed8": "Os invernos aqui na cidade são tão frios.$0#$b#O Seb e eu gostamos de tomar um café quente pela manhã para nos aquecer.$1",
+                "winter_Fri8": "Devo visitar o Seb hoje.$0#$b#Sabe, se ele fica sozinho por muito tempo, ele acaba se perdendo um pouco.$2",
+                "winter_Sat8": "Um novo ano está chegando...$0#$e#Esse foi um ano incrível, fiz tantas memórias com o Seb.$1#$b#Espero que o próximo ano seja ainda melhor para nós.$4",
+                "spring_12": "A Caça aos Ovos é amanhã.$1#$e#Acho que você vai participar também.$0#$b#Boa sorte, @, mas este ano estou me sentindo especialmente confiante porque o Seb vai me animar.$1",
+                "spring_23": "Oi, @.$0#$e#Você lembra? Amanhã é o Baile das Flores.$1#$e#Eu não curto muito usar vestidos, mas dançar com o Seb é divertido.$1",
+                "fall_26": "Não vejo a hora do Festival do Espírito.$1#$b#O Seb e eu vamos dividir a torta de abóbora especial do Gus.$1#$e#E talvez ele queira me acompanhar no labirinto assustador depois.$0",
+                "winter_10": "Minha mãe me ajudou a preparar sashimi para o aniversário do Seb.$1",
+                "spring_12_2": "A Caça aos Ovos é amanhã.$1#$e#Acho que você vai participar também.$0#$b#Boa sorte, @, mas este ano estou me sentindo especialmente confiante porque o Seb vai me animar.$1",
+                "spring_23_2": "Oi, @.$0#$e#Você lembra? Amanhã é o Baile das Flores.$1#$e#Eu não curto muito usar vestidos, mas dançar com o Seb é divertido.$1",
+                "fall_26_2": "Não vejo a hora do Festival do Espírito.$1#$b#O Seb e eu vamos dividir a torta de abóbora especial do Gus.$1#$e#E talvez ele queira me acompanhar no labirinto assustador depois.$0",
+                "winter_10_2": "Minha mãe me ajudou a preparar sashimi para o aniversário do Seb.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Maru",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020024"
+            },
+            "Entries": {
+                "Tue6": "Minha relação com o Sebastian melhorou muito ultimamente.$0#$b#Ele está de melhor humor desde que começou a namorar a Abigail.$1",
+                "Tue8": "Abigail e eu conversamos sobre explorar as minas.$0#$b#Ela quer explorar e eu quero pesquisar os minerais do vale.$0#$e#Talvez você possa vir também, @.$1",
+                "Fri8": "Abigail veio à clínica ontem e me trouxe uma couve-flor fresca da loja do pai dela.$1#$e#O Sebastian está namorando uma mulher incrível.$0",
+                "Sun4": "É estranho ver o Sebastian namorando alguém.$0#$b#Achei que ele não tava interessado.$0",
+                "Sun8": "Caroline e o Pierre vieram jantar na casa dos meus pais na última quarta.$0#$e#Caroline compartilhou com eles sua receita de couve-flor com queijo.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Robin",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020024"
+            },
+            "Entries": {
+                "Mon6": "A Abigail vem aqui com frequência. Fico feliz que ela se importe tanto com o Sebastian.$0",
+                "Tue10": "A Abigail é uma grande influência para o Sebastian.$1#$b#Ele anda sorridente e passa mais tempo ao ar livre. Sou tão grata à Abigail.$1",
+                "Thu2": "Eu sabia que a Abigail e o Sebastian eram bons amigos, mas nunca pensei neles namorando.$0",
+                "Thu6": "A Abigail é uma menina tão boa, a Caroline deve ter muito orgulho dela.$1",
+                "Fri10": "Não poderia estar mais feliz que o Sebastian está namorando a Abigail.$1#$b#Ela é uma garota incrível e o par perfeito para ele.$0",
+                "Sun8": "Ah, @.$1#$e#Caroline e o Pierre vão jantar aqui hoje.$0#$b#Caroline disse que vai preparar o chá especial dela.$1",
+                "Sun10": "A Caroline e eu estamos muito felizes que a Abigail e o Sebastian estão juntos.$0#$b#Espero que logo possamos ser oficialmente uma família.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020024"
+            },
+            "Entries": {
+                "Mon4": "Estou tão aliviado que o Sebastian começou a namorar a Abigail...$0",
+                "Mon10": "Tenho que perguntar à Robin quando a Abigail virá para nossa casa.$0#$b#Maru e eu encontramos um tipo raro de ametista e queríamos dar para ela.$1",
+                "Sun8": "Olá, @.$0#$b#O Sebastian e a Abigail combinam muito bem, não acha?.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Pierre",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020024"
+            },
+            "Entries": {
+                "Tue6": "Espero que a Abigail esteja bem com o Sebastian.$0",
+                "Tue10": "Espero que o Sebastian e a família dele venham jantar conosco em breve.$1#$e#Eu e a Caroline estamos ansiosos para mostrar nossa sopa especial de abóbora.$0#$e#Vou contar para a Abigail.$1",
+                "Wed4": "Estou preocupado com a Abigail...$2#$e#Espero que ela saiba o que quer para o futuro dela.$2",
+                "Wed10": "Eu costumava me preocupar com a Abigail.$0#$b#É muito difícil ser pai...$2#$e#Mas agora acho que ela está bem com o Sebastian, eles se dão bem.$0",
+                "Thu2": "Conheço o Sebastian há tanto tempo e não tenho certeza sobre a Abigail e ele...$2",
+                "Thu8": "O Sebastian se ofereceu para me ajudar com o estoque da loja.$0#$b#Ele disse que dá para fazer isso muito mais eficientemente criando um banco de dados interno.$0",
+                "Sat4": "O Sebastian vem jogar videogame com a Abigail com uma frequência exagerada.$3",
+                "Sat10": "Olá, @.$1#$e#O Demetrius tem ido com a Robin às terças.$0#$b#Ele está pesquisando sobre os meus produtos.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Caroline",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020024"
+            },
+            "Entries": {
+                "Mon2": "Tenho medo de que a Abigail queira viajar por aí com o Sebastian...$2",
+                "Mon6": "Oi, @.$0#$e#Vou preparar sashimi para agradecer o Sebastian por cuidar da Abigail.$1",
+                "Tue4": "Quando a Abigail cresceu tanto assim?$2#$e#Parece que foi ontem quando a Robin e eu os levávamos para o parquinho.$0",
+                "Tue10": "Oi, @.$0#$e#Eu e a Robin não paramos de falar sobre a Abigail e o Sebastian.$0#$b#Eles são tão fofos juntos.$1",
+                "Fri8": "Tive minhas dúvidas sobre o relacionamento da Abigail e do Sebastian, mas ele realmente ajudou a Abigail a se abrir conosco.$0#$e#Sou grata a ele.$1",
+                "Fri10": "O Sebastian sempre será bem-vindo na minha casa.$1#$b#E a família dele também, claro.$1",
+                "Sun4": "Minha menininha já cresceu.$0#$e#Nunca passou pela minha cabeça que ela teria um namorado tão cedo.$0",
+                "Sun10": "Ah, @, você acha que eu terei netos em breve?$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020024"
+            },
+            "Entries": {
+                "Mon2": "Eu esperei uma eternidade para o Sebastian e a Abigail começarem a namorar.$0#$e#Era tão óbvio, não acha, @?$1",
+                "fall_Wed8": "Ei, @.$0#$e#Ultimamente tenho aprimorado minhas habilidades de terceiro elemento.$1",
+                "Fri6": "Sebastian e Abigail são meus amigos e eu gosto de ir com eles ao saloon às sextas.$0#$e#...Mas desde que começaram a namorar, às vezes fica meio estranho estar lá com eles.$2#$e#Ah, mas claro que estou feliz por eles.$1",
+                "spring_Sun8": "O Sebastian tem vindo à minha casa tocar teclado com mais frequência.$0#$b#Talvez esteja tentando impressionar a Abigail ou algo assim.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/schedules/Sebastian",
+            "When": {
+                "Version": "dating, married",
+                "HasSeenEvent": "59020024"
+            },
+            "Entries": {
+                "spring.001": "Ah... O que você está fazendo aqui, @?$0#$b#Eu estava conversando com a Abby...$0",
+                "spring.002": "Talvez cheguemos ao chefe final hoje.$1",
+                "summer.001": "A Abby estava certa, este lugar é tão tranquilo.$0",
+                "summer.002": "Talvez a gente veja o Mago algum dia, Abby.$1",
+                "fall.001": "Você quer ir ao deserto comigo algum dia, Abby?$1",
+                "fall.002": "Não conte pro Sam, mas fico feliz que ele estava ocupado hoje.$1",
+                "winter.001": "Você está com frio, Abby?$0#$b#Venha aqui...$4",
+                "winter.002": "Estou juntando dinheiro para viajar com a Abby.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Sebastian",
+            "When": {
+                "Version": "dating, married",
+                "HasSeenEvent": "59020024"
+            },
+            "Entries": {
+                "spring_Wed": "1030 SebastianRoom 9 4 3 sebastian_computer/1500 ScienceHouse 27 9 0/1530 SebastianRoom 9 4 3 sebastian_computer/1830 Mountain 67 22 3 \"Strings\\schedules\\Sebastian:spring.001\"/2230 SebastianRoom 11 9 1 sebastian_sleep",
+                "spring_Thu": "1000 SebastianRoom 9 4 3 sebastian_computer/1330 Railroad 32 47 1 sebastian_smoking/1500 SeedShop 2 6 0 \"Strings\\schedules\\Sebastian:spring.002\"/2100 SebastianRoom 11 9 1 sebastian_sleep",
+                "summer_Mon": "1030 SebastianRoom 9 4 3 sebastian_computer/1500 ScienceHouse 27 9 0/1530 SebastianRoom 9 4 3 sebastian_computer/1900 Town 45 87 3 \"Strings\\schedules\\Sebastian:summer.001\"/2300 SebastianRoom 11 9 1 sebastian_sleep",
+                "summer_Sun": "1030 SebastianRoom 9 4 3 sebastian_computer/1230 Forest 13 40 2 \"Strings\\schedules\\Sebastian:summer.002\"/2130 SebastianRoom 11 9 1 sebastian_sleep",
+                "fall_Tue": "1000 SebastianRoom 9 4 3 sebastian_computer/1200 BusStop 21 5 2 \"Strings\\schedules\\Sebastian:fall.001\"/1800 SebastianRoom 9 4 3 sebastian_computer/2130 SebastianRoom 11 9 1 sebastian_sleep",
+                "fall_Thu": "1030 SebastianRoom 9 4 3 sebastian_computer/1200 Mountain 57 33 1/1400 Mountain 64 14 2/1500 Mountain 42 13 1 sebastian_smoking/1600 SebastianRoom 4 7 2 \"Strings\\schedules\\Sebastian:fall.002\"/2100 SebastianRoom 11 9 1 sebastian_sleep",
+                "winter_Mon": "1030 SebastianRoom 9 4 3 sebastian_computer/1500 ScienceHouse 27 9 0/1530 SebastianRoom 9 4 3 sebastian_computer/1800 Mountain 49 30 1 \"Strings\\schedules\\Sebastian:winter.001\"/2130 SebastianRoom 11 9 1 sebastian_sleep",
+                "winter_Thu": "1030 SebastianRoom 9 4 3 sebastian_computer/1500 Railroad 32 47 1 sebastian_smoking/1800 Railroad 5 45 1 \"Strings\\schedules\\Sebastian:winter.002\"/2130 SebastianRoom 11 9 1 sebastian_sleep"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/schedules/Abigail",
+            "When": {
+                "Version": "dating",
+                "HasSeenEvent": "59020024"
+            },
+            "Entries": {
+                "spring.001": "A casa do Seb fica no lugar mais bonito do vale.$0",
+                "spring.002": "Acho que a gente consegue, Seb!$1",
+                "summer.001": "Oi, @.$0#$b#Você acha meio estranho passar o tempo aqui...?$0",
+                "summer.002": "O Seb está sempre cuidando de mim...$4",
+                "fall.001": "Seria divertido explorar o deserto.$1",
+                "fall.002": "O Seb está me ensinando a jogar Solarion Chronicles.$1",
+                "winter.001": "Talvez eu pegue outro moletom do Seb.$1",
+                "winter.002": "Eu realmente quero viajar para fora com o Seb algum dia.$4"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Abigail",
+            "When": {
+                "Version": "dating, married",
+                "HasSeenEvent": "59020024"
+            },
+            "Entries": {
+                "spring_Wed": "1000 ArchaeologyHouse 11 9 0/1700 Mountain 66 22 1 \"Strings\\schedules\\Abigail:spring.001\"/2230 SeedShop 1 9 3 abigail_sleep",
+                "spring_Thu": "900 SeedShop 39 5 0/1030 SeedShop 2 20 3/1300 Town 73 54 2/1600 SeedShop 3 6 0 abigail_videogames \"Strings\\schedules\\Abigail:spring.002\"/2100 SeedShop 1 9 3 abigail_sleep",
+                "summer_Mon": "900 SeedShop 39 5 0/1200 SeedShop 3 6 0 abigail_videogames/1900 Town 44 87 1 \"Strings\\schedules\\Abigail:summer.001\"/2300 SeedShop 1 9 3 abigail_sleep",
+                "summer_Sun": "900 SeedShop 4 5 0/1030 SeedShop 20 5 1 \"Strings\\schedules\\Abigail:Sun.000\"/1300 Forest 14 40 2 \"Strings\\schedules\\Abigail:summer.002\"/2000 SeedShop 1 9 3 abigail_sleep",
+                "fall_Tue": "900 SeedShop 39 5 0/1030 SeedShop 2 20 3/1300 BusStop 22 5 2 \"Strings\\schedules\\Abigail:fall.001\"/1800 SeedShop 3 6 0 abigail_videogames/1930 SeedShop 1 9 3 abigail_sleep",
+                "fall_Thu": "900 SeedShop 39 5 0/1030 SeedShop 2 20 3/1300 BusStop 22 5 2/1430 SebastianRoom 5 8 3 \"Strings\\schedules\\Abigail:fall.002\"/2100 SeedShop 1 9 3 abigail_sleep",
+                "winter_Mon": "900 SeedShop 39 5 0/1300 SeedShop 3 6 0 abigail_videogames/1630 Mountain 49 31 1 \"Strings\\schedules\\Abigail:winter.001\"/1930 SeedShop 1 9 3 abigail_sleep",
+                "winter_Thu": "900 SeedShop 39 5 0/1230 SeedShop 3 6 0 abigail_videogames/1630 Railroad 6 45 1 \"Strings\\schedules\\Abigail:winter.002\"/2130 SeedShop 1 9 3 abigail_sleep"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Entries": {
+                "59020021/F/f Sebastian 500/f Abigail 500/t 1100 1200": "breezy/14 89/farmer 24 97 2 Sebastian 400 1000 1 Abigail 44 90 3 Penny 18 94 3 Vincent 16 94 1 Jas 17 95 0/skippable/pause 1800/playSound doorClose/pause 250/warp Sebastian 10 86/faceDirection Sebastian 2/pause 600/speak Sebastian \"*suspiro*$2\"/pause 800/move Sebastian 0 4 1/viewport move 2 0 8000/move Sebastian 19 0 0/pause 200/emote Abigail 16/pause 200/speak Abigail \"Oi, Sebastian!$1\"/pause 500/faceDirection Sebastian 1/pause 600/speak Sebastian \"Ah, oi, Abigail.$0\"/pause 280/move Abigail 0 1 3/move Abigail -13 0 0/move Abigail 0 -1 3/pause 700/speak Abigail \"Poxa, você está de mau humor. O que houve?$6\"/pause 720/speak Sebastian \"Eu ia jogar Jornada do Rei da Pradaria com o Sam hoje.$0#$b#Mas ele disse que não está se sentindo bem e vai descansar o resto do dia.$2\"/pause 500/emote Sebastian 28/pause 500/speak Sebastian \"Não quero parecer sem empatia, mas eu estava realmente animado...$2#$b#Vou estar muito ocupado com o trabalho, então não sei quando vou ter tempo de novo...$2\"/pause 600/speak Abigail \"Hum... Sebastian, você sabe que também sou sua amiga, né?$0\"/pause 600/speak Sebastian \"Sim, claro, que tipo de pergunta é essa?$0\"/pause 580/speak Abigail \"Bem, tenho certeza de que você também sabe que eu gosto de jogar videogames.$0\"/pause 720/speak Sebastian \"...$0\"/pause 580/speak Abigail \"Ugh, Sebastian, o que estou dizendo é que podemos jogar juntos.$1#$b#Estou tentando zerar o Prairie King desde que saiu!$1\"/pause 380/speak Abigail \"Nem sei quantas vezes tentei, é muito difícil...$5#$b#Eu costumo jogar sozinha, então talvez juntos a gente se saia melhor.$0#$b#E aí, o que você acha?$1\"/pause 720/speak Sebastian \"Ah... Ok, então vamos para a sua casa.$0\"/pause 600/globalFade .007/viewport -1000 -1000/changeLocation SeedShop/warp Sebastian 2 6/warp Abigail 3 6/showFrame Abigail 20/showFrame Sebastian 41/playMusic distantBanjo/viewport 7 7 true/pause 1200/speak Abigail \"Certo, você está pronta?$0\"/pause 650/speak Sebastian \"Sim, vamos começar.$7\"/pause 900/playSound Cowboy_Secret/pause 800/specificTemporarySprite abbyvideoscreen/pause 300/playMusic Cowboy_OVERWORLD/pause 1000/speak Abigail \"Cuidado, Sebastian. Eles estão vindo!$7\"/pause 800/speak Sebastian \"Fica tranquilo, eu cuido disso.$1\"/pause 600/playSound Cowboy_gunshot/pause 150/playSound Cowboy_gunshot/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/playSound Cowboy_gunshot/playSound Cowboy_gunshot/pause 150/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/pause 200/playSound Cowboy_gunshot/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/pause 180/playSound Cowboy_gunshot/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/playSound Cowboy_gunshot/playSound Cowboy_gunshot/pause 220/playSound Cowboy_gunshot/playSound Cowboy_gunshot/playSound Cowboy_gunshot/playSound Cowboy_gunshot/pause 150/playSound Cowboy_gunshot/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/playSound Cowboy_gunshot/playSound Cowboy_gunshot/pause 150/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/pause 200/playSound Cowboy_gunshot/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/pause 180/playSound Cowboy_gunshot/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/playSound Cowboy_gunshot/playSound Cowboy_gunshot/pause 220/playSound Cowboy_gunshot/playSound Cowboy_gunshot/playSound Cowboy_gunshot/playSound Cowboy_gunshot/pause 600/playSound cowboy_dead/pause 380/speak Abigail \"Aff... eu morri...$5\"/pause 320/emote Abigail 12/pause 280/speak Abigail \"Tá na sua e... Cuidado, à sua esquerda!$7\"/pause 500/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/pause 600/emote Sebastian 52/pause 380/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/pause 200/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/pause 500/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/pause 600/speak Abigail \"Uau, eu não sabia que você era tão bom.$1\"/pause 600/emote Sebastian 32/pause 200/emote Abigail 16/pause 200/speak Abigail \"Eles estão vindo de novo!$7\"/pause 180/emote Sebastian 16/pause 700/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/pause 200/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/pause 500/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/playSound cowboy_dead/pause 380/speak Sebastian \"...$5\"/pause 380/emote Abigail 28/pause 900/showFrame Abigail 12/pause 800/showFrame Sebastian 4/pause 350/speak Abigail \"Não acredito que você também morreu...$2#$b#Você quase terminou o nível, o que aconteceu...?\"/pause 580/emote Sebastian 60/pause 620/speak Abigail \"Bom, não tem mais nada que a gente possa fazer sobre isso.$9#$b#Sempre podemos jogar outro dia.$0#$b#Vamos fazer outra coisa agora.$1\"/pause 1500/end dialogue Abigail \"Mal posso esperar para jogar Prairie King com o Sebastian de novo.$1\""
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Mountain",
+            "Entries": {
+                "59020022/e 59020021/F/f Sebastian 1000/f Abigail 1000/d Mon Tue Wed Thu Fri/w sunny/z spring/z fall/z winter/t 1800 2000": "AbigailFlute/49 32/farmer 1000 1000 2 Sebastian 32 31 1 Abigail 49 31 1/skippable/pause 1500/move Sebastian 15 0 1/pause 500/speak Sebastian \"Oi, Abigail.$1\"/pause 800/faceDirection Abigail 3/pause 500/speak Abigail \"Oi, Sebastian.$1\"/pause 280/speak Abigail \"Você mora em um lugar tão bonito.$0#$b#E é bem tranquilo também.$0\"/pause 650/speak Sebastian \"É, gosto de vir aqui e ficar sozinho.$0#$b#Mas não me importo com a sua companhia.$1\"/pause 580/speak Abigail \"*risinho*$1#$b#Fico feliz em ouvir isso. É agradável.$1\"/pause 1000/speak Abigail \"Nos dias chuvosos também venho aqui tocar flauta, acho que isso atrai os sapos do lago.$1\"/pause 750/speak Sebastian \"Ah, sempre quis ter um sapo.$1#$b#Eles são animais bem interessantes.$1\"/pause 600/speak Abigail \"Viu?$1#$b#Finalmente alguém me entende.$1\"/pause 1000/emote Abigail 40/pause 500/speak Abigail \"Ei, Sebastian... Quer dar uma olhada nas cavernas?$0#$b#Eu sempre quis ir.$1\"/pause 700/speak Sebastian \"Bom... Tá, por que não?$7\"/pause 1200/globalFade/viewport -1000 -1000/changeLocation Mine/warp Sebastian 22 9/warp Abigail 23 8/faceDirection Abigail 2/faceDirection Sebastian 1/playMusic Upper_Ambient/showFrame Abigail 27/showFrame Sebastian 17/viewport 20 9 true/pause 1350/speak Abigail \"Isso é incrível!$1\"/pause 750/speak Abigail \"O que você acha que tem lá embaixo?$0#$b#Agora eu realmente quero explorar as minas.$1\"/pause 800/speak Sebastian \"Tenha cuidado, é perigoso chegar tão perto da entrada...$0\"/pause 600/speak Abigail \"Não se preocupe! Estamos seguros aqui.$1\"/pause 800/playSound batFlap/pause 500/playSound batFlap/pause 500/playSound batFlap/pause 500/playSound batFlap/pause 380/speak Sebastian \"Você ouviu isso?$0\"/pause 650/emote Abigail 8/pause 1600/specificTemporarySprite abbyManyBats/playSound batScreech/showFrame Abigail 32/shake Abigail 2000/pause 1300/showFrame Abigail 0/emote Sebastian 16/pause 500/speak Sebastian \"Você está bem?!$2\"/pause 800/speak Abigail \"Isso foi horrível...$7\"/pause 900/speak Abigail \"Talvez eu não esteja pronta para isso...$2\"/pause 500/emote Abigail 28/pause 800/speak Abigail \"Vamos voltar, ok?$2#$b#Preciso de um tempo para me recuperar disso...$2\"/pause 500/emote Sebastian 28/pause 1600/end dialogue Abigail \"Como você ousa descer nas minas...?$2\""
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Forest",
+            "Entries": {
+                "59020023/e 59020022/F/f Sebastian 1500/f Abigail 1500/o Sebastian/o Abigail/w sunny/d Mon Tue Wed Thu Fri Sat/t 1600 1900": "sadpiano/14 41/farmer 1000 1000 2 Sebastian 26 42 3 Abigail 14 40 2/skippable/pause 1800/emote Abigail 28/pause 800/move Sebastian -7 0 3/pause 500/emote Sebastian 8/pause 700/move Sebastian -5 0 0/pause 380/speak Sebastian \"...Abigail?$0#$b#Você está... chorando?$2\"/pause 390/emote Abigail 16/pause 500/speak Abigail \"...$2\"/pause 650/speak Sebastian \"O que houve?$2\"/pause 1000/speak Sebastian \"Ah... tudo bem se você não quiser me contar.$0\"/pause 1500/speak Abigail \"Eu... tive uma briga feia com meus pais mais cedo...$2\"/pause 800/speak Abigail \"Nem estávamos discutindo sobre algo específico...$2\"/pause 1100/speak Abigail \"Sinto que eles nem sequer tentam me entender.$2\"/pause 500/speak Abigail \"Eles ficam me criticando porque tudo o que faço está errado.$5#$b#E isso não é verdade...$2#$b#É só que tudo tem que ser do jeito deles, não importa o que seja.$2\"/pause 1300/speak Abigail \"Eu sei que posso estar errada às vezes, mas será que eles não podem me deixar aprender sozinha?$5\"/pause 600/emote Abigail 28/pause 1200/speak Abigail \"Estou tão cansada de todas essas discussões...$2\"/pause 1200/speak Sebastian \"Eu sei como você se sente, Abby.$2#$b#Eu também brigava muito com a minha mãe e o Demetrius.$2\"/pause 1200/speak Sebastian \"Quando eles se casaram e a Maru nasceu, eu sentia que não fazia mais parte da família...$2#$b#Eu ficava tão irritado com eles porque só falavam da Maru...$5#$b#E eu comecei a me comportar mal...$2#$b#Eu briguei com a Maru, não ia à escola, fugia de casa por dias...$2\"/pause 1200/speak Sebastian \"Eu era uma criança naquela época, então talvez essa fosse minha maneira de chamar atenção deles.$2\"/pause 800/speak Sebastian \"Eu morria de inveja da Maru. Ela sempre foi inteligente e tinha o pai ao lado.$2\"/pause 800/emote Sebastian 40/pause 1200/speak Sebastian \"Meu comportamento só piorou nossa relação...$2#$b#Eu dizia coisas horríveis pra Maru e pro Demetrius...$2\"/pause 1200/speak Sebastian \"Com o tempo percebi que nunca dei uma chance pro Demetrius.$2#$b#E as brigas que eu começava com a Maru não faziam sentido nenhum.$2#$b#Eu tinha tanta raiva dentro de mim...$2\"/pause 1500/speak Sebastian \"Um dia decidi que precisava conversar com eles seriamente.$0#$b#Sabe, ficar bravo pra sempre não ia ajudar ninguém.$2\"/pause 1300/speak Sebastian \"Lembro que era uma sexta-feira, minha mãe e o Demetrius foram ao bar e a Maru estava no quarto dela.$0#$b#Quando voltaram, chamei eles e a Maru pra cozinha.$0#$b#Eles ficaram tão surpresos de eu estar realmente falando com eles...$2\"/pause 900/speak Sebastian \"Eu estava tão nervoso...$0#$b#Nem conseguia pensar direito...$2\"/pause 1200/speak Sebastian \"...E simplesmente falei tudo.$0\"/pause 1000/speak Sebastian \"Conto como eu me sentia, como queria que as coisas mudassem entre nós.$0#$b#Pedi desculpas... por tudo.$2\"/pause 1000/speak Sebastian \"Então minha mãe perguntou o que eles podiam fazer pra eu me sentir melhor.$0#$b#Acho que esse foi o ponto de virada, sabe?$0\"/pause 1000/speak Sebastian \"Falei pra cada um o que eles faziam que me chateava.$0#$b#E eles fizeram o mesmo.$0\"/pause 1100/speak Sebastian \"Prometemos melhorar naquele dia.$0\"/pause 1500/speak Sebastian \"Depois disso, finalmente parecia que éramos uma família.$0\"/pause 1000/speak Sebastian \"É verdade que agora não estamos no nosso melhor, mas é porque temos estilos de vida diferentes.$0\"/pause 1200/speak Sebastian \"Mas realmente ajudou sermos honestos um com o outro.$0#$b#Talvez seja isso que você precise, conversar com eles.$0#$b#Mas não só pra criticar o que você não gosta, mas também pra dizer o que eles podem fazer pra entender você melhor.$0\"/pause 600/emote Abigail 12/pause 1000/speak Sebastian \"Eu sei que pode ser difícil ser honesta com seus pais sobre o que sente, mas vale a pena, Abby.$0\"/pause 1000/speak Sebastian \"Olha, que tal a gente ir na minha casa e você pensar sobre isso um pouco?$1\"/pause 1200/speak Abigail \"É... isso vai ser o melhor...$2#$b#Obrigada, Seb...$6\"/pause 1500/end dialogue Sebastian \"A Abigail está passando por muita coisa...$2#$b#Espero poder ajudar.$0\""
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Mountain",
+            "Entries": {
+                "59020024/e 59020023/F/f Sebastian 2000/f Abigail 2000/o Sebastian/o Abigail/w sunny/t 2000 2130": "nightTime/-1000 -1000/farmer -1200 1000 0 Abigail 18 35 0 Sebastian -100 -100 0/skippable/specificTemporarySprite sebastianOnBike/viewport 17 30/pause 1000/move Abigail 0 -5 0/pause 800/speak Abigail \"Oi, Seb.$1#$b#Que bom que vim, queria ver sua motocicleta há tanto tempo.$0\"/pause 650/speak Sebastian \"Oi, Abby.$7\"/pause 900/speak Abigail \"Queria te contar que conversei com meus pais.$0\"/pause 500/speak Abigail \"Deu muito certo!$1#$b#Você estava certo, dizer como eu me sentia e o que queria mudar foi exatamente o que precisávamos.$0#$b#Nem sei como te agradecer.$1\"/pause 750/speak Sebastian \"Isso é ótimo!$1\"/pause 1000/speak Sebastian \"Bem... talvez eu saiba como você pode me agradecer...$7\"/pause 650/speak Sebastian \"Eu estava prestes a sair.$0#$b#Então por que você não sobe? Quero te mostrar uma coisa.$7\"/pause 500/emote Abigail 32/pause 1000/move Abigail 0 -1 0/move Abigail 1 0 0 true/pause 120/globalFade/viewport -1000 -1000/warp Abigail -100 -100/changeToTemporaryMap SebastianRide/specificTemporarySprite sebastianRide/viewport 15 8 true/pause 8000/globalFade/viewport -1000 -1000/changeToTemporaryMap SebastianMountain/warp Abigail 15 18/warp Sebastian 16 18/playMusic echos/viewport 15 14 true/pause 5000/speak Sebastian \"Aquela é Zuzu City ao longe...$0\"/pause 700/speak Sebastian \"Quantas vezes já conversamos sobre ir lá e começar uma nova vida...?$7\"/pause 900/speak Sebastian \"Venho aqui quando quero me afastar de tudo e simplesmente... pensar.$0\"/pause 1800/speak Sebastian \"E então, o que acha?$7\"/pause 800/speak Abigail \"É lindo, mas me dá um sentimento estranho, triste...$6\"/pause 800/speak Sebastian \"É... é exatamente assim que me sinto também.$0\"/pause 1200/speak Sebastian \"Você ainda quer se mudar do vale?$0\"/pause 750/speak Abigail \"Eu não sei mais...$2#$b#Desde criança sempre quis viver novas experiências, viajar pelo mundo...$0\"/pause 800/speak Abigail \"Mas agora algo mudou...$0#$b#Estou muito feliz de viver aqui, feliz que nós dois vivemos aqui.$4\"/pause 900/faceDirection Abigail 1/pause 600/faceDirection Sebastian 3/pause 1500/speak Sebastian \"Acho que também me sinto mais feliz no vale.$7#$b#A cidade... ela simplesmente não me atrai como antes...$4\"/pause 1200/speak Sebastian \"Abby...$4#$b#Eu nunca trouxe ninguém aqui antes.$4#$b#Você sabe por quê, né?$4\"/pause 700/emote Abigail 20/pause 390/showFrame Sebastian 40/showFrame Abigail 30/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 80/positionOffset Sebastian -2 0/pause 80/positionOffset Sebastian -2 0/pause 80/positionOffset Sebastian -2 0/pause 80/positionOffset Sebastian -2 0/pause 80/positionOffset Sebastian -2 0/pause 80/positionOffset Abigail 2 0/pause 80/positionOffset Abigail 2 0/pause 80/positionOffset Abigail 2 0/pause 80/positionOffset Abigail 2 0/pause 80/positionOffset Abigail 2 0/specificTemporarySprite heart 16 18/pause 2500/viewport move 1 -1 6000/pause 5000/globalFade/viewport -1000 -1000/changeLocation Mountain/pause 500/end dialogue Abigail \"...$4\""
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/FarmHouse",
+            "When": {
+                "Version": "married"
+            },
+            "Entries": {
+                "59020047/e 59020024/u 11/y 3/z summer/z fall/z spring/o Abigail/o Sebastian/x LifeCycle.AbigailSebastian": "null"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "When": {
+                "Version": "married"
+            },
+            "Entries": {
+                "59020048/e 59020024/z summer/z fall/z spring/o Sebastian/o Abigail/n LifeCycle.AbigailSebastian/w sunny/t 1600 1730": "sweet/29 66/Abigail 28 65 2 Sebastian 29 65 2 Lewis 26 65 2 Kent 23 67 0 Jodi 24 67 0 Pierre 25 67 0 Caroline 26 67 0 Robin 31 67 0 Demetrius 32 67 0 Maru 33 67 0 Evelyn 24 68 0 George 23 68 0 farmer 26 68 0 Sam 31 68 0 Vincent 32 68 0 Jas 33 68 0 Harvey 24 69 0 Gunther 25 69 0 Clint 26 69 0 Marnie 31 69 0 Shane 32 69 0 Willy 33 69 0 Elliott 34 69 0 Alex 23 70 0 Haley 24 70 0 Emily 25 70 0 Sandy 26 70 0 Leah 31 70 0 Penny 32 70 0 Pam 33 70 0 Gus 34 70 0 Linus 34 71 0 Wizard 24 73 0/skippable/showFrame Abigail 36/showFrame Sebastian 48/addTemporaryActor ArchLF 128 80 25 65 0 false Character/pause 3900/speak Lewis \"Olá a todos e sejam bem-vindos.$0#$b#Obrigado por estarem aqui conosco neste dia.$0\"/pause 1600/speak Lewis \"Abigail e Sebastian estão aqui para proclamar seu amor através da celebração do casamento.$0#$b#Estamos todos aqui para aprender sobre amar e ser amado, e agradecemos a oportunidade de testemunhar o amor compartilhado deste casal.$0\"/pause 1600/speak Lewis \"O casamento é um lugar muito especial.$0#$b#Como a harmonia com a melodia, o casamento entrelaça duas vidas, criando uma canção mais profunda e rica.$0\"/pause 1600/speak Lewis \"Somos honrados que Abigail e Sebastian compartilhem um pouco de sua bela música conosco neste dia.$0#$b#E esperamos que, ao entrarem neste vínculo eterno que é o casamento, possam sempre ver um ao outro à luz do amor.$1\"/pause 1200/speak Lewis \"Mas, primeiro, vamos receber a mãe da Abigail, Caroline, para dizer algumas palavras.$1\"/pause 850/move Caroline 0 -1 1/move Caroline 5 0 0/move Caroline 0 -1 2/pause 850/speak Caroline \"Gostaria de dar as boas-vindas a todos hoje para celebrar o casamento da minha filha Abigail e do Sebastian.$1#$b#E agradecer por estarem presentes neste dia muito especial.$1\"/pause 800/faceDirection Caroline 3/pause 650/animate Sebastian true true 150 49/animate Abigail true true 150 37/faceDirection Lewis 1/pause 800/speak Caroline \"Abigail...$0#$b#Quero que saiba que você foi a melhor coisa que já me aconteceu.$0\"/pause 800/speak Caroline \"Claro que nem sempre foi perfeito.$2#$b#Tivemos desentendimentos, como mães e filhas às vezes têm.$0\"/pause 800/speak Caroline \"Mas você me trouxe tanta alegria e felicidade.$0#$b#Não poderia estar mais orgulhosa da mulher linda, inteligente e forte que você se tornou hoje.$1\"/pause 1180/speak Caroline \"Agora você é esposa de um marido carinhoso...$0#$b#Sinto-me tão abençoada por receber o Sebastian em nossas vidas e agradecê-lo pela felicidade que traz à minha filha.$1\"/pause 800/speak Caroline \"Não poderia desejar um homem melhor para a Abby do que o Sebastian.$0\"/pause 1000/speak Caroline \"Que vocês dois tenham uma vida longa, feliz e saudável juntos.$1\"/pause 390/emote Abigail 20/pause 900/move Caroline 0 1 3/move Caroline -5 0 2/move Caroline 0 1 0/pause 200/faceDirection Lewis 2/stopAnimation Abigail/stopAnimation Sebastian/showFrame Abigail 36/showFrame Sebastian 48/pause 1800/speak Lewis \"Agora, é uma grande honra unir Abigail e Sebastian nos laços do matrimônio.$1\"/pause 800/move Lewis 0 1 1/move Lewis 1 0 2/move Lewis 0 1 1/move Lewis 1 0 0/pause 800/showFrame Lewis 21/pause 1200/animate Abigail true true 150 37/showFrame Sebastian 49/pause 1380/speak Lewis \"Você, Abigail, aceita este homem como seu legítimo esposo?$0\"/pause 600/textAboveHead Abigail \"Sim, eu aceito.\"/pause 1600/speak Lewis \"Você, Sebastian, aceita esta mulher como sua legítima esposa?$0\"/pause 600/textAboveHead Sebastian \"Sim, eu aceito.\"/pause 2100/speak Lewis \"Sebastian... Abigail...$0#$b#Como Prefeito de Pelican Town, e portador regional do selo matrimonial, eu agora os declaro marido e mulher!$1\"/pause 650/speak Lewis \"Podem se beijar.$1\"/pause 1500/stopAnimation Abigail/animate Abigail true true 150 38/showFrame Sebastian 50/positionOffset Sebastian -2 0/pause 50/positionOffset Abigail 2 0/pause 50/positionOffset Sebastian -2 0/pause 50/positionOffset Abigail 2 0/pause 50/positionOffset Sebastian -2 0/pause 50/positionOffset Abigail 2 0/pause 50/positionOffset Sebastian -2 0/pause 50/positionOffset Abigail 2 0/specificTemporarySprite heart 29 65/pause 2600/positionOffset Sebastian 2 0/pause 50/positionOffset Abigail -2 0/pause 50/positionOffset Sebastian 2 0/pause 50/positionOffset Abigail -2 0/stopAnimation Abigail/showFrame Abigail 36/pause 380/showFrame Sebastian 48/pause 800/screenFlash .8/playMusic wedding/pause 150/animate Emily false true 320 16 16 16 16 16 16 17 17 17 17 20 20 20 21 21 21 21 18 18 19 19 31 31 31 35 35 34 34 34 22 22 22 22 23 23 23/move Lewis 0 2 1/move Lewis 2 0 1/animate Lewis true true 380 19 19 19 19 19 19 22 23 23 23/animate Marnie true true 380 20 20 20 20 20 20 21 22 22 23 23 23/pause 300/move Robin -2 0 0/move Robin 0 -1 0/pause 380/emote Robin 32/pause 380/faceDirection Demetrius 1/faceDirection Maru 3/pause 500/faceDirection Vincent 1/faceDirection Jas 3/pause 600/move Pierre 0 -1 1/move Pierre 3 0 0/pause 350/move Jodi 1 0 1/pause 180/faceDirection Caroline 3/pause 200/faceDirection Elliott 3/animate Willy false true 350 28 29 30 31/pause 390/faceDirection Alex 1/pause 180/faceDirection Haley 3/pause 320/faceDirection Evelyn 3/pause 200/faceDirection George 1/pause 390/emote Pierre 28/pause 500/move Wizard 0 12 0/warp Wizard 1000 1000/pause 2500/addConversationTopic AbigailSebastianWedding 4/end"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sebastian",
+            "Entries": {
+                "AbigailSebastianWedding": "Nunca imaginei que me casaria tão cedo...$0#$e#...ou que me casaria, enfim.$0#$e#Mas não me entenda mal, estou realmente feliz agora.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Abigail",
+            "Entries": {
+                "AbigailSebastianWedding": "Sabe, o Seb sempre foi uma pessoa muito especial pra mim.$0#$b#E agora posso passar o resto da minha vida com ele.$4"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Caroline",
+            "Entries": {
+                "AbigailSebastianWedding": "Não esperava que a Abigail se casasse tão cedo.$0#$e#Talvez eu devesse ter passado mais tempo com ela quando podia...$2"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Pierre",
+            "Entries": {
+                "AbigailSebastianWedding": "Às vezes acho que o Sam seria melhor pra Abigail do que o Sebastian.$0#$e#...Era só brincadeira.$1#$b#O Sebastian é um rapaz legal.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "Entries": {
+                "AbigailSebastianWedding": "Sempre soube que havia algo rolando entre a Abigail e o Seb.$0#$b#Acho que minha intuição nunca falha.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Maru",
+            "Entries": {
+                "AbigailSebastianWedding": "Eu sei que eu e o Sebastian nem sempre nos damos bem, mas estou muito feliz por ele e pela Abigail.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "Entries": {
+                "AbigailSebastianWedding": "A Caroline ficou mais nervosa do que a Abigail no casamento.$0#$b#Quando ela fez o discurso dava pra ver ela tremendo!$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jas",
+            "Entries": {
+                "AbigailSebastianWedding": "O casamento foi tão divertido, tinha muito Bolo Rosa!$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Vincent",
+            "Entries": {
+                "AbigailSebastianWedding": "Alguns dias antes do casamento o Sebastian veio na nossa casa.$0#$e#Eu o vi conversando com meu irmão...$3#$b#Ele estava tão feliz por se casar que começou a chorar!$3"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Lewis",
+            "Entries": {
+                "AbigailSebastianWedding": "Não aparecem muitos casamentos aqui em Pelican Town.$0#$e#É sempre bom ver tantos jovens apaixonados.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Evelyn",
+            "Entries": {
+                "AbigailSebastianWedding": "Um casamento bem-sucedido exige se apaixonar muitas vezes, sempre pela mesma pessoa.$0#$b#Espero que a Abigail e o Sebastian vivam uma vida longa e feliz juntos.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Elliott",
+            "Entries": {
+                "AbigailSebastianWedding": "Ah... casamentos...$0#$e#Eles me lembram deste poema...$0#$e#“Que enfrentem o mundo juntos com todos os seus sonhos e esperanças$0#$b#Que sejam o sol e a lua um do outro enquanto seus destinos se desenrolam$0#$b#E se perderem um do outro e começarem a se afastar$0#$b#Que encontrem o caminho de volta seguindo a bússola do coração de vocês”$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Harvey",
+            "Entries": {
+                "AbigailSebastianWedding": "O melhor amor é aquele que te torna uma pessoa melhor sem te transformar em outra.$0#$e#Acho que a Abigail e o Sebastian fazem um casal incrível.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Robin",
+            "Entries": {
+                "AbigailSebastianWedding": "A Abigail e o Sebastian são a combinação perfeita.$0#$b#Estou tão feliz por eles e tão orgulhosa do Sebastian.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "AbigailSebastianWedding": "O casamento foi realmente bonito.$0#$b#Nunca vi o Sebastian sorrir tanto assim.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Shane",
+            "Entries": {
+                "AbigailSebastianWedding": "Eu realmente não estava com vontade de ir ao casamento.$0#$b#Mas no fim das contas me diverti.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Alex",
+            "Entries": {
+                "AbigailSebastianWedding": "Eu não sou próximo da Abigail nem do Sebastian, mas acho que todo mundo percebeu que algo rolava entre eles.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Willy",
+            "Entries": {
+                "AbigailSebastianWedding": "Ahoy!$0#$b#Você foi ao casamento outro dia?$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sebastian",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020024"
+            },
+            "Entries": {
+                "Mon8": "Ei, @.$0#$e#Estou tendo um dia terrível...$2#$b#Deveria ir ver a Abby para me sentir melhor.$7#$e#Tchau.$0",
+                "Tue8": "Você acredita em almas gêmeas, @?$0#$e#Eu achava que era só uma crença idiota.$0#$b#Mas agora não consigo nem imaginar viver sem a Abby.$4",
+                "Thu8": "Ei, @.$0#$e#Comprei Blue Starfruit para jogar com a Abby.$1#$b#Ela ficou super animada quando anunciaram o lançamento.$1#$e#Ah, você também pode vir jogar.$7",
+                "Sat8": "Seria muito chato viver aqui sem a Abby.$0#$e#Ah, e também sem o Sam e você.$1",
+                "spring_Fri8": "Tem dias que só quero ficar na cama o dia todo.$2#$b#Mas a Abby não iria gostar disso...$0#$e#Preciso me animar, não quero que ela se preocupe.$0",
+                "spring_Sun8": "Ei, @.$0#$e#Sabe que a Abby sempre quis explorar as minas, né?$0#$b#Então, se você a encontrar, cuide bem dela, tá?$0#$e#Não consigo nem imaginar ela se machucando...$2",
+                "summer_Mon8": "Quero tanto que já seja outono. O verão simplesmente não é meu momento.$0#$b#Mas a Abby disse que queria nadar, então acho que vou por ela.$0",
+                "summer_Sat8": "O Sam não para de provocar a Abby e eu...$0#$b#Ele só reclama que é o terceiro elemento.$0",
+                "fall_Fri8": "Ei, @.$0#$e#Você vai ao bar hoje?$0#$b#A Abigail e eu vamos jogar Prairie King. Acho que estamos perto de vencer.$1",
+                "winter_Fri8": "Ei, @.$0#$e#A última vez que a Abby veio na minha casa ela pegou um moletom.$0#$b#Devo pedir para ela me devolver?$0#$e#Não... acho melhor ela ficar com ele.$0#$e#Ela fica linda com ele.$4",
+                "summer_16": "Amanhã é aniversário do Sam.$0#$e#A Abby disse pra eu deixar ele ganhar no sinuca sexta.$1",
+                "fall_13": "Hoje é o aniversário da Abigail.$1#$b#Comprei uma ametista especial na loja do Clint para ela.$1",
+                "fall_26": "Tô ansioso para a Noite do Espírito, é meu festival favorito.$7#$e#Eu nunca entro no labirinto assustador.$0#$b#Mas a Abby disse para eu enfrentar, então acho que vou.$1",
+                "summer_16_2": "Amanhã é aniversário do Sam.$0#$e#A Abby disse pra eu deixar ele ganhar no sinuca sexta.$1",
+                "fall_13_2": "Hoje é o aniversário da Abigail.$1#$b#Comprei uma ametista especial na loja do Clint para ela.$1",
+                "fall_26_2": "Tô ansioso para a Noite do Espírito, é meu festival favorito.$7#$e#Eu nunca entro no labirinto assustador.$0#$b#Mas a Abby disse para eu enfrentar, então acho que vou.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sebastian",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020048"
+            },
+            "Entries": {
+                "Wed8": "A Abby e eu somos amigas há tanto tempo.$0#$e#Me arrependo meio que de não ter dito como me sentia antes...$2#$b#Acho que pensei que ela não sentiria o mesmo e que isso acabaria com nossa amizade...$2#$e#Mas agora tá tudo bem, estamos felizes e casados.$4",
+                "Fri8": "Adoro ficar com a Abby, mesmo quando só ficamos em silêncio.$4#$b#Com ela, nem o silêncio fica estranho.$7#$e#É uma sensação estranha... mas eu gosto.$4#$b#Será que todos os casais são assim?$4",
+                "Sun8": "Às vezes meu trabalho é muito estressante...$2#$e#Felizmente a Abby percebe isso e aparece quando mais preciso dela.$4#$b#Parece um sonho estar casado com ela...$4",
+                "spring_Thu8": "Antes eu não tinha vontade de fazer nada...$2#$e#Mas, sabe, acho que passar tempo com a Abby e me casar com ela me ajudou a ser mais positivo com a vida de um modo geral.$1",
+                "summer_Tue8": "O verão é a estação ideal para focar no meu trabalho.$0#$e#Mas às vezes é complicado porque a Abby gosta de aparecer de surpresa.$0#$e#Ela diz que, como minha esposa, tem o direito de vir quando quiser.$1",
+                "fall_Tue8": "Ei, @.$0#$e#A Abby e eu não queremos mais nos mudar para a cidade, mas ainda assim decidimos ir pra lá na nossa lua de mel.$0#$e#Foi uma viagem muito especial.$1",
+                "fall_Sat8": "O outono traz tantas lembranças da minha infância...$0#$e#A Abby e eu costumávamos brincar perto da Torre do Mago.$0#$b#Ela sempre adorou visitar a floresta.$1#$e#Agora que estamos casados, estamos pensando em morar lá juntos.$1",
+                "winter_Thu8": "O rosto da Abby fica vermelho por causa do frio.$7#$b#Minha esposa fica fofa demais.$1",
+                "winter_Sun8": "Ei, @.$0#$e#Parece que o ano novo tá chegando, né?$0#$e#Tô meio inquieto...$2#$b#Mas fico melhor pensando que sou casado com a Abby e ela estará ao meu lado.$4",
+                "spring_23_2": "Aff... Eu não gosto da Festa da Flor...$5#$e#Mas a Abby vai estar comigo, então acho que não vai ser tão ruim.$1#$e#As vantagens do casamento...$4"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Abigail",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020024"
+            },
+            "Entries": {
+                "Mon8": "Eu costumava achar Pelican Town um lugar chato.$0#$b#Meu sonho era me mudar para a cidade e viver aventuras.$1#$e#Mas agora não sei mais...$0#$b#Sinto que este é o lugar ideal para o Sebastian e eu morarmos.",
+                "Fri8": "Eu amo sextas-feiras.$1#$b#Hoje vou jogar Prairie King com o Seb.$0#$b#Talvez finalmente consigamos zerar!$1",
+                "Sat8": "Tenho planejado explorar as minas com o Seb desde sempre.$0#$b#Mas ele não parece convencido, acho que está preocupado comigo...$2",
+                "spring_Mon8": "Aff... Oi, @...$3#$e#Não dormi bem... O Seb e eu jogamos Solarion Chronicles a noite toda...$3#$e#Mas valeu a pena! Nos divertimos demais.$1",
+                "spring_Tue8": "Oi, @.$1#$e#Ah, por que estou tão feliz? É porque o Seb apareceu no meu sonho na noite passada.$1#$b#Mas não me pergunte mais, não consigo contar o que aconteceu...$4",
+                "spring_Wed8": "Sabe, @, sinto que desde que comecei a namorar o Seb, meu relacionamento com meus pais também melhorou.$0#$e#Acho que eles finalmente estão entendendo que já não sou mais uma criança.$0",
+                "summer_Tue8": "Fico feliz que o Seb mora na montanha.$0#$b#O ar lá em cima é revigorante nos dias de verão.$1#$e#Além disso, quando chove, aparecem sapos perto do lago. Talvez o Seb e eu devêssemos adotar um.$1",
+                "fall_Mon8": "Espero que chova logo.$0#$b#O lago perto da casa do Seb é o melhor lugar para ficar em dias chuvosos.$0#$e#De qualquer forma, vou visitá-lo hoje.$1",
+                "fall_Sun8": "O Seb vai me ajudar a pintar o cabelo mais tarde.$1#$b#Eu estava pensando em manter roxo, mas o Seb disse que azul também ia ficar legal.$0",
+                "winter_Wed8": "Os invernos aqui na cidade são tão frios.$0#$b#O Seb e eu gostamos de tomar um café quente pela manhã para nos aquecer.$1",
+                "spring_23": "Oi, @.$0#$e#Você lembra? Amanhã é o Baile das Flores.$1#$e#Eu não curto muito usar vestidos, mas dançar com o Seb é divertido.$1",
+                "fall_26": "Não vejo a hora do Festival do Espírito.$1#$b#O Seb e eu vamos dividir a torta de abóbora especial do Gus.$1#$e#E talvez ele queira me acompanhar no labirinto assustador depois.$0",
+                "spring_23_2": "Oi, @.$0#$e#Você lembra? Amanhã é o Baile das Flores.$1#$e#Eu não curto muito usar vestidos, mas dançar com o Seb é divertido.$1",
+                "fall_26_2": "Não vejo a hora do Festival do Espírito.$1#$b#O Seb e eu vamos dividir a torta de abóbora especial do Gus.$1#$e#E talvez ele queira me acompanhar no labirinto assustador depois.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Abigail",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020048"
+            },
+            "Entries": {
+                "Tue8": "Depois do nosso casamento, Seb e eu temos pensado em ter filhos.$0#$e#Claro que vamos garantir que eles possam ser o que quiserem.$0#$b#O mais importante é que sejam felizes com a vida deles.$1",
+                "Wed8": "Não sei quantas vezes desejei ter nascido na cidade...$2#$b#Mas, pensando bem, eu não teria conhecido o Seb dessa maneira.$0#$e#Nosso casamento foi o dia mais especial da minha vida, eu não mudaria por nada.$1",
+                "Thu8": "O Seb é uma pessoa bem reservada, sabe.$0#$b#Por isso fico ainda mais feliz quando ele se abre comigo.$0#$b#Comunicação é importante para um bom casamento.$1",
+                "Sun8": "O Seb e eu basicamente crescemos juntos.$0#$e#Nossas mães eram boas amigas e acabamos ficando muito próximos.$0#$b#No casamento minha mãe disse que sempre soube que tínhamos uma conexão especial.#$e#Não sei o que faria sem ele...$4",
+                "summer_Thu8": "Oi, @.$1#$e#Não ache que o Seb e eu somos esquisitos, mas adoramos passar um tempo no cemitério.$0#$b#É quase o único lugar na cidade onde a gente pode ficar a sós.$0#$e#Mas agora que estamos casados, vamos morar juntos em breve.$1",
+                "summer_Fri8": "Pedi pro Seb ir comigo à praia só de brincadeira. Você sabe, ele não gosta muito do calor.$0#$b#Mas ele disse que iria se isso era o que eu queria.$1#$e#Ele é o marido mais fofo...$4",
+                "fall_Sat8": "Eu amo os dias de outono.$0#$b#Queria que essa estação durasse pra sempre, me lembra quando o Seb e eu brincávamos na floresta quando éramos crianças.$0#$e#Agora que estamos casados, deveríamos começar a pensar em ter nossos próprios filhos, não acha?$0",
+                "winter_Fri8": "Devo visitar o Seb hoje.$0#$b#Sabe, se ele fica sozinho por muito tempo, acaba meio que se perdendo.$2#$e#Mas é verdade que desde que nos casamos ele tem estado mais animado.$1",
+                "winter_Sat8": "Um novo ano está chegando...$0#$e#Este foi um ano incrível, fiz tantas memórias com o Seb.$0#$b#Casais casados também podem se divertir, sabia.$1#$e#Espero que o próximo ano seja ainda melhor para nós.$4",
+                "spring_12": "A Caça aos Ovos é amanhã.$1#$e#Acho que você vai participar também este ano.$0#$b#Boa sorte, @, mas este ano me sinto especialmente confiante porque o Seb vai me animar.$0#$b#Ele é o melhor marido do mundo.$1",
+                "winter_10": "Minha mãe me ajudou a preparar sashimi pro aniversário do Seb.$0#$b#Agora que somos casados, quero aprender a cozinhar os pratos favoritos dele.$1",
+                "spring_12_2": "A Caça aos Ovos é amanhã.$1#$e#Acho que você vai participar também este ano.$0#$b#Boa sorte, @, mas este ano me sinto especialmente confiante porque o Seb vai me animar.$0#$b#Ele é o melhor marido do mundo.$1",
+                "winter_10_2": "Minha mãe me ajudou a preparar sashimi pro aniversário do Seb.$0#$b#Agora que somos casados, quero aprender a cozinhar os pratos favoritos dele.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Maru",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020024"
+            },
+            "Entries": {
+                "Tue8": "A Abigail e eu conversamos sobre explorar as minas.$0#$b#Ela quer explorar e eu quero pesquisar os minerais do vale.$0#$e#Talvez você possa vir também, @.$1",
+                "Sun8": "A Caroline e o Pierre vieram jantar na casa dos meus pais na última quarta.$0#$e#A Caroline compartilhou com eles sua receita de couve-flor com queijo.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Maru",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020048"
+            },
+            "Entries": {
+                "Mon6": "Minha relação com o Sebastian melhorou tanto ultimamente.$0#$b#Ele está de melhor humor desde que se casou com a Abigail.$1",
+                "Fri8": "A Abigail veio à clínica ontem e me trouxe uma couve-flor fresca da loja do pai dela.$1#$e#O Sebastian é casado com uma mulher incrível.$0",
+                "Sat6": "É estranho ver o Sebastian casado.$0#$b#Achei que ele não estava interessado nesse tipo de relacionamento.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Robin",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020024"
+            },
+            "Entries": {
+                "Mon6": "A Abigail vem aqui com frequência. Fico feliz que ela se importe tanto com o Sebastian.$0",
+                "Thu2": "Eu sabia que a Abigail e o Sebastian eram bons amigos, mas nunca pensei neles namorando.$0",
+                "Thu6": "A Abigail é uma menina tão boa, a Caroline deve ter muito orgulho dela.$1",
+                "Fri2": "Não poderia estar mais feliz que o Sebastian esteja namorando a Abigail.$1#$b#Ela é uma garota incrível e o par perfeito para ele.$0",
+                "Sat8": "Ah, @.$1#$e#A Caroline e o Pierre vão jantar aqui hoje.$0#$b#A Caroline disse que vai preparar o chá especial dela.$1",
+                "Sun2": "A Caroline e eu estamos muito felizes que a Abigail e o Sebastian estão juntos.$0#$b#Espero que logo possamos ser oficialmente uma família.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Robin",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020048"
+            },
+            "Entries": {
+                "Tue10": "A Abigail é uma ótima influência para o Sebastian.$1#$b#Ele está sorridente e passa mais tempo ao ar livre.$0#$b#Fico muito feliz que eles terminaram se casando.$1",
+                "Thu4": "Eu sabia que a Abigail e o Sebastian estavam bem, mas nunca imaginei que se casariam tão cedo.$0",
+                "Fri4": "Não poderia estar mais feliz que o Sebastian seja casado com a Abigail.$1#$b#Ela é uma garota incrível e o par perfeito para ele.$0",
+                "Sun4": "Caroline e eu estamos felizes que a Abigail e o Sebastian estejam juntos.$0#$b#E agora somos oficialmente uma família.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020024"
+            },
+            "Entries": {
+                "Mon2": "Estou tão aliviado que o Sebastian começou a namorar a Abigail...$0",
+                "Wed8": "Tenho que perguntar à Robin quando a Abigail virá para nossa casa.$0#$b#A Maru e eu encontramos um tipo incomum de ametista e queríamos dar para ela.$1",
+                "Sun8": "Olá, @.$0#$b#Sebastian e Abigail combinam muito bem, não acha?.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020048"
+            },
+            "Entries": {
+                "Mon4": "Estou tão aliviado que o Sebastian se casou com a Abigail...$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Pierre",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020024"
+            },
+            "Entries": {
+                "Mon6": "Espero que a Abigail esteja bem com o Sebastian.$0",
+                "Tue10": "Espero que o Sebastian e a família dele venham jantar conosco em breve.$1#$e#Eu e a Caroline estamos ansiosos para mostrar nossa sopa de abóbora especial.$0#$e#Vou contar para a Abigail.$1",
+                "Wed2": "Estou preocupado com a Abigail...$2#$e#Espero que ela saiba o que quer para o futuro dela.$2",
+                "Thu2": "Conheço o Sebastian há tanto tempo e ainda não tenho certeza sobre a Abigail e ele...$2",
+                "Sat4": "O Sebastian vem jogar videogame com a Abigail com uma frequência exagerada.$3",
+                "Sat6": "Oi, @.$1#$e#O Demetrius tem ido com a Robin às terças.$0#$b#Ele está pesquisando sobre os meus produtos.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Pierre",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020048"
+            },
+            "Entries": {
+                "Tue6": "Espero que a Abigail esteja indo bem com o Sebastian.$0",
+                "Tue10": "Espero que o Sebastian e a família dele venham jantar conosco em breve.$1#$e#A Caroline e eu estamos ansiosas para mostrar nossa sopa especial de abóbora.$0#$e#Vou contar para a Abigail.$1",
+                "Wed4": "Eu costumava me preocupar com a Abigail.$0#$b#É muito difícil ser pai...$2#$e#Mas agora acho que ela está indo muito bem com o Sebastian, ela estava tão feliz no dia do casamento.$1",
+                "Thu4": "O Sebastian se ofereceu para me ajudar com o estoque da loja.$0#$b#Ele disse que dá para fazer isso muito mais eficientemente criando um banco de dados interno.$0#$b#Não entendi muito bem o que ele explicou, então acho que vou ter que confiar no meu genro.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Caroline",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020024"
+            },
+            "Entries": {
+                "Mon2": "Tenho medo de que a Abigail queira viajar por aí com o Sebastian...$2",
+                "Tue4": "Quando a Abigail cresceu tanto assim?$2#$e#Parece que foi ontem quando a Robin e eu os levávamos para o playground.$0",
+                "Thu8": "Ah, @, você acha que eu terei netos em breve?$1",
+                "Fri8": "Tive minhas dúvidas sobre o relacionamento da Abigail e do Sebastian, mas ele realmente ajudou a Abigail a se abrir conosco.$0#$e#Sou grata a ele.$1",
+                "Sun4": "Minha menininha já cresceu.$0#$e#Nunca passou pela minha cabeça que ela teria um namorado tão cedo.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Caroline",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020048"
+            },
+            "Entries": {
+                "Mon6": "Oi, @.$0#$e#Vou preparar sashimi para agradecer o Sebastian por cuidar da Abigail.$1#$e#A Abigail tem me pedido para ensiná-la a cozinhar.$0#$b#Desde que se casaram, ela tem se esforçado muito para cozinhar os pratos favoritos dele.$1",
+                "Tue10": "A Robin e eu não paramos de falar sobre a Abigail e o Sebastian.$0#$b#Mesmo agora sendo casados, eles continuam tão fofos um com o outro.$1",
+                "Thu10": "Ah, @, você acha que posso ter netos em breve?$0#$b#Espero que estejam pensando em ter filhos agora que são casados.$1",
+                "Fri8": "Tive minhas dúvidas sobre o relacionamento entre a Abigail e o Sebastian, mas ele realmente ajudou a Abigail a se abrir conosco.$0#$e#Sou grata a ele.$1",
+                "Sat6": "O Sebastian será sempre bem-vindo na minha casa.$1#$b#Não poderia desejar um genro melhor.$1",
+                "Sun6": "Minha menininha já cresceu.$0#$e#Nem passou pela minha cabeça que a Abigail se casaria tão cedo.$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020024"
+            },
+            "Entries": {
+                "Mon2": "Esperei uma eternidade para o Sebastian e a Abigail começarem a namorar.$0#$e#Era tão óbvio, não acha, @?$1",
+                "fall_Wed8": "Ei, @.$0#$e#Ultimamente venho aprimorando minhas habilidades de terceiro elemento.$1",
+                "Fri4": "O Sebastian e a Abigail são meus amigos e eu gosto de ir com eles ao saloon às sextas.$0#$e#...Mas desde que começaram a namorar, às vezes fica meio estranho estar lá com eles.$2#$e#Ah, mas claro que estou feliz por eles.$1",
+                "spring_Sun8": "O Sebastian tem vindo à minha casa tocar teclado com mais frequência.$0#$b#Talvez esteja tentando impressionar a Abigail ou algo assim.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020048"
+            },
+            "Entries": {
+                "Mon4": "Esperei uma eternidade para o Sebastian e a Abigail começarem a namorar.$0#$b#É legal que eles tenham se casado no final.$1",
+                "Fri6": "O Sebastian e a Abigail são meus amigos e gosto de ir com eles ao saloon às sextas.$0#$e#...Mas desde que se casaram, às vezes fica meio estranho estar lá com eles.$2#$e#Ah, mas claro que estou feliz por eles.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/schedules/Abigail",
+            "When": {
+                "Version": "married",
+                "HasSeenEvent": "59020048"
+            },
+            "Entries": {
+                "spring.001": "A casa do Seb fica no lugar mais bonito do vale.$0#$b#Talvez a gente pudesse construir uma casinha lá nas montanhas.$0#$b#Queremos muito morar juntos agora que somos casados.$1",
+                "spring.002": "Acho que a gente consegue, Seb!$1",
+                "summer.001": "Oi, @.$0#$b#Você acha meio estranho a gente ficar por aqui...?$0",
+                "summer.002": "O Seb sempre cuida de mim.$4#$b#Ele é o melhor marido do mundo...$4",
+                "fall.001": "Seria divertido explorar o deserto.$1#$b#Deveríamos ter ido nele na nossa lua de mel, não acha, Seb?",
+                "fall.002": "O Seb está me ensinando a jogar Solarion Chronicles.$1",
+                "winter.001": "Talvez eu pegue outro moletom do Seb.$0#$b#Sabe, como esposa dele acho que é meu direito fazer isso.$1",
+                "winter.002": "Eu realmente quero viajar para fora com o Seb algum dia.$4"
+            }
+        }
+    ]
+}

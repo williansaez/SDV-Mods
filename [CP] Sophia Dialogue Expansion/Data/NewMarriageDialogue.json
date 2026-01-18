@@ -1,0 +1,274 @@
+{
+
+"Changes": 
+    [
+		//Need to optimize some of the stuff here to work better.....
+	    //I hope no poor soul has to look at this spagetthi code 
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "Entries": 
+	  {
+		//For some reason all of this just stopped working. I should just go take a nap.
+		//Still doesn't work. God I need to go to sleep.
+		//Got it to work somehow, we are so back.
+		//It doesnt work now.
+		//I fixed the problem, for real this time!
+	   
+        "patio_Sophia": "{{i18n:Patio.{{Random: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+		
+		"OneKid_0": "{{i18n:OneKid0.{{Random: 1, 2, 3}}}}",
+        "OneKid_1": "{{i18n:OneKid1.{{Random: 1, 2, 3}}}}",
+        "OneKid_2": "{{i18n:OneKid2.{{Random: 1, 2, 3}}}}",
+        "OneKid_3": "{{i18n:OneKid3.{{Random: 1, 2, 3}}}}",
+        "TwoKids_0": "{{i18n:TwoKids0.{{Random: 1, 2, 3}}}}",
+        "TwoKids_1": "{{i18n:TwoKids1.{{Random: 1, 2, 3}}}}",
+        "TwoKids_2": "{{i18n:TwoKids2.{{Random: 1, 2, 3}}}}",
+        "TwoKids_3": "{{i18n:TwoKids3.{{Random: 1, 2, 3}}}}",
+		
+        "Indoor_Day_Sophia": "{{i18n:{{Random: 0, 1, 2, 3, 4}}{{Season}}Indoor_Day.{{Random: 1, 2}}}}",
+        "Indoor_Day_0": "{{i18n:0{{Season}}Indoor_Day.{{Random: 1, 2}}}}",
+        "Indoor_Day_1": "{{i18n:1{{Season}}Indoor_Day.{{Random: 1, 2}}}}",
+        "Indoor_Day_2": "{{i18n:2{{Season}}Indoor_Day.{{Random: 1, 2}}}}",
+        "Indoor_Day_3": "{{i18n:3{{Season}}Indoor_Day.{{Random: 1, 2}}}}",
+        "Indoor_Day_4": "{{i18n:4{{Season}}Indoor_Day.{{Random: 1, 2}}}}",
+		
+		"Indoor_Night_Sophia": "{{i18n:{{Random: 0, 1, 2, 3, 4}}{{Season}}Indoor_Night.{{Random: 1, 2}}}}",
+		"Indoor_Night_0": "{{i18n:0{{Season}}Indoor_Night.{{Random: 1, 2}}}}",
+        "Indoor_Night_1": "{{i18n:1{{Season}}Indoor_Night.{{Random: 1, 2}}}}",
+        "Indoor_Night_2": "{{i18n:2{{Season}}Indoor_Night.{{Random: 1, 2}}}}",
+        "Indoor_Night_3": "{{i18n:3{{Season}}Indoor_Night.{{Random: 1, 2}}}}",
+        "Indoor_Night_4": "{{i18n:4{{Season}}Indoor_Night.{{Random: 1, 2}}}}",
+		
+		"Outdoor_Sophia": "{{i18n:{{Random: 0, 1, 2, 3, 4}}{{Season}}Outdoors.{{Random: 1, 2}}}}",
+        "Outdoor_0": "{{i18n:0{{Season}}Outdoors.{{Random: 1, 2}}}}",
+        "Outdoor_1": "{{i18n:1{{Season}}Outdoors.{{Random: 1, 2}}}}",
+        "Outdoor_2": "{{i18n:2{{Season}}Outdoors.{{Random: 1, 2}}}}",
+        "Outdoor_3": "{{i18n:3{{Season}}Outdoors.{{Random: 1, 2}}}}",
+        "Outdoor_4": "{{i18n:4{{Season}}Outdoors.{{Random: 1, 2}}}}",
+		
+		"Rainy_Day_Sophia": "{{i18n:{{Random: 0, 1, 2, 3, 4}}Rainy_Day.{{Random: 1, 2}}}}",
+		"Rainy_Day_0": "{{i18n:0Rainy_Day.{{Random: 1, 2}}}}",
+        "Rainy_Day_1": "{{i18n:1Rainy_Day.{{Random: 1, 2}}}}",
+        "Rainy_Day_2": "{{i18n:2Rainy_Day.{{Random: 1, 2}}}}",
+        "Rainy_Day_3": "{{i18n:3Rainy_Day.{{Random: 1, 2}}}}",
+        "Rainy_Day_4": "{{i18n:4Rainy_Day.{{Random: 1, 2}}}}",
+		
+		"Rainy_Night_Sophia": "{{i18n:{{Random: 0, 1, 2, 3, 4}}Rainy_Night.{{Random: 1, 2}}}}",
+		"Rainy_Night_0": "{{i18n:0Rainy_Night.{{Random: 1, 2}}}}",
+        "Rainy_Night_1": "{{i18n:1Rainy_Night.{{Random: 1, 2}}}}",
+        "Rainy_Night_2": "{{i18n:2Rainy_Night.{{Random: 1, 2}}}}",
+        "Rainy_Night_3": "{{i18n:3Rainy_Night.{{Random: 1, 2}}}}",
+        "Rainy_Night_4": "{{i18n:4Rainy_Night.{{Random: 1, 2}}}}",
+		
+	    "winter_25": "{{i18n:Star.{{Year}}}}",
+		"winter_8": "{{i18n:Ice.{{Year}}}}",
+		"fall_27": "{{i18n:SpiEve.{{Year}}}}",
+		"fall_16": "{{i18n:Fair.{{Year}}}}",
+		"summer_28": "{{i18n:Jelly.{{Year}}}}",
+		"summer_11": "{{i18n:Luau.{{Year}}}}",
+		"spring_13": "{{i18n:EggFestival.{{Year}}}}",
+		"spring_24": "{{i18n:FlowerDance.{{Year}}}}",
+		
+		"winter_28": "{{i18n:EndOfYear.{{Year}}}}",
+		"spring_1": "{{i18n:BeginningOfYear.{{Year}}}}",
+	
+		
+		"Good_0": "{{i18n:Good.0.{{Random: 1, 2, 3}}}}",
+        "Good_1": "{{i18n:Good.1.{{Random: 1, 2, 3}}}}",
+        "Good_2": "{{i18n:Good.2.{{Random: 1, 2, 3}}}}",
+        "Good_3": "{{i18n:Good.3.{{Random: 1, 2, 3}}}}",
+        "Good_4": "{{i18n:Good.4.{{Random: 1, 2, 3}}}}",
+        "Good_5": "{{i18n:Good.5.{{Random: 1, 2, 3}}}}",
+        "Good_6": "{{i18n:Good.6.{{Random: 1, 2, 3}}}}",
+        "Good_7": "{{i18n:Good.7.{{Random: 1, 2, 3}}}}",
+        "Good_8": "{{i18n:Good.8.{{Random: 1, 2, 3}}}}",
+        "Good_9": "{{i18n:Good.9.{{Random: 1, 2, 3}}}}",
+		
+        "Neutral_0": "{{i18n:Neutral.0.{{Random: 1, 2, 3}}}}",
+        "Neutral_1": "{{i18n:Neutral.1.{{Random: 1, 2, 3}}}}",
+        "Neutral_2": "{{i18n:Neutral.2.{{Random: 1, 2, 3}}}}",
+        "Neutral_3": "{{i18n:Neutral.3.{{Random: 1, 2, 3}}}}",
+        "Neutral_4": "{{i18n:Neutral.4.{{Random: 1, 2, 3}}}}",
+        "Neutral_5": "{{i18n:Neutral.5.{{Random: 1, 2, 3}}}}",
+        "Neutral_6": "{{i18n:Neutral.6.{{Random: 1, 2, 3}}}}",
+        "Neutral_7": "{{i18n:Neutral.7.{{Random: 1, 2, 3}}}}",
+        "Neutral_8": "{{i18n:Neutral.8.{{Random: 1, 2, 3}}}}",
+        "Neutral_9": "{{i18n:Neutral.9.{{Random: 1, 2, 3}}}}",
+		
+		"winter_27": "{{i18n:Birthday.{{random: 1, 2, 3, 4, 5}}}}",
+      },
+    },
+	
+	{
+	 "Action": "EditData",
+	 "Target": "Characters/Dialogue/MarriageDialogueSophia",
+	 "When": 
+		{
+			"Year |contains= 1, 2, 3": false
+		},	
+	 "Entries":
+	    {
+			"winter_25": "{{i18n:Star.{{Random: 1, 2, 3}}}}",
+			"winter_8": "{{i18n:Ice.{{Random: 1, 2, 3}}}}",
+			"fall_27": "{{i18n:SpiEve.{{Random: 1, 2, 3}}}}",
+			"fall_16": "{{i18n:Fair.{{Random: 1, 2, 3}}}}",
+			"summer_28": "{{i18n:Jelly.{{Random: 1, 2, 3}}}}",
+			"summer_11": "{{i18n:Luau.{{Random: 1, 2, 3}}}}",
+			"spring_13": "{{i18n:EggFestival.{{Random: 1, 2, 3}}}}",
+			"spring_24": "{{i18n:FlowerDance.{{Random: 1, 2, 3}}}}",
+			"winter_28": "{{i18n:EndOfYear.{{Random: 1, 2, 3}}}}",
+			"spring_1": "{{i18n:BeginningOfYear.{{Random: 1, 2, 3}}}}",
+		},
+    },
+	
+    {
+     "Action": "EditData",
+     "Target": "Strings/schedules/Sophia",
+	 "When": 
+		{
+			"Spouse": "Sophia"
+		},	 
+     "Entries": 
+        {
+           "NightMarket.001": "{{i18n:Sophia.NightMarket.Marriage.{{random: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}}}}",
+           "DesertFestival_Sophia_marriage": "{{i18n:Sophia.DesertFestival.Marriage.{{Day}}.{{random: 1, 2, 3}}}}",
+		   "marriage.005": "{{i18n:NewSaloonDialogue{{Season}}Marriage.{{Random: 1, 2, 3}}}}",
+		   
+		   "marriage.003": "{{i18n:PierreShop.{{Random: 1, 2, 3, 4, 5}}}}",
+        }, 
+    },
+	
+	{
+     "Action": "EditData",
+     "Target": "Characters/Dialogue/Sophia",
+	 "When": 
+		{
+			"Spouse": "Sophia"
+		},	 
+     "Entries": 
+	    {
+		  "Saloon_20_19": "{{i18n:NewSaloonDialogue{{Season}}Marriage.{{Random: 1, 2, 3}}}}",
+			
+	      "houseUpgrade_2": "{{i18n:HouseUpgrade_2Marriage}}",
+		  "houseUpgrade_3": "{{i18n:HouseUpgrade_3Marriage}}",
+		  "structureBuilt_Fish Pond": "{{i18n:FishPondDialogueMarriage}}",
+		  "wonGrange": "{{i18n:WonGrange.Marriage.{{random: 1, 2, 3}}}}",
+		  
+		  "Resort_Entering": "{{i18n:Resort.Marriage.Enter.{{random: 1, 2, 3}}}}",
+          "Resort_Leaving": "{{i18n:Resort.Marriage.Leave.{{random: 1, 2, 3}}}}",
+          "Resort_Shore": "{{i18n:Resort.Marriage.Shore.{{random: 1, 2, 3}}}}",
+          "Resort_Chair": "{{i18n:Resort.Marriage.Chair.{{random: 1, 2, 3}}}}",
+          "Resort_Bar": "{{i18n:Resort.Marriage.Bar.{{random: 1, 2, 3}}}}",
+          "Resort": "{{i18n:Resort.Marriage.{{random: 1, 2, 3}}}}",
+		  
+		  "AcceptBirthdayGift_Positive": "{{i18n:BDay.Marriage.Good.{{random: 1, 2, 3}}}}",
+          "AcceptBirthdayGift_Negative": "{{i18n:BDay.Marriage.Bad.{{random: 1, 2, 3}}}}",
+		  
+		  "GreenRainFinished": "{{i18n:GreenDayFinished.Marriage.{{random: 1, 2, 3, 4, 5}}}}",
+          "GreenRain_2": "{{i18n:GreenDay.Marriage.5}}",
+	    },
+	},
+	
+	{
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Sophia",
+	  "When": 
+	  {
+	    "Year |contains= 1": false
+	  },
+      "Entries": 
+	  {
+		"GreenRain_2": "{{i18n:GreenDay.Marriage.{{random: 1, 2, 3, 4, 5}}}}",
+      },
+	  
+     },
+	
+	{
+	 "Action": "EditData",
+	 "Target": "Characters/Dialogue/MarriageDialogueSophia",
+	 "When": 
+		{
+			"Year": "3"
+		},	
+	 "Entries":
+	    {
+			"spring_1": "{{i18n:Year3Beginning}}",
+		},
+    },
+	
+	{
+	 "Action": "EditData",
+	 "Target": "Characters/Dialogue/MarriageDialogueSophia",
+	 "When": 
+		{
+			"DayOfWeek |contains= Monday, Tuesday, Wednesday, Thursday": true
+		},	
+	 "Entries":
+	    {
+	      "funLeave_Sophia": "{{i18n:WeekdayMorning.{{season}}.{{DayOfWeek}}.{{random: 1, 2, 3, 4}}}}",
+          "funReturn_Sophia": "{{i18n:WeekdayNight.{{season}}.{{DayOfWeek}}.{{random: 1, 2, 3, 4}}}}",
+		  
+		  "Indoor_Day_Sophia": "{{i18n:WeekdayMorning.{{season}}.{{DayOfWeek}}.{{random: 1, 2, 3, 4}}}}",
+          "Indoor_Day_0": "{{i18n:WeekdayMorning.{{season}}.{{DayOfWeek}}.{{random: 1, 2, 3, 4}}}}",
+          "Indoor_Day_1": "{{i18n:WeekdayMorning.{{season}}.{{DayOfWeek}}.1}}",
+          "Indoor_Day_2": "{{i18n:WeekdayMorning.{{season}}.{{DayOfWeek}}.2}}",
+          "Indoor_Day_3": "{{i18n:WeekdayMorning.{{season}}.{{DayOfWeek}}.3}}",
+          "Indoor_Day_4": "{{i18n:WeekdayMorning.{{season}}.{{DayOfWeek}}.4}}",
+		  
+		  "Indoor_Night_Sophia": "{{i18n:WeekdayNight.{{season}}.{{DayOfWeek}}.{{random: 1, 2, 3, 4}}}}",
+          "Indoor_Night_0": "{{i18n:WeekdayNight.{{season}}.{{DayOfWeek}}.{{random: 1, 2, 3, 4}}}}",
+          "Indoor_Night_1": "{{i18n:WeekdayNight.{{season}}.{{DayOfWeek}}.1}}",
+          "Indoor_Night_2": "{{i18n:WeekdayNight.{{season}}.{{DayOfWeek}}.2}}",
+          "Indoor_Night_3": "{{i18n:WeekdayNight.{{season}}.{{DayOfWeek}}.3}}",
+          "Indoor_Night_4": "{{i18n:WeekdayNight.{{season}}.{{DayOfWeek}}.4}}",
+		},
+    },
+	
+    {
+     "Action": "EditData",
+     "Target": "Characters/Dialogue/MarriageDialogueSophia",
+	 "When": 
+		{
+			"Season": "Winter"
+		},	 
+     "Entries": 
+        {
+			//I'm pretty sure these two below don't apply but just in case.
+			"funLeave_Sophia": "{{i18n:{{Random: 0, 1, 2, 3, 4}}WinterIndoor_Day.{{Random: 1, 2, 3, 4}}}}",
+            "funReturn_Sophia": "{{i18n:{{Random: 0, 1, 2, 3, 4}}WinterIndoor_Night.{{Random: 1, 2, 3, 4}}}}",
+		  
+			"Indoor_Day_Sophia": "{{i18n:{{Random: 0, 1, 2, 3, 4}}WinterIndoor_Day.{{Random: 1, 2, 3, 4}}}}",
+            "Indoor_Day_0": "{{i18n:0WinterIndoor_Day.{{Random: 1, 2, 3, 4}}}}",
+            "Indoor_Day_1": "{{i18n:1WinterIndoor_Day.{{Random: 1, 2, 3, 4}}}}",
+            "Indoor_Day_2": "{{i18n:2WinterIndoor_Day.{{Random: 1, 2, 3, 4}}}}",
+            "Indoor_Day_3": "{{i18n:3WinterIndoor_Day.{{Random: 1, 2, 3, 4}}}}",
+            "Indoor_Day_4": "{{i18n:4WinterIndoor_Day.{{Random: 1, 2, 3, 4}}}}",
+
+		    "Indoor_Night_Sophia": "{{i18n:{{Random: 0, 1, 2, 3, 4}}WinterIndoor_Night.{{Random: 1, 2, 3, 4}}}}",
+		    "Indoor_Night_0": "{{i18n:0WinterIndoor_Night.{{Random: 1, 2, 3, 4}}}}",
+            "Indoor_Night_1": "{{i18n:1WinterIndoor_Night.{{Random: 1, 2, 3, 4}}}}",
+            "Indoor_Night_2": "{{i18n:2WinterIndoor_Night.{{Random: 1, 2, 3, 4}}}}",
+            "Indoor_Night_3": "{{i18n:3WinterIndoor_Night.{{Random: 1, 2, 3, 4}}}}",
+            "Indoor_Night_4": "{{i18n:4WinterIndoor_Night.{{Random: 1, 2, 3, 4}}}}",
+        }, 
+    },
+	
+	
+	{
+	 "Action": "EditData",
+	 "Target": "Characters/Dialogue/MarriageDialogueSophia",
+	 "When": 
+		{
+			"DayOfWeek": "Friday"
+		},	
+	 "Entries":
+	    {
+	      "funLeave_Sophia": "{{i18n:FridayMorning.{{season}}.{{random: 1, 2, 3, 4}}}}",
+          "funReturn_Sophia": "{{i18n:FridayNight.{{season}}.{{random: 1, 2, 3, 4}}}}",
+		},
+    },
+	
+	
+    ]
+}

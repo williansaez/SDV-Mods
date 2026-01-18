@@ -1,0 +1,662 @@
+{
+	//--------------//
+	// Display Name //
+	//--------------//
+
+	"Anderson.Name": "Anderson",
+	"Arthur.Name": "Arthur",
+	"Julia.Name": "Julia",
+
+	//------//
+	// Gift //
+	//------//
+
+	"And.Gift_Hate": "Se isso era uma pegadinha... Eu devo rir ou rezar por você?",
+	"And.Gift_Disl": "Hmm... Não esperava por isso, mas agradeço o gesto.",
+	"And.Gift_Neut": "Sei que foi com boa intenção, mas... Não era necessário!",
+	"And.Gift_Like": "Que presente bonito. Agradeço de coração.",
+	"And.Gift_Love": "Ahh, isso me fez sorrir ainda mais hoje. Que Yoba te abençoe!",
+
+	"Art.Gift_Hate": "Eu já recebi presente ruim, mas esse ganhou o troféu!",
+	"Art.Gift_Disl": "É... Ok, acho que pode ser útil.",
+	"Art.Gift_Neut": "Ah... Eu não sei bem o que fazer com isso, mas obrigado.",
+	"Art.Gift_Like": "Nada mal, nada mal! Vou aproveitar bem.",
+	"Art.Gift_Love": "AGORA SIM! Isso é coisa boa! Você acertou em cheio!",
+
+	"Jul.Gift_Hate": "Sabe... Eu até tento ser educada, mas isso foi cruel!",
+	"Jul.Gift_Disl": "Ah... Bom, pelo menos você lembrou de mim!",
+	"Jul.Gift_Neut": "Ah... Bom, obrigada.",
+	"Jul.Gift_Like": "Eu gostei! Você tem um bom coração.",
+	"Jul.Gift_Love": "Você quer me ver sorrindo o dia todo, né? Pois conseguiu!",
+
+	//-----------//
+	// Maps Name //
+	//-----------//
+
+	"DH.Arthur.House": "Casa do Arthur.",
+	"DH.Julia.House": "Casa da Julia.",
+	"DH.Anderson.House": "Casa do Anderson.",
+	"DH.Anderson.House_Underground": "Porão do Padre.",
+	"DH.Event_Anderson": "Fábrica Abandonada.",
+
+	//-----------//
+	// Dialogues //
+	//-----------//
+
+	//Anderson
+	"Anderson.Intro": "Ah, que bom ver um rosto novo por aqui! Me chamo Anderson. Se precisar de uma palavra amiga, estou por perto... Só não espere sermões, não sou muito bom nisso.$1#$b#Seu avô já me contou algumas histórias deste lugar... Espero que você crie as suas também!",
+	"And.Mon.ComDays": "Seu avô era um homem forte... Trabalhava duro na fazenda, mas sempre achava tempo pra bater um papo. Gostava muito de falar sobre as colheitas.",
+	"And.Tue.ComDays": "O dia tá bem tranquilo, dá até pra aproveitar mais. Vou dar uma volta depois... O silêncio daqui é tão grande que até me perco nos meus pensamentos.$1",
+	"And.Wed.ComDays": "Como está sendo seu dia? Por aqui, tudo segue no mesmo ritmo... Tranquilo, mas com algumas surpresas, especialmente quando o Arthur resolve contar histórias da mina!",
+	"And.Thu.ComDays": "Ainda tenho esperança de ver a Igreja de pé de novo... O importante é manter a fé e seguir em frente, né?$2",
+	"And.Fri.ComDays": "A Dona Julia tem uma sabedoria que você só encontra com quem já viveu muito, sabe? Às vezes ela diz algo tão simples, mas parece que acende uma luz.$1",
+	"And.Sat.ComDays": "Às vezes, as coisas simples são as melhores. Uma boa refeição, um papo tranquilo...",
+	"And.Sun.ComDays": "Vejo você sempre por aqui... Parece que você gostou do nosso pequeno bairro. Aqui tem esse encanto meio escondido, e fico feliz que você tenha enxergado isso.$1",
+	"And.Mon3.ComDays": "A dona Julia sempre tem um sorriso no rosto, mesmo quando as coisas não estão fáceis. Acho que, no fundo, ela sabe que a vida é feita desses pequenos momentos de paz e bondade.",
+	"And.Tue3.ComDays": "Às vezes fico imaginando como era essa igreja quando foi construída... Quantas pessoas já passaram por aqui buscando um momento de paz?$2",
+	"And.Wed3.ComDays": "Passei pela pedreira e o Arthur tava brigando com uma pá. Não sei como, mas tenho certeza que ele perdeu a briga.$3",
+	"And.Thu3.ComDays": "Acho bonito ver você seguindo os passos do seu avô. Cada estação traz novos desafios, mas também novas chances. Ele sempre falava isso.$1",
+	"And.Fri3.ComDays": "As pessoal da Vila raramente sobem até aqui... Acho que o bairro meio afastado acaba ficando de lado.$3",
+	"And.Sat3.ComDays": "Estou ficando velho... A idade começa a me lembrar que o esforço já não é o mesmo. A ladeira me desafia mais do que antes.$6",
+	"And.Sun3.ComDays": "Meu filho, até Yoba descansou no sétimo dia... Agora me diga, qual é a sua desculpa pra continuar trabalhando em um fim de semana?$3",
+	"And.Mon6.ComDays": "Nem frio, nem quente... Parece que Yoba caprichou hoje.$1#$b#Um dia leve, como devia ser sempre. Mas a vida gosta de variar.",
+	"And.Tue6.ComDays": "Quando cheguei aqui, essa igreja ainda tinha sino. Hoje só tem saudade... e esperança.$2",
+	"And.Wed6.ComDays": "Nem toda prece precisa de palavras... Às vezes só o silêncio já diz tudo.#$e#Tem dia que o coração pesa... aí eu vou lá fora, respiro, e deixo o vento ajudar.$2",
+	"And.Thu6.ComDays": "Gosto dessas comidas simples. A alma também precisa de coisa que esquente por dentro.$1",
+	"And.Fri6.ComDays": "Linus me contou uma história ontem... Me emocionei. Ele tem sabedoria de sobra, só falta gente pra ouvir.$4",
+	"And.Sat6.ComDays": "Quando era mais novo, tentei ser sapateiro. Acertei muitos pregos no meu dedo.$5#$b#Yoba me mostrou o caminho com um curativo.",
+	"And.Sun6.ComDays": "Se precisar de uma bênção pra proteger a colheita... Eu posso tentar. Mas é segredo, viu?$1",
+	"And.Mon9.ComDays": "Seu avô ficaria orgulhoso do que você tá fazendo por aqui. Eu fico também.$1#$e#A paz que você trouxe pro vale é mais forte que qualquer sermão que eu já tenha escutado.",
+	"And.Tue9.ComDays": "Já ouvi confissões que mais pareciam poesia. Tem gente que fala com o coração e nem percebe.",
+	"And.Wed9.ComDays": "Tive um amigo que abandonou tudo pra cuidar da mãe doente. Nunca ganhou medalha... Mas ganhou meu respeito eterno.$1",
+	"And.Thu9.ComDays": "A igreja onde servi antes daqui ficava no meio do nada. Só tinha eu, um sino velho e uma família de pombos.$3",
+	"And.Fri9.ComDays": "Já bati na porta errada achando que era um velório... era uma festa de aniversário. Saí comendo um pedaço de bolo e benzi todo mundo por precaução.$4",
+	"And.Sat9.ComDays": "A Julia finge que não liga quando esquecem dela, mas o coração dela sempre espera por uma visita.$2",
+	"And.Sun9.ComDays": "Acordei com passarinho cantando. Pensei: se até eles estão animados, é sinal de que o dia promete.$1",
+
+	"And.Mon.ColDays": "Sabe, seu avô era um homem muito dedicado... Se ele visse você cuidando da fazenda agora, acho que ficaria bem orgulhoso.$1",
+	"And.Tue.ColDays": "Se precisar de algo, é só chamar! Menos pra carregar coisas pesadas, aí melhor chamar o Arthur...",
+	"And.Wed.ColDays": "Dia bom pra um chá quentinho... Pena que o meu acabou. Será que a Dona Julia tem sobrando?$3",
+	"And.Thu.ColDays": "Sabe, viver afastado do centro tem suas vantagens...#$b#Mas às vezes faz falta ver mais rostos por aqui.$3",
+	"And.Fri.ColDays": "Ah, se eu tivesse a energia que você tem! Eu subiria essa ladeira sem reclamar...$5#$b#Quer dizer... Talvez só um pouquinho.$1",
+	"And.Sat.ColDays": "Se precisar de uma palavra amiga ou só de um café quente, minha porta está sempre aberta!$1",
+	"And.Sun.ColDays": "Yoba nunca faz nada sem um propósito.",
+	"And.Mon3.ColDays": "A vida por aqui pode ser simples, mas nunca chata. Sempre tem alguém aprontando alguma coisa!$1#$e#Tentei consertar a goteira da igreja. Agora tem duas. Melhor eu voltar a rezar.$5",
+	"And.Tue3.ColDays": "Gosto de pensar que todo mundo tem um propósito. O meu? Acho que é tentar consertar o que dá e aceitar o que não dá.",
+	"And.Wed3.ColDays": "Reza a lenda que, se o Arthur acordar cedo num dia frio, a mina de carvão aquece sozinha... Só não sei se é verdade!$3#$e#Arthur vive dizendo que a caminhonete dele ainda aguenta muito... Mas a cada semana, ela faz um barulho novo.$3",
+	"And.Thu3.ColDays": "Se eu ganhasse uma moeda cada vez que alguém me pergunta quando a igreja vai ser reformada... Bom, talvez eu já tivesse comprado um telhado novo!$3",
+	"And.Fri3.ColDays": "Dona Julia faz um chá de ervas que esquenta até o coração! Acho que vou fazer uma visita...",
+	"And.Sat3.ColDays": "Nem sempre é fácil manter a fé forte, mas aprendi que a persistência é um bom remédio.$1",
+	"And.Sun3.ColDays": "Seu avô sempre foi um homem de poucas palavras, mas com muito a ensinar. Ver você na fazenda deve deixar ele orgulhoso, onde quer que esteja.",
+	"And.Mon6.ColDays": "A solidão não grita, só vai chegando de mansinho. É bom quando alguém aparece pra espantar ela.",
+	"And.Tue6.ColDays": "Antes de vir pra cá, passei um tempo num vilarejo onde os galos cantavam às três da manhã. Nunca mais dormi direito depois daquilo.$3",
+	"And.Wed6.ColDays": "Nunca tive filhos, mas a vida me deu muitos 'filhos emprestados' por onde passei. Cada um deixou um pedacinho de carinho comigo.",
+	"And.Thu6.ColDays": "Não gosto quando tentam empurrar fé à força. Fé não se impõe, se planta.$3",
+	"And.Fri6.ColDays": "A Emily me ofereceu cristais pra 'harmonizar a energia da igreja'. Agradeci, mas preferi só abrir a janela.$3",
+	"And.Sat6.ColDays": "Às vezes sinto falta de conversar com minha mãe. Ela tinha respostas simples pra perguntas difíceis.$3",
+	"And.Sun6.ColDays": "É nessas manhãs frias que eu mais admiro os agricultores... Acordar cedo assim devia dar medalha.$3",
+	"And.Mon9.ColDays": "Antes de chegar ao Vale, andei muito por esse mundo... Conheci igrejas vazias, mercados cheios, e gente boa em todos os lugares.",
+	"And.Tue9.ColDays": "Essa ladeira do bairro já me derrubou três vezes... a última foi com testemunha. Rimos juntos.#$b#... Mas fiquei com joelho dolorido.$3",
+	"And.Wed9.ColDays": "Disseram que a Marnie e o prefeito estavam discutindo de novo. Achei que era sobre animais... Mas parecia coisa do coração.$3#$e#O Clint passou aqui ontem. Mas ele nem respondeu meu 'bom dia'. Ou tava frio demais ou o coração dele tá mais gelado ainda.$3",
+	"And.Thu9.ColDays": "Nem todo mundo que sorri tá sendo sincero. Às vezes o sorriso é só disfarce... e olha que entendo disso.$3",
+	"And.Fri9.ColDays": "O vento anda entrando pela fresta da janela... Tô começando a achar que meu cobertor virou decoração.$5",
+	"And.Sat9.ColDays": "Hoje eu limpei tanto a capela que até as aranhas me agradeceram. Acho que agora elas vão rezar também.$1",
+	"And.Sun9.ColDays": "Todo mundo carrega um fardo, só muda o formato. Tem gente que arrasta, tem gente que disfarça com piada.$3",
+
+	"And.EvRe.C1": "Certo, prometo que será seguro!#$b#Estou muito bem preparado dessa vez.$1",
+	"And.EvRe.C2": "Hm... Tudo bem então.$2",
+
+	"And.AcRe.01": "Se estiver precisando de ajuda, é só me falar... Não precisa chegar a esse ponto.$2",
+	"And.AcRe.02": "Isso é um presente ou um milagre? Porque eu adorei!$4",
+
+	// Arthur
+	"Arthur.Intro": "Eita! Quem é você? Ah, o novo fazendeiro... Sou Arthur, minerador. Se precisar de carvão ou de uma conversa cheia de verdades inconvenientes, sabe onde me achar.$1^Eita! Quem é você? Ah, a nova fazendeira... Sou Arthur, minerador. Se precisar de carvão ou de uma conversa cheia de verdades inconvenientes, sabe onde me achar.$1",
+	"Art.Mon.ComDays": "Se eu ganhasse uma moeda pra cada parafuso que já apertei nessa vida... Eu ainda tava pobre.$2",
+	"Art.Tue.ComDays": "Se tivesse competição de tropeçar em pedra, eu ganhava!$3#$e#Ó, vou te dar um conselho: Nunca confie em uma pá enferrujada... Aprendi isso do pior jeito.$2",
+	"Art.Wed.ComDays": "Se minha picareta falasse, ela ia me xingar o dia todo!$1#$e#Trabalhar sozinho tem vantagem: ninguém me me mandar parar!",
+	"Art.Thu.ComDays": "Eu sou baixinho, mas meu monte de dívida tá alto!$1#$e#Já pensou em ser minerador? Não? Boa escolha!#$e#Seu avô e eu não éramos tão próximos, mas eu lembro que ele nunca fugia do trabalho pesado... Espero que isso seja de família!$1",
+	"Art.Fri.ComDays": "Se o Padre tentasse consertar a igreja do mesmo jeito que eu conserto minha caminhonete... Bom, ele iria precisar de muita fita adesiva!$1#$e#Eu falo demais, mas pelo menos não dou sermão! Isso eu deixo pro padre!",
+	"Art.Sat.ComDays": "Dona Julia me ofereceu chá outro dia... Mas se não tiver gosto de carvão, eu nem reconheço a bebida!$1#$e#Já ouvi som de risadas na pedreira... E eu tava sozinho. Pelo menos eu acho.$2",
+	"Art.Sun.ComDays": "Trabalhar na mina é bom, mas sair dela e tomar uma cerveja é melhor!#$e#Aqui todo mundo se conhece... Não dá nem pra espirrar sem alguém comentar depois!$1",
+	"Art.Mon3.ComDays": "Se um dia minha caminhonete parar de dar problema, eu desconfio que morreu de vez!$2#$e#Sabe como a gente fica mais alto? Subindo numa pilha de problemas! E nisso, tô no topo!$2",
+	"Art.Tue3.ComDays": "Você já tentou carregar um saco de carvão ladeira acima? Se não, nem reclama da vida!$3",
+	"Art.Wed3.ComDays": "Eu sou baixinho, mas meu estoque de reclamação é alto!$3#$e#Esse local já foi mais movimentado... Mas os que ficaram são os que realmente gostam daqui!$2",
+	"Art.Thu3.ComDays": "Dona Julia diz que gosta de rezar... Eu rezo toda vez que minha caminhonete desce a ladeira sem freio!$2",
+	"Art.Fri3.ComDays": "Se paciência fosse ouro, o Padre era rico. Eu tava falido!$3#$e#Sua fazenda tem terra boa... Se eu não gostasse tanto de pedra, até pensava em plantar alguma coisa!",
+	"Art.Sat3.ComDays": "A vida de minerador é simples: ou você acha minério, ou você só cava um buraco!$2",
+	"Art.Sun3.ComDays": "A Vila mudou muito desde que cheguei... Mas as pedras? Essas tão no mesmo lugar de sempre!#$e#O Willy pesca peixe, eu pesco minério... Mas no fim, os dois só querem uma cerveja gelada!$1",
+	"Art.Mon6.ComDays": "Quando cheguei aqui, seu avô ainda mexia com a terra. Não plantava muito, mas era teimoso igual você.#$b#Você limpou aquele mato todo sozinho?$2",
+	"Art.Tue6.ComDays": "Certa vez, Pierre me ofereceu um desconto... De dois centavos! Falei pra ele guardar pra aposentadoria.$3",
+	"Art.Wed6.ComDays": "Minha mãe dizia que homem de verdade planta e colhe. Eu digo que homem esperto troca carvão por pão.$1#$e#Eu gostava jogava bola com meu irmão quando era moleque... Ele chutava, e eu caía.$1",
+	"Art.Thu6.ComDays": "Sua plantação tá crescendo muito bem.#$b#Diferente do meu cabelo, que só cai...$2",
+	"Art.Fri6.ComDays": "Se mais alguém me disser 'Bom Dia', eu vou considerar agressão verbal.$3#$e#A única coisa que deu certo hoje foi o desastre.$3",
+	"Art.Sat6.ComDays": "Deixei a marmita na pedreira e, quando voltei, um guaxinim tava dando nota pro tempero.$3",
+	"Art.Sun6.ComDays": "Lewis vive com aquela cara de quem tá escondendo alguma coisa... E deve estar mesmo!$3",
+	"Art.Mon9.ComDays": "Você não se cansa?#$b#Se eu tivesse seu ritmo, já tinha desmaiado umas seis vezes por semana.$1#$e#Seu avô era mais devagar, mas teimoso igual. Tá no sangue.",
+	"Art.Tue9.ComDays": "Olha, você tá transformando aquela fazenda num império. Eu, por outro lado, mal consigo transformar carvão em dinheiro.#$e#Se você continuar desse jeito, vai precisar de um segundo celeiro só pra guardar os elogios!$1",
+	"Art.Wed9.ComDays": "Na minha família, quem perdia no jogo de cartas lavava a louça. Por isso aprendi a trapacear cedo.$1#$e#Tive um irmão que dizia que era médium. Ele previa a hora do almoço com uma precisão absurda.",
+	"Art.Thu9.ComDays": "O George me deu uma encarada... Acho que ganhei. Porque ele resmungou e foi embora!$1",
+	"Art.Fri9.ComDays": "Passei o dia pensando em arrumar a casa. Aí pensei melhor e continuei pensando.",
+	"Art.Sat9.ComDays": "Julia fez pão de queijo hoje. Se eu fosse você, corria antes que eu coma tudo.$1",
+	"Art.Sun9.ComDays": "Se eu fosse escritor, minhas histórias seriam sobre alguém que perde a chave da casa todos os dias...$3",
+
+	"Art.Mon.ColDays": "Tá frio ou sou eu que tô ficando velho? Se for as duas coisas, tô ferrado.$1#$e#Ficar longe da vila tem suas vantagens. Tipo, ninguém pedindo coisa emprestada.$3",
+	"Art.Tue.ColDays": "Tentei sair da cama hoje... Meu joelho quase pediu demissão.$2#$e#Você já tentou minerar com o nariz escorrendo? Não recomendo.$3",
+	"Art.Wed.ColDays": "Se minha cabana tremer mais uma vez com esse vento, eu mudo pra mina de vez!$3",
+	"Art.Thu.ColDays": "Padre disse que o frio fortalece o espírito. Mas eu só senti meu traseiro congelar.$2#$e#Você já tentou conversar com a Marnie sobre outra coisa que não seja animais? Não dá!",
+	"Art.Fri.ColDays": "Se me pedirem ajuda com mudança mais uma vez, eu juro que sumo no mato e viro lenda urbana.$3#$e#Hoje eu não tô pra conversa. Só tô aceitArto silêncio e comida.$3",
+	"Art.Sat.ColDays": "Tentei esquentar o almoço na fogueira... Esquentei tanto que virou carvão gourmet.$1",
+	"Art.Sun.ColDays": "A vida aqui não é fácil, mas é o que eu conheço. Se parar, eu desArto.#$e#Às vezes, penso em ir embora... Mas aí lembro que a mina foi o que sobrou de tudo que eu já tive.$2",
+	"Art.Mon3.ColDays": "Pierre é bom de negócio... Mas acho que ele se esconderia até da própria avó pra não dar desconto.$3",
+	"Art.Tue3.ColDays": "Não sou muito fã de limpeza... Prefiro chamar de 'decoração mineral espontânea'.#$e#Um dia eu ainda vou achar ouro nessa mina... Nem que seja um brinco perdido da Julia.$1",
+	"Art.Wed3.ColDays": "Você viu meu casaco azul? Nem eu. Acho que ele fugiu depois da terceira semana sem banho...$1",
+	"Art.Thu3.ColDays": "O Padre disse que o frio purifica. Bom, então minha cueca tá quase sagrada.$2#$e#Antigamente eu torcia pra um time de futebol lá da cidade... Mas depois que perderam de 7 a 1, passei a torcer pro silêncio.$3",
+	"Art.Fri3.ColDays": "Hoje comi algo que tava na geladeira há duas semanas. Sobrevivi, então tá valendo.",
+	"Art.Sat3.ColDays": "Se o Gus abrisse uma filial aqui no bairro, eu era freguês vitalício.$1#$e#Gosto de gente que fala alto, come bem e não reclama de poeira. Gente normal me dá alergia.",
+	"Art.Sun3.ColDays": "Jurei que vi uma sombra se mexendo entre as pedras. Aí pisquei... E sumiu. Tô ficando doido ou não tô sozinho na mina?$2",
+	"Art.Mon6.ColDays": "Hoje o café esfriou antes de eu terminar de bocejar. Tristeza pura...$2",
+	"Art.Tue6.ColDays": "A Robin é gente boa... Mas toda vez que ela me vê, já fala em reforma. Eu hein.$3#$b#Meu barraco é velho, mas não acho que precise de uma reforma.$2",
+	"Art.Wed6.ColDays": "Quando a Julia fica quieta demais, eu fico preocupado...$2#$e#Não é fácil ver todo mundo indo embora... E a gente ficando por aqui, feito raiz velha.$2",
+	"Art.Thu6.ColDays": "Quando era mais jovem, tentei tocar violão... Mas o som era tão ruim que até os ratos mudaram de endereço.$1",
+	"Art.Fri6.ColDays": "Tô te observando, viu? Cê trabalha mais que três burros juntos. Tô começando a achar que você é parente de formiga.$1#$e#Se você continuar nesse ritmo, daqui a pouco sua fazenda vai aparecer em revista. Só não me esquece quando ficar famoso, hein?",
+	"Art.Sat6.ColDays": "A luz piscou três vezes lá em casa. Ou é fantasma, ou é a fiação pedindo aposentadoria.$3",
+	"Art.Sun6.ColDays": "Se tiver café e pão de queijo, eu topo qualquer conversa. Sem isso, sou só um minerador com cara feia.$3#$e#Uma vez tentei fazer pão. Ficou tão duro que usei como encosto de porta. Tá lá até hoje.$1",
+	"Art.Mon9.ColDays": "No fundo, acho que você é mais teimoso que eu... E isso é um elogio, viu? Só os teimosos sobrevivem nesse vale.#$e#De todos nesse vale, você é o único que consegue me fazer rir mesmo quando o dia tá virado no avesso.$1",
+	"Art.Tue9.ColDays": "Já fui apaixonado por uma cozinheira de Zuzu City... Fomos casados por alguns anos.$2#$b#Mas ela trocou meu amor por um forno industrial.$3",
+	"Art.Wed9.ColDays": "Meu passatempo favorito é reclamar da caminhonete velha. O segundo é empurrar ela morro abaixo pra ver se pega.$1",
+	"Art.Thu9.ColDays": "Antigamente aqui tinha tanta gente que até o vento tinha que pedir licença pra passar. Hoje ele faz o que quer.$2#$e#quando cheguei aqui, tinha uma placa na entrada dizendo 'Bem-vindo'. Roubaram a placa. Agora é só 'Vindo'.$3",
+	"Art.Fri9.ColDays": "Vi suas plantações esses dias. Parecem propaganda de loja de adubo. Tô impressionado, viu!$1",
+	"Art.Sat9.ColDays": "Teve um primo meu que veio me visitar aqui uma vez. Ficou uma hora, tropeçou, caiu na lama e nunca mais voltou.#$e#Minha mãe fazia sopa de tudo. Quando ela dizia 'sopa surpresa', era pra ter medo mesmo.$1",
+	"Art.Sun9.ColDays": "Esse tempo frio é bom pra dormir... Pena que o despertador não concorda.$3#$e#Sonhei que tava numa ilha cheia de comida. Acordei mastigando o travesseiro. De novo.$1",
+
+	"Art.EvRe.C1": "Ótimo, tenho certeza de que mais um na torcida vai dar mais sorte!$1",
+	"Art.EvRe.C2": "Hm... Tudo bem então.$2",
+
+	"Art.AcRe.01": "Ei, eu sei que a vida na fazenda é dura, mas já chegou nesse ponto?! Se quiser, eu te arrumo um saco de carvão... Não dá para comer, mas pelo menos é mais limpo!$2",
+	"Art.AcRe.02": "Hahaha! Finalmente alguém que sabe dar presente de verdade!$1",
+
+	// Julia
+	"Julia.Intro": "Ah, você deve ser o neto do antigo fazendeiro! Eu sou a Julia. Conheci seu avô há muitos anos... Espero que goste do vale tanto quanto ele gostava!^Ah, você deve ser a neta do antigo fazendeiro! Eu sou a Julia. Conheci seu avô há muitos anos... Espero que goste do vale tanto quanto ele gostava!",
+	"Jul.Mon.ComDays": "Parece que foi ontem que eu cheguei aqui... Mas já faz uma vida inteira.#$e#Faz tempo que não vejo a Evelyn... Bons tempos aqueles.$3",
+	"Jul.Tue.ComDays": "E então? Subir essa ladeira foi difícil hoje ou você já tá acostumado?",
+	"Jul.Wed.ComDays": "O Padre sempre passa aqui pra ver se estou bem... Mas ele não precisa se preocupar tanto, eu sou mais forte do que pareço!$1#$e#Ah... Sinto falta da igreja aberta. Mas sei que Yoba me escuta de qualquer lugar.$3",
+	"Jul.Thu.ComDays": "O Arthur? Ah, ele fala demais! Mas no fundo, é um bom amigo.",
+	"Jul.Fri.ComDays": "Ah, faz tempo que não vejo alguém tão dedicado à terra... Seu avô ficaria orgulhoso.$1",
+	"Jul.Sat.ComDays": "Uma visita assim alegra o dia. Senão, eu fico só conversando com minhas plantas!",
+	"Jul.Sun.ComDays": "Eu cozinho bem, mas comer é onde eu realmente sou especialista!$1#$e#Dieta? Ah, eu já tentei... Mas e a alegria de um pão quentinho com manteiga? Não dá!",
+	"Jul.Mon3.ComDays": "Os anos passam rápido, viu? Outro dia eu tava correndo pelo vale com a Evelyn... Agora, só corro na memória.$2#$e#Com o tempo, a gente aprende que o silêncio pode ser amigo... Mas às vezes ele pesa.$3",
+	"Jul.Tue3.ComDays": "Se precisar de um chapéu, eu faço um bem bonito! Protege do sol e ainda dá um charme.$1",
+	"Jul.Wed3.ComDays": "Eu gosto da minha casinha, mas confesso... O silêncio às vezes pesa um pouquinho.$2#$e#Aqui é tão quieto que, se eu rezar bem baixinho, acho que Yoba ainda escuta.$2",
+	"Jul.Thu3.ComDays": "Ah... Família é complicada. Mas no fim das contas, todo mundo só quer um pouco de carinho.$3",
+	"Jul.Fri3.ComDays": "Dizem que felicidade não se compra... Mas já experimentou um pedaço de bolo bem feito?$1#$e#Não é que eu coma muito... É que eu aproveito cada mordida com muito carinho!",
+	"Jul.Sat3.ComDays": "O Arthur fala alto o suficiente pra eu escutar daqui... Não preciso nem sair de casa!$1",
+	"Jul.Sun3.ComDays": "Padre Anderson sempre tem uma palavra boa. Às vezes, só de conversar com ele, o dia melhora.#$e#Não importa o peso do dia, no fim sempre há um motivo pra agradecer, nem que seja pelo descanso!$1",
+	"Jul.Mon6.ComDays": "Eu ia te contar uma coisa tão engraçada... Mas a danada escapou da minha cabeça. Deve ter fugido junto com minha memória!$1",
+	"Jul.Tue6.ComDays": "Fico na janela vendo as folhas caírem. É bobo, mas preenche o tempo.$3",
+	"Jul.Wed6.ComDays": "Antônio costumava dançar comigo na cozinha... Até queimava o arroz. Mas eu comia mesmo assim.",
+	"Jul.Thu6.ComDays": "Às vezes, me pego procurando meus óculos... E eles tão no meu rosto! Já aconteceu com você?$1",
+	"Jul.Fri6.ComDays": "Eu adorava a escola... Só não lembro muito bem o que aprendi. Mas lembro que eu ria muito!",
+	"Jul.Sat6.ComDays": "Você tem galinhas? Eu tinha uma chamada Gertrudes. Pena que ela fugiu com um galo...$2#$e#Que sensação ruim...$3",
+	"Jul.Sun6.ComDays": "O prefeito vive prometendo asfalto pra ladeira. Se ele botar um tijolo lá um dia, eu danço de alegria.$3",
+	"Jul.Mon9.ComDays": "Teve uma vez que lavei roupa no rio... E voltei só com a metade. O resto foi nadar.$1",
+	"Jul.Tue9.ComDays": "Ontem eu cozinhei arroz... Pelo menos acho que era arroz. O cheiro tava bom, então deve ter dado certo.$1",
+	"Jul.Wed9.ComDays": "Fiz pão, mas esqueci de colocar o fermento. Virou uma pedra carinhosa. Dei pro Arthur, ele gostou!$1",
+	"Jul.Thu9.ComDays": "Gosto de chá de erva-doce... Acalma a cabeça, o coração e as pernas inchadas.",
+	"Jul.Fri9.ComDays": "Sentei no banquinho torto e fui pro chão. Fiquei rindo sozinha por meia hora...$1",
+	"Jul.Sat9.ComDays": "Tinha uma coisa que eu queria te contar... Era boa! Mas escapou. quando lembrar, eu falo.$2",
+	"Jul.Sun9.ComDays": "Às vezes costuro roupinha de boneca... Não sei pra quem. Mas me distrai.$3",
+
+	"Jul.Mon.ColDays": "Eu devia aproveitar o frio pra organizar as coisas em casa... Mas prefiro aproveitar pra tomar chá e olhar pela janela.",
+	"Jul.Tue.ColDays": "Se continuar assim, vou acabar dormindo com três camadas de roupa! Não que eu já não tenha tentado...$2#$e#Já pensou em aprender a costurar? Dá trabalho, mas pelo menos a roupa sai do jeito que a gente quer!",
+	"Jul.Wed.ColDays": "Se eu tivesse um forno maior, ia passar o dia todo assando pão... E comendo também, é claro!$1",
+	"Jul.Thu.ColDays": "Arthur veio aqui contando história de mina de novo... Queria ter metade da energia dele!$1",
+	"Jul.Fri.ColDays": "Com esse frio, minha horta tá até encolhida... Igual a mim debaixo das cobertas!#$e#Minha avó dizia que frio assim é desculpa perfeita pra não sair de casa... Eu acho que nem de desculpa eu preciso!$2",
+	"Jul.Sat.ColDays": "Aquele Padre é um homem bom... Mas às vezes acho que ele devia se preocupar um pouco mais com ele mesmo!$2",
+	"Jul.Sun.ColDays": "Me conta... A vida na fazenda tem sido boa? O trabalho pode ser pesado, mas espero que esteja valendo a pena!",
+	"Jul.Mon3.ColDays": "Arthur veio aqui dizendo que frio não afeta minerador... Mas tava tremendo mais que gelatina.$1",
+	"Jul.Tue3.ColDays": "Padre Anderson sempre diz que a fé aquece o coração... Mas bem que uma lareira ajudaria também, né?$1",
+	"Jul.Wed3.ColDays": "Gosto de tomar chá quente quando faz frio...#$b#O problema é que sempre esqueço a xícara em algum canto e ela esfria antes de eu terminar.$2",
+	"Jul.Thu3.ColDays": "Tô pra te dizer que a melhor coisa de envelhecer é que ninguém mais te apressa...#$b#Mas também ninguém te espera!$2",
+	"Jul.Fri3.ColDays": "Tem dias que tudo o que eu queria era sentar na praça e ver o tempo passar... Mas e a coragem pra encarar essa ladeira?$3",
+	"Jul.Sat3.ColDays": "O tempo passa e muita coisa muda... Mas pão caseiro com manteiga sempre vai ser uma das melhores invenções do mundo.$1",
+	"Jul.Sun3.ColDays": "Sinto falta de quando a casa era cheia... Mas aprendi a fazer companhia pra mim mesma.$3",
+	"Jul.Mon6.ColDays": "Me disseram pra tomar remédio às três... Mas eu tomei às duas. Ou às quatro? Bom, tô viva, né?$1",
+	"Jul.Tue6.ColDays": "O carteiro nunca sobe mais aqui... Deve achar que a velha aqui não escreve pra ninguém. E ele tá certo!$3",
+	"Jul.Wed6.ColDays": "Se você voltar amanhã, talvez eu tenha um doce de abóbora. Ou era beterraba? Bom, vai ser doce!$1",
+	"Jul.Thu6.ColDays": "Quando o vento passa por entre as árvores, parece que elas tão sussurrando histórias antigas. Às vezes me assusto!$1",
+	"Jul.Fri6.ColDays": "A algum tempo atrás, Emily me deu um tecido bonito, mas eu esqueci o que ia costurar.$2",
+	"Jul.Sat6.ColDays": "Dia bom pra se enrolar no cobertor e fingir que o mundo lá fora não existe, né?$1",
+	"Jul.Sun6.ColDays": "A Evelyn era uma danadinha quando criança! Uma vez a gente se escondeu na torre do sino... Levei bronca até da minha avó.$1",
+	"Jul.Mon9.ColDays": "Dizem que o tempo muda o humor da gente... Mas o meu continua igual: meio bobo, meio cansado.",
+	"Jul.Tue9.ColDays": "Meus ossos avisam quando o frio vem. São mais confiáveis que previsão do tempo.$2",
+	"Jul.Wed9.ColDays": "O padre Anderson é um bom ouvinte... às vezes eu nem sei mais o que tô falando, e ele continua sorrindo.$1",
+	"Jul.Thu9.ColDays": "Tive uma bicicleta vermelha... Desci essa ladeira com ela uma vez.#$b#Não tenho certeza do que aconteceu depois com ela.$2",
+	"Jul.Fri9.ColDays": "Passei creme de cabelo no joelho pensando que era pomada. Tô com o joelho brilhoso, pelo menos.$1",
+	"Jul.Sat9.ColDays": "Esses dias achei uma caixa cheia de cartas antigas... Ou será que era receita? Já nem sei mais.$2",
+	"Jul.Sun9.ColDays": "A gente vai ficando velha e vai virando lembrança. Só espero ser lembrança boa.",
+
+	"Jul.EvRe.A1": "Que gentil da sua parte, fico muito feliz!$1",
+	"Jul.EvRe.A2": "Hm... Tudo bem então.$3",
+	"Jul.EvRe.B1": "Oh! Claro, se você insiste.$1",
+	"Jul.EvRe.B2": "A vida de um Fazendeiro é bem cheia, imagino.^A vida de uma Fazendeira é bem cheia, imagino.",
+
+	"Jul.AcRe.01": "Se precisar de um prato de comida, é só bater na minha porta... Não precisa mexer no lixo!$2",
+	"Jul.AcRe.02": "Isso me lembra bons tempos... Muito obrigada, de coração!$1",
+
+	//----------//
+	// Festival //
+	//----------//
+
+	"And.Fest.Egg": "Eu não participo, mas gosto de observar. É divertido ver tanta energia espalhada pelo vale.#$e#Me chamaram pra ajudar a esconder os ovos... Acho que exagerei. Até eu esqueci onde coloquei.$3",
+	"And.Fest.Fair": "Nada como um dia em que todo mundo finge que sabe cozinhar, plantar e esculpir madeira.$1#$e#Estou mais aqui pra conversar e ouvir histórias. Isso sim me alegra.",
+	"Art.Fest.Fair": "Essas máquinas de pesca roubam, viu? Eu joguei três vezes e nada!$3#$e#Me avisa se tiver um concurso de braço de ferro. Aí sim é justo!",
+	"Art.Fest.Ice": "Tentei fazer amizade com o peixe. Ele me ignorou. Ingrato.#3#$e#Se eu cair nesse gelo, juro que viro estátua e fico ali mesmo pro próximo festival!$1",
+
+	//---------------//
+	// Topic Vanilla //
+	//---------------//
+
+	// Anderson
+	"And.ToVa.01": "Bom... Se não der coceira nem fizer cair cabelo, acho que tá tudo bem.$3#$b#Se começar a chover azul ou roxo depois dessa, vou ter que rever algumas preces!$3",
+	"And.ToVa.02": "O pequeno Leo é uma prova de que Yoba sempre dá um jeito. Crescer sozinho não deve ter sido fácil.#$b#Ele tem um coração bom, dá pra ver. Espero que encontre felicidade por aqui.$1",
+	"And.ToVa.03": "Ah, um novo lugar para as famílias se reunirem. Isso é sempre uma coisa boa!",
+	"And.ToVa.04": "Hmm... Será que tem desconto para Padres?$3",
+	"And.ToVa.05": "Que gesto maravilhoso @. Melhor que reforma, é uma nova chance. Espero que a Pam aproveite bem!$1",
+	"And.ToVa.06": "Pam, ganhou um belo presente! Bom, eu gostaria de acreditar que foi um milagre... Mas até milagre tem um autor.",
+	"And.ToVa.07": "Os carrinhos da mina estão funcionando? Bom... O que importa é que voltou a funcionar, né? Só não pergunte como.$3",
+	"And.ToVa.08": "Yoba deve estar sorrindo ao ver isso. A vila voltou a ter um coração!$1",
+	"And.ToVa.09": "Foi certo o que a Joja fez? O progresso tem seu preço. Mas será que esse preço vale a pena?$5",
+	"And.ToVa.10": "Uma ponte reconstruída... Um símbolo de que sempre há um caminho de volta.",
+	"And.ToVa.11": "O ônibus voltou a funcionar? Se for um milagre, foi um bem prático!$1#$b#Só espero que os freios tenham sido revisados também!$3",
+
+	// Arthur
+	"Art.ToVa.01": "Chuva verde? Sei não... Da última vez que vi algo assim, meu capacete brilhou no escuro por uma semana!$2",
+	"Art.ToVa.02": "Um muleque criado por papagaios?$2#$b#Se tivesse crescido com urso, eu ainda ia duvidar... Mas papagaios? Bom, pelo menos deve contar boas histórias!",
+	"Art.ToVa.03": "Cinema? Hm... Não sei, prefiro uma boa conversa no bar. Ou um cochilo, tanto faz.",
+	"Art.ToVa.04": "Beleza, mas se for um filme chato, eu começo a roncar de propósito!$1",
+	"Art.ToVa.05": "A Pam tá morando bem agora, hein?#$b#Se você quiser reformar minha cabana também, eu aceito! Mas sem tirar a poeira, faz parte do charme!$1",
+	"Art.ToVa.06": "Do nada reformaram a casa da Pam? Se isso começar a acontecer com outras casas, eu deixo minha porta destrancada!",
+	"Art.ToVa.07": "Os carrinhos tão funcionando de novo? Ótimo! Agora posso chegar sujo de carvão no Saloon mais rápido!$1",
+	"Art.ToVa.08": "Ah, agora sim! Melhor ver aquele prédio restaurado do que caindo aos pedaços.",
+	"Art.ToVa.09": "Se eu acordar um dia e minha pedreira virar um mercadinho da Joja, eu saio quebrando tudo!$3",
+	"Art.ToVa.10": "A velha ponte foi restaurada? Isso aí já devia ter sido consertado faz tempo! Ainda bem que alguém tomou vergonha na cara!$2",
+	"Art.ToVa.11": "Eita, o ônibus voltou? Bom, espero que a Pam lembre de frear na descida!$1",
+
+	// Julia
+	"Jul.ToVa.01": "Isso não deve ser normal... Será que o Padre tem alguma oração pra isso?$2",
+	"Jul.ToVa.02": "Pobrezinho do Leo... Crescer sozinho numa ilha deve ter sido difícil. Ainda bem que trouxeram ele pra cá.$2",
+	"Jul.ToVa.03": "Um cinema... Faz tempo que não vejo um filme.$1#$b#Quando eu era jovem, ia com a Evelyn ver filmes... Bons tempos!",
+	"Jul.ToVa.04": "Oh! Que gentileza... Bom, se eu não dormir no meio do filme, vai ser ótimo!$1",
+	"Jul.ToVa.05": "Você ajudou a Pam? Que coisa bonita de se ver. Ela precisava de um lugar melhor.$1",
+	"Jul.ToVa.06": "Eita, alguém reformou a casa da Pam do nada?#$b#Se fosse comigo, eu ia ficar desconfiada... Mas uma casa nova é uma casa nova!",
+	"Jul.ToVa.07": "A vila fica mais viva com o centro comunitário... Que bom que cuidaram disso. Isso me enche de esperança!$1",
+	"Jul.ToVa.08": "Ah... Não sei como deixaram isso acontecer. Um depósito no lugar daquele espaço tão bonito...$3",
+	"Jul.ToVa.09": "A ponte foi reformada? Eu já nem me lembro como era aquele canto. Queria dar uma olhada, mas... É muito longe pra mim.$2",
+	"Jul.ToVa.10": "O ônibus voltou a funcionar?$3#$b#Hm... Ele estava quebrado?$3",
+
+	//----------------//
+	// My NPCs Topics //
+	//----------------//
+
+	// Anderson
+	"And_MyTo.01": "@... Eu não posso falar muito por enquanto sobre meu trabalho especial...$3#$b#Tudo irá se esclarecer no momento certo.$3",
+	"And_MyTo.02": "Olá, @... Se puder manter meu segredo seguro, eu agradeço muito!$3",
+	"And_MyTo.03": "Como vão as buscas pelos materiais, @? Vamos fazer uma grande surpresa para todos os residentes!",
+	"And_MyTo.04": "Eu não poderia estar mais feliz!$1#$b#Sinto que agora nosso bairro voltou a fazer parte da comunidade novamente.$4",
+	"And_MyTo.05": "Arthur parece distraído hoje... Aconteceu alguma coisa?$3",
+	"And_MyTo.06": "Arthur parecia radiante hoje! Aconteceu alguma coisa?$1",
+
+	// Arthur
+	"Art_MyTo.01": "Ah... @.$2#$b#Desculpe, não te vi aí... Eu estava perdido em pensamentos.$2",
+	"Art_MyTo.02": "Às vezes vejo o Padre Anderson saindo bem tarde da noite... Não sei exatamente para onde ele vai.$2#$b#Mas também não quero dar uma de intrometido na vida pessoal dele.$1",
+	"Art_MyTo.03": "Não custa nada ir à igreja às vezes.#$b#Parece até que tirou o peso dos meus ombros... Estranho, né?$1",
+
+	// Julia
+	"Jul_MyTo.01": "Tenho sorte por ter bons vizinhos, sempre à disposição para me ajudar!$1",
+	"Jul_MyTo.02": "Oh! Ficou tão bela a nova igreja.$1#$e#Foi bom ver tanta gente aqui no bairro.",
+	"Jul_MyTo.03": "Arthur veio me visitar e comeu meu estoque de pão de queijo inteiro...$2",
+	"Jul_MyTo.04": "Obrigada, @. Eu me sinto muito melhor.$1",
+
+	//-------------------------//
+	// My Topics In other NPCs //
+	//-------------------------//
+
+	// Abigail
+	"DH.MyTo_NPCs.01": "Sabe aquele padre da montanha...?#$b#Já vi ele falando em uma língua estranha. Não entendia nada!$3#$e#Seria isso um feitiço?$1",
+	"DH.MyTo_NPCs.02": "Sebastian queria filmar algo de terror nas velhas ruínas da igreja... Bem, agora já era!$1",
+
+	// Clint
+	"DH.MyTo_NPCs.03": "O preço do carvão voltou a normalizar. Arthur vai ficar bem feliz com as notícias.",
+
+	// Emily
+	"DH.MyTo_NPCs.04": "Adoro conversar com o padre Anderson. Ele é uma grande inspiração para mim.",
+	"DH.MyTo_NPCs.05": "A igreja nova está linda!$1#$b#Aquele velho bairro merecia um pouco mais de carinho. Foi um bom momento.",
+	"DH.MyTo_NPCs.06": "Meus pais gostavam de visitar a Srta. Julia quando estavam aqui...$3#$b#Principalmente minha mãe.$2",
+
+	// Evelyn
+	"DH.MyTo_NPCs.07": "O padre é tão gentil, sempre sorrindo e distribuindo boas lições de moral.$1",
+	"DH.MyTo_NPCs.08": "Foi ótima a missa na igreja!$1#$b#Mas não acho que conseguirei ir lá muitas vezes... É muito cansativo subir toda aquela ladeira.$2",
+	"DH.MyTo_NPCs.09": "Uma velha amiga minha, chamada Julia, mora lá perto da montanha... É difícil da gente se ver hoje em dia, devido à distância.",
+	"DH.MyTo_NPCs.10": "Sabe, @... Julia tem uma filha.#$b#Faz anos que ela foi embora com um fanfarrão qualquer... Isso quebrou o pobre coração dela na época.$2#$b#E depois que Antônio morreu, ela ficou cada vez mais distante.$2",
+
+	// George
+	"DH.MyTo_NPCs.11": "Você ouviu dizer que eu fui minerador?#$b#Sim... E isso deu um mau jeito danado nas minhas costas! Não é à toa que estou de cadeira de rodas.$3#$b#Sobre o Arthur? Bom, ele era um moleque arruaceiro quando chegou no Vale. Mas trabalhava duro...$3#$e#Não gosto de falar muito sobre o passado...$2",
+	"DH.MyTo_NPCs.12": "Você sabia que eu e o seu Antônio fomos uns dos primeiros a participar das minerações locais?#$b#Aquela velha mina do Arthur já deu muitas joias no passado...#$b#Não sei por que Arthur quis continuar nela, mesmo depois que ela já não valia mais a pena.",
+
+	// Gus
+	"DH.MyTo_NPCs.13": "Às vezes, quando reencontro o padre Anderson, mando alguns pratos novos para a Dona Julia experimentar.#$b#E quando o revejo, ele me entrega uma carta dela, agradecendo e sugerindo possíveis melhorias ou até mesmo uma receita nova.$1",
+	"DH.MyTo_NPCs.14": "Lembro como se fosse ontem... Arthur, George e o Sr. Antônio brigando sobre as divisões de trabalho na mina.$1#$b#Como o tempo passa rápido...$2",
+
+	// Harvey
+	"DH.MyTo_NPCs.15": "A condição mental da Srta. Julia é muito preocupante...$2#$e#Não quero receitar mais remédios a ela... A quantidade que ela já está tomando não é muito segura.$2",
+	"DH.MyTo_NPCs.16": "Não estou conseguindo entrar em contato com nenhum familiar da Srta. Julia...$2#$b#Ela parece estar avançando a passos largos no Alzheimer.$2",
+
+	// Jas
+	"DH.MyTo_NPCs.17": "Uma vez o padre pulou corda com a gente!$1#$b#Foi bem engraçado. Ele é bem divertido.$1",
+	"DH.MyTo_NPCs.18": "Às vezes, quando brincamos na montanha, a Srta. Julia nos dá um monte de doces!",
+
+	// Jodi
+	"DH.MyTo_NPCs.19": "Eu gostaria que o padre Anderson benzesse nossa família...#$b#Talvez eu peça para ele nos fazer uma visita qualquer dia desses!#$e#Quem sabe ele bota juízo na cabeça do Sam.$3",
+	"DH.MyTo_NPCs.20": "@, já ouviu falar da filha da Srta. Julia?$2#$b#Antigamente, eu e a Caroline éramos muito amigas dela, mas depois de alguns problemas, ela se foi e nunca mais nos falamos...$2#$b#Ninguém gosta de comentar muito sobre isso... Principalmente a Caroline, mas se quiser saber mais, fale com a Srta. Evelyn.$2",
+
+	// Lewis
+	"DH.MyTo_NPCs.21": "Coitado do padre Anderson... Adoraria ver a velha igreja restaurada.$2#$e#O quê? Mandá-la reformar? Igrejas são instituições 'privadas'... Não posso interferir nesses assuntos.$5",
+	"DH.MyTo_NPCs.22": "Às vezes vejo o padre Anderson voltando de manhã bem cedo para a Vila...#$b#Onde será que ele passou a noite fora?$2",
+	"DH.MyTo_NPCs.23": "Ótimo trabalho em restaurar a igreja, @.$1#$b#Ver um bairro tão antigo animado desse jeito me deixou muito feliz!$1",
+	"DH.MyTo_NPCs.24": "Sabia que Arthur e George já trabalharam juntos naquela velha mina?#$b#Tente perguntar ao George, ele pode te contar mais coisas.$1",
+	"DH.MyTo_NPCs.25": "De todas as pessoas deste vale... A que mais me preocupa deve ser a Srta. Julia.$2#$b#Ela com certeza precisa de atenção, mas é difícil ela receber visitas.$2",
+	"DH.MyTo_NPCs.26": "Oh, @... Você já deve estar ciente dos problemas da Srta. Julia, certo?$2#$b#Se ainda tiver dúvidas, o Dr. Harvey pode explicar melhor.$2",
+
+	// Linus
+	"DH.MyTo_NPCs.27": "Dona Julia parece tão solitária ultimamente...$2#$b#Acho que ela não se lembra mais de mim.$2",
+
+	// Marnie
+	"DH.MyTo_NPCs.28": "Gostaria muito que a velha igreja fosse restaurada.$2#$b#Sinto que preciso me conectar com Yoba às vezes.$3",
+	"DH.MyTo_NPCs.29": "Acho que estou um pouco fora de forma... Subir a ladeira foi bem difícil!$3#$b#Mas gosto de pensar que o caminho até Yoba é sinuoso, mas recompensador.$1",
+	"DH.MyTo_NPCs.30": "Faz algum tempo que não visito a Srta. Julia... Será que ela está bem?$2",
+
+	// Pam
+	"DH.MyTo_NPCs.31": "Arthur está bravo comigo. Só porque eu fiz uma piada sobre a altura dele...$4#$b#Mas foi ele quem começou!$3",
+
+	// Pierre
+	"DH.MyTo_NPCs.32": "Padre Anderson é uma ótima pessoa.$1#$b#Quando a velha igreja ruiu, sugeri dar o espaço do meu velho armazém e transformá-lo em uma pequena capela temporária.",
+	"DH.MyTo_NPCs.33": "Fico feliz pelo padre Anderson, mas acho que irei manter o santuário também.$1#$b#Me acostumei com ele e gosto da sensação de conforto que ele me traz em casa.",
+
+	// Robin
+	"DH.MyTo_NPCs.34": "Eu já sugeri ao padre Anderson reformas na velha igreja.#$b#Diz ele que existe muita burocracia com os superiores do 'Clero'...$2#$e#Eu nem sabia que existia uma regulamentação pra isso!$2",
+	"DH.MyTo_NPCs.35": "Ótimo trabalho, @. Se não fosse pelos seus materiais, eu não teria conseguido uma reforma tão detalhada na igreja.$4",
+	"DH.MyTo_NPCs.36": "Arthur é um ótimo fornecedor de pedras para minhas reformas!#$e#Não adianta, @... As pedras são de fornecimento exclusivo meu.$4",
+	"DH.MyTo_NPCs.37": "Vou guardar a Srta. Julia em um potinho e deixá-la de enfeite na minha prateleira.$1#$b#Ela é muito fofinha!$1",
+
+	// Sebastian
+	"DH.MyTo_NPCs.38": "Aquela igreja destruída... Seria um ótimo cenário para um filme de terror!$1",
+
+	// Shane
+	"DH.MyTo_NPCs.39": "Como alguém consegue conversar com o Arthur... Ele só grita.$5",
+
+	// Vincent
+	"DH.MyTo_NPCs.40": "Aquele velho minerador é muito baixinho, né?$1#$b#Eu sou quase da altura dele!",
+
+	// Willy
+	"DH.MyTo_NPCs.41": "Faz tempo qui não andava pelo bairro da igreja...#$b#Costumava ir mai lá quando era jovem.$2#$e#Achava que a dona Julia já tinha morrido! Foi uma boa surpresa.$1",
+	"DH.MyTo_NPCs.42": "@, ocê já conheceu aquele minerador tagarela da montanha?#$e#Dica: não comente sobre a altura dele... Ou ele ficará cum raiva.$2#$b#Ele costuma fazer piada disso... Mas não vá na onda dele.",
+
+	//------//
+	// Mail //
+	//------//
+
+	"DH.Invite_Church.Title": "[#]Nova Igreja!",
+	"DH.Invite_Church": "Moradores do Vale do Orvalho!^^Venho anunciar que estamos prestes a finalizar a reforma da igreja!^^Em comemoração, estaremos realizando uma missa de reinauguração, e todos estão convidados a participar. (Se chover, fica para o próximo dia de sol.) Que Yoba ilumine suas vidas!^^- Padre Anderson",
+
+	"DH.Art_Friend.Title": "[#]Amigo Arthur!",
+	"DH.Art_Friend": "A${o^}$ amig${o^a}$ @.^^Não sou muito de escrever... Mas acho que, pra você, vale a pena!^^Gostaria de agradecer sua generosidade comigo, então, como recompensa, tentei pensar em algo que não fosse só carvão!^^- Arthur",
+
+	"DH.Jul_Friend.Title": "[#]Lanchinho da Julia!",
+	"DH.Jul_Friend": "Olá, jovem fazendeir${o^a}$, tudo bem com você?^^Como tem sido sua nova vida no Vale? Espero que esteja se alimentando direitinho — um${^a}$ fazendeir${o^a}$ forte tem que comer bem!^Mas, só por precaução, estou te enviando alguns lanchinhos... Obrigada pelo seu trabalho duro!^^- Julia",
+
+	"DH.And_Friend.Title": "[#]Presente do Padre!",
+	"DH.And_Friend": "Olá @.^^Hoje acordei e, por algum motivo, me lembrei de você... Espero que esteja tudo bem.^Acho que irei dedicar uma oração a você!^Por via das dúvidas, tome mais cuidado e fique atento aos arredores — o mal espreita nosso caminho...^Que Yoba ilumine seu caminho.^^- Padre Anderson",
+
+	//-------//
+	// Quest //
+	//-------//
+
+	"Church.Fix.01.A": "Reparos da Igreja - Parte 1",
+	"Church.Fix.02.A": "Vai ser um baita trabalho! Mas finalmente vamos restaurar a velha igreja... Vamos começar com madeira — mas, dessa vez, uma bem resistente!",
+	"Church.Fix.03.A": "Leve 350 madeiras de lei para o padre",
+	"Church.Fix.04.A": "Ótimo, as madeiras! Agora vamos para a próxima tarefa...",
+
+	"Church.Fix.01.B": "Reparos da Igreja - Parte 2",
+	"Church.Fix.02.B": "Agora vamos cuidar dos suportes e do alicerce! Para isso, vamos precisar de ferro.",
+	"Church.Fix.03.B": "Leve 200 barras de ferro para o padre",
+	"Church.Fix.04.B": "Perfeito! Vou avisar a Srta. Robin e o Sr. Clint que já temos o material... Vamos começar as reformas!$1",
+
+	//--------//
+	// Events //
+	//--------//
+
+	"Art.Event_01.01": "Te digo, minha caminhonete ainda está boa sim!#$b#Só... trocar o pneu, arrumar o para-choque, desamassar a tampa do porta-malas, trocar a homocinética que tá estragando e tirar os chiados da suspensão.$1#$b#A caminhonete fica zero.",
+	"Art.Event_01.02": "Sei como é... Meu barco também é a mesma coisa.#$b#Deixa só eu arrumar os problemas do motor, que ele ainda vai navegar muito!$1",
+	"Art.Event_01.03": "Manda outra, Gus.",
+	"Art.Event_01.04": "Tá bom, né? Pelo menos noi não tá a pé...$1",
+	"Art.Event_01.05": "Clint! Achei que não iria mais aparecer hoje.",
+	"Art.Event_01.06": "Desculpem o atraso, muito trabalho ultimamente.#$b#Depois que ${o^a}$ nov${o^a}$ fazendeir${o^a}$ chegou, as coisas têm sido bem mais movimentadas.",
+	"Art.Event_01.07": "Concordo, até peixe tenho que disputar agora.#$b#El${e^a}$ ainda está aprendendo... Mas logo deve me superar.$1",
+	"Art.Event_01.08": "Não vou poder ficar hoje, tenho muitos geodos pra processar.$2#$b#Só vim dizer algo ao Arthur...#$b#Infelizmente vou ter que diminuir o valor de compra dos carvões.$2",
+	"Art.Event_01.09": "A quantidade de carvão aumentou muito depois que ${o^a}$ nov${o^a}$ fazendeir${o^a}$ começou a minerar...",
+	"Art.Event_01.10": "Hm... Tu-tudo bem, eu acho...$2#$b#'Concorrência'... Fazer o quê...$2",
+	"Art.Event_01.11": "Estou de saída.",
+	"Art.Event_01.12": "Ocê me parece um tiquinho preocupado...$2",
+	"Art.Event_01.13": "Não é isso... é só uma concorrência justa, certo?$1",
+
+	"Art.Event_02.01": "Tem pouco carvão...",
+	"Art.Event_02.02": "Melhor eu me preparar, não quero perder pra concorrência!$1",
+	"Art.Event_02.03": "Hora de trabalhar.",
+	"Art.Event_02.04": "Talvez ache outro diamante...",
+	"Art.Event_02.05": "@! Que bom te ver. Veio minerar um pouco de carvão?",
+	"Art.Event_02.06": "Uau, haha!",
+	"Art.Event_02.07": "Você melhorou muito!",
+	"Art.Event_02.08": "Antes de botar a mão na massa, precisava te dizer algo...$2",
+	"Art.Event_02.09": "Er...",
+	"Art.Event_02.10": "Nem sei como começar...$1",
+	"Art.Event_02.11": "Quero pedir desculpas...$2",
+	"Art.Event_02.12": "Quando você chegou no Vale, fiquei preocupado e com um pouco de raiva e inveja...$2#$b#Eu era o único minerador do Vale, e quando soube que você também estava minerando...$2#$b#Bem, fiquei chateado. Achei que estivessem roubando meu trabalho.$2",
+	"Art.Event_02.13": "Fique tranquilo!",
+	"Art.Event_02.14": "Hoje eu percebo que foi ignorância minha...#$b#Fico feliz que tenha mais um minerador no Vale.#$b#E também gosto da sua companhia quando estou trabalhando.$1",
+	"Art.Event_02.15": "Estranho, né...?",
+	"Art.Event_02.16": "Também não gosto de dizer essas coisas 'vergonhosas'. Hahaha!$1",
+	"Art.Event_02.17": "Antes de voltarmos ao trabalho, tenho algo pra você...",
+	"Art.Event_02.18": "Achei!",
+	"Art.Event_02.19": "Pegue isso!",
+	"Art.Event_02.20": "Arthur te entregou um diamante!",
+	"Art.Event_02.21": "A velha mina de carvão tem algumas surpresas às vezes...$1#$b#Então...? Vamos trabalhar?!",
+	"Art.Event_02.22": "Boa resposta!",
+
+	"Art.Event_03.01": "Já vai começar!",
+	"Art.Event_03.02": "Arthur, tem certeza que tem água na sua geladeira?$3#$b#Só vejo cerveja, e...$3",
+	"Art.Event_03.03": "Comida estragada! Credo...",
+	"Art.Event_03.04": "Hahaha!",
+	"Art.Event_03.05": "Você tem que se cuidar melhor, homem!$5",
+	"Art.Event_03.06": "Tá bem, prometo limpar isso aí depois.$1",
+	"Art.Event_03.07": "@! Veio assistir ao jogo?",
+	"Art.Event_03.08": "Jogo do Corinthians!$4",
+	"Art.Event_03.09": "Sem problema, @. Você é mais que convidad${o^a}$ pra ficar!#$b#Eu e o padre sempre acompanhamos futebol juntos.$1",
+	"Art.Event_03.10": "Bem... pelo menos quando a agenda permite. Haha!$1",
+	"Art.Event_03.11": "Devo ficar?",
+	"Art.Event_03.12": "Isso parece divertido!",
+	"Art.Event_03.13": "Não gosto de futebol...",
+	"Art.Event_03.14": "Até mais!",
+	"Art.Event_03.15": "Será que a gente é chato?$2",
+	"Art.Event_03.16": "Talvez.",
+
+	"Art.Event_03.A01": "Tomara que o Corinthians ganhe! Anda muito mal ultimamente...$3",
+	"Art.Event_03.A02": "Eu até fiz aquela reza especial antes do jogo pra dar sorte. Hahaha!$1",
+	"Art.Event_03.A03": "Fizemos o possível.",
+	"Art.Event_03.A04": "O jogo começou!",
+	"Art.Event_03.A05": "Aqui @, toma um gole disso.",
+	"Art.Event_03.A06": "Não precisava tomar tudo de uma vez.$1",
+	"Art.Event_03.A07": "Melhor não tomar mais nada vindo dessa casa, @...$5",
+
+	// Julia
+	"Jul.Event_01.01": "Minha hortinha parece tão ruim...$3#$b#Talvez eu devesse colocar mais adubo?$2",
+	"Jul.Event_01.02": "Ai, meu Yoba...",
+	"Jul.Event_01.03": "Oh, olá...",
+	"Jul.Event_01.04": "... (*Pensando*) ...$2#$b#Desculpa, não me lembro do seu nome.$1",
+	"Jul.Event_01.05": "Oh, certo! Me desculpa, @.#$b#Estou ficando velha e gagá.$1",
+	"Jul.Event_01.06": "Você chegou em um ótimo momento, fazendeir${o^a}$!",
+	"Jul.Event_01.07": "Como pode ver, estou tendo alguns problemas na minha horta, e bem...#$b#Eu não sou nenhuma especialista nisso.#$b#Poderia ajudar um pouco esta velha senhora? Prometo uma recompensa adequada!",
+	"Jul.Event_01.08": "Devo ajudar a Srta. Julia?",
+	"Jul.Event_01.09": "Claro que sim!",
+	"Jul.Event_01.10": "Desculpe, ainda estou aprendendo...",
+	"Jul.Event_01.11": "De qualquer forma, obrigado pelo seu tempo. Tenho muito trabalho a fazer.$3",
+
+	"Jul.Event_01.A01": "Vamos tentar resolver isso rapidinho então.$1",
+	"Jul.Event_01.A02": "Veja isso...",
+	"Jul.Event_01.A03": "Prontinho!",
+	"Jul.Event_01.A04": "Bolo de chocolate! Espero que goste da sua recompensa.",
+	"Jul.Event_01.A05": "Obrigado pela ajuda.",
+
+	"Jul.Event_02.01": "Que bom te ver!",
+	"Jul.Event_02.02": "Srta. Julia!$4#$b#É bem raro te ver longe de casa...#$b#Mas fico feliz em te ver bem novamente!$1",
+	"Jul.Event_02.03": "Obrigada, querida.$1#$b#Hoje resolvi dar uma esticada nas minhas juntas...#$b#Mas subir essa ladeira já me deixou bem cansada!$1",
+	"Jul.Event_02.04": "Hoje é um dia especial... Poder ver você depois de tanto tempo.#$b#Estava com saudades, Srta. Julia!$1",
+	"Jul.Event_02.05": "A Srta. Julia parece ter alguns problemas para lembrar das coisas...",
+	"Jul.Event_02.06": "Srta. Julia...",
+	"Jul.Event_02.07": "Você se lembra de mim?",
+	"Jul.Event_02.08": "Desculpa, querido... Não estou me recordando...$2",
+	"Jul.Event_02.09": "Tudo bem, não é importante...$2#$b#Preciso ir andando, tenho algumas coisas pra fazer.",
+	"Jul.Event_02.10": "Tudo parece tão diferente e estranho...$2",
+	"Jul.Event_02.11": "Querido...",
+	"Jul.Event_02.12": "Oi...#$b#Hm... @!$1",
+	"Jul.Event_02.13": "Estou bem, obrigada. Só estou dando uma voltinha!#$b#Fazia tempo que não saía de casa.",
+	"Jul.Event_02.14": "Não ligue pra mim. Não quero te incomodar se estiver ocupad${o^a}$.$1",
+	"Jul.Event_02.15": "O que eu deveria fazer?",
+	"Jul.Event_02.16": "Fazer companhia.",
+	"Jul.Event_02.17": "Ir embora.",
+	"Jul.Event_02.18": "Tchau.",
+
+	"Jul.Event_02.A01": "Eu adoro companhia!",
+	"Jul.Event_02.A02": "Foi um bom tempo juntos... Mas a Srta. Julia parecia preocupada com alguma outra coisa.",
+
+	"Jul.Event_03.01": "Eu não consigo...$2",
+	"Jul.Event_03.02": "Não lembro...",
+	"Jul.Event_03.03": "Meu querido...$3#$b#Eu não consigo mais me lembrar do seu rosto.$2",
+	"Jul.Event_03.04": "Sinto que estou perdendo algo a todo momento.$3",
+	"Jul.Event_03.05": "Olá... Fazendeir${o^a}$, certo?$2",
+	"Jul.Event_03.06": "Mesmo perto dela, a Srta. Julia parece bem distante...",
+	"Jul.Event_03.07": "Não se preocupe comigo, é só a idade chegando...",
+	"Jul.Event_03.08": "Mas agradeço a preocupação.",
+	"Jul.Event_03.09": "Esse no retrato era meu ex-marido falecido.$2",
+	"Jul.Event_03.10": "Se não fosse pela foto, eu não conseguiria mais me lembrar do rosto dele...$3",
+	"Jul.Event_03.11": "Já esqueci de muitas coisas.$3#$b#E cada vez piora mais...$3",
+	"Jul.Event_03.12": "Eu tenho medo.",
+	"Jul.Event_03.13": "Obrigado.",
+	
+	// Anderson
+	"And.Event_01.01": "Você já está aqui há 20 anos, padre.$2#$b#E já fazem 8 anos desde o desmoronamento...$2",
+	"And.Event_01.02": "Sim, eu sei... Parece que o clero quer abandonar este local.$2#$b#Eles acreditam que uma vila pequena não merece ter a igreja restaurada.$3#$b#Estão tentando me designar para outro lugar, mas estou resistindo o máximo possível.$3",
+	"And.Event_01.03": "Olá, meus queridos!",
+	"And.Event_01.04": "Srta. Júlia, que ótimo te ver.$1#$b#Dando um pequeno passeio?$1",
+	"And.Event_01.05": "Só um pouquinho, não consigo andar muito... Dói o corpo todo quando ando demais.#$b#Fico muito feliz em ver vocês, num dia tão belo.$1",
+	"And.Event_01.06": "Mas está igual ontem?",
+	"And.Event_01.07": "Srta. Júlia, não se esqueça que mais tarde estarei te levando às compras.",
+	"And.Event_01.08": "Obrigada! Se por acaso encontrar a Evelyn, diga que mandei lembranças.",
+	"And.Event_01.09": "Pode deixar!",
+	"And.Event_01.10": "Bem-vindo...",
+	"And.Event_01.11": "Cadê o café?",
+	"And.Event_01.12": "Oh! É você, padre. Que bom te ver.",
+	"And.Event_01.13": "Bom te ver novamente também, Pierre.#$b#E obrigado mais uma vez por ceder um espacinho na sua casa para uma capelinha.$1",
+	"And.Event_01.14": "Achei!",
+	"And.Event_01.15": "Não precisa agradecer todos os dias, padre...$1#$b#Já disse que é apenas uma boa ação!",
+	"And.Event_01.16": "Yoba te ilumine.",
+	"And.Event_01.17": "Sr. George! Há quanto tempo! Como tem estado?$4",
+	"And.Event_01.18": "Péssimo e cheio de dores!#$b#E ainda me trouxeram contra a minha vontade hoje...$3",
+	"And.Event_01.19": "Acho que tem faltado um pouco de fé no George ultimamente.$2#$b#Poderia nos dar um pouco do seu tempo hoje, padre Anderson?", 
+	"And.Event_01.20": "Claro que sim.$1#$b#Oh... Lembrei-me de algo!$4",
+	"And.Event_01.21": "Júlia manda lembranças!",
+
+	"And.Event_02.01": "Parece que o padre não está em casa...",
+	"And.Event_02.02": "Um telefone? O som parece estar vindo de baixo...?",
+	"And.Event_02.03": "O som está vindo lá de baixo...",
+	"And.Event_02.04": "Alguém entrou aqui...$3",
+	"And.Event_02.05": "O que é isso tudo?",
+	"And.Event_02.06": "@! Não é o que parece...$2#$b#Eu posso explicar!$2",
+	"And.Event_02.07": "Esse telefone...",
+	"And.Event_02.08": "Alô...",
+	"And.Event_02.09": "Entendo.",
+	"And.Event_02.10": "Desculpe, @... Não é um bom momento para explicações detalhadas.$3#$b#Guarde este segredo e eu te direi apenas uma coisa...$3",
+	"And.Event_02.11": "Sou um exorcista!",
+	"And.Event_02.12": "Um exorcista?#Não tenho certeza do que o padre quis dizer...#Mas ele parecia com pressa.",
+
+	"And.Event_03.01": "Qual trabalho?",
+	"And.Event_03.02": "Telefone: Em uma fábrica abandonada desta vez... Um espírito perturba o local.#Telefone: Segundo rumores, o antigo dono era avarento e morreu logo depois que a fábrica fechou.",
+	"And.Event_03.03": "Entendo... Um espírito perturbado, apegado ao dinheiro.$3#$b#Irei o mais rápido possível.$3",
+	"And.Event_03.04": "Vou me preparar...",
+	"And.Event_03.05": "Estou pronto!",
+	"And.Event_03.06": "@! Você apareceu em boa hora.$4",
+	"And.Event_03.07": "Lembra quando eu disse que era um exorcista...?#$b#Bem, naquele dia eu não pude explicar muito...$3#$b#Mas hoje confio em você o suficiente para contar tudo.$1",
+	"And.Event_03.08": "Sei que é um pouco tarde, mas... Estou indo realizar um exorcismo agora.#$b#Gostaria de me acompanhar e saber mais sobre o meu trabalho?$1",
+	"And.Event_03.09": "Deveria ir junto?",
+	"And.Event_03.10": "Interessante. Vou sim!",
+	"And.Event_03.11": "Está tarde, e estou cansad${o^a}$...",
+	"And.Event_03.12": "Padre Anderson parece um pouco desapontado...",
+	"And.Event_03.13": "Bem, estou de partida... De qualquer forma, obrigado pelo seu tempo.$3",
+
+	"And.Event_03.A01": "Vamos então!",
+	"And.Event_03.A02": "Há muito tempo... Padres do mundo todo têm conhecimento sobre o sobrenatural. Mas lidar com isso sempre foi um desafio.$3#$b#Poucos estão aptos a se tornarem exorcistas.$3",
+	"And.Event_03.A03": "A Ordem dos Exorcistas trabalha em sigilo.#$b#Evitamos causar pânico desnecessário...$3",
+	"And.Event_03.A04": "O ônibus seguiu por um longo caminho...#Por fim, chegamos a uma velha fábrica abandonada.",
+	"And.Event_03.A05": "Chegamos...",
+	"And.Event_03.A06": "O ambiente está bem gelado.$3#$b#Significa que o espírito está aqui há muito tempo...$3",
+	"And.Event_03.A07": "Vamos procurar nos fundos...",
+	"And.Event_03.A08": "Sim... Esse manequim é um espírito disfarçado.$5#$b#Fique aí... Vou tentar exorcizá-lo rapidamente.$3",
+	"And.Event_03.A09": "O padre começa a sussurrar em uma língua estranha...",
+	"And.Event_03.A10": "Maldição!",
+	"And.Event_03.A11": "Esse espírito está aqui há muito tempo...$3#$b#Vou ter que fazer isso de outra forma.$5",
+	"And.Event_03.A12": "Afaste-se um pouco...",
+	"And.Event_03.A13": "Espírito!",
+	"And.Event_03.A14": "Deixe este...",
+	"And.Event_03.A15": "Anderson...", 
+	"And.Event_03.A16": "Droga.",
+	"And.Event_03.A17": "ANDERSON!",
+	"And.Event_03.A18": "O padre tirou algo do bolso...",
+	"And.Event_03.A19": "Aaa AaAaaaaAA... AaAaa.",
+	"And.Event_03.A20": "Com essa barreira, ele não pode mais nos fazer mal.",
+	"And.Event_03.A21": "É com esse tipo de coisa que venho lidando nos últimos 35 anos...$5",
+	"And.Event_03.A22": "Anderson...",
+	"And.Event_03.A23": "Conheço seu PECADO!",
+	"And.Event_03.A24": "Esse fantasma fala demais...$3#$b#Vamos acabar com isso logo.$5",
+	"And.Event_03.A25": "AAaaAAaaaAaAa! AaaAaAaaaAAA!",
+	"And.Event_03.A26": "Fogo sagrado...",
+	"And.Event_03.A27": "Você ficou bem quieto esse tempo todo.$3#$b#Estava com medo, por acaso?",
+	"And.Event_03.A28": "Vamos embora então. O fogo sagrado vai demorar para desaparecer.#$b#Ele queimará toda a essência ruim do ambiente antes de se apagar.#$b#Não se preocupe! Ele não danifica construções.",
+	"And.Event_03.A29": "Isso foi bem... Emocionante!#O padre Anderson parece ter uma vida dupla.",
+
+	"And.Event_04.01": "Olá, @. Tudo bem com você? Espero que sim!#$b#Desculpe incomodar tão cedo... Mas precisava te ver.$3",
+	"And.Event_04.02": "Finalmente o clero mudou de ideia e está financiando a reforma da velha igreja!$1#$b#Antes, não havia interesse por ser uma região com pouco desenvolvimento...$3#$b#Mas tudo mudou depois que você chegou! Parece que seus esforços tiveram grande influência na vila.",
+	"And.Event_04.03": "Já conversei com a Srta. Robin e o Sr. Clint sobre os procedimentos!#$b#Todos concordaram com as reformas, mas ainda precisamos dos materiais.",
+	"And.Event_04.04": "Entende onde quero chegar?",
+	"And.Event_04.05": "Não se preocupe, é um trabalho remunerado, é claro!$4#$b#Se tiver interesse, estarei deixando esta lista com os materiais necessários.#$b#Quando terminar, basta vir falar comigo e eu te passarei a próxima tarefa.$1",
+	"And.Event_04.06": "Mãos à obra!",
+
+	"And.Event_05.01": "Ainda viva?",  
+	"And.Event_05.02": "Ficou linda.",
+	"And.Event_05.03": "Longe, né?",
+	"And.Event_05.04": "De folga?",
+	"And.Event_05.05": "ATENÇÃO, TODOS!",
+	"And.Event_05.06": "Padre Anderson tem algo a dizer...",
+	"And.Event_05.07": "Bem-vindos de volta!",
+	"And.Event_05.08": "Fico muito feliz pela presença de todos. É bom saber que a fé ainda permanece em seus corações!$1",
+	"And.Event_05.09": "Não quero enrolar muito, sei que todos ainda têm muito o que fazer hoje... Então, vou direto ao ponto.#$b#Primeiramente, gostaria de agradecer ao Pierre pelo tempo e espaço cedido em sua casa para nossa pequena capela.$1",
+	"And.Event_05.10": "Em segundo, à fazendeir@ @, que colocou muito esforço não só pela igreja, mas também pela comunidade.$1",
+	"And.Event_05.11": "Finalmente podemos anunciar novamente...#$b#Estão abertas as portas para a reunião com Yoba!$1",
+	"And.Event_05.12": "Maravilha.",
+	"And.Event_05.13": "Grande dia!",
+	"And.Event_05.14": "Emocionante...",
+	"And.Event_05.15": "Oremos...",
+	"And.Event_05.16": "Foi uma reunião muito bonita...",
+
+	"And.Event_05.17": "Obrigado por jogar meu pequeno mod Downhill. Espero que tenha gostado... Ass: Kiyuga!",
+	"And.Event_05.18": "Tradução feita por: Kiyuga."
+
+}

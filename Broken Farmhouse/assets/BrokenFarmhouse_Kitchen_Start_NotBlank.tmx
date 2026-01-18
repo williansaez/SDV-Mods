@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="10" height="14" tilewidth="16" tileheight="16" infinite="0" nextlayerid="12" nextobjectid="819">
+ <properties>
+  <property name="ViewportFollowPlayer" type="bool" value="true"/>
+ </properties>
+ <tileset firstgid="1" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="2177" name="sewer" tilewidth="16" tileheight="16" tilecount="88" columns="8">
+  <image source="SewerTiles.png" width="128" height="176"/>
+ </tileset>
+ <tileset firstgid="2265" name="walls_and_floors" tilewidth="16" tileheight="16" tilecount="688" columns="16">
+  <image source="walls_and_floors.png" width="256" height="688"/>
+ </tileset>
+ <tileset firstgid="2953" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="5129" name="walls_and_floors" tilewidth="16" tileheight="16" tilecount="688" columns="16">
+  <image source="walls_and_floors.png" width="256" height="688"/>
+ </tileset>
+ <tileset firstgid="5817" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="264" columns="12">
+  <image source="farmhouse_tiles" width="192" height="352"/>
+ </tileset>
+ <tileset firstgid="6081" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="8257" name="walls_and_floors" tilewidth="16" tileheight="16" tilecount="688" columns="16">
+  <image source="walls_and_floors" width="256" height="688"/>
+ </tileset>
+ <tileset firstgid="8945" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="264" columns="12">
+  <image source="farmhouse_tiles.png" width="192" height="352"/>
+ </tileset>
+ <layer id="11" name="Back" width="10" height="14">
+  <data encoding="csv">
+1404,1408,1,1,1,1,1,1,8945,9128,
+1404,1408,1690,1404,1404,1405,1690,1404,1404,9140,
+1436,1440,1722,1436,1436,1437,1722,1436,1436,9152,
+1468,2793,2794,2793,2794,2793,2794,2793,2794,2147,
+2810,2809,2810,2809,2810,2809,2810,2809,2810,2147,
+2794,2793,2794,2793,2794,2793,2794,2793,2794,2147,
+2810,2809,2810,2809,2810,2809,2810,2809,2810,2147,
+2794,2793,2794,2793,2794,2793,2794,2793,2794,1594,
+2810,2809,2810,2809,2810,2809,2810,2809,2810,2147,
+2794,2793,2794,2793,2794,2793,2794,2793,2794,2147,
+2793,2809,2810,2809,2810,2809,2810,2809,2810,2147,
+2794,2793,2794,2793,2794,2793,2794,2793,2794,1,
+2810,2809,2810,2809,2810,2809,2810,2809,2810,1,
+2794,2793,2794,2793,2794,2793,2794,2793,2794,1
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="10" height="14">
+  <data encoding="csv">
+8,3,3,3,3,3,3,3,3,3147,
+0,0,0,0,0,0,0,0,0,6000,
+9136,0,0,0,0,0,0,0,0,6012,
+9148,1469,1471,1471,1471,1471,1471,1471,1471,6024,
+9160,0,0,9124,9114,9115,9116,9117,2169,0,
+9160,0,0,0,0,0,0,0,0,0,
+9173,0,0,0,0,0,0,0,0,0,
+9160,0,0,0,0,0,0,0,0,0,
+9160,0,0,0,0,0,0,0,0,0,
+9172,0,0,0,0,0,0,0,0,0,
+9184,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,3021,
+0,0,0,0,0,0,0,0,0,3021,
+0,0,0,0,0,0,0,0,0,3120
+</data>
+ </layer>
+ <layer id="3" name="Buildings2" width="10" height="14">
+  <data encoding="csv">
+11,3,3,3,3,3,2122,3,3,3147,
+1587,0,0,0,0,0,0,0,2147485235,0,
+0,0,0,9100,9090,9091,9092,9093,0,0,
+0,0,0,9112,9102,9103,9104,9105,2137,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,3116,
+0,0,0,0,0,0,0,0,0,3021,
+0,0,0,0,0,0,0,0,0,3021,
+162,166,0,0,0,0,2121,166,167,3120
+</data>
+ </layer>
+ <layer id="4" name="Front" width="10" height="14">
+  <data encoding="csv">
+11,3,3,3,3,3,2122,3,3,195,
+1427,1427,1427,1427,1427,757,1427,1427,1427,1427,
+0,1787,0,1788,1786,0,0,0,0,0,
+0,1819,1820,652,1818,1787,1788,0,0,0,
+0,0,0,0,1818,1819,1820,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,164,
+0,0,0,0,0,0,0,0,0,69,
+0,0,0,0,0,0,0,0,0,69,
+162,166,6243,0,0,6244,2121,166,167,168
+</data>
+ </layer>
+ <objectgroup id="6" name="Buildings">
+  <object id="783" name="TileData" x="128" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;BrokenFarmhouse.1&quot;"/>
+   </properties>
+  </object>
+  <object id="784" x="112" y="64" width="16"/>
+  <object id="785" name="TileData" x="112" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;BrokenFarmhouse.3&quot;"/>
+   </properties>
+  </object>
+  <object id="786" name="TileData" x="96" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;BrokenFarmhouse.4&quot;"/>
+   </properties>
+  </object>
+  <object id="787" name="TileData" x="64" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;BrokenFarmhouse.5&quot;"/>
+   </properties>
+  </object>
+  <object id="795" name="TileData" x="48" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;BrokenFarmhouse.2&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="Buildings2"/>
+ <objectgroup id="8" name="Front"/>
+</map>

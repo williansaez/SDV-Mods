@@ -1,0 +1,252 @@
+{
+  "Changes":
+    [
+      {
+	"Action": "EditData",
+	"Target": "Data/Objects",
+	"Entries":
+	  {
+	    "PF.PerfectCherry":
+	      {
+		"Name": "Perfect Cherry",
+		"DisplayName": "{{i18n:PF.PerfectCherry.Name}}",
+		"Description": "{{i18n:PF.PerfectCherry.Description}}",
+		"Type": "Fruits",
+		"Category": -79,
+		"Price": "{{CherryPrice}}",
+		"Texture": "{{FruitTexture}}",
+		"SpriteIndex": 0,
+		"Edibility": 76,
+		"ExcludeFromShippingCollection": "{{TP}}",
+		"ContextTags":
+		  [
+		    "color_gold",
+		    "perfect_fruit_item",
+		    "tree_fruit_item"
+		  ]
+	      },
+	    "PF.PerfectApricot":
+	      {
+		"Name": "Perfect Apricot",
+		"DisplayName": "{{i18n:PF.PerfectApricot.Name}}",
+		"Description": "{{i18n:PF.PerfectApricot.Description}}",
+		"Type": "Fruits",
+		"Category": -79,
+		"Price": "{{ApricotPrice}}",
+		"Texture": "{{FruitTexture}}",
+		"SpriteIndex": 1,
+		"Edibility": 76,
+		"ExcludeFromShippingCollection": "{{TP}}",
+		"ContextTags":
+		  [
+		    "color_gold",
+		    "perfect_fruit_item",
+		    "tree_fruit_item"
+		  ]
+	      },
+	    "PF.PerfectOrange":
+	      {
+		"Name": "Perfect Orange",
+		"DisplayName": "{{i18n:PF.PerfectOrange.Name}}",
+		"Description": "{{i18n:PF.PerfectOrange.Description}}",
+		"Type": "Fruits",
+		"Category": -79,
+		"Price": "{{OrangePrice}}",
+		"Texture": "{{FruitTexture}}",
+		"SpriteIndex": 2,
+		"Edibility": 76,
+		"ExcludeFromShippingCollection": "{{TP}}",
+		"ContextTags":
+		  [
+		    "color_gold",
+		    "perfect_fruit_item",
+		    "tree_fruit_item"
+		  ]
+	      },
+	    "PF.PerfectPeach":
+	      {
+		"Name": "Perfect Peach",
+		"DisplayName": "{{i18n:PF.PerfectPeach.Name}}",
+		"Description": "{{i18n:PF.PerfectPeach.Description}}",
+		"Type": "Fruits",
+		"Category": -79,
+		"Price": "{{PeachPrice}}",
+		"Texture": "{{FruitTexture}}",
+		"SpriteIndex": 3,
+		"Edibility": 76,
+		"ExcludeFromShippingCollection": "{{TP}}",
+		"ContextTags":
+		  [
+		    "color_gold",
+		    "perfect_fruit_item",
+		    "tree_fruit_item"
+		  ]
+	      },
+	    "PF.PerfectPomegranate":
+	      {
+		"Name": "Perfect Pomegranate",
+		"DisplayName": "{{i18n:PF.PerfectPomegranate.Name}}",
+		"Description": "{{i18n:PF.PerfectPomegranate.Description}}",
+		"Type": "Fruits",
+		"Category": -79,
+		"Price": "{{PomegranatePrice}}",
+		"Texture": "{{FruitTexture}}",
+		"SpriteIndex": 4,
+		"Edibility": 76,
+		"ExcludeFromShippingCollection": "{{TP}}",
+		"ContextTags":
+		  [
+		    "color_gold",
+		    "perfect_fruit_item",
+		    "tree_fruit_item"
+		  ]
+	      },
+	    "PF.PerfectApple":
+	      {
+		"Name": "Perfect Apple",
+		"DisplayName": "{{i18n:PF.PerfectApple.Name}}",
+		"Description": "{{i18n:PF.PerfectApple.Description}}",
+		"Type": "Fruits",
+		"Category": -79,
+		"Price": "{{ApplePrice}}",
+		"Texture": "{{FruitTexture}}",
+		"SpriteIndex": 5,
+		"Edibility": 76,
+		"ExcludeFromShippingCollection": "{{TP}}",
+		"ContextTags":
+		  [
+		    "color_gold",
+		    "perfect_fruit_item",
+		    "tree_fruit_item"
+		  ]
+	      },
+	    "PF.PerfectBanana":
+	      {
+		"Name": "Perfect Banana",
+		"DisplayName": "{{i18n:PF.PerfectBanana.Name}}",
+		"Description": "{{i18n:PF.PerfectBanana.Description}}",
+		"Type": "Fruits",
+		"Category": -79,
+		"Price": "{{BananaPrice}}",
+		"Texture": "{{FruitTexture}}",
+		"SpriteIndex": 6,
+		"Edibility": 150,
+		"ExcludeFromShippingCollection": "{{TP}}",
+		"ContextTags":
+		  [
+		    "color_gold",
+		    "perfect_fruit_item",
+		    "tree_fruit_item"
+		  ]
+	      },
+	    "PF.PerfectMango":
+	      {
+		"Name": "Perfect Mango",
+		"DisplayName": "{{i18n:PF.PerfectMango.Name}}",
+		"Description": "{{i18n:PF.PerfectMango.Description}}",
+		"Type": "Fruits",
+		"Category": -79,
+		"Price": "{{MangoPrice}}",
+		"Texture": "{{FruitTexture}}",
+		"SpriteIndex": 7,
+		"Edibility": 200,
+		"ExcludeFromShippingCollection": "{{TP}}",
+		"ContextTags":
+		  [
+		    "color_gold",
+		    "perfect_fruit_item",
+		    "tree_fruit_item"
+		  ]
+	      },
+	    "PF.PerfectCherrySapling":
+	      {
+		"Name": "Perfect Cherry Sapling",
+		"DisplayName": "{{i18n:PF.PerfectCherrySapling.Name}}",
+		"Description": "{{i18n:PF.PerfectCherrySapling.Description}}",
+		"Type": "Basic",
+		"Category": -74,
+		"Price": 0,
+		"Texture": "{{SaplingTexture}}",
+		"SpriteIndex": 8
+	      },
+	    "PF.PerfectApricotSapling":
+	      {
+		"Name": "Perfect Apricot Sapling",
+		"DisplayName": "{{i18n:PF.PerfectApricotSapling.Name}}",
+		"Description": "{{i18n:PF.PerfectApricotSapling.Description}}",
+		"Type": "Basic",
+		"Category": -74,
+		"Price": 0,
+		"Texture": "{{SaplingTexture}}",
+		"SpriteIndex": 9
+	      },
+	    "PF.PerfectOrangeSapling":
+	      {
+		"Name": "Perfect Orange Sapling",
+		"DisplayName": "{{i18n:PF.PerfectOrangeSapling.Name}}",
+		"Description": "{{i18n:PF.PerfectOrangeSapling.Description}}",
+		"Type": "Basic",
+		"Category": -74,
+		"Price": 0,
+		"Texture": "{{SaplingTexture}}",
+		"SpriteIndex": 10
+	      },
+	    "PF.PerfectPeachSapling":
+	      {
+		"Name": "Perfect Peach Sapling",
+		"DisplayName": "{{i18n:PF.PerfectPeachSapling.Name}}",
+		"Description": "{{i18n:PF.PerfectPeachSapling.Description}}",
+		"Type": "Basic",
+		"Category": -74,
+		"Price": 0,
+		"Texture": "{{SaplingTexture}}",
+		"SpriteIndex": 11
+	      },
+	    "PF.PerfectPomegranateSapling":
+	      {
+		"Name": "Perfect Pomegranate Sapling",
+		"DisplayName": "{{i18n:PF.PerfectPomegranateSapling.Name}}",
+		"Description": "{{i18n:PF.PerfectPomegranateSapling.Description}}",
+		"Type": "Basic",
+		"Category": -74,
+		"Price": 0,
+		"Texture": "{{SaplingTexture}}",
+		"SpriteIndex": 12
+	      },
+	    "PF.PerfectAppleSapling":
+	      {
+		"Name": "Perfect Apple Sapling",
+		"DisplayName": "{{i18n:PF.PerfectAppleSapling.Name}}",
+		"Description": "{{i18n:PF.PerfectAppleSapling.Description}}",
+		"Type": "Basic",
+		"Category": -74,
+		"Price": 0,
+		"Texture": "{{SaplingTexture}}",
+		"SpriteIndex": 13
+	      },
+	    "PF.PerfectBananaSapling":
+	      {
+		"Name": "Perfect Banana Sapling",
+		"DisplayName": "{{i18n:PF.PerfectBananaSapling.Name}}",
+		"Description": "{{i18n:PF.PerfectBananaSapling.Description}}",
+		"Type": "Basic",
+		"Category": -74,
+		"Price": 0,
+		"Texture": "{{SaplingTexture}}",
+		"SpriteIndex": 14
+	      },
+	    "PF.PerfectMangoSapling":
+	      {
+		"Name": "Perfect Mango Sapling",
+		"DisplayName": "{{i18n:PF.PerfectMangoSapling.Name}}",
+		"Description": "{{i18n:PF.PerfectMangoSapling.Description}}",
+		"Type": "Basic",
+		"Category": -74,
+		"Price": 0,
+		"Texture": "{{SaplingTexture}}",
+		"SpriteIndex": 15
+	      }
+	  }
+      }
+    ]
+}

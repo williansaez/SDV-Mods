@@ -1,0 +1,168 @@
+{
+	"Changes": [
+
+		//DEFAULT
+        {
+			"Action": "EditData",
+			"Target": "Data/Tools",
+			"Entries": {
+				"InfinityPickaxe": {
+					"ClassName": "Pickaxe",
+					"Name": "Infinity Pickaxe",
+					"AttachmentSlots": -1,
+					"SalePrice": "{{Upgrade Price}}",
+					"DisplayName": "{{i18n:InfinityPickaxe_Name}}",
+					"Description": "[LocalizedText Strings\\Tools:Pickaxe_Description]",
+					"Texture": "Vanillin.InfinityTools/Tilesheets/{{Recolor}}/Infinity_Tools",
+					"SpriteIndex": 21,
+					"MenuSpriteIndex": 47,
+					"UpgradeLevel": "{{Pickaxe}}",
+					"ConventionalUpgradeFrom": null,
+					"CanBeLostOnDeath": false,
+					"SetProperties": null,
+					"ModData": null,
+					"CustomFields": null,
+					"UpgradeFrom": [
+					{
+						"Condition": "PLAYER_HAS_SEEN_EVENT  Current Vanillin.InfinityTools_Clint_Infinity_Tools",
+						"RequireToolId": "(T)IridiumPickaxe",
+						"Price": -1,
+						"TradeItemId": "(O)896",
+						"TradeItemAmount": 3
+					}
+				],
+				},
+				"InfinityAxe": {
+					"ClassName": "Axe",
+					"Name": "Infinity Axe",
+					"AttachmentSlots": -1,
+					"SalePrice": "{{Upgrade Price}}",
+					"DisplayName": "{{i18n:InfinityAxe_Name}}",
+					"Description": "[LocalizedText Strings\\Tools:Axe_Description]",
+					"Texture": "Vanillin.InfinityTools/Tilesheets/{{Recolor}}/Infinity_Tools",
+					"SpriteIndex": 63,
+					"MenuSpriteIndex": 89,
+					"UpgradeLevel": "{{Axe}}",
+					"ConventionalUpgradeFrom": null,
+					"CanBeLostOnDeath": false,
+					"SetProperties": null,
+					"ModData": null,
+					"CustomFields": null,
+					"UpgradeFrom": [
+					{
+						"Condition": "PLAYER_HAS_SEEN_EVENT  Current Vanillin.InfinityTools_Clint_Infinity_Tools",
+						"RequireToolId": "(T)IridiumAxe",
+						"Price": -1,
+						"TradeItemId": "(O)896",
+						"TradeItemAmount": 3
+					}
+				],
+				},
+				"InfinityHoe": {
+					"ClassName": "Hoe",
+					"Name": "Infinity Hoe",
+					"AttachmentSlots": -1,
+					"SalePrice": "{{Upgrade Price}}",
+					"DisplayName": "{{i18n:InfinityHoe_Name}}",
+					"Description": "[LocalizedText Strings\\Tools:Hoe_Description]",
+					"Texture": "Vanillin.InfinityTools/Tilesheets/{{Recolor}}/Infinity_Tools",
+					"SpriteIndex": 105,
+					"MenuSpriteIndex": 131,
+					"UpgradeLevel": "{{Hoe}}",
+					"ConventionalUpgradeFrom": null,
+					"CanBeLostOnDeath": false,
+					"SetProperties": null,
+					"ModData": null,
+					"CustomFields": null,
+					"UpgradeFrom": [
+					{
+						"Condition": "PLAYER_HAS_SEEN_EVENT  Current Vanillin.InfinityTools_Clint_Infinity_Tools",
+						"RequireToolId": "(T)IridiumHoe",
+						"Price": -1,
+						"TradeItemId": "(O)896",
+						"TradeItemAmount": 3
+					}
+				],
+				},
+				"InfinityWateringCan": {
+					"ClassName": "WateringCan",
+					"Name": "Infinity Watering Can",
+					"AttachmentSlots": -1,
+					"SalePrice": "{{Upgrade Price}}",
+					"DisplayName": "{{i18n:InfinityWateringCan_Name}}",
+					"Description": "[LocalizedText Strings\\Tools:WateringCan_Description]",
+					"Texture": "Vanillin.InfinityTools/Tilesheets/{{Recolor}}/Infinity_Tools",
+					"SpriteIndex": 147,
+					"MenuSpriteIndex": 170,
+					"UpgradeLevel": "{{Watering Can}}",
+					"ConventionalUpgradeFrom": null,
+					"CanBeLostOnDeath": false,
+					"SetProperties": null,
+					"ModData": null,
+					"CustomFields": null,
+					"UpgradeFrom": [
+					{
+						"Condition": "PLAYER_HAS_SEEN_EVENT  Current Vanillin.InfinityTools_Clint_Infinity_Tools",
+						"RequireToolId": "(T)IridiumWateringCan",
+						"Price": -1,
+						"TradeItemId": "(O)896",
+						"TradeItemAmount": 3
+					}
+				],
+				},
+				"InfinityRod": {
+					"ClassName": "FishingRod",
+					"Name": "Infinity Rod",
+					"AttachmentSlots": "{{Rod}}",
+					"SalePrice": "{{Upgrade Price}}",
+					"DisplayName": "{{i18n:InfinityRod_Name}}",
+					"Description": "{{i18n:InfinityRod_description}}",
+					"Texture": "Vanillin.InfinityTools/Tilesheets/{{Recolor}}/Infinity_Tools",
+					"SpriteIndex": 0,
+					"MenuSpriteIndex": -1,
+					"UpgradeLevel": 5,
+					"ConventionalUpgradeFrom": null,
+					"CanBeLostOnDeath": false,
+					"SetProperties": null,
+					"ModData": null,
+					"CustomFields": null,
+					"UpgradeFrom": [
+					{
+						"Condition": "PLAYER_HAS_SEEN_EVENT  Current Vanillin.InfinityTools_Clint_Infinity_Tools",
+						"RequireToolId": "(T)AdvancedIridiumRod",
+						"Price": -1,
+						"TradeItemId": "(O)896",
+						"TradeItemAmount": 3
+					}
+				],
+				},
+				"InfinityPan": {
+					"ClassName": "Pan",
+					"Name": "Infinity Pan",
+					"AttachmentSlots": -1,
+					"SalePrice": "{{Upgrade Price}}",
+					"DisplayName": "{{i18n:InfinityPan_Name}}",
+					"Description": "{{i18n:InfinityPan_description}}",
+					"Texture": "Vanillin.InfinityTools/Tilesheets/{{Recolor}}/Infinity_Tools",
+					"SpriteIndex": 1,
+					"MenuSpriteIndex": -1,
+					"UpgradeLevel": "{{Pan}}",
+					"ConventionalUpgradeFrom": null,
+					"CanBeLostOnDeath": false,
+					"SetProperties": null,
+					"ModData": null,
+					"CustomFields": null,
+					"UpgradeFrom": [
+					{
+						"Condition": "PLAYER_HAS_SEEN_EVENT  Current Vanillin.InfinityTools_Clint_Infinity_Tools",
+						"RequireToolId": "(T)IridiumPan",
+						"Price": -1,
+						"TradeItemId": "(O)896",
+						"TradeItemAmount": 3
+					}
+				],
+				},
+			}
+		},
+  ]
+}

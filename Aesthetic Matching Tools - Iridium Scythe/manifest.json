@@ -1,0 +1,12 @@
+{
+   "Name": "Aesthetic Matching Tools - Iridium Scythe",
+   "Author": "Wumbuzz",
+   "Version": "1.0",
+   "Description": "Substitui a Foice Dourada por uma alternativa de Irídio para combinar com as outras ferramentas e armas.",
+   "UniqueID": "Wumbuzz.IridiumScythe",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "Nexus:10560" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

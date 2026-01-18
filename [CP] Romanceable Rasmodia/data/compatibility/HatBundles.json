@@ -1,0 +1,38 @@
+{
+    "Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Mods/Lumisteria.CP.MissingHatsBundles/Wizard",
+			"FromFile": "assets/Misc/hat_bundle.png"
+		},
+        {
+			"Action": "EditData",
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+				"Lumisteria.CP.MissingHatsBundles.Wizard": {
+					"Location": "Forest",
+					"BundleName": "{{i18n:WizardHat}}",
+					"BundleIconAsset": "Mods/Lumisteria.CP.MissingHatsBundles/Wizard",
+					"ShopPosition": "12, 39",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 3, 
+					"Price": {
+						"613": 4,//Apples
+						"796": 1,//Slimejack
+						"769": 3,//Void Essence
+						"768": 3//Solar Essence
+					},
+					"BundleReward": {
+						"305": 1,//Void Egg
+						"422": 3//Purple Mushroom
+					},
+					"BundleCompletedMail": "{{i18n: WizardHatLetter{{ifDating}}}}"
+				}
+			},
+			"When": {
+			   "HasFlag": "hatter"
+			}
+		}
+    ]
+}

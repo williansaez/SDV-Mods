@@ -1,0 +1,306 @@
+{
+	"Changes": [
+
+        { //New 1.6 Dialogue + old/updated dialogue keys that were never present - Default
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+            "DumpsterDiveComment": "{{i18n:Wizard.DumpsterDiveComment {{expressionList}} }}",
+            "HitBySlingshot": "{{i18n:Wizard.HitBySlingshot {{expressionList}} }}",
+            "SpouseFarmhouseClutter": "{{i18n:Wizard.SpouseFarmhouseClutter {{expressionList}} }}",
+            "SpouseGiftJealous": "{{i18n:Wizard.SpouseGiftJealous {{expressionList}} }}",
+            "Spouse_MonstersInHouse": "{{i18n:Wizard.Spouse_MonstersInHouse {{expressionList}} }}",
+            "SpouseStardrop": "{{i18n:Wizard.SpouseStardrop {{expressionList}} }}",
+            "WipedMemory": "{{i18n:Wizard.WipedMemory {{expressionList}} }}",
+            },
+        },
+        { //New 1.6 Dialogue - Dating/Engaged
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+            "DumpsterDiveComment": "{{i18n:Wizard.Dating.DumpsterDiveComment {{expressionList}} }}",
+            "HitBySlingshot": "{{i18n:Wizard.Dating.HitBySlingshot {{expressionList}} }}",
+            "Fair_Judging": "{{i18n:Wizard.Dating.Fair_Judging {{expressionList}} }}",
+            "Fair_Judged_PlayerLost_PurpleShorts": "{{i18n:Wizard.Dating.Fair_Judged_PlayerLost_PurpleShorts {{expressionList}} }}",
+            "Fair_Judged_PlayerLost_Skipped": "{{i18n:Wizard.Dating.Fair_Judged_PlayerLost_Skipped {{expressionList}} }}",
+            "Fair_Judged_PlayerLost": "{{i18n:Wizard.Dating.Fair_Judged_PlayerLost {{expressionList}} }}",
+            "Fair_Judged_PlayerWon": "{{Random: {{i18n:Wizard.Dating.Fair_Judged_PlayerWon.0 {{expressionList}} }} @@ {{i18n:Wizard.Dating.Fair_Judged_PlayerWon.1 {{expressionList}} }} |inputSeparator=@@}}",
+            },
+        },
+        { //New 1.6 Dialogue - Married
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Married"},
+        "Entries": {
+            "DumpsterDiveComment": "{{i18n:Wizard.Marriage.DumpsterDiveComment {{expressionList}} }}",
+            "HitBySlingshot": "{{i18n:Wizard.Marriage.HitBySlingshot}}",
+            "Fair_Judging": "{{i18n:Wizard.Marriage.Fair_Judging {{expressionList}} }}",
+            "Fair_Judged_PlayerLost_PurpleShorts": "{{i18n:Wizard.Marriage.Fair_Judged_PlayerLost_PurpleShorts {{expressionList}} }}",
+            "Fair_Judged_PlayerLost_Skipped": "{{i18n:Wizard.Marriage.Fair_Judged_PlayerLost_Skipped {{expressionList}} }}",
+            "Fair_Judged_PlayerLost": "{{i18n:Wizard.Marriage.Fair_Judged_PlayerLost {{expressionList}} }}",
+            "Fair_Judged_PlayerWon": "{{Random: {{i18n:Wizard.Marriage.Fair_Judged_PlayerWon.0 {{expressionList}} }} @@ {{i18n:Wizard.Marriage.Fair_Judged_PlayerWon.1 {{expressionList}} }} |inputSeparator=@@}}",
+            },
+        },
+
+        { //Dating + Engagement + Wedding Dialogue
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+            "AcceptBouquet": "{{i18n:Wizard.Bouquet {{expressionList}} }}",
+            "RejectBouquet_Divorced": "{{i18n:Wizard.RejectBouquet_Divorced {{expressionList}} }}",
+            "RejectBouquet_NpcAlreadyMarried": "{{Random: {{i18n:UCR.Wizard.marriedA {{expressionList}} }} @@ {{i18n:UCR.Wizard.marriedB {{expressionList}} }} |inputSeparator=@@}}",
+            "RejectBouquet_VeryLowHearts": "{{Random: {{i18n:UCR.Wizard.reject_two_heartA {{expressionList}} }} @@ {{i18n:UCR.Wizard.reject_two_heartB {{expressionList}} }} |inputSeparator=@@}}",
+            "RejectBouquet_LowHearts": "{{Random: {{i18n:UCR.Wizard.reject_four_heartA {{expressionList}} }} @@ {{i18n:UCR.Wizard.reject_four_heartB {{expressionList}} }} |inputSeparator=@@}}",
+
+            "RejectMermaidPendant_Divorced": "{{i18n:Wizard.RejectMermaidPendant_Divorced {{expressionList}} }}",
+            "RejectMermaidPendant_NpcWithSomeoneElse": "{{i18n:Wizard.RejectMermaidPendant_NpcWithSomeoneElse {{expressionList}} }}",
+            "RejectMermaidPendant_PlayerWithSomeoneElse": "{{Random: {{i18n:UCR.Wizard.marriedA {{expressionList}} }} @@ {{i18n:UCR.Wizard.marriedB {{expressionList}} }} |inputSeparator=@@}}",
+            "RejectMermaidPendant_Under8Hearts": "{{Random: {{i18n:UCR.Wizard.refusal_knownA {{expressionList}} }} @@ {{i18n:UCR.Wizard.refusal_knownB {{expressionList}} }} |inputSeparator=@@}}",
+            "RejectMermaidPendant_Under10Hearts": "{{i18n:Wizard.RejectMermaidPendant_Under10Hearts {{expressionList}} }}",
+            "RejectMermaidPendant_Under10Hearts_AskedAgain": "{{i18n:Wizard.RejectMermaidPendant_Under10Hearts_AskedAgain {{expressionList}} }}",
+            "RejectMermaidPendant": "{{Random: {{i18n:UCR.Wizard.refusal_knownA {{expressionList}} }} @@ {{i18n:UCR.Wizard.refusal_knownB {{expressionList}} }} |inputSeparator=@@}}",
+            },
+        },
+        { //Dating + Engagement + Wedding Dialogue
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Married"},
+        "Entries": {
+            "RejectMermaidPendant_PlayerWithSomeoneElse": "{{i18n:Wizard.Marriage.RejectMermaidPendant_PlayerWithSomeoneElse {{expressionList}} }}",
+            },
+        },
+        { //Birthday Dialogue
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+            "AcceptBirthdayGift_Loved": "{{Random: {{i18n:Wizard.BirthdayGift.Love.0 {{expressionList}} }} @@ {{i18n:Wizard.BirthdayGift.Love.1 {{expressionList}} }} |inputSeparator=@@}}", //Love
+            "AcceptBirthdayGift_Liked": "{{Random: {{i18n:Wizard.BirthdayGift.Like.0 {{expressionList}} }} @@ {{i18n:Wizard.BirthdayGift.Like.1 {{expressionList}} }} |inputSeparator=@@}}", //Like
+            "AcceptBirthdayGift_Disliked": "{{Random: {{i18n:Wizard.BirthdayGift.Dislike.0 {{expressionList}} }} @@ {{i18n:Wizard.BirthdayGift.Dislike.1 {{expressionList}} }} |inputSeparator=@@}}", //Dislike
+            "AcceptBirthdayGift_Neutral": "{{Random: {{i18n:Wizard.BirthdayGift.Neutral.0 {{expressionList}} }} @@ {{i18n:Wizard.BirthdayGift.Neutral.1 {{expressionList}} }} |inputSeparator=@@}}", //Neutral
+            },
+        },
+        { //Birthday Dialogue Dating
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+            "AcceptBirthdayGift_Loved": "{{Random: {{i18n:UCR.Wizard.Dating.birthdayLoveA {{expressionList}} }} @@ {{i18n:UCR.Wizard.Dating.birthdayLoveB {{expressionList}} }} |inputSeparator=@@}}", //Love
+            "AcceptBirthdayGift_Liked": "{{Random: {{i18n:UCR.Wizard.Dating.birthdayLikeA {{expressionList}} }} @@ {{i18n:UCR.Wizard.Dating.birthdayLikeB {{expressionList}} }} |inputSeparator=@@}}", //Like
+            "AcceptBirthdayGift_Disliked": "{{Random: {{i18n:UCR.Wizard.Dating.birthdayDislikeA {{expressionList}} }} @@ {{i18n:UCR.Wizard.Dating.birthdayDislikeB {{expressionList}} }} |inputSeparator=@@}}", //Dislike
+            "AcceptBirthdayGift_Neutral": "{{Random: {{i18n:UCR.Wizard.Dating.birthdayNeutralA {{expressionList}} }} @@ {{i18n:UCR.Wizard.Dating.birthdayNeutralB {{expressionList}} }} |inputSeparator=@@}}", //Neutral
+            },
+        },
+        { //Birthday Dialogue Married
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Married"},
+        "Entries": {
+            "AcceptBirthdayGift_Loved": "{{Random: {{i18n:UCR.Wizard.Married.birthdayLoveA {{expressionList}} }} @@ {{i18n:UCR.Wizard.Married.birthdayLoveB {{expressionList}} }} |inputSeparator=@@}}", //Love
+            "AcceptBirthdayGift_Liked": "{{Random: {{i18n:UCR.Wizard.Married.birthdayLikeA {{expressionList}} }} @@ {{i18n:UCR.Wizard.Married.birthdayLikeB {{expressionList}} }} |inputSeparator=@@}}", //Like
+            "AcceptBirthdayGift_Disliked": "{{Random: {{i18n:UCR.Wizard.Married.birthdayDislikeA {{expressionList}} }} @@ {{i18n:UCR.Wizard.Married.birthdayDislikeB {{expressionList}} }} |inputSeparator=@@}}", //Dislike
+            "AcceptBirthdayGift_Neutral": "{{Random: {{i18n:UCR.Wizard.Married.birthdayNeutralA {{expressionList}} }} @@ {{i18n:UCR.Wizard.Married.birthdayNeutralB {{expressionList}} }} |inputSeparator=@@}}", //Neutral
+            },
+        },
+		{ //Rainy Dialogue
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/rainy",
+        "Entries": {
+            "Wizard": "{{Random: {{i18n:Rainy.Wizard.0 {{expressionList}} }} @@ {{i18n:Rainy.Wizard.1 {{expressionList}} }} @@ {{i18n:Rainy.Wizard.2 {{expressionList}} }} |inputSeparator=@@}}",
+            },
+        },
+        {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/rainy",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+            "Wizard": "{{Random: {{i18n:Rainy.Dating.Wizard.0 {{expressionList}} }} @@ {{i18n:Rainy.Dating.Wizard.1 {{expressionList}} }} @@ {{i18n:Rainy.Dating.Wizard.2 {{expressionList}} }} |inputSeparator=@@}}",
+            },
+        },
+		//Pre Festival Dialogues
+		{ //Egg Festival
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+        	"spring_12": "{{i18n:Wizard.spring_12 {{expressionList}} }}",
+        	},
+    	},
+    	{ 
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+        	"spring_12": "{{i18n:Wizard.Dating.spring_12 {{expressionList}} }}",
+        	},
+    	},
+    	{ //Flower Dance
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+        	"spring_23": "{{i18n:Wizard.spring_23 {{expressionList}} }}",
+        	},
+    	},
+    	{ 
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+        	"spring_23": "{{i18n:Wizard.Dating.spring_23 {{expressionList}} }}",
+        	},
+    	},
+    	{ //Luau
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+        	"summer_10": "{{i18n:Wizard.summer_10 {{expressionList}} }}",
+        	},
+    	},
+    	{ 
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+        	"summer_10": "{{i18n:Wizard.Dating.summer_10 {{expressionList}} }}",
+        	},
+    	},
+    	{ //Dance of the Moonlight Jellies
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+        	"summer_28": "{{i18n:Wizard.summer_28 {{expressionList}} }}",
+        	},
+    	},
+    	{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+        	"summer_28": "{{i18n:Wizard.Dating.summer_28 {{expressionList}} }}",
+        	},
+    	},
+    	{ //Stardew Valley Fair
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+        	"fall_15": "{{i18n:Wizard.fall_15 {{expressionList}} }}",
+        	},
+    	},
+    	{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+        	"fall_15": "{{i18n:Wizard.Dating.fall_15 {{expressionList}} }}",
+        	},
+    	},
+    	{ //Spirit's Eve
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+        	"fall_26": "{{i18n:Wizard.fall_26 {{expressionList}} }}",
+        	},
+    	},
+    	{ 
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+        	"fall_26": "{{i18n:Wizard.Dating.fall_26 {{expressionList}} }}",
+        	},
+    	},
+        { //Festival of Ice
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+            "winter_7": "{{i18n:Wizard.winter_7 {{expressionList}} }}",
+            },
+        },
+        { 
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+            "winter_7": "{{i18n:Wizard.Dating.winter_7 {{expressionList}} }}",
+            },
+        },
+        { //Night Market/Birthday
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+            "winter_17": "{{i18n:Wizard.winter_17 {{expressionList}} }}",
+            },
+        },
+        {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+            "winter_17": "{{i18n:Wizard.Dating.winter_17 {{expressionList}} }}",
+            },
+        },
+        { //Feast of the Winter Star
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+            "winter_24": "{{i18n:Wizard.winter_24 {{expressionList}} }}",
+            },
+        },
+        { 
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+            "winter_24": "{{i18n:Wizard.Dating.winter_24 {{expressionList}} }}",
+            },
+        },
+        { //New Year (not a festival but I wanted to add dialogue anyway)
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+            "winter_28": "{{i18n:Wizard.winter_28 {{expressionList}} }}",
+            },
+        },
+        { 
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+            "winter_28": "{{i18n:Wizard.Dating.winter_28 {{expressionList}} }}",
+            },
+        },
+		//Ridgeside Compat
+        { //Ridgeside Gathering
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"HasMod": "Rafseazz.RSVCP"},
+        "Entries": {
+        	"fall_19": "{{i18n:Wizard.fall_19 {{expressionList}} }}",
+        	},
+    	},
+    	{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"HasMod": "Rafseazz.RSVCP", "Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+        	"fall_19": "{{i18n:Wizard.Dating.fall_19 {{expressionList}} }}",
+        	},
+    	},
+    	{ //Ember of Resolutions
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"HasMod": "Rafseazz.RSVCP"},
+        "Entries": {
+        	"winter_27": "{{i18n:Wizard.winter_27 {{expressionList}} }}",
+        	},
+    	},
+    	{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"HasMod": "Rafseazz.RSVCP", "Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+        	"winter_27": "{{i18n:Wizard.Dating.winter_27 {{expressionList}} }}",
+
+        	},
+    	},
+	]
+}

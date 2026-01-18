@@ -1,0 +1,3508 @@
+{
+    "$schema": "https://smapi.io/schemas/content-patcher.json",
+    "ConfigSchema": {
+        "Anchoviella": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "ArcticChar": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Arowana": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "BandedAngelfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Barracuda": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Barreleye": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "BlackGhostKnifefish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Blinky": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "BlueDragonSlug": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "BlueFreshwaterShrimp": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "BlueRingedOctopus": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "BlueStarfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "BlueTang": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Bonnethead": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "BonnetheadPup1": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "BonnetheadPup2": {
+            "AllowValues": "true,false",
+            "Default": "false",
+            "AllowMultiple": false
+        },
+        "BrainSlug": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "BriefSquid": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Cavefish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "CaveLobster": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "CelestialEye": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "ClownKnifefish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "ClownLoach": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "ClownTriggerfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Coelacanth": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Comet": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "CommonPleco": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Conger": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "CrownOfThornsStarfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "CyclopsShark": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Decapod": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "DumboOctopus": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "DwarfStingray": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "DwarfStingrayPup": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "ElectricCatfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Elephantfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "VoidEvilpus": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "FalseKelpfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "FireClownfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "FlameAngelfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "FreshwaterButterflyfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "FreshwaterCrab": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "FreshwaterPufferfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "FreshwaterShrimp": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "FrilledShark": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "GhostEel1": {
+            "AllowValues": "true,false",
+            "Default": "false",
+            "AllowMultiple": false
+        },
+        "GhostEel2": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "GhostKoi": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Glassfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "GoblinSharkPup": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Goldfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "GreatFireflySquid": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "GreenTerror": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Haddock": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Hagfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "HarlequinFreshwaterShrimp": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "HiUtsuriKoi": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "HolyGrenadeStarfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Icefish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Ide": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Jellyfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "KingCrab": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "KiUtsuriKoi": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "KohakuKoi": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "La": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Ladyfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Lamprey": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "LongfinIcedevil": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Mandarinfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Lionhead": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "LongnoseGar": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Lungfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "MantaRayPup": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "MaroonClownfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "MimicOctopus": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Monkfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "MoorishIdol": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Mudskipper": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Mushu": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Nautilus": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "OrangeClownfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "OrnateAngelfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Pacu": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Pangasius": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "PinkSkunkClownfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Piranha": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Pollock": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Prawn": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "RedFreshwaterShrimp": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "RedHarlequinFreshwaterShrimp": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "RedtailShark": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "RibbonEel": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Robalo": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "RoyalAngelfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "RoyalStarfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "SaddlebackClownfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "SandDollar": {
+            "AllowValues": "true,false",
+            "Default": "false",
+            "AllowMultiple": false
+        },
+        "SankeKoi": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Sauger": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "SeaSnake": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "SebaeClownfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Shinidamachu": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "ShiroUtsuriKoi": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "SiameseAlgaeEater": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "SkunkClownfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "SmallGoblinShark": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "SmallMantaRay": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "SmallSwordfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "SnowballPleco": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Soldierfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "SpinyDogfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "SpinyDogfishPup": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Squirrelfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Starfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "StubbySquid": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "SwimmerCrab": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "TanchoKoi": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Telescope": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Tench": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "ThreadSailFilefish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "ThreespotAngelfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Tigerfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "TigerPuffer": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Trahira": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "TrappedSoul": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Tucunare": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Tui": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "TwobandClownfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "VampireFish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "VampireSquid": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "VoidAlgae": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "VoidCarp": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "WaterSnake": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "WhitesnoutClownfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "WidebandClownfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "Wolffish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "YamabukiKoi": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "YellowtailClownfish": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "ZebraEel": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "ZebraTilapia": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        }
+    },
+    "Format": "2.4.0",
+    "Changes": [
+        {
+            "LogName": "Anchoviella",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Anchoviella": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Anchoviella": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 256,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/anchoviella.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Arctic Char",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "ArcticChar": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_ArcticChar": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 288,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/arcticchar.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Arowana",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Arowana": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Arowana": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 272,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/arowana.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Banded Angelfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "BandedAngelfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_BandedAngelfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 80,
+                        "Y": 80,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/bandedangelfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Barracuda",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Barracuda": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Barracuda": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 352,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/barracuda.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Barreleye",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Barreleye": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Barreleye": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 112,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/barreleye.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Black Ghost Knifefish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "BlackGhostKnifefish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_BlackGhostKnifefish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 336,
+                        "Y": 32,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/blackghostknifefish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Blinky",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Blinky": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Blinky": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 256,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/blinky.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Blue Dragon Slug",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "BlueDragonSlug": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_BlueDragonSlug": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 224,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/bluedragonslug.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Blue Freshwater Shrimp",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "BlueFreshwaterShrimp": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_BlueFreshwaterShrimp": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 0,
+                        "Y": 32,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/bluefreshwatershrimp.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Blue-Ringed Octopus",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "BlueRingedOctopus": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Blue-RingedOctopus": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 64,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/blueringedoctopus.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Blue Starfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "BlueStarfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_BlueStarfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 288,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/bluestarfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Blue Tang",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "BlueTang": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_BlueTang": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 16,
+                        "Y": 80,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/bluetang.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Bonnethead",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Bonnethead": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Bonnethead": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 368,
+                        "Y": 32,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/bonnethead.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Bonnethead Pup1",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "BonnetheadPup1": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_BonnetheadPup1": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 16,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/bonnetheadpup1.png}}:0..7@20"
+                }
+            }
+        },
+        {
+            "LogName": "Bonnethead Pup2",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "BonnetheadPup2": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_BonnetheadPup2": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 16,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/bonnetheadpup2.png}}:0..7@20"
+                }
+            }
+        },
+        {
+            "LogName": "Brain Slug",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "BrainSlug": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_BrainSlug": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 304,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/brainslug.png}}:0..7@10"
+                }
+            }
+        },
+        {
+            "LogName": "Brief Squid",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "BriefSquid": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_BriefSquid": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 48,
+                        "Y": 32,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/briefsquid.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Cavefish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Cavefish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Cavefish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 160,
+                        "Y": 32,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/cavefish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Cave Lobster",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "CaveLobster": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_CaveLobster": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 176,
+                        "Y": 32,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/cavelobster.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Celestial Eye",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "CelestialEye": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_CelestialEye": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 176,
+                        "Y": 64,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/celestialeye.png}}:0..7@10"
+                }
+            }
+        },
+        {
+            "LogName": "Clown Knifefish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "ClownKnifefish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_ClownKnifefish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 16,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/clownknifefish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Clown Loach",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "ClownLoach": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_ClownLoach": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/clownloach.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Clown Triggerfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "ClownTriggerfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_ClownTriggerfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 352,
+                        "Y": 32,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/clowntriggerfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Coelacanth",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Coelacanth": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Coelacanth": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 144,
+                        "Y": 32,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/coelacanth.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Comet",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Comet": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Comet": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 144,
+                        "Y": 64,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/comet.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Common Pleco",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "CommonPleco": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_CommonPleco": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 128,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/commonpleco.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Conger",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Conger": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Conger": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 16,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/conger.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Crown Of Thorns Starfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "CrownOfThornsStarfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_CrownOfThornsStarfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 320,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/crownofthornsstarfish.png}}:0..8@20"
+                }
+            }
+        },
+        {
+            "LogName": "Cyclops Shark",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "CyclopsShark": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_CyclopsShark": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 256,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/cyclopsshark.png}}:0..15@15"
+                }
+            }
+        },
+        {
+            "LogName": "Decapod",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Decapod": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Decapod": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 112,
+                        "Y": 32,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/decapod.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Dumbo Octopus",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "DumboOctopus": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_DumboOctopus": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 96,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/dumbooctopus.png}}:0..7@20"
+                }
+            }
+        },
+        {
+            "LogName": "Dwarf Stingray",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "DwarfStingray": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_DwarfStingray": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 128,
+                        "Y": 80,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/dwarfstingray.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Dwarf Stingray Pup",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "DwarfStingrayPup": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_DwarfStingrayPup": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 304,
+                        "Y": 80,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/dwarfstingraypup.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Electric Catfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "ElectricCatfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_ElectricCatfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 48,
+                        "Y": 64,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/electriccatfish.png}}:0..7@10"
+                }
+            }
+        },
+        {
+            "LogName": "Elephantfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Elephantfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Elephantfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 80,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/elephantfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "False Kelpfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "FalseKelpfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_FalseKelpfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 208,
+                        "Y": 80,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/falsekelpfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Fire Clownfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "FireClownfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_FireClownfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 336,
+                        "Y": 64,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/fireclownfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Flame Angelfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "FlameAngelfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_FlameAngelfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 112,
+                        "Y": 80,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/flameangelfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Freshwater Butterflyfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "FreshwaterButterflyfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_FreshwaterButterflyfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 32,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/freshwaterbutterflyfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Freshwater Crab",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "FreshwaterCrab": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_FreshwaterCrab": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 192,
+                        "Y": 32,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/freshwatercrab.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Freshwater Pufferfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "FreshwaterPufferfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_FreshwaterPufferfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 128,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/freshwaterpufferfish.png}}:0..18@20"
+                }
+            }
+        },
+        {
+            "LogName": "Freshwater Shrimp",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "FreshwaterShrimp": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_FreshwaterShrimp": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 352,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/freshwatershrimp.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Frilled Shark",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "FrilledShark": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_FrilledShark": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 48,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/frilledshark.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Ghost Eel1",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "GhostEel1": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_GhostEel1": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 224,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/ghosteel1.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Ghost Eel2",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "GhostEel2": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_GhostEel2": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 224,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/ghosteel2.png}}:0..7@20"
+                }
+            }
+        },
+        {
+            "LogName": "Ghost Koi",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "GhostKoi": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_GhostKoi": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 368,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/ghostkoi.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Glassfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Glassfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Glassfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 96,
+                        "Y": 64,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/glassfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Goblin Shark Pup",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "GoblinSharkPup": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_GoblinSharkPup": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 0,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/goblinsharkpup.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Goldfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Goldfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Goldfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 112,
+                        "Y": 64,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/goldfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Great Firefly Squid",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "GreatFireflySquid": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_GreatFireflySquid": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 288,
+                        "Y": 80,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/greatfireflysquid.png}}:0..10@10"
+                }
+            }
+        },
+        {
+            "LogName": "Green Terror",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "GreenTerror": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_GreenTerror": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 288,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/greenterror.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Haddock",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Haddock": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Haddock": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 320,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/haddock.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Hagfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Hagfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Hagfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 272,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/hagfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Harlequin Freshwater Shrimp",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "HarlequinFreshwaterShrimp": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_HarlequinFreshwaterShrimp": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 16,
+                        "Y": 32,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/harlequinfreshwatershrimp.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Hi Utsuri Koi",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "HiUtsuriKoi": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_HiUtsuriKoi": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 0,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/hiutsurikoi.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Holy Grenade Starfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "HolyGrenadeStarfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_HolyGrenadeStarfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 336,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/holygrenadestarfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Icefish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Icefish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Icefish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 176,
+                        "Y": 80,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/icefish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Ide",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Ide": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Ide": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 176,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/ide.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Jellyfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Jellyfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Jellyfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 192,
+                        "Y": 64,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/jellyfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "King Crab",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "KingCrab": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_KingCrab": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 96,
+                        "Y": 32,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/kingcrab.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Ki Utsuri Koi",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "KiUtsuriKoi": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_KiUtsuriKoi": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 48,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/kiutsurikoi.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Kohaku Koi",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "KohakuKoi": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_KohakuKoi": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 112,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/kohakukoi.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "La",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "La": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_La": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 208,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/la.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Ladyfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Ladyfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Ladyfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 80,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/ladyfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Lamprey",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Lamprey": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Lamprey": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 192,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/lamprey.png}}:0..7@20"
+                }
+            }
+        },
+        {
+            "LogName": "Lionhead",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Lionhead": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Lionhead": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 128,
+                        "Y": 64,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/lionhead.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Longfin Icedevil",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "LongfinIcedevil": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_LongfinIcedevil": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 368,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/longfinicedevil.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Longnose Gar",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "LongnoseGar": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_LongnoseGar": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 320,
+                        "Y": 32,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/longnosegar.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Lungfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Lungfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Lungfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 288,
+                        "Y": 32,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/lungfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Mandarinfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Mandarinfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Mandarinfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 256,
+                        "Y": 80,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/mandarinfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Manta Ray Pup",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "MantaRayPup": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_MantaRayPup": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 64,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/mantaraypup.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Maroon Clownfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "MaroonClownfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_MaroonClownfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 304,
+                        "Y": 64,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/maroonclownfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Mimic Octopus",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "MimicOctopus": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_MimicOctopus": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 48,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/mimicoctopus.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Monkfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Monkfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Monkfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 144,
+                        "Y": 80,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/monkfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Moorish Idol",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "MoorishIdol": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_MoorishIdol": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 32,
+                        "Y": 80,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/moorishidol.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Mudskipper",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Mudskipper": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Mudskipper": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 128,
+                        "Y": 32,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/mudskipper.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Mushu",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Mushu": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Mushu": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 320,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/mushu.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Nautilus",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Nautilus": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Nautilus": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 240,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/nautilus.png}}:0..15@20"
+                }
+            }
+        },
+        {
+            "LogName": "Orange Clownfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "OrangeClownfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_OrangeClownfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 256,
+                        "Y": 64,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/orangeclownfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Ornate Angelfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "OrnateAngelfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_OrnateAngelfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 64,
+                        "Y": 80,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/ornateangelfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Pacu",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Pacu": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Pacu": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 112,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/pacu.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Pangasius",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Pangasius": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Pangasius": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 192,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/pangasius.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Pink Skunk Clownfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "PinkSkunkClownfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_PinkSkunkClownfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 288,
+                        "Y": 64,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/pinkskunkclownfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Piranha",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Piranha": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Piranha": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 240,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/piranha.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Pollock",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Pollock": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Pollock": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 0,
+                        "Y": 80,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/pollock.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Prawn",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Prawn": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Prawn": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 64,
+                        "Y": 32,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/prawn.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Red Freshwater Shrimp",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "RedFreshwaterShrimp": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_RedFreshwaterShrimp": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 368,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/redfreshwatershrimp.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Red Harlequin Freshwater Shrimp",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "RedHarlequinFreshwaterShrimp": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_RedHarlequinFreshwaterShrimp": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 32,
+                        "Y": 32,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/redharlequinfreshwatershrimp.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Redtail Shark",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "RedtailShark": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_RedtailShark": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 64,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/redtailshark.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Ribbon Eel",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "RibbonEel": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_RibbonEel": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 208,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/ribboneel.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Robalo",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Robalo": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Robalo": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 240,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/robalo.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Royal Angelfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "RoyalAngelfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_RoyalAngelfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 48,
+                        "Y": 80,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/royalangelfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Royal Starfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "RoyalStarfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_RoyalStarfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 304,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/royalstarfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Saddleback Clownfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "SaddlebackClownfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_SaddlebackClownfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 240,
+                        "Y": 64,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/saddlebackclownfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Sand Dollar",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "SandDollar": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_SandDollar": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 80,
+                        "Y": 32,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/sanddollar.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Sanke Koi",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "SankeKoi": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_SankeKoi": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 128,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/sankekoi.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Sauger",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Sauger": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Sauger": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 96,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/sauger.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Sea Snake",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "SeaSnake": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_SeaSnake": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 64,
+                        "Y": 64,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/seasnake.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Sebae Clownfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "SebaeClownfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_SebaeClownfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 208,
+                        "Y": 64,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/sebaeclownfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Shinidamachu",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Shinidamachu": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Shinidamachu": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 240,
+                        "Y": 32,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/shinidamachu.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Shiro Utsuri Koi",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "ShiroUtsuriKoi": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_ShiroUtsuriKoi": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 32,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/shiroutsurikoi.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Siamese Algae Eater",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "SiameseAlgaeEater": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_SiameseAlgaeEater": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 144,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/siamesealgaeeater.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Skunk Clownfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "SkunkClownfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_SkunkClownfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 272,
+                        "Y": 64,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/skunkclownfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Small Goblin Shark",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "SmallGoblinShark": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_SmallGoblinShark": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 176,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/smallgoblinshark.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Small Manta Ray",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "SmallMantaRay": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_SmallMantaRay": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 224,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/smallmantaray.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Small Swordfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "SmallSwordfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_SmallSwordfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 336,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/smallswordfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Snowball Pleco",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "SnowballPleco": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_SnowballPleco": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 160,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/snowballpleco.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Soldierfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Soldierfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Soldierfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 192,
+                        "Y": 80,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/soldierfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Spiny Dogfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "SpinyDogfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_SpinyDogfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 0,
+                        "Y": 64,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/spinydogfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Spiny Dogfish Pup",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "SpinyDogfishPup": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_SpinyDogfishPup": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 32,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/spinydogfishpup.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Squirrelfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Squirrelfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Squirrelfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 160,
+                        "Y": 80,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/squirrelfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Starfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Starfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Starfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 272,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/starfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Stubby Squid",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "StubbySquid": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_StubbySquid": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 80,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/stubbysquid.png}}:0..7@20"
+                }
+            }
+        },
+        {
+            "LogName": "Swimmer Crab",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "SwimmerCrab": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_SwimmerCrab": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 80,
+                        "Y": 64,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/swimmercrab.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Tancho Koi",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "TanchoKoi": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_TanchoKoi": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 96,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/tanchokoi.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Telescope",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Telescope": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Telescope": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 160,
+                        "Y": 64,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/telescope.png}}:0..6@20"
+                }
+            }
+        },
+        {
+            "LogName": "Tench",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Tench": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Tench": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 304,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/tench.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Thread Sail Filefish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "ThreadSailFilefish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_ThreadSailFilefish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 224,
+                        "Y": 80,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/threadsailfilefish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Threespot Angelfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "ThreespotAngelfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_ThreespotAngelfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 96,
+                        "Y": 80,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/threespotangelfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Tigerfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Tigerfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Tigerfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 304,
+                        "Y": 32,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/tigerfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Tiger Puffer",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "TigerPuffer": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_TigerPuffer": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 272,
+                        "Y": 80,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/tigerpuffer.png}}:0..11@20"
+                }
+            }
+        },
+        {
+            "LogName": "Trahira",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Trahira": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Trahira": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 208,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/trahira.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Trapped Soul",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "TrappedSoul": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_TrappedSoul": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 176,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/trappedsoul.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Tucunare",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Tucunare": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Tucunare": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 160,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/tucunare.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Tui",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Tui": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Tui": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 192,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/tui.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Twoband Clownfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "TwobandClownfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_TwobandClownfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 352,
+                        "Y": 64,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/twobandclownfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Vampire Fish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "VampireFish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_VampireFish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 272,
+                        "Y": 32,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/vampirefish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Vampire Squid",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "VampireSquid": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_VampireSquid": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 256,
+                        "Y": 32,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/vampiresquid.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Void Algae",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "VoidAlgae": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_VoidAlgae": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 144,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/voidalgae.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Void Carp",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "VoidCarp": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_VoidCarp": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 16,
+                        "Y": 64,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/voidcarp.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Void Evilpus",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "VoidEvilpus": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_VoidEvilpus": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 160,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/voidevilpus.png}}:0..15@20"
+                }
+            }
+        },
+        {
+            "LogName": "Water Snake",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "WaterSnake": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_WaterSnake": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 32,
+                        "Y": 64,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/watersnake.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Whitesnout Clownfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "WhitesnoutClownfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_WhitesnoutClownfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 320,
+                        "Y": 64,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/whitesnoutclownfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Wideband Clownfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "WidebandClownfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_WidebandClownfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 224,
+                        "Y": 64,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/widebandclownfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Wolffish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "Wolffish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_Wolffish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 240,
+                        "Y": 80,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/wolffish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Yamabuki Koi",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "YamabukiKoi": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_YamabukiKoi": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 352,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/yamabukikoi.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Yellowtail Clownfish",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "YellowtailClownfish": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_YellowtailClownfish": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 368,
+                        "Y": 64,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/yellowtailclownfish.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Zebra Eel",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "ZebraEel": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_ZebraEel": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 336,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/zebraeel.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Zebra Tilapia",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "ZebraTilapia": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedMoreNewFish_ZebraTilapia": {
+                    "TargetTexture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "TargetRect": {
+                        "X": 144,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/zebratilapia.png}}:0..3@20"
+                }
+            }
+        }
+    ]
+}

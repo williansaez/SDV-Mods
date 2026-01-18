@@ -1,0 +1,36 @@
+{
+    "Changes": [
+
+	{ // Egg Festival
+		"Action": "EditData", "Target": "Data/Festivals/spring13", "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false }, "TextOperations": [ 
+		{ "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters"], "Value": "Anderson 18 53 down", "Delimiter": "/" },
+		{ "Operation": "Append", "Target": ["Entries", "MainEvent_additionalCharacters"], "Value": "Anderson 26 53 down", "Delimiter": "/" } ],
+	},
+	{
+		"Action": "EditData", "Target": "Data/Festivals/spring13", "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }, "TextOperations": [ 
+		{ "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters"], "Value": "Anderson 22 53 down", "Delimiter": "/" },
+		{ "Operation": "Append", "Target": ["Entries", "MainEvent_additionalCharacters"], "Value": "Anderson 26 53 down", "Delimiter": "/" } ],
+	},
+	{
+		"Action": "EditData", "Target": "Data/Festivals/spring13", "TextOperations": [ 
+		{ "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters_y2"], "Value": "Anderson 26 54 down", "Delimiter": "/" },
+		{ "Operation": "Append", "Target": ["Entries", "MainEvent_additionalCharacters_y2"], "Value": "Anderson 26 54 down", "Delimiter": "/" } ],
+	},
+	{
+		"Action": "EditData", "Target": "data/festivals/spring13", "Entries": { "Anderson": "{{i18n:And.Fest.Egg}}" }
+    },
+	{ // Stardew Valley Fair
+		"Action": "EditData", "Target": "Data/Festivals/fall16", "TextOperations": [ 
+		{ "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters"], "Value": "Anderson 44 62 up", "Delimiter": "/" },
+		{ "Operation": "Append", "Target": ["Entries", "MainEvent_additionalCharacters"], "Value": "Anderson 44 62 up", "Delimiter": "/" } ],
+	},
+	{
+		"Action": "EditData", "Target": "Data/Festivals/fall16", "TextOperations": [ 
+		{ "Operation": "Append", "Target": ["Entries", "Set-Up_additionalCharacters_y2"], "Value": "Anderson 34 61 up", "Delimiter": "/" },
+		{ "Operation": "Append", "Target": ["Entries", "MainEvent_additionalCharacters_y2"], "Value": "Anderson 34 61 up", "Delimiter": "/" } ],
+	},
+	{
+		"Action": "EditData", "Target": "data/festivals/fall16", "Entries": { "Anderson": "{{i18n:And.Fest.Fair}}" }
+    }
+  ]
+}

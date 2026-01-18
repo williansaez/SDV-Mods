@@ -1,0 +1,836 @@
+{
+    "$schema": "https://smapi.io/schemas/content-patcher.json",
+    "ConfigSchema": {
+        "DarkSword": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "ForestSword": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "InfinityBlade": {
+            "AllowValues": "1,2,false",
+            "Default": "2",
+            "AllowMultiple": false
+        },
+        "InfinityDagger": {
+            "AllowValues": "1,2,false",
+            "Default": "2",
+            "AllowMultiple": false
+        },
+        "InfinityHammer": {
+            "AllowValues": "1,2,false",
+            "Default": "2",
+            "AllowMultiple": false
+        },
+        "InsectHead": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "LavaKatana": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "NeptunesGlaive": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "ObsidianEdge": {
+            "AllowValues": "1,2,false",
+            "Default": "1",
+            "AllowMultiple": false
+        },
+        "PrismaticGalaxyDagger": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "PrismaticGalaxyHammer": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "PrismaticGalaxySword": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "PrismaticPickaxe": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "PrismaticAxe": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "PrismaticHoe": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "PrismaticCan": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "PrismaticScythe": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "ReturnScepter": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "SteelSmallsword": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "TemplarsSword": {
+            "AllowValues": "1,2,false",
+            "Default": "1",
+            "AllowMultiple": false
+        },
+        "PrismaticBar": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "PrismaticSprinkler": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "DragontoothCutlass": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "AllowMultiple": false
+        },
+        "DisablePrismaticToolsInventory": {
+            "AllowValues": "true,false",
+            "Default": "false",
+            "AllowMultiple": false
+        },
+        "PrismaticScytheStatic": {
+            "AllowValues": "true,false",
+            "Default": "false",
+            "AllowMultiple": false
+        }
+    },
+    "Format": "2.4.0",
+    "Changes": [
+        {
+            "LogName": "Dark Sword",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "DarkSword": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedToolsAndWeapons_DarkSword": {
+                    "TargetTexture": "TileSheets/weapons",
+                    "TargetRect": {
+                        "X": 32,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/darksword.png}}:0..23@9"
+                }
+            }
+        },
+        {
+            "LogName": "Forest Sword",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "ForestSword": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedToolsAndWeapons_ForestSword": {
+                    "TargetTexture": "TileSheets/weapons",
+                    "TargetRect": {
+                        "X": 112,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/forestsword.png}}:0..29@20"
+                }
+            }
+        },
+        {
+            "LogName": "Infinity Blade 1",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "InfinityBlade": 1
+            },
+            "Entries": {
+                "Gervig91.AnimatedToolsAndWeapons_InfinityBlade1": {
+                    "TargetTexture": "TileSheets/weapons",
+                    "TargetRect": {
+                        "X": 96,
+                        "Y": 112,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/infinityblade.png}}:0..17@9"
+                }
+            }
+        },
+        {
+            "LogName": "Infinity Blade 2",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "InfinityBlade": 2
+            },
+            "Entries": {
+                "Gervig91.AnimatedToolsAndWeapons_InfinityBlade2": {
+                    "TargetTexture": "TileSheets/weapons",
+                    "TargetRect": {
+                        "X": 96,
+                        "Y": 112,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/infinityblade2.png}}:0..17@9"
+                }
+            }
+        },
+        {
+            "LogName": "Infinity Dagger",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "InfinityDagger": 1
+            },
+            "Entries": {
+                "Gervig91.AnimatedToolsAndWeapons_InfinityDagger": {
+                    "TargetTexture": "TileSheets/weapons",
+                    "TargetRect": {
+                        "X": 0,
+                        "Y": 128,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/infinitydagger.png}}:0..17@9"
+                }
+            }
+        },
+        {
+            "LogName": "Infinity Dagger 2",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "InfinityDagger": 2
+            },
+            "Entries": {
+                "Gervig91.AnimatedToolsAndWeapons_InfinityDagger2": {
+                    "TargetTexture": "TileSheets/weapons",
+                    "TargetRect": {
+                        "X": 0,
+                        "Y": 128,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/infinitydagger2.png}}:0..17@9"
+                }
+            }
+        },
+        {
+            "LogName": "Infinity Hammer 1",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "InfinityHammer": 1
+            },
+            "Entries": {
+                "Gervig91.AnimatedToolsAndWeapons_InfinityHammer1": {
+                    "TargetTexture": "TileSheets/weapons",
+                    "TargetRect": {
+                        "X": 112,
+                        "Y": 112,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/infinityhammer.png}}:0..17@9"
+                }
+            }
+        },
+        {
+            "LogName": "Infinity Hammer 2",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "InfinityHammer": 2
+            },
+            "Entries": {
+                "Gervig91.AnimatedToolsAndWeapons_InfinityHammer2": {
+                    "TargetTexture": "TileSheets/weapons",
+                    "TargetRect": {
+                        "X": 112,
+                        "Y": 112,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/infinityhammer2.png}}:0..17@9"
+                }
+            }
+        },
+        {
+            "LogName": "Insect Head",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "InsectHead": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedToolsAndWeapons_InsectHead": {
+                    "TargetTexture": "TileSheets/weapons",
+                    "TargetRect": {
+                        "X": 80,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/insecthead.png}}:0..3@20"
+                }
+            }
+        },
+        {
+            "LogName": "Lava Katana",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "LavaKatana": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedToolsAndWeapons_LavaKatana": {
+                    "TargetTexture": "TileSheets/weapons",
+                    "TargetRect": {
+                        "X": 16,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/lavakatana.png}}:0..3@10"
+                }
+            }
+        },
+        {
+            "LogName": "Neptune's Glaive",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "NeptunesGlaive": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedToolsAndWeapons_Neptune'sGlaive": {
+                    "TargetTexture": "TileSheets/weapons",
+                    "TargetRect": {
+                        "X": 96,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/neptunesglaive.png}}:0..19@10"
+                }
+            }
+        },
+        {
+            "LogName": "Obsidian Edge 1",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "ObsidianEdge": 1
+            },
+            "Entries": {
+                "Gervig91.AnimatedToolsAndWeapons_ObsidianEdge1": {
+                    "TargetTexture": "TileSheets/weapons",
+                    "TargetRect": {
+                        "X": 0,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/obsidianedge1.png}}:0..19@12"
+                }
+            }
+        },
+        {
+            "LogName": "Obsidian Edge 2",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "ObsidianEdge": 2
+            },
+            "Entries": {
+                "Gervig91.AnimatedToolsAndWeapons_ObsidianEdge2": {
+                    "TargetTexture": "TileSheets/weapons",
+                    "TargetRect": {
+                        "X": 0,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/obsidianedge2.png}}:0..19@12"
+                }
+            }
+        },
+        {
+            "LogName": "Prismatic Galaxy Dagger",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "PrismaticGalaxyDagger": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedToolsAndWeapons_PrismaticGalaxyDagger": {
+                    "TargetTexture": "TileSheets/weapons",
+                    "TargetRect": {
+                        "X": 112,
+                        "Y": 32,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/prismaticgalaxydagger.png}}:0..17@9"
+                }
+            }
+        },
+        {
+            "LogName": "Prismatic Galaxy Hammer",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "PrismaticGalaxyHammer": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedToolsAndWeapons_PrismaticGalaxyHammer": {
+                    "TargetTexture": "TileSheets/weapons",
+                    "TargetRect": {
+                        "X": 80,
+                        "Y": 48,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/prismaticgalaxyhammer.png}}:0..17@9"
+                }
+            }
+        },
+        {
+            "LogName": "Prismatic Galaxy Sword",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "PrismaticGalaxySword": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedToolsAndWeapons_PrismaticGalaxySword": {
+                    "TargetTexture": "TileSheets/weapons",
+                    "TargetRect": {
+                        "X": 64,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/prismaticgalaxysword.png}}:0..17@9"
+                }
+            }
+        },
+        {
+            "LogName": "Prismatic Pickaxe",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "PrismaticPickaxe": true,
+                "DisablePrismaticToolsInventory": false,
+                "HasMod": "stokastic.PrismaticTools"
+            },
+            "Entries": {
+                "Gervig91.AnimatedToolsAndWeapons_PrismaticPickaxe": {
+                    "TargetTexture": "TileSheets/tools",
+                    "TargetRect": {
+                        "X": 224,
+                        "Y": 112,
+                        "Width": 96,
+                        "Height": 32
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/prismaticpickaxe.png}}:0..23@10"
+                }
+            }
+        },
+        {
+            "LogName": "Prismatic Pickaxe 1",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "PrismaticPickaxe": true,
+                "DisablePrismaticToolsInventory": true,
+                "HasMod": "stokastic.PrismaticTools"
+            },
+            "Entries": {
+                "Gervig91.AnimatedToolsAndWeapons_PrismaticPickaxe1": {
+                    "TargetTexture": "TileSheets/tools",
+                    "TargetRect": {
+                        "X": 224,
+                        "Y": 112,
+                        "Width": 96,
+                        "Height": 32
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/prismaticpickaxe1.png}}:0..23@10"
+                }
+            }
+        },
+        {
+            "LogName": "Prismatic Axe",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "PrismaticAxe": true,
+                "DisablePrismaticToolsInventory": false,
+                "HasMod": "stokastic.PrismaticTools"
+            },
+            "Entries": {
+                "Gervig91.AnimatedToolsAndWeapons_PrismaticAxe": {
+                    "TargetTexture": "TileSheets/tools",
+                    "TargetRect": {
+                        "X": 224,
+                        "Y": 176,
+                        "Width": 96,
+                        "Height": 32
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/prismaticaxe.png}}:0..23@10"
+                }
+            }
+        },
+        {
+            "LogName": "Prismatic Axe 1",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "PrismaticAxe": true,
+                "DisablePrismaticToolsInventory": true,
+                "HasMod": "stokastic.PrismaticTools"
+            },
+            "Entries": {
+                "Gervig91.AnimatedToolsAndWeapons_PrismaticAxe1": {
+                    "TargetTexture": "TileSheets/tools",
+                    "TargetRect": {
+                        "X": 224,
+                        "Y": 176,
+                        "Width": 96,
+                        "Height": 32
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/prismaticaxe1.png}}:0..23@10"
+                }
+            }
+        },
+        {
+            "LogName": "Prismatic Hoe",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "PrismaticHoe": true,
+                "DisablePrismaticToolsInventory": false,
+                "HasMod": "stokastic.PrismaticTools"
+            },
+            "Entries": {
+                "Gervig91.AnimatedToolsAndWeapons_PrismaticHoe": {
+                    "TargetTexture": "TileSheets/tools",
+                    "TargetRect": {
+                        "X": 224,
+                        "Y": 48,
+                        "Width": 96,
+                        "Height": 32
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/prismatichoe.png}}:0..23@10"
+                }
+            }
+        },
+        {
+            "LogName": "Prismatic Hoe 1",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "PrismaticHoe": true,
+                "DisablePrismaticToolsInventory": true,
+                "HasMod": "stokastic.PrismaticTools"
+            },
+            "Entries": {
+                "Gervig91.AnimatedToolsAndWeapons_PrismaticHoe1": {
+                    "TargetTexture": "TileSheets/tools",
+                    "TargetRect": {
+                        "X": 224,
+                        "Y": 48,
+                        "Width": 96,
+                        "Height": 32
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/prismatichoe1.png}}:0..23@10"
+                }
+            }
+        },
+        {
+            "LogName": "Prismatic Can",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "PrismaticCan": true,
+                "DisablePrismaticToolsInventory": false,
+                "HasMod": "stokastic.PrismaticTools"
+            },
+            "Entries": {
+                "Gervig91.AnimatedToolsAndWeapons_PrismaticCan": {
+                    "TargetTexture": "TileSheets/tools",
+                    "TargetRect": {
+                        "X": 224,
+                        "Y": 240,
+                        "Width": 64,
+                        "Height": 32
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/prismaticcan.png}}:0..23@10"
+                }
+            }
+        },
+        {
+            "LogName": "Prismatic Can 1",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "PrismaticCan": true,
+                "DisablePrismaticToolsInventory": true,
+                "HasMod": "stokastic.PrismaticTools"
+            },
+            "Entries": {
+                "Gervig91.AnimatedToolsAndWeapons_PrismaticCan1": {
+                    "TargetTexture": "TileSheets/tools",
+                    "TargetRect": {
+                        "X": 224,
+                        "Y": 240,
+                        "Width": 64,
+                        "Height": 32
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/prismaticcan1.png}}:0..23@10"
+                }
+            }
+        },
+        {
+            "LogName": "Prismatic Scythe",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "PrismaticScythe": true,
+                "PrismaticScytheStatic": false,
+                "HasMod": "stokastic.PrismaticTools"
+            },
+            "Entries": {
+                "Gervig91.AnimatedToolsAndWeapons_PrismaticScythe": {
+                    "TargetTexture": "TileSheets/weapons",
+                    "TargetRect": {
+                        "X": 80,
+                        "Y": 96,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/prismaticscythe.png}}:0..23@10"
+                }
+            }
+        },
+        {
+            "LogName": "Prismatic Scyhe Static",
+            "Action": "EditImage",
+            "Target": "TileSheets/weapons",
+            "FromFile": "prismaticscythe1.png",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 80,
+                "Y": 96,
+                "Width": 16,
+                "Height": 16
+            },
+            "When": {
+                "PrismaticScytheStatic": "true",
+                "HasMod": "stokastic.PrismaticTools"
+            }
+        },
+        {
+            "LogName": "Prismatic Scythe Map",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "PrismaticScythe": true,
+                "HasMod": "stokastic.PrismaticTools"
+            },
+            "Entries": {
+                "Gervig91.AnimatedToolsAndWeapons_PrismaticScytheMap": {
+                    "TargetTexture": "Maps/Mines/mine_quarryshaft",
+                    "TargetRect": {
+                        "X": 48,
+                        "Y": 240,
+                        "Width": 32,
+                        "Height": 32
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/prismaticscythemap.png}}:0..23@10"
+                }
+            }
+        },
+        {
+            "LogName": "Prismatic Bar",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "PrismaticBar": true,
+                "HasMod": "stokastic.PrismaticTools"
+            },
+            "Entries": {
+                "Gervig91.AnimatedToolsAndWeapons_PrismaticBar": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 128,
+                        "Y": 736,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/prismaticbar.png}}:0..23@10"
+                }
+            }
+        },
+        {
+            "LogName": "Prismatic Sprinkler",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "PrismaticSprinkler": true,
+                "HasMod": "stokastic.PrismaticTools"
+            },
+            "Entries": {
+                "Gervig91.AnimatedToolsAndWeapons_PrismaticSprinkler": {
+                    "TargetTexture": "Maps/springobjects",
+                    "TargetRect": {
+                        "X": 144,
+                        "Y": 736,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/prismaticsprinkler.png}}:0..23@10"
+                }
+            }
+        },
+        {
+            "LogName": "Return Scepter",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "ReturnScepter": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedToolsAndWeapons_ReturnScepter": {
+                    "TargetTexture": "TileSheets/tools",
+                    "TargetRect": {
+                        "X": 32,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/returnscepter.png}}:0..35@10"
+                }
+            }
+        },
+        {
+            "LogName": "Steel Smallsword",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "SteelSmallsword": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedToolsAndWeapons_SteelSmallsword": {
+                    "TargetTexture": "TileSheets/weapons",
+                    "TargetRect": {
+                        "X": 48,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/steelsmallsword.png}}:0..19@10"
+                }
+            }
+        },
+        {
+            "LogName": "Templar's Sword 1",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "TemplarsSword": 1
+            },
+            "Entries": {
+                "Gervig91.AnimatedToolsAndWeapons_Templar'sSword1": {
+                    "TargetTexture": "TileSheets/weapons",
+                    "TargetRect": {
+                        "X": 112,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/templarssword1.png}}:0..17@9"
+                }
+            }
+        },
+        {
+            "LogName": "Templar's Sword 2",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "TemplarsSword": 2
+            },
+            "Entries": {
+                "Gervig91.AnimatedToolsAndWeapons_Templar'sSword2": {
+                    "TargetTexture": "TileSheets/weapons",
+                    "TargetRect": {
+                        "X": 112,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/templarssword2.png}}:0..17@9"
+                }
+            }
+        },
+        {
+            "LogName": "Dragontooth Cutlass",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/TextureOverrides",
+            "When": {
+                "DragontoothCutlass": true
+            },
+            "Entries": {
+                "Gervig91.AnimatedToolsAndWeapons_DragontoothCutlass": {
+                    "TargetTexture": "TileSheets/weapons",
+                    "TargetRect": {
+                        "X": 16,
+                        "Y": 112,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "SourceTexture": "{{InternalAssetKey: assets/dragontoothcutlass.png}}:0..19@8"
+                }
+            }
+        }
+    ]
+}

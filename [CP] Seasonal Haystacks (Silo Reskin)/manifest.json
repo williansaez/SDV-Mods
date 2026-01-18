@@ -1,0 +1,11 @@
+{
+   "Name": "Seasonal Haystacks Silo Reskin",
+   "Author": "eorrl",
+   "Version": "1.0.0",
+   "Description": "Makes the silo look like a haystack, with seasonal varieties.",
+   "UniqueID": "eorrl.SeasonalHaystacks",
+   "UpdateKeys": ["Nexus:8307"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+	   }
+}

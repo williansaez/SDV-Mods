@@ -1,0 +1,280 @@
+{
+	"Changes": [
+		{ //Engagement Dialogue
+		"Action": "EditData",
+		"Target": "Data/EngagementDialogue",
+		"Entries": {
+			"Wizard0": "{{i18n:Wizard.Engagement.Wizard0 {{expressionList}} }}",
+            "Wizard1": "{{i18n:Wizard.Engagement.Wizard1 {{expressionList}} }}",
+			},
+		},
+
+		{ //Marriage Dialogue
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueWizard",
+        "When": {"Marriage Dialogue": "standard"},
+        "Entries": {
+            "Rainy_Day_Wizard": "{{Random: {{i18n:Wizard.Rainy_Day_Wizard.0 {{expressionList}} }} @@ {{i18n:Wizard.Rainy_Day_Wizard.1 {{expressionList}} }} @@ {{i18n:Wizard.Rainy_Day_Wizard.2 {{expressionList}} }} |inputSeparator=@@}}",
+            "Rainy_Night_Wizard": "{{Random: {{i18n:Wizard.Rainy_Night_Wizard.0 {{expressionList}} }} @@ {{i18n:Wizard.Rainy_Night_Wizard.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Indoor_Day_Wizard": "{{Random: {{i18n:Wizard.Indoor_Day_Wizard.0 {{expressionList}} }} @@ {{i18n:Wizard.Indoor_Day_Wizard.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Indoor_Night_Wizard": "{{Random: {{i18n:Wizard.Indoor_Night_Wizard.0 {{expressionList}} }} @@ {{i18n:Wizard.Indoor_Night_Wizard.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Outdoor_Wizard": "{{Random: {{i18n:Wizard.Outdoor_Wizard.0 {{expressionList}} }} @@ {{i18n:Wizard.Outdoor_Wizard.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "spring_Wizard": "{{Random: {{i18n:Wizard.spring_Wizard.0 {{expressionList}} }} @@ {{i18n:Wizard.spring_Wizard.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "summer_Wizard": "{{Random: {{i18n:Wizard.summer_Wizard.0 {{expressionList}} }} @@ {{i18n:Wizard.summer_Wizard.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "winter_Wizard": "{{Random: {{i18n:Wizard.winter_Wizard.0 {{expressionList}} }} @@ {{i18n:Wizard.winter_Wizard.1 {{expressionList}} }} |inputSeparator=@@}}",
+
+            "Rainy_Day_0": "{{Random: {{i18n:Wizard.Rainy_Day_0.0 {{expressionList}} }} @@ {{i18n:Wizard.Rainy_Day_0.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Rainy_Day_1": "{{Random: {{i18n:Wizard.Rainy_Day_1.0 {{expressionList}} }} @@ {{i18n:Wizard.Rainy_Day_1.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Rainy_Day_2": "{{Random: {{i18n:Wizard.Rainy_Day_2.0 {{expressionList}} }} @@ {{i18n:Wizard.Rainy_Day_2.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Rainy_Day_3": "{{Random: {{i18n:Wizard.Rainy_Day_3.0 {{expressionList}} }} @@ {{i18n:Wizard.Rainy_Day_3.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Rainy_Day_4": "{{Random: {{i18n:Wizard.Rainy_Day_4.0 {{expressionList}} }} @@ {{i18n:Wizard.Rainy_Day_4.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Rainy_Night_0": "{{Random: {{i18n:Wizard.Rainy_Night_0.0 {{expressionList}} }} @@ {{i18n:Wizard.Rainy_Night_0.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Rainy_Night_1": "{{Random: {{i18n:Wizard.Rainy_Night_1.0 {{expressionList}} }} @@ {{i18n:Wizard.Rainy_Night_1.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Rainy_Night_2": "{{Random: {{i18n:Wizard.Rainy_Night_2.0 {{expressionList}} }} @@ {{i18n:Wizard.Rainy_Night_2.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Rainy_Night_3": "{{Random: {{i18n:Wizard.Rainy_Night_3.0 {{expressionList}} }} @@ {{i18n:Wizard.Rainy_Night_3.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Rainy_Night_4": "{{Random: {{i18n:Wizard.Rainy_Night_4.0 {{expressionList}} }} @@ {{i18n:Wizard.Rainy_Night_4.1 {{expressionList}} }} |inputSeparator=@@}}",
+
+            "Indoor_Day_0": "{{Random: {{i18n:Wizard.Indoor_Day_0.0 {{expressionList}} }} @@ {{i18n:Wizard.Indoor_Day_0.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Indoor_Day_1": "{{Random: {{i18n:Wizard.Indoor_Day_1.0 {{expressionList}} }} @@ {{i18n:Wizard.Indoor_Day_1.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Indoor_Day_2": "{{Random: {{i18n:Wizard.Indoor_Day_2.0 {{expressionList}} }} @@ {{i18n:Wizard.Indoor_Day_2.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Indoor_Day_3": "{{Random: {{i18n:Wizard.Indoor_Day_3.0 {{expressionList}} }} @@ {{i18n:Wizard.Indoor_Day_3.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Indoor_Day_4": "{{Random: {{i18n:Wizard.Indoor_Day_4.0 {{expressionList}} }} @@ {{i18n:Wizard.Indoor_Day_4.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Indoor_Night_0": "{{Random: {{i18n:Wizard.Indoor_Night_0.0 {{expressionList}} }} @@ {{i18n:Wizard.Indoor_Night_0.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Indoor_Night_1": "{{Random: {{i18n:Wizard.Indoor_Night_1.0 {{expressionList}} }} @@ {{i18n:Wizard.Indoor_Night_1.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Indoor_Night_2": "{{Random: {{i18n:Wizard.Indoor_Night_2.0 {{expressionList}} }} @@ {{i18n:Wizard.Indoor_Night_2.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Indoor_Night_3": "{{Random: {{i18n:Wizard.Indoor_Night_3.0 {{expressionList}} }} @@ {{i18n:Wizard.Indoor_Night_3.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Indoor_Night_4": "{{Random: {{i18n:Wizard.Indoor_Night_4.0 {{expressionList}} }} @@ {{i18n:Wizard.Indoor_Night_4.1 {{expressionList}} }} |inputSeparator=@@}}",
+
+            "Outdoor_0": "{{Random: {{i18n:Wizard.Outdoor_0.0 {{expressionList}} }} @@ {{i18n:Wizard.Outdoor_0.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Outdoor_1": "{{Random: {{i18n:Wizard.Outdoor_1.0 {{expressionList}} }} @@ {{i18n:Wizard.Outdoor_1.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Outdoor_2": "{{Random: {{i18n:Wizard.Outdoor_2.0 {{expressionList}} }} @@ {{i18n:Wizard.Outdoor_2.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Outdoor_3": "{{Random: {{i18n:Wizard.Outdoor_3.0 {{expressionList}} }} @@ {{i18n:Wizard.Outdoor_3.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Outdoor_4": "{{Random: {{i18n:Wizard.Outdoor_4.0 {{expressionList}} }} @@ {{i18n:Wizard.Outdoor_4.1 {{expressionList}} }} |inputSeparator=@@}}",
+
+            "OneKid_0": "{{Random: {{i18n:Wizard.OneKid_0.0 {{expressionList}} }} @@ {{i18n:Wizard.OneKid_0.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "OneKid_1": "{{Random: {{i18n:Wizard.OneKid_1.0 {{expressionList}} }} @@ {{i18n:Wizard.OneKid_1.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "OneKid_2": "{{Random: {{i18n:Wizard.OneKid_2.0 {{expressionList}} }} @@ {{i18n:Wizard.OneKid_2.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "OneKid_3": "{{Random: {{i18n:Wizard.OneKid_3.0 {{expressionList}} }} @@ {{i18n:Wizard.OneKid_3.1 {{expressionList}} }} |inputSeparator=@@}}",
+
+            "TwoKids_0": "{{Random: {{i18n:Wizard.TwoKids_0.0 {{expressionList}} }} @@ {{i18n:Wizard.TwoKids_0.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "TwoKids_1": "{{Random: {{i18n:Wizard.TwoKids_1.0 {{expressionList}} }} @@ {{i18n:Wizard.TwoKids_1.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "TwoKids_2": "{{Random: {{i18n:Wizard.TwoKids_2.0 {{expressionList}} }} @@ {{i18n:Wizard.TwoKids_2.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Twokids_3": "{{Random: {{i18n:Wizard.Twokids_3.0 {{expressionList}} }} @@ {{i18n:Wizard.Twokids_3.1 {{expressionList}} }} |inputSeparator=@@}}",
+
+            "Good_0": "{{Random: {{i18n:Wizard.Good_0.0 {{expressionList}} }} @@ {{i18n:Wizard.Good_0.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Good_1": "{{Random: {{i18n:Wizard.Good_1.0 {{expressionList}} }} @@ {{i18n:Wizard.Good_1.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Good_3": "{{Random: {{i18n:Wizard.Good_3.0 {{expressionList}} }} @@ {{i18n:Wizard.Good_3.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Good_4": "{{Random: {{i18n:Wizard.Good_4.0 {{expressionList}} }} @@ {{i18n:Wizard.Good_4.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Good_5": "{{Random: {{i18n:Wizard.Good_5.0 {{expressionList}} }} @@ {{i18n:Wizard.Good_5.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Good_6": "{{i18n:Wizard.Good_6.0 {{expressionList}} }}",
+            "Good_7": "{{i18n:Wizard.Good_7.0 {{expressionList}} }}",
+            "Good_8": "{{i18n:Wizard.Good_8.0 {{expressionList}} }}",
+            "Good_9": "{{i18n:Wizard.Good_9.0 {{expressionList}} }}",
+
+            "Neutral_0": "{{Random: {{i18n:Wizard.Neutral_0.0 {{expressionList}} }} @@ {{i18n:Wizard.Neutral_0.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Neutral_1": "{{Random: {{i18n:Wizard.Neutral_1.0 {{expressionList}} }} @@ {{i18n:Wizard.Neutral_1.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Neutral_2": "{{Random: {{i18n:Wizard.Neutral_2.0 {{expressionList}} }} @@ {{i18n:Wizard.Neutral_2.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Neutral_3": "{{Random: {{i18n:Wizard.Neutral_3.0 {{expressionList}} }} @@ {{i18n:Wizard.Neutral_3.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Neutral_4": "{{Random: {{i18n:Wizard.Neutral_4.0 {{expressionList}} }} @@ {{i18n:Wizard.Neutral_4.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Neutral_5": "{{i18n:Wizard.Neutral_5.0 {{expressionList}} }}",
+            "Neutral_6": "{{i18n:Wizard.Neutral_6.0 {{expressionList}} }}",
+            "Neutral_7": "{{i18n:Wizard.Neutral_7.0 {{expressionList}} }}",
+            "Neutral_8": "{{i18n:Wizard.Neutral_8.0 {{expressionList}} }}",
+            "Neutral_9": "{{i18n:Wizard.Neutral_9.0 {{expressionList}} }}",
+
+            "Bad_0": "{{Random: {{i18n:Wizard.Bad_0.0 {{expressionList}} }} @@ {{i18n:Wizard.Bad_0.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Bad_1": "{{Random: {{i18n:Wizard.Bad_1.0 {{expressionList}} }} @@ {{i18n:Wizard.Bad_1.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Bad_2": "{{Random: {{i18n:Wizard.Bad_2.0 {{expressionList}} }} @@ {{i18n:Wizard.Bad_2.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Bad_3": "{{Random: {{i18n:Wizard.Bad_3.0 {{expressionList}} }} @@ {{i18n:Wizard.Bad_3.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Bad_4": "{{Random: {{i18n:Wizard.Bad_4.0 {{expressionList}} }} @@ {{i18n:Wizard.Bad_4.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Bad_5": "{{i18n:Wizard.Bad_5.0 {{expressionList}} }}",
+            "Bad_6": "{{i18n:Wizard.Bad_6.0 {{expressionList}} }}",
+            "Bad_7": "{{i18n:Wizard.Bad_7.0 {{expressionList}} }}",
+            "Bad_8": "{{i18n:Wizard.Bad_8.0 {{expressionList}} }}",
+            "Bad_9": "{{i18n:Wizard.Bad_9.0 {{expressionList}} }}",
+
+            "spring_1": "{{i18n:Wizard.spring_1.0 {{expressionList}} }}",
+            "spring_2": "{{i18n:Wizard.spring_2.0 {{expressionList}} }}",
+            "spring_3": "{{i18n:Wizard.spring_3.0 {{expressionList}} }}",
+            "spring_5": "{{i18n:Wizard.spring_5.0 {{expressionList}} }}",
+            "spring_6": "{{i18n:Wizard.spring_6.0 {{expressionList}} }}",
+            "spring_8": "{{i18n:Wizard.spring_8.0 {{expressionList}} }}",
+            "spring_13": "{{i18n:Wizard.spring_13.0 {{expressionList}} }}",
+            "spring_23": "{{i18n:Wizard.spring_23.0 {{expressionList}} }}",
+
+            "summer_1": "{{i18n:Wizard.summer_1.0 {{expressionList}} }}",
+            "summer_2": "{{i18n:Wizard.summer_2.0 {{expressionList}} }}",
+            "summer_3": "{{i18n:Wizard.summer_3.0 {{expressionList}} }}",
+            "summer_4": "{{i18n:Wizard.summer_4.0 {{expressionList}} }}",
+            "summer_5": "{{i18n:Wizard.summer_5.0 {{expressionList}} }}",
+            "summer_8": "{{i18n:Wizard.summer_8.0 {{expressionList}} }}",
+            "summer_11": "{{i18n:Wizard.summer_11.0 {{expressionList}} }}",
+            "summer_15": "{{i18n:Wizard.summer_15.0 {{expressionList}} }}",
+            "summer_28": "{{i18n:Wizard.summer_28.0 {{expressionList}} }}",
+
+            "fall_1": "{{i18n:Wizard.fall_1.0 {{expressionList}} }}",
+            "fall_2": "{{i18n:Wizard.fall_2.0 {{expressionList}} }}",
+            "fall_3": "{{i18n:Wizard.fall_3.0 {{expressionList}} }}",
+            "fall_4": "{{i18n:Wizard.fall_4.0 {{expressionList}} }}",
+            "fall_8": "{{i18n:Wizard.fall_8.0 {{expressionList}} }}",
+            "fall_15": "{{i18n:Wizard.fall_15.0 {{expressionList}} }}",
+            "fall_16": "{{i18n:Wizard.fall_16.0 {{expressionList}} }}",
+            "fall_25": "{{i18n:Wizard.fall_25.0 {{expressionList}} }}",
+            "fall_26": "{{i18n:Wizard.fall_26.0 {{expressionList}} }}",
+            "fall_27": "{{i18n:Wizard.fall_27.0 {{expressionList}} }}",
+            "fall_28": "{{i18n:Wizard.fall_28.0 {{expressionList}} }}",
+
+            "winter_1": "{{i18n:Wizard.winter_1.0 {{expressionList}} }}",
+            "winter_2": "{{i18n:Wizard.winter_2.0 {{expressionList}} }}",
+            "winter_4": "{{i18n:Wizard.winter_4.0 {{expressionList}} }}",
+            "winter_6": "{{i18n:Wizard.winter_6.0 {{expressionList}} }}",
+            "winter_7": "{{i18n:Wizard.winter_7.0 {{expressionList}} }}",
+            "winter_8": "{{i18n:Wizard.winter_8.0 {{expressionList}} }}",
+            "winter_15": "{{i18n:Wizard.winter_15.0 {{expressionList}} }}",
+            "winter_17": "{{i18n:Wizard.winter_17.0 {{expressionList}} }}",
+            "winter_25": "{{i18n:Wizard.winter_25.0 {{expressionList}} }}",
+            "winter_28": "{{i18n:Wizard.winter_28.0 {{expressionList}} }}",
+
+            "spouseRoom_Wizard": "{{Random: {{i18n:Wizard.spouseRoom_Wizard.0 {{expressionList}} }} @@ {{i18n:Wizard.spouseRoom_Wizard.1 {{expressionList}} }} |inputSeparator=@@}}",
+            },
+        },
+        //FunLeaveReturn Variety
+        { //Spring
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueWizard",
+        "When": {"Marriage Dialogue": "standard", "Season": "spring"},
+        "Entries": {
+            "funLeave_Wizard": "{{Random: {{i18n:Wizard.Spring.funLeave_Wizard.0 {{expressionList}} }} @@ {{i18n:Wizard.Spring.funLeave_Wizard.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "funReturn_Wizard": "{{Random: {{i18n:Wizard.Spring.funReturn_Wizard.0 {{expressionList}} }} @@ {{i18n:Wizard.Spring.funReturn_Wizard.1 {{expressionList}} }} |inputSeparator=@@}}",
+            },
+        },
+        { //Summer
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueWizard",
+        "When": {"Marriage Dialogue": "standard", "Season": "summer"},
+        "Entries": {
+            "funLeave_Wizard": "{{Random: {{i18n:Wizard.Summer.funLeave_Wizard.0 {{expressionList}} }} @@ {{i18n:Wizard.Summer.funLeave_Wizard.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "funReturn_Wizard": "{{Random: {{i18n:Wizard.Summer.funReturn_Wizard.0 {{expressionList}} }} @@ {{i18n:Wizard.Summer.funReturn_Wizard.1 {{expressionList}} }} |inputSeparator=@@}}",
+            },
+        },
+        { //Fall
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueWizard",
+        "When": {"Marriage Dialogue": "standard", "Season": "fall"},
+        "Entries": {
+            "funLeave_Wizard": "{{Random: {{i18n:Wizard.Fall.funLeave_Wizard.0 {{expressionList}} }} @@ {{i18n:Wizard.Fall.funLeave_Wizard.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "funReturn_Wizard": "{{Random: {{i18n:Wizard.Fall.funReturn_Wizard.0 {{expressionList}} }} @@ {{i18n:Wizard.Fall.funReturn_Wizard.1 {{expressionList}} }} |inputSeparator=@@}}",
+            },
+        },
+        { //Winter
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueWizard",
+        "When": {"Marriage Dialogue": "standard", "Season": "winter"},
+        "Entries": {
+            "funLeave_Wizard": "{{Random: {{i18n:Wizard.Winter.funLeave_Wizard.0 {{expressionList}} }} @@ {{i18n:Wizard.Winter.funLeave_Wizard.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "funReturn_Wizard": "{{Random: {{i18n:Wizard.Winter.funReturn_Wizard.0 {{expressionList}} }} @@ {{i18n:Wizard.Winter.funReturn_Wizard.1 {{expressionList}} }} |inputSeparator=@@}}",
+            },
+        },
+        //Patio Variety
+        { //Spring
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueWizard",
+        "When": {"Marriage Dialogue": "standard", "Season": "spring"},
+        "Entries": {
+            "patio_Wizard": "{{Random: {{i18n:Wizard.Spring.patio_Wizard.0 {{expressionList}} }} @@ {{i18n:Wizard.Spring.patio_Wizard.1 {{expressionList}} }} |inputSeparator=@@}}",
+            },
+        },
+        { //Summer
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueWizard",
+        "When": {"Marriage Dialogue": "standard", "Season": "summer"},
+        "Entries": {
+            "patio_Wizard": "{{Random: {{i18n:Wizard.Summer.patio_Wizard.0 {{expressionList}} }} @@ {{i18n:Wizard.Summer.patio_Wizard.1 {{expressionList}} }} |inputSeparator=@@}}",
+            },
+        },
+        { //Fall
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueWizard",
+        "When": {"Marriage Dialogue": "standard", "Season": "fall"},
+        "Entries": {
+            "patio_Wizard": "{{Random: {{i18n:Wizard.Fall.patio_Wizard.0 {{expressionList}} }} @@ {{i18n:Wizard.Fall.patio_Wizard.1 {{expressionList}} }} |inputSeparator=@@}}",
+            },
+        },
+        { //Winter
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueWizard",
+        "When": {"Marriage Dialogue": "standard", "Season": "winter"},
+        "Entries": {
+            "patio_Wizard": "{{Random: {{i18n:Wizard.Winter.patio_Wizard.0 {{expressionList}} }} @@ {{i18n:Wizard.Winter.patio_Wizard.1 {{expressionList}} }} |inputSeparator=@@}}",
+            },
+        },
+
+        { //Gendered Dialogue Edits
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueWizard",
+        "When": {"Marriage Dialogue": "standard","Farmer Gender": "male"},
+        "Entries": {
+            "fall_Wizard": "{{Random: {{i18n:Wizard.fall_Wizard.0.malefarmer {{expressionList}} }} @@ {{i18n:Wizard.fall_Wizard.1 {{expressionList}} }} |inputSeparator=@@}}",
+        	},
+    	},
+        {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueWizard",
+        "When": {"Marriage Dialogue": "standard","Farmer Gender": "female"},
+        "Entries": {
+            "fall_Wizard": "{{Random: {{i18n:Wizard.fall_Wizard.0.femalefarmer {{expressionList}} }} @@ {{i18n:Wizard.fall_Wizard.1 {{expressionList}} }} |inputSeparator=@@}}",
+	        },
+	    },
+        {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueWizard",
+        "When": {"Marriage Dialogue": "standard","Farmer Gender": "gender neutral"},
+        "Entries": {
+            "fall_Wizard": "{{Random: {{i18n:Wizard.fall_Wizard.0.genderneutralfarmer {{expressionList}} }} @@ {{i18n:Wizard.fall_Wizard.1 {{expressionList}} }} |inputSeparator=@@}}",
+	        },
+	    },
+	    { //Age Dialogue Edits
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueWizard",
+        "When": {"Wizard Age Appearance": "old"},
+        "Entries": {
+            "spring_24": "{{i18n:Wizard.spring_24.0.older {{expressionList}} }}",
+            "Good_2": "{{Random: {{i18n:Wizard.Good_2.0 {{expressionList}} }} @@ {{i18n:Wizard.Good_2.1.older {{expressionList}} }} @@ {{i18n:Wizard.Good_2.2 {{expressionList}} }} |inputSeparator=@@}}",
+	        },
+	    },
+        {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueWizard",
+        "When": {"Wizard Age Appearance": "young"},
+        "Entries": {
+            "spring_24": "{{i18n:Wizard.spring_24.0.younger {{expressionList}} }}",
+            "Good_2": "{{Random: {{i18n:Wizard.Good_2.0 {{expressionList}} }} @@ {{i18n:Wizard.Good_2.1.younger {{expressionList}} }} @@ {{i18n:Wizard.Good_2.2 {{expressionList}} }} |inputSeparator=@@}}",
+	        },
+	    },
+        { //Ex-Wife Disabled
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueWizard",
+        "When": {"Marriage Dialogue": "standard", "Ex-Wife mentions": "disabled"},
+        "Entries": {
+            "Bad_0": "{{i18n:Wizard.NoEx.Bad_0.0 {{expressionList}} }}",
+            "Bad_1": "{{Random: {{i18n:Wizard.NoEx.Bad_1.0 {{expressionList}} }} @@ {{i18n:Wizard.NoEx.Bad_1.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Bad_4": "{{Random: {{i18n:Wizard.NoEx.Bad_4.0 {{expressionList}} }} @@ {{i18n:Wizard.NoEx.Bad_4.1 {{expressionList}} }} |inputSeparator=@@}}",
+            "Bad_7": "{{i18n:Wizard.NoEx.Bad_7.0 {{expressionList}} }}",
+            },
+        },
+        { //Override Generic Dialogue
+        "Action": "EditData",
+        "Target": "Data/ExtraDialogue",
+        "When": {"Override Generic Dialogue": "true", "Relationship:Wizard": "Married"},
+        "Entries": {
+            "NewChild_Adoption": "{{i18n:Wizard.NewChild_Adoption {{expressionList}} }}",
+            "NewChild_FirstChild": "{{i18n:Wizard.NewChild_FirstChild {{expressionList}} }}",
+            "NewChild_SecondChild1": "{{i18n:Wizard.NewChild_SecondChild1 {{expressionList}} }}",
+            "NewChild_SecondChild2": "{{i18n:Wizard.NewChild_SecondChild2 {{expressionList}} }}",
+            "Mines_PlayerKilled_Spouse_PlayerMale": "{{i18n:Wizard.Mines_PlayerKilled_Spouse_PlayerMale {{expressionList}} }}",
+            "Mines_PlayerKilled_Spouse_PlayerFemale": "{{i18n:Wizard.Mines_PlayerKilled_Spouse_PlayerFemale {{expressionList}} }}",
+
+			},
+        },
+	]
+}

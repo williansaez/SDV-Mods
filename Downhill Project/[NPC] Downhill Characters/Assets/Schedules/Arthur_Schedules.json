@@ -1,0 +1,31 @@
+{ 
+	"Changes": [	
+	{ 	//Branco e Incluir
+		"Action": "Load",
+		"Target": "Characters/Schedules/Arthur",
+		"FromFile": "Assets/None.json"
+	},
+	{
+		"Action":"EditData",
+		"Target":"Characters/Schedules/Arthur",
+		"Entries":
+			{
+			"rain": "610 DH.Arthur.House 9 11 2 /800 DH.Arthur.House 9 9 2 arthur_journal /2000 DH.Arthur.House 17 6 1 arthur_sleep",
+			"GreenRain": "GOTO rain",
+			"spring": "610 DH.Arthur.House 9 7 0 /730 Downhill 35 39 2 arthur_sit /1030 Downhill 19 9 1 clint_hammer /1500 DH.Mine 14 30 2 /1700 Saloon 16 23 1 arthur_beer.2 /2200 DH.Arthur.House 17 6 1 arthur_sleep",
+			"summer": "GOTO spring",
+			"fall": "610 DH.Arthur.House 9 7 0 /930 DH.Julia.House 17 6 1 /1200 DH.Mine 24 28 1 clint_hammer /1600 Downhill 34 39 2 arthur_journal /1800 DH.Arthur.House 9 10 2 arthur_beer /2200 DH.Arthur.House 17 6 1 arthur_sleep",
+			"winter": "GOTO fall"
+			}
+		},
+	{
+		"Action":"EditData",
+		"Target":"Characters/Schedules/Arthur",
+		"When": { "HasSeenEvent: anyPlayer|contains=28645006": true },
+		"Entries":
+			{
+			"Sat": "610 DH.Arthur.House 9 7 0 /730 Downhill 35 39 2 arthur_journal /1000 DH.Church 7 17 0 /1330 Downhill 19 9 1 clint_hammer /1730 DH.Arthur.House 9 9 2 arthur_sit /2200 DH.Arthur.House 17 6 1 arthur_sleep",
+			}
+		}
+	]
+}

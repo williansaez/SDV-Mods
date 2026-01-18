@@ -1,0 +1,141 @@
+{
+	"Changes": [
+		// MAIL
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"When": {
+				"Hearts:Wizard": "10",
+				"Day": "28"
+			},
+			"Entries": {
+				"Wellwick": "{{i18n:Wellwick.mail}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				"Wellwick_spouse": "{{i18n:Wellwick.mail.spouse}}"
+			}
+		},
+		// MAIL TRIGGERS
+		{
+			"Action": "EditData",
+			"Target": "data/events/Farm",
+			"When": {
+				"Relationship:Wizard |contains=Married": false,
+				"Hearts:Wizard": "10",
+				"Day": "28"
+			},
+			"Entries": {
+				"1365801/x Wellwick true": "null"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "data/events/Farm",
+			"When": {
+				"Relationship:Wizard": "Married",
+				"Day": "28"
+			},
+			"Entries": {
+				"1365801/x Wellwick_spouse true": "null"
+			}
+		},
+		// DIALOGUE
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"Entries": {
+				"Wellwick": "{{i18n:Wellwick.dialogue.rainy}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wellwick",
+			"Entries": {
+				"Mon8": "{i18n:Wellwick.dialogue.Mon8}",
+				"Tue2": "{i18n:Wellwick.dialogue.Tue2}",
+				"Tue4": "{i18n:Wellwick.dialogue.Tue4}",
+				"Tue6": "{i18n:Wellwick.dialogue.Tue6}",
+				"Tue8": "{i18n:Wellwick.dialogue.Tue8}",
+				"Wed4": "{i18n:Wellwick.dialogue.Wed4}",
+				"Thu4": "{i18n:Wellwick.dialogue.Thu4}",
+				"Thu8": "{i18n:Wellwick.dialogue.Thu8}",
+				"Thu10": "{i18n:Wellwick.dialogue.Thu10}",
+				"Fri4": "{i18n:Wellwick.dialogue.Fri4}",
+				"Sat10": "{i18n:Wellwick.dialogue.Sat10}",
+				"Sun8": "{i18n:Wellwick.dialogue.Sun8}",
+				"spring_12": "{i18n:Wellwick.dialogue.spring_12}",
+				"summer_10": "{i18n:Wellwick.dialogue.summer_10}",
+				"summer_28": "{i18n:Wellwick.dialogue.summer_28}",
+				"winter_16": "{i18n:Wellwick.dialogue.winter_16}",
+				"joja_Begin": "{i18n:Wellwick.dialogue.joja_Begin}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueWellwick",
+			"Entries": {
+				"Outdoor_1": "{i18n:Wellwick.MarriageDialogue.Outdoor_1}",
+				"spring_12": "{i18n:Wellwick.MarriageDialogue.spring_12}"
+			}
+		},
+		// FESTIVAL DIALOGUE
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": {
+				"Wellwick": "{{i18n:spring24.Wellwick}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": {
+				"Wellwick": "{{i18n:fall16.Wellwick}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"Entries": {
+				"Wellwick": "{{i18n:winter8.Wellwick}}"
+			}
+		},
+		// EVENTS
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/WizardHouse",
+			"Entries": {
+				"136578/f Wellwick 750/t 0600 2200": "WizardSong/7 17/Wellwick 10 15 2 Wizard 3 17 2 farmer 8 24 0/skippable/viewport 7 17 TRUE/pause 2000/emote Wellwick 12/speak Wellwick \"{{i18n:Wellwick.3heart.0}}\"/emote farmer 8/move farmer 0 -9 1/move Wellwick 0 0 3/speak Wellwick \"{{i18n:Wellwick.3heart.1}}\"/move Wizard 0 0 1/speak Wizard \"{{i18n:Wellwick.3heart.2}}\"/speak Wellwick \"{{i18n:Wellwick.3heart.3}}\"/move Wellwick 0 0 2/shake Wellwick 1000/pause 2000/move Wellwick 0 0 3/pause 500/speak Wellwick \"{{i18n:Wellwick.3heart.4}}\"/speak Wellwick \"{{i18n:Wellwick.3heart.5}}\"/speak Wizard \"{{i18n:Wellwick.3heart.6}}\"/pause 500/emote Wellwick 12/move Wellwick 0 0 1/pause 500/showFrame Wellwick 18/speak Wellwick \"{{i18n:Wellwick.3heart.7}}\"/speak Wizard \"{{i18n:Wellwick.3heart.8}}\"/speak Wellwick \"{{i18n:Wellwick.3heart.9}}\"/emote farmer 28/end"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/WizardHouse",
+			"Entries": {
+				"136579/e 136578/f Wellwick 1500/t 0600 2400": "WizardSong/7 17/Wellwick 4 17 2 Wizard 3 17 1 farmer 8 24 0/skippable/viewport 7 17 TRUE/showFrame Wellwick 22/pause 2000/emote Wellwick 40/speak Wellwick \"{{i18n:Wellwick.6heart.0}}\"/pause 500/showFrame Wellwick 22/emote Wellwick 28/speak Wellwick \"{{i18n:Wellwick.6heart.1}}\"/speak Wellwick \"{{i18n:Wellwick.6heart.2}}\"/speak Wizard \"{{i18n:Wellwick.6heart.3}}\"/speak Wellwick \"{{i18n:Wellwick.6heart.4}}\"/showFrame Wellwick 23/shake Wellwick 1000/pause 1000/showFrame Wellwick 22/emote farmer 8/move farmer 0 -7 3/move farmer -2 0 3/emote Wellwick 40/speak Wellwick \"{{i18n:Wellwick.6heart.5}}\"/speak Wellwick \"{{i18n:Wellwick.6heart.6}}\"/speak Wellwick \"{{i18n:Wellwick.6heart.7}}\"/speak Wizard \"{{i18n:Wellwick.6heart.8}}\"/showFrame Wellwick 12/speak Wellwick \"{{i18n:Wellwick.6heart.9}}\"/showFrame Wellwick 23/shake Wellwick 3000/emote farmer 28/end"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/WizardHouse",
+			"Entries": {
+				"136580/e 136579/f Wellwick 2500/t 2000 2400": "WizardSong/7 17/Wellwick 10 15 2 farmer 8 24 0 Wizard 8 5 2/skippable/viewport 7 17 TRUE/showFrame Wellwick 22/move farmer 0 -9 1/move Wellwick 0 0 3/pause 500/speak Wellwick \"{{i18n:Wellwick.10heart.0}}\"/emote farmer 8/speak Wellwick \"{{i18n:Wellwick.10heart.1}}\"/speak Wellwick \"{{i18n:Wellwick.10heart.2}}\"/pause 500/showFrame Wellwick 22/pause 500/emote Wellwick 28/showFrame Wellwick 25/pause 1000/speak Wellwick \"{{i18n:Wellwick.10heart.3}}\"/emote farmer 40/pause 500/speak Wellwick \"{{i18n:Wellwick.10heart.4}}\"/pause 1000/question fork1 \"{{i18n:Wellwick.10heart.5}}\"/pause 500/emote Wellwick 40/move Wizard 0 9 1/speak Wizard \"{{i18n:Wellwick.10heart.6}}\"/showFrame Wellwick 24/jump Wellwick 8/pause 1000/showFrame Wellwick 25/speak Wellwick \"{{i18n:Wellwick.10heart.7}}\"/pause 1500/shake Wellwick 1000/pause 500/emote Wizard 40/pause 500/speak Wizard \"{{i18n:Wellwick.10heart.8}}\"/pause 500/emote Wellwick 40/pause 500/showFrame Wellwick 26/pause 500/speak Wellwick \"{{i18n:Wellwick.10heart.9}}\"/pause 500/speak Wellwick \"{{i18n:Wellwick.10heart.10}}\"/pause 500/emote Wizard 40/speak Wizard \"{{i18n:Wellwick.10heart.11}}\"/speak Wellwick \"{{i18n:Wellwick.10heart.12}}\"/showFrame Wellwick 27/pause 1000/speak Wellwick \"{{i18n:Wellwick.10heart.13}}\"/speak Wizard \"{{i18n:Wellwick.10heart.14}}\"/pause 1000/showFrame Wellwick 12/pause 1000/emote Wellwick 40/pause 1000/speak Wellwick \"{{i18n:Wellwick.10heart.15}}\"/pause 1000/jump Wellwick 8/speak Wellwick \"{{i18n:Wellwick.10heart.16}}\"/move Wellwick 0 -1 0/move Wellwick -1 0 3/pause 1000/shake Wellwick 500/pause 500/jump Wellwick 8/pause 1000/jump Wizard 8/pause 1000/jump Wellwick 8/emote farmer 28/move farmer 0 9 2/end"
+			}
+		},
+		// ALECTO & WELLWICK EVENT
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/WizardHouse",
+			"When": {
+				"HasMod": "ZoeDoll.NPCAlecto"
+			},
+			"Entries": {
+				"1067106/f Alecto 500/f Wellwick 500/t 1800 2600": "WizardSong/7 18/farmer 8 23 0 Alecto 9 14 2 Wellwick 10 14 2 Wizard -1000 -1000 0/skippable/addConversationTopic AlectoWellwickEvent/addObject 9 15 348/addObject 10 15 348/pause 500/speak Wellwick \"{{i18n:Wellwickevent.1}}\"/animate Alecto false false 145 30 31 30 31 30 31/move farmer 0 -3 0/emote farmer 8/beginSimultaneousCommand/jump Alecto/jump Wellwick/endSimultaneousCommand/speak Wellwick \"{{i18n:Wellwickevent.2}}\"/pause 500/speak Alecto \"{{i18n:Wellwickevent.3}}\"/emote farmer 40/beginSimultaneousCommand/emote Alecto 16/emote Wellwick 16/endSimultaneousCommand/speak Wellwick \"{{i18n:Wellwickevent.4}}\"/speed Alecto 5/move Alecto -3 0 2/speed Alecto 5/move Alecto 0 5 2/speed Alecto 5/move Alecto -3 0 2/playSound pullItemFromWater/warp Alecto -1000 -1000/pause 1000/playSound doorClose/warp Wizard 8 23 0/pause 500/faceDirection farmer 2/pause 500/emote Wizard 8/pause 500/speak Wizard \"{{i18n:Wellwickevent.5}}\"/pause 500/emote Wellwick 60/pause 400/speak Wellwick \"{{i18n:Wellwickevent.6}}\"/pause 500/emote Wizard 12/pause 400/move farmer -2 0 1/move Wizard 0 -3 3/speak Wizard \"{{i18n:Wellwickevent.7}}\"/pause 400/emote Wellwick 16/faceDirection Wizard 0/pause 400/speak Wellwick \"{{i18n:Wellwickevent.8}}\"/pause 500/faceDirection Wizard 3/speak Wizard \"{{i18n:Wellwickevent.9}}\"/pause 400/emote farmer 28/pause 400/speak Wellwick \"{{i18n:Wellwickevent.10}}\"/speed Wellwick 5/move Wellwick -2 0 2/speed Wellwick 5/move Wellwick 0 5 0/warp Wizard 8 18/textAboveHead Wizard \"{{i18n:Wellwickevent.11}}\"/move Wizard 0 -12 0/playSound doorClose/warp Wizard -1000 -1000/pause 1000/playSound pullItemFromWater/warp Alecto 3 19 2/faceDirection farmer 3/move Wellwick 0 -3 2/move Alecto 5 0 0/faceDirection farmer 1/emote Alecto 12/move Alecto 0 4 2/playSound doorClose/warp Alecto -1000 -1000/pause 1000/message \"{{i18n:Wellwickevent.12}}\"/pause 1000/end"
+			}
+		}
+	]
+}

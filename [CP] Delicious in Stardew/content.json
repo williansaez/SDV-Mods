@@ -1,0 +1,21 @@
+{
+    "Format": "2.0.0",
+    "Changes": [
+        {
+        "Action": "Include",
+        "FromFile": "assets/objects.json"
+        },
+        {
+        "Action": "Include",
+        "FromFile": "assets/CookingRecipes.json"
+        },
+        {
+        "Action":"Load",
+        "Target":"Mods/stinkyvicki.DeliciousInStardew/objects",
+        "FromFile":"assets/objects.png"
+        },
+        {
+        "Action": "Include",
+        "FromFile":"assets/dwarfshop.json"}
+    ]
+}

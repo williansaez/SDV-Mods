@@ -1,0 +1,22 @@
+{
+  "Changes": [
+	{ 	// Anderson Parameters
+      "Action": "Include",
+      "FromFile": "Assets/Dispositions/Anderson_Dp.json, Assets/Schedules/Anderson_Schedules.json"
+	},
+	{
+      "LogName": "Conversation, Animations, Events",
+      "Action": "Include",
+      "FromFile": "Assets/Conversation/Anderson_Dialogue.json, Assets/Animations/Animations.json, Assets/Events/Anderson_Events.json"
+    },
+	{	//Festivals
+      "Action": "Include",
+      "FromFile": "Assets/Festivals/Anderson_Festivals.json"
+    },
+	{	//Dialogos & Reações
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": { "Anderson": "{{i18n:And.Gift_Love}}/-26/{{i18n:And.Gift_Like}}/-7 -27/{{i18n:And.Gift_Disl}}/-2 -5/{{i18n:And.Gift_Hate}}/-20 -12/{{i18n:And.Gift_Neut}}/-80 -79 -75 -81 -6 -4/ " }
+    }
+  ]
+}

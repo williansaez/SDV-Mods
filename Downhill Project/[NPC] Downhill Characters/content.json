@@ -1,0 +1,9 @@
+{
+	"Format": "2.5.0", 	
+	"Changes": [
+		{	// Include Various
+		"Action": "Include",
+		"FromFile": "Assets/Terrain.json, Assets/Arthur.json, Assets/Anderson.json, Assets/Julia.json, Assets/Temporary.json, Assets/Conversation/Topics.json, Assets/Events/Mail.json, Assets/Events/Mini_Quest.json, Assets/Schedules/Extra_Schedules.json",
+		},
+	]
+}

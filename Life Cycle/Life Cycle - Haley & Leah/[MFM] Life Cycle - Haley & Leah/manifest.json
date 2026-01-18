@@ -1,0 +1,15 @@
+{
+  "Name": "[MFM] Life Cycle - Haley & Leah Wedding Mail",
+  "Author": "nraittanna",
+  "Version": "4.3.0",
+  "Description": "Mail for Haley and Leah married version.",
+  "UniqueID": "nraittanna.LifeCycleHaleyLeahMail",
+  "Dependencies": [
+		{
+			"UniqueID": "nraittanna.LifeCycleHaleyLeah"
+		}
+	],
+  "ContentPackFor": {
+    "UniqueID": "DIGUS.MailFrameworkMod",
+  }
+}

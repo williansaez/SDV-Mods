@@ -1,0 +1,26 @@
+{
+	"Changes":[
+        {
+			"Action": "Include",
+			"FromFile": "data/Dialogue/Dialogue.json"
+		},
+		{
+			"LogName": "Caroline Festival Dialogue",
+			"Action": "Include",
+			"FromFile": "data/Dialogue/FestivalDialogue.json",
+		},
+        {
+			"LogName": "Caroline Marriage Dialogue",
+			"Action": "Include",
+			"FromFile": "data/Dialogue/MarriageDialogue.json",
+			"When": { 
+				"MarriageDialogue": "true",
+			},
+		},
+		{
+			"LogName": "Caroline Schedule Dialogue",
+			"Action": "Include",
+			"FromFile": "data/Dialogue/ScheduleDialogue.json",
+		},
+	],
+}

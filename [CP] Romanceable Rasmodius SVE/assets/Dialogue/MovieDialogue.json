@@ -1,0 +1,308 @@
+{
+	"Changes": [
+//Acceptance
+		{
+		"Action": "EditData",
+		"Target": "Strings/Characters",
+		"Entries": {
+			"MovieInvite_Invited_Wizard": "{{i18n:MovieInvite_Invited_Wizard {{expressionList}} }}",
+			"MovieInvite_Spouse_Wizard": "{{i18n:MovieInvite_Spouse_Wizard {{expressionList}} }}",
+			},
+		},
+
+		{ //Base
+		"Action": "EditData",
+		"Target": "Data/MoviesReactions",
+		"Entries": {
+			"Wizard": {
+				"NPCName": "Wizard",
+			    "Reactions": [
+				     	{
+				        "Tag": "fall_movie_0", //Mysterium
+				        "Response": "love",
+				        "Whitelist": [],
+				        "SpecialResponses": {
+					        "BeforeMovie": {
+					        "ResponsePoint": null,
+					        "Script": "",
+					        "Text": "{{i18n:Wizard.Base.0 {{expressionList}} }}"
+					        	},
+				        	"DuringMovie": {
+				            "ResponsePoint": null,
+				            "Script": "/message \"{{i18n:Wizard.Base.1 {{expressionList}} }}\"",
+				            "Text": "{{i18n:Wizard.Base.2 {{expressionList}} }}"
+				        		},
+				        	"AfterMovie": {
+				            "ResponsePoint": null,
+				            "Script": "",
+				            "Text": "{{i18n:Wizard.Base.3 {{expressionList}} }}"
+				        		}
+				        	},
+				        "ID": "reaction_1"
+				    	},
+				    	{
+				        "Tag": "winter_movie_1", //The Zuzu City Express
+				        "Response": "like",
+				        "Whitelist": [],
+				        "SpecialResponses": {
+					        "BeforeMovie": {
+					        "ResponsePoint": null,
+					        "Script": "",
+					        "Text": "{{i18n:Wizard.Base.4 {{expressionList}} }}"
+					        	},
+				        	"DuringMovie": {
+				            "ResponsePoint": null,
+				            "Script": "/message \"{{i18n:Wizard.Base.5 {{expressionList}} }}\"",
+				            "Text": "{{i18n:Wizard.Base.6 {{expressionList}} }}"
+				        		},
+				        	"AfterMovie": {
+				            "ResponsePoint": null,
+				            "Script": "",
+				            "Text": "{{i18n:Wizard.Base.7 {{expressionList}} }}"
+				        		}
+				        	},
+				        "ID": "reaction_2"
+				    	},
+				    	{
+				        "Tag": "*",
+				        "Response": "dislike",
+				        "Whitelist": [],
+				        "SpecialResponses": {
+				        	"BeforeMovie": {
+				            "ResponsePoint": null,
+				            "Script": "",
+				            "Text": "{{i18n:Wizard.Base.8 {{expressionList}} }}"
+				          		},
+				        	"DuringMovie": null,
+				        	"AfterMovie": {
+				            "ResponsePoint": null,
+				            "Script": "",
+				            "Text": "{{i18n:Wizard.Base.9 {{expressionList}} }}"
+				          		}
+				        	},
+				        "ID": "reaction_0"
+				    	},
+					]
+				},
+		  	},
+		},
+		{ //Dating, Married
+		"Action": "EditData",
+		"Target": "Data/MoviesReactions",
+		"When": {"Relationship:Wizard": "Dating, Engaged, Married"},
+		"Entries": {
+			"Wizard": {
+				"NPCName": "Wizard",
+			    	"Reactions": [
+				     	{
+				        "Tag": "fall_movie_0", //Mysterium
+				        "Response": "love",
+				        "Whitelist": [],
+				        "SpecialResponses": {
+					        "BeforeMovie": {
+					        "ResponsePoint": null,
+					        "Script": "",
+					        "Text": "{{i18n:Wizard.Dating.0 {{expressionList}} }}"
+					        	},
+				        	"DuringMovie": {
+				            "ResponsePoint": null,
+				            "Script": "/message \"{{i18n:Wizard.Dating.1 {{expressionList}} }}\"",
+				            "Text": "{{i18n:Wizard.Dating.2 {{expressionList}} }}"
+				        		},
+				        	"AfterMovie": {
+				            "ResponsePoint": null,
+				            "Script": "",
+				            "Text": "{{i18n:Wizard.Dating.3 {{expressionList}} }}"
+				        		}
+				        	},
+				        "ID": "reaction_1"
+				    	},
+				    	{
+				        "Tag": "winter_movie_1", //The Zuzu City Express
+				        "Response": "like",
+				        "Whitelist": [],
+				        "SpecialResponses": {
+					        "BeforeMovie": {
+					        "ResponsePoint": null,
+					        "Script": "",
+					        "Text": "{{i18n:Wizard.Dating.4 {{expressionList}} }}"
+					        	},
+				        	"DuringMovie": {
+				            "ResponsePoint": null,
+				            "Script": "/message \"{{i18n:Wizard.Dating.5 {{expressionList}} }}\"",
+				            "Text": "{{i18n:Wizard.Dating.6 {{expressionList}} }}"
+				        		},
+				        	"AfterMovie": {
+				            "ResponsePoint": null,
+				            "Script": "",
+				            "Text": "{{i18n:Wizard.Dating.7 {{expressionList}} }}"
+				        		}
+				        	},
+				        "ID": "reaction_2"
+				    	},
+				    	{
+				        "Tag": "spring_movie_0", //The Brave Little Sapling
+				        "Response": "dislike",
+				        "Whitelist": [],
+				        "SpecialResponses": {
+					        "BeforeMovie": {
+					        "ResponsePoint": null,
+					        "Script": "",
+					        "Text": "{{i18n:Wizard.Dating.8 {{expressionList}} }}"
+					        	},
+				        	"DuringMovie": {
+				            "ResponsePoint": null,
+				            "Script": "/message \"{{i18n:Wizard.Dating.9 {{expressionList}} }}\"",
+				            "Text": ""
+				        		},
+				        	"AfterMovie": {
+				            "ResponsePoint": null,
+				            "Script": "",
+				            "Text": "{{i18n:Wizard.Dating.10 {{expressionList}} }}"
+				        		}
+				        	},
+				        "ID": "reaction_3"
+				    	},
+				    	{
+				        "Tag": "summer_movie_0", //Journey Of A Prarie King: The Motion Picture
+				        "Response": "dislike",
+				        "Whitelist": [],
+				        "SpecialResponses": {
+					        "BeforeMovie": {
+					        "ResponsePoint": null,
+					        "Script": "",
+					        "Text": "{{i18n:Wizard.Dating.11 {{expressionList}} }}"
+					        	},
+				        	"DuringMovie": {
+				            "ResponsePoint": null,
+				            "Script": "/message \"{{i18n:Wizard.Dating.12 {{expressionList}} }}\"",
+				            "Text": "{{i18n:Wizard.Dating.13 {{expressionList}} }}"
+				        		},
+				        	"AfterMovie": {
+				            "ResponsePoint": null,
+				            "Script": "",
+				            "Text": "{{i18n:Wizard.Dating.14 {{expressionList}} }}"
+				        		}
+				        	},
+				        "ID": "reaction_4"
+				    	},
+				    	{
+				        "Tag": "summer_movie_1", //Wumbus
+				        "Response": "dislike",
+				        "Whitelist": [],
+				        "SpecialResponses": {
+					        "BeforeMovie": {
+					        "ResponsePoint": null,
+					        "Script": "",
+					        "Text": "{{i18n:Wizard.Dating.15 {{expressionList}} }}"
+					        	},
+				        	"DuringMovie": {
+				            "ResponsePoint": null,
+				            "Script": "/message \"{{i18n:Wizard.Dating.16 {{expressionList}} }}\"",
+				            "Text": ""
+				        		},
+				        	"AfterMovie": {
+				            "ResponsePoint": null,
+				            "Script": "",
+				            "Text": "{{i18n:Wizard.Dating.17 {{expressionList}} }}"
+				        		}
+				        	},
+				        "ID": "reaction_5"
+				    	},
+				    	{
+				        "Tag": "winter_movie_0", //The Miracle At Coldstar Ranch
+				        "Response": "dislike",
+				        "Whitelist": [],
+				        "SpecialResponses": {
+					        "BeforeMovie": {
+					        "ResponsePoint": null,
+					        "Script": "",
+					        "Text": "{{i18n:Wizard.Dating.18 {{expressionList}} }}"
+					        	},
+				        	"DuringMovie": {
+				            "ResponsePoint": null,
+				            "Script": "/message \"{{i18n:Wizard.Dating.19 {{expressionList}} }}\"",
+				            "Text": ""
+				        		},
+				        	"AfterMovie": {
+				            "ResponsePoint": null,
+				            "Script": "",
+				            "Text": "{{i18n:Wizard.Dating.20 {{expressionList}} }}"
+				        		}
+				        	},
+				        "ID": "reaction_6"
+				    	},
+				    	{
+				        "Tag": "spring_movie_1", //Natural Wonders: Exploring Our Vibrant World
+				        "Response": "like",
+				        "Whitelist": [],
+				        "SpecialResponses": {
+					        "BeforeMovie": {
+					        "ResponsePoint": null,
+					        "Script": "",
+					        "Text": "{{i18n:Wizard.Dating.21 {{expressionList}} }}"
+					        	},
+				        	"DuringMovie": {
+				            "ResponsePoint": null,
+				            "Script": "",
+				            "Text": "{{i18n:Wizard.Dating.22 {{expressionList}} }}"
+				        		},
+				        	"AfterMovie": {
+				            "ResponsePoint": null,
+				            "Script": "",
+				            "Text": "{{i18n:Wizard.Dating.23 {{expressionList}} }}"
+				        		}
+				        	},
+				        "ID": "reaction_7"
+				    	},
+				    	{
+				        "Tag": "fall_movie_1", //It Howls In The Rain
+				        "Response": "like",
+				        "Whitelist": [],
+				        "SpecialResponses": {
+					        "BeforeMovie": {
+					        "ResponsePoint": null,
+					        "Script": "",
+					        "Text": "{{i18n:Wizard.Dating.24 {{expressionList}} }}"
+					        	},
+				        	"DuringMovie": {
+				            "ResponsePoint": null,
+				            "Script": "/textAboveHead Wizard \"{{i18n:Wizard.Dating.25 {{expressionList}} }}\"",
+				            "Text": ""
+				        		},
+				        	"AfterMovie": {
+				            "ResponsePoint": null,
+				            "Script": "",
+				            "Text": "{{i18n:Wizard.Dating.26 {{expressionList}} }}"
+				        		}
+				        	},
+				        "ID": "reaction_8"
+				    	},
+				    	{
+				        "Tag": "*", //All Else
+				        "Response": "dislike",
+				        "Whitelist": [],
+				        "SpecialResponses": {
+				        	"BeforeMovie": {
+				            "ResponsePoint": null,
+				            "Script": "",
+				            "Text": "{{i18n:Wizard.Dating.27 {{expressionList}} }}"
+				          		},
+				        	"DuringMovie": null,
+				        	"AfterMovie": {
+				            "ResponsePoint": null,
+				            "Script": "",
+				            "Text": "{{i18n:Wizard.Dating.28 {{expressionList}} }}"
+				          		}
+				        	},
+				        "ID": "reaction_0"
+				    	}, 
+					]
+				},
+		  	},
+		},
+
+
+
+	]
+}

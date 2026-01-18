@@ -1,0 +1,378 @@
+{
+  "Format": "2.5.0",
+  "ConfigSchema": {
+    "Marnie": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Clint": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Elliott": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Haley": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Harvey": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Alex": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Leah": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Lewis": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Saloon": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Sam": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Sandy": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Robin": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Pierre": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Pam": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    }
+  },
+  "Changes": [
+    { //AnimalShop
+      "Action": "EditMap",
+      "Target": "Maps/AnimalShop",
+      "FromFile": "assets/BFE_AnimalShop.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 10,
+        "Height": 10
+      },
+      "ToArea": {
+        "X": 32,
+        "Y": 10,
+        "Width": 10,
+        "Height": 10
+      },
+      "PatchMode": "Replace",
+      "When": {
+        "Marnie": "true"
+      }
+    },
+    { //Blacksmith
+      "Action": "EditMap",
+      "Target": "Maps/Blacksmith",
+      "FromFile": "assets/BFE_Blacksmith.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 4,
+        "Height": 7
+      },
+      "ToArea": {
+        "X": 11,
+        "Y": 0,
+        "Width": 4,
+        "Height": 7
+      },
+      "PatchMode": "Replace",
+      "When": {
+        "Clint": "true"
+      }
+    },
+    { //ElliottHouse
+      "Action": "EditMap",
+      "Target": "Maps/ElliottHouse",
+      "FromFile": "assets/BFE_ElliottHouse.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 8,
+        "Height": 10
+      },
+      "ToArea": {
+        "X": 15,
+        "Y": 0,
+        "Width": 8,
+        "Height": 10
+      },
+      "PatchMode": "Replace",
+      "When": {
+        "Elliott": "true"
+      }
+    },
+    { //HaleyHouse
+      "Action": "EditMap",
+      "Target": "Maps/HaleyHouse",
+      "FromFile": "assets/BFE_HaleyHouse.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 7,
+        "Height": 10
+      },
+      "ToArea": {
+        "X": 18,
+        "Y": 20,
+        "Width": 7,
+        "Height": 10
+      },
+      "PatchMode": "Replace",
+      "When": {
+        "Haley": "true"
+      }
+    },
+    { //HarveyRoom
+      "Action": "EditMap",
+      "Target": "Maps/HarveyRoom",
+      "FromFile": "assets/BFE_HarveyRoom.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 8,
+        "Height": 6
+      },
+      "ToArea": {
+        "X": 16,
+        "Y": 7,
+        "Width": 8,
+        "Height": 6
+      },
+      "PatchMode": "Replace",
+      "When": {
+        "Harvey": "true"
+      }
+    },
+    { //JoshHouse
+      "Action": "EditMap",
+      "Target": "Maps/JoshHouse",
+      "FromFile": "assets/BFE_JoshHouse.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 6,
+        "Height": 6
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 7,
+        "Width": 6,
+        "Height": 6
+      },
+      "PatchMode": "Replace",
+      "When": {
+        "Alex": "true"
+      }
+    },
+    { //LeahHouse
+      "Action": "EditMap",
+      "Target": "Maps/LeahHouse",
+      "FromFile": "assets/BFE_LeahHouse.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 6,
+        "Height": 9
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 7,
+        "Width": 6,
+        "Height": 9
+      },
+      "PatchMode": "Replace",
+      "When": {
+        "Leah": "true"
+      }
+    },
+    { //ManorHouse
+      "Action": "EditMap",
+      "Target": "Maps/ManorHouse",
+      "FromFile": "assets/BFE_ManorHouse.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 12,
+        "Height": 12
+      },
+      "ToArea": {
+        "X": 23,
+        "Y": 0,
+        "Width": 12,
+        "Height": 12
+      },
+      "PatchMode": "Replace",
+      "When": {
+        "Lewis": "true"
+      }
+    },
+    { //Saloon1
+      "Action": "EditMap",
+      "Target": "Maps/Saloon",
+      "FromFile": "assets/BFE_Saloon.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 9,
+        "Width": 7,
+        "Height": 3
+      },
+      "ToArea": {
+        "X": 32,
+        "Y": 10,
+        "Width": 7,
+        "Height": 3
+      },
+      "PatchMode": "Replace",
+      "When": {
+        "Saloon": "true"
+      }
+    },
+    { //Saloon2
+      "Action": "EditMap",
+      "Target": "Maps/Saloon",
+      "FromFile": "assets/BFE_Saloon.tmx",
+      "FromArea": {
+        "X": 7,
+        "Y": 0,
+        "Width": 7,
+        "Height": 12
+      },
+      "ToArea": {
+        "X": 39,
+        "Y": 1,
+        "Width": 7,
+        "Height": 12
+      },
+      "PatchMode": "Replace",
+      "When": {
+        "Saloon": "true"
+      }
+    },
+    { //SamHouse
+      "Action": "EditMap",
+      "Target": "Maps/SamHouse",
+      "FromFile": "assets/BFE_SamHouse.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 13,
+        "Height": 7
+      },
+      "ToArea": {
+        "X": 12,
+        "Y": 18,
+        "Width": 13,
+        "Height": 7
+      },
+      "PatchMode": "Replace",
+      "When": {
+        "Sam": "true"
+      }
+    },
+    { //SandyHouse
+      "Action": "EditMap",
+      "Target": "Maps/SandyHouse",
+      "FromFile": "assets/BFE_SandyHouse.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 9,
+        "Height": 6
+      },
+      "ToArea": {
+        "X": 11,
+        "Y": 4,
+        "Width": 9,
+        "Height": 6
+      },
+      "PatchMode": "Replace",
+      "When": {
+        "Sandy": "true"
+      }
+    },
+    { //ScienceHouse
+      "Action": "EditMap",
+      "Target": "Maps/ScienceHouse",
+      "FromFile": "assets/BFE_ScienceHouse.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 7,
+        "Height": 12
+      },
+      "ToArea": {
+        "X": 25,
+        "Y": 13,
+        "Width": 7,
+        "Height": 12
+      },
+      "PatchMode": "Replace",
+      "When": {
+        "Robin": "true"
+      }
+    },
+    { //SeedShop
+      "Action": "EditMap",
+      "Target": "Maps/SeedShop",
+      "FromFile": "assets/BFE_SeedShop.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 19,
+        "Height": 9
+      },
+      "ToArea": {
+        "X": 23,
+        "Y": 23,
+        "Width": 19,
+        "Height": 9
+      },
+      "PatchMode": "Replace",
+      "When": {
+        "Pierre": "true"
+      }
+    },
+    { //Trailer Big
+      "Action": "EditMap",
+      "Target": "Maps/Trailer_big",
+      "FromFile": "assets/BFE_Trailer_big.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 6,
+        "Height": 8
+      },
+      "ToArea": {
+        "X": 24,
+        "Y": 0,
+        "Width": 6,
+        "Height": 8
+      },
+      "PatchMode": "Replace",
+      "When": {
+        "Pam": "true"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "DrawXpBars": true,
+  "DrawExtraItemNotifications": true,
+  "MinItemPriceForNotifications": 50,
+  "EnableWorldMonsters": false,
+  "LevelingCurveBaseExperience": 7800.0,
+  "LevelingCurveGrowthPercent": 4.2,
+  "TableColumns": 4,
+  "BaseSpawnChance": 0.01,
+  "SpawnChancePerLevel": 0.0001,
+  "OpenSkillsMenu": "LeftShift + K"
+}

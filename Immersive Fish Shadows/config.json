@@ -1,0 +1,19 @@
+{
+  "ShadowOpacity": 0.6,
+  "ShadowScale": 0.9,
+  "EnableFadeEffects": true,
+  "FadeSpeed": 0.02,
+  "EnableFishPersonalities": true,
+  "ConstantSwimChance": 0.4,
+  "MoveSpeedMultiplier": 1.0,
+  "MinIdleSeconds": 2.0,
+  "MaxIdleSeconds": 6.0,
+  "BurstChance": 0.4,
+  "MinFishCount": 200,
+  "MaxFishCount": 400,
+  "SpawnChance": 0.25,
+  "FarmOnly": false,
+  "ExcludedLocations": [],
+  "HideFishAtNight": true,
+  "HoursAfterSunset": 2
+}

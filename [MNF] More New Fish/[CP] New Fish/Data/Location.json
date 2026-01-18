@@ -1,0 +1,1012 @@
+{
+"Changes": [  
+{    
+"Action": "EditData",
+			"LogName": "Mines MNF Data",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "UndergroundMine",
+                "Fish",
+            ],
+            "Entries": {
+                "MNF.MoreNewFish_barreleye": {
+                    "Id": "MNF.MoreNewFish_barreleye",
+                    "ItemId": "(O)MNF.MoreNewFish_barreleye",
+                }, "MNF.MoreNewFish_brain_slug": {
+                    "Id": "MNF.MoreNewFish_brain_slug",
+                    "ItemId": "(O)MNF.MoreNewFish_brain_slug",
+                }, "MNF.MoreNewFish_cyclops_shark": {
+                    "Id": "MNF.MoreNewFish_cyclops_shark",
+                    "ItemId": "(O)MNF.MoreNewFish_cyclops_shark",
+                },"MNF.MoreNewFish_coelacanth": {
+                    "Id": "MNF.MoreNewFish_coelacanth",
+                    "ItemId": "(O)MNF.MoreNewFish_coelacanth",
+                },"MNF.MoreNewFish_cavefish": {
+                    "Id": "MNF.MoreNewFish_cavefish",
+                    "ItemId": "(O)MNF.MoreNewFish_cavefish",
+                },"MNF.MoreNewFish_cave_lobster": {
+                    "Id": "MNF.MoreNewFish_cave_lobster",
+                    "ItemId": "(O)MNF.MoreNewFish_cave_lobster",
+                },"MNF.MoreNewFish_glassfish": {
+                    "Id": "MNF.MoreNewFish_glassfish",
+                    "ItemId": "(O)MNF.MoreNewFish_glassfish"
+                }
+            },
+        },
+		{ 
+		"Action": "EditData",
+			"LogName": "Mines MNF Data",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Caldera",
+                "Fish",
+            ],
+            "Entries": {
+                "MNF.MoreNewFish_mushu": {
+                    "Id": "MNF.MoreNewFish_mushu",
+                    "ItemId": "(O)MNF.MoreNewFish_mushu",
+					"MinFishingLevel": 10,					
+					"CatchLimit": 1,
+					"CuriosityLureBuff": 0.1,
+					"IsBossFish": true,
+                },
+            },
+        },
+		{
+            "Action": "EditData",
+			"LogName": "Shinidamachu MNF Data",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Default",
+                "Fish",
+            ],
+            "Entries": {
+				"MNF.MoreNewFish_shinidamachu": {
+                    "Id": "MNF.MoreNewFish_shinidamachu",
+                    "ItemId": "(O)MNF.MoreNewFish_shinidamachu",
+                    "Condition": "SEASON_DAY fall 27",
+					"MinFishingLevel": 10,					
+					"CuriosityLureBuff": 0.1,
+					"IsBossFish": true,
+                }, 
+				"MNF.MoreNewFish_i_voted_sticker": {
+                    "Id": "MNF.MoreNewFish_i_voted_sticker",
+                    "ItemId": "(O)MNF.MoreNewFish_i_voted_sticker",
+					"Chance": 0.05,
+					"Season": null,
+					"FishAreaId": null,
+					"BobberPosition": null,
+					"PlayerPosition": null,
+					"MinFishingLevel": 0,
+					"MinDistanceFromShore": 0,
+					"MaxDistanceFromShore": -1,
+					"ApplyDailyLuck": false,
+					"CuriosityLureBuff": -1.0,
+					"CatchLimit": -1,
+					"IsBossFish": false,
+					"SetFlagOnCatch": null,
+					"RequireMagicBait": false,
+					"Precedence": 1999,
+					"IgnoreFishDataRequirements": false,
+					"CanBeInherited": true,
+					"ChanceModifiers": null,
+					"ChanceModifierMode": "Stack",
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false,
+                }, 
+            },
+        },
+		{
+            "Action": "EditData",
+			"LogName": "Sword Fish",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "BoatTunnel",
+                "Fish",
+            ],
+			"Entries": {
+				"MNF.MoreNewFish_sword_fish":{
+					"Chance": 0.2,
+					"Season": null,
+					"FishAreaId": null,
+					"BobberPosition": null,        
+					"PlayerPosition": null,
+					"MinFishingLevel": 0,
+					"MinDistanceFromShore": 0,
+					"MaxDistanceFromShore": -1,
+					"ApplyDailyLuck": false,
+					"CuriosityLureBuff": -1.0,
+					"CatchLimit": -1,
+					"IsBossFish": false,
+					"SetFlagOnCatch": "swordfishcaught",
+					"RequireMagicBait": false,
+					"Precedence": -10,
+					"IgnoreFishDataRequirements": false,
+					"CanBeInherited": false,
+					"ChanceModifiers": null,
+					"ChanceModifierMode": "Stack",
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false,
+					"Condition": "!PLAYER_HAS_MAIL Current swordfishcaught",
+					"Id": "(W)MNF.MoreNewFish_sword_fish",
+					"ItemId": "(W)MNF.MoreNewFish_sword_fish",
+					"RandomItemId": null,
+					"MaxItems": null,
+					"MinStack": -1,
+					"MaxStack": -1,
+					"Quality": -1,
+					"ObjectInternalName": null,
+					"ObjectDisplayName": null,
+					"ToolUpgradeLevel": -1,
+					"IsRecipe": false,
+					"StackModifiers": null,
+					"StackModifierMode": "Stack",
+					"QualityModifiers": null,
+					"QualityModifierMode": "Stack",
+					"ModData": null,
+					"PerItemCondition": null
+	  }
+      }
+  },
+		{
+            "Action": "EditData",
+			"LogName": "Desert MNF Data",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Desert",
+                "Fish",
+            ],
+            "Entries": {
+                "MNF.MoreNewFish_electric_catfish": {
+                    "Id": "MNF.MoreNewFish_electric_catfish",
+                    "ItemId": "(O)MNF.MoreNewFish_electric_catfish",
+                },"MNF.MoreNewFish_lungfish": {
+                    "Id": "MNF.MoreNewFish_lungfish",
+                    "ItemId": "(O)MNF.MoreNewFish_lungfish",
+                }, "MNF.MoreNewFish_tigerfish": {
+                    "Id": "MNF.MoreNewFish_tigerfish",
+                    "ItemId": "(O)MNF.MoreNewFish_tigerfish",
+                },"MNF.MoreNewFish_longnose_gar": {
+                    "Id": "MNF.MoreNewFish_longnose_gar",
+                    "ItemId": "(O)MNF.MoreNewFish_longnose_gar",
+                }
+            },
+        },
+		{
+            "Action": "EditData",
+			"LogName": "Sewer MNF Data",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Sewer",
+                "Fish",
+            ],
+            "Entries": {
+                "MNF.MoreNewFish_blinky": {
+                    "Id": "MNF.MoreNewFish_blinky",
+                    "ItemId": "(O)MNF.MoreNewFish_blinky",
+                },"MNF.MoreNewFish_trahira": {
+                    "Id": "MNF.MoreNewFish_trahira",
+                    "ItemId": "(O)MNF.MoreNewFish_trahira",
+                }, "MNF.MoreNewFish_decapod": {
+                    "Id": "MNF.MoreNewFish_decapod",
+                    "ItemId": "(O)MNF.MoreNewFish_decapod",
+                },
+            },
+        },
+		{
+            "Action": "EditData",
+			"LogName": "BugLand MNF Data",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "BugLand",
+                "Fish",
+            ],
+            "Entries": {
+                "MNF.MoreNewFish_piranha": {
+                    "Id": "MNF.MoreNewFish_piranha",
+                    "ItemId": "(O)MNF.MoreNewFish_piranha",
+                },"MNF.MoreNewFish_lamprey": {
+                    "Id": "MNF.MoreNewFish_lamprey",
+                    "ItemId": "(O)MNF.MoreNewFish_lamprey",
+                }, "MNF.MoreNewFish_trahira": {
+                    "Id": "MNF.MoreNewFish_trahira",
+                    "ItemId": "(O)MNF.MoreNewFish_trahira",
+                }, "MNF.MoreNewFish_vampire_fish": {
+                    "Id": "MNF.MoreNewFish_vampire_fish",
+                    "ItemId": "(O)MNF.MoreNewFish_vampire_fish",
+                    "Condition": "WEATHER Here storm",
+					"MinFishingLevel": 10,
+					"MinDistanceFromShore": 4,
+					"MaxDistanceFromShore": -1,
+					"CuriosityLureBuff": 0.1,
+					"IsBossFish": true,
+                },
+            },
+        },
+		{
+            "Action": "EditData",
+			"LogName": "WitchSwamp MNF Data",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "WitchSwamp",
+                "Fish",
+            ],
+            "Entries": {
+                "MNF.MoreNewFish_void_carp": {
+                    "Id": "MNF.MoreNewFish_void_carp",
+                    "ItemId": "(O)MNF.MoreNewFish_void_carp",
+                },"MNF.MoreNewFish_water_snake": {
+                    "Id": "MNF.MoreNewFish_water_snake",
+                    "ItemId": "(O)MNF.MoreNewFish_water_snake",
+                }, "MNF.MoreNewFish_void_algae": {
+                    "Id": "MNF.MoreNewFish_void_algae",
+                    "ItemId": "(O)MNF.MoreNewFish_void_algae",
+                }, "MNF.MoreNewFish_void_evilpus": {
+                    "Id": "MNF.MoreNewFish_void_evilpus",
+                    "ItemId": "(O)MNF.MoreNewFish_void_evilpus",
+                },"MNF.MoreNewFish_trapped_soul": {
+                    "Id": "MNF.MoreNewFish_trapped_soul",
+                    "ItemId": "(O)MNF.MoreNewFish_trapped_soul",
+                },"MNF.MoreNewFish_mudskipper": {
+                    "Id": "MNF.MoreNewFish_mudskipper",
+                    "ItemId": "(O)MNF.MoreNewFish_mudskipper",
+                },
+            },
+        },
+		{
+            "Action": "EditData",
+			"LogName": "Forest MNF Data",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Forest",
+                "Fish",
+            ],
+            "Entries": {
+                "MNF.MoreNewFish_goldfish": {
+                    "Id": "MNF.MoreNewFish_goldfish",
+                    "ItemId": "(O)MNF.MoreNewFish_goldfish",
+					"FishAreaId": "Lake"
+                },"MNF.MoreNewFish_lionhead": {
+                    "Id": "MNF.MoreNewFish_lionhead",
+                    "ItemId": "(O)MNF.MoreNewFish_lionhead",
+                    "Condition": "LOCATION_SEASON Here spring",
+					"FishAreaId": "Lake"
+                }, "MNF.MoreNewFish_comet": {
+                    "Id": "MNF.MoreNewFish_comet",
+                    "ItemId": "(O)MNF.MoreNewFish_comet",
+                    "Condition": "LOCATION_SEASON Here summer",
+					"FishAreaId": "Lake"
+                }, "MNF.MoreNewFish_telescope": {
+                    "Id": "MNF.MoreNewFish_telescope",
+                    "ItemId": "(O)MNF.MoreNewFish_telescope",
+                    "Condition": "LOCATION_SEASON Here fall",
+					"FishAreaId": "Lake"
+                },"MNF.MoreNewFish_celestial_eye": {
+                    "Id": "MNF.MoreNewFish_celestial_eye",
+                    "ItemId": "(O)MNF.MoreNewFish_celestial_eye",
+                    "Condition": "LOCATION_SEASON Here winter",
+					"FishAreaId": "Lake"
+                },"MNF.MoreNewFish_freshwater_butterflyfish": {
+                    "Id": "MNF.MoreNewFish_freshwater_butterflyfish",
+                    "ItemId": "(O)MNF.MoreNewFish_freshwater_butterflyfish",
+                    "Condition": "LOCATION_SEASON Here spring summer fall",
+					"FishAreaId": "Lake"
+                },"MNF.MoreNewFish_clown_loach": {
+                    "Id": "MNF.MoreNewFish_clown_loach",
+                    "ItemId": "(O)MNF.MoreNewFish_clown_loach",
+                    "Condition": "LOCATION_SEASON Here spring summer",
+					"FishAreaId": "Lake"
+                },"MNF.MoreNewFish_elephantfish": {
+                    "Id": "MNF.MoreNewFish_elephantfish",
+                    "ItemId": "(O)MNF.MoreNewFish_elephantfish",
+                    "Condition": "LOCATION_SEASON Here spring summer",
+					"FishAreaId": "Lake"
+                },"MNF.MoreNewFish_pangasius": {
+                    "Id": "MNF.MoreNewFish_pangasius",
+                    "ItemId": "(O)MNF.MoreNewFish_pangasius",
+                    "Condition": "LOCATION_SEASON Here spring fall",
+					"FishAreaId": "Lake"
+                },"MNF.MoreNewFish_siamese_algae_eater": {
+                    "Id": "MNF.MoreNewFish_siamese_algae_eater",
+                    "ItemId": "(O)MNF.MoreNewFish_siamese_algae_eater",
+                    "Condition": "LOCATION_SEASON Here spring",
+					"FishAreaId": "Lake"
+                },"MNF.MoreNewFish_common_pleco": {
+                    "Id": "MNF.MoreNewFish_common_pleco",
+                    "ItemId": "(O)MNF.MoreNewFish_common_pleco",
+                    "Condition": "LOCATION_SEASON Here summer fall",
+					"FishAreaId": "Lake"
+                },"MNF.MoreNewFish_redtail_shark": {
+                    "Id": "MNF.MoreNewFish_redtail_shark",
+                    "ItemId": "(O)MNF.MoreNewFish_redtail_shark",
+                    "Condition": "LOCATION_SEASON Here fall",
+					"FishAreaId": "Lake"
+                },"MNF.MoreNewFish_tench": {
+                    "Id": "MNF.MoreNewFish_tench",
+                    "ItemId": "(O)MNF.MoreNewFish_tench",
+                    "Condition": "LOCATION_SEASON Here fall winter",
+					"FishAreaId": "Lake"
+                },"MNF.MoreNewFish_snowball_pleco": {
+                    "Id": "MNF.MoreNewFish_snowball_pleco",
+                    "ItemId": "(O)MNF.MoreNewFish_snowball_pleco",
+                    "Condition": "LOCATION_SEASON Here winter",
+					"FishAreaId": "Lake"
+                },"MNF.MoreNewFish_sauger": {
+                    "Id": "MNF.MoreNewFish_sauger",
+                    "ItemId": "(O)MNF.MoreNewFish_sauger",
+                    "Condition": "LOCATION_SEASON Here winter",
+					"FishAreaId": "Lake"
+                },"MNF.MoreNewFish_ide": {
+                    "Id": "MNF.MoreNewFish_ide",
+                    "ItemId": "(O)MNF.MoreNewFish_ide",
+                    "Condition": "LOCATION_SEASON Here winter",
+					"FishAreaId": "Lake"
+                },"MNF.MoreNewFish_trahira": {
+                    "Id": "MNF.MoreNewFish_trahira",
+                    "ItemId": "(O)MNF.MoreNewFish_trahira",
+                    "Condition": "LOCATION_SEASON Here spring summer",
+					"FishAreaId": "River"
+                },"MNF.MoreNewFish_pacu": {
+                    "Id": "MNF.MoreNewFish_pacu",
+                    "ItemId": "(O)MNF.MoreNewFish_pacu",
+                    "Condition": "LOCATION_SEASON Here spring summer fall",
+					"FishAreaId": "River"
+                },"MNF.MoreNewFish_tucunare": {
+                    "Id": "MNF.MoreNewFish_tucunare",
+                    "ItemId": "(O)MNF.MoreNewFish_tucunare",
+                    "Condition": "LOCATION_SEASON Here summer",
+					"FishAreaId": "River"
+                },"MNF.MoreNewFish_freshwater_pufferfish": {
+                    "Id": "MNF.MoreNewFish_freshwater_pufferfish",
+                    "ItemId": "(O)MNF.MoreNewFish_freshwater_pufferfish",
+                    "Condition": "LOCATION_SEASON Here summer",
+					"FishAreaId": "River"
+                },"MNF.MoreNewFish_arctic_char": {
+                    "Id": "MNF.MoreNewFish_arctic_char",
+                    "ItemId": "(O)MNF.MoreNewFish_arctic_char",
+                    "Condition": "LOCATION_SEASON Here winter",
+					"FishAreaId": "River"
+                }, "MNF.MoreNewFish_iridiumfish": {
+                    "Id": "MNF.MoreNewFish_iridiumfish",
+                    "ItemId": "(O)MNF.MoreNewFish_iridiumfish",
+                    "Condition": "WEATHER Here Storm",
+					"MinFishingLevel": 4,
+					"CuriosityLureBuff": 0.1,
+					"CatchLimit": 1,
+					"IsBossFish": true,
+					"FishAreaId": "Lake"
+				},
+            },
+        },
+		{
+            "Action": "EditData",
+			"LogName": "Beach MNF Data",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Beach",
+                "Fish",
+            ],
+            "Entries": {
+                "MNF.MoreNewFish_ladyfish": {
+                    "Id": "MNF.MoreNewFish_ladyfish",
+                    "ItemId": "(O)MNF.MoreNewFish_ladyfish",
+                    "Condition": "LOCATION_SEASON Here spring summer",
+                }, "MNF.MoreNewFish_sea_snake": {
+                    "Id": "MNF.MoreNewFish_sea_snake",
+                    "ItemId": "(O)MNF.MoreNewFish_sea_snake",
+                    "Condition": "LOCATION_SEASON Here spring summer",
+                }, "MNF.MoreNewFish_anchoviella": {
+                    "Id": "MNF.MoreNewFish_anchoviella",
+                    "ItemId": "(O)MNF.MoreNewFish_anchoviella",
+                    "Condition": "LOCATION_SEASON Here spring summer",
+                }, "MNF.MoreNewFish_barracuda": {
+                    "Id": "MNF.MoreNewFish_barracuda",
+                    "ItemId": "(O)MNF.MoreNewFish_barracuda",
+                    "Condition": "LOCATION_SEASON Here spring",
+                }, "MNF.MoreNewFish_spiny_dogfish": {
+                    "Id": "MNF.MoreNewFish_spiny_dogfish",
+                    "ItemId": "(O)MNF.MoreNewFish_spiny_dogfish",
+                    "Condition": "LOCATION_SEASON Here spring",
+                }, "MNF.MoreNewFish_mimic_octopus": {
+                    "Id": "MNF.MoreNewFish_mimic_octopus",
+                    "ItemId": "(O)MNF.MoreNewFish_mimic_octopus",
+                    "Condition": "LOCATION_SEASON Here spring",
+                }, "MNF.MoreNewFish_zebra_eel": {
+                    "Id": "MNF.MoreNewFish_zebra_eel",
+                    "ItemId": "(O)MNF.MoreNewFish_zebra_eel",
+                    "Condition": "LOCATION_SEASON Here spring",
+                }, "MNF.MoreNewFish_small_manta_ray": {
+                    "Id": "MNF.MoreNewFish_small_manta_ray",
+                    "ItemId": "(O)MNF.MoreNewFish_small_manta_ray",
+                    "Condition": "LOCATION_SEASON Here summer",
+                }, "MNF.MoreNewFish_ribbon_eel": {
+                    "Id": "MNF.MoreNewFish_ribbon_eel",
+                    "ItemId": "(O)MNF.MoreNewFish_ribbon_eel",
+                    "Condition": "LOCATION_SEASON Here summer",
+                }, "MNF.MoreNewFish_robalo": {
+                    "Id": "MNF.MoreNewFish_robalo",
+                    "ItemId": "(O)MNF.MoreNewFish_robalo",
+                    "Condition": "LOCATION_SEASON Here summer",
+                }, "MNF.MoreNewFish_haddock": {
+                    "Id": "MNF.MoreNewFish_haddock",
+                    "ItemId": "(O)MNF.MoreNewFish_haddock",
+                    "Condition": "LOCATION_SEASON Here fall winter",
+                }, "MNF.MoreNewFish_small_swordfish": {
+                    "Id": "MNF.MoreNewFish_small_swordfish",
+                    "ItemId": "(O)MNF.MoreNewFish_small_swordfish",
+                    "Condition": "LOCATION_SEASON Here fall",
+                }, "MNF.MoreNewFish_blue_ringed_octopus": {
+                    "Id": "MNF.MoreNewFish_blue_ringed_octopus",
+                    "ItemId": "(O)MNF.MoreNewFish_blue_ringed_octopus",
+                    "Condition": "LOCATION_SEASON Here fall",
+                }, "MNF.MoreNewFish_ghost_eel": {
+                    "Id": "MNF.MoreNewFish_ghost_eel",
+                    "ItemId": "(O)MNF.MoreNewFish_ghost_eel",
+                    "Condition": "LOCATION_SEASON Here fall",
+                }, "MNF.MoreNewFish_longfin_icedevil": {
+                    "Id": "MNF.MoreNewFish_longfin_icedevil",
+                    "ItemId": "(O)MNF.MoreNewFish_longfin_icedevil",
+                    "Condition": "LOCATION_SEASON Here winter",
+                }, "MNF.MoreNewFish_small_goblin_shark": {
+                    "Id": "MNF.MoreNewFish_small_goblin_shark",
+                    "ItemId": "(O)MNF.MoreNewFish_small_goblin_shark",
+                    "Condition": "LOCATION_SEASON Here winter",
+                }, "MNF.MoreNewFish_stubby_squid": {
+                    "Id": "MNF.MoreNewFish_stubby_squid",
+                    "ItemId": "(O)MNF.MoreNewFish_stubby_squid",
+                    "Condition": "LOCATION_SEASON Here winter",
+                }, "MNF.MoreNewFish_dumbo_octopus": {
+                    "Id": "MNF.MoreNewFish_dumbo_octopus",
+                    "ItemId": "(O)MNF.MoreNewFish_dumbo_octopus",
+                    "Condition": "LOCATION_SEASON Here winter",
+                }, "MNF.MoreNewFish_hagfish": {
+                    "Id": "MNF.MoreNewFish_hagfish",
+                    "ItemId": "(O)MNF.MoreNewFish_hagfish",
+                    "Condition": "LOCATION_SEASON Here winter",
+                }, "MNF.MoreNewFish_conger": {
+                    "Id": "MNF.MoreNewFish_conger",
+                    "ItemId": "(O)MNF.MoreNewFish_conger",
+                    "Condition": "LOCATION_SEASON Here winter",
+                }, "MNF.MoreNewFish_king_crab": {
+                    "Id": "MNF.MoreNewFish_king_crab",
+                    "ItemId": "(O)MNF.MoreNewFish_king_crab",
+                    "Condition": "LOCATION_SEASON Here winter",
+                }, 
+            },
+		},
+		{
+            "Action": "EditData",
+			"LogName": "Woods MNF Data",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Submarine",
+                "Fish",
+            ],
+            "Entries": {
+				"MNF.MoreNewFish_vampire_squid": {
+                    "Id": "MNF.MoreNewFish_vampire_squid",
+                    "ItemId": "(O)MNF.MoreNewFish_vampire_squid",
+                    "Condition": "LOCATION_SEASON Here winter",
+					"MinFishingLevel": 10,
+					"MinDistanceFromShore": 2,
+					"MaxDistanceFromShore": -1,
+					"CuriosityLureBuff": 0.1,
+					"IsBossFish": true,
+                },
+			},
+		},		
+		{
+            "Action": "EditData",
+			"LogName": "Woods MNF Data",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Woods",
+                "Fish",
+            ],
+            "Entries": {
+                "MNF.MoreNewFish_kohaku_koi": {
+                    "Id": "MNF.MoreNewFish_kohaku_koi",
+                    "ItemId": "(O)MNF.MoreNewFish_kohaku_koi",
+                    "Condition": "LOCATION_SEASON Here spring",
+                }, "MNF.MoreNewFish_yamabuki_koi": {
+                    "Id": "MNF.MoreNewFish_yamabuki_koi",
+                    "ItemId": "(O)MNF.MoreNewFish_yamabuki_koi",
+                    "Condition": "LOCATION_SEASON Here spring",
+                }, "MNF.MoreNewFish_sanke_koi": {
+                    "Id": "MNF.MoreNewFish_sanke_koi",
+                    "ItemId": "(O)MNF.MoreNewFish_sanke_koi",
+                    "Condition": "LOCATION_SEASON Here summer",
+                }, "MNF.MoreNewFish_ki_utsuri_koi": {
+                    "Id": "MNF.MoreNewFish_ki_utsuri_koi",
+                    "ItemId": "(O)MNF.MoreNewFish_ki_utsuri_koi",
+                    "Condition": "LOCATION_SEASON Here summer",
+                }, "MNF.MoreNewFish_tancho_koi": {
+                    "Id": "MNF.MoreNewFish_tancho_koi",
+                    "ItemId": "(O)MNF.MoreNewFish_tancho_koi",
+                    "Condition": "LOCATION_SEASON Here fall",
+                }, "MNF.MoreNewFish_ghost_koi": {
+                    "Id": "MNF.MoreNewFish_ghost_koi",
+                    "ItemId": "(O)MNF.MoreNewFish_ghost_koi",
+                    "Condition": "LOCATION_SEASON Here fall",
+                }, "MNF.MoreNewFish_hi_utsuri_koi": {
+                    "Id": "MNF.MoreNewFish_hi_utsuri_koi",
+                    "ItemId": "(O)MNF.MoreNewFish_hi_utsuri_koi",
+                    "Condition": "LOCATION_SEASON Here winter",
+                }, "MNF.MoreNewFish_shiro_utsuri_koi": {
+                    "Id": "MNF.MoreNewFish_shiro_utsuri_koi",
+                    "ItemId": "(O)MNF.MoreNewFish_shiro_utsuri_koi",
+                    "Condition": "LOCATION_SEASON Here winter",
+                }, "MNF.MoreNewFish_tui": {
+                    "Id": "MNF.MoreNewFish_tui",
+                    "ItemId": "(O)MNF.MoreNewFish_tui",
+                    "Condition": "LOCATION_SEASON Here winter",
+					"MinFishingLevel": 10,
+					"CuriosityLureBuff": 0.1,
+					"CatchLimit": 1,
+					"IsBossFish": true,
+                }, "MNF.MoreNewFish_la": {
+                    "Id": "MNF.MoreNewFish_la",
+                    "ItemId": "(O)MNF.MoreNewFish_la",
+                    "Condition": "LOCATION_SEASON Here winter",
+					"MinFishingLevel": 10,
+					"CuriosityLureBuff": 0.1,
+					"CatchLimit": 1,
+					"IsBossFish": true,
+                }, 
+            },
+		},
+			{
+            "Action": "EditData",
+			"LogName": "Town MNF Data",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Town",
+                "Fish",
+            ],
+            "Entries": {
+				"MNF.MoreNewFish_green_terror": {
+                    "Id": "MNF.MoreNewFish_green_terror",
+                    "ItemId": "(O)MNF.MoreNewFish_green_terror",
+                    "Condition": "LOCATION_SEASON Here spring summer",
+                },"MNF.MoreNewFish_siamese_algae_eater": {
+                    "Id": "MNF.MoreNewFish_siamese_algae_eater",
+                    "ItemId": "(O)MNF.MoreNewFish_siamese_algae_eater",
+                    "Condition": "LOCATION_SEASON Here spring",
+                },"MNF.MoreNewFish_common_pleco": {
+                    "Id": "MNF.MoreNewFish_common_pleco",
+                    "ItemId": "(O)MNF.MoreNewFish_common_pleco",
+                    "Condition": "LOCATION_SEASON Here summer fall",
+                },"MNF.MoreNewFish_freshwater_pufferfish": {
+                    "Id": "MNF.MoreNewFish_freshwater_pufferfish",
+                    "ItemId": "(O)MNF.MoreNewFish_freshwater_pufferfish",
+                    "Condition": "LOCATION_SEASON Here summer",
+                },"MNF.MoreNewFish_snowball_pleco": {
+                    "Id": "MNF.MoreNewFish_snowball_pleco",
+                    "ItemId": "(O)MNF.MoreNewFish_snowball_pleco",
+                    "Condition": "LOCATION_SEASON Here winter",
+                },"MNF.MoreNewFish_trahira": {
+                    "Id": "MNF.MoreNewFish_trahira",
+                    "ItemId": "(O)MNF.MoreNewFish_trahira",
+                    "Condition": "LOCATION_SEASON Here spring summer",
+                },"MNF.MoreNewFish_pacu": {
+                    "Id": "MNF.MoreNewFish_pacu",
+                    "ItemId": "(O)MNF.MoreNewFish_pacu",
+                    "Condition": "LOCATION_SEASON Here spring summer fall",
+                },
+            },
+        },
+		{
+            "Action": "EditData",
+			"LogName": "Mountain MNF Data",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Mountain",
+                "Fish",
+            ],
+            "Entries": {
+				"MNF.MoreNewFish_arowana": {
+                    "Id": "MNF.MoreNewFish_arowana",
+                    "ItemId": "(O)MNF.MoreNewFish_arowana",
+                },"MNF.MoreNewFish_clown_loach": {
+                    "Id": "MNF.MoreNewFish_clown_loach",
+                    "ItemId": "(O)MNF.MoreNewFish_clown_loach",
+                    "Condition": "LOCATION_SEASON Here spring summer",
+                },"MNF.MoreNewFish_elephantfish": {
+                    "Id": "MNF.MoreNewFish_elephantfish",
+                    "ItemId": "(O)MNF.MoreNewFish_elephantfish",
+                    "Condition": "LOCATION_SEASON Here spring summer",
+                },"MNF.MoreNewFish_zebra_tilapia": {
+                    "Id": "MNF.MoreNewFish_zebra_tilapia",
+                    "ItemId": "(O)MNF.MoreNewFish_zebra_tilapia",
+                    "Condition": "LOCATION_SEASON Here spring summer",
+                },"MNF.MoreNewFish_pangasius": {
+                    "Id": "MNF.MoreNewFish_pangasius",
+                    "ItemId": "(O)MNF.MoreNewFish_pangasius",
+                    "Condition": "LOCATION_SEASON Here spring fall",
+                },"MNF.MoreNewFish_siamese_algae_eater": {
+                    "Id": "MNF.MoreNewFish_siamese_algae_eater",
+                    "ItemId": "(O)MNF.MoreNewFish_siamese_algae_eater",
+                    "Condition": "LOCATION_SEASON Here spring",
+                },"MNF.MoreNewFish_common_pleco": {
+                    "Id": "MNF.MoreNewFish_common_pleco",
+                    "ItemId": "(O)MNF.MoreNewFish_common_pleco",
+                    "Condition": "LOCATION_SEASON Here summer fall",
+                },"MNF.MoreNewFish_freshwater_pufferfish": {
+                    "Id": "MNF.MoreNewFish_freshwater_pufferfish",
+                    "ItemId": "(O)MNF.MoreNewFish_freshwater_pufferfish",
+                    "Condition": "LOCATION_SEASON Here summer",
+                },"MNF.MoreNewFish_trahira": {
+                    "Id": "MNF.MoreNewFish_trahira",
+                    "ItemId": "(O)MNF.MoreNewFish_trahira",
+                    "Condition": "LOCATION_SEASON Here spring summer",
+                },"MNF.MoreNewFish_pacu": {
+                    "Id": "MNF.MoreNewFish_pacu",
+                    "ItemId": "(O)MNF.MoreNewFish_pacu",
+                    "Condition": "LOCATION_SEASON Here spring summer fall",
+                },"MNF.MoreNewFish_redtail_shark": {
+                    "Id": "MNF.MoreNewFish_redtail_shark",
+                    "ItemId": "(O)MNF.MoreNewFish_redtail_shark",
+                    "Condition": "LOCATION_SEASON Here fall",
+                },"MNF.MoreNewFish_clown_knifefish": {
+                    "Id": "MNF.MoreNewFish_clown_knifefish",
+                    "ItemId": "(O)MNF.MoreNewFish_clown_knifefish",
+                    "Condition": "LOCATION_SEASON Here fall",
+                },"MNF.MoreNewFish_tench": {
+                    "Id": "MNF.MoreNewFish_tench",
+                    "ItemId": "(O)MNF.MoreNewFish_tench",
+                    "Condition": "LOCATION_SEASON Here fall winter"
+                },"MNF.MoreNewFish_sauger": {
+                    "Id": "MNF.MoreNewFish_sauger",
+                    "ItemId": "(O)MNF.MoreNewFish_sauger",
+                    "Condition": "LOCATION_SEASON Here winter"
+                },"MNF.MoreNewFish_ide": {
+                    "Id": "MNF.MoreNewFish_ide",
+                    "ItemId": "(O)MNF.MoreNewFish_ide",
+                    "Condition": "LOCATION_SEASON Here winter",
+                },"MNF.MoreNewFish_snowball_pleco": {
+                    "Id": "MNF.MoreNewFish_snowball_pleco",
+                    "ItemId": "(O)MNF.MoreNewFish_snowball_pleco",
+                    "Condition": "LOCATION_SEASON Here winter",
+                },
+            },
+        },
+		{
+            "Action": "EditData",
+			"LogName": "IslandNorth MNF Data",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "IslandNorth",
+                "Fish",
+            ],
+            "Entries": {
+				"MNF.MoreNewFish_black_ghost_knifefish": {
+                    "Id": "MNF.MoreNewFish_black_ghost_knifefish",
+                    "ItemId": "(O)MNF.MoreNewFish_black_ghost_knifefish",
+                },
+            },
+        },
+		 {
+            "Action": "EditData",
+			"LogName": "IslandSouth MNF Data",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "IslandSouth",
+                "Fish",
+            ],
+            "Entries": {
+				"MNF.MoreNewFish_clown_triggerfish": {
+                    "Id": "MNF.MoreNewFish_clown_triggerfish",
+                    "ItemId": "(O)MNF.MoreNewFish_clown_triggerfish",
+                },
+				"MNF.MoreNewFish_royal_angelfish": {
+                    "Id": "MNF.MoreNewFish_royal_angelfish",
+                    "ItemId": "(O)MNF.MoreNewFish_royal_angelfish",
+                },
+				"MNF.MoreNewFish_moorish_idol": {
+                    "Id": "MNF.MoreNewFish_moorish_idol",
+                    "ItemId": "(O)MNF.MoreNewFish_moorish_idol",
+                },
+				"MNF.MoreNewFish_mandarinfish": {
+                    "Id": "MNF.MoreNewFish_mandarinfish",
+                    "ItemId": "(O)MNF.MoreNewFish_mandarinfish",
+                },
+				"MNF.MoreNewFish_icefish": {
+                    "Id": "MNF.MoreNewFish_icefish",
+                    "ItemId": "(O)MNF.MoreNewFish_icefish",
+                },
+				"MNF.MoreNewFish_false_kelpfish": {
+                    "Id": "MNF.MoreNewFish_false_kelpfish",
+                    "ItemId": "(O)MNF.MoreNewFish_false_kelpfish",
+                },
+				"MNF.MoreNewFish_wide-band_clownfish": {
+                    "Id": "MNF.MoreNewFish_wide-band_clownfish",
+                    "ItemId": "(O)MNF.MoreNewFish_wide-band_clownfish",
+                },
+				"MNF.MoreNewFish_robalo": {
+                    "Id": "MNF.MoreNewFish_robalo",
+                    "ItemId": "(O)MNF.MoreNewFish_robalo",
+                },
+				"MNF.MoreNewFish_pink_skunk_clownfish": {
+                    "Id": "MNF.MoreNewFish_pink_skunk_clownfish",
+                    "ItemId": "(O)MNF.MoreNewFish_pink_skunk_clownfish",
+                },
+				"MNF.MoreNewFish_blue_tang": {
+                    "Id": "MNF.MoreNewFish_blue_tang",
+                    "ItemId": "(O)MNF.MoreNewFish_blue_tang",
+                },
+				"MNF.MoreNewFish_orange_clownfish": {
+                    "Id": "MNF.MoreNewFish_orange_clownfish",
+                    "ItemId": "(O)MNF.MoreNewFish_orange_clownfish",
+                },
+            },
+        }, 
+		{
+            "Action": "EditData",
+			"LogName": "IslandSouthEast MNF Data",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "IslandSouthEast",
+                "Fish",
+            ],
+            "Entries": {
+				"MNF.MoreNewFish_clown_triggerfish": {
+                    "Id": "MNF.MoreNewFish_clown_triggerfish",
+                    "ItemId": "(O)MNF.MoreNewFish_clown_triggerfish",
+                },
+				"MNF.MoreNewFish_skunk_clownfish": {
+                    "Id": "MNF.MoreNewFish_skunk_clownfish",
+                    "ItemId": "(O)MNF.MoreNewFish_skunk_clownfish",
+                },
+				"MNF.MoreNewFish_saddleback_clownfish": {
+                    "Id": "MNF.MoreNewFish_saddleback_clownfish",
+                    "ItemId": "(O)MNF.MoreNewFish_saddleback_clownfish",
+                },
+				"MNF.MoreNewFish_sebae_clownfish": {
+                    "Id": "MNF.MoreNewFish_sebae_clownfish",
+                    "ItemId": "(O)MNF.MoreNewFish_sebae_clownfish",
+                },
+				"MNF.MoreNewFish_ornate_angelfish": {
+                    "Id": "MNF.MoreNewFish_ornate_angelfish",
+                    "ItemId": "(O)MNF.MoreNewFish_ornate_angelfish",
+                },
+				"MNF.MoreNewFish_pollock": {
+                    "Id": "MNF.MoreNewFish_pollock",
+                    "ItemId": "(O)MNF.MoreNewFish_pollock",
+                },
+				"MNF.MoreNewFish_soldierfish": {
+                    "Id": "MNF.MoreNewFish_soldierfish",
+                    "ItemId": "(O)MNF.MoreNewFish_soldierfish",
+                },
+				"MNF.MoreNewFish_robalo": {
+                    "Id": "MNF.MoreNewFish_robalo",
+                    "ItemId": "(O)MNF.MoreNewFish_robalo",
+                },
+				"MNF.MoreNewFish_yellowtail_clownfish": {
+                    "Id": "MNF.MoreNewFish_yellowtail_clownfish",
+                    "ItemId": "(O)MNF.MoreNewFish_yellowtail_clownfish",
+                },
+				"MNF.MoreNewFish_great_firefly_squid": {
+                    "Id": "MNF.MoreNewFish_great_firefly_squid",
+                    "ItemId": "(O)MNF.MoreNewFish_great_firefly_squid",
+					"MinFishingLevel": 10,					
+					"CatchLimit": 1,
+					"CuriosityLureBuff": 0.1,
+					"IsBossFish": true,
+                },
+            },
+        }, 
+		{
+            "Action": "EditData",
+			"LogName": "IslandSouthEastCave MNF Data",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "IslandSouthEastCave",
+                "Fish",
+            ],
+            "Entries": {
+				"MNF.MoreNewFish_bonnethead": {
+                    "Id": "MNF.MoreNewFish_bonnethead",
+                    "ItemId": "(O)MNF.MoreNewFish_bonnethead",
+                },
+				"MNF.MoreNewFish_two-band_clownfish": {
+                    "Id": "MNF.MoreNewFish_two-band_clownfish",
+                    "ItemId": "(O)MNF.MoreNewFish_two-band_clownfish",
+                },
+				"MNF.MoreNewFish_whitesnout_clownfish": {
+                    "Id": "MNF.MoreNewFish_whitesnout_clownfish",
+                    "ItemId": "(O)MNF.MoreNewFish_whitesnout_clownfish",
+                },
+				"MNF.MoreNewFish_dwarf_stingray": {
+                    "Id": "MNF.MoreNewFish_dwarf_stingray",
+                    "ItemId": "(O)MNF.MoreNewFish_dwarf_stingray",
+                },
+				"MNF.MoreNewFish_thread-sail_filefish": {
+                    "Id": "MNF.MoreNewFish_thread-sail_filefish",
+                    "ItemId": "(O)MNF.MoreNewFish_thread-sail_filefish",
+                },
+				"MNF.MoreNewFish_squirrelfish": {
+                    "Id": "MNF.MoreNewFish_squirrelfish",
+                    "ItemId": "(O)MNF.MoreNewFish_squirrelfish",
+                },
+            },
+        },
+		{
+            "Action": "EditData",
+			"LogName": "IslandWest MNF Data",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "IslandWest",
+                "Fish",
+            ],
+            "Entries": {
+				"MNF.MoreNewFish_black_ghost_knifefish": {
+                    "Id": "MNF.MoreNewFish_black_ghost_knifefish",
+                    "ItemId": "(O)MNF.MoreNewFish_black_ghost_knifefish",
+					"FishAreaId": "Freshwater"
+                },
+				"MNF.MoreNewFish_tiger_puffer": {
+                    "Id": "MNF.MoreNewFish_tiger_puffer",
+                    "ItemId": "(O)MNF.MoreNewFish_tiger_puffer",
+					"FishAreaId": "Ocean"
+                },
+				"MNF.MoreNewFish_banded_angelfish": {
+                    "Id": "MNF.MoreNewFish_banded_angelfish",
+                    "ItemId": "(O)MNF.MoreNewFish_banded_angelfish",
+					"FishAreaId": "Ocean"
+                },
+				"MNF.MoreNewFish_flame_angelfish": {
+                    "Id": "MNF.MoreNewFish_flame_angelfish",
+                    "ItemId": "(O)MNF.MoreNewFish_flame_angelfish",
+					"FishAreaId": "Ocean"
+                },
+				"MNF.MoreNewFish_maroon_clownfish": {
+                    "Id": "MNF.MoreNewFish_maroon_clownfish",
+                    "ItemId": "(O)MNF.MoreNewFish_maroon_clownfish",
+					"FishAreaId": "Ocean"
+                },
+				"MNF.MoreNewFish_fire_clownfish": {
+                    "Id": "MNF.MoreNewFish_fire_clownfish",
+                    "ItemId": "(O)MNF.MoreNewFish_fire_clownfish",
+					"FishAreaId": "Ocean"
+                },
+				"MNF.MoreNewFish_wolffish": {
+                    "Id": "MNF.MoreNewFish_wolffish",
+                    "ItemId": "(O)MNF.MoreNewFish_wolffish",
+					"FishAreaId": "Ocean"
+                },
+				"MNF.MoreNewFish_robalo": {
+                    "Id": "MNF.MoreNewFish_robalo",
+                    "ItemId": "(O)MNF.MoreNewFish_robalo",
+					"FishAreaId": "Ocean"
+                },
+				"MNF.MoreNewFish_monkfish": {
+                    "Id": "MNF.MoreNewFish_monkfish",
+                    "ItemId": "(O)MNF.MoreNewFish_monkfish",
+					"FishAreaId": "Ocean"
+                },
+				"MNF.MoreNewFish_threespot_angelfish": {
+                    "Id": "MNF.MoreNewFish_threespot_angelfish",
+                    "ItemId": "(O)MNF.MoreNewFish_threespot_angelfish",
+					"FishAreaId": "Ocean"
+                },
+            },
+        }, 
+		  
+    {
+      "Action": "EditData",
+	  "LogName": "MNF Foraging Data",
+      "Target": "Data/Locations",
+	  "TargetField": [
+                "Beach",
+                "Forage",
+            ],
+	  "Entries": {
+		"MNF.MoreNewFish_starfish":{  
+		"Id": "(O)MNF.MoreNewFish_starfish",
+        "ItemId": "(O)MNF.MoreNewFish_starfish",
+        "Chance": 0.4,
+        "Season": null,
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": -1,
+        "MaxStack": -1,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": "Stack",
+        "QualityModifiers": null,
+        "QualityModifierMode": "Stack",
+        "ModData": null,
+        "PerItemCondition": null
+      },
+	    "MNF.MoreNewFish_blue_starfish":{
+        "Id": "(O)MNF.MoreNewFish_blue_starfish",
+        "ItemId": "(O)MNF.MoreNewFish_blue_starfish",
+		"Chance": 0.3,
+        "Season": "Spring",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": -1,
+        "MaxStack": -1,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": "Stack",
+        "QualityModifiers": null,
+        "QualityModifierMode": "Stack",
+        "ModData": null,
+        "PerItemCondition": null
+      },
+	    "MNF.MoreNewFish_royal_starfish": {
+        "Id": "(O)MNF.MoreNewFish_royal_starfish",
+        "ItemId": "(O)MNF.MoreNewFish_royal_starfish",
+		"Chance": 0.2,
+        "Season": "Summer",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": -1,
+        "MaxStack": -1,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": "Stack",
+        "QualityModifiers": null,
+        "QualityModifierMode": "Stack",
+        "ModData": null,
+        "PerItemCondition": null
+      },
+	    "MNF.MoreNewFish_crown_of_thorns_starfish":{
+        "Id": "(O)MNF.MoreNewFish_crown_of_thorns_starfish",
+        "ItemId": "(O)MNF.MoreNewFish_crown_of_thorns_starfish",
+		"Chance": 0.1,
+        "Season": "Fall",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": -1,
+        "MaxStack": -1,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": "Stack",
+        "QualityModifiers": null,
+        "QualityModifierMode": "Stack",
+        "ModData": null,
+        "PerItemCondition": null
+      },
+	    "MNF.MoreNewFish_holy_grenade_starfish": {
+		"Id": "(O)MNF.MoreNewFish_holy_grenade_starfish",
+        "ItemId": "(O)MNF.MoreNewFish_holy_grenade_starfish",
+		"Chance": 0.1,
+        "Season": "Winter",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": -1,
+        "MaxStack": -1,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": "Stack",
+        "QualityModifiers": null,
+        "QualityModifierMode": "Stack",
+        "ModData": null,
+        "PerItemCondition": null
+      },
+	}
+},
+],
+}

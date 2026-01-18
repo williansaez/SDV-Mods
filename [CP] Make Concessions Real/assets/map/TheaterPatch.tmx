@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="1" height="5" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="29" spiderbuttons="true">
+  <properties>
+    <property name="IgnoreLightingTiles" type="bool" value="true"></property>
+  </properties>
+  <tileset firstgid="1" name="movieTheater_tileSheet" tilewidth="16" tileheight="16" tilecount="256" columns="16">
+    <image source="MovieTheater_TileSheet" width="256" height="256"></image>
+    <tile id="16">
+      <animation>
+        <frame tileid="16" duration="800"></frame>
+        <frame tileid="185" duration="800"></frame>
+      </animation>
+    </tile>
+    <tile id="17">
+      <animation>
+        <frame tileid="17" duration="800"></frame>
+        <frame tileid="186" duration="800"></frame>
+      </animation>
+    </tile>
+    <tile id="175">
+      <animation>
+        <frame tileid="175" duration="250"></frame>
+        <frame tileid="175" duration="250"></frame>
+        <frame tileid="175" duration="250"></frame>
+        <frame tileid="175" duration="250"></frame>
+        <frame tileid="188" duration="250"></frame>
+        <frame tileid="175" duration="250"></frame>
+        <frame tileid="175" duration="250"></frame>
+        <frame tileid="188" duration="250"></frame>
+        <frame tileid="175" duration="250"></frame>
+        <frame tileid="175" duration="250"></frame>
+        <frame tileid="175" duration="250"></frame>
+        <frame tileid="175" duration="250"></frame>
+        <frame tileid="175" duration="250"></frame>
+        <frame tileid="175" duration="250"></frame>
+        <frame tileid="175" duration="250"></frame>
+        <frame tileid="175" duration="250"></frame>
+        <frame tileid="175" duration="250"></frame>
+        <frame tileid="175" duration="250"></frame>
+        <frame tileid="175" duration="250"></frame>
+        <frame tileid="175" duration="250"></frame>
+        <frame tileid="175" duration="250"></frame>
+        <frame tileid="175" duration="250"></frame>
+        <frame tileid="175" duration="250"></frame>
+        <frame tileid="175" duration="250"></frame>
+        <frame tileid="175" duration="250"></frame>
+        <frame tileid="190" duration="250"></frame>
+        <frame tileid="190" duration="250"></frame>
+        <frame tileid="190" duration="250"></frame>
+        <frame tileid="190" duration="250"></frame>
+        <frame tileid="175" duration="250"></frame>
+        <frame tileid="175" duration="250"></frame>
+        <frame tileid="175" duration="250"></frame>
+        <frame tileid="175" duration="250"></frame>
+        <frame tileid="175" duration="250"></frame>
+        <frame tileid="175" duration="250"></frame>
+        <frame tileid="175" duration="250"></frame>
+        <frame tileid="175" duration="250"></frame>
+        <frame tileid="190" duration="250"></frame>
+        <frame tileid="190" duration="250"></frame>
+        <frame tileid="190" duration="250"></frame>
+        <frame tileid="190" duration="250"></frame>
+        <frame tileid="190" duration="250"></frame>
+        <frame tileid="190" duration="250"></frame>
+        <frame tileid="190" duration="250"></frame>
+        <frame tileid="190" duration="250"></frame>
+      </animation>
+    </tile>
+    <tile id="191">
+      <animation>
+        <frame tileid="191" duration="1000"></frame>
+        <frame tileid="191" duration="1000"></frame>
+        <frame tileid="191" duration="1000"></frame>
+        <frame tileid="191" duration="1000"></frame>
+        <frame tileid="191" duration="1000"></frame>
+        <frame tileid="191" duration="1000"></frame>
+        <frame tileid="189" duration="1000"></frame>
+        <frame tileid="191" duration="1000"></frame>
+        <frame tileid="191" duration="1000"></frame>
+        <frame tileid="189" duration="1000"></frame>
+        <frame tileid="189" duration="1000"></frame>
+      </animation>
+    </tile>
+    <tile id="194">
+      <animation>
+        <frame tileid="194" duration="250"></frame>
+        <frame tileid="197" duration="250"></frame>
+        <frame tileid="194" duration="250"></frame>
+        <frame tileid="229" duration="250"></frame>
+      </animation>
+    </tile>
+    <tile id="195">
+      <animation>
+        <frame tileid="195" duration="250"></frame>
+        <frame tileid="198" duration="250"></frame>
+        <frame tileid="195" duration="250"></frame>
+        <frame tileid="230" duration="250"></frame>
+      </animation>
+    </tile>
+    <tile id="210">
+      <animation>
+        <frame tileid="210" duration="250"></frame>
+        <frame tileid="213" duration="250"></frame>
+        <frame tileid="210" duration="250"></frame>
+        <frame tileid="245" duration="250"></frame>
+      </animation>
+    </tile>
+    <tile id="211">
+      <animation>
+        <frame tileid="211" duration="250"></frame>
+        <frame tileid="214" duration="250"></frame>
+        <frame tileid="211" duration="250"></frame>
+        <frame tileid="246" duration="250"></frame>
+      </animation>
+    </tile>
+  </tileset>
+  <tileset firstgid="257" name="paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+    <image source="paths" width="64" height="256"></image>
+  </tileset>
+  <tileset firstgid="321" name="z_ConcessionsGirl" tilewidth="16" tileheight="16" tilecount="6" columns="3">
+    <image source="ConcessionsGirl.png" width="48" height="32"></image>
+    <tile id="0">
+      <animation>
+        <frame tileid="0" duration="250"></frame>
+        <frame tileid="0" duration="250"></frame>
+        <frame tileid="0" duration="250"></frame>
+        <frame tileid="0" duration="250"></frame>
+        <frame tileid="1" duration="250"></frame>
+        <frame tileid="0" duration="250"></frame>
+        <frame tileid="0" duration="250"></frame>
+        <frame tileid="1" duration="250"></frame>
+        <frame tileid="0" duration="250"></frame>
+        <frame tileid="0" duration="250"></frame>
+        <frame tileid="0" duration="250"></frame>
+        <frame tileid="0" duration="250"></frame>
+        <frame tileid="0" duration="250"></frame>
+        <frame tileid="0" duration="250"></frame>
+        <frame tileid="0" duration="250"></frame>
+        <frame tileid="0" duration="250"></frame>
+        <frame tileid="0" duration="250"></frame>
+        <frame tileid="0" duration="250"></frame>
+        <frame tileid="0" duration="250"></frame>
+        <frame tileid="0" duration="250"></frame>
+        <frame tileid="0" duration="250"></frame>
+        <frame tileid="0" duration="250"></frame>
+        <frame tileid="0" duration="250"></frame>
+        <frame tileid="0" duration="250"></frame>
+        <frame tileid="2" duration="250"></frame>
+        <frame tileid="2" duration="250"></frame>
+        <frame tileid="2" duration="250"></frame>
+        <frame tileid="2" duration="250"></frame>
+        <frame tileid="0" duration="250"></frame>
+        <frame tileid="0" duration="250"></frame>
+        <frame tileid="0" duration="250"></frame>
+        <frame tileid="0" duration="250"></frame>
+        <frame tileid="0" duration="250"></frame>
+        <frame tileid="0" duration="250"></frame>
+        <frame tileid="0" duration="250"></frame>
+        <frame tileid="0" duration="250"></frame>
+        <frame tileid="2" duration="250"></frame>
+        <frame tileid="2" duration="250"></frame>
+        <frame tileid="2" duration="250"></frame>
+        <frame tileid="2" duration="250"></frame>
+        <frame tileid="2" duration="250"></frame>
+        <frame tileid="2" duration="250"></frame>
+        <frame tileid="2" duration="250"></frame>
+        <frame tileid="2" duration="250"></frame>
+      </animation>
+    </tile>
+    <tile id="3">
+      <animation>
+        <frame tileid="3" duration="1000"></frame>
+        <frame tileid="3" duration="1000"></frame>
+        <frame tileid="3" duration="1000"></frame>
+        <frame tileid="3" duration="1000"></frame>
+        <frame tileid="3" duration="1000"></frame>
+        <frame tileid="3" duration="1000"></frame>
+        <frame tileid="5" duration="1000"></frame>
+        <frame tileid="3" duration="1000"></frame>
+        <frame tileid="3" duration="1000"></frame>
+        <frame tileid="5" duration="1000"></frame>
+        <frame tileid="5" duration="1000"></frame>
+      </animation>
+    </tile>
+  </tileset>
+  <layer id="1" name="Back" width="1" height="5">
+    <data encoding="csv">75,
+75,
+59,
+75,
+59</data>
+  </layer>
+  <layer id="2" name="Buildings" width="1" height="5">
+    <data encoding="csv">33,
+49,
+324,
+81,
+0</data>
+  </layer>
+  <layer id="3" name="Front" width="1" height="5">
+    <data encoding="csv">0,
+321,
+65,
+0,
+0</data>
+  </layer>
+  <layer id="4" name="Paths" width="1" height="5">
+    <data encoding="csv">0,
+0,
+0,
+0,
+0</data>
+  </layer>
+  <objectgroup id="5" name="Back"></objectgroup>
+  <objectgroup id="6" name="Buildings">
+    <object id="28" name="TileData" x="0" y="48" width="16" height="16">
+      <properties>
+        <property name="Action" value="OpenShop Forsy.MCR_ConcessionsGirl"></property>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="7" name="Front"></objectgroup>
+  <objectgroup id="8" name="Paths"></objectgroup>
+</map>

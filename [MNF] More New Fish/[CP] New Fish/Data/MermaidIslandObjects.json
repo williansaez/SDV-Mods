@@ -1,0 +1,315 @@
+{
+"Changes": [  
+{
+	    "Action": "EditData",
+		"LogName": "Fish Object Data",
+		"Target": "Data/Objects",
+		"Entries": {
+    
+	},
+},
+	{
+	"Action": "EditData",
+			"LogName": "MermaidIsland",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Custom_MermaidIsland",
+                "Fish",
+            ],
+            "Entries": {
+                "MNF.MoreNewFish_moorish_idol": {
+                    "Id": "MNF.MoreNewFish_moorish_idol",
+                    "ItemId": "(O)MNF.MoreNewFish_moorish_idol",
+					"Condition": "LOCATION_SEASON Here spring",
+                }, "MNF.MoreNewFish_royal_angelfish": {
+                    "Id": "MNF.MoreNewFish_royal_angelfish",
+                    "ItemId": "(O)MNF.MoreNewFish_royal_angelfish",
+					"Condition": "LOCATION_SEASON Here spring",
+                }, "MNF.MoreNewFish_dwarf_stingray": {
+                    "Id": "MNF.MoreNewFish_dwarf_stingray",
+                    "ItemId": "(O)MNF.MoreNewFish_dwarf_stingray",
+					"Condition": "LOCATION_SEASON Here spring summer fall",
+                },"MNF.MoreNewFish_maroon_clownfish": {
+                    "Id": "MNF.MoreNewFish_maroon_clownfish",
+                    "ItemId": "(O)MNF.MoreNewFish_maroon_clownfish",
+					"Condition": "LOCATION_SEASON Here spring",
+                },"MNF.MoreNewFish_wide-band_clownfish": {
+                    "Id": "MNF.MoreNewFish_wide-band_clownfish",
+                    "ItemId": "(O)MNF.MoreNewFish_wide-band_clownfish",
+					"Condition": "LOCATION_SEASON Here spring",
+                },"MNF.MoreNewFish_pink_skunk_clownfish": {
+                    "Id": "MNF.MoreNewFish_pink_skunk_clownfish",
+                    "ItemId": "(O)MNF.MoreNewFish_pink_skunk_clownfish",
+					"Condition": "LOCATION_SEASON Here spring",
+                },"MNF.MoreNewFish_two-band_clownfish": {
+                    "Id": "MNF.MoreNewFish_two-band_clownfish",
+                    "ItemId": "(O)MNF.MoreNewFish_two-band_clownfish",
+					"Condition": "LOCATION_SEASON Here spring",
+                },"MNF.MoreNewFish_fire_clownfish": {
+                    "Id": "MNF.MoreNewFish_fire_clownfish",
+                    "ItemId": "(O)MNF.MoreNewFish_fire_clownfish",
+					"Condition": "LOCATION_SEASON Here spring",
+                },"MNF.MoreNewFish_mandarinfish": {
+                    "Id": "MNF.MoreNewFish_mandarinfish",
+                    "ItemId": "(O)MNF.MoreNewFish_mandarinfish",
+					"Condition": "LOCATION_SEASON Here spring",
+                },"MNF.MoreNewFish_zebra_eel": {
+                    "Id": "MNF.MoreNewFish_zebra_eel",
+                    "ItemId": "(O)MNF.MoreNewFish_zebra_eel",
+					"Condition": "LOCATION_SEASON Here spring",
+                },"MNF.MoreNewFish_anchoviella": {
+                    "Id": "MNF.MoreNewFish_anchoviella",
+                    "ItemId": "(O)MNF.MoreNewFish_anchoviella",
+					"Condition": "LOCATION_SEASON Here spring summer",
+                },"MNF.MoreNewFish_blue_tang": {
+                    "Id": "MNF.MoreNewFish_blue_tang",
+                    "ItemId": "(O)MNF.MoreNewFish_blue_tang",
+					"Condition": "LOCATION_SEASON Here summer",
+                }, "MNF.MoreNewFish_ornate_angelfish": {
+                    "Id": "MNF.MoreNewFish_ornate_angelfish",
+                    "ItemId": "(O)MNF.MoreNewFish_ornate_angelfish",
+					"Condition": "LOCATION_SEASON Here summer",
+                },"MNF.MoreNewFish_threespot_angelfish": {
+                    "Id": "MNF.MoreNewFish_threespot_angelfish",
+                    "ItemId": "(O)MNF.MoreNewFish_threespot_angelfish",
+					"Condition": "LOCATION_SEASON Here summer",
+                }, "MNF.MoreNewFish_orange_clownfish": {
+                    "Id": "MNF.MoreNewFish_orange_clownfish",
+                    "ItemId": "(O)MNF.MoreNewFish_orange_clownfish",
+					"Condition": "LOCATION_SEASON Here summer",
+                },"MNF.MoreNewFish_saddleback_clownfish": {
+                    "Id": "MNF.MoreNewFish_saddleback_clownfish",
+                    "ItemId": "(O)MNF.MoreNewFish_saddleback_clownfish",
+					"Condition": "LOCATION_SEASON Here summer",
+                }, "MNF.MoreNewFish_yellowtail_clownfish": {
+                    "Id": "MNF.MoreNewFish_yellowtail_clownfish",
+                    "ItemId": "(O)MNF.MoreNewFish_yellowtail_clownfish",
+					"Condition": "LOCATION_SEASON Here summer",
+                }, "MNF.MoreNewFish_skunk_clownfish": {
+                    "Id": "MNF.MoreNewFish_skunk_clownfish",
+                    "ItemId": "(O)MNF.MoreNewFish_skunk_clownfish",
+					"Condition": "LOCATION_SEASON Here summer",
+                }, "MNF.MoreNewFish_squirrelfish": {
+                    "Id": "MNF.MoreNewFish_squirrelfish",
+                    "ItemId": "(O)MNF.MoreNewFish_squirrelfish",
+					"Condition": "LOCATION_SEASON Here summer",
+                }, "MNF.MoreNewFish_ribbon_eel": {
+                    "Id": "MNF.MoreNewFish_ribbon_eel",
+                    "ItemId": "(O)MNF.MoreNewFish_ribbon_eel",
+					"Condition": "LOCATION_SEASON Here summer",
+                }, "MNF.MoreNewFish_banded_angelfish": {
+                    "Id": "MNF.MoreNewFish_banded_angelfish",
+                    "ItemId": "(O)MNF.MoreNewFish_banded_angelfish",
+					"Condition": "LOCATION_SEASON Here fall",
+                }, "MNF.MoreNewFish_flame_angelfish": {
+                    "Id": "MNF.MoreNewFish_flame_angelfish",
+                    "ItemId": "(O)MNF.MoreNewFish_flame_angelfish",
+					"Condition": "LOCATION_SEASON Here fall",
+                }, "MNF.MoreNewFish_sebae_clownfish": {
+                    "Id": "MNF.MoreNewFish_sebae_clownfish",
+                    "ItemId": "(O)MNF.MoreNewFish_sebae_clownfish",
+					"Condition": "LOCATION_SEASON Here fall",
+                }, "MNF.MoreNewFish_whitesnout_clownfish": {
+                    "Id": "MNF.MoreNewFish_whitesnout_clownfish",
+                    "ItemId": "(O)MNF.MoreNewFish_whitesnout_clownfish",
+					"Condition": "LOCATION_SEASON Here fall",
+                }, "MNF.MoreNewFish_tiger_puffer": {
+                    "Id": "MNF.MoreNewFish_tiger_puffer",
+                    "ItemId": "(O)MNF.MoreNewFish_tiger_puffer",
+					"Condition": "LOCATION_SEASON Here fall",
+                }, "MNF.MoreNewFish_blue_ringed_octopus": {
+                    "Id": "MNF.MoreNewFish_blue_ringed_octopus",
+                    "ItemId": "(O)MNF.MoreNewFish_blue_ringed_octopus",
+					"Condition": "LOCATION_SEASON Here fall",
+                }, "MNF.MoreNewFish_wolffish": {
+                    "Id": "MNF.MoreNewFish_wolffish",
+                    "ItemId": "(O)MNF.MoreNewFish_wolffish",
+					"Condition": "LOCATION_SEASON Here fall winter",
+                }, "MNF.MoreNewFish_pollock": {
+                    "Id": "MNF.MoreNewFish_pollock",
+                    "ItemId": "(O)MNF.MoreNewFish_pollock",
+					"Condition": "LOCATION_SEASON Here fall winter",
+                }, "MNF.MoreNewFish_ghost_eel": {
+                    "Id": "MNF.MoreNewFish_ghost_eel",
+                    "ItemId": "(O)MNF.MoreNewFish_ghost_eel",
+					"Condition": "LOCATION_SEASON Here fall",
+                }, "MNF.MoreNewFish_thread-sail_filefish": {
+                    "Id": "MNF.MoreNewFish_thread-sail_filefish",
+                    "ItemId": "(O)MNF.MoreNewFish_thread-sail_filefish",
+					"Condition": "LOCATION_SEASON Here winter",
+                }, "MNF.MoreNewFish_monkfish": {
+                    "Id": "MNF.MoreNewFish_monkfish",
+                    "ItemId": "(O)MNF.MoreNewFish_monkfish",
+					"Condition": "LOCATION_SEASON Here winter",
+                }, "MNF.MoreNewFish_icefish": {
+                    "Id": "MNF.MoreNewFish_icefish",
+                    "ItemId": "(O)MNF.MoreNewFish_icefish",
+					"Condition": "LOCATION_SEASON Here winter",
+                }, "MNF.MoreNewFish_false_kelpfish": {
+                    "Id": "MNF.MoreNewFish_false_kelpfish",
+                    "ItemId": "(O)MNF.MoreNewFish_false_kelpfish",
+					"Condition": "LOCATION_SEASON Here winter",
+                }, "MNF.MoreNewFish_stubby_squid": {
+                    "Id": "MNF.MoreNewFish_stubby_squid",
+                    "ItemId": "(O)MNF.MoreNewFish_stubby_squid",
+					"Condition": "LOCATION_SEASON Here winter",
+                }, "MNF.MoreNewFish_conger": {
+                    "Id": "MNF.MoreNewFish_conger",
+                    "ItemId": "(O)MNF.MoreNewFish_conger",
+					"Condition": "LOCATION_SEASON Here winter",
+                }, "MNF.MoreNewFish_dumbo_octopus": {
+                    "Id": "MNF.MoreNewFish_dumbo_octopus",
+                    "ItemId": "(O)MNF.MoreNewFish_dumbo_octopus",
+					"Condition": "LOCATION_SEASON Here winter",
+                }, "MNF.MoreNewFish_great_firefly_squid": {
+                    "Id": "MNF.MoreNewFish_great_firefly_squid",
+                    "ItemId": "(O)MNF.MoreNewFish_great_firefly_squid",
+					"Condition": "DAY_OF_MONTH 25 26 27, LOCATION_SEASON Here summer",
+					"MinFishingLevel": 8,
+					"CuriosityLureBuff": 0.1,
+					"IsBossFish": true,
+                },
+        },
+	},
+{
+      "Action": "EditData",
+	  "LogName": "MNF Foraging Data",
+      "Target": "Data/Locations",
+	  "TargetField": [
+                "Custom_MermaidIsland",
+                "Forage",
+            ],
+	  "Entries": {
+		"MNF.MoreNewFish_starfish":{  
+		"Id": "(O)MNF.MoreNewFish_starfish",
+        "ItemId": "(O)MNF.MoreNewFish_starfish",
+        "Chance": 0.4,
+        "Season": null,
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": -1,
+        "MaxStack": -1,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": "Stack",
+        "QualityModifiers": null,
+        "QualityModifierMode": "Stack",
+        "ModData": null,
+        "PerItemCondition": null
+      },
+	    "MNF.MoreNewFish_blue_starfish":{
+        "Id": "(O)MNF.MoreNewFish_blue_starfish",
+        "ItemId": "(O)MNF.MoreNewFish_blue_starfish",
+		"Chance": 0.3,
+        "Season": "Spring",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": -1,
+        "MaxStack": -1,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": "Stack",
+        "QualityModifiers": null,
+        "QualityModifierMode": "Stack",
+        "ModData": null,
+        "PerItemCondition": null
+      },
+	    "MNF.MoreNewFish_royal_starfish": {
+        "Id": "(O)MNF.MoreNewFish_royal_starfish",
+        "ItemId": "(O)MNF.MoreNewFish_royal_starfish",
+		"Chance": 0.2,
+        "Season": "Summer",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": -1,
+        "MaxStack": -1,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": "Stack",
+        "QualityModifiers": null,
+        "QualityModifierMode": "Stack",
+        "ModData": null,
+        "PerItemCondition": null
+      },
+	    "MNF.MoreNewFish_crown_of_thorns_starfish":{
+        "Id": "(O)MNF.MoreNewFish_crown_of_thorns_starfish",
+        "ItemId": "(O)MNF.MoreNewFish_crown_of_thorns_starfish",
+		"Chance": 0.1,
+        "Season": "Fall",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": -1,
+        "MaxStack": -1,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": "Stack",
+        "QualityModifiers": null,
+        "QualityModifierMode": "Stack",
+        "ModData": null,
+        "PerItemCondition": null
+      },
+	    "MNF.MoreNewFish_holy_grenade_starfish": {
+		"Id": "(O)MNF.MoreNewFish_holy_grenade_starfish",
+        "ItemId": "(O)MNF.MoreNewFish_holy_grenade_starfish",
+		"Chance": 0.1,
+        "Season": "Winter",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": -1,
+        "MaxStack": -1,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": "Stack",
+        "QualityModifiers": null,
+        "QualityModifierMode": "Stack",
+        "ModData": null,
+        "PerItemCondition": null
+      },
+	}
+},
+{
+		  "Action": "EditData",
+		  "LogName": "Tropical Fish Location Data",
+          "Target": "Data/Fish",
+          "Entries": {
+		
+		  },
+		},
+		{
+		  "Action": "EditData",
+		  "LogName": "Tropical Fish Location Data Easy Fishing",
+          "Target": "Data/Fish",
+		  "When": {"EasyFishing":"true"},
+          "Fields": {
+
+		  },
+		},	
+{
+		"Action": "EditData",
+		"Target": "Data/AquariumFish",
+		"Entries": {
+
+				}		
+          },
+]
+}

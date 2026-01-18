@@ -1,0 +1,96 @@
+{
+	"Format": "2.7.0",
+    "ConfigSchema": {
+		"ChangeGrandpaMonologue": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Altera levemente o monólogo do avô no começo do jogo. Isso não afetará os gráficos; apenas altera o que o avô diz. Defina como 'false' se você tiver outro mod que já altere as falas do avô.",
+		},
+		"ChangeLetter": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Altera o texto da carta que o avô lhe envia para se ajustar melhor ao mod Broken Farmhouse. Não altera nenhum gráfico, apenas o texto da carta.",
+		},
+		"ChangeFirstConversation": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Altera levemente a conversa inicial entre você, Robin e Lewis para se ajustar melhor ao mod Broken Farmhouse.",
+		},
+		"WhoseList": { 
+			"Default": "Grandpa's",
+			"Description": "De quem é a lista de afazeres? Exemplos: 'minha' lista, 'nossa' lista, 'da vovó', etc. Isso só será atualizado APÓS você dormir uma noite. Não use vírgulas neste campo.",
+		},
+		"11thBundleReward" : { 
+			"AllowValues" : "Regular, Joja",
+			"Default": "Regular",
+			"Description": "Shane lhe enviará um catálogo de móveis regular ou um catálogo da Joja no dia após você completar o 11º bundle. Isso deve ser alterado ANTES de você completar o 11º bundle, mesmo que a carta só chegue no dia seguinte.",
+		},
+		"DisableBrokenFarmhouseMod": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"Description": "Desativa o mod Broken Farmhouse. AVISO: se você ativar isso no meio do jogo, especialmente antes de completar o bundle 15/atualizar para o nível 2, pode causar efeitos negativos, como colocar você e seus móveis em um espaço vazio. Consulte o artigo no Nexus para mais informações.",
+		},
+
+
+	},
+	"DynamicTokens": [
+	{
+		"Name": "WhichCatalogue",
+		"Value": "1226",
+	},
+	{
+		"Name": "WhichCatalogue",
+		"Value": "JojaCatalogue",
+		"When": { "11thBundleReward" : "Joja" },
+	},
+	],
+	"Changes": [
+	{
+        "Action": "Include",
+        "FromFile": "includes/BrokenFarmhouseBase.json",
+		"When": { "DisableBrokenFarmhouseMod": "false" },
+    },
+	{
+        "Action": "Include",
+        "FromFile": "includes/BrokenFarmhouseRenovations0.json",
+		"When": { "DisableBrokenFarmhouseMod": "false" },
+    },
+	{
+        "Action": "Include",
+        "FromFile": "includes/BrokenFarmhouseRenovations1.json",
+		"When": { "DisableBrokenFarmhouseMod": "false" },
+    },
+	{
+        "Action": "Include",
+        "FromFile": "includes/BrokenFarmhouseRenovations2.json",
+		"When": { "DisableBrokenFarmhouseMod": "false" },
+    },
+	{
+        "Action": "Include",
+        "FromFile": "includes/BrokenFarmhouseTriggerActions.json",
+		"When": { "DisableBrokenFarmhouseMod": "false" },
+    },
+    {
+        "Action": "Include",
+        "FromFile": "includes/BrokenFarmhouseBundles01.json",
+		"When": { "DisableBrokenFarmhouseMod": "false" },
+    },
+    {
+        "Action": "Include",
+        "FromFile": "includes/BrokenFarmhouseBundles02.json",
+		"When": { "DisableBrokenFarmhouseMod": "false" },
+    },
+    {
+        "Action": "Include",
+        "FromFile": "includes/BrokenFarmhouseBundles03.json",
+		"When": { "DisableBrokenFarmhouseMod": "false" },
+    },
+	{
+        "Action": "Include",
+        "FromFile": "includes/BrokenFarmhouseMapStrings.json",
+		"When": { "DisableBrokenFarmhouseMod": "false" },
+    },
+
+	
+]
+}

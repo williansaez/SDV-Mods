@@ -1,0 +1,209 @@
+{
+  "Changes": [
+    // Deluxe Shed
+    {
+      "LogName": "Create Deluxe Shed",
+      "Action": "EditData",
+      "Target": "Data/Buildings",
+      "When": {
+        "Deluxe Shed": "True"
+      },
+      "Entries": {
+        "{{ModId}}_DeluxeShed": {
+          "ID": "{{i18n: DeluxeShedName}}",
+          "Name": "{{i18n: DeluxeShedName}}",
+          "Description": "{{i18n: DeluxeShedDescription}}",
+          "Texture": "Buildings\\Big Shed",
+          "Skins": [],
+          "DrawShadow": true,
+          "UpgradeSignTile": "4.8125, 2",
+          "UpgradeSignHeight": 20.0,
+          "Size": {
+            "X": 7,
+            "Y": 3
+          },
+          "FadeWhenBehind": true,
+          "SourceRect": {
+            "X": 0,
+            "Y": 0,
+            "Width": 0,
+            "Height": 0
+          },
+          "SeasonOffset": {
+            "X": 0,
+            "Y": 0
+          },
+          "DrawOffset": "0, 0",
+          "SortTileOffset": 0.0,
+          "CollisionMap": null,
+          "AdditionalPlacementTiles": null,
+          "BuildingType": null,
+          "Builder": "Robin",
+          "BuildCondition": null,
+          "BuildDays": "{{DeluxeShed_BuildDays}}",
+          "BuildCost": "{{DeluxeShed_BuildCost}}",
+          "BuildMaterials": [
+            {
+              "ItemId": "(O)388",
+              "Amount": "{{DeluxeShed_WoodAmount}}"
+            },
+            {
+              "ItemId": "(O)709",
+              "Amount": "{{DeluxeShed_HardwoodAmount}}"
+            },
+            {
+              "ItemId": "(O)390",
+              "Amount": "{{DeluxeShed_StoneAmount}}"
+            }
+          ],
+          "BuildingToUpgrade": "Big Shed",
+          "MagicalConstruction": false,
+          "BuildMenuDrawOffset": {
+            "X": 0,
+            "Y": 0
+          },
+          "HumanDoor": {
+            "X": 3,
+            "Y": 2
+          },
+          "AnimalDoor": {
+            "X": -1,
+            "Y": -1,
+            "Width": 0,
+            "Height": 0
+          },
+          "AnimalDoorOpenDuration": 0.0,
+          "AnimalDoorOpenSound": null,
+          "AnimalDoorCloseDuration": 0.0,
+          "AnimalDoorCloseSound": null,
+          "NonInstancedIndoorLocation": null,
+          "IndoorMap": "Amichwan.More.upgrades_Shed3",
+          "IndoorMapType": "StardewValley.Shed",
+          "MaxOccupants": 20,
+          "ValidOccupantTypes": [],
+          "AllowAnimalPregnancy": false,
+          "IndoorItemMoves": null,
+          "IndoorItems": null,
+          "AddMailOnBuild": null,
+          "Metadata": {},
+          "ModData": {
+            "Pathoschild.Automate/IsAutomationIgnored": "false"
+          },
+          "HayCapacity": 0,
+          "Chests": null,
+          "DefaultAction": null,
+          "AdditionalTilePropertyRadius": 0,
+          "AllowsFlooringUnderneath": true,
+          "ActionTiles": [],
+          "TileProperties": [],
+          "ItemConversions": null,
+          "DrawLayers": null,
+          "CustomFields": null
+        }
+      }
+    },
+
+    // Premium Shed
+    {
+      "LogName": "Create Premium Shed",
+      "Action": "EditData",
+      "Target": "Data/Buildings",
+      "When": {
+        "Premium Shed": "True"
+      },
+      "Entries": {
+        "{{ModId}}_PremiumShed": {
+          "ID": "{{i18n: PremiumShedName}}",
+          "Name": "{{i18n: PremiumShedName}}",
+          "Description": "{{i18n: PremiumShedDescription}}",
+          "Texture": "Buildings\\Big Shed",
+          "Skins": [],
+          "DrawShadow": true,
+          "UpgradeSignTile": "4.8125, 2",
+          "UpgradeSignHeight": 20.0,
+          "Size": {
+            "X": 7,
+            "Y": 3
+          },
+          "FadeWhenBehind": true,
+          "SourceRect": {
+            "X": 0,
+            "Y": 0,
+            "Width": 0,
+            "Height": 0
+          },
+          "SeasonOffset": {
+            "X": 0,
+            "Y": 0
+          },
+          "DrawOffset": "0, 0",
+          "SortTileOffset": 0.0,
+          "CollisionMap": null,
+          "AdditionalPlacementTiles": null,
+          "BuildingType": null,
+          "Builder": "Robin",
+          "BuildCondition": null,
+          "BuildDays": "{{PremiumShed_BuildDays}}",
+          "BuildCost": "{{PremiumShed_BuildCost}}",
+          "BuildMaterials": [
+            {
+              "ItemId": "(O)388",
+              "Amount": "{{PremiumShed_WoodAmount}}"
+            },
+            {
+              "ItemId": "(O)709",
+              "Amount": "{{PremiumShed_HardwoodAmount}}"
+            },
+            {
+              "ItemId": "(O)390",
+              "Amount": "{{PremiumShed_StoneAmount}}"
+            }
+          ],
+          "BuildingToUpgrade": "Amichwan.More.upgrades_DeluxeShed",
+          "MagicalConstruction": false,
+          "BuildMenuDrawOffset": {
+            "X": 0,
+            "Y": 0
+          },
+          "HumanDoor": {
+            "X": 3,
+            "Y": 2
+          },
+          "AnimalDoor": {
+            "X": -1,
+            "Y": -1,
+            "Width": 0,
+            "Height": 0
+          },
+          "AnimalDoorOpenDuration": 0.0,
+          "AnimalDoorOpenSound": null,
+          "AnimalDoorCloseDuration": 0.0,
+          "AnimalDoorCloseSound": null,
+          "NonInstancedIndoorLocation": null,
+          "IndoorMap": "Amichwan.More.upgrades_Shed4",
+          "IndoorMapType": "StardewValley.Shed",
+          "MaxOccupants": 20,
+          "ValidOccupantTypes": [],
+          "AllowAnimalPregnancy": false,
+          "IndoorItemMoves": null,
+          "IndoorItems": null,
+          "AddMailOnBuild": null,
+          "Metadata": {},
+          "ModData": {
+            "Pathoschild.Automate/IsAutomationIgnored": "false"
+          },
+          "HayCapacity": 0,
+          "Chests": null,
+          "DefaultAction": null,
+          "AdditionalTilePropertyRadius": 0,
+          "AllowsFlooringUnderneath": true,
+          "ActionTiles": [],
+          "TileProperties": [],
+          "ItemConversions": null,
+          "DrawLayers": null,
+          "CustomFields": null
+        }
+      }
+    }
+  ]
+}

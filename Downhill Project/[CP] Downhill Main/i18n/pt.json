@@ -1,0 +1,46 @@
+{
+	//-----------//
+	// Maps Name //
+	//-----------//
+
+	"Downhill": "Ladeira.",
+	"DH.Mine": "Mina da Ladeira.",
+	"DH.Church": "Igreja.",
+
+	//---------------//
+	// Texts on Maps //
+	//---------------//
+
+	"DH.Sign.1": "Bairro Monte Mor^` Mina Carvão^> Igreja.",
+	"DH.Sign.2": "` Montanha^@ Ponto de Ônibus.",
+	"DH.Sign.3": "Aviso: Caminho estreito e perigoso^Por favor, evite essa rota - Risco de desabamento.",
+	"DH.Message.1": "Essa igreja parece velha, e seu interior está destruído...",
+	"DH.Church.1": "Plantas saudáveis e bem cuidadas!^Quem será que cuida delas?",
+	"DH.Church.2": "Yoba cuida e se sacrifica por seus filhos.^Obrigado, Yoba!",
+	"DH.Church.3": "Alguém esqueceu uma bíblia aqui.",
+	"DH.Anderson.1": "Anotações de Padre Anderson...^Que estranho, parece ser em outra língua? Não entendo nada dos símbolos e letras.",
+	"DH.Anderson.2": "Padre Anderson tem muitos livros^E olha só... Livro de ação e aventura! Quem diria?^Bem, cada um tem seu hobby... Diferentes ou não!",
+	"DH.Anderson.3": "Parece ter sido recém-usada, ainda dá para sentir as brasas quentes.",
+	"DH.Anderson.4": "Ficar perto desse altar dá uma sensação de conforto.",
+	"DH.Anderson.5": "Não são coisas que eu imaginaria um 'Padre' ter...",
+	"DH.Anderson.6": "Um telefone, mas não tem como discar com ele...^Só recebe ligações.",
+	"DH.Arthur.1": "A velha TV de Arthur está sintonizada em um só canal?^Os botões de mudar de canal estão quebrados...^E acho que ele perdeu o controle remoto!",
+	"DH.Arthur.2": "É um modelo antigo, mas esquenta que é uma beleza!^Só que faz muita sujeira... Acho que Arthur não liga muito para isso.",
+	"DH.Arthur.3": "As bagunças do Arthur não se limitão apenas fora de casa^Ele fez questão de trazê-las para dentro!",
+	"DH.Julia.1": "Um memorial... Uma urna com cinzas.^Deve ser o marido da Dona Julia^Descanse em paz.",
+	"DH.Julia.2": "Alguns pertences antigos estão encaixotados.^Não deveria estar mexendo nas coisas da Dona Julia.",
+	"DH.Julia.3": "Fotos antigas... Dentre elas estão:^Um Arthur mais Novo (Hm... Ele sempre foi baixinho)^Um Padre? (Não me parece ser o Sr. Anderson)^Algumas pessoas que não conheço...^E fotos da Dona Julia com seu marido Antonio e... Quem é essa garota?",
+	"DH.Objects.1": "Esse carro é muito velho.",
+	"DH.Objects.2": "Tem algumas frutinhas no fundo do barril.",
+	"DH.Objects.3": "Julia guarda as sementes no barril.",
+	"DH.Objects.4": "Hortinha da Srta. Julia.",
+	"DH.Mail.1": "Casa N86 - Família Marino.",
+	"DH.Mail.2": "Prédio N74 - Igreja Monte Mor.",
+	"DH.Mail.3": "Casa N64 - Família Morgan.",
+	"DH.Mine_Out.1": "Pedras, carvão e um pouco de cobre...",
+	"DH.Mine_Out.2": "Não dá para usar o carrinho... ^Ele está cheio de carvão.",
+	"DH.Mine_Out.3": "Essa máquina parece bombear água.",
+	"DH.Mine_Out.4": "Um pouco de água para se refrescar^Depois de um dia longo de trabalho.",
+	"DH.Mine_Out.5": "Cuidado – Bombas!"
+
+}

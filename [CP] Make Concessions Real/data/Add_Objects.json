@@ -1,0 +1,32 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}_{{ITEMID}}": {
+                    "Name": "{{ModId}}_{{ITEMID}}",
+                    //"DisplayName": "{{i18n:{{DISPLAYNAME}}.name}}",
+                    // "Description": "{{i18n:{{DESCRIPTION}}.desc}}",
+                    "DisplayName": "[LocalizedText Strings\\MovieConcessions:{{DISPLAYNAME}}_Name]",
+                    "Description": "[LocalizedText Strings\\MovieConcessions:{{DESCRIPTION}}_Description]",
+                    "Type": "{{TYPE}}",
+                    "Category": "{{CATEGORY}}",
+                    "Price": "{{PRICE}}",
+                    "Edibility": "{{EDIBILITY}}",
+                    "IsDrink": "{{DRINKABLE}}",
+                    "ExcludeFromShippingCollection": "true",
+                    //"ColorOverlayFromNextIndex": "true",
+                    "Texture": "LooseSprites\\Concessions",
+                    "SpriteIndex": "{{SPRITEINDEX}}",
+                    "ContextTags": [
+                        "{{ModId}}_{{TAG_1}}",
+                        "{{ModId}}_{{TAG_2}}",
+                        "{{ModId}}_{{TAG_3}}",
+                        "{{ModId}}_{{TAG_4}}"
+                    ]
+                }
+            }
+        }
+    ]
+}

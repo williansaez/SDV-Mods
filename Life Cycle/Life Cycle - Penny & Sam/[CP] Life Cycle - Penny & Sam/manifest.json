@@ -1,0 +1,10 @@
+{
+  "Name": "[CP] Life Cycle - Penny & Sam",
+  "Author": "nraittanna",
+  "Version": "4.3.0",
+  "Description": "A mod that makes Stardew Valley NPCs more lively | Penny and Sam version.",
+  "UniqueID": "nraittanna.LifeCyclePennySam",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

@@ -1,0 +1,81 @@
+{
+   "Changes": [
+        // Load Map Assets
+        {
+            "Action": "Load",
+            "Target": "Maps/CarolineCG",
+            "FromFile": "assets/Maps/CarolineCG.tbin"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/eventForest",
+            "FromFile": "assets/Maps/eventForest.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/eventWoods",
+            "FromFile": "assets/Maps/eventWoods.tmx"
+        },
+        // Add New Locations
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+                "CarolineCG": {
+                    "DisplayName": "Caroline Character Graphic",
+                    "DefaultArrivalTile": {
+                        "X": 0,
+                        "Y": 0
+                    },
+                    "CreateOnLoad": {
+                        "MapPath": "Maps\\CarolineCG",
+                        "AlwaysActive": false
+                    },
+                    "CustomFields": {}
+                },
+                "eventForest": {
+                    "DisplayName": "Caroline Forest Edit",
+                    "DefaultArrivalTile": {
+                        "X": 0,
+                        "Y": 0
+                    },
+                    "CreateOnLoad": {
+                        "MapPath": "Maps\\eventForest",
+                        "AlwaysActive": false
+                    },
+                    "CustomFields": {}
+                },
+                "eventWoods": {
+                    "DisplayName": "Caroline Woods Edit",
+                    "DefaultArrivalTile": {
+                        "X": 0,
+                        "Y": 0
+                    },
+                    "CreateOnLoad": {
+                        "MapPath": "Maps\\eventWoods",
+                        "AlwaysActive": false
+                    },
+                    "CustomFields": {}
+                }
+            }
+        },
+        // Messages
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "Caroline.CSCRoom.0": "{{i18n:Caroline.CSCRoom.0}}",
+                "Caroline.CSCRoom.1": "{{i18n:Caroline.CSCRoom.1}}",
+                "Caroline.CSCRoom.2": "{{i18n:Caroline.CSCRoom.2}}",
+                "Caroline.CSCRoom.3": "{{i18n:Caroline.CSCRoom.3}}",
+                "Caroline.CSCRoom.4": "{{i18n:Caroline.CSCRoom.4}}",
+                "Caroline.CSCRoom.5": "{{i18n:Caroline.CSCRoom.5}}",
+                "Caroline.CSCRoom.6": "{{i18n:Caroline.CSCRoom.6}}",
+                "Caroline.CSCRoom.7": "{{i18n:Caroline.CSCRoom.7}}",
+                "Caroline.CSCRoom.8": "{{i18n:Caroline.CSCRoom.8}}",
+                "Caroline.CSCRoom.9": "{{i18n:Caroline.CSCRoom.9}}",
+            }          
+        }
+    ]
+}
+

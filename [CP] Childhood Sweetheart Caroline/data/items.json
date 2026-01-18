@@ -1,0 +1,89 @@
+{
+   "Changes": [
+        // WEAPON
+        {
+            "Action": "Load",
+            "Target": "assets/Weapon/Teddy",
+            "FromFile": "assets/Items/Weapon.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Weapons",
+            "Entries": {
+                "{{ModId}}.CSC.Teddy": {
+                    "Name": "Caroline's Teddy Bear",
+                    "DisplayName": "{{i18n: Caroline.Teddy.name}}",
+                    "Description": "{{i18n: Caroline.Teddy.description}}",
+                    "Type": 0,
+                    "MinDamage": 30,
+                    "MaxDamage": 85,
+                    "Knockback": 0.1,
+                    "Speed": 2,
+                    "Precision": 7,
+                    "Defense": 5,
+                    "AreaOfEffect": 1,
+                    "CritChance": 0.10,
+                    "CritMultiplier": 2.5,                    
+                    "CanBeLostOnDeath": false,
+                    "Texture": "assets/Weapon/Teddy",
+                    "SpriteIndex": 0,
+                },
+            },
+        },
+
+        // FURNITURE
+        {
+            "Action": "Load",
+			"Target": "Furniture/Spring, Furniture/Summer, Furniture/Fall, Furniture/WinterIndoor, Furniture/WinterOutdoor, Furniture/Beach, Furniture/SpiritEve, Furniture/FlowerDance",
+			"FromFile": "assets/Items/Furniture/{{TargetWithoutPath}}.png",
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "When": {
+				"HasMod|contains=Hitme.CarolineIsSingle": "false",
+            },
+            "Entries": {
+                "{{ModId}}.CSCPortrait": "CSCPortrait/painting/2 2/2 2/1/1/-1/{{i18n:Caroline.Portrait}}/0/Furniture\\{{PortraitStyle}}/true"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "When": {
+				"HasMod|contains=Hitme.CarolineIsSingle": "true",
+            },
+            "Entries": {
+                "{{ModId}}.CSCPortrait": "CSCPortrait/painting/2 2/2 2/1/1/-1/{{i18n:Caroline.Poster}}/0/Furniture\\{{PortraitStyle}}/true"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Traveler",
+                "Items"
+            ],
+            "Entries": {
+                "{{ModId}}.CSCPortrait":{
+                    "Price": 30000,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": false,
+                    "UseObjectDataPrice": false,
+                    "IgnoreShopPriceModifiers": false,
+                    "PriceModifierMode": "Stack",
+                    "AvailableStockModifiers": null,
+                    "AvailableStockModifierMode": "Stack",
+                    "Condition": "PLAYER_HEARTS Current Caroline 14",
+                    "Id": "(F){{ModId}}.CSCPortrait",
+                    "ItemId": "(F){{ModId}}.CSCPortrait",
+                    "IsRecipe": false,
+                    "StackModifierMode": "Stack",
+                    "QualityModifierMode": "Stack",
+                }
+            },    
+        },
+    ]
+}
+

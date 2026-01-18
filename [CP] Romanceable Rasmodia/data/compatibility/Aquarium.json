@@ -1,0 +1,19 @@
+{
+	"Changes": [
+        {	
+            "Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+            "Entries": {
+				"AquariumDonated:SuperCucumber": "{{i18n:AquariumDonated:SuperCucumber}}"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Custom_MNFKoiRoom",
+			"Entries": {
+				"6372007/t 1000 2100/Hn AquariumDonated:Tui/Hn AquariumDonated:La": "SunRoom/13 31/Curator 13 21 1 farmer -100 -100 0 Wizard -100 -100 0/skippable/pause 500/playSound doorOpen/warp farmer 13 37/pause 500/move farmer 0 -7 0 true/viewport move 0 -1 2000/pause 500/move Curator 0 1 2/speak Curator \"{{i18n:Aquarium.KoiRoom.0}}\"/pause 500/speak Curator \"{{i18n:Aquarium.KoiRoom.1}}\"/pause 250/jump farmer 5/move Curator 0 -3 2 true/move farmer 0 -3 2 true/viewport move 0 -1 2000 true/stopMusic/fade/viewport -1000 -1000/playSound wand/pause 500/warp Curator -100 -100 0/pause 250/playSound wand/warp farmer -100 -100 0/pause 500/changeLocation Custom_SpiritOasis/ambientLight 0 255 255/viewport 24 25/warp Wizard 24 24 2/animate Wizard false true 500 16 18 18 20 20 18 18 16 16 16 16/playMusic WizardSong/pause 1000/playSound thunder/pause 5000/playSound thunder/pause 750/playSound thunder/pause 1000/screenflash 2/playSound wand/warp Curator 23 22 2/pause 500/stopAnimation Wizard 8/pause 250/screenflash 2/playSound wand/warp farmer 25 22 2/pause 500/speak Wizard \"{{i18n:Aquarium.KoiRoom.2}}\"/pause 500/playSound thunder/speak Wizard \"{{i18n:Aquarium.KoiRoom.3}}\"/pause 250/faceDirection farmer 3/faceDirection Curator 1/pause 250/emote farmer 16/emote Curator 16/faceDirection Wizard 0/pause 250/faceDirection farmer 2/faceDirection Curator 2/pause 250/animate Wizard false true 500 16 18 18 20 20 18 18 16 16 16 16/pause 500/playSound thunder/message \"{{i18n:Aquarium.KoiRoom.4}}\"/pause 200/playSound healSound/jump Curator 5/jump farmer 5/pause 100/playSound healSound/stopMusic/ambientLight 0 200 200/pause 500/ambientLight 0 100 100/pause 500/ambientLight 0 0 0/pause 500/stopAnimation Wizard 18/pause 500/playMusic EmilyDream/speak Wizard \"{{i18n:Aquarium.KoiRoom.5}}\"/pause 500/faceDirection farmer 3/faceDirection Curator 1/pause 250/emote farmer 40/emote Curator 40/pause 500/faceDirection farmer 2/faceDirection Curator 2/faceDirection Wizard 0/pause 500/speak Wizard \"{{i18n:Aquarium.KoiRoom.6}}\"/pause 500/emote farmer 28/emote Curator 28/pause 500/speak Wizard \"{{i18n:Aquarium.KoiRoom.7}}\"/pause 500/showFrame Wizard 0/pause 250/showFrame Wizard 16/pause 500/screenflash 2/playSound wand/warp Wizard -100 -100/pause 500/faceDirection farmer 3/faceDirection Curator 1/pause 500/speak Curator \"{{i18n:Aquarium.KoiRoom.8}}\"/pause 500/speak Curator \"{{i18n:Aquarium.KoiRoom.9}}\"/pause 500/quickquestion #Yes, of course.#No, you're on your own.(break)emote Curator 32(break)emote Curator 60/pause 1000/end"
+			}
+		}
+	]
+}

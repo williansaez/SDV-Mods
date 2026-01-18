@@ -1,0 +1,10 @@
+{
+  "Name": "Deep Woods",
+  "Author": "Max Vollmer",
+  "Version": "4.0.2-alpha",
+  "Description": "Adiciona uma floresta explorável à Mata Secreta. Quão fundo ela vai?",
+  "UniqueID": "maxvollmer.deepwoodsmod",
+  "EntryDll": "DeepWoodsMod.dll",
+  "MinimumApiVersion": "4.2.1",
+  "UpdateKeys": [ "Nexus:2571" ]
+}

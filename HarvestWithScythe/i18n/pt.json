@@ -1,0 +1,26 @@
+﻿{
+    // Translation provided by: <leave your name or nexus/discord username here>
+
+    // Boolean options.
+    HarvestWithSwordName: "Colher com a espada",    HarvestWithSwordTooltip: "Define se uma espada pode ser usada como foice.",
+    AllForageName:        "Ceifar toda a forragem", AllForageTooltip:        "Define se a foice também deve funcionar na forragem que não está sobre solo arado. Isso pode causar problemas com o mod Trator.",
+
+    // Plucking Scythe
+    PluckingScytheName:   "Arrancar com a foice",   PluckingScytheTooltip:   "Define se ainda é possível arrancar plantas enquanto empunha uma foice.",
+    PS_Never:   "Não pode arrancar ao empunhar uma foice",
+    PS_Invalid: "Apenas se a foice não puder colher",
+    PS_Always:  "Sempre arrancar a cultura",
+
+    // Harvest Mode
+    HarvestModeSection: "Modo de colheita",
+    HM_Hand:   "À mão",
+    HM_Irid:   "Comportamento padrão",
+    HM_Gold:   "À mão ou com foice dourada",
+    HM_Both:   "À mão ou com qualquer foice",
+    HM_Scythe: "Somente com uma foice",
+    HM_None:   "A cultura não pode ser colhida",
+    PluckableCropsName:   "Culturas colhidas à mão",   PluckableCropsTooltip:   "Como podem ser colhidas as culturas que normalmente só podem ser colhidas à mão.", 
+    ScythableCropsName:   "Culturas colhidas com foice", ScythableCropsTooltip:   "Como podem ser colhidas as culturas que normalmente só podem ser colhidas com uma foice.",
+    FlowersName:          "Flores",                    FlowersTooltip:          "Como as flores podem ser colhidas.",
+    ForageName:           "Forragem",                  ForageTooltip:           "Como a forragem pode ser colhida.",
+}

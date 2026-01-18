@@ -1,0 +1,300 @@
+{
+  "Changes":
+    [
+      {
+	"Action": "EditData",
+	"Target": "Data/FruitTrees",
+	"TargetField": [ "628", "Fruit" ],
+	"Entries":
+	  {
+	   "PF.PerfectCherryChance":
+	  {
+	    "Season": null,
+	    "Condition": "{{PFTrigger}}",
+	    "Chance": "{{Rarity}}",
+	    "Id": "PF.PerfectCherry",
+	    "ItemId": "(O)PF.PerfectCherry"
+	  }
+	  },
+	"MoveEntries":
+	  [
+	    {
+	      "Id": "PF.PerfectCherry",
+	      "BeforeId": "Default"
+	    }
+	  ]
+      },
+      {
+	"Action": "EditData",
+	"Target": "Data/FruitTrees",
+	"TargetField": [ "629", "Fruit" ],
+	"Entries":
+	  {
+	   "PF.PerfectApricotChance":
+	  {
+	    "Season": null,
+	    "Condition": "{{PFTrigger}}",
+	    "Chance": "{{Rarity}}",
+	    "Id": "PF.PerfectApricot",
+	    "ItemId": "(O)PF.PerfectApricot"
+	  }
+	  },
+	"MoveEntries":
+	  [
+	    {
+	      "Id": "PF.PerfectApricot",
+	      "BeforeId": "Default"
+	    }
+	  ]
+      },
+      {
+	"Action": "EditData",
+	"Target": "Data/FruitTrees",
+	"TargetField": [ "630", "Fruit" ],
+	"Entries":
+	  {
+	   "PF.PerfectOrangeChance":
+	  {
+	    "Season": null,
+	    "Condition": "{{PFTrigger}}",
+	    "Chance": "{{Rarity}}",
+	    "Id": "PF.PerfectOrange",
+	    "ItemId": "(O)PF.PerfectOrange"
+	  }
+	  },
+	"MoveEntries":
+	  [
+	    {
+	      "Id": "PF.PerfectOrange",
+	      "BeforeId": "Default"
+	    }
+	  ]
+      },
+      {
+	"Action": "EditData",
+	"Target": "Data/FruitTrees",
+	"TargetField": [ "631", "Fruit" ],
+	"Entries":
+	  {
+	   "PF.PerfectPeachChance":
+	  {
+	    "Season": null,
+	    "Condition": "{{PFTrigger}}",
+	    "Chance": "{{Rarity}}",
+	    "Id": "PF.PerfectPeach",
+	    "ItemId": "(O)PF.PerfectPeach"
+	  }
+	  },
+	"MoveEntries":
+	  [
+	    {
+	      "Id": "PF.PerfectPeach",
+	      "BeforeId": "Default"
+	    }
+	  ]
+      },
+      {
+	"Action": "EditData",
+	"Target": "Data/FruitTrees",
+	"TargetField": [ "632", "Fruit" ],
+	"Entries":
+	  {
+	   "PF.PerfectPomegranateChance":
+	  {
+	    "Season": null,
+	    "Condition": "{{PFTrigger}}",
+	    "Chance": "{{Rarity}}",
+	    "Id": "PF.PerfectPomegranate",
+	    "ItemId": "(O)PF.PerfectPomegranate"
+	  }
+	  },
+	"MoveEntries":
+	  [
+	    {
+	      "Id": "PF.PerfectPomegranate",
+	      "BeforeId": "Default"
+	    }
+	  ]
+      },
+      {
+	"Action": "EditData",
+	"Target": "Data/FruitTrees",
+	"TargetField": [ "633", "Fruit" ],
+	"Entries":
+	  {
+	   "PF.PerfectAppleChance":
+	  {
+	    "Season": null,
+	    "Condition": "{{PFTrigger}}",
+	    "Chance": "{{Rarity}}",
+	    "Id": "PF.PerfectApple",
+	    "ItemId": "(O)PF.PerfectApple"
+	  }
+	  },
+	"MoveEntries":
+	  [
+	    {
+	      "Id": "PF.PerfectApple",
+	      "BeforeId": "Default"
+	    }
+	  ]
+      },
+      {
+	"Action": "EditData",
+	"Target": "Data/FruitTrees",
+	"TargetField": [ "69", "Fruit" ],
+	"Entries":
+	  {
+	   "PF.PerfectBananaChance":
+	  {
+	    "Season": null,
+	    "Condition": "{{PFTrigger}}",
+	    "Chance": "{{Rarity}}",
+	    "Id": "PF.PerfectBanana",
+	    "ItemId": "(O)PF.PerfectBanana"
+	  }
+	  },
+	"MoveEntries":
+	  [
+	    {
+	      "Id": "PF.PerfectBanana",
+	      "BeforeId": "Default"
+	    }
+	  ]
+      },
+      {
+	"Action": "EditData",
+	"Target": "Data/FruitTrees",
+	"TargetField": [ "835", "Fruit" ],
+	"Entries":
+	  {
+	   "PF.PerfectMangoChance":
+	  {
+	    "Season": null,
+	    "Condition": "{{PFTrigger}}",
+	    "Chance": "{{Rarity}}",
+	    "Id": "PF.PerfectMango",
+	    "ItemId": "(O)PF.PerfectMango"
+	  }
+	  },
+	"MoveEntries":
+	  [
+	    {
+	      "Id": "PF.PerfectMango",
+	      "BeforeId": "Default"
+	    }
+	  ]
+      },
+      {
+	"Action": "EditData",
+	"Target": "Data/FruitTrees",
+	"Entries":
+	  {
+	    "PF.PerfectCherrySapling":
+	      {
+		"DisplayName": "{{i18n:PerfectCherry.Name}}",
+		"Seasons": [ "spring" ],
+		"Fruit":
+		  [
+		    {
+		      "ItemId": "PF.PerfectCherry"
+		    }
+		  ],
+		"Texture": "TileSheets\\fruitTrees",
+		"TextureSpriteRow": 0
+	      },
+	    "PF.PerfectApricotSapling":
+	      {
+		"DisplayName": "{{i18n:PerfectApricot.Name}}",
+		"Seasons": [ "spring" ],
+		"Fruit":
+		  [
+		    {
+		      "ItemId": "PF.PerfectApricot"
+		    }
+		  ],
+		"Texture": "TileSheets\\fruitTrees",
+		"TextureSpriteRow": 1
+	      },
+	    "PF.PerfectOrangeSapling":
+	      {
+		"DisplayName": "{{i18n:PerfectOrange.Name}}",
+		"Seasons": [ "summer" ],
+		"Fruit":
+		  [
+		    {
+		      "ItemId": "PF.PerfectOrange"
+		    }
+		  ],
+		"Texture": "TileSheets\\fruitTrees",
+		"TextureSpriteRow": 2
+	      },
+	    "PF.PerfectPeachSapling":
+	      {
+		"DisplayName": "{{i18n:PerfectPeach.Name}}",
+		"Seasons": [ "summer" ],
+		"Fruit":
+		  [
+		    {
+		      "ItemId": "PF.PerfectPeach"
+		    }
+		  ],
+		"Texture": "TileSheets\\fruitTrees",
+		"TextureSpriteRow": 3
+	      },
+	    "PF.PerfectPomegranateSapling":
+	      {
+		"DisplayName": "{{i18n:PerfectPomegranate.Name}}",
+		"Seasons": [ "fall" ],
+		"Fruit":
+		  [
+		    {
+		      "ItemId": "PF.PerfectPomegranate"
+		    }
+		  ],
+		"Texture": "TileSheets\\fruitTrees",
+		"TextureSpriteRow": 4
+	      },
+	    "PF.PerfectAppleSapling":
+	      {
+		"DisplayName": "{{i18n:PerfectApple.Name}}",
+		"Seasons": [ "fall" ],
+		"Fruit":
+		  [
+		    {
+		      "ItemId": "PF.PerfectApple"
+		    }
+		  ],
+		"Texture": "TileSheets\\fruitTrees",
+		"TextureSpriteRow": 5
+	      },
+	    "PF.PerfectBananaSapling":
+	      {
+		"DisplayName": "{{i18n:PerfectBanana.Name}}",
+		"Seasons": [ "summer" ],
+		"Fruit":
+		  [
+		    {
+		      "ItemId": "PF.PerfectBanana"
+		    }
+		  ],
+		"Texture": "TileSheets\\fruitTrees",
+		"TextureSpriteRow": 7
+	      },
+	    "PF.PerfectMangoSapling":
+	      {
+		"DisplayName": "{{i18n:PerfectMango.Name}}",
+		"Seasons": [ "summer" ],
+		"Fruit":
+		  [
+		    {
+		      "ItemId": "PF.PerfectMango"
+		    }
+		  ],
+		"Texture": "TileSheets\\fruitTrees",
+		"TextureSpriteRow": 8
+	      }
+	  }
+      }
+    ]
+}

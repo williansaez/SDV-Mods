@@ -1,0 +1,1061 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                //Universal tastes
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Universal_Love"
+                    ],
+                    "Value": "{{ModId}}_StardropSorbet",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Universal_Dislike"
+                    ],
+                    "Value": "{{ModId}}_BlackLicorice {{ModId}}_Joja",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Universal_Neutral"
+                    ],
+                    "Value": "{{ModId}}_AllNeutral",
+                    "Delimiter": " "
+                },
+                //Penny
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Penny",
+                        1,
+                    ],
+                    "Value": "{{ModId}}_CottonCandy",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Penny",
+                        3,
+                    ],
+                    "Value": "{{ModId}}_Sweet",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Penny",
+                        5,
+                    ],
+                    "Value": "{{ModId}}_Sour",
+                    "Delimiter": " "
+                },
+                //Pam
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Pam",
+                        1,
+                    ],
+                    "Value": "{{ModId}}_Nachos",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Pam",
+                        3,
+                    ],
+                    "Value": "{{ModId}}_Salty {{ModId}}_Fatty {{ModId}}_Joja",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Pam",
+                        5,
+                    ],
+                    "Value": "{{ModId}}_Healthy {{ModId}}_Gourmet",
+                    "Delimiter": " "
+                },
+                //George
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "George",
+                        1,
+                    ],
+                    "Value": "{{ModId}}_BlackLicorice",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "George",
+                        3,
+                    ],
+                    "Value": "{{ModId}}_Salty",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "George",
+                        5,
+                    ],
+                    "Value": "{{ModId}}_Sweet {{ModId}}_Healthy",
+                    "Delimiter": " "
+                },
+                //Alex
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Alex",
+                        1,
+                    ],
+                    "Value": "{{ModId}}_SalmonBurger",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Alex",
+                        3,
+                    ],
+                    "Value": "{{ModId}}_Salty {{ModId}}_Hot",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Alex",
+                        5,
+                    ],
+                    "Value": "{{ModId}}_Candy",
+                    "Delimiter": " "
+                },
+                //Evelyn
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Evelyn",
+                        1,
+                    ],
+                    "Value": "{{ModId}}_CappuccinoMousseCake {{ModId}}_StarCookie",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Evelyn",
+                        3,
+                    ],
+                    "Value": "{{ModId}}_Sweet",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Evelyn",
+                        5,
+                    ],
+                    "Value": "{{ModId}}_Salty {{ModId}}_Hot",
+                    "Delimiter": " "
+                },
+                //Pierre
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Pierre",
+                        1,
+                    ],
+                    "Value": "{{ModId}}_PersonalPizza",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Pierre",
+                        3,
+                    ],
+                    "Value": "{{ModId}}_Hot",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Pierre",
+                        5,
+                    ],
+                    "Value": "{{ModId}}_Joja",
+                    "Delimiter": " "
+                },
+                //Abby
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Abigail",
+                        1,
+                    ],
+                    "Value": "{{ModId}}_RockCandy",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Abigail",
+                        3,
+                    ],
+                    "Value": "{{ModId}}_Sweet {{ModId}}_Candy",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Abigail",
+                        5,
+                    ],
+                    "Value": "{{ModId}}_Healthy",
+                    "Delimiter": " "
+                },
+                //Caroline
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Caroline",
+                        1,
+                    ],
+                    "Value": "{{ModId}}_JasmineTea {{ModId}}_TrufflePopcorn",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Caroline",
+                        3,
+                    ],
+                    "Value": "{{ModId}}_Healthy",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Caroline",
+                        5,
+                    ],
+                    "Value": "{{ModId}}_Fatty {{ModId}}_Candy",
+                    "Delimiter": " "
+                },
+                //Harvey
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Harvey",
+                        1,
+                    ],
+                    "Value": "{{ModId}}_JasmineTea {{ModId}}_AppleSlices",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Harvey",
+                        3,
+                    ],
+                    "Value": "{{ModId}}_Healthy {{ModId}}_Gourmet",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Harvey",
+                        5,
+                    ],
+                    "Value": "{{ModId}}_Sweet {{ModId}}_Fatty {{ModId}}_Salty",
+                    "Delimiter": " "
+                },
+                //Gus
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Gus",
+                        1,
+                    ],
+                    "Value": "{{ModId}}_Gourmet",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Gus",
+                        3,
+                    ],
+                    "Value": "{{ModId}}_Sandwich",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Gus",
+                        5,
+                    ],
+                    "Value": "{{ModId}}_Healthy {{ModId}}_Candy",
+                    "Delimiter": " "
+                },
+                //Lewis
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Lewis",
+                        1,
+                    ],
+                    "Value": "{{ModId}}_JasmineTea",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Lewis",
+                        3,
+                    ],
+                    "Value": "{{ModId}}_Sweet {{ModId}}_Popcorn",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Lewis",
+                        5,
+                    ],
+                    "Value": "{{ModId}}_Candy",
+                    "Delimiter": " "
+                },
+                //Jodi
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Jodi",
+                        1,
+                    ],
+                    "Value": "{{ModId}}_ChocolatePopcorn",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Jodi",
+                        3,
+                    ],
+                    "Value": "{{ModId}}_Fatty {{ModId}}_Hot {{ModId}}_Salty",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Jodi",
+                        5,
+                    ],
+                    "Value": "{{ModId}}_Candy {{ModId}}_TrufflePopcorn {{ModId}}_Healthy",
+                    "Delimiter": " "
+                },
+                //Sam
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Sam",
+                        1,
+                    ],
+                    "Value": "{{ModId}}_PersonalPizza",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Sam",
+                        3,
+                    ],
+                    "Value": "{{ModId}}_JojaCola {{ModId}}_Candy",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Sam",
+                        5,
+                    ],
+                    "Value": "{{ModId}}_Healthy {{ModId}}_Gourmet",
+                    "Delimiter": " "
+                },
+                //Vincent
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Vincent",
+                        1,
+                    ],
+                    "Value": "{{ModId}}_Jawbreaker",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Vincent",
+                        3,
+                    ],
+                    "Value": "{{ModId}}_Sweet {{ModId}}_Candy",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Vincent",
+                        5,
+                    ],
+                    "Value": "{{ModId}}_Healthy {{ModId}}_Gourmet",
+                    "Delimiter": " "
+                },
+                //Kent
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Kent",
+                        1,
+                    ],
+                    "Value": "{{ModId}}_Popcorn",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Kent",
+                        3,
+                    ],
+                    "Value": "{{ModId}}_Salty",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Kent",
+                        5,
+                    ],
+                    "Value": "{{ModId}}_Candy",
+                    "Delimiter": " "
+                },
+                //Clint
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Clint",
+                        1,
+                    ],
+                    "Value": "{{ModId}}_Fries",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Clint",
+                        3,
+                    ],
+                    "Value": "{{ModId}}_Fatty",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Clint",
+                        5,
+                    ],
+                    "Value": "{{ModId}}_Healthy",
+                    "Delimiter": " "
+                },
+                //Emily
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Emily",
+                        1,
+                    ],
+                    "Value": "{{ModId}}_KaleSmoothie",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Emily",
+                        3,
+                    ],
+                    "Value": "{{ModId}}_Healthy {{ModId}}_Gourmet",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Emily",
+                        5,
+                    ],
+                    "Value": "{{ModId}}_Fatty {{ModId}}_Salty",
+                    "Delimiter": " "
+                },
+                //Haley
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Haley",
+                        1,
+                    ],
+                    "Value": "{{ModId}}_CappuccinoMousseCake",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Haley",
+                        3,
+                    ],
+                    "Value": "{{ModId}}_Sweet",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Haley",
+                        5,
+                    ],
+                    "Value": "{{ModId}}_Fatty {{ModId}}_Salty",
+                    "Delimiter": " "
+                },
+                //Maru
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Maru",
+                        1,
+                    ],
+                    "Value": "{{ModId}}_StarCookie",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Maru",
+                        3,
+                    ],
+                    "Value": "{{ModId}}_Fatty {{ModId}}_Sweet",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Maru",
+                        5,
+                    ],
+                    "Value": "{{ModId}}_Cold",
+                    "Delimiter": " "
+                },
+                //Sebastian
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Sebastian",
+                        1,
+                    ],
+                    "Value": "{{ModId}}_JasmineTea",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Sebastian",
+                        3,
+                    ],
+                    "Value": "{{ModId}}_AppleSlices {{ModId}}_Salty {{ModId}}_Hot",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Sebastian",
+                        5,
+                    ],
+                    "Value": "{{ModId}}_Gourmet {{ModId}}_KaleSmoothie",
+                    "Delimiter": " "
+                },
+                //Robin
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Robin",
+                        1,
+                    ],
+                    "Value": "{{ModId}}_SaltedPeanuts",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Robin",
+                        3,
+                    ],
+                    "Value": "{{ModId}}_Fatty {{ModId}}_Salty",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Robin",
+                        5,
+                    ],
+                    "Value": "{{ModId}}_Candy",
+                    "Delimiter": " "
+                },
+                //Demetrius
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Demetrius",
+                        1,
+                    ],
+                    "Value": "{{ModId}}_Popcorn",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Demetrius",
+                        3,
+                    ],
+                    "Value": "{{ModId}}_Sweet",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Demetrius",
+                        5,
+                    ],
+                    "Value": "{{ModId}}_Healthy",
+                    "Delimiter": " "
+                },
+                //Linus
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Linus",
+                        1,
+                    ],
+                    "Value": "{{ModId}}_SalmonBurger",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Linus",
+                        3,
+                    ],
+                    "Value": "{{ModId}}_Healthy {{ModId}}_Gourmet",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Linus",
+                        5,
+                    ],
+                    "Value": "{{ModId}}_Joja",
+                    "Delimiter": " "
+                },
+                //Dwarf
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Dwarf",
+                        1,
+                    ],
+                    "Value": "{{ModId}}_RockCandy",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Dwarf",
+                        3,
+                    ],
+                    "Value": "{{ModId}}_Candy",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Dwarf",
+                        5,
+                    ],
+                    "Value": "{{ModId}}_Hot {{ModId}}_Healthy {{ModId}}_Gourmet {{ModId}}_Salty {{ModId}}_Fatty",
+                    "Delimiter": " "
+                },
+                //Krobus
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Krobus",
+                        1,
+                    ],
+                    "Value": "{{ModId}}_BlackLicorice",
+                    "Delimiter": " "
+                },
+                //{
+                //    "Operation": "Append",
+                //    "Target": [
+                //        "Fields",
+                //        "Krobus",
+                //        3,
+                //    ],
+                //    "Value": "{{ModId}}_",
+                //    "Delimiter": " "
+                //},
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Krobus",
+                        5,
+                    ],
+                    "Value": "{{ModId}}_Sweet {{ModId}}_StardropSorbet",
+                    "Delimiter": " "
+                },
+                //Wizard
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Wizard",
+                        1,
+                    ],
+                    "Value": "{{ModId}}_BlackLicorice {{ModId}}_StarCookie" ,
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Wizard",
+                        3,
+                    ],
+                    "Value": "{{ModId}}_JasmineTea {{ModId}}_Candy",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Wizard",
+                        5,
+                    ],
+                    "Value": "{{ModId}}_Hot {{ModId}}_Healthy {{ModId}}_Gourmet {{ModId}}_Salty {{ModId}}_Fatty",
+                    "Delimiter": " "
+                },
+                //Marnie
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Marnie",
+                        1,
+                    ],
+                    "Value": "{{ModId}}_IceCreamSandwich",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Marnie",
+                        3,
+                    ],
+                    "Value": "{{ModId}}_Sweet {{ModId}}_Popcorn",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Marnie",
+                        5,
+                    ],
+                    "Value": "{{ModId}}_Salty",
+                    "Delimiter": " "
+                },
+                //Shane
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Shane",
+                        1,
+                    ],
+                    "Value": "{{ModId}}_PersonalPizza {{ModId}}_Nachos {{ModId}}_Joja {{ModId}}_HummusSnackPack",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Shane",
+                        3,
+                    ],
+                    "Value": "{{ModId}}_Fatty",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Shane",
+                        5,
+                    ],
+                    "Value": "{{ModId}}_Gourmet {{ModId}}_KaleSmoothie {{ModId}}_AppleSlices",
+                    "Delimiter": " "
+                },
+                //Jas
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Jas",
+                        1,
+                    ],
+                    "Value": "{{ModId}}_SourSlimes",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Jas",
+                        3,
+                    ],
+                    "Value": "{{ModId}}_Sweet {{ModId}}_Candy",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Jas",
+                        5,
+                    ],
+                    "Value": "{{ModId}}_Healthy {{ModId}}_Gourmet {{ModId}}_Salty",
+                    "Delimiter": " "
+                },
+                //Leah
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Leah",
+                        1,
+                    ],
+                    "Value": "{{ModId}}_PanzanellaSalad",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Leah",
+                        3,
+                    ],
+                    "Value": "{{ModId}}_Healthy {{ModId}}_Gourmet",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Leah",
+                        5,
+                    ],
+                    "Value": "{{ModId}}_Fatty {{ModId}}_Salty",
+                    "Delimiter": " "
+                },
+                //Sandy
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Sandy",
+                        1,
+                    ],
+                    "Value": "{{ModId}}_CottonCandy",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Sandy",
+                        3,
+                    ],
+                    "Value": "{{ModId}}_Gourmet {{ModId}}_Sweet",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Sandy",
+                        5,
+                    ],
+                    "Value": "{{ModId}}_Candy",
+                    "Delimiter": " "
+                },
+                //Elliott
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Elliott",
+                        1,
+                    ],
+                    "Value": "{{ModId}}_TrufflePopcorn {{ModId}}_CappuccinoMousseCake",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Elliott",
+                        3,
+                    ],
+                    "Value": "{{ModId}}_Healthy {{ModId}}_Gourmet",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Elliott",
+                        5,
+                    ],
+                    "Value": "{{ModId}}_Fatty {{ModId}}_Candy {{ModId}}_Salty",
+                    "Delimiter": " "
+                },
+                //Willy
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Willy",
+                        1,
+                    ],
+                    "Value": "{{ModId}}_SalmonBurger",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Willy",
+                        3,
+                    ],
+                    "Value": "{{ModId}}_Fatty {{ModId}}_Hot {{ModId}}_Salty",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Willy",
+                        5,
+                    ],
+                    "Value": "{{ModId}}_Healthy {{ModId}}_Candy {{ModId}}_Gourmet",
+                    "Delimiter": " "
+                },
+            ]
+        }
+    ]
+}

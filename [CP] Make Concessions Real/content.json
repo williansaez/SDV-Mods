@@ -1,0 +1,52 @@
+{
+    "Format": "2.7.0",
+    //"ConfigSchema": ""
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "{{ModId}}/ConcessionsGirlPortrait",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        },
+        {
+            "Action": "EditImage",
+           "Target": "{{ModId}}/ConcessionsGirlPortrait",
+            "FromFile": "assets/{{TargetWithoutPath}}_Joja.png",
+            "When": {
+                "IsJojaMartComplete": "true"
+            }
+        },
+         {
+            "Action": "Load",
+            "Target": "Maps/ConcessionsGirl",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        },
+        {
+            "Action": "EditImage",
+           "Target": "Maps/ConcessionsGirl",
+            "FromFile": "assets/{{TargetWithoutPath}}_Joja.png",
+            "When": {
+                "IsJojaMartComplete": "true"
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/MovieTheater",
+            "FromFile": "assets/map/TheaterPatch.tmx",
+            //"FromArea": { "X": 22, "Y": 61, "Width": 16, "Height": 13 },
+            "ToArea": { "X": 4, "Y": 3, "Width": 1, "Height": 5 },
+            "PatchMode": "Replace"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "data/Objects.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "data/Shops.json"
+        },
+         {
+            "Action": "Include",
+            "FromFile": "data/NPCGiftTastes.json"
+        }
+    ]
+}

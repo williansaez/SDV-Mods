@@ -1,0 +1,17 @@
+{
+  "Name": "Perfect Fruit",
+  "Author": "appleseed",
+  "Version": "1.0.0",
+  "Description": "Adds rare, luxurious variations of tree fruit.",
+  "UniqueID": "appleseed.PF",
+  "UpdateKeys": ["Nexus:38413"],
+  "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" },
+  "Dependencies":
+    [
+      {
+	"UniqueID": "Spiderbuttons.BETAS",
+        "IsRequired": true
+      }
+    ]
+}
+

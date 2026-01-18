@@ -1,0 +1,1153 @@
+{
+	"Changes": [
+		// ABIGAIL
+		{
+			"LogName": "PPAF Abigail Daily Dialogue - No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Priority": "Late +2",
+			"Entries": {
+				"summer_Thu10": "{{i18n: CFE_Abigail_summerThu10.PPAF.NoRomance}}",
+				"fall_Mon8": "{{i18n: CFE_Abigail_fallMon8.PPAF.NoRomance}}",
+				"fall_Thu10": "{{i18n: CFE_Abigail_fallThu10.PPAF.NoRomance}}",
+				"winter_Tue10": "{{i18n: CFE_Abigail_winterTue10.PPAF.NoRomance}}",
+				"winter_Fri10": "{{i18n: CFE_Abigail_winterFri10.PPAF.NoRomance}}",
+				"winter_Fri8": "{{i18n: CFE_Abigail_winterFri8.PPAF.NoRomance}}",
+				"winter_Sat10": "{{i18n: CFE_Abigail_winterSat10.PPAF.NoRomance}}",
+				"winter_Sun10": "{{i18n: CFE_Abigail_winterSun10.PPAF.NoRomance}}",
+				"Thu10": "{{i18n: CFE_Abigail_Thu10.PPAF.NoRomance}}"
+			},
+			"When": {
+				"Query: '{{CFE_Abigail}}' = 'true' OR ('{{CFE_Abigail}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:AbigailRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		{
+			"LogName": "PPAF Abigail Marriage Dialogue - No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueAbigail",
+			"Priority": "Late +2",
+			"Entries": {
+				"Rainy_Day_0": "{{i18n: CFE_Abigail_Married_RainyDay_{{Random: 1,2.PPAF.NoRomance}}}}",
+				"Rainy_Day_3": "{{i18n: CFE_Abigail_Married_RainyDay_{{Random: 7.PPAF.NoRomance,8}}}}",
+				"Rainy_Night_1": "{{i18n: CFE_Abigail_Married_RainyNight_{{Random: 3,4.PPAF.NoRomance}}}}",
+				"Rainy_Night_4": "{{i18n: CFE_Abigail_Married_RainyNight_{{Random: 9.PPAF.NoRomance,10}} |LowercasePPAFEndearment={{LowercasePPAFEndearmentToken}}}}",
+				"Indoor_Day_2": "{{i18n: CFE_Abigail_Married_IndoorDay_{{Random: 7,8,9.PPAF.NoRomance}} ||PlatonicHousemate={{PlatonicHousemateToken}}}}",
+				"Indoor_Night_0": "{{i18n: CFE_Abigail_Married_IndoorNight_{{Random: 1.PPAF.NoRomance,2}}}}",
+				"Indoor_Night_4": "{{i18n: CFE_Abigail_Married_IndoorNight_{{Random: 9,10,11.PPAF.NoRomance}}}}",
+				"OneKid_3": "{{i18n: CFE_Abigail_Married_OneKid_{{Random: 7.PPAF.NoRomance,8}} |LowercasePPAFEndearment={{LowercasePPAFEndearmentToken}}}}",
+				"Outdoor_0": "{{i18n: CFE_Abigail_Married_Outdoor_{{Random: 1.PPAF.NoRomance,2}} |RelationshipLabel={{PPAF.Core/ConfigValue:RelationshipLabel}}}}",
+				"summer_23": "{{i18n: CFE_Abigail_Married_summer23.PPAF.NoRomance}}",
+				"winter_19": "{{i18n: CFE_Abigail_Married_winter19.PPAF.NoRomance}}"
+			},
+			"When": {
+				"Query: '{{CFE_Abigail}}' = 'true' OR ('{{CFE_Abigail}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:AbigailRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		{
+			"LogName": "PPAF Abigail Marriage Dialogue - No Sex",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueAbigail",
+			"Priority": "Late +2",
+			"Entries": {
+				"Indoor_Night_1": "{{i18n: CFE_Abigail_Married_IndoorNight_{{Random: 3.PPAF.NoSex,4}}}}"
+			},
+			"When": {
+				"Query: '{{CFE_Abigail}}' = 'true' OR ('{{CFE_Abigail}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:AbigailRelationshipType |contains=FullyPlatonic, RomanceWithoutSex": true
+			}
+		},
+		{
+			"LogName": "PPAF Abigail Marriage Dialogue - Always Adopt",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueAbigail",
+			"Priority": "Late +2",
+			"Entries": {
+				"TwoKids_2": "{{i18n: CFE_Abigail_Married_TwoKids_{{Random: 5.PPAF.AlwaysAdopt,6}}}}"
+			},
+			"When": {
+				"Query: '{{CFE_Abigail}}' = 'true' OR ('{{CFE_Abigail}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:AlwaysAdopt": true
+			}
+		},
+		{
+			"LogName": "PPAF Pierre Daily Dialogue - Abigail No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Pierre",
+			"Priority": "Late +2",
+			"Entries": {
+				"fall_Mon_inlaw_Abigail": "{{i18n: CFE_Pierre_repeated_7.PPAF.AbigailNoRomance}}",
+				"winter_Mon_inlaw_Abigail": "{{i18n: CFE_Pierre_repeated_7.PPAF.AbigailNoRomance}}"
+			},
+			"When": {
+				"Query: '{{CFE_Pierre}}' = 'true' OR ('{{CFE_Pierre}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:AbigailRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		// ALEX
+		{
+			"LogName": "PPAF Alex Daily Dialogue - No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+			"Priority": "Late +2",
+			"Entries": {
+				"summer_Sun10": "{{i18n: CFE_Alex_summerSun10.PPAF.NoRomance |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
+				"fall_Thu10": "{{i18n: CFE_Alex_fallThu10.PPAF.NoRomance}}",
+				"fall_Fri10": "{{i18n: CFE_Alex_fallFri10.PPAF.NoRomance |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
+				"winter_Tue10": "{{i18n: CFE_Alex_winterTue10.PPAF.NoRomance}}",
+				"winter_Tue4": "{{i18n: CFE_Alex_winterTue4.PPAF.NoRomance}}",
+				"Tue10": "{{i18n: CFE_Alex_Tue10.PPAF.NoRomance}}",
+				"Fri10": "{{i18n: CFE_Alex_Fri10.PPAF.NoRomance}}",
+				"Sat10": "{{i18n: CFE_Alex_Sat10.PPAF.NoRomance}}",
+				"Sun10": "{{i18n: CFE_Alex_Sun10.PPAF.NoRomance}}"
+			},
+			"When": {
+				"Query: '{{CFE_Alex}}' = 'true' OR ('{{CFE_Alex}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:AlexRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		{
+			"LogName": "PPAF Alex Marriage Dialogue - No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueAlex",
+			"Priority": "Late +2",
+			"Entries": {
+				"Rainy_Day_4": "{{i18n: CFE_Alex_Married_RainyDay_{{Random: 9.PPAF.NoRomance,10}}}}",
+				"Indoor_Day_0": "{{i18n: CFE_Alex_Married_IndoorDay_{{Random: 1,2.PPAF.NoRomance,3.PPAF.NoRomance}}}}",
+				"Indoor_Day_2": "{{i18n: CFE_Alex_Married_IndoorDay_{{Random: 7.PPAF.NoRomance,8,9}}}}",
+				"Indoor_Day_3": "{{i18n: CFE_Alex_Married_IndoorDay_{{Random: 10.PPAF.NoRomance,11,12}}}}",
+				"Indoor_Night_0": "{{i18n: CFE_Alex_Married_IndoorNight_{{Random: 1.PPAF.NoRomance,2}}}}",
+				"Indoor_Night_1": "{{i18n: CFE_Alex_Married_IndoorNight_{{Random: 3.PPAF.NoRomance,4}}}}",
+				"Indoor_Night_3": "{{i18n: CFE_Alex_Married_IndoorNight_{{Random: 7,8.PPAF.NoRomance}}}}",
+				"Indoor_Night_4": "{{i18n: CFE_Alex_Married_IndoorNight_{{Random: 9,10.PPAF.NoRomance}}}}",
+				"Outdoor_3": "{{i18n: CFE_Alex_Married_Outdoor_{{Random: 7,8}}{{GenderNeutralCompat}} |Adjective={{lowercase:{{Random:{{GNMTAdjective}}}}}}}}",
+			},
+			"When": {
+				"Query: '{{CFE_Alex}}' = 'true' OR ('{{CFE_Alex}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:AlexRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		{
+			"LogName": "PPAF Alex Marriage Dialogue - No Sex",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueAlex",
+			"Priority": "Late +2",
+			"Entries": {
+				"Indoor_Day_1": "{{i18n: CFE_Alex_Married_IndoorDay_{{Random: 4,5.PPAF.NoSex,6}}}}",
+				"Indoor_Night_3": "{{i18n: CFE_Alex_Married_IndoorNight_{{Random: 7.PPAF.NoSex,8.PPAF.NoRomance}}}}"
+			},
+			"When": {
+				"Query: '{{CFE_Alex}}' = 'true' OR ('{{CFE_Alex}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:AlexRelationshipType |contains=FullyPlatonic, RomanceWithoutSex": true
+			}
+		},
+		{
+			"LogName": "PPAF Alex Generic Marriage Dialogue - No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogue",
+			"Priority": "Late +2",
+			"Entries": {
+				"spouseRoom_Alex": "{{i18n: CFE_Alex_Married_spouseRoom_{{random: 1.PPAF.NoRomance,2,3,4,5}}}}"
+			},
+			"When": {
+				"Query: '{{CFE_Alex}}' = 'true' OR ('{{CFE_Alex}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:AlexRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		{
+			"LogName": "PPAF Alex Marriage Dialogue - Always Adopt",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueAlex",
+			"Priority": "Late +2",
+			"Entries": {
+				"OneKid_2": "{{i18n: CFE_Alex_Married_OneKid_{{Random: 5.PPAF.AlwaysAdopt,6}}}}"
+			},
+			"When": {
+				"Query: '{{CFE_Alex}}' = 'true' OR ('{{CFE_Alex}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:AlwaysAdopt": true
+			}
+		},
+		// ELLIOTT
+		{
+			"LogName": "PPAF Elliott Daily Dialogue - No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"Priority": "Late +2",
+			"Entries": {
+				"summer_Mon10": "{{i18n: CFE_Elliott_summerMon10.PPAF.NoRomance |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
+				"fall_Mon10": "{{i18n: CFE_Elliott_fallMon10.PPAF.NoRomance |LovePortraitsHappy={{LovePortraitsHappyToken}}}}"
+			},
+			"When": {
+				"Query: '{{CFE_Elliott}}' = 'true' OR ('{{CFE_Elliott}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:ElliottRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		{
+			"LogName": "PPAF Elliott Marriage Dialogue - No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueElliott",
+			"Priority": "Late +2",
+			"Entries": {
+				"Rainy_Day_3": "{{i18n: CFE_Elliott_Married_RainyDay_{{Random: 6,7.PPAF.NoRomance}} |LowercasePPAFEndearment={{LowercasePPAFEndearmentToken}}}}",
+				"Rainy_Night_1": "{{i18n: CFE_Elliott_Married_RainyNight_{{Random: 2.PPAF.NoRomance,3{{GenderNeutralCompat}}}} |LowercasePPAFEndearment={{LowercasePPAFEndearmentToken}} |TermOfEndearment={{lowercase:{{Random:{{GNMTTermOfEndearment}}}}}}}}",
+				"Rainy_Night_2": "{{i18n: CFE_Elliott_Married_RainyNight_{{Random: 4,5}}.PPAF.NoRomance |LowercasePPAFEndearment={{LowercasePPAFEndearmentToken}} |PPAFTermOfEndearment={{PPAF.Core/ConfigValue:TermOfEndearment}}}}",
+				"Rainy_Night_3": "{{i18n: CFE_Elliott_Married_RainyNight_{{Random: 6.PPAF.NoRomance,7}}}}",
+				"Rainy_Night_4": "{{i18n: CFE_Elliott_Married_RainyNight_{{Random: 8,9.PPAF.NoRomance}}}}",
+				"Indoor_Day_0": "{{i18n: CFE_Elliott_Married_IndoorDay_{{Random: 1.PPAF.NoRomance,2,3}} |RelationshipLabel={{PPAF.Core/ConfigValue:RelationshipLabel}}}}",
+				"Indoor_Day_2": "{{i18n: CFE_Elliott_Married_IndoorDay_{{Random: 7,8.PPAF.NoRomance,9.PPAF.NoRomance}} |PPAFTermOfEndearment={{PPAF.Core/ConfigValue:TermOfEndearment}}}}",
+				"Indoor_Day_4": "{{i18n: CFE_Elliott_Married_IndoorDay_{{Random: 13,14,15.PPAF.NoRomance}}}}",
+				"Indoor_Night_0": "{{i18n: CFE_Elliott_Married_IndoorNight_{{Random: 1,2}}.PPAF.NoRomance |PPAFTermOfEndearment={{PPAF.Core/ConfigValue:TermOfEndearment}}}}",
+				"Indoor_Night_3": "{{i18n: CFE_Elliott_Married_IndoorNight_{{Random: 7,8}}.PPAF.NoRomance}}",
+				"patio_Elliott": "{{i18n: CFE_Elliott_Married_patio_{{Random: 1.PPAF.NoRomance,2.PPAF.NoRomance,3}} |PPAFTermOfEndearment={{PPAF.Core/ConfigValue:TermOfEndearment}}}}",
+				"Outdoor_4": "{{i18n: CFE_Elliott_Married_Outdoor_{{Random: 9.PPAF.NoRomance,10}}}}",
+        		"winter_21": "{{i18n: CFE_Elliott_Married_winter21.PPAF.NoRomance |LowercasePPAFEndearment={{LowercasePPAFEndearmentToken}}}}"
+			},
+			"When": {
+				"Query: '{{CFE_Elliott}}' = 'true' OR ('{{CFE_Elliott}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:ElliottRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		{
+			"LogName": "PPAF Elliott Marriage Dialogue - No Sex",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueElliott",
+			"Priority": "Late +2",
+			"Entries": {
+				"Rainy_Night_0": "{{i18n: CFE_Elliott_Married_RainyNight_1.PPAF.NoSex}}",
+				"Rainy_Night_2": "{{i18n: CFE_Elliott_Married_RainyNight_{{Random: 4.PPAF.NoSex,5.PPAF.NoRomance}}}}",
+				"Indoor_Night_0": "{{i18n: CFE_Elliott_Married_IndoorNight_{{Random: 1.PPAF.NoSex,2.PPAF.NoRomance}} |TermOfEndearment={{lowercase:{{Random:{{GNMTTermOfEndearment}}}}}}}}",
+				"fall_23": "{{i18n: CFE_Elliott_Married_fall23.PPAF.NoSex}}"
+			},
+			"When": {
+				"Query: '{{CFE_Elliott}}' = 'true' OR ('{{CFE_Elliott}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:ElliottRelationshipType |contains=FullyPlatonic, RomanceWithoutSex": true
+			}
+		},
+		{
+			"LogName": "PPAF Elliott Marriage Dialogue - Aro Ace",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueElliott",
+			"Priority": "Late +2",
+			"Entries": {
+				"Indoor_Night_0": "{{i18n: CFE_Elliott_Married_IndoorNight_{{Random: 1.PPAF.NoSex,2.PPAF.NoRomance}} |TermOfEndearment={{lowercase:{{Random:{{GNMTTermOfEndearment}}}}}}}}",
+			},
+			"When": {
+				"Query: '{{CFE_Elliott}}' = 'true' OR ('{{CFE_Elliott}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:ElliottRelationshipType |contains=FullyPlatonic": true
+			}
+		},
+		{
+			"LogName": "PPAF Elliott Festival Dialogue - Moonlight Jellies",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"Priority": "Late +2",
+			"Entries": {
+				"Elliott_spouse_y2": "{{i18n: CFE_MoonlightJellies_Elliott_spouse_y2.PPAF.NoRomance}}"
+			},
+			"When": {
+				"Query: '{{CFE_Elliott}}' = 'true' OR ('{{CFE_Elliott}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:ElliottRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		// EMILY
+		{
+			"LogName": "PPAF Emily Daily Dialogue - No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Emily",
+			"Priority": "Late +2",
+			"Entries": {
+				"summer_Mon10": "{{i18n: CFE_Emily_summerMon10.PPAF.NoRomance |LovePortraitsHappy={{LovePortraitsHappyToken}}}}",
+				"summer_Wed10": "{{i18n: CFE_Emily_summerWed10.PPAF.NoRomance |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
+				"summer_Sat10": "{{i18n: CFE_Emily_summerSat10.PPAF.NoRomance}}",
+				"fall_Fri10": "{{i18n: CFE_Emily_fallFri10.PPAF.NoRomance}}",
+				"fall_Sat10": "{{i18n: CFE_Emily_fallSat10.PPAF.NoRomance |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
+				"winter_Mon10": "{{i18n: CFE_Emily_winterMon10.PPAF.NoRomance}}",
+				"winter_Thu10": "{{i18n: CFE_Emily_winterThu10.PPAF.NoRomance}}",
+				"winter_Sun10": "{{i18n: CFE_Emily_winterSun10.PPAF.NoRomance |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
+				"Tue10": "{{i18n: CFE_Emily_Tue10.PPAF.NoRomance |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
+				"Fri10": "{{i18n: CFE_Emily_Fri10.PPAF.NoRomance}}",
+				"Sun10": "{{i18n: CFE_Emily_Sun10.PPAF.NoRomance |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}"
+			},
+			"When": {
+				"Query: '{{CFE_Emily}}' = 'true' OR ('{{CFE_Emily}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:EmilyRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		{
+			"LogName": "PPAF Emily Marriage Dialogue - No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueEmily",
+			"Priority": "Late +2",
+			"Entries": {
+				"Indoor_Day_3": "{{i18n: CFE_Emily_Married_IndoorDay_{{Random: 10.PPAF.NoRomance,11,12}} |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
+				"Indoor_Night_1": "{{i18n: CFE_Emily_Married_IndoorNight_{{Random: 4.PPAF.NoRomance,5,6}} |LovePortraitsHappy={{LovePortraitsHappyToken}}}}",
+				"Outdoor_1": "{{i18n: CFE_Emily_Married_Outdoor_2.PPAF.NoRomance |PPAFTermOfEndearment={{PPAF.Core/ConfigValue:TermOfEndearment}}}}",
+				"summer_7": "{{i18n: CFE_Emily_Married_summer7.PPAF.NoRomance}}",
+				"fall_14": "{{i18n: CFE_Emily_Married_fall14.PPAF.NoRomance |LovePortraitsHappy={{LovePortraitsHappyToken}}}}"
+			},
+			"When": {
+				"Query: '{{CFE_Emily}}' = 'true' OR ('{{CFE_Emily}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:EmilyRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		{
+			"LogName": "PPAF Emily Marriage Dialogue - No Sex",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueEmily",
+			"Priority": "Late +2",
+			"Entries": {
+				"Rainy_Night_4": "{{i18n: CFE_Emily_Married_RainyNight_{{Random: 11,12.PPAF.NoSex}} |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
+				"summer_7": "{{i18n: CFE_Emily_Married_summer7.PPAF.NoSex}}"
+			},
+			"When": {
+				"Query: '{{CFE_Emily}}' = 'true' OR ('{{CFE_Emily}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:EmilyRelationshipType |contains=FullyPlatonic, RomanceWithoutSex": true
+			}
+		},
+		{
+			"LogName": "PPAF Emily Marriage Dialogue - Always Adopt",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueEmily",
+			"Priority": "Late +2",
+			"Entries": {
+				"OneKid_1": "{{i18n: CFE_Emily_Married_OneKid_{{Random: 3,4.PPAF.AlwaysAdopt}} |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
+				"TwoKids_1": "{{i18n: CFE_Emily_Married_TwoKids_{{Random: 3.PPAF.AlwaysAdopt,4}}}}"
+			},
+			"When": {
+				"Query: '{{CFE_Emily}}' = 'true' OR ('{{CFE_Emily}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:AlwaysAdopt": true
+			}
+		},
+		{
+			"LogName": "PPAF Haley Daily Dialogue - Emily No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"Priority": "Late +2",
+			"Entries": {
+				"winter_Sun8_inlaw_Emily": "{{i18n: CFE_Haley_winterSun8inlawEmily.PPAF.NoRomance}}",
+				"Sun10_inlaw_Emily": "{{i18n: CFE_Haley_Sun10inlawEmily.PPAF.NoRomance}}"
+			},
+			"When": {
+				"Query: '{{CFE_Haley}}' = 'true' OR ('{{CFE_Haley}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:EmilyRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		{
+			"LogName": "PPAF Clint Daily Dialogue - Emily No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Clint",
+			"Priority": "Late +2",
+			"Entries": {
+				"summer_Thu_inlaw_Emily": "{{i18n: CFE_Clint_summerThuinlawEmily.PPAF.NoRomance |RelationshipLabel={{PPAF.Core/ConfigValue:RelationshipLabel}}}}",
+				"fall_Mon_inlaw_Emily": "{{i18n: CFE_Clint_fallMoninlawEmily.PPAF.NoRomance}}",
+				"winter_Sun_inlaw_Emily": "{{i18n: CFE_Clint_winterSuninlawEmily.PPAF.NoRomance}}"
+			},
+			"When": {
+				"Query: '{{CFE_Clint}}' = 'true' OR ('{{CFE_Clint}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:EmilyRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		// HALEY
+		{
+			"LogName": "PPAF Haley Daily Dialogue - No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"Priority": "Late +2",
+			"Entries": {
+				"summer_Wed10": "{{i18n: CFE_Haley_summerWed10.PPAF.NoRomance}}",
+				"summer_Sat10": "{{i18n: CFE_Haley_summerSat10.PPAF.NoRomance}}",
+				"fall_Fri10": "{{i18n: CFE_Haley_fallFri10.PPAF.NoRomance}}",
+				"winter_Tue10": "{{i18n: CFE_Haley_winterTue10.PPAF.NoRomance}}",
+				"winter_Fri10": "{{i18n: CFE_Haley_winterFri10.PPAF.NoRomance}}",
+				"Tue10": "{{i18n: CFE_Haley_Tue10.PPAF.NoRomance}}"
+			},
+			"When": {
+				"Query: '{{CFE_Haley}}' = 'true' OR ('{{CFE_Haley}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:HaleyRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		{
+			"LogName": "PPAF Haley Marriage Dialogue - No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueHaley",
+			"Priority": "Late +2",
+			"Entries": {
+				"Rainy_Day_4": "{{i18n: CFE_Haley_Married_RainyDay_{{Random: 9,10}}.PPAF.NoRomance |LowercasePPAFEndearment={{LowercasePPAFEndearmentToken}}}}",
+				"Rainy_Night_4": "{{i18n: CFE_Haley_Married_RainyNight_{{Random: 9,10.PPAF.NoRomance}} |LowercasePPAFEndearment={{LowercasePPAFEndearmentToken}}}}",
+				"Indoor_Day_1": "{{i18n: CFE_Haley_Married_IndoorDay_{{Random: 4.PPAF.NoRomance,5,6.PPAF.NoRomance}} |LowercasePPAFEndearment={{LowercasePPAFEndearmentToken}}}}",
+				"Indoor_Day_2": "{{i18n: CFE_Haley_Married_IndoorDay_{{Random: 7.PPAF.NoRomance,8,9}} |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
+				"Indoor_Day_4": "{{i18n: CFE_Haley_Married_IndoorDay_{{Random: 13,14,15}}.PPAF.NoRomance |LowercasePPAFEndearment={{LowercasePPAFEndearmentToken}}}}",
+				"Indoor_Night_0": "{{i18n: CFE_Haley_Married_IndoorNight_{{Random: 1.PPAF.NoRomance,2}} |LowercasePPAFEndearment={{LowercasePPAFEndearmentToken}}}}",
+				"Indoor_Night_1": "{{i18n: CFE_Haley_Married_IndoorNight_{{Random: 3,4}}.PPAF.NoRomance}}",
+				"Indoor_Night_2": "{{i18n: CFE_Haley_Married_IndoorNight_{{Random: 5,6,7,8}}.PPAF.NoRomance |LowercasePPAFEndearment={{LowercasePPAFEndearmentToken}}}}",
+				"funReturn_Haley": "{{i18n: CFE_Haley_Married_funReturn_{{Random: 1,2.PPAF.NoRomance}} |LowercasePPAFEndearment={{LowercasePPAFEndearmentToken}}}}",
+				"OneKid_1": "{{i18n: CFE_Haley_Married_OneKid_{{Random: 3,4.PPAF.NoRomance}} |LowercasePPAFEndearment={{LowercasePPAFEndearmentToken}}}}",
+				"Outdoor_2": "{{i18n: CFE_Haley_Married_Outdoor_{{Random: 5,6.PPAF.NoRomance}} |LowercasePPAFEndearment={{LowercasePPAFEndearmentToken}}}}",
+				"Outdoor_3": "{{i18n: CFE_Haley_Married_Outdoor_{{Random: 7,8.PPAF.NoRomance}}}}",
+				"Outdoor_4": "{{i18n: CFE_Haley_Married_Outdoor_{{Random: 9,10}}.PPAF.NoRomance |LowercasePPAFEndearment={{LowercasePPAFEndearmentToken}}}}",
+				"spring_14": "{{i18n: CFE_Haley_Married_spring14.PPAF.NoRomance}}",
+				"spring_23": "{{i18n: CFE_Haley_Married_spring23.PPAF.NoRomance |RelationshipLabel={{PPAF.Core/ConfigValue:RelationshipLabel}}}}",
+				"summer_27": "{{i18n: CFE_Haley_Married_summer27.PPAF.NoRomance}}"
+			},
+			"When": {
+				"Query: '{{CFE_Haley}}' = 'true' OR ('{{CFE_Haley}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:HaleyRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		{
+			"LogName": "PPAF Haley Marriage Dialogue - No Sex",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueHaley",
+			"Priority": "Late +2",
+			"Entries": {
+				"Rainy_Night_0": "{{i18n: CFE_Haley_Married_RainyNight_{{Random: 1,2}}}}",
+				"Indoor_Night_0": "{{i18n: CFE_Haley_Married_IndoorNight_{{Random: 1.PPAF.NoSex,2}} |LowercasePPAFEndearment={{LowercasePPAFEndearmentToken}}}}",
+				"Indoor_Night_2": "{{i18n: CFE_Haley_Married_IndoorNight_{{Random: 5,6.PPAF.NoSex,7,8.PPAF.NoSex}} |LowercasePPAFEndearment={{LowercasePPAFEndearmentToken}}}}",
+				"summer_22": "{{i18n: CFE_Haley_Married_summer22.PPAF.NoSex}}"
+			},
+			"When": {
+				"Query: '{{CFE_Haley}}' = 'true' OR ('{{CFE_Haley}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:HaleyRelationshipType |contains=FullyPlatonic, RomanceWithoutSex": true
+			}
+		},
+		{
+			"LogName": "PPAF Haley Generic Marriage Dialogue - No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogue",
+			"Priority": "Late +2",
+			"Entries": {
+        		"spouseRoom_Haley": "{{i18n: CFE_Haley_Married_spouseRoom_{{random: 1.PPAF.NoRomance,2,3.PPAF.NoRomance,4,5}} |LowercasePPAFEndearment={{LowercasePPAFEndearmentToken}}}}"
+			},
+			"When": {
+				"Query: '{{CFE_Haley}}' = 'true' OR ('{{CFE_Haley}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:HaleyRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		{
+			"LogName": "PPAF Haley Marriage Dialogue - Always Adopt",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueHaley",
+			"Priority": "Late +2",
+			"Entries": {
+				"TwoKids_1": "{{i18n: CFE_Haley_Married_TwoKids_{{Random: 3,4.PPAF.AlwaysAdopt}}}}"
+			},
+			"When": {
+				"Query: '{{CFE_Haley}}' = 'true' OR ('{{CFE_Haley}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:AlwaysAdopt": true
+			}
+		},
+		{
+			"LogName": "PPAF Alex Daily Dialogue - Haley No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+			"Priority": "Late +2",
+			"Entries": {
+				"summer_Sun6_inlaw_Haley": "{{i18n: CFE_Alex_repeated_5.PPAF.NoRomance}}",
+				"Sun6_inlaw_Haley": "{{i18n: CFE_Alex_repeated_5.PPAF.NoRomance}}",
+				"summer_Sun_inlaw_Haley": "{{i18n: CFE_Alex_summerSuninlawHaley.PPAF.NoRomance}}"
+			},
+			"When": {
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:HaleyRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		// HARVEY
+		{
+			"LogName": "PPAF Harvey Daily Dialogue - No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"Priority": "Late +2",
+			"Entries": {
+				"summer_Thu10": "{{i18n: CFE_Harvey_summerThu10.PPAF.NoRomance |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
+				"fall_Sat10": "{{i18n: CFE_Harvey_fallSat10.PPAF.NoRomance}}",
+				"Thu10": "{{i18n: CFE_Harvey_Thu10.PPAF.NoRomance}}"
+			},
+			"When": {
+				"Query: '{{CFE_Harvey}}' = 'true' OR ('{{CFE_Harvey}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:HarveyRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		{
+			"LogName": "PPAF Harvey Marriage Dialogue - No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueHarvey",
+			"Priority": "Late +2",
+			"Entries": {
+				"Rainy_Day_2": "{{i18n: CFE_Harvey_Married_RainyDay_{{Random: 5.PPAF.NoRomance,6}}}}",
+				"Rainy_Night_0": "{{i18n: CFE_Harvey_Married_RainyNight_{{Random: 1,2}}.PPAF.NoRomance |LowercasePPAFEndearment={{LowercasePPAFEndearmentToken}}}}",
+				"Rainy_Night_4": "{{i18n: CFE_Harvey_Married_RainyNight_{{Random: 9.PPAF.NoRomance,10}}}}",
+				"Indoor_Night_0": "{{i18n: CFE_Harvey_Married_IndoorNight_{{Random: 1,2}}.PPAF.NoRomance}}",
+				"OneKid_3": "{{i18n: CFE_Harvey_Married_OneKid_{{Random: 7.PPAF.NoRomance,8}} |RelationshipLabel={{PPAF.Core/ConfigValue:RelationshipLabel}}}}",
+				"Outdoor_2": "{{i18n: CFE_Harvey_Married_Outdoor_{{Random: 5.PPAF.NoRomance,6}}}}",
+				"Outdoor_3": "{{i18n: CFE_Harvey_Married_Outdoor_{{Random: 7.PPAF.NoRomance,8}}}}",
+				"spring_25": "{{i18n: CFE_Harvey_Married_spring25.PPAF.NoRomance}}"
+			},
+			"When": {
+				"Query: '{{CFE_Harvey}}' = 'true' OR ('{{CFE_Harvey}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:HarveyRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		{
+			"LogName": "PPAF Harvey Marriage Dialogue - No Sex",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueHarvey",
+			"Priority": "Late +2",
+			"Entries": {
+				"Rainy_Night_2": "{{i18n: CFE_Harvey_Married_RainyNight_{{Random: 5,6.PPAF.NoSex}} |LovePortraitsHappy={{LovePortraitsHappyToken}}}}",
+				"Indoor_Night_0": "{{i18n: CFE_Harvey_Married_IndoorNight_{{Random: 1.PPAF.NoRomance,2.PPAF.NoSex}}}}",
+				"Indoor_Night_3": "{{i18n: CFE_Harvey_Married_IndoorNight_{{Random: 7.PPAF.NoSex,8}}}}"
+			},
+			"When": {
+				"Query: '{{CFE_Harvey}}' = 'true' OR ('{{CFE_Harvey}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:HarveyRelationshipType |contains=FullyPlatonic, RomanceWithoutSex": true
+			}
+		},
+		{
+			"LogName": "PPAF Harvey Generic Marriage Dialogue - No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogue",
+			"Priority": "Late +2",
+			"Entries": {
+        		"jobReturn_Harvey": "{{i18n: CFE_Harvey_Married_jobReturn_{{Random: 1.PPAF.NoRomance,2,3,4}}}}"
+			},
+			"When": {
+				"Query: '{{CFE_Harvey}}' = 'true' OR ('{{CFE_Harvey}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:HarveyRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		// LEAH
+		{
+			"LogName": "PPAF Leah Daily Dialogue - No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Leah",
+			"Priority": "Late +2",
+			"Entries": {
+				"Sun10": "{{i18n: CFE_Leah_repeated_6.PPAF.NoRomance}}",
+				"summer_Thu10": "{{i18n: CFE_Leah_summerThu10.PPAF.NoRomance}}",
+				"summer_Sat10": "{{i18n: CFE_Leah_summerSat10.PPAF.NoRomance}}",
+				"fall_Mon10": "{{i18n: CFE_Leah_fallMon10.PPAF.NoRomance}}",
+				"fall_Sun10": "{{i18n: CFE_Leah_repeated_6.PPAF.NoRomance}}",
+				"winter_Tue10": "{{i18n: CFE_Leah_winterTue10.PPAF.NoRomance}}",
+				"winter_Thu10": "{{i18n: CFE_Leah_winterThu10.PPAF.NoRomance}}",
+				"winter_Fri10": "{{i18n: CFE_Leah_winterFri10.PPAF.NoRomance}}",
+				"Tue10": "{{i18n: CFE_Leah_Tue10.PPAF.NoRomance}}",
+				"Wed10": "{{i18n: CFE_Leah_Wed10.PPAF.NoRomance}}",
+				"Sat10": "{{i18n: CFE_Leah_Sat10.PPAF.NoRomance}}"
+			},
+			"When": {
+				"Query: '{{CFE_Leah}}' = 'true' OR ('{{CFE_Leah}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:LeahRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		{
+			"LogName": "PPAF Leah Daily Dialogue - No Romance (DSV Native Leah)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Leah",
+			"Priority": "Late +2",
+			"Entries": {
+				"winter_Fri10": "{{i18n: CFE_Leah_winterFri10.PPAF.NoRomance.DSV.NativeLeah}}"
+			},
+			"When": {
+				"Query: '{{CFE_Leah}}' = 'true' OR ('{{CFE_Leah}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:LeahRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true,
+				"HasMod |contains= DSV.Core": true,
+				"Query: '{{DSV.Core/ConfigValue:LeahVariant |contains= Native}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.JoLeah}}' = 'true'": true
+			}
+		},
+		{
+			"LogName": "PPAF Leah Marriage Dialogue - No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueLeah",
+			"Priority": "Late +2",
+			"Entries": {
+				"Rainy_Night_4": "{{i18n: CFE_Leah_Married_RainyNight_{{Random: 9,10}}.PPAF.NoRomance}}",
+				"TwoKids_3": "{{i18n: CFE_Leah_Married_TwoKids_{{Random: 7,8.PPAF.NoRomance}}}}",
+				"Outdoor_4": "{{i18n: CFE_Leah_Married_Outdoor_{{Random: 9.PPAF.NoRomance,10}}}}",
+                "summer_8": null
+			},
+			"When": {
+				"Query: '{{CFE_Leah}}' = 'true' OR ('{{CFE_Leah}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:LeahRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		{
+			"LogName": "PPAF Leah Marriage Dialogue - No Romance (Friendship Bracelet)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueLeah",
+			"Priority": "Late +2",
+			"Entries": {
+				"Indoor_Night_3": "{{i18n: CFE_Leah_Married_IndoorNight_{{Random: 7.PPAF.Roommate,8}} |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}"
+			},
+			"When": {
+				"Query: '{{CFE_Leah}}' = 'true' OR ('{{CFE_Leah}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:LeahRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true,
+                "Roommate": "Leah"
+			}
+		},
+		{
+			"LogName": "PPAF Leah Marriage Dialogue - No Sex",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueLeah",
+			"Priority": "Late +2",
+			"Entries": {
+				"Rainy_Night_2": "{{i18n: CFE_Leah_Married_RainyNight_{{Random: 5,6.PPAF.NoSex}}}}",
+				"Rainy_Night_3": "{{i18n: CFE_Leah_Married_RainyNight_{{Random: 7,8.PPAF.NoSex}}}}",
+				"Indoor_Night_0": "{{i18n: CFE_Leah_Married_IndoorNight_{{Random: 1,2.PPAF.NoSex}}}}"
+			},
+			"When": {
+				"Query: '{{CFE_Leah}}' = 'true' OR ('{{CFE_Leah}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:LeahRelationshipType |contains=FullyPlatonic, RomanceWithoutSex": true
+			}
+		},
+		{
+			"LogName": "PPAF Leah Marriage Dialogue - Always Adopt",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueLeah",
+			"Priority": "Late +2",
+			"Entries": {
+				"TwoKids_3": "{{i18n: CFE_Leah_Married_TwoKids_{{Random: 7.PPAF.AlwaysAdopt,8.PPAF.NoRomance}}}}"
+			},
+			"When": {
+				"Query: '{{CFE_Leah}}' = 'true' OR ('{{CFE_Leah}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:AlwaysAdopt": true
+			}
+		},
+		// MARU
+		{
+			"LogName": "PPAF Maru Daily Dialogue - No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Priority": "Late +2",
+			"Entries": {
+				"summer_Sun10": "{{i18n: CFE_Maru_summerSun10.PPAF.NoRomance}}",
+				"fall_Wed10": "{{i18n: CFE_Maru_fallWed10.PPAF.NoRomance}}",
+				"fall_Fri10": "{{i18n: CFE_Maru_fallFri10.PPAF.NoRomance}}",
+				"fall_Sun10": "{{i18n: CFE_Maru_fallSun10.PPAF.NoRomance}}",
+				"winter_Fri10": "{{i18n: CFE_Maru_winterFri10.PPAF.NoRomance}}"
+			},
+			"When": {
+				"Query: '{{CFE_Maru}}' = 'true' OR ('{{CFE_Maru}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:MaruRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		{
+			"LogName": "PPAF Maru Marriage Dialogue - No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueMaru",
+			"Priority": "Late +2",
+			"Entries": {
+				"Rainy_Night_1": "{{i18n: CFE_Maru_Married_RainyNight_{{Random:3.PPAF.NoRomance,4}}}}",
+				"Rainy_Night_3": "{{i18n: CFE_Maru_Married_RainyNight_{{Random: 7,8}}.PPAF.NoRomance}}",
+				"Indoor_Day_3": "{{i18n: CFE_Maru_Married_IndoorDay_{{Random: 10.PPAF.NoRomance,11,12}}}}",
+				"fall_9": "{{i18n: CFE_Maru_Married_fall9.PPAF.NoRomance |LowercasePPAFEndearment={{LowercasePPAFEndearmentToken}}}}",
+				"fall_18": "{{i18n: CFE_Maru_Married_fall18.PPAF.NoRomance}}",
+        		"winter_28": "{{i18n: CFE_Maru_Married_winter28.PPAF.NoRomance |LowercasePPAFEndearment={{LowercasePPAFEndearmentToken}}}}"
+			},
+			"When": {
+				"Query: '{{CFE_Maru}}' = 'true' OR ('{{CFE_Maru}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:MaruRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		{
+			"LogName": "PPAF Maru Generic Marriage Dialogue - No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogue",
+			"Priority": "Late +2",
+			"Entries": {
+				"jobLeave_Maru": "{{i18n: CFE_Maru_Married_jobLeave_{{Random: 1,2,3.PPAF.NoRomance,4}}}}",
+			},
+			"When": {
+				"Query: '{{CFE_Maru}}' = 'true' OR ('{{CFE_Maru}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:MaruRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		{
+			"LogName": "PPAF Sebastian Daily Dialogue - Maru No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Priority": "Late +2",
+			"Entries": {
+				"winter_Sun6_inlaw_Maru": "{{i18n: CFE_Sebastian_winterSun6inlawMaru.PPAF.NoRomance}}",
+				"fall_Mon6_inlaw_Maru": "{{i18n: CFE_Sebastian_fallMon6inlawMaru.PPAF.NoRomance}}"
+			},
+			"When": {
+				"Query: '{{CFE_Sebastian}}' = 'true' OR ('{{CFE_Sebastian}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:MaruRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		// PENNY
+		{
+			"LogName": "PPAF Penny Daily Dialogue - No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Penny",
+			"Priority": "Late +2",
+			"Entries": {
+				"summer_Wed10": "{{i18n: CFE_Penny_summerWed10.PPAF.NoRomance}}",
+				"fall_Tue10": "{{i18n: CFE_Penny_fallTue10.PPAF.NoRomance}}",
+				"fall_Thu10": "{{i18n: CFE_Penny_fallThu10.PPAF.NoRomance}}",
+				"winter_Mon10": "{{i18n: CFE_Penny_winterMon10.PPAF.NoRomance}}",
+				"winter_Thu10": "{{i18n: CFE_Penny_winterThu10.PPAF.NoRomance}}",
+				"winter_Sun10": "{{i18n: CFE_Penny_winterSun10.PPAF.NoRomance}}",
+				"Thu10": "{{i18n: CFE_Penny_Thu10.PPAF.NoRomance}}",
+				"Sat10": "{{i18n: CFE_Penny_Sat10.PPAF.NoRomance}}",
+				"Sun10": "{{i18n: CFE_Penny_Sun10.PPAF.NoRomance}}"
+			},
+			"When": {
+				"Query: '{{CFE_Penny}}' = 'true' OR ('{{CFE_Penny}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:PennyRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		{
+			"LogName": "PPAF Penny Daily Dialogue - No Romance (DSV)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Penny",
+			"Priority": "Late +2",
+			"Entries": {
+				"Thu10": "{{i18n: CFE_Penny_Thu10.PPAF.NoRomance.DSV.TransPennySam}}"
+			},
+			"When": {
+				"Query: '{{CFE_Penny}}' = 'true' OR ('{{CFE_Penny}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:PennyRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true,
+				"HasMod |contains= DSV.Core": true
+			}
+		},
+		{
+			"LogName": "PPAF Penny Marriage Dialogue - No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialoguePenny",
+			"Priority": "Late +2",
+			"Entries": {
+				"Rainy_Day_3": "{{i18n: CFE_Penny_Married_RainyDay_{{Random: 6,7}}.PPAF.NoRomance |LowercasePPAFEndearment={{LowercasePPAFEndearmentToken}}}}",
+				"Rainy_Night_0": "{{i18n: CFE_Penny_Married_RainyNight_{{Random: 1,2}}.PPAF.NoRomance |LowercasePPAFEndearment={{LowercasePPAFEndearmentToken}}}}",
+				"Rainy_Night_2": "{{i18n: CFE_Penny_Married_RainyNight_{{Random: 5.PPAF.NoRomance,6}} |RelationshipLabel={{PPAF.Core/ConfigValue:RelationshipLabel}}}}",
+				"Indoor_Day_3": "{{i18n: CFE_Penny_Married_IndoorDay_{{Random: 10.PPAF.NoRomance,11,12.PPAF.NoRomance}} |LowercasePPAFEndearment={{LowercasePPAFEndearmentToken}}}}",
+				"Indoor_Night_0": "{{i18n: CFE_Penny_Married_IndoorNight_{{Random: 1,2.PPAF.NoRomance}}}}",
+				"Indoor_Night_1": "{{i18n: CFE_Penny_Married_IndoorNight_{{Random: 3,4.PPAF.NoRomance}}}}",
+				"Indoor_Night_2": "{{i18n: CFE_Penny_Married_IndoorNight_{{Random: 5,6.PPAF.NoRomance}} |RelationshipLabel={{PPAF.Core/ConfigValue:RelationshipLabel}}}}",
+				"Indoor_Night_4": "{{i18n: CFE_Penny_Married_IndoorNight_9.PPAF.NoRomance |LowercasePPAFEndearment={{LowercasePPAFEndearmentToken}}}}",
+				"Outdoor_1": "{{i18n: CFE_Penny_Married_Outdoor_{{Random: 3,4.PPAF.NoRomance}}}}",
+				"Outdoor_2": "{{i18n: CFE_Penny_Married_Outdoor_{{Random: 5,6.PPAF.NoRomance}} |LowercasePPAFEndearment={{LowercasePPAFEndearmentToken}}}}",
+				"fall_19": "{{i18n: CFE_Penny_Married_fall19.PPAF.NoRomance}}"
+			},
+			"When": {
+				"Query: '{{CFE_Penny}}' = 'true' OR ('{{CFE_Penny}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:PennyRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		{
+			"LogName": "PPAF Penny Marriage Dialogue - No Romance (DSV)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialoguePenny",
+			"Priority": "Late +2",
+			"Entries": {
+				"Indoor_Night_1": "{{i18n: CFE_Penny_Married_IndoorNight_{{Random: 3.DSV.TransPenny,4.PPAF.NoRomance}} |LovePortraitsHappy={{LovePortraitsHappyToken}}}}"
+			},
+			"When": {
+				"Query: '{{CFE_Penny}}' = 'true' OR ('{{CFE_Penny}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:PennyRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true,
+				"HasMod |contains= DSV.Core": true
+			}
+		},
+		{
+			"LogName": "PPAF Penny Marriage Dialogue - No Sex",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialoguePenny",
+			"Priority": "Late +2",
+			"Entries": {
+				"Indoor_Night_0": "{{i18n: CFE_Penny_Married_IndoorNight_{{Random: 1.PPAF.NoSex,2.PPAF.NoRomance}}}}",
+				"Indoor_Night_3": "{{i18n: CFE_Penny_Married_IndoorNight_{{Random: 7,8.PPAF.NoSex}}}}",
+			},
+			"When": {
+				"Query: '{{CFE_Penny}}' = 'true' OR ('{{CFE_Penny}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:PennyRelationshipType |contains=FullyPlatonic, RomanceWithoutSex": true
+			}
+		},
+		{
+			"LogName": "PPAF Maru Daily Dialogue - Penny No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Priority": "Late +2",
+			"Entries": {
+				"winter_Wed6_inlaw_Penny": "{{i18n: CFE_Maru_winterWed6inlawPenny.PPAF.NoRomance}}",
+				"Tue6_inlaw_Penny": "{{i18n: CFE_Maru_Tue6inlawPenny.PPAF.NoRomance}}"
+			},
+			"When": {
+				"Query: '{{CFE_Maru}}' = 'true' OR ('{{CFE_Maru}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:PennyRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		{
+			"LogName": "PPAF Sam Daily Dialogue - Penny No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Priority": "Late +2",
+			"Entries": {
+				"winter_Tue8_inlaw_Penny": "{{i18n: CFE_Sam_winterTue8inlawPenny.PPAF.NoRomance}}"
+			},
+			"When": {
+				"Query: '{{CFE_Sam}}' = 'true' OR ('{{CFE_Sam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:PennyRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		{
+			"LogName": "PPAF Vincent Daily Dialogue - Penny No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Vincent",
+			"Priority": "Late +2",
+			"Entries": {
+				"Tue8_inlaw_Penny": "{{i18n: CFE_Vincent_Tue8inlawPenny.PPAF.NoRomance |RelationshipLabel={{PPAF.Core/ConfigValue:RelationshipLabel}}}}"
+			},
+			"When": {
+				"Query: '{{CFE_Vincent}}' = 'true' OR ('{{CFE_Vincent}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:PennyRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		// SAM
+		{
+			"LogName": "PPAF Sam Daily Dialogue - No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Priority": "Late +2",
+			"Entries": {
+				"summer_Mon10": "{{i18n: CFE_Sam_summerMon10.PPAF.NoRomance |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
+				"summer_Tue10": "{{i18n: CFE_Sam_summerTue10.PPAF.NoRomance}}",
+				"winter_Wed10": "{{i18n: CFE_Sam_winterWed10.PPAF.NoRomance}}",
+				"winter_Fri10": "{{i18n: CFE_Sam_winterFri10.PPAF.NoRomance}}",
+				"Fri10": "{{i18n: CFE_Sam_Fri10.PPAF.NoRomance |LovePortraitsHappy={{LovePortraitsHappyToken}}}}"
+			},
+			"When": {
+				"Query: '{{CFE_Sam}}' = 'true' OR ('{{CFE_Sam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:SamRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		{
+			"LogName": "PPAF Sam Daily Dialogue - No Romance (DSV)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Priority": "Late +2",
+			"Entries": {
+				"winter_Tue8": "{{i18n: CFE_Sam_winterTue8.PPAF.NoRomance}}"
+			},
+			"When": {
+				"Query: '{{CFE_Sam}}' = 'true' OR ('{{CFE_Sam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:SamRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true,
+				"HasMod |contains= DSV.Core": false
+			}
+		},
+		{
+			"LogName": "PPAF Sam Marriage Dialogue - No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueSam",
+			"Priority": "Late +2",
+			"Entries": {
+				"Rainy_Day_1": "{{i18n: CFE_Sam_Married_RainyDay_{{Random: 3,4}}.PPAF.NoRomance}}",
+				"Indoor_Day_1": "{{i18n: CFE_Sam_Married_IndoorDay_{{Random: 4,5,6}}.PPAF.NoRomance |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
+				"Indoor_Night_4": "{{i18n: CFE_Sam_Married_IndoorNight_{{Random: 9.PPAF.NoRomance,10}}}}",
+				"Outdoor_4": "{{i18n: CFE_Sam_Married_Outdoor_{{Random: 9.PPAF.NoRomance,10}}}}",
+				"summer_12": "{{i18n: CFE_Sam_Married_summer12.PPAF.NoRomance |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
+				"fall_9": "{{i18n: CFE_Sam_Married_fall9.PPAF.NoRomance}}"
+			},
+			"When": {
+				"Query: '{{CFE_Sam}}' = 'true' OR ('{{CFE_Sam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:SamRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		{
+			"LogName": "PPAF Sam Marriage Dialogue - No Sex",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueSam",
+			"Priority": "Late +2",
+			"Entries": {
+				"Indoor_Night_0": "{{i18n: CFE_Sam_Married_IndoorNight_{{Random: 1.PPAF.NoSex,2}}}}"
+			},
+			"When": {
+				"Query: '{{CFE_Sam}}' = 'true' OR ('{{CFE_Sam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:SamRelationshipType |contains=FullyPlatonic, RomanceWithoutSex": true
+			}
+		},
+		{
+			"LogName": "PPAF Sam Marriage Dialogue - Always Adopt",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueSam",
+			"Priority": "Late +2",
+			"Entries": {
+				"OneKid_1": "{{i18n: CFE_Sam_Married_OneKid_{{Random: 3.PPAF.AlwaysAdopt,4}}}}"
+			},
+			"When": {
+				"Query: '{{CFE_Sam}}' = 'true' OR ('{{CFE_Sam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:AlwaysAdopt": true
+			}
+		},
+		{
+			"LogName": "PPAF Vincent Daily Dialogue - Sam No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Vincent",
+			"Priority": "Late +2",
+			"Entries": {
+				"winter_Wed_inlaw_Sam": "{{i18n: CFE_Vincent_winterWedinlawSam.PPAF.NoRomance}}",
+				"Wed_inlaw_Sam": "{{i18n: CFE_Vincent_WedinlawSam.PPAF.NoRomance}}"
+			},
+			"When": {
+				"Query: '{{CFE_Vincent}}' = 'true' OR ('{{CFE_Vincent}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:SamRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		{
+			"LogName": "PPAF Kent Daily Dialogue - Sam No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Kent",
+			"Priority": "Late +2",
+			"Entries": {
+				"Mon8_inlaw_Sam": "{{i18n: CFE_Kent_Mon8inlawSam.PPAF.NoRomance}}",
+				"Mon4_inlaw_Sam": "{{i18n: CFE_Kent_Mon4inlawSam.PPAF.NoRomance}}",
+        		"Mon_inlaw_Sam": "{{i18n: CFE_Kent_MoninlawSam.PPAF.NoRomance |RelationshipLabel={{PPAF.Core/ConfigValue:RelationshipLabel}}}}"
+			},
+			"When": {
+				"Query: '{{CFE_Kent}}' = 'true' OR ('{{CFE_Kent}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:SamRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		// SEBASTIAN
+		{
+			"LogName": "PPAF Sebastian Daily Dialogue - No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Priority": "Late +2",
+			"Entries": {
+				"winter_Wed10": "{{i18n: CFE_Sebastian_winterWed10.PPAF.NoRomance}}",
+				"Tue10": "{{i18n: CFE_Sebastian_Tue10.PPAF.NoRomance |LovePortraitsExpression7={{LovePortraitsExpression7Token}}}}"
+			},
+			"When": {
+				"Query: '{{CFE_Sebastian}}' = 'true' OR ('{{CFE_Sebastian}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:SebastianRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		{
+			"LogName": "PPAF Sebastian Daily Dialogue - No Romance (DSV Nonbinary Abigail)",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Priority": "Late +2",
+			"Entries": {
+				"winter_Wed10": "{{i18n: CFE_Sebastian_winterWed10.PPAF.NoRomance.DSV.NonbinaryAbigail}}"
+			},
+			"When": {
+				"Query: '{{CFE_Sebastian}}' = 'true' OR ('{{CFE_Sebastian}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:SebastianRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true,
+				"HasMod |contains= DSV.Core": true,
+        		"DSV.Core/ConfigValue:NonbinaryAbigail": "True"
+			}
+		},
+		{
+			"LogName": "PPAF Sebastian Marriage Dialogue - No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueSebastian",
+			"Priority": "Late +2",
+			"Entries": {
+				"Rainy_Day_2": "{{i18n: CFE_Sebastian_Married_RainyDay_{{Random: 5.PPAF.NoRomance,6}}}}",
+				"Rainy_Day_4": "{{i18n: CFE_Sebastian_Married_RainyDay_{{Random: 9,10.PPAF.NoRomance}}}}",
+				"Rainy_Night_0": "{{i18n: CFE_Sebastian_Married_RainyNight_1.PPAF.NoRomance |RelationshipLabel={{PPAF.Core/ConfigValue:RelationshipLabel}}}}",
+				"Indoor_Day_1": "{{i18n: CFE_Sebastian_Married_IndoorDay_{{Random: 4,5.PPAF.NoRomance,6}} |RelationshipLabel={{PPAF.Core/ConfigValue:RelationshipLabel}}}}",
+				"Indoor_Day_2": "{{i18n: CFE_Sebastian_Married_IndoorDay_{{Random: 7.PPAF.NoRomance,8,9}}}}",
+				"Outdoor_2": "{{i18n: CFE_Sebastian_Married_Outdoor_{{Random: 4,5.PPAF.NoRomance}}}}",
+				"Outdoor_3": "{{i18n: CFE_Sebastian_Married_Outdoor_{{Random: 6,7.PPAF.NoRomance}}}}"
+			},
+			"When": {
+				"Query: '{{CFE_Sebastian}}' = 'true' OR ('{{CFE_Sebastian}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:SebastianRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		{
+			"LogName": "PPAF Sebastian Marriage Dialogue - No Sex",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueSebastian",
+			"Priority": "Late +2",
+			"Entries": {
+				"Rainy_Day_4": "{{i18n: CFE_Sebastian_Married_RainyDay_{{Random: 9,10.PPAF.NoSex}}}}",
+				"Rainy_Night_4": "{{i18n: CFE_Sebastian_Married_RainyNight_{{Random: 8,9.PPAF.NoSex}}}}"
+			},
+			"When": {
+				"Query: '{{CFE_Sebastian}}' = 'true' OR ('{{CFE_Sebastian}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:SebastianRelationshipType |contains=FullyPlatonic, RomanceWithoutSex": true
+			}
+		},
+		{
+			"LogName": "PPAF Demetrius Daily Dialogue - Sebastian No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Demetrius",
+			"Priority": "Late +2",
+			"Entries": {
+       	 		"Sun_inlaw_Sebastian": "{{i18n: CFE_Demetrius_SuninlawSebastian.PPAF.NoRomance}}"
+			},
+			"When": {
+				"Query: '{{CFE_Demetrius}}' = 'true' OR ('{{CFE_Demetrius}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:SebastianRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		{
+			"LogName": "PPAF Maru Daily Dialogue - Sebastian No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Priority": "Late +2",
+			"Entries": {
+				"summer_Tue4_inlaw_Sebastian": "{{i18n: CFE_Maru_summerTue4inlawSebastian.PPAF.NoRomance}}"
+			},
+			"When": {
+				"Query: '{{CFE_Maru}}' = 'true' OR ('{{CFE_Maru}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:SebastianRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		// SHANE
+		{
+			"LogName": "PPAF Shane Daily Dialogue - No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Priority": "Late +2",
+			"Entries": {
+				"summer_Tue10": "{{i18n: CFE_Shane_summerTue10.PPAF.NoRomance}}",
+				"fall_Sat10": "{{i18n: CFE_Shane_fallSat10.PPAF.NoRomance}}"
+			},
+			"When": {
+				"Query: '{{CFE_Shane}}' = 'true' OR ('{{CFE_Shane}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:ShaneRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		{
+			"LogName": "PPAF Shane Marriage Dialogue - No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueShane",
+			"Priority": "Late +2",
+			"Entries": {
+				"Indoor_Day_1": "{{i18n: CFE_Shane_Married_IndoorDay_{{Random: 4.PPAF.NoRomance,5,6.PPAF.NoRomance}}}}",
+				"Indoor_Day_2": "{{i18n: CFE_Shane_Married_IndoorDay_{{Random: 7,8,9}}.PPAF.NoRomance}}",
+				"patio_Shane": "{{i18n: CFE_Shane_Married_patio_{{Random: 1,2,3.PPAF.NoRomance}}}}",
+				"Outdoor_4": "{{i18n: CFE_Shane_Married_Outdoor_{{Random: 7.PPAF.NoRomance,8}}}}",
+        		"winter_28": "{{i18n: CFE_Shane_Married_winter28.PPAF.NoRomance}}"
+			},
+			"When": {
+				"Query: '{{CFE_Shane}}' = 'true' OR ('{{CFE_Shane}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:ShaneRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		{
+			"LogName": "PPAF Shane Marriage Dialogue - No Sex",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueShane",
+			"Priority": "Late +2",
+			"Entries": {
+				"Indoor_Night_3": "{{i18n: CFE_Shane_Married_IndoorNight_{{Random: 7.PPAF.NoSex,8}}}}",
+				"Outdoor_0": "{{i18n: CFE_Shane_Married_Outdoor_1.PPAF.NoSex}}"
+			},
+			"When": {
+				"Query: '{{CFE_Shane}}' = 'true' OR ('{{CFE_Shane}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:ShaneRelationshipType |contains=FullyPlatonic, RomanceWithoutSex": true
+			}
+		},
+		{
+			"LogName": "PPAF Pierre Daily Dialogue - Shane No Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Pierre",
+			"Priority": "Late +2",
+			"Entries": {
+				"fall_Mon_inlaw_Shane": "{{i18n: CFE_Pierre_repeated_7.PPAF.ShaneNoRomance}}",
+				"winter_Mon_inlaw_Shane": "{{i18n: CFE_Pierre_repeated_7.PPAF.ShaneNoRomance}}"
+			},
+			"When": {
+				"Query: '{{CFE_Pierre}}' = 'true' OR ('{{CFE_Pierre}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true,
+				"PPAF.Core/ConfigValue:ShaneRelationshipType |contains=FullyPlatonic, SexWithoutRomance": true
+			}
+		},
+		// GENERAL
+		{
+			"LogName": "PPAF Evelyn Daily Dialogue - General",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Evelyn",
+			"Priority": "Late +2",
+			"Entries": {
+				"fall_Wed8": "{{i18n: CFE_Evelyn_fallWed8.PPAF.NoRomance}}"
+			},
+			"When": {
+				"Query: '{{CFE_Evelyn}}' = 'true' OR ('{{CFE_Evelyn}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true
+			}
+		},
+		{
+			"LogName": "PPAF Vincent Daily Dialogue - General",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Vincent",
+			"Priority": "Late +2",
+			"Entries": {
+				"summer_Tue": "{{i18n: CFE_Vincent_summerTue.PPAF.NoRomance}}"
+			},
+			"When": {
+				"Query: '{{CFE_Vincent}}' = 'true' OR ('{{CFE_Vincent}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+				"HasMod |contains= PPAF.Core": true
+			}
+		}
+	]
+}

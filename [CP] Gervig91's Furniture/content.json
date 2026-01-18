@@ -1,0 +1,986 @@
+{
+    "Format": "2.0.0",
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Entries": {
+                "{{ModId}}_EmptyPlaque0": "{{ModId}}_EmptyPlaque0/painting/2 2/2 2/1/200/-1/{{i18n:EmptyPlaque0.name}}/0/Mods\\{{ModId}}\\fishplaques",
+                "{{ModId}}_TheAnglerPlaque1": "{{ModId}}_TheAnglerPlaque1/painting/2 2/2 2/1/200/-1/{{i18n:TheAnglerPlaque1.name}}/2/Mods\\{{ModId}}\\fishplaques",
+                "{{ModId}}_TheCrimsonfishPlaque2": "{{ModId}}_TheCrimsonfishPlaque2/painting/2 2/2 2/1/200/-1/{{i18n:TheCrimsonfishPlaque2.name}}/4/Mods\\{{ModId}}\\fishplaques",
+                "{{ModId}}_TheGlacierfishPlaque3": "{{ModId}}_TheGlacierfishPlaque3/painting/2 2/2 2/1/200/-1/{{i18n:TheGlacierfishPlaque3.name}}/6/Mods\\{{ModId}}\\fishplaques",
+                "{{ModId}}_TheMutantcarpPlaque4": "{{ModId}}_TheMutantcarpPlaque4/painting/2 2/2 2/1/200/-1/{{i18n:TheMutantcarpPlaque4.name}}/8/Mods\\{{ModId}}\\fishplaques",
+                "{{ModId}}_TheLegendPlaque5": "{{ModId}}_TheLegendPlaque5/painting/2 2/2 2/1/200/-1/{{i18n:TheLegendPlaque5.name}}/10/Mods\\{{ModId}}\\fishplaques",
+                "{{ModId}}_LavaLamp6": "{{ModId}}_LavaLamp6/lamp/1 3/1 1/1/200/-1/{{i18n:LavaLamp6.name}}/0/Mods\\{{ModId}}\\lavalamp",
+                "{{ModId}}_Spectrum7": "{{ModId}}_Spectrum7/painting/1 2/1 2/1/200/-1/{{i18n:Spectrum7.name}}/0/Mods\\{{ModId}}\\spectrum",
+                "{{ModId}}_RedHelmet8": "{{ModId}}_RedHelmet8/decor/1 1/1 1/2/200/-1/{{i18n:RedHelmet8.name}}/0/Mods\\{{ModId}}\\helmets",
+                "{{ModId}}_GreenHelmet9": "{{ModId}}_GreenHelmet9/decor/1 1/1 1/2/200/-1/{{i18n:GreenHelmet9.name}}/2/Mods\\{{ModId}}\\helmets",
+                "{{ModId}}_BlueHelm10": "{{ModId}}_BlueHelm10/decor/1 1/1 1/2/200/-1/{{i18n:BlueHelm10.name}}/4/Mods\\{{ModId}}\\helmets",
+                "{{ModId}}_GreenUrn11": "{{ModId}}_GreenUrn11/decor/1 2/1 1/1/200/-1/{{i18n:GreenUrn11.name}}/0/Mods\\{{ModId}}\\urns",
+                "{{ModId}}_TwistedUrn12": "{{ModId}}_TwistedUrn12/decor/1 2/1 1/1/200/-1/{{i18n:TwistedUrn12.name}}/1/Mods\\{{ModId}}\\urns",
+                "{{ModId}}_PinkUrn13": "{{ModId}}_PinkUrn13/decor/1 2/1 1/1/200/-1/{{i18n:PinkUrn13.name}}/2/Mods\\{{ModId}}\\urns",
+                "{{ModId}}_PurpleUrn14": "{{ModId}}_PurpleUrn14/decor/1 2/1 1/1/200/-1/{{i18n:PurpleUrn14.name}}/3/Mods\\{{ModId}}\\urns",
+                "{{ModId}}_Drumset15": "{{ModId}}_Drumset15/decor/2 2/2 1/1/200/-1/{{i18n:Drumset15.name}}/0/Mods\\{{ModId}}\\instruments",
+                "{{ModId}}_Drumset16": "{{ModId}}_Drumset16/decor/2 2/2 1/1/200/-1/{{i18n:Drumset16.name}}/2/Mods\\{{ModId}}\\instruments",
+                "{{ModId}}_Keyboard17": "{{ModId}}_Keyboard17/decor/2 2/2 1/1/200/-1/{{i18n:Keyboard17.name}}/4/Mods\\{{ModId}}\\instruments",
+                "{{ModId}}_Keyboards18": "{{ModId}}_Keyboards18/decor/2 2/2 1/1/200/-1/{{i18n:Keyboards18.name}}/6/Mods\\{{ModId}}\\instruments",
+                "{{ModId}}_BlueGuitar19": "{{ModId}}_BlueGuitar19/decor/1 2/1 1/1/200/-1/{{i18n:BlueGuitar19.name}}/8/Mods\\{{ModId}}\\instruments",
+                "{{ModId}}_RedGuitar20": "{{ModId}}_RedGuitar20/decor/1 2/1 1/1/200/-1/{{i18n:RedGuitar20.name}}/9/Mods\\{{ModId}}\\instruments",
+                "{{ModId}}_GreenGuitar21": "{{ModId}}_GreenGuitar21/decor/1 2/1 1/1/200/-1/{{i18n:GreenGuitar21.name}}/10/Mods\\{{ModId}}\\instruments",
+                "{{ModId}}_Speaker22": "{{ModId}}_Speaker22/decor/2 2/1 1/1/200/-1/{{i18n:Speaker22.name}}/11/Mods\\{{ModId}}\\instruments",
+                "{{ModId}}_PostDimensionalNullspace23": "{{ModId}}_PostDimensionalNullspace23/decor/2 4/2 2/1/200/-1/{{i18n:PostDimensionalNullspace23.name}}/0/Mods\\{{ModId}}\\leahssculptures",
+                "{{ModId}}_UntitledSculpture24": "{{ModId}}_UntitledSculpture24/decor/1 4/1 1/1/200/-1/{{i18n:UntitledSculpture24.name}}/2/Mods\\{{ModId}}\\leahssculptures",
+                "{{ModId}}_EggHeads25": "{{ModId}}_EggHeads25/decor/1 5/1 2/1/200/-1/{{i18n:EggHeads25.name}}/0/Mods\\{{ModId}}\\eggheads",
+                "{{ModId}}_AltarofYoba26": "{{ModId}}_AltarofYoba26/decor/3 3/3 2/1/200/-1/{{i18n:AltarofYoba26.name}}/0/Mods\\{{ModId}}\\altarandshrine",
+                "{{ModId}}_ReplicaShrineofIllusion27": "{{ModId}}_ReplicaShrineofIllusion27/decor/3 3/3 1/1/200/-1/{{i18n:ReplicaShrineofIllusion27.name}}/3/Mods\\{{ModId}}\\altarandshrine",
+                "{{ModId}}_PendulumClock28": "{{ModId}}_PendulumClock28/decor/1 2/1 1/1/200/-1/{{i18n:PendulumClock28.name}}/0/Mods\\{{ModId}}\\clock",
+                "{{ModId}}_SummoningCircle29": "{{ModId}}_SummoningCircle29/rug/3 3/3 3/1/200/-1/{{i18n:SummoningCircle29.name}}/0/Mods\\{{ModId}}\\summoningcircle",
+                "{{ModId}}_PufferfishAquarium30": "{{ModId}}_PufferfishAquarium30/decor/5 3/5 1/1/200/-1/{{i18n:PufferfishAquarium30.name}}/0/Mods\\{{ModId}}\\pufferfishaquarium",
+                "{{ModId}}_FrogTerrarium31": "{{ModId}}_FrogTerrarium31/decor/5 3/5 1/1/200/-1/{{i18n:FrogTerrarium31.name}}/0/Mods\\{{ModId}}\\frogterrarium",
+                "{{ModId}}_TurtleTerrarium32": "{{ModId}}_TurtleTerrarium32/decor/4 3/4 1/1/200/-1/{{i18n:TurtleTerrarium32.name}}/0/Mods\\{{ModId}}\\turtleterrarium",
+                "{{ModId}}_BlueBird33": "{{ModId}}_BlueBird33/decor/3 3/2 1/1/200/-1/{{i18n:BlueBird33.name}}/0/Mods\\{{ModId}}\\bluebird",
+                "{{ModId}}_SnakeTerrarium34": "{{ModId}}_SnakeTerrarium34/decor/2 4/2 1/1/200/-1/{{i18n:SnakeTerrarium34.name}}/0/Mods\\{{ModId}}\\snaketerrarium",
+                "{{ModId}}_SnakeTerrarium35": "{{ModId}}_SnakeTerrarium35/decor/2 4/2 1/1/200/-1/{{i18n:SnakeTerrarium35.name}}/0/Mods\\{{ModId}}\\snaketerrarium2",
+                "{{ModId}}_EasterPhotoStandin36": "{{ModId}}_EasterPhotoStandin36/decor/1 3/1 1/1/200/-1/{{i18n:EasterPhotoStandin36.name}}/0/Mods\\{{ModId}}\\easter",
+                "{{ModId}}_BlueEasterEgg37": "{{ModId}}_BlueEasterEgg37/decor/1 1/1 1/1/200/-1/{{i18n:BlueEasterEgg37.name}}/1/Mods\\{{ModId}}\\easter",
+                "{{ModId}}_OrangeEasterEgg38": "{{ModId}}_OrangeEasterEgg38/decor/1 1/1 1/1/200/-1/{{i18n:OrangeEasterEgg38.name}}/2/Mods\\{{ModId}}\\easter",
+                "{{ModId}}_PinkEasterEgg39": "{{ModId}}_PinkEasterEgg39/decor/1 1/1 1/1/200/-1/{{i18n:PinkEasterEgg39.name}}/3/Mods\\{{ModId}}\\easter",
+                "{{ModId}}_GreenEasterEgg40": "{{ModId}}_GreenEasterEgg40/decor/1 1/1 1/1/200/-1/{{i18n:GreenEasterEgg40.name}}/4/Mods\\{{ModId}}\\easter",
+                "{{ModId}}_LargeTuboFlowers41": "{{ModId}}_LargeTuboFlowers41/decor/2 3/2 1/1/200/-1/{{i18n:LargeTuboFlowers41.name}}/5/Mods\\{{ModId}}\\easter",
+                "{{ModId}}_TallSpringFlowers42": "{{ModId}}_TallSpringFlowers42/decor/1 2/1 1/2/200/-1/{{i18n:TallSpringFlowers42.name}}/9/Mods\\{{ModId}}\\easter",
+                "{{ModId}}_SmallSpringFlowers43": "{{ModId}}_SmallSpringFlowers43/decor/1 1/1 1/1/200/-1/{{i18n:SmallSpringFlowers43.name}}/18/Mods\\{{ModId}}\\easter",
+                "{{ModId}}_EasterEggBasket44": "{{ModId}}_EasterEggBasket44/decor/1 1/1 1/1/200/-1/{{i18n:EasterEggBasket44.name}}/11/Mods\\{{ModId}}\\easter",
+                "{{ModId}}_CrimsonfishAquarium45": "{{ModId}}_CrimsonfishAquarium45/decor/3 3/3 1/1/200/-1/{{i18n:CrimsonfishAquarium45.name}}/0/Mods\\{{ModId}}\\crimsonfishaquarium",
+                "{{ModId}}_LegendAquarium46": "{{ModId}}_LegendAquarium46/decor/3 3/3 1/1/200/-1/{{i18n:LegendAquarium46.name}}/0/Mods\\{{ModId}}\\legendaquarium",
+                "{{ModId}}_PrismaticLavaLamp47": "{{ModId}}_PrismaticLavaLamp47/decor/1 3/1 1/1/200/-1/{{i18n:PrismaticLavaLamp47.name}}/0/Mods\\{{ModId}}\\prismaticlavalamp",
+                "{{ModId}}_GlacierfishAquarium48": "{{ModId}}_GlacierfishAquarium48/decor/3 3/3 1/1/200/-1/{{i18n:GlacierfishAquarium48.name}}/0/Mods\\{{ModId}}\\glacierfishaquarium",
+                "{{ModId}}_SnakeTerrarium49": "{{ModId}}_SnakeTerrarium49/decor/2 4/2 1/1/200/-1/{{i18n:SnakeTerrarium49.name}}/0/Mods\\{{ModId}}\\snaketerrarium3",
+                "{{ModId}}_GiantSpiderDecor50": "{{ModId}}_GiantSpiderDecor50/decor/2 2/2 2/1/200/-1/{{i18n:GiantSpiderDecor50.name}}/0/Mods\\{{ModId}}\\spookystuff",
+                "{{ModId}}_SmallSpiderDecor51": "{{ModId}}_SmallSpiderDecor51/decor/1 1/1 1/1/200/-1/{{i18n:SmallSpiderDecor51.name}}/2/Mods\\{{ModId}}\\spookystuff",
+                "{{ModId}}_Skull52": "{{ModId}}_Skull52/decor/1 1/1 1/2/200/-1/{{i18n:Skull52.name}}/3/Mods\\{{ModId}}\\spookystuff",
+                "{{ModId}}_Cobweb53": "{{ModId}}_Cobweb53/painting/1 2/1 2/1/200/-1/{{i18n:Cobweb53.name}}/5/Mods\\{{ModId}}\\spookystuff",
+                "{{ModId}}_Bones54": "{{ModId}}_Bones54/decor/1 1/1 1/2/200/-1/{{i18n:Bones54.name}}/20/Mods\\{{ModId}}\\spookystuff",
+                "{{ModId}}_UncarvedPumpkin55": "{{ModId}}_UncarvedPumpkin55/decor/1 1/1 1/1/200/-1/{{i18n:UncarvedPumpkin55.name}}/22/Mods\\{{ModId}}\\spookystuff",
+                "{{ModId}}_BubblingPot56": "{{ModId}}_BubblingPot56/decor/1 2/1 1/1/200/-1/{{i18n:BubblingPot56.name}}/0/Mods\\{{ModId}}\\bubblingpot",
+                "{{ModId}}_BurningPot57": "{{ModId}}_BurningPot57/decor/1 2/1 1/1/200/-1/{{i18n:BurningPot57.name}}/0/Mods\\{{ModId}}\\burningpot",
+                "{{ModId}}_GiantSpiderEgg58": "{{ModId}}_GiantSpiderEgg58/decor/1 1/1 1/1/200/-1/{{i18n:GiantSpiderEgg58.name}}/36/Mods\\{{ModId}}\\spookystuff",
+                "{{ModId}}_SmallSpiderEggs59": "{{ModId}}_SmallSpiderEggs59/decor/1 1/1 1/1/200/-1/{{i18n:SmallSpiderEggs59.name}}/68/Mods\\{{ModId}}\\spookystuff",
+                "{{ModId}}_AnimatedHand60": "{{ModId}}_AnimatedHand60/decor/1 1/1 1/1/200/-1/{{i18n:AnimatedHand60.name}}/39/Mods\\{{ModId}}\\animatedhand",
+                "{{ModId}}_CarvedPumpkin61": "{{ModId}}_CarvedPumpkin61/decor/1 1/1 1/2/200/-1/{{i18n:CarvedPumpkin61.name}}/44/Mods\\{{ModId}}\\spookystuff",
+                "{{ModId}}_CarvedPumpkin62": "{{ModId}}_CarvedPumpkin62/decor/1 1/1 1/2/200/-1/{{i18n:CarvedPumpkin62.name}}/46/Mods\\{{ModId}}\\spookystuff",
+                "{{ModId}}_CarvedPumpkin63": "{{ModId}}_CarvedPumpkin63/decor/1 1/1 1/2/200/-1/{{i18n:CarvedPumpkin63.name}}/48/Mods\\{{ModId}}\\spookystuff",
+                "{{ModId}}_Cage64": "{{ModId}}_Cage64/decor/3 4/4 1/1/200/-1/{{i18n:Cage64.name}}/51/Mods\\{{ModId}}\\spookystuff",
+                "{{ModId}}_SpookyTV65": "{{ModId}}_SpookyTV65/decor/2 2/2 1/1/200/-1/{{i18n:SpookyTV65.name}}/54/Mods\\{{ModId}}\\spookystuff",
+                "{{ModId}}_MagnifyingGlass66": "{{ModId}}_MagnifyingGlass66/decor/1 1/1 1/1/200/-1/{{i18n:MagnifyingGlass66.name}}/86/Mods\\{{ModId}}\\spookystuff",
+                "{{ModId}}_SunPoster67": "{{ModId}}_SunPoster67/painting/2 2/2 2/1/200/-1/{{i18n:SunPoster67.name}}/90/Mods\\{{ModId}}\\spookystuff",
+                "{{ModId}}_MoonPoster68": "{{ModId}}_MoonPoster68/painting/2 2/2 2/1/200/-1/{{i18n:MoonPoster68.name}}/92/Mods\\{{ModId}}\\spookystuff",
+                "{{ModId}}_BookPedestalEmpty69": "{{ModId}}_BookPedestalEmpty69/decor/1 2/1 1/1/200/-1/{{i18n:BookPedestalEmpty69.name}}/94/Mods\\{{ModId}}\\spookystuff",
+                "{{ModId}}_BookPedestal70": "{{ModId}}_BookPedestal70/decor/1 2/1 1/1/200/-1/{{i18n:BookPedestal70.name}}/95/Mods\\{{ModId}}\\spookystuff",
+                "{{ModId}}_JellO71": "{{ModId}}_JellO71/decor/1 1/1 1/1/200/-1/{{i18n:JellO71.name}}/50/Mods\\{{ModId}}\\spookystuff",
+                "{{ModId}}_FakeSpider72": "{{ModId}}_FakeSpider72/painting/1 2/1 2/1/200/-1/{{i18n:FakeSpider72.name}}/0/Mods\\{{ModId}}\\fakespider",
+                "{{ModId}}_DwarvishTranslationGuide73": "{{ModId}}_DwarvishTranslationGuide73/decor/1 1/1 1/1/200/-1/{{i18n:DwarvishTranslationGuide73.name}}/102/Mods\\{{ModId}}\\spookystuff",
+                "{{ModId}}_RustyKey74": "{{ModId}}_RustyKey74/decor/1 1/1 1/1/200/-1/{{i18n:RustyKey74.name}}/103/Mods\\{{ModId}}\\spookystuff",
+                "{{ModId}}_SkullKey75": "{{ModId}}_SkullKey75/decor/1 1/1 1/1/200/-1/{{i18n:SkullKey75.name}}/104/Mods\\{{ModId}}\\spookystuff",
+                "{{ModId}}_MagicInk76": "{{ModId}}_MagicInk76/decor/1 1/1 1/2/200/-1/{{i18n:MagicInk76.name}}/120/Mods\\{{ModId}}\\spookystuff",
+                "{{ModId}}_DarkTalisman77": "{{ModId}}_DarkTalisman77/decor/1 1/1 1/1/200/-1/{{i18n:DarkTalisman77.name}}/0/Mods\\{{ModId}}\\darktalisman",
+                "{{ModId}}_Owl78": "{{ModId}}_Owl78/decor/3 3/2 1/1/200/-1/{{i18n:Owl78.name}}/0/Mods\\{{ModId}}\\owl",
+                "{{ModId}}_Crow79": "{{ModId}}_Crow79/decor/3 3/2 1/1/200/-1/{{i18n:Crow79.name}}/0/Mods\\{{ModId}}\\crow",
+                "{{ModId}}_RedBird80": "{{ModId}}_RedBird80/decor/3 3/2 1/1/200/-1/{{i18n:RedBird80.name}}/0/Mods\\{{ModId}}\\redbird",
+                "{{ModId}}_WhiteBird81": "{{ModId}}_WhiteBird81/decor/3 3/2 1/1/200/-1/{{i18n:WhiteBird81.name}}/0/Mods\\{{ModId}}\\whitebird",
+                "{{ModId}}_BrownBird82": "{{ModId}}_BrownBird82/decor/3 3/2 1/1/200/-1/{{i18n:BrownBird82.name}}/0/Mods\\{{ModId}}\\brownbird",
+                "{{ModId}}_Inconspicuousgardenpot83": "{{ModId}}_Inconspicuousgardenpot83/decor/1 2/1 1/1/200/-1/{{i18n:Inconspicuousgardenpot83.name}}/0/Mods\\{{ModId}}\\duggy",
+                "{{ModId}}_BunnyEnclosure84": "{{ModId}}_BunnyEnclosure84/decor/4 3/4 3/1/200/-1/{{i18n:BunnyEnclosure84.name}}/0/Mods\\{{ModId}}\\bunnyenclosure",
+                "{{ModId}}_YobaSymbol85": "{{ModId}}_YobaSymbol85/painting/1 2/1 2/1/200/-1/{{i18n:YobaSymbol85.name}}/6/Mods\\{{ModId}}\\altarandshrine",
+                "{{ModId}}_YobaAlar86": "{{ModId}}_YobaAlar86/decor/2 2/2 2/1/200/-1/{{i18n:YobaAlar86.name}}/7/Mods\\{{ModId}}\\altarandshrine",
+                "{{ModId}}_DarkShrineofNightTerrorsReplica87": "{{ModId}}_DarkShrineofNightTerrorsReplica87/decor/2 4/2 1/1/200/-1/{{i18n:DarkShrineofNightTerrorsReplica87.name}}/0/Mods\\{{ModId}}\\shrines",
+                "{{ModId}}_DarkShrineofNightTerrorsReplica88": "{{ModId}}_DarkShrineofNightTerrorsReplica88/decor/2 4/2 1/1/200/-1/{{i18n:DarkShrineofNightTerrorsReplica88.name}}/2/Mods\\{{ModId}}\\shrines",
+                "{{ModId}}_DarkShrineofSelfishnessReplica89": "{{ModId}}_DarkShrineofSelfishnessReplica89/decor/2 4/2 1/1/200/-1/{{i18n:DarkShrineofSelfishnessReplica89.name}}/4/Mods\\{{ModId}}\\shrines",
+                "{{ModId}}_DarkShrineofSelfishnessReplica90": "{{ModId}}_DarkShrineofSelfishnessReplica90/decor/2 4/2 1/1/200/-1/{{i18n:DarkShrineofSelfishnessReplica90.name}}/6/Mods\\{{ModId}}\\shrines",
+                "{{ModId}}_DarkShrineofMemoryReplica91": "{{ModId}}_DarkShrineofMemoryReplica91/decor/3 4/3 1/1/200/-1/{{i18n:DarkShrineofMemoryReplica91.name}}/8/Mods\\{{ModId}}\\shrines",
+                "{{ModId}}_MermaidIceSculpture92": "{{ModId}}_MermaidIceSculpture92/decor/2 3/2 1/1/200/-1/{{i18n:MermaidIceSculpture92.name}}/0/Mods\\{{ModId}}\\icesculptures",
+                "{{ModId}}_CoolIceSculpture93": "{{ModId}}_CoolIceSculpture93/decor/2 3/2 1/1/200/-1/{{i18n:CoolIceSculpture93.name}}/2/Mods\\{{ModId}}\\icesculptures",
+                "{{ModId}}_IceCastleSculpture94": "{{ModId}}_IceCastleSculpture94/decor/2 3/2 1/1/200/-1/{{i18n:IceCastleSculpture94.name}}/4/Mods\\{{ModId}}\\icesculptures",
+                "{{ModId}}_FrogTerrarium95": "{{ModId}}_FrogTerrarium95/decor/5 3/5 1/1/200/-1/{{i18n:FrogTerrarium95.name}}/0/Mods\\{{ModId}}\\frogterrarium2",
+                "{{ModId}}_FrogTerrarium96": "{{ModId}}_FrogTerrarium96/decor/5 3/5 1/1/200/-1/{{i18n:FrogTerrarium96.name}}/0/Mods\\{{ModId}}\\frogterrarium3",
+                "{{ModId}}_SnakeTerrarium97": "{{ModId}}_SnakeTerrarium97/decor/2 4/2 1/1/200/-1/{{i18n:SnakeTerrarium97.name}}/0/Mods\\{{ModId}}\\snaketerrarium4",
+                "{{ModId}}_SnakeTerrarium98": "{{ModId}}_SnakeTerrarium98/decor/2 4/2 1/1/200/-1/{{i18n:SnakeTerrarium98.name}}/0/Mods\\{{ModId}}\\snaketerrarium5",
+                "{{ModId}}_SnakeTerrarium99": "{{ModId}}_SnakeTerrarium99/decor/2 4/2 1/1/200/-1/{{i18n:SnakeTerrarium99.name}}/0/Mods\\{{ModId}}\\snaketerrarium6",
+                "{{ModId}}_SnakeTerrarium100": "{{ModId}}_SnakeTerrarium100/decor/2 4/2 1/1/200/-1/{{i18n:SnakeTerrarium100.name}}/0/Mods\\{{ModId}}\\snaketerrarium7",
+                "{{ModId}}_SnakeTerrarium101": "{{ModId}}_SnakeTerrarium101/decor/2 4/2 1/1/200/-1/{{i18n:SnakeTerrarium101.name}}/0/Mods\\{{ModId}}\\snaketerrarium8",
+                "{{ModId}}_Phoenix102": "{{ModId}}_Phoenix102/decor/1 3/1 1/1/200/-1/{{i18n:Phoenix102.name}}/0/Mods\\{{ModId}}\\phoenix",
+                "{{ModId}}_BearPendulumClock103": "{{ModId}}_BearPendulumClock103/decor/1 2/1 1/1/200/-1/{{i18n:BearPendulumClock103.name}}/0/Mods\\{{ModId}}\\bearclock",
+                "{{ModId}}_AnglerAquarium104": "{{ModId}}_AnglerAquarium104/decor/3 3/3 1/1/200/-1/{{i18n:AnglerAquarium104.name}}/0/Mods\\{{ModId}}\\angleraquarium",
+                "{{ModId}}_AssortedPottedPlants105": "{{ModId}}_AssortedPottedPlants105/decor/3 3/3 2/1/200/-1/{{i18n:AssortedPottedPlants105.name}}/0/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_BigFlowerPot106": "{{ModId}}_BigFlowerPot106/decor/2 3/2 1/1/200/-1/{{i18n:BigFlowerPot106.name}}/3/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_PottedTulip107": "{{ModId}}_PottedTulip107/decor/1 1/1 1/1/200/-1/{{i18n:PottedTulip107.name}}/5/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_PottedTulip108": "{{ModId}}_PottedTulip108/decor/1 1/1 1/1/200/-1/{{i18n:PottedTulip108.name}}/6/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_PottedTulip109": "{{ModId}}_PottedTulip109/decor/1 1/1 1/1/200/-1/{{i18n:PottedTulip109.name}}/7/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_PottedTulip110": "{{ModId}}_PottedTulip110/decor/1 1/1 1/1/200/-1/{{i18n:PottedTulip110.name}}/8/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_PottedTulip111": "{{ModId}}_PottedTulip111/decor/1 1/1 1/1/200/-1/{{i18n:PottedTulip111.name}}/9/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_Mediumsizedflowerpot112": "{{ModId}}_Mediumsizedflowerpot112/decor/1 2/1 1/1/200/-1/{{i18n:Mediumsizedflowerpot112.name}}/15/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_Blueflowerpot113": "{{ModId}}_Blueflowerpot113/decor/1 2/1 1/1/200/-1/{{i18n:Blueflowerpot113.name}}/17/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_Blueflowerpot114": "{{ModId}}_Blueflowerpot114/decor/1 2/1 1/1/200/-1/{{i18n:Blueflowerpot114.name}}/18/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_Blueflowerpot115": "{{ModId}}_Blueflowerpot115/decor/1 2/1 1/1/200/-1/{{i18n:Blueflowerpot115.name}}/19/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_SpringPot116": "{{ModId}}_SpringPot116/decor/1 1/1 1/1/200/-1/{{i18n:SpringPot116.name}}/30/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_SpringPot117": "{{ModId}}_SpringPot117/decor/1 1/1 1/1/200/-1/{{i18n:SpringPot117.name}}/31/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_SpringPot118": "{{ModId}}_SpringPot118/decor/1 1/1 1/1/200/-1/{{i18n:SpringPot118.name}}/32/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_SpringFlowersWide119": "{{ModId}}_SpringFlowersWide119/decor/3 2/3 1/1/200/-1/{{i18n:SpringFlowersWide119.name}}/40/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_SpringFlowersTall120": "{{ModId}}_SpringFlowersTall120/decor/1 3/1 3/1/200/-1/{{i18n:SpringFlowersTall120.name}}/36/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_TallFlower121": "{{ModId}}_TallFlower121/decor/1 2/1 1/1/200/-1/{{i18n:TallFlower121.name}}/47/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_TallFlower122": "{{ModId}}_TallFlower122/decor/1 2/1 1/1/200/-1/{{i18n:TallFlower122.name}}/58/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_SpringPot123": "{{ModId}}_SpringPot123/decor/1 1/1 1/1/200/-1/{{i18n:SpringPot123.name}}/60/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_SpringPot124": "{{ModId}}_SpringPot124/decor/1 1/1 1/1/200/-1/{{i18n:SpringPot124.name}}/61/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_SpringPot125": "{{ModId}}_SpringPot125/decor/1 1/1 1/1/200/-1/{{i18n:SpringPot125.name}}/63/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_SpringFlowersTall126": "{{ModId}}_SpringFlowersTall126/decor/1 3/1 3/1/200/-1/{{i18n:SpringFlowersTall126.name}}/66/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_SpringFlowersWide127": "{{ModId}}_SpringFlowersWide127/decor/3 2/3 1/1/200/-1/{{i18n:SpringFlowersWide127.name}}/70/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_SummerPot128": "{{ModId}}_SummerPot128/decor/1 1/1 1/1/200/-1/{{i18n:SummerPot128.name}}/90/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_SummerPot129": "{{ModId}}_SummerPot129/decor/1 1/1 1/1/200/-1/{{i18n:SummerPot129.name}}/91/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_SummerPot130": "{{ModId}}_SummerPot130/decor/1 1/1 1/1/200/-1/{{i18n:SummerPot130.name}}/92/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_SummerPot131": "{{ModId}}_SummerPot131/decor/1 1/1 1/1/200/-1/{{i18n:SummerPot131.name}}/120/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_SummerPot132": "{{ModId}}_SummerPot132/decor/1 1/1 1/1/200/-1/{{i18n:SummerPot132.name}}/121/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_SummerPot133": "{{ModId}}_SummerPot133/decor/1 1/1 1/1/200/-1/{{i18n:SummerPot133.name}}/122/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_SummerFlowersWide134": "{{ModId}}_SummerFlowersWide134/decor/3 2/3 1/1/200/-1/{{i18n:SummerFlowersWide134.name}}/100/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_SummerFlowersWide135": "{{ModId}}_SummerFlowersWide135/decor/3 2/3 1/1/200/-1/{{i18n:SummerFlowersWide135.name}}/131/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_SummerFlowersTall136": "{{ModId}}_SummerFlowersTall136/decor/1 3/1 3/1/200/-1/{{i18n:SummerFlowersTall136.name}}/96/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_SummerFlowersTall137": "{{ModId}}_SummerFlowersTall137/decor/1 3/1 3/1/200/-1/{{i18n:SummerFlowersTall137.name}}/126/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_WideBushes138": "{{ModId}}_WideBushes138/decor/3 2/3 1/1/200/-1/{{i18n:WideBushes138.name}}/152/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_SmallPottedPlant139": "{{ModId}}_SmallPottedPlant139/decor/1 1/1 1/1/200/-1/{{i18n:SmallPottedPlant139.name}}/166/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_WideFlowerbush140": "{{ModId}}_WideFlowerbush140/decor/3 2/3 1/1/200/-1/{{i18n:WideFlowerbush140.name}}/170/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_SmallPottedFlowerbush141": "{{ModId}}_SmallPottedFlowerbush141/decor/1 1/1 1/1/200/-1/{{i18n:SmallPottedFlowerbush141.name}}/186/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_FallMushroomBush142": "{{ModId}}_FallMushroomBush142/decor/3 2/3 1/1/200/-1/{{i18n:FallMushroomBush142.name}}/190/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_SmallMushroombush143": "{{ModId}}_SmallMushroombush143/decor/1 1/1 1/1/200/-1/{{i18n:SmallMushroombush143.name}}/206/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_TallFlower144": "{{ModId}}_TallFlower144/decor/1 2/1 1/1/200/-1/{{i18n:TallFlower144.name}}/39/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_TallFlower145": "{{ModId}}_TallFlower145/decor/1 2/1 1/1/200/-1/{{i18n:TallFlower145.name}}/59/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_SquirrelPot146": "{{ModId}}_SquirrelPot146/decor/2 3/2 1/1/200/-1/{{i18n:SquirrelPot146.name}}/0/Mods\\{{ModId}}\\squirrel",
+                "{{ModId}}_DreamPlant147": "{{ModId}}_DreamPlant147/decor/3 4/2 1/1/200/-1/{{i18n:DreamPlant147.name}}/83/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_MutantcarpAquarium148": "{{ModId}}_MutantcarpAquarium148/decor/3 3/3 1/1/200/-1/{{i18n:MutantcarpAquarium148.name}}/0/Mods\\{{ModId}}\\mutantcarp",
+                "{{ModId}}_Telescope149": "{{ModId}}_Telescope149/decor/1 2/1 1/1/200/-1/{{i18n:Telescope149.name}}/16/Mods\\{{ModId}}\\plants",
+                "{{ModId}}_SnakeSkeleton150": "{{ModId}}_SnakeSkeleton150/decor/1 3/1 3/1/200/-1/{{i18n:SnakeSkeleton150.name}}/0/Mods\\{{ModId}}\\snake_skeleton",
+                "{{ModId}}_LargeAnimalSkeleton151": "{{ModId}}_LargeAnimalSkeleton151/decor/3 4/3 2/1/200/-1/{{i18n:LargeAnimalSkeleton151.name}}/0/Mods\\{{ModId}}\\large_animal",
+                "{{ModId}}_SmallBookCase152": "{{ModId}}_SmallBookCase152/bookcase/2 2/2 1/1/200/-1/{{i18n:SmallBookCase152.name}}/2/Mods\\{{ModId}}\\books",
+                "{{ModId}}_SmallBookCase153": "{{ModId}}_SmallBookCase153/bookcase/2 2/2 1/1/200/-1/{{i18n:SmallBookCase153.name}}/4/Mods\\{{ModId}}\\books",
+                "{{ModId}}_SmallBookCase154": "{{ModId}}_SmallBookCase154/bookcase/2 3/2 1/1/200/-1/{{i18n:SmallBookCase154.name}}/30/Mods\\{{ModId}}\\books",
+                "{{ModId}}_SmallBookCase155": "{{ModId}}_SmallBookCase155/bookcase/2 3/2 1/1/200/-1/{{i18n:SmallBookCase155.name}}/32/Mods\\{{ModId}}\\books",
+                "{{ModId}}_BookCase156": "{{ModId}}_BookCase156/bookcase/2 3/2 1/1/200/-1/{{i18n:BookCase156.name}}/0/Mods\\{{ModId}}\\books",
+                "{{ModId}}_BookCase157": "{{ModId}}_BookCase157/bookcase/2 3/2 1/1/200/-1/{{i18n:BookCase157.name}}/6/Mods\\{{ModId}}\\books",
+                "{{ModId}}_BookCase158": "{{ModId}}_BookCase158/bookcase/2 3/2 1/1/200/-1/{{i18n:BookCase158.name}}/1083/Mods\\{{ModId}}\\books",
+                "{{ModId}}_BookCase159": "{{ModId}}_BookCase159/bookcase/2 3/2 1/1/200/-1/{{i18n:BookCase159.name}}/16/Mods\\{{ModId}}\\books",
+                "{{ModId}}_BookCase160": "{{ModId}}_BookCase160/bookcase/2 3/2 1/1/200/-1/{{i18n:BookCase160.name}}/1085/Mods\\{{ModId}}\\books",
+                "{{ModId}}_LuxuryBookCase161": "{{ModId}}_LuxuryBookCase161/bookcase/2 3/2 1/1/200/-1/{{i18n:LuxuryBookCase161.name}}/26/Mods\\{{ModId}}\\books",
+                "{{ModId}}_LuxuryBookCase162": "{{ModId}}_LuxuryBookCase162/bookcase/2 3/2 1/1/200/-1/{{i18n:LuxuryBookCase162.name}}/28/Mods\\{{ModId}}\\books",
+                "{{ModId}}_ModernBookCase163": "{{ModId}}_ModernBookCase163/bookcase/2 3/2 1/1/200/-1/{{i18n:ModernBookCase163.name}}/34/Mods\\{{ModId}}\\books",
+                "{{ModId}}_ModernBookCase164": "{{ModId}}_ModernBookCase164/bookcase/2 3/2 1/1/200/-1/{{i18n:ModernBookCase164.name}}/36/Mods\\{{ModId}}\\books",
+                "{{ModId}}_ModernBookCasewithSpider165": "{{ModId}}_ModernBookCasewithSpider165/bookcase/2 3/2 1/1/200/-1/{{i18n:ModernBookCasewithSpider165.name}}/0/Mods\\{{ModId}}\\modernbookcasewithspider",
+                "{{ModId}}_ArtistBookCase166": "{{ModId}}_ArtistBookCase166/bookcase/2 3/2 1/1/200/-1/{{i18n:ArtistBookCase166.name}}/41/Mods\\{{ModId}}\\books",
+                "{{ModId}}_ArtistBookCase167": "{{ModId}}_ArtistBookCase167/bookcase/2 3/2 1/1/200/-1/{{i18n:ArtistBookCase167.name}}/43/Mods\\{{ModId}}\\books",
+                "{{ModId}}_DarkBookCase168": "{{ModId}}_DarkBookCase168/bookcase/2 3/2 1/1/200/-1/{{i18n:DarkBookCase168.name}}/48/Mods\\{{ModId}}\\books",
+                "{{ModId}}_DarkBookCase169": "{{ModId}}_DarkBookCase169/bookcase/2 3/2 1/1/200/-1/{{i18n:DarkBookCase169.name}}/50/Mods\\{{ModId}}\\books",
+                "{{ModId}}_DarkBookCasewithEyeinaJar170": "{{ModId}}_DarkBookCasewithEyeinaJar170/bookcase/2 3/2 1/1/200/-1/{{i18n:DarkBookCasewithEyeinaJar170.name}}/0/Mods\\{{ModId}}\\darkbookcasewitheyeinajar",
+                "{{ModId}}_MagicBookcase171": "{{ModId}}_MagicBookcase171/bookcase/2 3/2 1/1/200/-1/{{i18n:MagicBookcase171.name}}/0/Mods\\{{ModId}}\\magicbookcase",
+                "{{ModId}}_EmptyLuxuryBookCase172": "{{ModId}}_EmptyLuxuryBookCase172/bookcase/2 3/2 1/1/200/-1/{{i18n:EmptyLuxuryBookCase172.name}}/8/Mods\\{{ModId}}\\books",
+                "{{ModId}}_EmptyDarkBookCase173": "{{ModId}}_EmptyDarkBookCase173/bookcase/2 3/2 1/1/200/-1/{{i18n:EmptyDarkBookCase173.name}}/10/Mods\\{{ModId}}\\books",
+                "{{ModId}}_EmptyModernBookCase174": "{{ModId}}_EmptyModernBookCase174/bookcase/2 3/2 1/1/200/-1/{{i18n:EmptyModernBookCase174.name}}/12/Mods\\{{ModId}}\\books",
+                "{{ModId}}_EmptyArtistBookCase175": "{{ModId}}_EmptyArtistBookCase175/bookcase/2 3/2 1/1/200/-1/{{i18n:EmptyArtistBookCase175.name}}/14/Mods\\{{ModId}}\\books",
+                "{{ModId}}_LargeBookCase176": "{{ModId}}_LargeBookCase176/bookcase/3 3/3 1/1/200/-1/{{i18n:LargeBookCase176.name}}/18/Mods\\{{ModId}}\\books",
+                "{{ModId}}_LargeBookCase177": "{{ModId}}_LargeBookCase177/bookcase/3 3/3 1/1/200/-1/{{i18n:LargeBookCase177.name}}/23/Mods\\{{ModId}}\\books",
+                "{{ModId}}_LargeModernBookCase178": "{{ModId}}_LargeModernBookCase178/bookcase/3 3/3 1/1/200/-1/{{i18n:LargeModernBookCase178.name}}/1080/Mods\\{{ModId}}\\books",
+                "{{ModId}}_LargeArtistBookCase179": "{{ModId}}_LargeArtistBookCase179/bookcase/3 3/3 1/1/200/-1/{{i18n:LargeArtistBookCase179.name}}/45/Mods\\{{ModId}}\\books",
+                "{{ModId}}_MagicDesk180": "{{ModId}}_MagicDesk180/decor/3 3/3 2/1/200/-1/{{i18n:MagicDesk180.name}}/0/Mods\\{{ModId}}\\magicdesk",
+                "{{ModId}}_SpookyTV181": "{{ModId}}_SpookyTV181/decor/3 3/3 1/1/200/-1/{{i18n:SpookyTV181.name}}/720/Mods\\{{ModId}}\\books",
+                "{{ModId}}_RedPetBed182": "{{ModId}}_RedPetBed182/rug/1 1/1 1/1/200/-1/{{i18n:RedPetBed182.name}}/242/Mods\\{{ModId}}\\books",
+                "{{ModId}}_BluePetBed183": "{{ModId}}_BluePetBed183/rug/1 1/1 1/1/200/-1/{{i18n:BluePetBed183.name}}/243/Mods\\{{ModId}}\\books",
+                "{{ModId}}_BlackPetBed184": "{{ModId}}_BlackPetBed184/rug/1 1/1 1/1/200/-1/{{i18n:BlackPetBed184.name}}/244/Mods\\{{ModId}}\\books",
+                "{{ModId}}_GreenPetBed185": "{{ModId}}_GreenPetBed185/rug/1 1/1 1/1/200/-1/{{i18n:GreenPetBed185.name}}/245/Mods\\{{ModId}}\\books",
+                "{{ModId}}_Owl186": "{{ModId}}_Owl186/decor/3 3/2 1/1/200/-1/{{i18n:Owl186.name}}/0/Mods\\{{ModId}}\\owl2",
+                "{{ModId}}_Owl187": "{{ModId}}_Owl187/decor/3 3/2 1/1/100/-1/{{i18n:Owl187.name}}/0/Mods\\{{ModId}}\\owl3"
+            }
+    },
+    // static textures (mostly)
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/books",
+        "FromFile": "assets/books.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/fishplaques",
+        "FromFile": "assets/fishplaques.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/plants",
+        "FromFile": "assets/plants.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/urns",
+        "FromFile": "assets/urns.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/instruments",
+        "FromFile": "assets/instruments.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/icesculptures",
+        "FromFile": "assets/icesculptures.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/easter",
+        "FromFile": "assets/easter.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/helmets",
+        "FromFile": "assets/helmets.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/shrines",
+        "FromFile": "assets/shrines.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/altarandshrine",
+        "FromFile": "assets/altarandshrine.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/large_animal",
+        "FromFile": "assets/large_animal.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/spookystuff",
+        "FromFile": "assets/spookystuff.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/leahssculptures",
+        "FromFile": "assets/leahssculptures.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/snake_skeleton",
+        "FromFile": "assets/snake_skeleton.png"
+    },
+
+    // animated textures
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/spectrum",
+        "FromFile": "assets/spectrum.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/clock",
+        "FromFile": "assets/clock.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/summoningcircle",
+        "FromFile": "assets/summoningcircle.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/pufferfishaquarium",
+        "FromFile": "assets/pufferfishaquarium.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/frogterrarium",
+        "FromFile": "assets/frogterrarium.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/turtleterrarium",
+        "FromFile": "assets/turtleterrarium.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/bluebird",
+        "FromFile": "assets/bluebird.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/snaketerrarium",
+        "FromFile": "assets/snaketerrarium.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/snaketerrarium2",
+        "FromFile": "assets/snaketerrarium2.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/crimsonfishaquarium",
+        "FromFile": "assets/crimsonfishaquarium.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/legendaquarium",
+        "FromFile": "assets/legendaquarium.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/prismaticlavalamp",
+        "FromFile": "assets/prismaticlavalamp.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/lavalamp",
+        "FromFile": "assets/lavalamp.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/glacierfishaquarium",
+        "FromFile": "assets/glacierfishaquarium.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/snaketerrarium3",
+        "FromFile": "assets/snaketerrarium3.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/owl",
+        "FromFile": "assets/owl.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/crow",
+        "FromFile": "assets/crow.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/redbird",
+        "FromFile": "assets/redbird.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/whitebird",
+        "FromFile": "assets/whitebird.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/brownbird",
+        "FromFile": "assets/brownbird.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/duggy",
+        "FromFile": "assets/duggy.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/bunnyenclosure",
+        "FromFile": "assets/bunnyenclosure.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/frogterrarium2",
+        "FromFile": "assets/frogterrarium2.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/frogterrarium3",
+        "FromFile": "assets/frogterrarium3.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/snaketerrarium4",
+        "FromFile": "assets/snaketerrarium4.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/snaketerrarium5",
+        "FromFile": "assets/snaketerrarium5.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/snaketerrarium6",
+        "FromFile": "assets/snaketerrarium6.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/snaketerrarium7",
+        "FromFile": "assets/snaketerrarium7.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/snaketerrarium8",
+        "FromFile": "assets/snaketerrarium8.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/phoenix",
+        "FromFile": "assets/phoenix.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/bearclock",
+        "FromFile": "assets/bearclock.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/angleraquarium",
+        "FromFile": "assets/angleraquarium.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/squirrel",
+        "FromFile": "assets/squirrel.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/mutantcarp",
+        "FromFile": "assets/mutantcarp.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/owl2",
+        "FromFile": "assets/owl2.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/owl3",
+        "FromFile": "assets/owl3.png"
+    },
+    // animations in CP when ?!?!? *cries*
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/eggheads",
+        "FromFile": "assets/eggheads.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/modernbookcasewithspider",
+        "FromFile": "assets/modernbookcasewithspider.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/fakespider",
+        "FromFile": "assets/fakespider.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/darktalisman",
+        "FromFile": "assets/darktalisman.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/darkbookcasewitheyeinajar",
+        "FromFile": "assets/darkbookcasewitheyeinajar.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/magicbookcase",
+        "FromFile": "assets/magicbookcase.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/magicdesk",
+        "FromFile": "assets/magicdesk.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/animatedhand",
+        "FromFile": "assets/animatedhand.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/bubblingpot",
+        "FromFile": "assets/bubblingpot.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/burningpot",
+        "FromFile": "assets/burningpot.png"
+    },
+
+    // animations, yes I in the content.json because I can't use include because... you know.. CP :D :D :D
+{
+        "LogName": "Gervig91's Furniture animatedhand animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/animatedhand",
+        "FromFile": "assets/animatedhand.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+        "AnimationFrameTime": 20,
+        "AnimationFrameCount": 4
+    },
+    {
+        "LogName": "Gervig91's Furniture SpookyTV1 animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/SpookyTV1",
+        "FromFile": "assets/SpookyTV1.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 48 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 48 },
+        "AnimationFrameTime": 12,
+        "AnimationFrameCount": 40
+    },
+    {
+        "LogName": "Gervig91's Furniture SpookyTV2 animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/SpookyTV2",
+        "FromFile": "assets/SpookyTV2.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+        "AnimationFrameTime": 30,
+        "AnimationFrameCount": 6
+    },
+    {
+        "LogName": "Gervig91's Furniture fakespider animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/fakespider",
+        "FromFile": "assets/fakespider.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 },
+        "AnimationFrameTime": 20,
+        "AnimationFrameCount": 7
+    }, 
+    {
+        "LogName": "Gervig91's Furniture darktalisman animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/darktalisman",
+        "FromFile": "assets/darktalisman.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+        "AnimationFrameTime": 30,
+        "AnimationFrameCount": 4
+    }, 
+    {
+        "LogName": "Gervig91's Furniture spectrum animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/spectrum",
+        "FromFile": "assets/spectrum.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+        "AnimationFrameTime": 7,
+        "AnimationFrameCount": 12
+    },
+    {
+        "LogName": "Gervig91's Furniture clock animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/clock",
+        "FromFile": "assets/clock.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+        "AnimationFrameTime": 60,
+        "AnimationFrameCount": 4
+    },
+    {
+        "LogName": "Gervig91's Furniture summoningcircle animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/summoningcircle",
+        "FromFile": "assets/summoningcircle.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 48 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 48 },
+        "AnimationFrameTime": 60,
+        "AnimationFrameCount": 2
+    },
+    {
+        "LogName": "Gervig91's Furniture pufferfishaquarium animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/pufferfishaquarium",
+        "FromFile": "assets/pufferfishaquarium.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 80, "Height": 48 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 80, "Height": 48 },
+        "AnimationFrameTime": 12,
+        "AnimationFrameCount": 15
+    },
+    {
+        "LogName": "Gervig91's Furniture frogterrarium animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/frogterrarium",
+        "FromFile": "assets/frogterrarium.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 80, "Height": 48 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 80, "Height": 48 },
+        "AnimationFrameTime": 15,
+        "AnimationFrameCount": 42
+    },
+    {
+        "LogName": "Gervig91's Furniture frogterrarium2 animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/frogterrarium2",
+        "FromFile": "assets/frogterrarium2.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 80, "Height": 48 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 80, "Height": 48 },
+        "AnimationFrameTime": 15,
+        "AnimationFrameCount": 42
+    },
+    {
+        "LogName": "Gervig91's Furniture frogterrarium3 animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/frogterrarium3",
+        "FromFile": "assets/frogterrarium3.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 80, "Height": 48 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 80, "Height": 48 },
+        "AnimationFrameTime": 15,
+        "AnimationFrameCount": 42
+    },
+    {
+        "LogName": "Gervig91's Furniture turtleterrarium animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/turtleterrarium",
+        "FromFile": "assets/turtleterrarium.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+        "AnimationFrameTime": 30,
+        "AnimationFrameCount": 55
+    },
+    {
+        "LogName": "Gervig91's Furniture bluebird animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/bluebird",
+        "FromFile": "assets/bluebird.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 48 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 48 },
+        "AnimationFrameTime": 10,
+        "AnimationFrameCount": 40
+    },
+    {
+        "LogName": "Gervig91's Furniture snaketerrarium animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/snaketerrarium",
+        "FromFile": "assets/snaketerrarium.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 64 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 32, "Height": 64 },
+        "AnimationFrameTime": 12,
+        "AnimationFrameCount": 15
+    },
+    {
+        "LogName": "Gervig91's Furniture snaketerrarium2 animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/snaketerrarium2",
+        "FromFile": "assets/snaketerrarium2.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 64 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 32, "Height": 64 },
+        "AnimationFrameTime": 10,
+        "AnimationFrameCount": 60
+    },
+    {
+        "LogName": "Gervig91's Furniture snaketerrarium3 animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/snaketerrarium3",
+        "FromFile": "assets/snaketerrarium3.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 64 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 32, "Height": 64 },
+        "AnimationFrameTime": 10,
+        "AnimationFrameCount": 60
+    },
+    {
+        "LogName": "Gervig91's Furniture snaketerrarium4 animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/snaketerrarium4",
+        "FromFile": "assets/snaketerrarium4.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 64 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 32, "Height": 64 },
+        "AnimationFrameTime": 10,
+        "AnimationFrameCount": 60
+    },
+    {
+        "LogName": "Gervig91's Furniture snaketerrarium5 animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/snaketerrarium5",
+        "FromFile": "assets/snaketerrarium5.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 64 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 32, "Height": 64 },
+        "AnimationFrameTime": 10,
+        "AnimationFrameCount": 60
+    },
+    {
+        "LogName": "Gervig91's Furniture snaketerrarium6 animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/snaketerrarium6",
+        "FromFile": "assets/snaketerrarium6.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 64 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 32, "Height": 64 },
+        "AnimationFrameTime": 10,
+        "AnimationFrameCount": 60
+    },
+    {
+        "LogName": "Gervig91's Furniture snaketerrarium7 animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/snaketerrarium7",
+        "FromFile": "assets/snaketerrarium7.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 64 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 32, "Height": 64 },
+        "AnimationFrameTime": 10,
+        "AnimationFrameCount": 60
+    },
+    {
+        "LogName": "Gervig91's Furniture snaketerrarium8 animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/snaketerrarium8",
+        "FromFile": "assets/snaketerrarium8.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 64 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 32, "Height": 64 },
+        "AnimationFrameTime": 10,
+        "AnimationFrameCount": 60
+    },
+    {
+        "LogName": "Gervig91's Furniture crimsonfishaquarium animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/crimsonfishaquarium",
+        "FromFile": "assets/crimsonfishaquarium.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 48 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 48 },
+        "AnimationFrameTime": 12,
+        "AnimationFrameCount": 26
+    },
+    {
+        "LogName": "Gervig91's Furniture legendaquarium animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/legendaquarium",
+        "FromFile": "assets/legendaquarium.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 48 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 48 },
+        "AnimationFrameTime": 15,
+        "AnimationFrameCount": 16
+    },
+    {
+        "LogName": "Gervig91's Furniture prismaticlavalamp animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/prismaticlavalamp",
+        "FromFile": "assets/prismaticlavalamp.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 48 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 48 },
+        "AnimationFrameTime": 15,
+        "AnimationFrameCount": 55
+    },
+    {
+        "LogName": "Gervig91's Furniture lavalamp animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/lavalamp",
+        "FromFile": "assets/lavalamp.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 48 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 48 },
+        "AnimationFrameTime": 30,
+        "AnimationFrameCount": 11
+    },
+    {
+        "LogName": "Gervig91's Furniture glacierfishaquarium animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/glacierfishaquarium",
+        "FromFile": "assets/glacierfishaquarium.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 48 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 48 },
+        "AnimationFrameTime": 12,
+        "AnimationFrameCount": 26
+    },
+    {
+        "LogName": "Gervig91's Furniture owl animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/owl",
+        "FromFile": "assets/owl.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 48 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 48 },
+        "AnimationFrameTime": 10,
+        "AnimationFrameCount": 42
+    },
+    {
+        "LogName": "Gervig91's Furniture owl2 animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/owl2",
+        "FromFile": "assets/owl2.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 48 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 32, "Height": 48 },
+        "AnimationFrameTime": 10,
+        "AnimationFrameCount": 26
+    },
+    {
+        "LogName": "Gervig91's Furniture owl3 animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/owl3",
+        "FromFile": "assets/owl3.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 48 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 32, "Height": 48 },
+        "AnimationFrameTime": 10,
+        "AnimationFrameCount": 42
+    },
+    {
+        "LogName": "Gervig91's Furniture crow animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/crow",
+        "FromFile": "assets/crow.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 48 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 48 },
+        "AnimationFrameTime": 10,
+        "AnimationFrameCount": 40
+    },
+    {
+        "LogName": "Gervig91's Furniture redbird animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/redbird",
+        "FromFile": "assets/redbird.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 48 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 48 },
+        "AnimationFrameTime": 10,
+        "AnimationFrameCount": 40
+    },
+    {
+        "LogName": "Gervig91's Furniture whitebird animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/whitebird",
+        "FromFile": "assets/whitebird.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 48 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 48 },
+        "AnimationFrameTime": 10,
+        "AnimationFrameCount": 40
+    },
+    {
+        "LogName": "Gervig91's Furniture brownbird animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/brownbird",
+        "FromFile": "assets/brownbird.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 48 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 48 },
+        "AnimationFrameTime": 10,
+        "AnimationFrameCount": 40
+    },
+    {
+        "LogName": "Gervig91's Furniture duggy animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/duggy",
+        "FromFile": "assets/duggy.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+        "AnimationFrameTime": 30,
+        "AnimationFrameCount": 17
+    },
+    {
+        "LogName": "Gervig91's Furniture bunnyenclosure animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/bunnyenclosure",
+        "FromFile": "assets/bunnyenclosure.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+        "AnimationFrameTime": 20,
+        "AnimationFrameCount": 23
+    },
+    {
+        "LogName": "Gervig91's Furniture bubblingpot animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/bubblingpot",
+        "FromFile": "assets/bubblingpot.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+        "AnimationFrameTime": 20,
+        "AnimationFrameCount": 4
+    },
+    {
+        "LogName": "Gervig91's Furniture burningpot animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/burningpot",
+        "FromFile": "assets/burningpot.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+        "AnimationFrameTime": 20,
+        "AnimationFrameCount": 8
+    },
+    {
+        "LogName": "Gervig91's Furniture phoenix animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/phoenix",
+        "FromFile": "assets/phoenix.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 48 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 48 },
+        "AnimationFrameTime": 20,
+        "AnimationFrameCount": 19
+    },
+    {
+        "LogName": "Gervig91's Furniture bearclock animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/bearclock",
+        "FromFile": "assets/bearclock.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+        "AnimationFrameTime": 60,
+        "AnimationFrameCount": 4
+    },
+    {
+        "LogName": "Gervig91's Furniture angleraquarium animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/angleraquarium",
+        "FromFile": "assets/angleraquarium.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 48 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 48 },
+        "AnimationFrameTime": 12,
+        "AnimationFrameCount": 28
+    },
+    {
+        "LogName": "Gervig91's Furniture squirrel animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/squirrel",
+        "FromFile": "assets/squirrel.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 48 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 32, "Height": 48 },
+        "AnimationFrameTime": 30,
+        "AnimationFrameCount": 33
+    },
+    {
+        "LogName": "Gervig91's Furniture mutantcarp animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/mutantcarp",
+        "FromFile": "assets/mutantcarp.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 48 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 48 },
+        "AnimationFrameTime": 12,
+        "AnimationFrameCount": 31
+    },
+    {
+        "LogName": "Gervig91's Furniture eggheads animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/eggheads",
+        "FromFile": "assets/eggheads.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 80 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 80 },
+        "AnimationFrameTime": 12,
+        "AnimationFrameCount": 4
+    },
+    {
+        "LogName": "Gervig91's Furniture modernbookcasewithspider animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/modernbookcasewithspider",
+        "FromFile": "assets/modernbookcasewithspider.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 48 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 32, "Height": 48 },
+        "AnimationFrameTime": 12,
+        "AnimationFrameCount": 24
+    },
+    {
+        "LogName": "Gervig91's Furniture darkbookcasewitheyeinajar animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/darkbookcasewitheyeinajar",
+        "FromFile": "assets/darkbookcasewitheyeinajar.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 48 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 32, "Height": 48 },
+        "AnimationFrameTime": 30,
+        "AnimationFrameCount": 10
+    },
+    {
+        "LogName": "Gervig91's Furniture magicbookcase animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/magicbookcase",
+        "FromFile": "assets/magicbookcase.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 48 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 32, "Height": 48 },
+        "AnimationFrameTime": 15,
+        "AnimationFrameCount": 24
+    },
+    {
+        "LogName": "Gervig91's Furniture magicdesk animation",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/magicdesk",
+        "FromFile": "assets/magicdesk.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 48 },
+        "ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 48 },
+        "AnimationFrameTime": 15,
+        "AnimationFrameCount": 24
+    },
+
+    ]
+}

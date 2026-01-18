@@ -1,0 +1,375 @@
+{
+	"Changes": [
+
+        { //Egg Festival
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "TextOperations": [
+                {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters"], //Setup Unmarried y1
+                "Value": "Wizard 27 97 down",
+                "Delimiter": "/",
+                },
+            ]
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "TextOperations": [
+                {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters_y2"], //Setup Unmarried y2
+                "Value": "Wizard 16 73 down",
+                "Delimiter": "/",
+                },
+            ]
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "When": { "Relationship:Wizard |contains=Married": false },
+        "TextOperations": [
+                {
+                "Operation": "Append",
+                "Target": ["Entries", "MainEvent_additionalCharacters"], //Main Unmarried y1 y2
+                "Value": "Wizard 10 94 down",
+                "Delimiter": "/",
+                },
+            ]
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "When": { "Relationship:Wizard |contains=Married": true },
+        "TextOperations": [
+                {
+                "Operation": "Append",
+                "Target": ["Entries", "MainEvent_additionalCharacters"], //Main Married y1
+                "Value": "Wizard 37 58 down",
+                "Delimiter": "/",
+                },
+            ]
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "When": { "Relationship:Wizard |contains=Married": true },
+        "TextOperations": [
+                {
+                "Operation": "Append",
+                "Target": ["Entries", "MainEvent_additionalCharacters_y2"], //Main Married y2
+                "Value": "Wizard 22 61 down",
+                "Delimiter": "/",
+                },
+            ]
+        },
+        { //Flower Dance
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": { "Relationship:Wizard |contains=Married": false }, 
+        "TextOperations": [
+                {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters"], //Setup Unmarried y1
+                "Value": "Wizard 46 39 left",
+                "Delimiter": "/",
+                },
+            ]
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": { "Relationship:Wizard |contains=Married": false },
+        "TextOperations": [
+                {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters_y2"], //Setup Unmarried y2
+                "Value": "Wizard 41 38 left",
+                "Delimiter": "/",
+                },
+            ]
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": { "Relationship:Wizard |contains=Married": true },
+        "TextOperations": [
+                {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters"], //Setup Married y1
+                "Value": "Wizard 27 42 down",
+                "Delimiter": "/",
+                },
+            ]
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": { "Relationship:Wizard |contains=Married": true },
+        "TextOperations": [
+                {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters_y2"], //Setup Married y2
+                "Value": "Wizard 34 38 right",
+                "Delimiter": "/",
+                },
+            ]
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": { "Relationship:Wizard |contains=Married": true },
+        "TextOperations": [
+                {
+                "Operation": "Append",
+                "Target": ["Entries", "MainEvent_additionalCharacters"], //Main Married y1 y2
+                "Value": "Wizard 15 31 up",
+                "Delimiter": "/",
+                },
+            ]
+        },
+        { //Luau
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "When": { "Relationship:Wizard |contains=Married": false },
+        "TextOperations": [
+                {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters"], //Setup Unmarried y1
+                "Value": "Wizard 11 39 down",
+                "Delimiter": "/",
+                },
+            ]
+        },
+        { //Removing wizard animation
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "When": { "Hearts:Wizard |contains=0, 1, 2, 3": false }, //Setup Unmarried y2 SVE animation fix
+        "TextOperations": [
+                {
+                "Operation": "RemoveDelimited",
+                "Target": ["Entries", "set-up_y2"],
+                "Search": "animate Wizard false true 100 20", //Remove SVE rock sitting animation when 4+ hearts
+                "Delimiter": "/",
+                "ReplaceMode": "All"
+                },
+            ]
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "When": { "Hearts:Wizard |contains=0, 1, 2, 3": false },
+        "Fields": {
+            "set-up_y2": {
+                4: "addTemporaryActor Governor 16 32 27 4 2", //Fix Festival b/c of above patch
+                },
+            },
+        },
+        { 
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "When": { "Relationship:Wizard |contains=Married": false, "Hearts:Wizard": "4, 5, 6, 7, 8, 9, 10" },
+        "TextOperations": [
+                {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters_y2"], //Setup Unmarried y2
+                "Value": "Wizard 40 36 down",
+                "Delimiter": "/",
+                },
+            ]
+        },
+        { 
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "When": { "Relationship:Wizard |contains=Married": true },
+        "TextOperations": [
+                {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters"], //Setup Married y1
+                "Value": "Wizard 46 19 down",
+                "Delimiter": "/",
+                },
+            ]
+        },
+        { 
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "When": { "Relationship:Wizard |contains=Married": true },
+        "TextOperations": [
+                {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters_y2"], //Setup Married y2
+                "Value": "Wizard 52 21 left",
+                "Delimiter": "/",
+                },
+            ]
+        },
+        { 
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "When": { "Relationship:Wizard |contains=Married": true },
+        "TextOperations": [
+                {
+                "Operation": "Append",
+                "Target": ["Entries", "MainEvent_additionalCharacters"], //Main Married y1
+                "Value": "Wizard 32 19 up",
+                "Delimiter": "/",
+                },
+            ]
+        },
+        { 
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "When": { "Relationship:Wizard |contains=Married": true },
+        "TextOperations": [
+                {
+                "Operation": "Append",
+                "Target": ["Entries", "MainEvent_additionalCharacters_y2"], //Main Married y2
+                "Value": "Wizard 23 18 up",
+                "Delimiter": "/",
+                },
+            ]
+        },
+        { //Ice Festival
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+        "When": { "Relationship:Wizard |contains=Married": true },
+        "TextOperations": [
+                {
+                "Operation": "Append",
+                "Target": ["Entries", "Main-Event_additionalCharacters"], //Main Married y1
+                "Value": "Wizard 54 32 right",
+                "Delimiter": "/",
+                },
+            ]
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+        "When": { "Relationship:Wizard |contains=Married": true },
+        "TextOperations": [
+                {
+                "Operation": "Append",
+                "Target": ["Entries", "Main-Event_additionalCharacters_y2"], //Main Married y2
+                "Value": "Wizard 72 48 up",
+                "Delimiter": "/",
+                },
+            ]
+        },
+        { //Winter Star
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+        "When": { "Relationship:Wizard |contains=Married": true },
+        "TextOperations": [
+                {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters"], //Setup Married y1
+                "Value": "Wizard 10 71 down",
+                "Delimiter": "/",
+                },
+            ]
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+        "When": { "Relationship:Wizard |contains=Married": true },
+        "TextOperations": [
+                {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters_y2"], //Setup Married y2
+                "Value": "Wizard 9 63 down",
+                "Delimiter": "/",
+                },
+            ]
+        },
+        { //Winter Star Table Patch 
+            "Action": "EditMap",
+            "Target": "Maps/Town-Christmas",
+            "FromFile": "assets/Maps/Festivals/Winter_Star_Table4.tmx",
+            "ToArea": { "X": 9, "y": 69, "Width": 4, "Height": 2},
+            "PatchMode": "Overlay",
+            "When": { "Relationship:Wizard |contains=Married": true, "IsOddYear": true },
+        },
+        { 
+            "Action": "EditMap",
+            "Target": "Maps/Town-Christmas2",
+            "FromFile": "assets/Maps/Festivals/Winter_Star_Table4.tmx",
+            "ToArea": { "X": 9, "y": 63, "Width": 4, "Height": 2},
+            "PatchMode": "Overlay",
+            "When": { "Relationship:Wizard |contains=Married": true, "IsOddYear": false },
+        },
+
+        //RidgeSide Festivals
+        /*{ //Ember of Resolutions
+        "Action": "EditMap",
+        "Target": "Maps/Custom_Ridgeside_EmberNight",
+        "When": {"Relationship:Wizard": "Dating, Engaged, Married", "HasMod": "Rafseazz.RSVCP"},
+        "MapTiles": [ //Set Up
+                {
+                "Position": {"X": 26, "Y": 29},
+                "Layer": "Set-Up",
+                "SetTileSheet": "Characters",
+                "SetIndex": 122
+                }
+            ]
+        },
+        {
+        "Action": "EditMap",
+        "Target": "Maps/Custom_Ridgeside_EmberNight",
+        "When": {"Relationship:Wizard": "Dating, Engaged, Married", "HasMod": "Rafseazz.RSVCP"},
+        "MapTiles": [ //MainEvent
+                {
+                "Position": {"X": 39, "Y": 50},
+                "Layer": "MainEvent",
+                "SetTileSheet": "Characters",
+                "SetIndex": 120
+                }
+            ]
+        },*/
+        { //Ember of Resolutions
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter28",
+        "When": { "Relationship:Wizard": "Dating, Engaged, Married", "HasMod": "Rafseazz.RSVCP" },
+        "TextOperations": [
+                {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters"], //Setup Married/Dating y1
+                "Value": "Wizard 26 29 down",
+                "Delimiter": "/",
+                },
+            ]
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter28",
+        "When": { "Relationship:Wizard": "Dating, Engaged, Married", "HasMod": "Rafseazz.RSVCP" },
+        "TextOperations": [
+                {
+                "Operation": "Append",
+                "Target": ["Entries", "MainEvent_additionalCharacters"], //Main Married/Dating y1
+                "Value": "Wizard 39 50 up",
+                "Delimiter": "/",
+                },
+            ]
+        },
+        /*{ //Removes OG Wizard location when RomRas patch applies - no longer needed
+        "Action": "EditMap",
+        "Target": "Maps/Custom_Ridgeside_EmberNight",
+        "When": {"Relationship:Wizard": "Dating, Engaged, Married", "HasMod": "Rafseazz.RSVCP"},
+        "MapTiles": [    
+                {   
+                "Position": { "X": 9, "Y": 36 },
+                "Layer": "Set-Up",
+                "Remove": true 
+                },
+                {
+                "Position": { "X": 9, "Y": 36 },
+                "Layer": "MainEvent",
+                "Remove": true
+                }
+            ], 
+        },*/
+
+	]
+}

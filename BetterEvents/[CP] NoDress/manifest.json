@@ -1,0 +1,11 @@
+﻿{
+    "Name": "NoDress",
+    "Author": "AlexGoD",
+    "Version": "1.0.0",
+    "Description": "NoDress",
+    "UniqueID": "AlexGoD.NoDress",
+    "MinimumApiVersion": "3.0.0",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

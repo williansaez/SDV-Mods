@@ -1,0 +1,28 @@
+{
+	"Changes": [
+		{
+        "Action": "EditData",
+		"Target": "Data/mail",
+        "Entries": {
+            "Wizard_wizardNap": "{{i18n:Wizard_wizardNap.text}}[letterbg 2][#]{{i18n:Wizard_wizardNap.title}}",
+            "Wizard_teachMagic": "{{i18n:Wizard_teachMagic.text}}[letterbg 2][#]{{i18n:Wizard_teachMagic.title}}",
+            },
+		},
+		{ //10 Heart Event Mail Invite - Standard
+        "Action": "EditData",
+		"Target": "Data/Events/Farm",
+        "When": {"Event":"standard"},
+        "Entries": {
+           	"Parrot.RomRas_teachMagicMail/f Wizard 2500/x Wizard_teachMagic": "null"
+        	}
+        },
+        { //9 Heart Event Mail Invite - Integrated
+        "Action": "EditData",
+        "Target": "Data/Events/Farm",
+        "When": {"Event":"integrated"},
+        "Entries": {
+            "Parrot.RomRas_teachMagicMail/f Wizard 2250/x Wizard_teachMagic": "null"
+            }
+        },
+	]
+}

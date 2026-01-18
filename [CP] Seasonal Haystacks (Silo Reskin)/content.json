@@ -1,0 +1,34 @@
+{
+    "Format": "1.19.0",
+
+  "ConfigSchema": {
+
+	"Silo": {"AllowValues": "Basic, Seasonal, Vanilla",
+	"Default": "Seasonal"}
+
+	},
+
+    "Changes": [
+
+		//Basic
+		{
+            "Action": "EditImage",
+            "Target": "Buildings/Silo",
+            "FromFile": "haysilo.png",
+		  "When": {
+		  "Silo": "Basic"
+		  }
+		},
+
+		// Seasonal
+		{
+            "Action": "EditImage",
+            "Target": "Buildings/Silo",
+            "FromFile": "haysilo_{{season}}.png",
+		  "When": {
+		  "Silo": "Seasonal"
+		  }
+      		}
+
+   ]
+}

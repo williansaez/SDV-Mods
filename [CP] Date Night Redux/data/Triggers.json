@@ -1,0 +1,1223 @@
+{
+	"Changes":[
+		{
+			"LogName": "Spouse Disappointed - Friendship",
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				
+				//Saloon Date Consequence
+				"{{ModId}}_SaloonDispleased": {
+					"Id": "{{ModId}}_SaloonDispleased",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_MAIL Current saloonDateAgree, !PLAYER_HAS_SEEN_EVENT Current 1116010",
+					"HostOnly": false, 
+					"Action": "AddFriendshipPoints {{Date}} {{Sadness}}",
+				},
+				
+				//Picnic Date Consequence
+				"{{ModId}}_PicnicDispleased": {
+					"Id": "{{ModId}}_PicnicDispleased",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_MAIL Current forestDateAgree, !PLAYER_HAS_SEEN_EVENT Current 1116012",
+					"HostOnly": false, 
+					"Action": "AddFriendshipPoints {{Date}} {{Sadness}}",
+				},
+				
+				//Library Date Consequence
+				"{{ModId}}_LibraryDispleased": {
+					"Id": "{{ModId}}_LibraryDispleased",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_MAIL Current libraryDateAgree, !PLAYER_HAS_SEEN_EVENT Current 1116014",
+					"HostOnly": false, 
+					"Action": "AddFriendshipPoints {{Date}} {{Sadness}}",
+				},
+				
+				//Beach Date Consequence
+				"{{ModId}}_BeachDispleased": {
+					"Id": "{{ModId}}_BeachDispleased",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_MAIL Current beachDateAgree, !PLAYER_HAS_SEEN_EVENT Current 1116021",
+					"HostOnly": false, 
+					"Action": "AddFriendshipPoints {{Date}} {{Sadness}}",
+				},
+				
+				//Grocery Date Consequence
+				"{{ModId}}_GroceryDispleased": {
+					"Id": "{{ModId}}_GroceryDispleased",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_MAIL Current groceryDateAgree, !PLAYER_HAS_SEEN_EVENT Current 1116024",
+					"HostOnly": false, 
+					"Action": "AddFriendshipPoints {{Date}} {{Sadness}}",
+				},
+				
+				//Camping Date Consequence
+				"{{ModId}}_CampingDispleased": {
+					"Id": "{{ModId}}_CampingDispleased",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_MAIL Current campingDateAgree, !PLAYER_HAS_SEEN_EVENT Current 1116026",
+					"HostOnly": false, 
+					"Action": "AddFriendshipPoints {{Date}} {{Sadness}}",
+				},
+				
+				//Emily Date Consequence
+				"{{ModId}}_EmilyDispleased": {
+					"Id": "{{ModId}}_EmilyDispleased",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_MAIL Current emilyGemDateAgree, !PLAYER_HAS_SEEN_EVENT Current 1116016",
+					"HostOnly": false, 
+					"Action": "AddFriendshipPoints {{Date}} {{Sadness}}",
+				},
+				
+				//Haley Date Consequence
+				"{{ModId}}_HaleyDispleased": {
+					"Id": "{{ModId}}_HaleyDispleased",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_MAIL Current haleyDesertDateAgree, !PLAYER_HAS_SEEN_EVENT Current 1116018",
+					"HostOnly": false, 
+					"Action": "AddFriendshipPoints {{Date}} {{Sadness}}",
+				},
+				
+				//Alex Date Consequence
+				"{{ModId}}_AlexDispleased": {
+					"Id": "{{ModId}}_AlexDispleased",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_MAIL Current alexGridballDateAgree, !PLAYER_HAS_SEEN_EVENT Current 1116030",
+					"HostOnly": false, 
+					"Action": "AddFriendshipPoints {{Date}} {{Sadness}}",
+				},
+				
+				//Maru Date Consequence
+				"{{ModId}}_MaruDispleased": {
+					"Id": "{{ModId}}_MaruDispleased",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_MAIL Current maruLunarDateAgree, !PLAYER_HAS_SEEN_EVENT Current 1116028",
+					"HostOnly": false, 
+					"Action": "AddFriendshipPoints {{Date}} {{Sadness}}",
+				},
+				
+				//Winter Star Date Consequence
+				"{{ModId}}_WinterStarDispleased": {
+					"Id": "{{ModId}}_WinterStarDispleased",
+					"Trigger": "DayEnding",				
+					"Condition": "SEASON Winter, DAY_OF_MONTH 25, {{WinterStarDate|contains=enabled}}, !PLAYER_HAS_SEEN_EVENT Current 22714-winterstar",
+					"HostOnly": false, 
+					"Action": "AddFriendshipPoints {{Date}} {{Sadness}}",
+				},
+				
+				//Island Date Consequence
+				"{{ModId}}_IslandDispleased": {
+					"Id": "{{ModId}}_IslandDispleased",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_MAIL Current IslandDateAgree, {{IslandDate|contains=enabled}}, !PLAYER_HAS_SEEN_EVENT Current 22714-islanddate",
+					"HostOnly": false, 
+					"Action": "AddFriendshipPoints {{Date}} {{Sadness}}",
+				},
+			},
+			"When": {
+				"FriendshipLoss": "low, medium, high, heart",
+				"HasValue:{{Date}}": "true", //If no date, token not ready
+			},
+		},
+		
+		{
+			"LogName": "Spouse Disappointed - Dialogues (BETAS Required)",
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				
+				//Saloon Date Consequence - Dialogue
+				"{{ModId}}_SaloonDisappointmentRemoval": {
+					"Id": "{{ModId}}_SaloonDisappointmentRemoval",
+					"Trigger": "DayEnding",				
+					"Condition": "Spiderbuttons.BETAS_PLAYER_MOD_DATA Current DNRSaloonMissed",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_RemovePlayerModData DNRSaloonMissed",
+				},
+				
+				"{{ModId}}_SaloonDisappointed": {
+					"Id": "{{ModId}}_SaloonDisappointed",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_MAIL Current saloonDateAgree, !PLAYER_HAS_SEEN_EVENT Current 1116010",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_WritePlayerModData DNRSaloonMissed {{Date}}",
+				},
+				
+				"{{ModId}}_SaloonDialogue": {
+					"Id": "{{ModId}}_SaloonDialogue",
+					"Trigger": "Spiderbuttons.BETAS_MorningStarted",				
+					"Condition": "Spiderbuttons.BETAS_PLAYER_MOD_DATA Current DNRSaloonMissed",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_SetNewDialogue [Spiderbuttons.BETAS_PlayerModData DNRSaloonMissed] \"{{i18n:SaloonDispleased}}\"",
+				},
+				
+				//Forest Date Consequence - Dialogue
+				"{{ModId}}_ForestDisappointmentRemoval": {
+					"Id": "{{ModId}}_ForestDisappointmentRemoval",
+					"Trigger": "DayEnding",				
+					"Condition": "Spiderbuttons.BETAS_PLAYER_MOD_DATA Current DNRForestMissed",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_RemovePlayerModData DNRForestMissed",
+				},
+				
+				"{{ModId}}_ForestDisappointed": {
+					"Id": "{{ModId}}_ForestDisappointed",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_MAIL Current forestDateAgree, !PLAYER_HAS_SEEN_EVENT Current 1116012",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_WritePlayerModData DNRForestMissed {{Date}}",
+				},
+				
+				"{{ModId}}_ForestDialogue": {
+					"Id": "{{ModId}}_ForestDialogue",
+					"Trigger": "Spiderbuttons.BETAS_MorningStarted",				
+					"Condition": "Spiderbuttons.BETAS_PLAYER_MOD_DATA Current DNRForestMissed",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_SetNewDialogue [Spiderbuttons.BETAS_PlayerModData DNRForestMissed] \"{{i18n:ForestDispleased}}\"",
+				},
+				
+				//Library Date Consequence - Dialogue
+				"{{ModId}}_LibraryDisappointmentRemoval": {
+					"Id": "{{ModId}}_LibraryDisappointmentRemoval",
+					"Trigger": "DayEnding",				
+					"Condition": "Spiderbuttons.BETAS_PLAYER_MOD_DATA Current DNRLibraryMissed",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_RemovePlayerModData DNRLibraryMissed",
+				},
+				
+				"{{ModId}}_LibraryDisappointed": {
+					"Id": "{{ModId}}_LibraryDisappointed",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_MAIL Current libraryDateAgree, !PLAYER_HAS_SEEN_EVENT Current 1116014",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_WritePlayerModData DNRLibraryMissed {{Date}}",
+				},
+				
+				"{{ModId}}_LibraryDialogue": {
+					"Id": "{{ModId}}_LibraryDialogue",
+					"Trigger": "Spiderbuttons.BETAS_MorningStarted",				
+					"Condition": "Spiderbuttons.BETAS_PLAYER_MOD_DATA Current DNRLibraryMissed",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_SetNewDialogue [Spiderbuttons.BETAS_PlayerModData DNRLibraryMissed] \"{{i18n:LibraryDispleased}}\"",
+				},
+				
+				//Beach Date Consequence - Dialogue
+				"{{ModId}}_BeachDisappointmentRemoval": {
+					"Id": "{{ModId}}_BeachDisappointmentRemoval",
+					"Trigger": "DayEnding",				
+					"Condition": "Spiderbuttons.BETAS_PLAYER_MOD_DATA Current DNRBeachMissed",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_RemovePlayerModData DNRBeachMissed",
+				},
+				
+				"{{ModId}}_BeachDisappointed": {
+					"Id": "{{ModId}}_BeachDisappointed",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_MAIL Current beachDateAgree, !PLAYER_HAS_SEEN_EVENT Current 1116021",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_WritePlayerModData DNRBeachMissed {{Date}}",
+				},
+				
+				"{{ModId}}_BeachDialogue": {
+					"Id": "{{ModId}}_BeachDialogue",
+					"Trigger": "Spiderbuttons.BETAS_MorningStarted",				
+					"Condition": "Spiderbuttons.BETAS_PLAYER_MOD_DATA Current DNRBeachMissed",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_SetNewDialogue [Spiderbuttons.BETAS_PlayerModData DNRBeachMissed] \"{{i18n:BeachDispleased}}\"",
+				},
+				
+				//Grocery Date Consequence - Dialogue
+				"{{ModId}}_GroceryDisappointmentRemoval": {
+					"Id": "{{ModId}}_GroceryDisappointmentRemoval",
+					"Trigger": "DayEnding",				
+					"Condition": "Spiderbuttons.BETAS_PLAYER_MOD_DATA Current DNRGroceryMissed",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_RemovePlayerModData DNRGroceryMissed",
+				},
+				
+				"{{ModId}}_GroceryDisappointed": {
+					"Id": "{{ModId}}_GroceryDisappointed",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_MAIL Current groceryDateAgree, !PLAYER_HAS_SEEN_EVENT Current 1116024",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_WritePlayerModData DNRGroceryMissed {{Date}}",
+				},
+				
+				"{{ModId}}_GroceryDialogue": {
+					"Id": "{{ModId}}_GroceryDialogue",
+					"Trigger": "Spiderbuttons.BETAS_MorningStarted",				
+					"Condition": "Spiderbuttons.BETAS_PLAYER_MOD_DATA Current DNRGroceryMissed",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_SetNewDialogue [Spiderbuttons.BETAS_PlayerModData DNRGroceryMissed] \"{{i18n:GroceryDispleased}}\"",
+				},
+				
+				//Camping Date Consequence - Dialogue
+				"{{ModId}}_CampingDisappointmentRemoval": {
+					"Id": "{{ModId}}_CampingDisappointmentRemoval",
+					"Trigger": "DayEnding",				
+					"Condition": "Spiderbuttons.BETAS_PLAYER_MOD_DATA Current DNRCampingMissed",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_RemovePlayerModData DNRCampingMissed",
+				},
+				
+				"{{ModId}}_CampingDisappointed": {
+					"Id": "{{ModId}}_CampingDisappointed",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_MAIL Current campingDateAgree, !PLAYER_HAS_SEEN_EVENT Current 1116026",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_WritePlayerModData DNRCampingMissed {{Date}}",
+				},
+				
+				"{{ModId}}_CampingDialogue": {
+					"Id": "{{ModId}}_CampingDialogue",
+					"Trigger": "Spiderbuttons.BETAS_MorningStarted",				
+					"Condition": "Spiderbuttons.BETAS_PLAYER_MOD_DATA Current DNRCampingMissed",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_SetNewDialogue [Spiderbuttons.BETAS_PlayerModData DNRCampingMissed] \"{{i18n:CampingDispleased}}\"",
+				},
+				
+				//Emily Date Consequence - Dialogue
+				"{{ModId}}_EmilyDisappointmentRemoval": {
+					"Id": "{{ModId}}_EmilyDisappointmentRemoval",
+					"Trigger": "DayEnding",				
+					"Condition": "Spiderbuttons.BETAS_PLAYER_MOD_DATA Current DNREmilyMissed",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_RemovePlayerModData DNREmilyMissed",
+				},
+				
+				"{{ModId}}_EmilyDisappointed": {
+					"Id": "{{ModId}}_EmilyDisappointed",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_MAIL Current emilyGemDateAgree, !PLAYER_HAS_SEEN_EVENT Current 1116016",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_WritePlayerModData DNREmilyMissed {{Date}}",
+				},
+				
+				"{{ModId}}_EmilyDialogue": {
+					"Id": "{{ModId}}_EmilyDialogue",
+					"Trigger": "Spiderbuttons.BETAS_MorningStarted",				
+					"Condition": "Spiderbuttons.BETAS_PLAYER_MOD_DATA Current DNREmilyMissed",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_SetNewDialogue [Spiderbuttons.BETAS_PlayerModData DNREmilyMissed] \"{{i18n:EmilyGemDispleased}}\"",
+				},
+				
+				//Haley Date Consequence - Dialogue
+				"{{ModId}}_HaleyDisappointmentRemoval": {
+					"Id": "{{ModId}}_HaleyDisappointmentRemoval",
+					"Trigger": "DayEnding",				
+					"Condition": "Spiderbuttons.BETAS_PLAYER_MOD_DATA Current DNRHaleyMissed",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_RemovePlayerModData DNRHaleyMissed",
+				},
+				
+				"{{ModId}}_HaleyDisappointed": {
+					"Id": "{{ModId}}_HaleyDisappointed",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_MAIL Current haleyDesertDateAgree, !PLAYER_HAS_SEEN_EVENT Current 1116018",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_WritePlayerModData DNRHaleyMissed {{Date}}",
+				},
+				
+				"{{ModId}}_HaleyDialogue": {
+					"Id": "{{ModId}}_HaleyDialogue",
+					"Trigger": "Spiderbuttons.BETAS_MorningStarted",				
+					"Condition": "Spiderbuttons.BETAS_PLAYER_MOD_DATA Current DNRHaleyMissed",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_SetNewDialogue [Spiderbuttons.BETAS_PlayerModData DNRHaleyMissed] \"{{i18n:HaleyDesertDispleased}}\"",
+				},
+				
+				//Alex Date Consequence - Dialogue
+				"{{ModId}}_AlexDisappointmentRemoval": {
+					"Id": "{{ModId}}_AlexDisappointmentRemoval",
+					"Trigger": "DayEnding",				
+					"Condition": "Spiderbuttons.BETAS_PLAYER_MOD_DATA Current DNRAlexMissed",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_RemovePlayerModData DNRAlexMissed",
+				},
+				
+				"{{ModId}}_AlexDisappointed": {
+					"Id": "{{ModId}}_AlexDisappointed",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_MAIL Current alexGridballDateAgree, !PLAYER_HAS_SEEN_EVENT Current 1116030",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_WritePlayerModData DNRAlexMissed {{Date}}",
+				},
+				
+				"{{ModId}}_AlexDialogue": {
+					"Id": "{{ModId}}_AlexDialogue",
+					"Trigger": "Spiderbuttons.BETAS_MorningStarted",				
+					"Condition": "Spiderbuttons.BETAS_PLAYER_MOD_DATA Current DNRAlexMissed",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_SetNewDialogue [Spiderbuttons.BETAS_PlayerModData DNRAlexMissed] \"{{i18n:AlexGridballDispleased}}\"",
+				},
+				
+				//Maru Date Consequence - Dialogue
+				"{{ModId}}_MaruDisappointmentRemoval": {
+					"Id": "{{ModId}}_MaruDisappointmentRemoval",
+					"Trigger": "DayEnding",				
+					"Condition": "Spiderbuttons.BETAS_PLAYER_MOD_DATA Current DNRMaruMissed",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_RemovePlayerModData DNRMaruMissed",
+				},
+				
+				"{{ModId}}_MaruDisappointed": {
+					"Id": "{{ModId}}_MaruDisappointed",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_MAIL Current maruLunarDateAgree, !PLAYER_HAS_SEEN_EVENT Current 1116028",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_WritePlayerModData DNRMaruMissed {{Date}}",
+				},
+				
+				"{{ModId}}_MaruDialogue": {
+					"Id": "{{ModId}}_MaruDialogue",
+					"Trigger": "Spiderbuttons.BETAS_MorningStarted",				
+					"Condition": "Spiderbuttons.BETAS_PLAYER_MOD_DATA Current DNRMaruMissed",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_SetNewDialogue [Spiderbuttons.BETAS_PlayerModData DNRMaruMissed] \"{{i18n:MaruLunarDispleased}}\"",
+				},
+				
+				//Winter Star Date Consequence - Dialogue
+				"{{ModId}}_WinterStarDisappointmentRemoval": {
+					"Id": "{{ModId}}_WinterStarDisappointmentRemoval",
+					"Trigger": "DayEnding",				
+					"Condition": "Spiderbuttons.BETAS_PLAYER_MOD_DATA Current DNRWinterStarMissed",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_RemovePlayerModData DNRWinterStarMissed",
+				},
+				
+				"{{ModId}}_WinterStarDisappointed": {
+					"Id": "{{ModId}}_WinterStarDisappointed",
+					"Trigger": "DayEnding",				
+					"Condition": "SEASON Winter, DAY_OF_MONTH 25, {{WinterStarDate|contains=enabled}}, !PLAYER_HAS_SEEN_EVENT Current 22714-winterstar", // If enabled, date is impossible to miss without passing out or sleeping outside the farmhouse (e.g. in a tent or on Island).
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_WritePlayerModData DNRWinterStarMissed {{Date}}",
+				},
+				
+				"{{ModId}}_WinterStarDialogue": {
+					"Id": "{{ModId}}_WinterStarDialogue",
+					"Trigger": "Spiderbuttons.BETAS_MorningStarted",				
+					"Condition": "Spiderbuttons.BETAS_PLAYER_MOD_DATA Current DNRWinterStarMissed",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_SetNewDialogue [Spiderbuttons.BETAS_PlayerModData DNRWinterStarMissed] \"{{i18n:WinterStarDispleased}}\"",
+				},
+				
+				//Island Date Consequence - Dialogue
+				"{{ModId}}_IslandDisappointmentRemoval": {
+					"Id": "{{ModId}}_IslandDisappointmentRemoval",
+					"Trigger": "DayEnding",				
+					"Condition": "Spiderbuttons.BETAS_PLAYER_MOD_DATA Current DNRIslandMissed",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_RemovePlayerModData DNRIslandMissed",
+				},
+				
+				"{{ModId}}_IslandDisappointed": {
+					"Id": "{{ModId}}_IslandDisappointed",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_MAIL Current IslandDateAgree, {{IslandDate|contains=enabled}}, !PLAYER_HAS_SEEN_EVENT Current 22714-islanddate",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_WritePlayerModData DNRIslandMissed {{Date}}",
+				},
+				
+				"{{ModId}}_IslandDialogue": {
+					"Id": "{{ModId}}_IslandDialogue",
+					"Trigger": "Spiderbuttons.BETAS_MorningStarted",				
+					"Condition": "Spiderbuttons.BETAS_PLAYER_MOD_DATA Current DNRIslandMissed",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_SetNewDialogue [Spiderbuttons.BETAS_PlayerModData DNRIslandMissed] \"{{i18n:IslandDispleased}}\"",
+				},
+			},
+			"When": {
+				"SpouseDispleased": "enabled",
+				"HasValue:{{Date}}": "true", //If no date, token not ready
+				"HasMod": "Spiderbuttons.BETAS",
+			},
+		},
+		
+		{
+			"LogName": "Spouse Disappointed - Emily Dialogue, Haley Genderbent",
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				
+				//Emily Date Consequence - Dialogue
+				"{{ModId}}_EmilyDialogue": {
+					"Id": "{{ModId}}_EmilyDialogue",
+					"Trigger": "Spiderbuttons.BETAS_MorningStarted",				
+					"Condition": "Spiderbuttons.BETAS_PLAYER_MOD_DATA Current DNREmilyMissed",
+					"HostOnly": false, 
+					"Action": "Spiderbuttons.BETAS_SetNewDialogue [Spiderbuttons.BETAS_PlayerModData DNREmilyMissed] \"{{i18n:EmilyGemDispleased.M}}\"",
+				},
+			},
+			"When": {
+				"SpouseDispleased": "enabled",
+				"HasValue:{{Date}}": "true", //If no date, token not ready
+				"HasMod": "Spiderbuttons.BETAS",
+				"HasMod": "siliconmodding.NPCTokens",
+				"siliconmodding.NPCTokens/NPC:Haley+gender": "Male", // Haley is Genderbent
+			},
+		},
+		
+		{
+			"LogName": "Event Repeater Replacements",
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {			
+				//Reset Saloon Initiation
+				"{{ModId}}_SaloonInitiation": {
+					"Id": "{{ModId}}_SaloonInitiation",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current 1116009",
+					"HostOnly": false, 
+					"Action": "MarkEventSeen Current 1116009 false",
+					"MarkActionApplied": false,
+				},
+				
+				//Reset Saloon Mail
+				"{{ModId}}_SaloonMail": {
+					"Id": "{{ModId}}_SaloonMail",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_MAIL Current saloonDateAgree",
+					"HostOnly": false, 
+					"Action": "RemoveMail Current saloonDateAgree",
+					"MarkActionApplied": false,
+				},
+				
+				//Reset Saloon Date
+				"{{ModId}}_SaloonDate": {
+					"Id": "{{ModId}}_SaloonDate",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current 1116010",
+					"HostOnly": false, 
+					"Action": "MarkEventSeen Current 1116010 false",
+					"MarkActionApplied": false,
+				},
+				
+				//Reset Picnic Initiation
+				"{{ModId}}_PicnicInitiation": {
+					"Id": "{{ModId}}_PicnicInitiation",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current 1116011",
+					"HostOnly": false, 
+					"Action": "MarkEventSeen Current 1116011 false",
+					"MarkActionApplied": false,
+				},
+				
+				//Reset Picnic Mail
+				"{{ModId}}_PicnicMail": {
+					"Id": "{{ModId}}_PicnicMail",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_MAIL Current forestDateAgree",
+					"HostOnly": false, 
+					"Action": "RemoveMail Current forestDateAgree",
+					"MarkActionApplied": false,
+				},
+				
+				//Reset Picnic Date
+				"{{ModId}}_PicnicDate": {
+					"Id": "{{ModId}}_PicnicDate",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current 1116012",
+					"HostOnly": false, 
+					"Action": "MarkEventSeen Current 1116012 false",
+					"MarkActionApplied": false,
+				},
+				
+				//Reset Library Initiation
+				"{{ModId}}_LibraryInitiation": {
+					"Id": "{{ModId}}_LibraryInitiation",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current 1116013",
+					"HostOnly": false, 
+					"Action": "MarkEventSeen Current 1116013 false",
+					"MarkActionApplied": false,
+				},
+				
+				//Reset Library Mail
+				"{{ModId}}_LibraryMail": {
+					"Id": "{{ModId}}_LibraryMail",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_MAIL Current libraryDateAgree",
+					"HostOnly": false, 
+					"Action": "RemoveMail Current libraryDateAgree",
+					"MarkActionApplied": false,
+				},
+				
+				//Reset Library Date
+				"{{ModId}}_LibraryDate": {
+					"Id": "{{ModId}}_LibraryDate",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current 1116014",
+					"HostOnly": false, 
+					"Action": "MarkEventSeen Current 1116014 false",
+					"MarkActionApplied": false,
+				},
+				
+				//Reset Dance Date
+				"{{ModId}}_DanceDate": {
+					"Id": "{{ModId}}_DanceDate",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current 1116019",
+					"HostOnly": false, 
+					"Action": "MarkEventSeen Current 1116019 false",
+					"MarkActionApplied": false,
+				},
+				
+				//Reset Beach Initiation
+				"{{ModId}}_BeachInitiation": {
+					"Id": "{{ModId}}_BeachInitiation",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current 1116020",
+					"HostOnly": false, 
+					"Action": "MarkEventSeen Current 1116020 false",
+					"MarkActionApplied": false,
+				},
+				
+				//Reset Beach Mail
+				"{{ModId}}_BeachMail": {
+					"Id": "{{ModId}}_BeachMail",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_MAIL Current beachDateAgree",
+					"HostOnly": false, 
+					"Action": "RemoveMail Current beachDateAgree",
+					"MarkActionApplied": false,
+				},
+				
+				//Reset Beach Date
+				"{{ModId}}_BeachDate": {
+					"Id": "{{ModId}}_BeachDate",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current 1116021",
+					"HostOnly": false, 
+					"Action": "MarkEventSeen Current 1116021 false",
+					"MarkActionApplied": false,
+				},
+				
+				//Reset Swimming Fix
+				"{{ModId}}_SwimmingFix": {
+					"Id": "{{ModId}}_SwimmingFix",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current 1116022",
+					"HostOnly": false, 
+					"Actions": [
+						"MarkEventSeen Current 1116022 false",
+						"RemoveMail Current swimmingDateFix received",
+					],
+					"MarkActionApplied": false,
+				},
+				
+				//Reset Grocery Initiation
+				"{{ModId}}_GroceryInitiation": {
+					"Id": "{{ModId}}_GroceryInitiation",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current 1116023",
+					"HostOnly": false, 
+					"Action": "MarkEventSeen Current 1116023 false",
+					"MarkActionApplied": false,
+				},
+				
+				//Reset Grocery Mail
+				"{{ModId}}_GroceryMail": {
+					"Id": "{{ModId}}_GroceryMail",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_MAIL Current groceryDateAgree",
+					"HostOnly": false, 
+					"Action": "RemoveMail Current groceryDateAgree",
+					"MarkActionApplied": false,
+				},
+				
+				//Reset Grocery Date
+				"{{ModId}}_GroceryDate": {
+					"Id": "{{ModId}}_GroceryDate",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current 1116024",
+					"HostOnly": false, 
+					"Action": "MarkEventSeen Current 1116024 false",
+					"MarkActionApplied": false,
+				},
+				
+				//Reset Camping Initiation
+				"{{ModId}}_CampingInitiation": {
+					"Id": "{{ModId}}_CampingInitiation",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current 1116025",
+					"HostOnly": false, 
+					"Action": "MarkEventSeen Current 1116025 false",
+					"MarkActionApplied": false,
+				},
+				
+				//Reset Camping Mail
+				"{{ModId}}_CampingMail": {
+					"Id": "{{ModId}}_CampingMail",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_MAIL Current campingDateAgree",
+					"HostOnly": false, 
+					"Action": "RemoveMail Current campingDateAgree",
+					"MarkActionApplied": false,
+				},
+				
+				//Reset Camping Date
+				"{{ModId}}_CampingDate": {
+					"Id": "{{ModId}}_CampingDate",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current 1116026",
+					"HostOnly": false, 
+					"Action": "MarkEventSeen Current 1116026 false",
+					"MarkActionApplied": false,
+				},
+				
+				//Reset Winter Star Date
+				"{{ModId}}_WinterStarDate": {
+					"Id": "{{ModId}}_WinterStarDate",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current 22714-winterstar",
+					"HostOnly": false, 
+					"Action": "MarkEventSeen Current 22714-winterstar false",
+					"MarkActionApplied": false,
+				},
+				
+				//Reset Island Initiation
+				"{{ModId}}_IslandInitiation": {
+					"Id": "{{ModId}}_IslandInitiation",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current 22714-islandstart",
+					"HostOnly": false, 
+					"Action": "MarkEventSeen Current 22714-islandstart false",
+					"MarkActionApplied": false,
+				},
+				
+				//Reset Island Mail
+				"{{ModId}}_IslandMail": {
+					"Id": "{{ModId}}_IslandMail",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_MAIL Current IslandDateAgree",
+					"HostOnly": false, 
+					"Action": "RemoveMail Current IslandDateAgree",
+					"MarkActionApplied": false,
+				},
+				
+				//Reset Island Date
+				"{{ModId}}_IslandDate": {
+					"Id": "{{ModId}}_IslandDate",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current 22714-islanddate",
+					"HostOnly": false, 
+					"Action": "MarkEventSeen Current 22714-islanddate false",
+					"MarkActionApplied": false,
+				},
+				
+				//Unique Date Resets
+				
+					//Emily
+				
+				//Reset Emily Initiation
+				"{{ModId}}_EmilyInitiation": {
+					"Id": "{{ModId}}_EmilyInitiation",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current 1116015",
+					"HostOnly": false, 
+					"Action": "MarkEventSeen Current 1116015 false",
+					"MarkActionApplied": false,
+				},
+				
+				//Reset Emily Mail
+				"{{ModId}}_EmilyMail": {
+					"Id": "{{ModId}}_EmilyMail",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_MAIL Current emilyGemDateAgree",
+					"HostOnly": false, 
+					"Action": "RemoveMail Current emilyGemDateAgree",
+					"MarkActionApplied": false,
+				},
+				
+				//Reset Emily Date
+				"{{ModId}}_EmilyDate": {
+					"Id": "{{ModId}}_EmilyDate",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current 1116016",
+					"HostOnly": false, 
+					"Action": "MarkEventSeen Current 1116016 false",
+					"MarkActionApplied": false,
+				},
+				
+					//Haley
+					
+				//Reset Haley Initiation
+				"{{ModId}}_HaleyInitiation": {
+					"Id": "{{ModId}}_HaleyInitiation",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current 1116017",
+					"HostOnly": false, 
+					"Action": "MarkEventSeen Current 1116017 false",
+					"MarkActionApplied": false,
+				},
+				
+				//Reset Haley Mail
+				"{{ModId}}_HaleyMail": {
+					"Id": "{{ModId}}_HaleyMail",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_MAIL Current haleyDesertDateAgree",
+					"HostOnly": false, 
+					"Action": "RemoveMail Current haleyDesertDateAgree",
+					"MarkActionApplied": false,
+				},
+				
+				//Reset Haley Date
+				"{{ModId}}_HaleyDate": {
+					"Id": "{{ModId}}_HaleyDate",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current 1116018",
+					"HostOnly": false, 
+					"Action": "MarkEventSeen Current 1116018 false",
+					"MarkActionApplied": false,
+				},
+				
+					//Maru
+				
+				//Reset Maru Initiation
+				"{{ModId}}_MaruInitiation": {
+					"Id": "{{ModId}}_MaruInitiation",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current 1116027",
+					"HostOnly": false, 
+					"Action": "MarkEventSeen Current 1116027 false",
+					"MarkActionApplied": false,
+				},
+				
+				//Reset Maru Mail
+				"{{ModId}}_MaruMail": {
+					"Id": "{{ModId}}_MaruMail",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_MAIL Current maruLunarDateAgree",
+					"HostOnly": false, 
+					"Action": "RemoveMail Current maruLunarDateAgree",
+					"MarkActionApplied": false,
+				},
+				
+				//Reset Maru Date
+				"{{ModId}}_MaruDate": {
+					"Id": "{{ModId}}_MaruDate",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current 1116028",
+					"HostOnly": false, 
+					"Action": "MarkEventSeen Current 1116028 false",
+					"MarkActionApplied": false,
+				},
+				
+					//Alex
+				
+				//Reset Alex Initiation
+				"{{ModId}}_AlexInitiation": {
+					"Id": "{{ModId}}_AlexInitiation",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current 1116029",
+					"HostOnly": false, 
+					"Action": "MarkEventSeen Current 1116029 false",
+					"MarkActionApplied": false,
+				},
+				
+				//Reset Alex Mail
+				"{{ModId}}_AlexMail": {
+					"Id": "{{ModId}}_AlexMail",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_MAIL Current alexGridballDateAgree",
+					"HostOnly": false, 
+					"Action": "RemoveMail Current alexGridballDateAgree",
+					"MarkActionApplied": false,
+				},
+				
+				//Reset Alex Date
+				"{{ModId}}_AlexDate": {
+					"Id": "{{ModId}}_AlexDate",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current 1116030",
+					"HostOnly": false, 
+					"Action": "MarkEventSeen Current 1116030 false",
+					"MarkActionApplied": false,
+				},
+			},
+		},
+		
+		{
+			"LogName": "Date Reminders (Needs SpaceCore installed)",
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				
+				//Saloon Date Reminder
+				"{{ModId}}_SaloonReminder": {
+					"Id": "{{ModId}}_SaloonReminder",
+					"Trigger": "Manual",				
+					"Condition": "PLAYER_HAS_MAIL Current saloonDateAgree, !LOCATION_NAME Here Saloon, !IS_EVENT 1116010",
+					"HostOnly": false, 
+					"Action": "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:SaloonReminder |Date={{Date}} }}\" (O)206",
+				},
+				
+				//Reset Saloon Reminder
+				"{{ModId}}_SaloonReset": {
+					"Id": "{{ModId}}_SaloonReset",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_RUN_TRIGGER_ACTION Current {{ModId}}_SaloonReminder",
+					"HostOnly": false, 
+					"Action": "MarkActionApplied Current {{ModId}}_SaloonReminder false",
+					"MarkActionApplied": false,
+				},
+				
+				//Picnic Date Reminder
+				"{{ModId}}_PicnicReminder": {
+					"Id": "{{ModId}}_PicnicReminder",
+					"Trigger": "Manual",				
+					"Condition": "PLAYER_HAS_MAIL Current forestDateAgree, !LOCATION_NAME Here Forest, !IS_EVENT 1116012",
+					"HostOnly": false, 
+					"Action": "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:PicnicReminder |Date={{Date}} }}\" (O)204",
+				},
+				
+				//You missed the picnic!
+				"{{ModId}}_PicnicMissed": {
+					"Id": "{{ModId}}_PicnicMissed",
+					"Trigger": "Manual",				
+					"Condition": "PLAYER_HAS_MAIL Current forestDateAgree, !PLAYER_HAS_SEEN_EVENT Current 1116012",
+					"HostOnly": false, 
+					"Action": "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:MissedPicnic |Date={{Date}} }}\" (O)204",
+				},
+				
+				//Reset Picnic Reminder
+				"{{ModId}}_PicnicReset": {
+					"Id": "{{ModId}}_PicnicReset",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_RUN_TRIGGER_ACTION Current {{ModId}}_PicnicReminder",
+					"HostOnly": false, 
+					"Actions": [
+						"MarkActionApplied Current {{ModId}}_PicnicReminder false",
+						"MarkActionApplied Current {{ModId}}_PicnicMissed false",
+					],
+					"MarkActionApplied": false,
+				},
+				
+				//Library Date Reminder
+				"{{ModId}}_LibraryReminder": {
+					"Id": "{{ModId}}_LibraryReminder",
+					"Trigger": "Manual",				
+					"Condition": "PLAYER_HAS_MAIL Current libraryDateAgree, !LOCATION_NAME Here ArchaeologyHouse",
+					"HostOnly": false, 
+					"Action": "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:LibraryReminder |Date={{Date}} }}\" (O)102",
+				},
+				
+				//Reset Library Reminder
+				"{{ModId}}_LibraryReset": {
+					"Id": "{{ModId}}_LibraryReset",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_RUN_TRIGGER_ACTION Current {{ModId}}_LibraryReminder",
+					"HostOnly": false, 
+					"Action": "MarkActionApplied Current {{ModId}}_LibraryReminder false",
+					"MarkActionApplied": false,
+				},
+				
+				//Beach Date Reminder
+				"{{ModId}}_BeachReminder": {
+					"Id": "{{ModId}}_BeachReminder",
+					"Trigger": "Manual",				
+					"Condition": "PLAYER_HAS_MAIL Current beachDateAgree, !LOCATION_NAME Here Beach, !IS_EVENT 1116021",
+					"HostOnly": false, 
+					"Action": "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:BeachReminder |Date={{Date}} }}\" (O)372",
+				},
+				
+				//You missed the Beach Date!
+				"{{ModId}}_BeachMissed": {
+					"Id": "{{ModId}}_BeachMissed",
+					"Trigger": "Manual",				
+					"Condition": "PLAYER_HAS_MAIL Current beachDateAgree, !PLAYER_HAS_SEEN_EVENT Current 1116021",
+					"HostOnly": false, 
+					"Action": "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:MissedBeach |Date={{Date}} }}\" (O)372",
+				},
+				
+				//Reset Beach Reminder
+				"{{ModId}}_BeachReset": {
+					"Id": "{{ModId}}_BeachReset",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_RUN_TRIGGER_ACTION Current {{ModId}}_BeachReminder",
+					"HostOnly": false, 
+					"Actions": [
+						"MarkActionApplied Current {{ModId}}_BeachReminder false",
+						"MarkActionApplied Current {{ModId}}_BeachMissed false",
+					],
+					"MarkActionApplied": false,
+				},
+				
+				//Grocery Date Reminder
+				"{{ModId}}_GroceryReminder": {
+					"Id": "{{ModId}}_GroceryReminder",
+					"Trigger": "Manual",				
+					"Condition": "PLAYER_HAS_MAIL Current groceryDateAgree, !LOCATION_NAME Here SeedShop, !IS_EVENT 1116024",
+					"HostOnly": false, 
+					"Action": "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:GroceryReminder |Date={{Date}} }}\" (O)745",
+				},
+				
+				//You missed the Grocery Date!
+				"{{ModId}}_GroceryMissed": {
+					"Id": "{{ModId}}_GroceryMissed",
+					"Trigger": "Manual",				
+					"Condition": "PLAYER_HAS_MAIL Current groceryDateAgree, !PLAYER_HAS_SEEN_EVENT Current 1116024",
+					"HostOnly": false, 
+					"Action": "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:MissedGrocery |Date={{Date}} }}\" (O)745",
+				},
+				
+				//Reset Grocery Reminder
+				"{{ModId}}_GroceryReset": {
+					"Id": "{{ModId}}_GroceryReset",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_RUN_TRIGGER_ACTION Current {{ModId}}_GroceryReminder",
+					"HostOnly": false,
+					"Actions": [
+						"MarkActionApplied Current {{ModId}}_GroceryReminder false",
+						"MarkActionApplied Current {{ModId}}_GroceryMissed false",
+					],
+					"MarkActionApplied": false,
+				},
+				
+				//Camping Date Reminder
+				"{{ModId}}_CampingReminder": {
+					"Id": "{{ModId}}_CampingReminder",
+					"Trigger": "Manual",				
+					"Condition": "PLAYER_HAS_MAIL Current campingDateAgree, !LOCATION_NAME Here Forest, !IS_EVENT 1116026",
+					"HostOnly": false, 
+					"Action": "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:CampingReminder |Date={{Date}} }}\" (O)926",
+				},
+				
+				//Reset Camping Reminder
+				"{{ModId}}_CampingReset": {
+					"Id": "{{ModId}}_CampingReset",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_RUN_TRIGGER_ACTION Current {{ModId}}_CampingReminder",
+					"HostOnly": false, 
+					"Action": "MarkActionApplied Current {{ModId}}_CampingReminder false",
+					"MarkActionApplied": false,
+				},
+				
+				//Emily Date Reminder
+				"{{ModId}}_EmilyReminder": {
+					"Id": "{{ModId}}_EmilyReminder",
+					"Trigger": "Manual",				
+					"Condition": "PLAYER_HAS_MAIL Current emilyGemDateAgree, !LOCATION_NAME Here HaleyHouse, !IS_EVENT 1116016",
+					"HostOnly": false, 
+					"Action": "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:EmilyReminder.{{SpouseGender}} |Date={{Date}} }}\" (O)74",
+				},
+				
+				//Reset Emily Reminder
+				"{{ModId}}_EmilyReset": {
+					"Id": "{{ModId}}_EmilyReset",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_RUN_TRIGGER_ACTION Current {{ModId}}_EmilyReminder",
+					"HostOnly": false, 
+					"Action": "MarkActionApplied Current {{ModId}}_EmilyReminder false",
+					"MarkActionApplied": false,
+				},
+				
+				//Haley Date Reminder
+				"{{ModId}}_HaleyReminder": {
+					"Id": "{{ModId}}_HaleyReminder",
+					"Trigger": "Manual",				
+					"Condition": "PLAYER_HAS_MAIL Current haleyDesertDateAgree, !LOCATION_NAME Here BusStop, !IS_EVENT 1116018",
+					"HostOnly": false, 
+					"Action": "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:HaleyReminder |Date={{Date}} }}\" (O)88",
+				},
+				
+				//You missed the Haley Date!
+				"{{ModId}}_HaleyMissed": {
+					"Id": "{{ModId}}_HaleyMissed",
+					"Trigger": "Manual",				
+					"Condition": "PLAYER_HAS_MAIL Current haleyDesertDateAgree, !PLAYER_HAS_SEEN_EVENT Current 1116018",
+					"HostOnly": false, 
+					"Action": "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:MissedHaley |Date={{Date}} }}\" (O)8",
+				},
+				
+				//Reset Haley Reminder
+				"{{ModId}}_HaleyReset": {
+					"Id": "{{ModId}}_HaleyReset",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_RUN_TRIGGER_ACTION Current {{ModId}}_HaleyReminder",
+					"HostOnly": false, 
+					"Actions": [
+						"MarkActionApplied Current {{ModId}}_HaleyReminder false",
+						"MarkActionApplied Current {{ModId}}_HaleyMissed false",
+					],
+					"MarkActionApplied": false,
+				},
+				
+				//Alex Date Reminder
+				"{{ModId}}_AlexReminder": {
+					"Id": "{{ModId}}_AlexReminder",
+					"Trigger": "Manual",				
+					"Condition": "PLAYER_HAS_MAIL Current alexGridballDateAgree, !LOCATION_NAME Here BusStop, !IS_EVENT 1116030",
+					"HostOnly": false, 
+					"Action": "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:AlexReminder |Date={{Date}} }}\" (O)745",
+				},
+				
+				//You missed the Alex Date!
+				"{{ModId}}_AlexMissed": {
+					"Id": "{{ModId}}_AlexMissed",
+					"Trigger": "Manual",				
+					"Condition": "PLAYER_HAS_MAIL Current alexGridballDateAgree, !PLAYER_HAS_SEEN_EVENT Current 1116030",
+					"HostOnly": false, 
+					"Action": "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:MissedAlex |Date={{Date}} }}\" (O)745",
+				},
+				
+				//Reset Alex Reminder
+				"{{ModId}}_AlexReset": {
+					"Id": "{{ModId}}_AlexReset",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_RUN_TRIGGER_ACTION Current {{ModId}}_AlexReminder",
+					"HostOnly": false, 
+					"Actions": [
+						"MarkActionApplied Current {{ModId}}_AlexReminder false",
+						"MarkActionApplied Current {{ModId}}_AlexMissed false",
+					],
+					"MarkActionApplied": false,
+				},
+				
+				//Maru Date Reminder
+				"{{ModId}}_MaruReminder": {
+					"Id": "{{ModId}}_MaruReminder",
+					"Trigger": "Manual",				
+					"Condition": "PLAYER_HAS_MAIL Current maruLunarDateAgree, !LOCATION_NAME Here Forest, !IS_EVENT 1116028",
+					"HostOnly": false, 
+					"Action": "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:MaruReminder |Date={{Date}} }}\" (F)1916",
+				},
+				
+				//Reset Maru Reminder
+				"{{ModId}}_MaruReset": {
+					"Id": "{{ModId}}_MaruReset",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_RUN_TRIGGER_ACTION Current {{ModId}}_MaruReminder",
+					"HostOnly": false, 
+					"Action": "MarkActionApplied Current {{ModId}}_MaruReminder false",
+					"MarkActionApplied": false,
+				},
+				
+				//Winter Star Date Reminder
+				"{{ModId}}_WinterStarReminder": {
+					"Id": "{{ModId}}_WinterStarReminder",
+					"Trigger": "Manual",				
+					"Condition": "SEASON Winter, DAY_OF_MONTH 25, {{WinterStarDate|contains=enabled}}, !PLAYER_HAS_SEEN_EVENT Current 22714-winterstar",
+					"HostOnly": false, 
+					"Action": "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:WinterStarReminder |Date={{Date}} }}\" (F)1440",
+				},
+				
+				//Reset Winter Star Reminder
+				"{{ModId}}_WinterStarReset": {
+					"Id": "{{ModId}}_WinterStarReset",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_RUN_TRIGGER_ACTION Current {{ModId}}_WinterStarReminder",
+					"HostOnly": false, 
+					"Actions": [
+						"MarkActionApplied Current {{ModId}}_WinterStarReminder false",
+						"MarkActionApplied Current {{ModId}}_WinterStarMissed false",
+					],
+					"MarkActionApplied": false,
+				},
+				
+				//Island Date Reminder
+				"{{ModId}}_IslandReminder": {
+					"Id": "{{ModId}}_IslandReminder",
+					"Trigger": "Manual",				
+					"Condition": "PLAYER_HAS_MAIL Current IslandDateAgree, {{IslandDate|contains=enabled}}, !PLAYER_HAS_SEEN_EVENT Current 22714-islanddate, !IS_EVENT 22714-islanddate",
+					"HostOnly": false, 
+					"Action": "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:IslandReminder |Date={{Date}} }}\" (O)873",
+				},
+				
+				//You missed the Island Date!
+				"{{ModId}}_IslandMissed": {
+					"Id": "{{ModId}}_IslandMissed",
+					"Trigger": "Manual",				
+					"Condition": "PLAYER_HAS_MAIL Current IslandDateAgree, {{IslandDate|contains=enabled}}, !PLAYER_HAS_SEEN_EVENT Current 22714-islanddate",
+					"HostOnly": false, 
+					"Action": "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:MissedIsland |Date={{Date}} }}\" (O)873",
+				},
+				
+				//Reset Island Reminder
+				"{{ModId}}_IslandReset": {
+					"Id": "{{ModId}}_IslandReset",
+					"Trigger": "DayEnding",				
+					"Condition": "PLAYER_HAS_RUN_TRIGGER_ACTION Current {{ModId}}_IslandReminder",
+					"HostOnly": false, 
+					"Actions": [
+						"MarkActionApplied Current {{ModId}}_IslandReminder false",
+						"MarkActionApplied Current {{ModId}}_IslandMissed false",
+					],
+					"MarkActionApplied": false,
+				},
+			},
+			"When": {
+				"HasMod": "spacechase0.SpaceCore",
+				"DateReminders": "enabled",
+				"HasValue:{{Date}}": "true", //If no date, token not ready
+			},
+		},
+		
+		{
+			"LogName": "SpaceCore Time Triggers for Above Reminders",
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/TriggerActionExtensionData",
+			"Entries": {
+				"{{ModId}}_SaloonReminder": {
+					"Times": [ 1800 ]
+				},
+				"{{ModId}}_PicnicReminder": {
+					"Times": [ 1100 ]
+				},
+				"{{ModId}}_PicnicMissed": {
+					"Times": [ 1510 ]
+				},
+				"{{ModId}}_LibraryReminder": {
+					"Times": [ 900 ]
+				},
+				"{{ModId}}_BeachReminder": {
+					"Times": [ 1000 ]
+				},
+				"{{ModId}}_BeachMissed": {
+					"Times": [ 1610 ]
+				},
+				"{{ModId}}_GroceryReminder": {
+					"Times": [ 900 ]
+				},
+				"{{ModId}}_GroceryMissed": {
+					"Times": [ 1710 ]
+				},
+				"{{ModId}}_CampingReminder": {
+					"Times": [ 2000 ]
+				},
+				"{{ModId}}_EmilyReminder": {
+					"Times": [ 900 ]
+				},
+				"{{ModId}}_HaleyReminder": {
+					"Times": [ 1000 ]
+				},
+				"{{ModId}}_HaleyMissed": {
+					"Times": [ 1710 ]
+				},
+				"{{ModId}}_AlexReminder": {
+					"Times": [ 1200 ]
+				},
+				"{{ModId}}_AlexMissed": {
+					"Times": [ 1910 ]
+				},
+				"{{ModId}}_MaruReminder": {
+					"Times": [ 2000 ]
+				},
+				"{{ModId}}_WinterStarReminder": {
+					"Times": [ 2000 ]
+				},
+				"{{ModId}}_IslandReminder": {
+					"Times": [ 1200 ]
+				},
+				"{{ModId}}_IslandMissed": {
+					"Times": [ 1800 ]
+				},
+			},
+			"When": {
+				"HasMod": "spacechase0.SpaceCore",
+				"DateReminders": "enabled",
+				"HasValue:{{Date}}": "true", //If no date, token not ready
+			},
+		},
+	]
+}

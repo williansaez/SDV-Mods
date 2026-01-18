@@ -1,0 +1,34 @@
+{ 
+	"Changes": [	
+	{
+		"Action": "Load",
+		"Target": "Characters/Schedules/Julia",
+		"FromFile": "Assets/None.json"
+	},
+	{
+		"Action":"EditData",
+		"Target":"Characters/Schedules/Julia",
+		"Entries":
+			{
+			"rain": "610 DH.Julia.House 19 5 0 /1200 DH.Julia.House 21 11 3 julia_read /1600 DH.Julia.House 14 11 0 /1800 DH.Julia.House 20 4 0 julia_wash /2000 DH.Julia.House 5 4 1 julia_sleep",
+			"GreenRain": "GOTO rain",
+			"spring": "610 DH.Julia.House 21 11 3 julia_read /1000 Downhill 67 63 0 /1200 Downhill 69 69 0 julia_garden /1500 Downhill 36 39 2 julia_sit /1730 DH.Julia.House 20 4 0 julia_wash /1930 DH.Julia.House 14 11 0 /2100 DH.Julia.House 5 4 1 julia_sleep",
+			"summer": "GOTO spring",
+			"fall": "610 DH.Julia.House 19 5 0 /1500 Downhill 32 58 3 /1800 DH.Julia.House 21 11 3 julia_read /2100 DH.Julia.House 5 4 1 julia_sleep",
+			"fall_7": "610 DH.Julia.House 19 5 0 /1230 Town 84 9 1 /1600 Downhill 32 58 3 /1830 DH.Julia.House 21 11 3 julia_read /2100 DH.Julia.House 5 4 1 julia_sleep",
+			"winter": "GOTO fall",
+			"winter_7": "610 DH.Julia.House 19 5 0 /1230 Town 84 9 1 /1600 Downhill 32 58 3 /1830 DH.Julia.House 21 11 3 julia_read /2100 DH.Julia.House 5 4 1 julia_sleep"
+			}
+		},
+	{
+		"Action":"EditData",
+		"Target":"Characters/Schedules/Julia",
+		"When": { "HasSeenEvent: anyPlayer|contains=28645006": true },
+		"Entries":
+			{
+			"Sat": "610 DH.Julia.House 21 11 3 julia_read /830 Downhill 33 43 3 /1030 DH.Church 18 15 0 /1400 Mountain 14 7 2 /1700 DH.Julia.House 20 4 0 julia_wash /1930 DH.Julia.House 21 11 3 julia_read /2100 DH.Julia.House 5 4 1 julia_sleep",
+			"Wed": "610 DH.Julia.House 19 5 2 julia_read /1200 DH.Church 18 15 0 /1400 Mountain 14 7 2 /1700 DH.Julia.House 20 4 0 julia_wash /1930 DH.Julia.House 21 11 3 julia_read /2100 DH.Julia.House 5 4 1 julia_sleep",
+			}
+		}
+	]
+}

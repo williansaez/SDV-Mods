@@ -1,0 +1,34 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Abigail",
+      "Priority": "Early",
+      "Entries": {
+        "Wander_Default": "{{i18n: Abigail_Wander_Default_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24}}}}",
+        "Wander_Building": "{{i18n: Abigail_Wander_Building_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17}}}}",
+        "Wander_Farmer": "{{i18n: Abigail_Wander_Farmer_{{Random:1,2,3,4,5,6,7,8,9,10,11,12}}}}",
+        "Wander_Barn": "{{i18n: Abigail_Wander_Barn_{{Random:1,2,3,4,5,6,7,8,9,10,11,12}}}}",
+        "Wander_Barn_Cow": "{{i18n: Abigail_Wander_Barn_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,Cow_1,Cow_2,Cow_3,Cow_4,Cow_5,Cow_6,Cow_7,Cow_8,Cow_9,Cow_10,Cow_11,Cow_12,Cow_13,Cow_14,Cow_15,Cow_16,Cow_17,Cow_18}}}}",
+        "Wander_Coop": "{{i18n: Abigail_Wander_Coop_{{Random:1,2,3,4,5,6,7,8,9,10,11}}}}",
+        "Wander_Coop_Chicken": "{{i18n: Abigail_Wander_Coop_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,Chicken_1,Chicken_2,Chicken_3,Chicken_4,Chicken_5,Chicken_6,Chicken_7,Chicken_8,Chicken_9,Chicken_10,Chicken_11,Chicken_12,Chicken_13,Chicken_14, Chicken_15}}}}",
+        "Wander_FishPond": "{{i18n: Abigail_Wander_FishPond_{{Random:1,2,3,4,5,6,7,8,9,10,11,12}}}}",
+        "Wander_Tree": "{{i18n: Abigail_Wander_Tree_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19}}}}",
+        "Wander_Water": "{{i18n: Abigail_Wander_Water_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17}}}}",
+        "Wander_MatureCrop": "{{i18n: Abigail_Wander_MatureCrop_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14}}}}",
+        "Wander_LovedCrop_Pumpkin": "{{i18n: Abigail_Wander_LovedCrop_Pumpkin_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15}}}}",
+        "Wander_Patio": "{{i18n: Abigail_Wander_Patio_{{Random:1,2,3,4,5,6,7,8,9,10,11,12}}}}",
+        "Wander_JunimoHut": "{{i18n: Abigail_Wander_JunimoHut_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14}}}}",
+        "Wander_FruitTree": "{{i18n: Abigail_Wander_{{Random:FruitTree_1,FruitTree_2,FruitTree_3,FruitTree_4,FruitTree_5,FruitTree_6,FruitTree_7,FruitTree_8,FruitTree_9,FruitTree_10,FruitTree_11,FruitTree_12,Tree_3,Tree_5,Tree_8,Tree_10,Tree_16,Tree_17}}}}",
+        "Wander_BrokenFence": "{{i18n: Abigail_Wander_BrokenFence_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18}}}}",
+        "Wander_Cave": "{{i18n: Abigail_Wander_Cave_{{Random:1,2,3,4,5,6,7,8,9,10,11,12}}}}",
+        "Wander_Shed": "{{i18n: Abigail_Wander_Shed_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15}}}}",
+        "Wander_Greenhouse": "{{i18n: Abigail_Wander_Greenhouse_{{Random:1,2,3,4,5,6,7,8,9,10,11,12}}}}",
+        "Wander_Stable": "{{i18n: Abigail_Wander_Stable_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}}}}",
+        "Wander_GrandpaShrine": "{{i18n: Abigail_Wander_GrandpaShrine_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15}}}}",
+        "Wander_SlimeHutch": "{{i18n: Abigail_Wander_SlimeHutch_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15}}}}",
+        "Wander_Seat": "{{i18n: Abigail_Wander_Seat_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13}}}}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+    "Changes": [
+        {
+            "LogName": "Caroline's Egg Festival Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "Entries": {
+                "Caroline": "{{i18n: Caroline.Egg.{{Random:0,1,2}} }}",
+                "Caroline_y2": "{{i18n: Caroline.Egg.2.{{Random:0,1,2,3,4}} }}",
+                "Caroline_spouse": "{{i18n: Caroline.Egg.spouse.{{Random:0,1,2}} }}",
+                "Caroline_spouse_y2": "{{i18n: Caroline.Egg.2.spouse.{{Random:0,1,2,3,4,5,6,7,8,9}} }}"
+            }
+        },
+        {
+            "LogName": "Caroline's Flower Dance Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "Entries": {
+                "Caroline": "{{i18n: Caroline.Dance.{{Random:0,1,2}} }}",
+                "Caroline_y2": "{{i18n: Caroline.Dance.2.{{Random:0,1,2,3,4}} }}",
+            }
+        },
+        {
+            "LogName": "Caroline's Flower Dance Dialogue - Married",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "When": {
+                "Spouse": "Caroline",
+            },
+            "Entries": {
+                "Caroline": "{{i18n: Caroline.Dance.spouse.{{Random:0,1,2}} }}",
+                "Caroline_y2": "{{i18n: Caroline.Dance.2.spouse.{{Random:0,1,2,3,4,5,6,7,8,9}} }}"
+            }
+        },
+        {
+            "LogName": "Caroline's Luau Festival Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "Entries": {
+                "Caroline": "{{i18n: Caroline.Luau.{{Random:0,1,2}} }}",
+                "Caroline_y2": "{{i18n: Caroline.Luau.2.{{Random:0,1,2,3,4}} }}",
+                "Caroline_spouse": "{{i18n: Caroline.Luau.spouse.{{Random:0,1,2}} }}",
+                "Caroline_spouse_y2": "{{i18n: Caroline.Luau.2.spouse.{{Random:0,1,2,3,4,5,6,7,8,9}} }}"
+            }
+        },
+        {
+            "LogName": "Caroline's Dance of the Moonlight Jellies Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "Entries": {
+                "Caroline": "{{i18n: Caroline.Jellies.{{Random:0,1,2}} }}",
+                "Caroline_y2": "{{i18n: Caroline.Jellies.2.{{Random:0,1,2,3,4}} }}",
+                "Caroline_spouse": "{{i18n: Caroline.Jellies.spouse.{{Random:0,1,2}} }}",
+                "Caroline_spouse_y2": "{{i18n: Caroline.Jellies.2.spouse.{{Random:0,1,2,3,4,5,6,7,8,9}} }}"
+            }
+        },
+        {
+            "LogName": "Caroline's Stardew Fair Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "Entries": {
+                "Caroline": "{{i18n: Caroline.Fair.{{Random:0,1,2}} }}",
+                "Caroline_y2": "{{i18n: Caroline.Fair.2.{{Random:0,1,2,3,4}} }}",
+                "Caroline_spouse": "{{i18n: Caroline.Fair.spouse.{{Random:0,1,2}} }}",
+                "Caroline_spouse_y2": "{{i18n: Caroline.Fair.2.spouse.{{Random:0,1,2,3,4,5,6,7,8,9}} }}"
+            }
+        },
+        
+        {
+            "LogName": "Caroline's Spirit's Eve Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "Entries": {
+                "Caroline": "{{i18n: Caroline.Halloween.{{Random:0,1,2}} }}",
+                "Caroline_y2": "{{i18n: Caroline.Halloween.2.{{Random:0,1,2,3,4}} }}",
+                "Caroline_spouse": "{{i18n: Caroline.Halloween.spouse.{{Random:0,1,2}} }}",
+                "Caroline_spouse_y2": "{{i18n: Caroline.Halloween.2.spouse.{{Random:0,1,2,3,4,5,6,7,8,9}} }}"
+            }
+        },
+        {
+            "LogName": "Caroline's Festival of Ice Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "Entries": {
+                "Caroline": "{{i18n: Caroline.Ice.{{Random:0,1,2}} }}",
+                "Caroline_y2": "{{i18n: Caroline.Ice.2.{{Random:0,1,2,3,4}} }}",
+                "Caroline_spouse": "{{i18n: Caroline.Ice.spouse.{{Random:0,1,2}} }}",
+                "Caroline_spouse_y2": "{{i18n: Caroline.Ice.2.spouse.{{Random:0,1,2,3,4,5,6,7,8,9}} }}"
+            }
+        },
+        {
+            "LogName": "Caroline's Feast of the Winter Star Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "Entries": {
+                "Caroline": "{{i18n: Caroline.Christmas.{{Random:0,1,2}} }}",
+                "Caroline_y2": "{{i18n: Caroline.Christmas.2.{{Random:0,1,2,3,4}} }}",
+                "Caroline_spouse": "{{i18n: Caroline.Christmas.spouse.{{Random:0,1,2}} }}",
+                "Caroline_spouse_y2": "{{i18n: Caroline.Christmas.2.spouse.{{Random:0,1,2,3,4,5,6,7,8,9}} }}"
+            }
+        }
+    ]
+}

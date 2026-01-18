@@ -1,0 +1,18 @@
+{
+  "Changes": [
+	{ 	// Julia Parameters
+      "Action": "Include",
+      "FromFile": "Assets/Dispositions/Julia_Dp.json, Assets/Schedules/Julia_Schedules.json"
+	},
+	{
+      "LogName": "Conversation, Animations, Events",
+      "Action": "Include",
+      "FromFile": "Assets/Conversation/Julia_Dialogue.json, Assets/Animations/Animations.json, Assets/Events/Julia_Events.json"
+    },
+	{	//Dialogos & Reações
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": { "Julia": "{{i18n:Jul.Gift_Love}}/-6/{{i18n:Jul.Gift_Like}}/-81 -79 -7 -5/{{i18n:Jul.Gift_Disl}}/-12 -4 -2/{{i18n:Jul.Gift_Hate}}/-20/{{i18n:Jul.Gift_Neut}}/-80 -75 -26 -27/ " }
+    }
+  ]
+}

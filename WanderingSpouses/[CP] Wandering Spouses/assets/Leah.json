@@ -1,0 +1,32 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Leah",
+      "Priority": "Early",
+      "Entries": {
+        "Wander_Default": "{{i18n: Leah_Wander_Default_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18}}}}",
+        "Wander_Building": "{{i18n: Leah_Wander_Building_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21}}}}",
+        "Wander_Scenic": "{{i18n: Leah_Wander_Scenic_{{Random:1,2,3}}}}",
+        "Wander_Farmer": "{{i18n: Leah_Wander_Farmer_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14}}}}",
+        "Wander_Barn": "{{i18n: Leah_Wander_Barn_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13}}}}",
+        "Wander_Barn_Cow": "{{i18n: Leah_Wander_Barn_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,Cow_1,Cow_2,Cow_3,Cow_4,Cow_5,Cow_6,Cow_7,Cow_8,Cow_9,Cow_10,Cow_11,Cow_12,Cow_13,Cow_14,Cow_15}}}}",
+        "Wander_Coop": "{{i18n: Leah_Wander_Coop_{{Random:1,2,3,4,5,6,7,8,9,10,11}}}}",
+        "Wander_Coop_Chicken": "{{i18n: Leah_Wander_Coop_{{Random:1,2,3,4,5,6,7,8,9,10,11,Chicken_1,Chicken_2,Chicken_3,Chicken_4,Chicken_5,Chicken_6,Chicken_7,Chicken_8,Chicken_9,Chicken_10,Chicken_11,Chicken_12,Chicken_13}}}}",
+        "Wander_FishPond": "{{i18n: Leah_Wander_FishPond_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17}}}}",
+        "Wander_Tree": "{{i18n: Leah_Wander_Tree_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17}}}}",
+        "Wander_Water": "{{i18n: Leah_Wander_Water_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17}}}}",
+        "Wander_MatureCrop": "{{i18n: Leah_Wander_MatureCrop_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15}}}}",
+        "Wander_Patio": "{{i18n: Leah_Wander_Patio_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}}}}",
+        "Wander_JunimoHut": "{{i18n: Leah_Wander_JunimoHut_{{Random:1,2,3,4,5,6,7,8,9,10}}}}",
+        "Wander_FruitTree": "{{i18n: Leah_Wander_{{Random:FruitTree_1,FruitTree_2,FruitTree_3,FruitTree_4,FruitTree_5,FruitTree_6,FruitTree_7,FruitTree_8,FruitTree_9,Tree_3,Tree_5,Tree_8,Tree_10,Tree_16,Tree_17}}}}",
+        "Wander_BrokenFence": "{{i18n: Leah_Wander_BrokenFence_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14}}}}",
+        "Wander_Cave": "{{i18n: Leah_Wander_Cave_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15}}}}",
+        "Wander_Shed": "{{i18n: Leah_Wander_Shed_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13}}}}",
+        "Wander_Greenhouse": "{{i18n: Leah_Wander_Greenhouse_{{Random:1,2,3,4,5,6,7,8,9,10,11,12}}}}",
+        "Wander_Stable": "{{i18n: Leah_Wander_Stable_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13}}}}",
+        "Wander_GrandpaShrine": "{{i18n: Leah_Wander_GrandpaShrine_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}}}}"
+      }
+    }
+  ]
+}

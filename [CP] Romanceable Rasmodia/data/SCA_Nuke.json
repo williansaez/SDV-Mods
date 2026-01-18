@@ -1,0 +1,33 @@
+{
+    "Changes": [
+		// Portraits
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Wizard_{{Season}}",
+			"FromFile": "assets/Portraits/{{Portrait Style}}{{HatPortrait}}/Witch_{{PortraitSVE}}.png",
+			"When": {
+				"Spiderbuttons.CMCT/Config: Poltergeister.SeasonalCuteCharacters, SlightlyCuterWizard": true
+			}
+		},
+		// Sprites
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Wizard_{{Season}}",
+			"FromFile": "assets/Characters/{{Character Style}}{{HatCharacter}}/Witch.png",
+			"When": {
+				"Spiderbuttons.CMCT/Config: Poltergeister.SeasonalCuteCharacters, SlightlyCuterWizard": true
+			}
+		},
+        // Nose
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Wizard_{{Season}}",
+			"FromFile": "assets/Characters/{{Character Style}}/Overlays/Witch_Nose.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"Spiderbuttons.CMCT/Config: Poltergeister.SeasonalCuteCharacters, SlightlyCuterWizard": true,
+				"Nose Overlay Toggle": true
+			}
+		}
+    ]
+}

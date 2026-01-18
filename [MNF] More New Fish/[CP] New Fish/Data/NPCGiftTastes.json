@@ -1,0 +1,185 @@
+{
+"Changes": [  
+	 {
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+	  "LogName": "GiftTastes",
+	  "TextOperations": [
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "Demetrius", 1],
+         "Value": "MNF.MoreNewFish_nautilus MNF.MoreNewFish_cyclops_shark MNF.MoreNewFish_coelacanth",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+	  {
+         "Operation": "Append",
+         "Target": ["Fields", "Demetrius", 3],
+         "Value": "MNF.MoreNewFish_blinky MNF.MoreNewFish_glassfish MNF.MoreNewFish_brain_slug MNF.MoreNewFish_decapod MNF.MoreNewFish_cavefish",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+	  {
+         "Operation": "Append",
+         "Target": ["Fields", "Demetrius", 3],
+         "Value": "MNF.MoreNewFish_blinky MNF.MoreNewFish_glassfish MNF.MoreNewFish_brain_slug MNF.MoreNewFish_decapod MNF.MoreNewFish_cavefish",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+	  {
+         "Operation": "Append",
+         "Target": ["Fields", "Maru", 3],
+         "Value": "MNF.MoreNewFish_blinky MNF.MoreNewFish_glassfish MNF.MoreNewFish_brain_slug MNF.MoreNewFish_decapod MNF.MoreNewFish_cavefish",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+	  {
+         "Operation": "Append",
+         "Target": ["Fields", "Jas", 1],
+         "Value": "MNF.MoreNewFish_comet MNF.MoreNewFish_lionhead",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+	  {
+         "Operation": "Append",
+         "Target": ["Fields", "Jas", 3],
+         "Value": "MNF.MoreNewFish_goldfish",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+	  {
+         "Operation": "Append",
+         "Target": ["Fields", "Elliott", 1],
+         "Value": "MNF.MoreNewFish_arowana MNF.MoreNewFish_tancho_koi MNF.MoreNewFish_sanke_koi MNF.MoreNewFish_kohaku_koi MNF.MoreNewFish_holy_grenade_starfish MNF.MoreNewFish_harlequin_freshwater_shrimp MNF.MoreNewFish_red_harlequin_freshwater_shrimp MNF.MoreNewFish_crown_of_thorns_starfish",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+	  {
+         "Operation": "Append",
+         "Target": ["Fields", "Vincent", 1],
+         "Value": "MNF.MoreNewFish_telescope MNF.MoreNewFish_celestial_eye",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+	   {
+         "Operation": "Append",
+         "Target": ["Fields", "Vincent", 3],
+         "Value": "MNF.MoreNewFish_goldfish",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+	  {
+         "Operation": "Append",
+         "Target": ["Fields", "Willy", 1],
+         "Value": "MNF.MoreNewFish_small_manta_ray MNF.MoreNewFish_spiny_dogfish MNF.MoreNewFish_small_swordfish MNF.MoreNewFish_small_goblin_shark MNF.MoreNewFish_electric_catfish MNF.MoreNewFish_bonnethead MNF.MoreNewFish_fishing_elixir",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+	  {
+         "Operation": "Append",
+         "Target": ["Fields", "Abigail", 1],
+         "Value": "MNF.MoreNewFish_ghost_koi MNF.MoreNewFish_hi_utsuri_koi MNF.MoreNewFish_dumbo_octopus MNF.MoreNewFish_ghost_eel MNF.MoreNewFish_blue_dragon_slug",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+	  {
+         "Operation": "Append",
+         "Target": ["Fields", "Alex", 1],
+         "Value": "MNF.MoreNewFish_pangasius",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+	 {
+         "Operation": "Append",
+         "Target": ["Fields", "Sam", 1],
+         "Value": "MNF.MoreNewFish_shiro_utsuri_koi MNF.MoreNewFish_ki_utsuri_koi",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+	  {
+         "Operation": "Append",
+         "Target": ["Fields", "Leah", 1],
+         "Value": "MNF.MoreNewFish_clown_loach MNF.MoreNewFish_redtail_shark",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+	  {
+         "Operation": "Append",
+         "Target": ["Fields", "Harvey", 1],
+         "Value": "MNF.MoreNewFish_snowball_pleco MNF.MoreNewFish_yamabuki_koi",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "Wizard", 1],
+         "Value": "MNF.MoreNewFish_void_evilpus MNF.MoreNewFish_trapped_soul",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+	  {
+         "Operation": "Append",
+         "Target": ["Fields", "Penny", 1],
+         "Value": "MNF.MoreNewFish_freshwater_butterflyfish",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+	  {
+         "Operation": "Append",
+         "Target": ["Fields", "Krobus", 1],
+         "Value": "MNF.MoreNewFish_void_algae",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+	   {
+         "Operation": "Append",
+         "Target": ["Fields", "Krobus", 3],
+         "Value": "MNF.MoreNewFish_void_carp",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+	  {
+         "Operation": "Append",
+         "Target": ["Fields", "Sebastian", 1],
+         "Value": "MNF.MoreNewFish_clown_knifefish MNF.MoreNewFish_king_crab MNF.MoreNewFish_zebra_eel",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+	   {
+         "Operation": "Append",
+         "Target": ["Fields", "Sebastian", 3],
+         "Value": "MNF.MoreNewFish_water_snake MNF.MoreNewFish_hagfish",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+	  {
+         "Operation": "Append",
+         "Target": ["Fields", "Linus", 1],
+         "Value": "MNF.MoreNewFish_pangasius MNF.MoreNewFish_arctic_char MNF.MoreNewFish_tucunare",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+	   {
+         "Operation": "Append",
+         "Target": ["Fields", "Linus", 3],
+         "Value": "MNF.MoreNewFish_pacu MNF.MoreNewFish_robalo MNF.MoreNewFish_haddock",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+	  {
+         "Operation": "Append",
+         "Target": ["Fields", "Gus", 1],
+         "Value": "MNF.MoreNewFish_anchoviella",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+	   {
+         "Operation": "Append",
+         "Target": ["Fields", "Gus", 3],
+         "Value": "MNF.MoreNewFish_haddock MNF.MoreNewFish_robalo",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+	  {
+         "Operation": "Append",
+         "Target": ["Fields", "Lewis", 3],
+         "Value": "MNF.MoreNewFish_i_voted_sticker",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+	   {
+         "Operation": "Append",
+         "Target": ["Fields", "Shane", 1],
+         "Value": "MNF.MoreNewFish_duff",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+	  {
+         "Operation": "Append",
+         "Target": ["Fields", "Pam", 1],
+         "Value": "MNF.MoreNewFish_duff",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+	   {
+         "Operation": "Append",
+         "Target": ["Fields", "Universal_Neutral", 0],
+		 "Value": "MNF.MoreNewFish_i_voted_sticker",
+         "Delimiter": " "
+	   },
+	  ],
+	  },
+	  ],
+	  }

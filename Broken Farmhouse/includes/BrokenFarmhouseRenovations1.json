@@ -1,0 +1,108 @@
+{
+	"Changes": [
+		//Add Upper Room partially renovated
+	{
+        "Action": "EditMap",
+		"Target": "Maps/FarmHouse1, Maps/FarmHouse1_marriage",
+        "TextOperations": [
+        {
+			"Operation": "Append",
+            "Target": [ "MapProperties", "AdditionalRenovations" ],
+            "Value": "glymr.BrokenFarmhouse_UpperRoom_Half glymr.BrokenFarmhouse_UpperRoom_Half_Mail glymr.BrokenFarmhouse_UpperRoom_Half_NotBlank glymr.BrokenFarmhouse_UpperRoom_Half_Blank 15 11 13 8",
+            "Delimiter": "," 
+		},
+		],
+	},
+	    // load partial Upper Room empty map 
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_UpperRoom_Half_Blank",
+            "FromFile": "assets/BrokenFarmhouse_UpperRoom_Half_Blank.tmx"
+	},
+
+        // load partial Upper Room renovation map patch
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_UpperRoom_Half_NotBlank",
+            "FromFile": "assets/BrokenFarmhouse_UpperRoom_Half_NotBlank.tmx"
+    },
+		//Add Upper Room fully renovated
+	{
+        "Action": "EditMap",
+		"Target": "Maps/FarmHouse1, Maps/FarmHouse1_marriage",
+        "TextOperations": [
+        {
+			"Operation": "Append",
+            "Target": [ "MapProperties", "AdditionalRenovations" ],
+            "Value": "glymr.BrokenFarmhouse_UpperRoom_Full glymr.BrokenFarmhouse_UpperRoom_Full_Mail glymr.BrokenFarmhouse_UpperRoom_Full_NotBlank glymr.BrokenFarmhouse_UpperRoom_Full_Blank 15 11 13 8",
+            "Delimiter": "," 
+		},
+		],
+	},
+	    // load quarter Upper Room empty map 
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_UpperRoom_Full_Blank",
+            "FromFile": "assets/BrokenFarmhouse_UpperRoom_Full_Blank.tmx"
+	},
+        // load quarter Upper Room renovation map patch
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_UpperRoom_Full_NotBlank",
+            "FromFile": "assets/BrokenFarmhouse_UpperRoom_Full_NotBlank.tmx"
+    },
+		//Add Nursery partially renovated
+	{
+        "Action": "EditMap",
+		"Target": "Maps/FarmHouse1, Maps/FarmHouse1_marriage",
+        "TextOperations": [
+        {
+			"Operation": "Append",
+            "Target": [ "MapProperties", "AdditionalRenovations" ],
+            "Value": "glymr.BrokenFarmhouse_Nursery_Half glymr.BrokenFarmhouse_Nursery_Half_Mail glymr.BrokenFarmhouse_Nursery_Half_NotBlank glymr.BrokenFarmhouse_Nursery_Half_Blank 28 11 15 8",
+            "Delimiter": "," 
+		},
+		],
+	},
+	    // load partial nursery empty map 
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_Nursery_Half_Blank",
+            "FromFile": "assets/BrokenFarmhouse_Nursery_Half_Blank.tmx"
+	},
+
+        // load partial nursery renovation map patch
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_Nursery_Half_NotBlank",
+            "FromFile": "assets/BrokenFarmhouse_Nursery_Half_NotBlank.tmx"
+    },
+		//Add Nursery mostly renovated
+	{
+        "Action": "EditMap",
+		"Target": "Maps/FarmHouse1, Maps/FarmHouse1_marriage",
+        "TextOperations": [
+        {
+			"Operation": "Append",
+            "Target": [ "MapProperties", "AdditionalRenovations" ],
+            "Value": "glymr.BrokenFarmhouse_Nursery_Quarter glymr.BrokenFarmhouse_Nursery_Quarter_Mail glymr.BrokenFarmhouse_Nursery_Quarter_NotBlank glymr.BrokenFarmhouse_Nursery_Quarter_Blank 28 11 15 8",
+            "Delimiter": "," 
+		},
+		],
+	},
+	    // load quarter nursery empty map 
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_Nursery_Quarter_Blank",
+            "FromFile": "assets/BrokenFarmhouse_Nursery_Quarter_Blank.tmx"
+	},
+        // load quarter nursery renovation map patch
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_Nursery_Quarter_NotBlank",
+            "FromFile": "assets/BrokenFarmhouse_Nursery_Quarter_NotBlank.tmx"
+    },
+
+
+],
+}

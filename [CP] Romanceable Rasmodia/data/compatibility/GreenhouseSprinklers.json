@@ -1,0 +1,14 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+            "Entries": {
+                "Bpendragon.GreenhouseSprinklers.Wizard1": "{{i18n:GreenhouseSprinklers.mail.1}}",
+                "Bpendragon.GreenhouseSprinklers.Wizard1b": "{{i18n:GreenhouseSprinklers.mail.1b}}",
+                "Bpendragon.GreenhouseSprinklers.Wizard2": "{{i18n:GreenhouseSprinklers.mail.2}}",
+                "Bpendragon.GreenhouseSprinklers.Wizard3": "{{i18n:GreenhouseSprinklers.mail.3}}"
+            }
+        }
+    ]
+}

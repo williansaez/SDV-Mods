@@ -1,0 +1,10 @@
+{
+  "Name": "Heart Event Helper",
+  "Author": "bungus",
+  "Version": "1.1.0",
+  "Description": "Display friendship effects within heart event dialogue options.",
+  "UniqueID": "bungus.HeartEventHelper",
+  "EntryDll": "HeartEventHelper.dll",
+  "MinimumApiVersion": "4.1.6",
+  "UpdateKeys": [ "Nexus:21924" ]
+}

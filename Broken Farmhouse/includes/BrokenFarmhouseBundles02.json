@@ -1,0 +1,171 @@
+{
+	"Changes": [
+//Bundles Second Round (Farmhouse 1)
+	{
+	"Action": "EditData",
+	"Target": "UnlockableBundles/Bundles",
+	"Entries": {
+		
+			"glymr.BrokenFarmhouse.FixUp11": {
+			"Location": "FarmHouse", 
+			"BundleName": "Grandpa's To Do List #11:",
+			"BundleDescription": "{{i18n:glymr.BrokenFarmhouse.FixUp11Description | WhoseList={{WhoseList}} }}",
+			"OverviewDescription": "{{i18n:glymr.BrokenFarmhouse.FixUp11Overview}}",
+			"ShopPosition": "27, 17", 
+			"AlternativeShopPositions": [ "28, 16", "28, 17", "27, 18", "27, 19", "25, 16", ],	
+			"ShopType": "glymr.BrokenFarmhouse.TaskList", 
+			"Price": {
+				"206": 2, //2 pizzas
+				"167": 2, //2 Joja colas
+			},
+			"BundleCompletedActions": [  
+			"AddMail Current glymr.BrokenFarmhouse_UpperRoom_Half_Mail received",
+			],
+
+			"BundleReward": {
+				"(F)BluePinstripeDoubleBed": 1, //Blue Pinstripe Double Bed
+			},
+		    "ShopEvent": "continue/27 17/farmer 26 17 1/skippable/playSound money/message \"{{i18n:glymr.BrokenFarmhouse.FixUp11Event01}}\"/skippable/globalFade .009/viewport -30 -30/playsound doorOpen/pause 800/playSound trashcan/pause 600/playSound Ship/pause 800/playSound Ship/pause 800/playsound doorClose/pause 700/end",
+			"BundleCompletedMail": "{{i18n:glymr.BrokenFarmhouse.FixUp11Mail01}} %item furniture {{WhichCatalogue}} %%[#]{{i18n:glymr.BrokenFarmhouse.FixUp11Mail02}}",
+		    "SpecialPlacementRequirements": [
+			{
+				"Type": "GameStateQuery",
+				"Condition": "PLAYER_FARMHOUSE_UPGRADE Target 1 1",
+			},
+			],
+		},
+			"glymr.BrokenFarmhouse.FixUp12": {
+			"Location": "FarmHouse", 
+			"BundleName": "Grandpa's To Do List #12:",
+			"BundleDescription": "{{i18n:glymr.BrokenFarmhouse.FixUp12Description | WhoseList={{WhoseList}} }}",
+			"OverviewDescription": "{{i18n:glymr.BrokenFarmhouse.FixUp12Overview}}",
+			"ShopPosition": "27, 16",
+			"AlternativeShopPositions": [ "27, 17", "28, 16", "28, 17", "27, 18", "27, 19", "25, 16", ],				
+			"ShopType": "glymr.BrokenFarmhouse.TaskList", 
+			"Price": {
+				"388": 100, //100 wood
+			},
+			"BundleCompletedActions": [
+			"RemoveMail Current glymr.BrokenFarmhouse_UpperRoom_Half_Mail all",
+			"AddMail Current glymr.BrokenFarmhouse_UpperRoom_Full_Mail received",
+			"UB_SetWallpaper Current UpperRoom 11",
+			"UB_SetFloor Current UpperRoom 1",
+			],
+			"ShopEvent": "continue/24 14/farmer 24 14 0/skippable/animate farmer true true 100 66/playSound crafting/pause 500/playSound crafting/pause 500/stopAnimation farmer/message \"{{i18n:glymr.BrokenFarmhouse.FixUp12Event01}}\"/skippable/globalFade .008/viewport -30 -30/pause 700/playSound crafting/pause 800/playSound crafting/pause 500/playSound crafting/pause 600/playSound Ship/pause 1000/end",
+			"BundleCompletedMail": "{{i18n:glymr.BrokenFarmhouse.FixUp12Mail01}} [#]{{i18n:glymr.BrokenFarmhouse.FixUp12Mail02}}",
+		    "SpecialPlacementRequirements": [
+			{
+				"Type": "BundleCompletion",
+				"BundleKey": "glymr.BrokenFarmhouse.FixUp11",
+				"BundleSharesBuilding": true,
+			},
+			{
+				"Type": "GameStateQuery",
+				"Condition": "PLAYER_FARMHOUSE_UPGRADE Target 1 1",
+			},
+		],
+		},
+		
+			"glymr.BrokenFarmhouse.FixUp13": {
+			"Location": "FarmHouse", 
+			"BundleName": "Grandpa's To Do List #13:",
+			"BundleDescription": "{{i18n:glymr.BrokenFarmhouse.FixUp13Description | WhoseList={{WhoseList}} }}",
+			"OverviewDescription": "{{i18n:glymr.BrokenFarmhouse.FixUp13Overview}}",
+			"ShopPosition": "40, 15",
+			"AlternativeShopPositions": [ "43, 16", "44, 15", "39, 17", "36, 15", "29, 16", ],			
+			"ShopType": "glymr.BrokenFarmhouse.TaskList", 
+			"Price": {
+				"428": 1, //cloth
+				"Si.ECM_string": 1, //string
+				"395": 3 //3 coffee 
+			},
+			"BundleCompletedActions": [
+			"AddMail Current glymr.BrokenFarmhouse_Nursery_Half_Mail received",
+			"UB_SetWallpaper Current Hallway_Nursery 61",
+			"UB_SetFloor Current Hallway_Nursery 31",
+			],
+		    "ShopEvent": "continue/39 15/farmer 39 15 1/skippable/playSound money/message \"{{i18n:glymr.BrokenFarmhouse.FixUp13Event01}}\"/skippable/globalFade .009/viewport -30 -30/playsound doorOpen/pause 900/playSound sewing_loop/pause 3000/playsound doorClose/pause 700/end",
+			"BundleCompletedMail": "{{i18n:glymr.BrokenFarmhouse.FixUp13Mail01}} %item object 74 1 %%[#]{{i18n:glymr.BrokenFarmhouse.FixUp13Mail02}}",
+		    "SpecialPlacementRequirements": [
+			{
+				"Type": "BundleCompletion",
+				"BundleKey": "glymr.BrokenFarmhouse.FixUp12",
+				"BundleSharesBuilding": true,
+			},
+			{
+				"Type": "GameStateQuery",
+				"Condition": "PLAYER_FARMHOUSE_UPGRADE Target 1 1",
+			},
+		],
+		},
+		
+			"glymr.BrokenFarmhouse.FixUp14": {
+			"Location": "FarmHouse", 
+			"BundleName": "Grandpa's To Do List #14:",
+			"BundleDescription": "{{i18n:glymr.BrokenFarmhouse.FixUp14Description | WhoseList={{WhoseList}} }}",
+			"OverviewDescription": "{{i18n:glymr.BrokenFarmhouse.FixUp14Overview}}",
+			"ShopPosition": "43, 16", 
+			"AlternativeShopPositions": [ "40, 15", "44, 15", "39, 17", "36, 15", "29, 16", ],	
+			"ShopType": "glymr.BrokenFarmhouse.TaskList", 
+			"Price": {
+				"388": 50, //50 wood
+				"Si.ECM_paper": 1, //paper
+				"Si.ECM_glue": 1, //glue
+			},
+			"BundleReward": {
+				"872": 1, //fairy dust
+			},
+			"BundleCompletedActions": [
+			"RemoveMail Current glymr.BrokenFarmhouse_Nursery_Half_Mail all",
+			"AddMail Current glymr.BrokenFarmhouse_Nursery_Quarter_Mail received",
+			"UB_SetWallpaper Current Nursery 61",
+			"UB_SetFloor Current Nursery 31",
+			],
+			"ShopEvent": "continue/36 14/farmer 36 14 0/skippable/animate farmer true true 100 66/playSound crafting/pause 500/playSound crafting/pause 500/stopAnimation farmer/message \"{{i18n:glymr.BrokenFarmhouse.FixUp14Event01}}\"/itemAboveHead 872/pause 1200/stopAnimation farmer/message \"{{i18n:glymr.BrokenFarmhouse.FixUp14Event02}}\"/skippable/globalFade .008/viewport -30 -30/pause 900/playSound crafting/pause 700/playSound crafting/pause 600/playSound crafting/pause 500/UB_ApplyPatch/playSound Ship/pause 1000/end",
+		    "SpecialPlacementRequirements": [
+			{
+				"Type": "BundleCompletion",
+				"BundleKey": "glymr.BrokenFarmhouse.FixUp13",
+				"BundleSharesBuilding": true,
+			},
+			{
+				"Type": "GameStateQuery",
+				"Condition": "PLAYER_FARMHOUSE_UPGRADE Target 1 1",
+			},
+		],
+		},
+			"glymr.BrokenFarmhouse.FixUp15": {
+			"Location": "FarmHouse", 
+			"BundleName": "Grandpa's To Do List #15:",
+			"BundleDescription": "{{i18n:glymr.BrokenFarmhouse.FixUp15Description | WhoseList={{WhoseList}} }}",
+			"OverviewDescription": "{{i18n:glymr.BrokenFarmhouse.FixUp15Overview}}",
+			"ShopPosition": "40, 15",
+			"AlternativeShopPositions": [ "43, 16", "44, 15", "39, 17", "36, 15", "29, 16", ],					
+			"ShopType": "glymr.BrokenFarmhouse.TaskList", 
+			"Price": {
+				"709": 25, //25 hardwood
+				"247": 1, //oil
+			},
+			"BundleCompletedActions": [ 
+					"mushymato.MMAP_FarmHouseUpgrade", 
+					"MarkActionApplied Current mushymato.MMAP_FarmHouseUpgrade false",
+					],
+			"ShopEvent": "continue/31 16/farmer 31 16 0/skippable/animate farmer true true 100 66/playSound crafting/pause 500/playSound crafting/pause 500/stopAnimation farmer/message \"{{i18n:glymr.BrokenFarmhouse.FixUp15Event01}}\"/end",
+			"BundleCompletedMail": "{{i18n:glymr.BrokenFarmhouse.FixUp15Mail01}} [#]{{i18n:glymr.BrokenFarmhouse.FixUp15Mail02}}",
+		    "SpecialPlacementRequirements": [
+			{
+				"Type": "BundleCompletion",
+				"BundleKey": "glymr.BrokenFarmhouse.FixUp14",
+				"BundleSharesBuilding": true,
+			},
+			{
+				"Type": "GameStateQuery",
+				"Condition": "PLAYER_FARMHOUSE_UPGRADE Target 1 1",
+			},
+			],
+			},
+		},
+	},
+
+],
+}

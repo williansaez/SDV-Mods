@@ -1,0 +1,277 @@
+{
+	"Changes":[
+		// LOAD ASSETS
+		{
+			"LogName": "Resource Sprite Load",
+			"Action": "Load",
+			"Priority": "High",
+			"Target": "Characters/Aerobics, Characters/Spring, Characters/Summer, Characters/Fall, Characters/Winter_Indoor, Characters/Winter_Outdoor, Characters/Beach, Characters/SpiritsEve, Characters/FlowerDance",
+			"FromFile": "assets/Sprites/{{TargetWithoutPath}}.png",
+		},
+		{
+			"LogName": "Resource Portrait Load",
+			"Action": "Load",
+			"Priority": "High",
+			"Target": "Portraits/Aerobics, Portraits/Spring, Portraits/Summer, Portraits/Fall, Portraits/Winter_Indoor, Portraits/Winter_Outdoor, Portraits/Beach, Portraits/SpiritsEve, Portraits/FlowerDance",
+			"FromFile": "assets/Portraits/{{TargetWithoutPath}}.png",
+		},
+		// APPEARANCE CHANGES
+		{
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"When": 
+			{
+				"SorkrimArt": "true"
+			},
+			"Fields": 
+			{
+				"Caroline": 
+				{
+					"Appearance": [
+						{
+							"Id": "{{ModId}}.CarolineSpring",
+							"Condition": "SEASON Spring",
+							"Portrait": "Portraits/Spring",
+							"Sprite": "Characters/Spring",
+							"Precedence": -130,
+							"Weight": 0
+						},
+						{
+							"Id": "{{ModId}}.CarolineSummer",
+							"Condition": "SEASON Summer",
+							"Portrait": "Portraits/Summer",
+							"Sprite": "Characters/Summer",
+							"Precedence": -130,
+							"Weight": 0
+						},
+						{
+							"Id": "{{ModId}}_CSC.Spring",
+							"Condition": "SEASON Spring",
+							"Portrait": "Portraits/Spring",
+							"Sprite": "Characters/Spring",
+							"Precedence": -130,
+							"Weight": 0
+						},
+						{
+							"Id": "{{ModId}}_CSC.Summer",
+							"Condition": "SEASON Summer",
+							"Portrait": "Portraits/Summer",
+							"Sprite": "Characters/Summer",
+							"Precedence": -130,
+							"Weight": 0
+						},
+						{
+							"Id": "{{ModId}}_CSC.Fall",
+							"Condition": "SEASON Fall",
+							"Portrait": "Portraits/Fall",
+							"Sprite": "Characters/Fall",
+							"Precedence": -130,
+							"Weight": 0
+						},
+						{
+							"Id": "{{ModId}}_CSC.Winter_Indoors",
+							"Condition": "SEASON Winter",
+							"Indoors": true,
+							"Outdoors": false,
+							"Portrait": "Portraits/Winter_Indoor",
+							"Sprite": "Characters/Winter_Indoor",
+							"Precedence": -130,
+							"Weight": 0
+						},
+						{
+							"Id": "{{ModId}}_CSC.Winter_Outdoors",
+							"Condition": "SEASON Winter",
+							"Indoors": false,
+							"Outdoors": true,
+							"Portrait": "Portraits/Winter_Outdoor",
+							"Sprite": "Characters/Winter_Outdoor",
+							"Precedence": -130,
+							"Weight": 0
+						},
+						{
+							"Id": "{{ModId}}_CSC.White",
+							"Condition": "PLAYER_LOCATION_UNIQUE_NAME Current Beach",
+							"Portrait": "Portraits/Beach",
+							"Sprite": "Characters/Beach",
+							"Precedence": -1100,
+							"Weight": 0
+						},
+						{
+							"Id": "{{ModId}}_CSC.White",
+							"Condition": "PLAYER_LOCATION_UNIQUE_NAME Current BathHouse_Entry",
+							"Portrait": "Portraits/Beach",
+							"Sprite": "Characters/Beach",
+							"Precedence": -1100,
+							"Weight": 0
+						},
+						{
+							"Id": "{{ModId}}_CSC.White",
+							"Condition": "PLAYER_LOCATION_UNIQUE_NAME Current BathHouse_WomensLocker",
+							"Portrait": "Portraits/Beach",
+							"Sprite": "Characters/Beach",
+							"Precedence": -1100,
+							"Weight": 0
+						},
+						{
+							"Id": "{{ModId}}_CSC.White",
+							"Condition": "PLAYER_LOCATION_UNIQUE_NAME Current BathHouse_Pool",
+							"Portrait": "Portraits/Beach",
+							"Sprite": "Characters/Beach",
+							"Precedence": -1100,
+							"Weight": 0
+						},
+						{
+							"Id": "{{ModId}}_CSC.Beach",
+							"Condition": "IS_VISITING_ISLAND Caroline",
+							"Portrait": "Portraits/Beach",
+							"Sprite": "Characters/Beach",
+							"IsIslandAttire": true,
+							"Precedence": -1100, //Apply over
+							"Weight": 0
+						},
+						{
+							"Id": "{{ModId}}_CSC.SpiritsEve",
+							"Condition": "EVENT_ID festival_fall27",
+							"Portrait": "Portraits/SpiritsEve",
+							"Sprite": "Characters/SpiritsEve",
+							"Precedence": -1100, //Apply over
+							"Weight": 0
+						},
+						{
+							"Id": "{{ModId}}_CSC.FlowerDance",
+							"Condition": "EVENT_ID festival_spring24",
+							"Portrait": "Portraits/FlowerDance",
+							"Sprite": "Characters/FlowerDance",
+							"Precedence": -1100, //Apply over
+							"Weight": 0
+						},
+						{
+							"Id": "{{ModId}}_CSC.Aerobics",
+							"Condition": "ANY \"LOCATION_NAME Target SeedShop, DAY_OF_WEEK Tuesday, WEATHER Target Sun Wind Snow\"",
+							"Portrait": "Portraits/Aerobics",
+							"Sprite": "Characters/Aerobics",
+							"Precedence": -1100, //Apply over
+							"Weight": 0
+						},
+					],
+				},
+			},
+		},
+		// GIFT LOG FIX
+		{
+            "Action": "EditImage",
+            "Target": "Characters/Caroline",
+            "FromFile": "assets/Sprites/{{Variant}}.png",
+        },	
+		// SPOUSE STUFF
+		{
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"When": 
+			{
+				"HasMod|contains=Hitme.CarolineIsSingle": "false",
+			},
+			"Fields": 
+			{
+				"Caroline": 
+				{
+					"SpouseRoom": 
+					{
+						"MapAsset": "{{ModId}}_CSCSpouseRoom"
+					},
+					"SpousePatio": {
+						"MapAsset": "{{ModId}}_CSCSpouseArea",
+						"MapSourceRect": {
+						  "X": 0,
+						  "Y": 0,
+						  "Width": 4,
+						  "Height": 4
+						},
+						"SpriteAnimationFrames": [
+							[16, 500],
+							[17, 500],
+							[18, 500],
+						]
+					},
+				},
+			},
+		},
+		// MAKE SINGLE
+		{
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"When": 
+			{
+				"Query: '{{HasFlag:currentPlayer|contains=Caroline.AbigailSettle}}' = 'true' OR '{{AutoSingle}}' = 'true'": "true",
+				"HasMod|contains=Hitme.CarolineIsSingle": "false",
+			},
+			"Fields": 
+			{
+				"Caroline": 
+				{
+					"CanBeRomanced": "true",
+					"FriendsAndFamily": {},
+				},
+				"Pierre":
+				{
+					"FriendsAndFamily": {
+						"Abigail": "[LocalizedText Strings\\Characters:Relative_Daughter]",
+					},
+				}
+			},
+		},
+		// LOAD ASSETS
+		{
+            "Action": "Load",
+            "Target": "Maps/{{ModId}}_CSCSpouseArea",
+            "FromFile": "Assets/Maps/spouseArea.tmx"
+        },
+		{
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_CSCSpouseRoom",
+			"When": { "HasSeenEvent:currentPlayer|contains=BeachBuddy": false, },
+			"FromFile": "assets/maps/spouseRoom.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_CSCSpouseRoom",
+			"When": { "HasSeenEvent:currentPlayer|contains=BeachBuddy": true, },
+			"FromFile": "assets/maps/spouseRoom_Post12.tmx"
+		},
+		// MISC
+		// BUGGY FOR NEW SAVES, CAUSES ABIGAIL TO BUG, MAKE A WORKAROUND
+		// {
+		// 	"LogName": "Abigail Coma Location",
+		// 	"Action": "EditData",
+		// 	"Target": "Data/Characters",
+		// 	"Fields": 
+		// 	{
+		// 		"Abigail": 
+		// 		{
+		// 			"Home": [
+		// 				{
+		// 					"Id": "Coma",
+		// 					"Condition": "PLAYER_HAS_MAIL Any Caroline.AbigailMissing Any, !PLAYER_HAS_SEEN_EVENT Any TheDisclosure",
+		// 					"Location": "Woods",
+		// 					"Tile": {
+		// 					"X": 47,
+		// 					"Y": 1
+		// 					},
+		// 					"Direction": "down"
+		// 				},
+		// 				{
+		// 					"Id": "Revived",
+		// 					"Condition": "PLAYER_HAS_SEEN_EVENT Any TheDisclosure",
+		// 					"Location": "SeedShop",
+		// 					"Tile": {
+		// 					"X": 1,
+		// 					"Y": 9
+		// 					},
+		// 					"Direction": "left"
+		// 				}
+		// 			],
+		// 	  	}
+		// 	}
+		// },
+	],
+}

@@ -1,0 +1,17 @@
+{
+	"Format": "2.0.0",
+	"Changes": 
+	[
+	
+	{
+		"Action": "Include",
+		"FromFile": "Data/NewNormalDialogue.json"
+	},
+	{
+		"Action": "Include",
+		"FromFile": "Data/NewMarriageDialogue.json"
+	},
+	
+	]
+}	
+	//I'm so used to using ; instead of , I swear to god this will be the bane of my existence

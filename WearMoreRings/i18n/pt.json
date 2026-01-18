@@ -1,0 +1,8 @@
+{
+    "DestroyRingChestsCommand": "Remove todos os baús de anéis restantes usados ​​para armazenar os anéis do jogador. Todos os itens contidos nele cairão aos seus pés.",
+    "OpenForgeCommand": "Abre o menu da forja.",
+    "RingsName": "Anéis",
+    "RingsTooltip": "Quantos slots de anel estão disponíveis.",
+    "BonusTrinketName": "Bugiganga bônus",
+    "BonusTrinketTooltip": "Quer você consiga dois slots de bugigangas pelo preço de um."
+}

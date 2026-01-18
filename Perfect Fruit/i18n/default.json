@@ -1,0 +1,89 @@
+{
+
+//CONFIG
+
+"config.section.Balancing.name": "Balancing",
+"config.section.sprites.name": "Sprites",
+
+"config.Rarity.name": "Chance For Perfect Fruit",
+"config.Rarity.description": "Choose how often or how rarely Perfect Fruit appear.",
+
+"config.SaplingNumber.name": "Fruit Needed For Saplings",
+"config.SaplingNumber.description": "Choose how many Perfect Fruit need to be traded for Perfect Fruit Saplings.",
+
+"config.UnlockTrigger.name": "Unlock Condition",
+"config.UnlockTrigger.description": "Choose the conditions for Perfect Fruit to appear on normal fruit trees.",
+"config.UnlockTrigger.values.None": "Always Available",
+"config.UnlockTrigger.values.CC": "After Community Center Completion",
+"config.UnlockTrigger.values.Grandpa": "After Perfect Grandpa Evaluation",
+"config.UnlockTrigger.values.Perfection": "After Perfection",
+
+"config.SVBO.name": "Use SVBO Balancing?",
+"config.SVBO.description": "Uses SVBO fruit prices to decide the price of Perfect Fruit.",
+"config.SVBO.values.True": "True",
+"config.SVBO.values.False": "False",
+
+"config.ExcludeTracking.name": "Exclude From Perfection?",
+"config.ExcludeTracking.description": "Choose if shipping Perfect Fruit should count towards Perfection.",
+"config.ExcludeTracking.values.True": "True",
+"config.ExcludeTracking.values.False": "False",
+
+"config.FruitSprites.name": "Fruit Sprites",
+"config.FruitSprites.values.Vanilla": "Vanilla",
+"config.FruitSprites.values.VT": "Vanilla Tweaks",
+
+"config.SaplingSprites.name": "Sapling Sprites",
+"config.SaplingSprites.values.Vanilla": "Vanilla",
+"config.SaplingSprites.values.VT": "Vanilla Tweaks",
+
+//ITEMS
+
+"PF.PerfectCherry.Name": "Perfect Cherry",
+"PF.PerfectCherry.Description": "What an incredible Cherry..!",
+
+"PF.PerfectApricot.Name": "Perfect Apricot",
+"PF.PerfectApricot.Description": "What an incredible Apricot..!",
+
+"PF.PerfectOrange.Name": "Perfect Orange",
+"PF.PerfectOrange.Description": "What an incredible Orange..!",
+
+"PF.PerfectPeach.Name": "Perfect Peach",
+"PF.PerfectPeach.Description": "What an incredible Peach..!",
+
+"PF.PerfectPomegranate.Name": "Perfect Pomegranate",
+"PF.PerfectPomegranate.Description": "What an incredible Pomegranate..!",
+
+"PF.PerfectApple.Name": "Perfect Apple",
+"PF.PerfectApple.Description": "What an incredible Apple..!",
+
+"PF.PerfectBanana.Name": "Perfect Banana",
+"PF.PerfectBanana.Description": "What an incredible Banana..!",
+
+"PF.PerfectMango.Name": "Perfect Mango",
+"PF.PerfectMango.Description": "What an incredible Mango..!",
+
+"PF.PerfectCherrySapling.Name": "Perfect Cherry Sapling",
+"PF.PerfectCherrySapling.Description": "Takes 28 days to produce a mature Perfect Cherry tree. Bears fruit in the Spring.",
+
+"PF.PerfectApricotSapling.Name": "Perfect Apricot Sapling",
+"PF.PerfectApricotSapling.Description": "Takes 28 days to produce a mature Perfect Apricot tree. Bears fruit in the Spring.",
+
+"PF.PerfectOrangeSapling.Name": "Perfect Orange Sapling",
+"PF.PerfectOrangeSapling.Description": "Takes 28 days to produce a mature Perfect Orange tree. Bears fruit in the Summer.",
+
+"PF.PerfectPeachSapling.Name": "Perfect Peach Sapling",
+"PF.PerfectPeachSapling.Description": "Takes 28 days to produce a mature Perfect Peach tree. Bears fruit in the Summer.",
+
+"PF.PerfectPomegranateSapling.Name": "Perfect Pomegranate Sapling",
+"PF.PerfectPomegranateSapling.Description": "Takes 28 days to produce a mature Perfect Pomegranate tree. Bears fruit in the Fall.",
+
+"PF.PerfectAppleSapling.Name": "Perfect Apple Sapling",
+"PF.PerfectAppleSapling.Description": "Takes 28 days to produce a mature Perfect Apple tree. Bears fruit in the Fall.",
+
+"PF.PerfectBananaSapling.Name": "Perfect Banana Sapling",
+"PF.PerfectBananaSapling.Description": "Takes 28 days to produce a mature Perfect Banana tree. Bears fruit in the summer, or all year round when planted on Ginger Island.",
+
+"PF.PerfectMangoSapling.Name": "Perfect Mango Sapling",
+"PF.PerfectMangoSapling.Description": "Takes 28 days to produce a mature Perfect Mango tree. Bears fruit in the summer, or all year round when planted on Ginger Island."
+
+}

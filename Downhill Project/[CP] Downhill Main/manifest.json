@@ -1,0 +1,18 @@
+{
+	"Name": "Downhill Project",
+	"Author": "Kiyugamods",
+	"Version": "1.0.12",
+	"Description": "Downhill Main Project",
+	"UniqueID": "DH.Kiyuga.Main",
+	"UpdateKeys": [ "Nexus:32872" ],
+	"MinimumApiVersion": "4.1.0",
+	"ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher", "MinimumVersion": "2.5.0" },
+	"Dependencies": [
+		{ "UniqueID": "spacechase0.SpaceCore", "IsRequired": true },
+		{ "UniqueID": "FlashShifter.StardewValleyExpandedCP", "IsRequired": false },
+		{ "UniqueID": "Rafseazz.RSVCP", "IsRequired": false },
+		{ "UniqueID": "LemurKat.EastScarpe.CP", "IsRequired": false },
+		{ "UniqueID": "Rexstrife20.MineralTownCP", "IsRequired": false },
+		{ "UniqueID": "DD.DefenseDivision", "IsRequired": false }
+	]
+}

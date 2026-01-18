@@ -1,0 +1,195 @@
+{
+  "Format": "2.0.0",
+   "ConfigSchema": {
+		"UseLegacyLionfish": {
+			"AllowValues": "true, false",
+			"Default": "false"
+			},
+		"EasyFishing": {
+			"AllowValues": "true, false",
+			"Default": "false"
+			},
+		"EnableWillyDialogues": {
+		"AllowValues": "true, false",
+		"Default": "true"
+			},
+		},
+  "Changes": [  
+	 {
+			"LogName": "Include",
+			"Action": "Include",
+			"FromFile": "Data/AquariumData.json,Data/FishData.json,Data/Location.json,Data/Objects.json,Data/FishPondData.json,Data/EventsAndQuests.json,Data/NPCGiftTastes.json",
+		},
+		{
+        "Action": "EditImage",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/lionfish_legacy.png",
+		"When": {"UseLegacyLionfish":"true"},
+		"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 }, 
+        "ToArea": { "X": 336, "Y": 544, "Width": 16, "Height": 16 },
+	   },
+{
+        "Action": "EditImage",
+        "Target": "LooseSprites/AquariumFish",
+        "FromFile": "assets/aquariumdata.png",
+		"When": {"UseLegacyLionfish":"true"},
+		"FromArea": { "X": 264, "Y": 528, "Width": 24, "Height": 48 }, 
+        "ToArea": { "X": 408, "Y": 96, "Width": 24, "Height": 48 },
+	   },	   
+	 {
+      "LogName": "Load Objects Sprites",
+      "Action": "Load",
+      "Target": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+      "FromFile": "assets/new_fish.png"
+    },	  
+		{       
+	 "Action": "EditData",
+	 "LogName": "Craftables Elixirs",
+	 "Target": "Data/CraftingRecipes",
+	 "Entries": {		
+		"Warrior Elixir": "MNF.MoreNewFish_void_algae 1 MNF.MoreNewFish_glassfish 1 MNF.MoreNewFish_lamprey 1 MNF.MoreNewFish_jellyfish 1 796 1/Home/MNF.MoreNewFish_warrior_elixir 1/false/null",
+		"Fishing Elixir": "MNF.MoreNewFish_spiny_dogfish 1 MNF.MoreNewFish_small_goblin_shark 1 MNF.MoreNewFish_small_manta_ray 1 MNF.MoreNewFish_small_swordfish 1 MNF.MoreNewFish_bonnethead 1/Home/MNF.MoreNewFish_fishing_elixir 1/false/null",
+		"MNF.MoreNewFish_fish_hatchery": "709 10 710 1 122 1 335 1 336 1/Home/MNF.MoreNewFish_fish_hatchery 1/true/null",
+			 },
+},
+	  //FISHPOND DATA
+	  
+		//FISH CONTEXT TAGS
+			
+		 
+		//SpecialOrders
+		{
+		"Action": "EditData",
+		"Target": "Data/SpecialOrders",
+			"Entries": { 
+			"MNF.RobaloOrder_Name": {
+			"Name": "[MNF.RobaloOrder_Name]",
+			"Requester": "Willy",
+			"Duration": "Month",
+			"Repeatable": "false",
+			"RequiredTags": "island",
+			"OrderType": "",
+			"SpecialRule": "",
+			"Text": "[MNF.RobaloOrder_Text]",
+			"ItemToRemoveOnEnd": null,
+			"MailToRemoveOnEnd": null,
+			"Objectives": [
+      {
+        "Type": "Fish",
+        "Text": "[MNF.RobaloOrder__Objective_0_Text]",
+        "RequiredCount": "20",
+        "Data": {
+          "AcceptedContextTags": "item_robalo"
+        }
+      },
+			{
+        "Type": "Donate",
+        "Text": "[MNF.RobaloOrder__Objective_1_Text]",
+        "RequiredCount": "20",
+        "Data": {
+          "DropBox": "GusFridge",
+          "DropBoxGameLocation": "Saloon",
+          "DropBoxIndicatorLocation": "18 15",
+          "MinimumCapacity": "24",
+          "AcceptedContextTags": "item_robalo"
+        }
+      },
+	  ],
+	  "Rewards": [
+	  {
+		"Type": "Money",
+		"Data": {
+		"Amount": "2000",
+						}
+					 },
+	  {
+		"Type": "Mail",
+		"Data": {
+		"MailReceived": "MNFSpecialOrder",
+		"NoLetter": "true"
+						}
+					  }
+					]
+	  },
+	  },
+	  },
+			{
+		"Action": "EditData",
+		"Target": "Strings/SpecialOrderStrings",
+			"Entries": {
+				"MNF.RobaloOrder_Name": "{{i18n:MNF.RobaloOrder_Name}}",
+				"MNF.RobaloOrder_Text": "{{i18n:MNF.RobaloOrder_Text}}",
+				"MNF.RobaloOrder__Objective_0_Text": "{{i18n:MNF.RobaloOrder__Objective_0_Text}}",
+				"MNF.RobaloOrder__Objective_1_Text": "{{i18n:MNF.RobaloOrder__Objective_1_Text}}",
+				}		
+          },
+		 {
+		"Action": "Load",
+		"Target": "LooseSprites/MNFAquariumData",
+		"FromFile": "assets/aquariumdata.png",
+	},
+		
+		  {
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "MNF.MoreNewFish_fish_hatchery": {
+					"Name": "MNF.MoreNewFish_fish_hatchery",
+                    "DisplayName": "{{i18n:MNF.MoreNewFish_fish_hatchery_name}}",
+                    "Description": "{{i18n:MNF.MoreNewFish_fish_hatchery_description}}",
+                    "CanBePlacedOutDoors": true,
+                    "CanBePlacedIndoors": true,
+                    "Texture": "Mods\\Objects\\MNF.MoreNewFish_fish_hatchery",
+                    "SpriteIndex": 0,
+                },
+				},
+		  },
+		   {
+      "LogName": "Load Objects Sprites",
+      "Action": "Load",
+      "Target": "Mods\\Objects\\MNF.MoreNewFish_fish_hatchery",
+      "FromFile": "assets/hatchery.png"
+    },
+	{
+		"Action": "EditData",
+		"LogName": "Sword Fish",
+		"Target": "Data/Weapons",
+		"Entries": {
+			"MNF.MoreNewFish_sword_fish": {
+                    "Name": "Sword Fish",
+                    "DisplayName": "{{i18n:sword_fish.name}}",
+                    "Description": "{{i18n:sword_fish.description}}",
+                    "MinDamage": 45,
+                    "MaxDamage": 75,
+                    "Knockback": 1.0,
+                    "Speed": 10,
+                    "Precision": 100,
+                    "Defense": 10,
+                    "Type": 0,
+                    "MineBaseLevel": 0,
+                    "MineMinLevel": -1,
+                    "AreaOfEffect": 3,
+                    "CritChance": 0.3,
+                    "CritMultiplier": 5.0,
+                    "CanBeLostOnDeath": false,
+                    "Texture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+                    "SpriteIndex": 93,
+                },
+			
+			},
+				},
+				{
+		"Action": "EditData",
+		"Target": "Data/Machines",
+		"Entries": {
+			"(BC)MNF.MoreNewFish_fish_hatchery": {
+				"HasInput": false,
+				"HasOutput": false,
+				"InteractMethod": null,
+				"AllowFairyDust": true,
+                },
+			
+			},
+				},
+				]
+}

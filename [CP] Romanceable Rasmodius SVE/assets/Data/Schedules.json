@@ -1,0 +1,130 @@
+{
+	"Changes": [
+		{ //Regular Pre-Marriage
+        "Action": "EditData",
+        "LogName": "PreMarriageSchedule_RR",
+        "Target": "Characters/schedules/Wizard",
+        "When": { "HasSeenEvent": "112" }, //CC Start Event
+        "Entries": {
+            "summer_Sun_2": "610 WizardHouse 5 17 2/630 Forest 14 28 2 Wizard_Meditate/2300 WizardHouse 3 4 2 Wizard_Sleep",
+            "summer_Sun_4": "610 WizardHouse 5 17 2/630 Forest 14 29 2 Wizard_Meditate/830 WizardHouse 5 15 2/1050 Forest 5 21 3/1140 Forest 3 19 2/1220 Forest 3 23 0/1240 Forest 5 21 3/1300 WizardHouse 8 13 0/1400 WizardHouse 2 17 3/1430 WizardHouse 10 17 2 Wizard_Concentrate2/1600 WizardHouse 4 17 2/2300 WizardHouse 3 4 2 Wizard_Sleep",
+            }
+        },
+		{ //Halloween
+      	"LogName": "Wizard Schedule",
+      	"Action": "EditData",
+      	"Target": "Characters/schedules/Wizard",
+      	"Entries": {
+	        "fall_26": "610 Town 20 37 wizard_magic \"Strings\\schedules\\Wizard:fall_26.000\"/1000 Town 28 33 wizard_magic \"Strings\\schedules\\Wizard:fall_26.000\"/1100 Town 37 32 wizard_magic \"Strings\\schedules\\Wizard:fall_26.000\"/1200 Town 41 23 wizard_magic \"Strings\\schedules\\Wizard:fall_26.000\"/1300 Town 39 19 wizard_magic \"Strings\\schedules\\Wizard:fall_26.001\"/1400 Town 35 20 wizard_magic \"Strings\\schedules\\Wizard:fall_26.001\"/1500 Town 30 13 wizard_magic \"Strings\\schedules\\Wizard:fall_26.002\"/1600 Town 19 8 wizard_magic \"Strings\\schedules\\Wizard:fall_26.002\"/1700 Town 12 12 wizard_magic \"Strings\\schedules\\Wizard:fall_26.003\"/1800 Town 19 15 wizard_magic \"Strings\\schedules\\Wizard:fall_26.003\"/1900 Town 18 22 wizard_magic \"Strings\\schedules\\Wizard:fall_26.004\"/2000 Town 23 27 wizard_magic \"Strings\\schedules\\Wizard:fall_26.004\"/2100 Town 26 30 wizard_magic \"Strings\\schedules\\Wizard:fall_26.005\"/2200 Town 14 30 wizard_magic \"Strings\\schedules\\Wizard:fall_26.006\"/2300 WizardHouse 21 17 wizard_sleep",
+	        "fall_27": "700 Town 51 60 2/2300 WizardHouse 21 17 wizard_sleep",
+            }
+    	},
+        { //Marriage Halloween
+		"Action": "EditData",
+        "Target": "Characters/schedules/Wizard",
+        "When": {"Season": "Fall","Day": 26},
+        "Entries":{
+        "marriage_Fri": "700 Town 20 37 wizard_magic \"Strings\\schedules\\Wizard:fall_26.000\"/1000 Town 28 33 wizard_magic \"Strings\\schedules\\Wizard:fall_26.000\"/1100 Town 37 32 wizard_magic \"Strings\\schedules\\Wizard:fall_26.000\"/1200 Town 41 23 wizard_magic \"Strings\\schedules\\Wizard:fall_26.000\"/1300 Town 39 19 wizard_magic \"Strings\\schedules\\Wizard:fall_26.001\"/1400 Town 35 20 wizard_magic \"Strings\\schedules\\Wizard:fall_26.001\"/1500 Town 30 13 wizard_magic \"Strings\\schedules\\Wizard:fall_26.002\"/1600 Town 19 8 wizard_magic \"Strings\\schedules\\Wizard:fall_26.002\"/1700 Town 12 12 wizard_magic \"Strings\\schedules\\Wizard:fall_26.003\"/1800 Town 19 15 wizard_magic \"Strings\\schedules\\Wizard:fall_26.003\"/1900 Town 18 22 wizard_magic \"Strings\\schedules\\Wizard:fall_26.004\"/2000 Town 23 27 wizard_magic \"Strings\\schedules\\Wizard:fall_26.004\"/2100 Town 26 30 wizard_magic \"Strings\\schedules\\Wizard:fall_26.005\"/2200 Town 14 30 wizard_magic \"Strings\\schedules\\Wizard:fall_26.006\"/2300 BusStop -1 23 3"
+            }
+        },
+        { //NightMarket Saga
+        "Action": "EditData",
+        "Target":"Characters/schedules/Jodi", //Moving Jodi out of the way, bye Jodi
+        "Entries": {
+            "winter_17": "800 SamHouse 6 5 0 jodi_dishes/940 SamHouse 5 5 0/1000 SamHouse 7 5 0/1020 SamHouse 4 5 0/1040 SamHouse 6 5 0 jodi_dishes/1130 SamHouse 4 12 2 jodi_sit_down/1330 Town 22 72 1/1630 Beach 11 30 3 \"Strings\\schedules\\Jodi:winter_17.000\"/2330 SamHouse 22 5 1 jodi_sleep",
+            },
+        },
+        {
+        "Action": "EditData",
+        "Target": "Characters/schedules/Wizard",
+        "When": {"Season": "Winter","Day": 17, "Spouse": "Wizard"},
+        "Entries":{
+        	"marriage_Wed": "1500 Beach 29 34 2 \"Strings\\schedules\\Wizard:marriage_winter_17.000\"/1900 Beach 42 36 2 \"Strings\\schedules\\Wizard:marriage_winter_17.001\"/2000 Beach 20 24 2 \"Strings\\schedules\\Wizard:marriage_winter_17.002\"/2200 BusStop -1 23 3"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Characters/schedules/Wizard",
+        "When": {"Season": "Winter","Day": 17, "Spouse": "Wizard", "HavingChild": "@{{playerName}}" },
+        "Entries":{
+        	"marriage_Wed": "1500 Beach 29 34 2 \"Strings\\schedules\\Wizard:marriage_winter_17.000\"/1900 Beach 42 36 2 \"Strings\\schedules\\Wizard:marriage_winter_17.001\"/2000 Beach 20 24 2 \"Strings\\schedules\\Wizard:marriageExpecting_winter_17.002\"/2200 BusStop -1 23 3"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Characters/schedules/Wizard",
+        "When": {"Hearts:Wizard": "0, 1, 2 ,3"},
+        "Entries":{
+        	"winter_17": "1400 Beach 29 34 2 \"Strings\\schedules\\Wizard:NightMarket.000\"/1900 Beach 42 36 2 \"Strings\\schedules\\Wizard:NightMarket.001\"/2000 WizardHouse 5 17 2"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Characters/schedules/Wizard",
+        "When": {"Hearts:Wizard": "4, 5"},
+        "Entries":{
+        	"winter_17": "1400 Beach 29 34 2 \"Strings\\schedules\\Wizard:NightMarket.002\"/1900 Beach 42 36 2 \"Strings\\schedules\\Wizard:NightMarket.003\"/2000 WizardHouse 5 17 2"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Characters/schedules/Wizard",
+        "When": {"Hearts:Wizard": "6, 7, 8"},
+        "Entries":{
+        	"winter_17": "1400 Beach 29 34 2 \"Strings\\schedules\\Wizard:NightMarket.004\"/1900 Beach 42 36 2 \"Strings\\schedules\\Wizard:NightMarket.005\"/2000 WizardHouse 5 17 2"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Characters/schedules/Wizard",
+        "When": {"Relationship:Wizard": "Dating"},
+        "Entries":{
+        	"winter_17": "1400 Beach 29 34 2 \"Strings\\schedules\\Wizard:NightMarket.006\"/1900 Beach 42 36 2 \"Strings\\schedules\\Wizard:NightMarket.007\"/2000 WizardHouse 5 17 2"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Characters/schedules/Wizard",
+        "When": {"Relationship:Wizard": "Engaged"},
+        "Entries":{
+        	"winter_17": "1400 Beach 29 34 2 \"Strings\\schedules\\Wizard:NightMarket.008\"/1900 Beach 42 36 2 \"Strings\\schedules\\Wizard:NightMarket.009\"/2000 WizardHouse 5 17 2"
+            }
+        },
+        {
+        "Action": "EditData",
+        "Target": "Characters/schedules/Wizard",
+        "When": {"Relationship:Wizard": "Divorced"},
+        "Entries":{
+        	"winter_17": "1400 Beach 29 34 2 \"Strings\\schedules\\Wizard:NightMarket.010\"/1900 Beach 42 36 2 \"Strings\\schedules\\Wizard:NightMarket.011\"/2000 WizardHouse 5 17 2"
+            }
+        },
+        { //Olivia Meet Up - Changes to only be up to 6 hearts, at 7 hearts he stops lol
+        "Action": "EditData",
+        "Target": "Characters/Schedules/Wizard",
+        "When": {
+            "Spouse |contains=Olivia, Wizard": false,
+            "Relationship:Wizard |contains=Dating": false,
+            "Hearts:Wizard": "0, 1, 2, 3, 4, 5, 6",
+            "Season |contains=Summer": true,
+            "Day |contains=25": true
+                },
+        "Entries": {
+            "25": "630 WizardHouse 10 17 2 Wizard_Meditate/1210 WizardHouse 10 29 0/1240 WizardHouse 11 32 1/1300 WizardHouse 7 32 3/1320 WizardHouse 2 29 0/1340 WizardHouse 2 29 3/1400 WizardHouse 5 17 2/2230 WizardHouse 7 21 1 \"Strings\\schedules\\Wizard:OliviaVisitWhichTotallyIsNotWhatYouThinkItIs.001\"/2250 WizardHouse 2 4 1 Wizard_Sleep \"Strings\\schedules\\Wizard:OliviaVisitWhichTotallyIsNotWhatYouThinkItIs.002\""
+            },
+        },
+        {
+        "Action": "EditData",
+        "Target": "Characters/Schedules/Olivia",
+        "When": {
+            "Spouse |contains=Olivia, Wizard": false,
+            "Relationship:Olivia |contains=Dating": false,
+            "Hearts:Wizard": "0, 1, 2, 3, 4, 5, 6",
+            "Season |contains=Summer": true,
+            "Day |contains=25": true
+                },
+        "Entries": {
+            "25": "0 Custom_JenkinsHouse 19 5 0/610 Custom_JenkinsHouse 5 8 0/700 Custom_JenkinsHouse 34 37 0 Olivia_Wash/1030 Custom_JenkinsHouse 16 12 0 Olivia_Art/1310 Town 24 72 3/1600 Custom_JenkinsHouse 32 37 2 Olivia_Wine2/1910 WizardHouse 9 21 3 \"Strings\\schedules\\Olivia:WizardVisitWhichTotallyIsNotWhatYouThinkItIs.001\"/2250 WizardHouse 3 4 1 Olivia_Sleep \"Strings\\schedules\\Olivia:WizardVisitWhichTotallyIsNotWhatYouThinkItIs.002\""
+            },
+        },
+	]
+}

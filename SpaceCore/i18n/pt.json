@@ -1,0 +1,19 @@
+{
+    "config.custom-skill-page.name": "Página de Habilidade Personalizada",
+    "config.custom-skill-page.tooltip": "Se deve mostrar a página de habilidade personalizada. Isso moverá a carteira para que haja mais espaço para mais habilidades.",
+    "config.support-all-professions-mod.name": "Suporte a Todos os Mods de Profissões",
+    "config.support-all-professions-mod.tooltip": "Quando Todos os Profissionais estiver instalado, se deve aplicar automaticamente profissões personalizadas registradas através do SpaceCore quando seu nível for alcançado.",
+    "config.advanced-social-interactions": "Interações Sociais Avançadas",
+    "config.always-trigger.name": "Acionar Sempre",
+    "config.always-trigger.description": "Se o menu deve sempre ser acionado ao interagir com um NPC.",
+    "config.trigger-modifier.name": "Modificador de Acionamento",
+    "config.trigger-modifier.description": "A tecla a ser mantida ao interagir com alguém para acionar o menu de interação avançada.",
+    "interaction-with": "Interação com {{npc}}",
+    "interaction.chat": "Bate-papo",
+    "interaction.gift-held": "Presentear Item Segurado",
+    "interaction.cancel": "Cancelar",
+    "question.ask": "Fazer uma Pergunta",
+    "health-regen": "Saúde por segundo",
+    "stamina-regen": "Estamina por segundo",
+    "resource-clump.bad-tool-tier": "Sua ferramenta não é forte o suficiente para quebrar isso."
+}

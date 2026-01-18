@@ -1,0 +1,13 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Fields": {
+			"896": {
+               "Description": "{{i18n:GalaxySoul_Description}}",
+            },
+			}
+		}
+	]
+}

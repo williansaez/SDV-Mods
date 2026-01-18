@@ -1,0 +1,20 @@
+{
+    "Name": "Gervig91's Furniture",
+    "Author": "Gervig91",
+    "Version": "1.13.0",
+    "Description": "Gervig91's Furniture",
+    "UniqueID": "Gervig91.Gervig",
+    "UpdateKeys": [
+        "Nexus:5791"
+    ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher",
+        "MinimumVersion": "2.0.0"
+    },
+    "Dependencies": [
+   {
+      "UniqueID": "spacechase0.ContentPatcherAnimations",
+      "IsRequired": true
+   }
+]
+}

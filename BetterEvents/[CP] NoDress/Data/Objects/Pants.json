@@ -1,0 +1,30 @@
+{
+  "Changes": [
+    {
+      "LogName": "Load Pants Tilesheet",
+      "Action": "Load",
+      "Target": "Mods/AlexGoD.NoDress/Objects/Pants",
+      "FromFile": "Assets/Objects/Pants.png"
+    },
+    {
+      "LogName": "Pants Data",
+      "Action": "EditData",
+      "Target": "Data/Pants",
+      "Entries": {
+        "AlexGoD.NoDress_Pants": {
+          "Name": "AlexGoD.NoDress_Pants",
+          "DisplayName": "AlexGoD.NoDress_Pants",
+          "Description": "AlexGoD.NoDress_Pants",
+          "Price": 3000,
+          "Texture": "Mods\\AlexGoD.NoDress\\Objects\\Shirts",
+          "SpriteIndex": 0,
+          "DefaultColor": null,
+          "CanBeDyed": false,
+          "IsPrismatic": false,
+          "HasSleeves": true,
+          "CanChooseDuringCharacterCustomization": false
+        }
+      }
+    }
+  ]
+}

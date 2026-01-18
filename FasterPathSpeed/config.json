@@ -1,0 +1,24 @@
+{
+  "DefaultPathSpeedBuff": 1.0,
+  "IsPathSpeedBuffOnlyOnTheFarm": false,
+  "IsPathAffectHorseSpeed": true,
+  "HorsePathSpeedBuffModifier": 2.0,
+  "IsEnablePathReplace": true,
+  "IsTownPathSpeedBuff": true,
+  "IsUseCustomPathSpeedBuffValues": true,
+  "CustomPathSpeedBuffValues": {
+    "WoodPath": 1.5,
+    "WoodFloor": 1.0,
+    "RusticPlankFloor": 1.0,
+    "WeatheredFloor": 1.0,
+    "StrawFloor": 1.0,
+    "GravelPath": 1.5,
+    "CobblestonePath": 1.5,
+    "SteppingStonePath": 1.5,
+    "StoneFloor": 1.5,
+    "StoneWalkwayFloor": 2.0,
+    "BrickFloor": 2.5,
+    "CrystalPath": 3.0,
+    "CrystalFloor": 3.0
+  }
+}

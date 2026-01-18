@@ -1,0 +1,9 @@
+﻿{
+    "Name": "Better Events Core",
+    "Author": "AlexGoD",
+    "Version": "1.0.0",
+    "Description": "Add extra command for events.",
+    "UniqueID": "AlexGoD.BetterEventsCore",
+    "EntryDLL": "BetterEventsCore.dll",
+    "MinimumApiVersion": "3.0.0"
+}

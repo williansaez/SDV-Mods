@@ -1,0 +1,12 @@
+{
+	"Changes": [
+        {
+            "Action": "EditData",
+            "Target": "data/events/BusStop",
+            "When": { "HasMod": "elhrvy.NPCJuna" },
+            "Entries": {
+              "64271012/f Juna 750": "ragtime/25 21/farmer 18 22 1 Ayeisha 25 22 0 Juna -200 -200 3/skippable/move Ayeisha 4 0 1/playSound wand/screenFlash 1/warp Juna 31 22/jump Ayeisha/textAboveHead Ayeisha \"!?!?\"/speak Ayeisha \"... $6\"/speak Juna \"{{i18n:Ayeisha.Juna.event.1}}\"/speak Ayeisha \"{{i18n:Ayeisha.Juna.event.2}}\"/speak Juna \"{{i18n:Ayeisha.Juna.event.3}}\"/speak Ayeisha \"{{i18n:Ayeisha.Juna.event.4}}\"/speak Juna \"{{i18n:Ayeisha.Juna.event.5}}\"/speak Ayeisha \"{{i18n:Ayeisha.Juna.event.6}}\"/speak Juna \"{{i18n:Ayeisha.Juna.event.7}}\"/speak Ayeisha \"{{i18n:Ayeisha.Juna.event.8}}\"/emote Juna 32/speak Juna \"{{i18n:Ayeisha.Juna.event.9}}\"/emote Ayeisha 16/speak Ayeisha \"{{i18n:Ayeisha.Juna.event.10}}\"/pause 400/textAboveHead Juna \"*sigh*\"/pause 500/speak Juna \"{{i18n:Ayeisha.Juna.event.11}}\"/pause 300/playSound wand/screenFlash 1/warp Juna -200 -200/pause 50/jump Ayeisha/pause 200/speak Ayeisha \"{{i18n:Ayeisha.Juna.event.12}}\"/pause 500/advancedMove Ayeisha false 5 0 0 5000/pause 800/end"
+            }
+        }
+    ]
+}

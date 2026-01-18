@@ -1,0 +1,38 @@
+{
+  "ToggleMod": "Alternar Mod",
+  "ToggleMod.Desccription": "Ativar ou desativar este mod",
+
+  "IconSize": "Tamanho do Ícone",
+  "IconSize.Desccription": "Define o tamanho do ícone exibido no Calendário",
+  "IconSize.Small": "Pequeno",
+  "IconSize.Medium": "Médio",
+  "IconSize.Large": "Grande",
+  "IconSize.XLarge": "Extra Grande",
+
+  "IconPositionX": "Posição Horizontal do Ícone",
+  "IconPositionX.Description": "Define a posição do ícone; 0 significa esquerda e 1 significa direita",
+
+  "IconPositionY": "Posição Vertical do Ícone",
+  "IconPositionY.Description": "Define a posição do ícone; 0 significa topo e 1 significa inferior",
+
+  "ToggleBlackList": "Atalho para alternar o menu da lista de bloqueio",
+  "ToggleBlackList.Description": "Abre o menu de lista de bloqueio de cultivos no jogo",
+
+  "BlacklistCropKeybind": "Atalho para adicionar/remover cultivo da lista de bloqueio",
+  "BlacklistCropKeybind.Description": "Adiciona/remove o cultivo atualmente apontado da lista de bloqueio",
+
+  "ToggleCalendarDayDetail": "Atalho para alternar o menu do dia do calendário",
+  "ToggleCalendarDayDetail.Description": "Abre o menu do dia do calendário na página do Calendário",
+
+  "UI.CropBlackList.NoItems": "Nenhum cultivo na lista de bloqueio",
+  "UI.CropBlackList.Title": "Lista de Bloqueio de Cultivos",
+  "UI.CalendarDayDetail.Title": "Itens Colhíveis de Hoje",
+  "UI.CropBlackList.Confirm.Remove": "Tem certeza de que deseja remover {{itemName}} da lista de bloqueio?",
+  "UI.Remove.Notification": "{{itemName}} removido da lista de bloqueio",
+  "UI.Add.Notification": "{{itemName}} adicionado à lista de bloqueio",
+
+  "Greenhouse": "Estufa",
+  "IslandWest": "Ilha Oeste"
+
+
+}

@@ -1,0 +1,21 @@
+{
+	"GMCM.ModEnabled.Name": "Mod habilitado",
+	"GMCM.ShowQuestMarkers.Name": "Marcadores de missão",
+	"GMCM.ShowQuestDetails.Name": "Detalhes da missão",
+	"left-to-greet": "Faltam: {0}",
+	"fish-everywhere": "{0} pode ser encontrado em qualquer lugar.",
+	"fish-location": "{0} pode ser encontrado em {1}",
+	"fish-sunny": "{0} só pode ser pescado quando está ensolarado.",
+	"fish-rainy": "{0} só pode ser pescado quando está chovendo.",
+	"fish-hours": "{0} só pode ser pescado entre {1}h e {2}h.",
+	"x-crafting-recipe-known": "{0} pode ser criado no menu de criação.",
+	"x-crafting-recipe-unknown": "{0} pode ser criado no menu de criação depois que você aprender a receita.",
+	"x-y-skill-crafting": "Você aprenderá a receita ao atingir o nível {0} em {1}.",
+	"x-y-friendship-crafting": "Você aprenderá a receita ao atingir o nível de amizade {0} com {1}.",
+	"special-crafting": "Existem requisitos especiais para aprender a receita de {0}.",
+	"x-cooking-recipe-known": "{0} pode ser preparado em uma estação de cozinha.",
+	"x-cooking-recipe-unknown": "{0} pode ser preparado em uma estação de cozinha depois que você aprender a receita.",
+	"x-y-skill": "Você aprenderá a receita ao atingir o nível {0} em {1}.",
+	"x-y-friendship": "Você aprenderá a receita ao atingir o nível de amizade {0} com {1}.",
+	"x-special-recipe": "Existem requisitos especiais para aprender a receita de {0}."
+}

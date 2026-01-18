@@ -1,0 +1,27 @@
+[
+  {
+    "Name": "Farming",
+    "Experience": 0,
+    "ExperienceModifier": 1.0
+  },
+  {
+    "Name": "Fishing",
+    "Experience": 0,
+    "ExperienceModifier": 1.0
+  },
+  {
+    "Name": "Foraging",
+    "Experience": 28,
+    "ExperienceModifier": 1.0
+  },
+  {
+    "Name": "Mining",
+    "Experience": 0,
+    "ExperienceModifier": 1.0
+  },
+  {
+    "Name": "Combat",
+    "Experience": 0,
+    "ExperienceModifier": 1.0
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "Name": "More Buildings Expanded",
+  "Author": "Amichwan",
+  "Version": "1.0.0",
+  "UniqueID": "Amichwan.More.Buildings",
+  "MinimumApiVersion": "4.0.0",
+  "Description": "Add new buildings like a Little Greenhouse, Tree Greenhouse, and an Underground Shed (Cellar).",
+  "UpdateKeys": [ "Nexus: 38380" ],
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

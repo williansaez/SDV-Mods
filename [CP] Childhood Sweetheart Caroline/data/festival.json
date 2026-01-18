@@ -1,0 +1,17 @@
+{
+    "Changes": [
+        {
+            "LogName": "Caroline Festival Location - Vanilla",
+			"Action": "Include",
+			"FromFile": "data/Festival/Vanilla.json"
+		},
+        {
+            "LogName": "Caroline Festival Location - SVE",
+			"Action": "Include",
+            "When": {
+                "HasMod|contains=FlashShifter.StardewValleyExpandedCP": "true",
+            },
+			"FromFile": "data/Festival/SVE.json"
+		},
+    ]
+}

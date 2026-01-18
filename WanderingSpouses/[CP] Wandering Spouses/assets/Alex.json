@@ -1,0 +1,32 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Alex",
+            "Priority": "Early",
+            "Entries": {
+                "Wander_Default": "{{i18n: Alex_Wander_Default_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24}}}}",
+                "Wander_Building": "{{i18n: Alex_Wander_Building_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}}}}",
+                "Wander_Farmer": "{{i18n: Alex_Wander_Farmer_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18}}}}",
+                "Wander_Barn": "{{i18n: Alex_Wander_Barn_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17}}}}",
+                "Wander_Barn_Cow": "{{i18n: Alex_Wander_Barn_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,Cow_1,Cow_2,Cow_3,Cow_4,Cow_5,Cow_6,Cow_7,Cow_8,Cow_9,Cow_10,Cow_11,Cow_12,Cow_13,Cow_14,Cow_15}}}}",
+                "Wander_Coop": "{{i18n: Alex_Wander_Coop_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14}}}}",
+                "Wander_Coop_Chicken": "{{i18n: Alex_Wander_Coop_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,Chicken_1,Chicken_2,Chicken_3,Chicken_4,Chicken_5,Chicken_6,Chicken_7,Chicken_8,Chicken_9,Chicken_10,Chicken_11,Chicken_12,Chicken_13,Chicken_14, Chicken_15}}}}",
+                "Wander_FishPond": "{{i18n: Alex_Wander_FishPond_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}}}}",
+                "Wander_Tree": "{{i18n: Alex_Wander_Tree_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24}}}}",
+                "Wander_Water": "{{i18n: Alex_Wander_Water_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24}}}}",
+                "Wander_MatureCrop": "{{i18n: Alex_Wander_MatureCrop_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17}}}}",
+                "Wander_MatureCrop_Tulip": "{{i18n: Alex_Wander_MatureCrop_Tulip_{{Random:1,2,3,4,5,6,7,8}}}}",
+                "Wander_Patio": "{{i18n: Alex_Wander_Patio_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23}}}}",
+                "Wander_JunimoHut": "{{i18n: Alex_Wander_JunimoHut_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}}}}",
+                "Wander_FruitTree": "{{i18n: Alex_Wander_{{Random:FruitTree_1,FruitTree_2,FruitTree_3,FruitTree_4,FruitTree_5,FruitTree_6,FruitTree_7,FruitTree_8,FruitTree_9,FruitTree_10,FruitTree_11,FruitTree_12,FruitTree_13,FruitTree_14}}}}",
+                "Wander_BrokenFence": "{{i18n: Alex_Wander_BrokenFence_{{Random:1,2,3,4,5,6,7,8,9,10,11,12}}}}",
+                "Wander_Cave": "{{i18n: Alex_Wander_Cave_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13}}}}",
+                "Wander_Shed": "{{i18n: Alex_Wander_Shed_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}}}}",
+                "Wander_Greenhouse": "{{i18n: Alex_Wander_Greenhouse_{{Random:1,2,3,4,5,6,7,8,9,10,11,12}}}}",
+                "Wander_Stable": "{{i18n: Alex_Wander_Stable_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}}}}",
+                "Wander_GrandpaShrine": "{{i18n: Alex_Wander_GrandpaShrine_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}}}}","Wander_SlimeHutch": "{{i18n: Alex_Wander_SlimeHutch_{{Random:1,2,3,4,5,6,7,8,9,10,11,12,13}}}}"
+            }
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+{
+
+  "sections.basic": "基础设置",
+  "sections.scale": "全局倍率",
+  "sections.ranges": "好感度衰减（通用）",
+  "sections.spouse": "配偶好感度（10-14心）",
+  "sections.nogreet": "未问候惩罚",
+
+  "basic.enabled.name": "启用模组",
+  "basic.enabled.tip": "开启此项以应用每日好感度衰减平衡。",
+  "basic.cap.name": "好感度满值时也衰减",
+  "basic.cap.tip": "即使原版好感度已满，也会应用每日衰减。",
+  "basic.strict.name": "严格覆盖（精确目标衰减值）",
+  "basic.strict.tip": "忽略原版好感度变化，严格按照你设定的目标衰减值执行。",
+
+  "scale.header.tip": "难 <-> 易 难度",
+  "scale.global.name": "全局衰减倍率",
+  "scale.global.tip": "0.25 ~ 3.0 （你可以手动输入数字）",
+
+  "ranges.header.tip": "适用于可约会角色 / 非配偶角色",
+  "ranges.0to4.name": "0-4心时的衰减值",
+  "ranges.0to4.tip": "整数 0-200",
+  "ranges.5to8.name": "5-8心时的衰减值",
+  "ranges.5to8.tip": "整数 0-300",
+  "ranges.9.name": "9心时的衰减值",
+  "ranges.9.tip": "整数 0-300",
+  "ranges.10plus.name": "10+心时的衰减值（非配偶）",
+  "ranges.10plus.tip": "整数 0-500",
+
+  "spouse.header.tip": "设为-1以禁用该心级范围",
+  "spouse.10to12.name": "配偶10-12心时的衰减值",
+  "spouse.10to12.tip": "整数 0-500，或 -1 禁用",
+  "spouse.13to14.name": "配偶13-14心时的衰减值",
+  "spouse.13to14.tip": "整数 0-500，或 -1 禁用",
+
+  "nogreet.header.tip": "未问候时的额外衰减",
+  "nogreet.points.name": "额外惩罚（点数）",
+  "nogreet.points.tip": "整数 0-100（0表示禁用）",
+  "nogreet.scale.name": "按好感度缩放",
+  "nogreet.scale.tip": "好感度越高 → 惩罚越强",
+
+  "mode.nogreetonly.name": "只在未问候时衰减",
+  "mode.nogreetonly.tip": "如果你当天和他们说过话，就不会有衰减。（提示：启用“自动校正最终衰减”以获取精确值）",
+
+  "greetdecay.section": "已问候日 - 礼物维护",
+  "greetdecay.section.tip": "即使你问候了他们，当每周礼物低于目标时，也会应用少量衰减。",
+
+  "greetdecay.enable.name": "问候日衰减（如未送够每周礼物）",
+  "greetdecay.enable.tip": "当你没有达到每周礼物配额时，已问候日会应用少量衰减。",
+
+  "greetdecay.required.name": "每周所需礼物数量",
+  "greetdecay.required.tip": "每周需要送多少礼物才能避免问候日衰减（例如：2）。",
+
+  "greetdecay.mode.name": "问候日衰减模式",
+  "greetdecay.mode.tip": "选择当礼物低于目标时，问候日衰减的计算方式。",
+
+  "greetdecay.mode.ratio": "使用正常衰减的比例",
+  "greetdecay.mode.flat": "使用固定点数",
+
+  "greetdecay.ratio.name": "比例（正常衰减的）",
+  "greetdecay.ratio.tip": "建议 0.10–1.00。例如：0.50 = 正常衰减的50%。",
+
+  "greetdecay.ratio.scale.name": "按缺少数量缩放",
+  "greetdecay.ratio.scale.tip": "如果你要求2份礼物但只送了1份，则只应用一半的比例衰减。",
+
+  "greetdecay.flat.name": "固定衰减（点数）",
+  "greetdecay.flat.tip": "当礼物低于目标时，问候日应用的固定点数。",
+
+  "limit.daily.name": "每日最大衰减（心）",
+  "limit.daily.tip": "限制每日总衰减。例如：0.40 ≈ 100点。",
+  "limit.nogreet.name": "未问候额外惩罚最大值（心）",
+  "limit.nogreet.tip": "限制未问候时应用的额外衰减。",
+
+  "hud.nogreet": "你没有和{{name}}说话；好感度减少了{{amount}}。",
+  "hud.nogift": "你没有给{{name}}送礼物；好感度减少了{{amount}}。",
+  "hud.loss": "{{name}}的好感度减少了{{amount}}。",
+
+  "hud.toggle.name": "显示屏幕通知",
+  "hud.toggle.tip": "在屏幕顶部以弹出式通知（toast notification）的形式显示好感度降低。禁用此功能后，好感度降低将静默生效，不会在屏幕上显示通知。",
+
+  "sections.penalties": "惩罚选项",
+  "penalties.tip": "对某些行为施加额外的友谊损失。",
+  "pen.trash.enable": "赠送垃圾物品惩罚",
+  "pen.trash.enable.tip": "当您赠送类似垃圾的物品时，施加额外的友谊损失。",
+  "pen.trash.value": "赠送垃圾物品惩罚数值",
+  "pen.trash.value.tip": "0–500点。",
+  "pen.trash.ids": "垃圾物品ID（逗号分隔）",
+  "pen.trash.ids.tip": "如果您希望，可以覆盖默认列表。",
+  "pen.sling.enable": "弹弓击中惩罚",
+  "pen.sling.enable.tip": "当您用弹弓击中村民时，施加额外的友谊损失。",
+  "pen.sling.value": "弹弓惩罚数值",
+  "pen.sling.value.tip": "0–500点。",
+  "hud.trashGift": "{name}不喜欢那个... (友谊值 -{amount})",
+  "hud.slingshot": "{name}很生气！ (友谊值 -{amount})"
+}

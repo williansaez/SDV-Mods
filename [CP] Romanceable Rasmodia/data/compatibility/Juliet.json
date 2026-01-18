@@ -1,0 +1,11 @@
+{
+	"Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Wizard",
+            "Entries": {
+                "Juliet_TalentShow": "{{i18n:Juliet_TalentShow}}"
+            }
+        }
+    ]
+}

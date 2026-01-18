@@ -1,0 +1,279 @@
+{
+"Changes": 
+	[
+	 {
+	 "Action": "EditData",
+	 "Target": "Characters/Dialogue/Sophia",		 
+	 "Entries":
+	    {
+			"Saloon_20_19": "{{i18n:NewSaloonDialogue{{season}}.{{Random: 1, 2, 3}}}}",
+			"houseUpgrade_3": "{{i18n:HouseUpgrade_3}}",
+			"structureBuilt_Fish Pond": "{{i18n:FishPondDialogue}}",
+			"wonGrange": "{{i18n:WonGrange.{{random: 1, 2, 3}}}}",
+			
+			"Custom_JenkinsHouse_23_27": "{{i18n:Victor.HouseGreet.{{random: 1, 2, 3}}}}",
+            "Custom_JenkinsHouse_29_11": "{{i18n:Victor.HouseAct.{{random: 1, 2, 3}}}}",
+            "Custom_JenkinsHouse_19_39": "{{i18n:Victor.HouseLeave.{{random: 1, 2, 3}}}}",
+            "Custom_SusanHouse_9_19": "{{i18n:Susan.HouseGreet.{{random: 1, 2, 3}}}}",
+            "Custom_SusanHouse_5_17": "{{i18n:Susan.HouseAct.{{random: 1, 2, 3}}}}",
+            "Custom_SusanHouse_11_17": "{{i18n:Susan.HouseLeave.{{random: 1, 2, 3}}}}",
+            "HaleyHouse_2_21": "{{i18n:Haley.HouseGreet.{{random: 1, 2, 3}}}}",
+            "HaleyHouse_5_5": "{{i18n:Haley.HouseAct1.{{random: 1, 2, 3}}}}",
+            "HaleyHouse_8_7": "{{i18n:Haley.HouseAct2.{{random: 1, 2, 3}}}}",
+            "HaleyHouse_4_20": "{{i18n:Haley.HouseLeave.{{random: 1, 2, 3}}}}",
+            "HaleyHouse_14_21": "{{i18n:Emily.HouseGreet.{{random: 1, 2, 3}}}}",
+            "HaleyHouse_13_24": "{{i18n:Emily.HouseAct.{{random: 1, 2, 3}}}}",
+            "HaleyHouse_16_8": "{{i18n:Emily.HouseLeave.{{random: 1, 2, 3}}}}",
+			
+			"Resort_Entering": "{{i18n:Resort.Enter.{{random: 1, 2, 3}}}}",
+            "Resort_Leaving": "{{i18n:Resort.Leave.{{random: 1, 2, 3}}}}",
+            "Resort_Shore": "{{i18n:Resort.Shore.{{random: 1, 2, 3}}}}",
+            "Resort_Chair": "{{i18n:Resort.Chair.{{random: 1, 2, 3}}}}",
+            "Resort_Bar": "{{i18n:Resort.Bar.{{random: 1, 2, 3}}}}",
+            "Resort": "{{i18n:Resort.{{random: 1, 2, 3}}}}",
+			
+			
+			
+			//"spring_1": "{{i18n:Sophia.CharacterDialogue.061}}",
+            //"spring_12": "{{i18n:Sophia.CharacterDialogue.062}}",
+            //"spring_18": "{{i18n:Sophia.CharacterDialogue.063}}",
+            //"spring_23": "{{i18n:Sophia.CharacterDialogue.064}}",
+            //"spring_28": "{{i18n:Sophia.CharacterDialogue.065}}",
+			
+			"spring_5": "{{i18n:Sophia.Spring.5}}",
+			"spring_9": "{{i18n:Sophia.Spring.9}}",
+			"spring_15": "{{i18n:Sophia.Spring.15}}",
+			"spring_21": "{{i18n:Sophia.Spring.21}}",
+			"spring_26": "{{i18n:Sophia.Spring.26}}",
+			
+			
+			//"summer_1": "{{i18n:Sophia.CharacterDialogue.094}}",
+            //"summer_10": "{{i18n:Sophia.CharacterDialogue.095}}",
+            //"summer_18": "{{i18n:Sophia.CharacterDialogue.096}}",
+            //"summer_22": "{{i18n:Sophia.CharacterDialogue.097}}",
+            //"summer_28": "{{i18n:Sophia.CharacterDialogue.098}}",
+			
+			"summer_4": "{{i18n:Sophia.Summer.4}}",
+            "summer_8": "{{i18n:Sophia.Summer.8}}",
+            "summer_14": "{{i18n:Sophia.Summer.14}}",
+            "summer_20": "{{i18n:Sophia.Summer.20}}",
+            "summer_25": "{{i18n:Sophia.Summer.25}}",
+			
+			
+            //"fall_1": "{{i18n:Sophia.CharacterDialogue.123}}",
+            //"fall_4": "{{i18n:Sophia.CharacterDialogue.124}}",
+            //"fall_15": "{{i18n:Sophia.CharacterDialogue.125}}",
+            //"fall_18": "{{i18n:Sophia.CharacterDialogue.126}}",
+            //"fall_27": "{{i18n:Sophia.CharacterDialogue.127}}",
+            //"fall_28": "{{i18n:Sophia.CharacterDialogue.128}}",
+			
+			"fall_3": "{{i18n:Sophia.Fall.3}}",
+            "fall_8": "{{i18n:Sophia.Fall.8}}",
+            "fall_12": "{{i18n:Sophia.Fall.12}}",
+            "fall_20": "{{i18n:Sophia.Fall.20}}",
+            "fall_24": "{{i18n:Sophia.Fall.24}}",
+
+			
+		    //"winter_1": "{{i18n:Sophia.CharacterDialogue.149}}",
+            //"winter_7": "{{i18n:Sophia.CharacterDialogue.150}}",				
+            //"winter_13": "{{i18n:Sophia.CharacterDialogue.151}}",
+            //"winter_18": "{{i18n:Sophia.CharacterDialogue.152}}",
+            //"winter_24": "{{i18n:Sophia.CharacterDialogue.153}}",
+            //"winter_25": "{{i18n:Sophia.CharacterDialogue.154}}",
+            //"winter_28": "{{i18n:Sophia.CharacterDialogue.155}}",
+			
+			"winter_3": "{{i18n:Sophia.Winter.3}}",
+            "winter_6": "{{i18n:Sophia.Winter.6}}",				
+            "winter_10": "{{i18n:Sophia.Winter.10}}",
+            "winter_16": "{{i18n:Sophia.Winter.16}}",
+            "winter_20": "{{i18n:Sophia.Winter.20}}",
+			
+			
+			
+			//Spring
+			"Mon": "{{i18n:Mon.{{random: 1, 2}}}}",
+            "Mon2": "{{i18n:Mon2.{{random: 1, 2}}}}",
+            "Mon4": "{{i18n:Mon4.{{random: 1, 2}}}}",
+            "Mon8": "{{i18n:Mon8.{{random: 1, 2}}}}",
+            "Mon10": "{{i18n:Mon10.{{random: 1, 2}}}}",
+            "Tue": "{{i18n:Tue.{{random: 1, 2}}}}",
+            "Tue2": "{{i18n:Tue2.{{random: 1, 2}}}}",
+            "Tue6": "{{i18n:Tue6.{{random: 1, 2}}}}",
+            "Tue10": "{{i18n:Tue10.{{random: 1, 2}}}}",
+            "Wed": "{{i18n:Wed.{{random: 1, 2}}}}",
+            "Wed4": "{{i18n:Wed4.{{random: 1, 2}}}}",
+            "Wed10": "{{i18n:Wed10.{{random: 1, 2}}}}",
+            "Thu": "{{i18n:Thu.{{random: 1, 2}}}}",
+            "Thu2": "{{i18n:Thu2.{{random: 1, 2}}}}",
+            "Thu6": "{{i18n:Thu6.{{random: 1, 2}}}}",
+            "Thu10": "{{i18n:Thu10.{{random: 1, 2}}}}",
+            "Fri": "{{i18n:Fri.{{random: 1, 2}}}}",
+            "Fri2": "{{i18n:Fri2.{{random: 1, 2}}}}",
+            "Fri4": "{{i18n:Fri4.{{random: 1, 2}}}}",
+            "Fri8": "{{i18n:Fri8.{{random: 1, 2}}}}",
+            "Fri10": "{{i18n:Fri10.{{random: 1, 2}}}}",
+            "Sat": "{{i18n:Sat.{{random: 1, 2}}}}",
+            "Sat2": "{{i18n:Sat2.{{random: 1, 2}}}}",
+            "Sat6": "{{i18n:Sat6.{{random: 1, 2}}}}",
+            "Sat10": "{{i18n:Sat10.{{random: 1, 2}}}}",
+            "Sun": "{{i18n:Sun.{{random: 1, 2}}}}",
+            "Sun4": "{{i18n:Sun4.{{random: 1, 2}}}}",
+            "Sun8": "{{i18n:Sun8.{{random: 1, 2}}}}",
+            "Sun10": "{{i18n:Sun10.{{random: 1, 2}}}}",
+			//Summer
+            "summer_Mon": "{{i18n:summer_Mon.{{random: 1, 2}}}}",
+            "summer_Mon4": "{{i18n:summer_Mon4.{{random: 1, 2}}}}",
+            "summer_Mon8": "{{i18n:summer_Mon8.{{random: 1, 2}}}}",
+            "summer_Mon10": "{{i18n:summer_Mon10.{{random: 1, 2}}}}",
+            "summer_Tue": "{{i18n:summer_Tue.{{random: 1, 2}}}}",
+            "summer_Tue4": "{{i18n:summer_Tue4.{{random: 1, 2}}}}",
+            "summer_Tue10": "{{i18n:summer_Tue10.{{random: 1, 2}}}}",
+            "summer_Wed": "{{i18n:summer_Wed.{{random: 1, 2}}}}",
+            "summer_Wed2": "{{i18n:summer_Wed2.{{random: 1, 2}}}}",
+            "summer_Wed6": "{{i18n:summer_Wed6.{{random: 1, 2}}}}",
+            "summer_Wed10": "{{i18n:summer_Wed10.{{random: 1, 2}}}}",
+            "summer_Thu": "{{i18n:summer_Thu.{{random: 1, 2}}}}",
+            "summer_Thu2": "{{i18n:summer_Thu2.{{random: 1, 2}}}}",
+            "summer_Thu4": "{{i18n:summer_Thu4.{{random: 1, 2}}}}",
+            "summer_Thu8": "{{i18n:summer_Thu8.{{random: 1, 2}}}}",
+            "summer_Fri": "{{i18n:summer_Fri.{{random: 1, 2}}}}",
+            "summer_Fri2": "{{i18n:summer_Fri2.{{random: 1, 2}}}}",
+            "summer_Fri8": "{{i18n:summer_Fri8.{{random: 1, 2}}}}",
+            "summer_Sat4": "{{i18n:summer_Sat4.{{random: 1, 2}}}}",
+            "summer_Sat8": "{{i18n:summer_Sat8.{{random: 1, 2}}}}",
+            "summer_Sun": "{{i18n:summer_Sun.{{random: 1, 2}}}}",
+            "summer_Sun4": "{{i18n:summer_Sun4.{{random: 1, 2}}}}",
+            "summer_Sun8": "{{i18n:summer_Sun8.{{random: 1, 2}}}}",
+            "summer_Sun10": "{{i18n:summer_Sun10.{{random: 1, 2}}}}",
+            //Fall
+            "fall_Mon": "{{i18n:fall_Mon.{{random: 1, 2}}}}",
+            "fall_Mon4": "{{i18n:fall_Mon4.{{random: 1, 2}}}}",
+            "fall_Mon8": "{{i18n:fall_Mon8.{{random: 1, 2}}}}",
+            "fall_Tue": "{{i18n:fall_Tue.{{random: 1, 2}}}}",
+            "fall_Tue4": "{{i18n:fall_Tue4.{{random: 1, 2}}}}",
+            "fall_Tue10": "{{i18n:fall_Tue10.{{random: 1, 2}}}}",
+            "fall_Wed": "{{i18n:fall_Wed.{{random: 1, 2}}}}",
+            "fall_Wed6": "{{i18n:fall_Wed6.{{random: 1, 2}}}}",
+            "fall_Thu": "{{i18n:fall_Thu.{{random: 1, 2}}}}",
+            "fall_Thu4": "{{i18n:fall_Thu4.{{random: 1, 2}}}}",
+            "fall_Thu8": "{{i18n:fall_Thu8.{{random: 1, 2}}}}",
+            "fall_Fri": "{{i18n:fall_Fri.{{random: 1, 2}}}}",
+            "fall_Fri4": "{{i18n:fall_Fri4.{{random: 1, 2}}}}",
+            "fall_Fri8": "{{i18n:fall_Fri8.{{random: 1, 2}}}}",
+            "fall_Sat": "{{i18n:fall_Sat.{{random: 1, 2}}}}",
+            "fall_Sat6": "{{i18n:fall_Sat6.{{random: 1, 2}}}}",
+            "fall_Sat10": "{{i18n:fall_Sat10.{{random: 1, 2}}}}",
+            "fall_Sun": "{{i18n:fall_Sun.{{random: 1, 2}}}}",
+            "fall_Sun4": "{{i18n:fall_Sun4.{{random: 1, 2}}}}",
+            "fall_Sun8": "{{i18n:fall_Sun8.{{random: 1, 2}}}}",
+            //Winter
+            "winter_Mon": "{{i18n:winter_Mon.{{random: 1, 2}}}}",
+            "winter_Mon10": "{{i18n:winter_Mon10.{{random: 1, 2}}}}",
+            "winter_Tue": "{{i18n:winter_Tue.{{random: 1, 2}}}}",
+            "winter_Tue6": "{{i18n:winter_Tue6.{{random: 1, 2}}}}",
+            "winter_Tue10": "{{i18n:winter_Tue10.{{random: 1, 2}}}}",
+            "winter_Wed": "{{i18n:winter_Wed.{{random: 1, 2}}}}",
+            "winter_Wed4": "{{i18n:winter_Wed4.{{random: 1, 2}}}}",
+            "winter_Wed8": "{{i18n:winter_Wed8.{{random: 1, 2}}}}",
+            "winter_Wed10": "{{i18n:winter_Wed10.{{random: 1, 2}}}}",
+            "winter_Thu": "{{i18n:winter_Thu.{{random: 1, 2}}}}",
+            "winter_Thu6": "{{i18n:winter_Thu6.{{random: 1, 2}}}}",
+            "winter_Thu10": "{{i18n:winter_Thu10.{{random: 1, 2}}}}",
+            "winter_Fri": "{{i18n:winter_Fri.{{random: 1, 2}}}}",
+            "winter_Fri4": "{{i18n:winter_Fri4.{{random: 1, 2}}}}",
+            "winter_Fri8": "{{i18n:winter_Fri8.{{random: 1, 2}}}}",
+            "winter_Fri10": "{{i18n:winter_Fri10.{{random: 1, 2}}}}",
+            "winter_Sat": "{{i18n:winter_Sat.{{random: 1, 2}}}}",
+            "winter_Sat4": "{{i18n:winter_Sat4.{{random: 1, 2}}}}",
+            "winter_Sat8": "{{i18n:winter_Sat8.{{random: 1, 2}}}}",
+            "winter_Sat10": "{{i18n:winter_Sat10.{{random: 1, 2}}}}",
+            "winter_Sun": "{{i18n:winter_Sun.{{random: 1, 2}}}}",
+            "winter_Sun6": "{{i18n:winter_Sun6.{{random: 1, 2}}}}",
+            "winter_Sun10": "{{i18n:winter_Sun10.{{random: 1, 2}}}}",
+		
+			
+			
+			"AcceptBirthdayGift_Positive": "{{i18n:BDay.Good.{{random: 1, 2, 3}}}}",
+            "AcceptBirthdayGift_Negative": "{{i18n:BDay.Bad.{{random: 1, 2, 3}}}}",
+		    //"AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Puppyfish": "{{18n:PuppyGift.{{random: 1, 2, 3, 4}}}}",
+			"AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Grampleton_Orange_Chicken": "{{i18n:GrampChickenGift.{{random: 1, 2, 3, 4}}}}",
+			//"AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger": "{{18n:BurgerGift.{{random: 1, 2, 3, 4}}}}",
+			//"AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Vegan_Cone": "{{18n:VeganGift.{{random: 1, 2, 3, 4}}}}",
+			//"AcceptGift_(O)StardropTea": "{{18n:TeaGift.{{random: 1, 2, 3, 4}}}}",
+			"AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger": "{{i18n:BurgerGift.{{random: 1, 2, 3, 4}}}}",
+		    "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Vegan_Cone": "{{i18n:VeganGift.{{random: 1, 2, 3, 4}}}}",
+			"AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Puppyfish": "{{i18n:PuppyGift.{{random: 1, 2, 3, 4}}}}",
+			"AcceptGift_(O)StardropTea": "{{i18n:TeaGift.{{random: 1, 2, 3, 4}}}}",
+			
+			"GreenRainFinished": "{{i18n:GreenDayFinished.{{random: 1, 2, 3, 4, 5}}}}",           
+		    "GreenRain": "{{i18n:GreenDay.3}}",
+			
+		},
+     },
+	 
+	  {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Sophia",
+	  "When": 
+	  {
+	    "Year |contains= 1": false
+	  },
+      "Entries": 
+	  {
+		"GreenRain": "{{i18n:GreenDay.{{random: 1, 2, 3, 4, 5}}}}",
+      },
+	  
+     },
+	 
+	 {
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+	  "When": 
+	  {
+	   "Season": "Fall",
+	   "Day": "4",
+	  },
+      "Entries": 
+	  {
+		//Sorry for this part being unbearingly long, apparently this is how it's supposed to work.
+        "Sophia": "{{i18n:Gifts.Fall4.Loved}}/577 595 FairyBox FlashShifter.StardewValleyExpandedCP_Puppyfish FlashShifter.StardewValleyExpandedCP_Mixed_Berry_Pie FlashShifter.StardewValleyExpandedCP_Grampleton_Orange_Chicken FlashShifter.StardewValleyExpandedCP_Flower_Cookie/{{i18n:Gifts.Fall4.Liked}}/872 220 221 232 237 240 -80 428 376 446/{{i18n:Gifts.Fall4.Disliked}}/456 393 457 397 199 215 242 244 FlashShifter.StardewValleyExpandedCP_Super_Joja_Cola FlashShifter.StardewValleyExpandedCP_Seaweed_Salad FlashShifter.StardewValleyExpandedCP_Mushroom_Colony FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed/{{i18n:Gifts.Fall4.Hated}}/346 303 459 149 798 151 155 -4 FlashShifter.StardewValleyExpandedCP_Void_Eel FlashShifter.StardewValleyExpandedCP_Starfish FlashShifter.StardewValleyExpandedCP_Seahorse FlashShifter.StardewValleyExpandedCP_Sea_Sponge FlashShifter.StardewValleyExpandedCP_Minnow FlashShifter.StardewValleyExpandedCP_King_Salmon FlashShifter.StardewValleyExpandedCP_Frog_Legs FlashShifter.StardewValleyExpandedCP_Clownfish FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger/{{i18n:Gifts.Fall4.Neutral}}/-75 -81 18 -18 -79 -2 -7 -26 -75 -80 72 446 348 395 613 634 635 636 637 638 724 459 402 FlashShifter.StardewValleyExpandedCP_Stamina_Capsule FlashShifter.StardewValleyExpandedCP_Sports_Drink FlashShifter.StardewValleyExpandedCP_Green_Mushroom FlashShifter.StardewValleyExpandedCP_Blue_Moon_Wine FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine/"
+      },
+	  
+     },
+	 
+	 {
+     "Action": "EditData",
+     "Target": "Strings/schedules/Sophia",
+     "Entries": 
+       {
+        "NightMarket.001": "{{i18n:Sophia.NightMarket.{{random: 1, 2, 3, 4, 5, 6}}}}",
+        "DesertFestival_Sophia": "{{i18n:Sophia.DesertFestival.{{Day}}.{{random: 1, 2, 3}}}}",
+       }, 
+     },
+	 
+	 {
+	 "Action": "EditData",
+     "Target": "Characters/Dialogue/Sophia",
+	 "When": 
+	 {
+	   "Season": "Fall",
+	   "Day": "4",
+	 },
+	 "Entries":
+	    {
+         "AcceptGift_(O)577": "{{i18n:Gifts.Fall4.Loved}}",
+         "AcceptGift_(O)595": "{{i18n:Gifts.Fall4.Loved}}",
+         "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Puppyfish": "{{i18n:Gifts.Fall4.Loved}}",
+         "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Grampleton_Orange_Chicken": "{{i18n:Gifts.Fall4.Loved}}",
+		 "AcceptGift_(TR)FairyBox": "{{i18n:Gifts.Fall4.Loved}}",
+         "AcceptGift_(O)StardropTea": "{{i18n:Gifts.Fall4.Loved}}",
+		
+         "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger": "{{i18n:Gifts.Fall4.Hated}}",
+         "AcceptGift_(O)459": "{{i18n:Gifts.Fall4.Hated}}",
+         "AcceptGift_(O)346": "{{i18n:Gifts.Fall4.Hated}}",
+
+		},
+     },
+	]
+}
+

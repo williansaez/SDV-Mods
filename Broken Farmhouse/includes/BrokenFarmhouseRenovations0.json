@@ -1,0 +1,289 @@
+{
+	"Changes": [
+		//Add Living Room partially renovated
+	{
+        "Action": "EditMap",
+		"Target": "Maps/FarmHouse,",
+        "TextOperations": [
+        {
+			"Operation": "Append",
+            "Target": [ "MapProperties", "AdditionalRenovations" ],
+            "Value": "glymr.BrokenFarmhouse_LivingRoom_Half glymr.BrokenFarmhouse_LivingRoom_Half_Mail glymr.BrokenFarmhouse_LivingRoom_Half_NotBlank glymr.BrokenFarmhouse_LivingRoom_Half_Blank 28 20 8 10",
+            "Delimiter": "," 
+		},
+		],
+	},
+	    // load partial Living Room empty map 
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_LivingRoom_Half_Blank",
+            "FromFile": "assets/BrokenFarmhouse_LivingRoom_Half_Blank.tmx"
+	},
+
+        // load partial Living Room renovation map patch
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_LivingRoom_Half_NotBlank",
+            "FromFile": "assets/BrokenFarmhouse_LivingRoom_Half_NotBlank.tmx"
+    },
+		//Add Living Room fully renovated
+	{
+        "Action": "EditMap",
+		"Target": "Maps/FarmHouse,",
+        "TextOperations": [
+        {
+			"Operation": "Append",
+            "Target": [ "MapProperties", "AdditionalRenovations" ],
+            "Value": "glymr.BrokenFarmhouse_LivingRoom_Full glymr.BrokenFarmhouse_LivingRoom_Full_Mail glymr.BrokenFarmhouse_LivingRoom_Full_NotBlank glymr.BrokenFarmhouse_LivingRoom_Full_Blank 25 19 13 12",
+            "Delimiter": "," 
+		},
+		],
+	},
+	    // load quarter Living Room empty map 
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_LivingRoom_Full_Blank",
+            "FromFile": "assets/BrokenFarmhouse_LivingRoom_Full_Blank.tmx"
+	},
+        // load quarter Living Room renovation map patch
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_LivingRoom_Full_NotBlank",
+            "FromFile": "assets/BrokenFarmhouse_LivingRoom_Full_NotBlank.tmx"
+    },
+		//Add Bedroom partially renovated
+	{
+        "Action": "EditMap",
+		"Target": "Maps/FarmHouse",
+        "TextOperations": [
+        {
+			"Operation": "Append",
+            "Target": [ "MapProperties", "AdditionalRenovations" ],
+            "Value": "glymr.BrokenFarmhouse_Bedroom_Half glymr.BrokenFarmhouse_Bedroom_Half_Mail glymr.BrokenFarmhouse_Bedroom_Half_NotBlank glymr.BrokenFarmhouse_Bedroom_Half_Blank 38 19 12 14",
+            "Delimiter": "," 
+		},
+		],
+	},
+	    // load partial bedroom empty map 
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_Bedroom_Half_Blank",
+            "FromFile": "assets/BrokenFarmhouse_Bedroom_Half_Blank.tmx"
+	},
+
+        // load partial bedroom renovation map patch
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_Bedroom_Half_NotBlank",
+            "FromFile": "assets/BrokenFarmhouse_Bedroom_Half_NotBlank.tmx"
+    },
+		//Add Bedroom fully renovated
+	{
+        "Action": "EditMap",
+		"Target": "Maps/FarmHouse",
+        "TextOperations": [
+        {
+			"Operation": "Append",
+            "Target": [ "MapProperties", "AdditionalRenovations" ],
+            "Value": "glymr.BrokenFarmhouse_Bedroom_Full glymr.BrokenFarmhouse_Bedroom_Full_Mail glymr.BrokenFarmhouse_Bedroom_Full_NotBlank glymr.BrokenFarmhouse_Bedroom_Full_Blank 38 19 12 14",
+            "Delimiter": "," 
+		},
+		],
+	},
+	    // load full bedroom empty map 
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_Bedroom_Full_Blank",
+            "FromFile": "assets/BrokenFarmhouse_Bedroom_Full_Blank.tmx"
+	},
+        // load full bedroom renovation map patch
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_Bedroom_Full_NotBlank",
+            "FromFile": "assets/BrokenFarmhouse_Bedroom_Full_NotBlank.tmx"
+    },
+	//Add stairs1
+	{
+        "Action": "EditMap",
+		"Target": "Maps/FarmHouse",
+        "TextOperations": [
+		{
+			"Operation": "Append",
+            "Target": [ "MapProperties", "AdditionalRenovations" ],
+            "Value": "glymr.BrokenFarmhouse_Stairs1 glymr.BrokenFarmhouse_Stairs1_Mail glymr.BrokenFarmhouse_Stairs1_NotBlank glymr.BrokenFarmhouse_Stairs1_Blank 26 19 3 3",
+			  "Delimiter": "," 
+        },
+        ],
+	},
+	    // load stairs1 map patch
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_Stairs1_NotBlank",
+            "FromFile": "assets/BrokenFarmhouse_Stairs1_NotBlank.tmx"
+	},
+        // load stairs1 empty map
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_Stairs1_Blank",
+            "FromFile": "assets/BrokenFarmhouse_Stairs1_Blank.tmx"
+    },
+	//Add stairs2
+	{
+        "Action": "EditMap",
+		"Target": "Maps/FarmHouse",
+        "TextOperations": [
+		{
+			"Operation": "Append",
+            "Target": [ "MapProperties", "AdditionalRenovations" ],
+            "Value": "glymr.BrokenFarmhouse_Stairs2 glymr.BrokenFarmhouse_Stairs2_Mail glymr.BrokenFarmhouse_Stairs2_NotBlank glymr.BrokenFarmhouse_Stairs2_Blank 46 19 3 4",
+			  "Delimiter": "," 
+        },
+        ],
+	},
+	    // load stairs2 map patch
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_Stairs2_NotBlank",
+            "FromFile": "assets/BrokenFarmhouse_Stairs2_NotBlank.tmx"
+	},
+        // load stairs1 empty map
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_Stairs2_Blank",
+            "FromFile": "assets/BrokenFarmhouse_Stairs2_Blank.tmx"
+    },
+
+
+		//Add Kitchen partially cleared
+	{
+        "Action": "EditMap",
+		"Target": "Maps/FarmHouse,",
+        "TextOperations": [
+        {
+			"Operation": "Append",
+            "Target": [ "MapProperties", "AdditionalRenovations" ],
+            "Value": "glymr.BrokenFarmhouse_Kitchen_Start glymr.BrokenFarmhouse_Kitchen_Start_Mail glymr.BrokenFarmhouse_Kitchen_Start_NotBlank glymr.BrokenFarmhouse_Kitchen_Start_Blank 16 19 10 14",
+            "Delimiter": "," 
+		},
+		],
+	},
+	    // load partial Kitchen empty map 
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_Kitchen_Start_Blank",
+            "FromFile": "assets/BrokenFarmhouse_Kitchen_Start_Blank.tmx"
+	},
+
+        // load partial Kitchen renovation map patch
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_Kitchen_Start_NotBlank",
+            "FromFile": "assets/BrokenFarmhouse_Kitchen_Start_NotBlank.tmx"
+    },
+		//Add Kitchen half cleared
+	{
+        "Action": "EditMap",
+		"Target": "Maps/FarmHouse,",
+        "TextOperations": [
+        {
+			"Operation": "Append",
+            "Target": [ "MapProperties", "AdditionalRenovations" ],
+            "Value": "glymr.BrokenFarmhouse_Kitchen_Half glymr.BrokenFarmhouse_Kitchen_Half_Mail glymr.BrokenFarmhouse_Kitchen_Half_NotBlank glymr.BrokenFarmhouse_Kitchen_Half_Blank 14 20 12 14",
+            "Delimiter": "," 
+		},
+		],
+	},
+	    // load half Kitchen empty map 
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_Kitchen_Half_Blank",
+            "FromFile": "assets/BrokenFarmhouse_Kitchen_Half_Blank.tmx"
+	},
+
+        // load half Kitchen renovation map patch
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_Kitchen_Half_NotBlank",
+            "FromFile": "assets/BrokenFarmhouse_Kitchen_Half_NotBlank.tmx"
+    },
+		//Add Kitchen sink cleared
+	{
+        "Action": "EditMap",
+		"Target": "Maps/FarmHouse,",
+        "TextOperations": [
+        {
+			"Operation": "Append",
+            "Target": [ "MapProperties", "AdditionalRenovations" ],
+            "Value": "glymr.BrokenFarmhouse_Kitchen_Sink glymr.BrokenFarmhouse_Kitchen_Sink_Mail glymr.BrokenFarmhouse_Kitchen_Sink_NotBlank glymr.BrokenFarmhouse_Kitchen_Sink_Blank 23 21 1 3",
+            "Delimiter": "," 
+		},
+		],
+	},
+	    // load sink Kitchen empty map 
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_Kitchen_Sink_Blank",
+            "FromFile": "assets/BrokenFarmhouse_Kitchen_Sink_Blank.tmx"
+	},
+
+        // load sink Kitchen renovation map patch
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_Kitchen_Sink_NotBlank",
+            "FromFile": "assets/BrokenFarmhouse_Kitchen_Sink_NotBlank.tmx"
+    },
+		//Add Kitchen fridge cleared
+	{
+        "Action": "EditMap",
+		"Target": "Maps/FarmHouse,",
+        "TextOperations": [
+        {
+			"Operation": "Append",
+            "Target": [ "MapProperties", "AdditionalRenovations" ],
+            "Value": "glymr.BrokenFarmhouse_Kitchen_Fridge glymr.BrokenFarmhouse_Kitchen_Fridge_Mail glymr.BrokenFarmhouse_Kitchen_Fridge_NotBlank glymr.BrokenFarmhouse_Kitchen_Fridge_Blank 24 21 1 3",
+            "Delimiter": "," 
+		},
+		],
+	},
+	    // load fridge Kitchen empty map 
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_Kitchen_Fridge_Blank",
+            "FromFile": "assets/BrokenFarmhouse_Kitchen_Fridge_Blank.tmx"
+	},
+
+        // load fridge Kitchen renovation map patch
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_Kitchen_Fridge_NotBlank",
+            "FromFile": "assets/BrokenFarmhouse_Kitchen_Fridge_NotBlank.tmx"
+    },
+	
+		//Add Kitchen oven cleared
+	{
+        "Action": "EditMap",
+		"Target": "Maps/FarmHouse,",
+        "TextOperations": [
+        {
+			"Operation": "Append",
+            "Target": [ "MapProperties", "AdditionalRenovations" ],
+            "Value": "glymr.BrokenFarmhouse_Kitchen_Oven glymr.BrokenFarmhouse_Kitchen_Oven_Mail glymr.BrokenFarmhouse_Kitchen_Oven_NotBlank glymr.BrokenFarmhouse_Kitchen_Oven_Blank 17 21 8 3",
+            "Delimiter": "," 
+		},
+		],
+	},
+	    // load oven Kitchen empty map 
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_Kitchen_Oven_Blank",
+            "FromFile": "assets/BrokenFarmhouse_Kitchen_Oven_Blank.tmx"
+	},
+
+        // load oven Kitchen renovation map patch
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_Kitchen_Oven_NotBlank",
+            "FromFile": "assets/BrokenFarmhouse_Kitchen_Oven_NotBlank.tmx"
+    },
+],
+}

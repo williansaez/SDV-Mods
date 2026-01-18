@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="6" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="18" nextobjectid="30">
+ <tileset firstgid="1" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="2177" name="p" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="2241" name="2" tilewidth="16" tileheight="16" tilecount="128" columns="8">
+  <image source="CarolineGreenhouseTiles" width="128" height="256"/>
+  <tile id="96">
+   <animation>
+    <frame tileid="96" duration="100"/>
+    <frame tileid="97" duration="100"/>
+    <frame tileid="98" duration="100"/>
+    <frame tileid="99" duration="100"/>
+    <frame tileid="100" duration="100"/>
+    <frame tileid="101" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="104">
+   <animation>
+    <frame tileid="104" duration="100"/>
+    <frame tileid="105" duration="100"/>
+    <frame tileid="106" duration="100"/>
+    <frame tileid="107" duration="100"/>
+    <frame tileid="108" duration="100"/>
+    <frame tileid="109" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="112">
+   <animation>
+    <frame tileid="112" duration="100"/>
+    <frame tileid="113" duration="100"/>
+    <frame tileid="114" duration="100"/>
+    <frame tileid="115" duration="100"/>
+    <frame tileid="116" duration="100"/>
+    <frame tileid="117" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="2369" name="townInterior_2" tilewidth="16" tileheight="16" tilecount="1312" columns="32">
+  <image source="townInterior_2.png" width="512" height="656"/>
+ </tileset>
+ <layer id="1" name="Back" width="6" height="9">
+  <data encoding="csv">
+2279,2278,2279,2278,2279,2278,
+2287,2286,2287,2286,2287,2286,
+0,0,0,0,0,0,
+2303,0,2303,2303,2303,2303,
+2303,0,2303,2244,2249,2310,
+2303,2245,2249,2302,2301,2302,
+2249,2318,2301,2318,2301,2302,
+2301,2302,2301,2302,2301,2302,
+2301,2318,2301,2318,2301,2302
+</data>
+ </layer>
+ <layer id="11" name="Buildings" width="6" height="9">
+  <data encoding="csv">
+1818,1819,1820,0,0,0,
+0,0,0,0,0,0,
+2295,2294,2295,2294,2295,2294,
+2317,2353,2324,2359,2330,2360,
+2325,2361,2332,0,0,2251,
+2333,0,0,0,0,2112,
+0,0,0,0,453,714,
+0,0,0,0,715,714,
+0,0,0,0,0,746
+</data>
+ </layer>
+ <layer id="3" name="Paths" width="6" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,49,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,2184,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="14" name="Front" width="6" height="9">
+  <data encoding="csv">
+0,2329,2660,2305,2306,2307,
+0,2337,2692,2313,2314,2315,
+2309,2345,2308,2351,2322,2352,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,1347,682,
+0,0,0,0,683,652,
+0,0,0,0,0,545,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="9" name="AlwaysFront" width="6" height="9" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="5" name="Back"/>
+ <objectgroup id="17" name="Buildings">
+  <object id="17" name="TileData" x="0" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Caroline.CSCRoom.8&quot;"/>
+   </properties>
+  </object>
+  <object id="18" name="TileData" x="16" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Caroline.CSCRoom.0&quot;"/>
+   </properties>
+  </object>
+  <object id="19" name="TileData" x="32" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Caroline.CSCRoom.9&quot;"/>
+   </properties>
+  </object>
+  <object id="20" name="TileData" x="48" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Caroline.CSCRoom.2&quot;"/>
+   </properties>
+  </object>
+  <object id="21" name="TileData" x="64" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Caroline.CSCRoom.1&quot;"/>
+   </properties>
+  </object>
+  <object id="22" name="TileData" x="80" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Caroline.CSCRoom.3&quot;"/>
+   </properties>
+  </object>
+  <object id="23" name="TileData" x="80" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Caroline.CSCRoom.4&quot;"/>
+   </properties>
+  </object>
+  <object id="24" name="TileData" x="64" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Caroline.CSCRoom.5&quot;"/>
+   </properties>
+  </object>
+  <object id="25" name="TileData" x="64" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Caroline.CSCRoom.6&quot;"/>
+   </properties>
+  </object>
+  <object id="26" name="TileData" x="80" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Caroline.CSCRoom.7&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="Paths"/>
+ <objectgroup id="8" name="Front"/>
+</map>

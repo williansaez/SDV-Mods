@@ -1,0 +1,71 @@
+{
+	"Changes": [
+		// Jas Dialogue
+        {
+            "LogName": "Dialogue Jas",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jas",
+            "Entries": {
+				"fall_Mon8": "{{i18n:Ginger.Jas.fall_Mon8}}",
+				"winter_Mon10": "{{i18n:Ginger.Jas.winter_Mon10}}"
+			}
+        },
+		// Mr. Ginger Dialogue
+		{
+            "LogName": "Dialogue 6-hearts",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MisterGinger",
+            "When": {
+                "HasSeenEvent |contains=50706121": true
+				},
+            "Entries": {
+				"MrG_Fairytale": "{{i18n:Ginger.MrG_Fairytale}}",
+				"winter_Sun10": "{{i18n:Ginger.winter_Sun10}}",
+				"spring_Sun_inlaw_Wizard": "{{i18n:Ginger.spring_Sun_inlaw_Wizard}}",
+				"Sun": "{{i18n:Ginger.Sun}}"				
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"When": { "Relationship:Wizard |contains=Engaged, Married": false },
+			"Entries": {
+				"Wizard_CatTalk": "{{i18n:mail.wizard.hearts6}} %item quest 15070 true %%[#]{{i18n:mail.hearts6.title}}"
+			}
+		},
+		
+		{
+            "Action": "EditData",
+            "Target": "Data/mail",
+			"When": { "Relationship:Wizard": "Married, Engaged" },
+            "Entries": {
+				"Wizard_CatTalk": "{{i18n:mail.wizard.hearts6.spouse}} %item quest 15070 true %%[#]{{i18n:mail.hearts6.title}}"
+            }
+        },
+		{
+            "Action": "EditData",
+            "Target": "Data/Quests",
+            "Entries": {
+                "15070": "Basic/{{i18n:quest.mrginger.1}}/{{i18n:quest.mrginger.2}}/{{i18n:quest.mrginger.3}}/-1/-1/0/-1/false"
+            }
+        },
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/EngagementDialogue",
+			"Entries": {
+				"MisterGinger1": "{{i18n:MisterGinger1}}"
+			}
+		},
+		{
+			"LogName": "6-heart Event",
+			"Action": "EditData",
+			"Target": "Data/Events/WizardHouse",
+			"Entries": {
+				"50706121/f MisterGinger 1500/t 1800 2400/Hl Tristan_Returns/n Wizard_CatTalk/i 769": "WizardSong/-1000 -1000/farmer -100 -100 0 Wizard 3 17 2 MisterGinger 2 17 1/removeItem 769/removeQuest 15070/skippable/viewport 8 19 true/pause 1000/faceDirection Wizard 3/speak Wizard \"{{i18n:6hearts.wizard.1}}\"/pause 500/playSound cat/pause 250/speak Wizard \"{{i18n:6hearts.wizard.2}}\"/pause 500/playSound cat/pause 1000/playSound cat/speak Wizard \"{{i18n:6hearts.wizard.3}}\"/playSound cat/pause 250/speak Wizard \"{{i18n:6hearts.wizard.4}}\"/pause 500/playSound stoneStep/faceDirection MisterGinger 2/faceDirection Wizard 2/pause 250/speak Wizard \"{{i18n:6hearts.wizard.5}}\"/pause 500/playSound doorOpen/{{6heartwarp}}/move farmer 0 -4 0/pause 250/speak Wizard \"{{i18n:6hearts.wizard.6}}\"/move farmer -2 0 3/move farmer 0 -3 3/pause 500/playSound cat/pause 250/faceDirection Wizard 3/speak Wizard \"{{i18n:6hearts.wizard.7}}\"/pause 500/faceDirection Wizard 1/speak Wizard \"{{i18n:6hearts.wizard.8}}\"/pause 500/{{6heartmove}}/pause 250/playSound coin/speak Wizard \"{{i18n:6hearts.wizard.9}}\"/move Wizard 0 2 2/faceDirection farmer 2/faceDirection MisterGinger 1/pause 500/speak Wizard \"{{i18n:6hearts.wizard.10}}\"/pause 250/playSound cat/speak Wizard \"{{i18n:6hearts.wizard.11}}\"/pause 500/playSound dropItemInWater/move farmer 0 2 2/pause 250/showFrame Wizard 18/showFrame 96/pause 1000/speak Wizard \"{{i18n:6hearts.wizard.12}}\"/pause 800/emote farmer 28/faceDirection MisterGinger 1/playSound cat/pause 500/showFrame Wizard 19/pause 800/showFrame farmer 90/faceDirection Wizard 2/pause 1000/farmerEat 184/pause 4000/playSound gulp/move farmer 0 -1 2/animate farmer false true 350 104 105/pause 4000/globalFade .008/viewport -1000 -1000/stopAnimation farmer/faceDirection farmer 2/warp MisterGinger 5 18/warp Wizard 3 18 1/faceDirection Wizard 1/faceDirection MisterGinger 3/playMusic none/pause 500/viewport 8 19 true/pause 500/speak MisterGinger \"{{i18n:6hearts.13}}\"/pause 500/speak MisterGinger \"{{i18n:6hearts.14}}\"/pause 500/emote Wizard 8/pause 500/speak MisterGinger \"{{i18n:6hearts.15}}\"/pause 250/quickQuestion {{i18n:6hearts.wizard.16}}(break)emote Wizard 40\\speak Wizard \"{{i18n:6hearts.wizard.17}}\"(break)speak MisterGinger \"{{i18n:6hearts.wizard.18}}\"(break)speak MisterGinger \"{{i18n:6hearts.wizard.19}}\"(break)speak Wizard \"{{i18n:6hearts.wizard.20}}\"/pause 500/faceDirection farmer 1/pause 500/emote farmer 16/speak MisterGinger \"{{i18n:6hearts.21}}\"/pause 250/emote Wizard 12/pause 500/speak Wizard \"{{i18n:6hearts.wizard.22}}\"/pause 250/speak MisterGinger \"{{i18n:6hearts.wizard.23}}\"/emote farmer 32/pause 1000/end dialogue MisterGinger \"{{i18n:6hearts.24}}\""
+			}
+		}
+		
+	]
+}

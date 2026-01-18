@@ -1,0 +1,14 @@
+{
+    "Changes": [
+        {
+            "LogName": "Shirts",
+            "Action": "Include",
+            "FromFile": "Data/Objects/Shirts.json"
+        },
+        {
+            "LogName": "Pants",
+            "Action": "Include",
+            "FromFile": "Data/Objects/Pants.json"
+        }
+    ]
+}

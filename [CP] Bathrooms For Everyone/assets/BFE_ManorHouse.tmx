@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="12" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="11">
+ <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="2177" name="p" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="2241" name="untitled tile sheet2" tilewidth="16" tileheight="16" tilecount="1312" columns="32">
+  <image source="townInterior_2" width="512" height="656"/>
+  <tile id="52">
+   <animation>
+    <frame tileid="52" duration="50"/>
+    <frame tileid="112" duration="50"/>
+    <frame tileid="113" duration="50"/>
+    <frame tileid="47" duration="50"/>
+    <frame tileid="47" duration="50"/>
+    <frame tileid="47" duration="50"/>
+    <frame tileid="47" duration="50"/>
+    <frame tileid="47" duration="50"/>
+    <frame tileid="47" duration="50"/>
+    <frame tileid="47" duration="50"/>
+    <frame tileid="47" duration="50"/>
+    <frame tileid="47" duration="50"/>
+    <frame tileid="47" duration="50"/>
+    <frame tileid="47" duration="50"/>
+    <frame tileid="47" duration="50"/>
+    <frame tileid="47" duration="50"/>
+    <frame tileid="47" duration="50"/>
+    <frame tileid="47" duration="50"/>
+    <frame tileid="113" duration="50"/>
+    <frame tileid="112" duration="50"/>
+    <frame tileid="52" duration="50"/>
+    <frame tileid="52" duration="50"/>
+    <frame tileid="52" duration="50"/>
+    <frame tileid="52" duration="50"/>
+    <frame tileid="52" duration="50"/>
+    <frame tileid="52" duration="50"/>
+    <frame tileid="52" duration="50"/>
+    <frame tileid="52" duration="50"/>
+    <frame tileid="52" duration="50"/>
+    <frame tileid="52" duration="50"/>
+    <frame tileid="52" duration="50"/>
+    <frame tileid="52" duration="50"/>
+    <frame tileid="52" duration="50"/>
+    <frame tileid="52" duration="50"/>
+    <frame tileid="52" duration="50"/>
+    <frame tileid="52" duration="50"/>
+    <frame tileid="52" duration="50"/>
+    <frame tileid="52" duration="50"/>
+    <frame tileid="52" duration="50"/>
+    <frame tileid="52" duration="50"/>
+    <frame tileid="52" duration="50"/>
+    <frame tileid="52" duration="50"/>
+    <frame tileid="52" duration="50"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="3553" name="bathrooms_tilesheet" tilewidth="16" tileheight="16" tilecount="416" columns="16">
+  <image source="bathrooms_tilesheet.png" width="256" height="416"/>
+ </tileset>
+ <layer id="1" name="Back" width="12" height="12">
+  <data encoding="csv">
+1,1,0,0,0,0,0,0,0,0,0,0,
+3192,1,0,0,0,0,0,0,0,0,0,0,
+3224,1,0,0,0,0,0,0,0,0,0,0,
+3256,3223,3223,3940,3940,3940,3940,3940,3940,3617,3619,0,
+573,3223,3223,3939,3939,3939,3939,3939,3939,3617,3619,0,
+3107,0,0,3939,3940,3940,3940,3955,3955,3633,3635,0,
+3139,3939,3940,3939,3940,3940,3956,3940,3940,3940,3940,0,
+3107,1,0,3939,3940,3956,3956,3956,3956,3956,3956,0,
+3139,1,0,3939,3939,3939,3939,3939,3939,3939,3940,0,
+3107,1,0,3955,3955,3955,3955,3955,3955,3955,3956,0,
+3139,1,0,0,0,0,0,0,0,0,0,0,
+1,1,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="Back2" width="12" height="12">
+  <properties>
+   <property name="Draw" value="Back"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,3849,3849,0,0,0,
+0,0,0,0,0,0,3865,3865,3865,0,0,0,
+0,0,0,0,2821,2822,2823,2824,0,0,3711,0,
+0,0,0,0,2853,2854,2855,2856,0,0,0,0,
+0,0,0,0,2885,2886,2887,2888,0,0,0,0,
+2823,2824,0,0,0,0,0,0,0,0,0,0,
+2855,2856,0,0,0,0,0,0,0,0,0,0,
+2887,2888,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="Buildings" width="12" height="12">
+  <data encoding="csv">
+1,1,1,2,3,3,3,3,3,3,4,1,
+2782,1,33,3833,3833,3833,3833,3833,3833,3649,3667,37,
+82,194,195,3849,3849,3849,3849,3781,3782,3665,3667,69,
+114,155,156,3865,3865,3865,3696,3797,3798,3681,3683,69,
+146,187,188,2147487379,0,3801,0,0,0,0,0,69,
+535,219,220,0,0,0,0,0,0,0,0,69,
+0,0,0,0,0,0,0,0,0,3659,3660,69,
+588,1,65,3795,3796,0,0,0,3654,3655,3656,69,
+620,1,65,0,0,0,0,0,0,0,3801,69,
+2642,1,161,3793,3794,3721,3901,3902,0,3911,3912,168,
+1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1
+</data>
+ </layer>
+ <layer id="4" name="Front" width="12" height="12">
+  <data encoding="csv">
+4,1,0,0,0,0,0,0,0,0,0,0,
+44,37,0,2532,3786,3787,0,3723,3724,0,44,0,
+2814,0,0,2564,3802,3803,3767,0,0,0,3712,0,
+0,0,0,2147487363,0,0,0,0,0,3627,3628,0,
+503,0,0,0,0,0,0,0,0,3643,3644,0,
+0,0,0,0,0,0,0,0,0,3643,3644,0,
+556,164,163,3779,3780,0,0,0,3638,3639,3640,0,
+2578,69,0,0,0,0,3869,3870,0,0,3785,0,
+2610,69,0,3777,3778,0,3885,3886,0,0,0,0,
+167,168,0,162,166,166,166,166,166,166,167,0,
+1,1,0,0,0,0,0,0,0,0,0,0,
+1,1,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="5" name="Front2" width="12" height="12">
+  <properties>
+   <property name="Draw" value="Front"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,42,0,0,2263,0,0,0,0,0,
+0,0,0,0,0,3740,3680,0,0,0,0,0,
+0,0,0,0,0,3756,0,0,0,0,0,0,
+0,0,0,2147487401,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="6" name="Front3" width="12" height="12">
+  <properties>
+   <property name="Draw" value="Front"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="7" name="Paths" width="12" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,2185,0,0,0,2185,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,2185,0,0,0,2185,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,2185,0,0,0,2185,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="8" name="Back"/>
+ <objectgroup id="9" name="Back2"/>
+ <objectgroup id="10" name="Buildings">
+  <object id="10" name="TileData" x="0" y="144" width="16" height="16">
+   <properties>
+    <property name="Action" value="Starpoint 2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="11" name="Front"/>
+ <objectgroup id="12" name="Front2"/>
+ <objectgroup id="13" name="Front3"/>
+ <objectgroup id="14" name="Paths"/>
+</map>

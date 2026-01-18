@@ -1,0 +1,38 @@
+{
+	"Changes": [
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Custom_Fostoria",
+			"Entries": {
+				"114780000/f Fisher 1000": "shaneTheme/36 22/farmer 40 16 3 Fisher 36 25 2 Wizard -1000 -1000 2/skippable/pause 1000/emote Fisher 44/playSound fishEscape/speak Fisher \"{{i18n:Fostoria.Fisher.4hearts.0}}\"/move Fisher -1 0 3/playSound cast/pause 900/emote Fisher 44/playSound fishEscape/pause 500/speak Fisher \"{{i18n:Fostoria.Fisher.4hearts.1}}\"/pause 500/speed farmer 2/move farmer -4 0 3/speed farmer 2/move farmer 0 4 2/faceDirection Fisher 1 true/jump Fisher/speak Fisher \"{{i18n:Fostoria.Fisher.4hearts.2}}\"/emote farmer 8/speak Fisher \"{{i18n:Fostoria.Fisher.4hearts.3}}\"/pause 600/playSound wand/screenFlash 3/showFrame Wizard 16/warp Wizard 37 24/pause 500/showFrame Wizard 0/pause 500/faceDirection Wizard 3 true/pause 500/screenFlash .35/shake Wizard 500/faceDirection Wizard 0/speak Wizard \"{{i18n:Fostoria.Fisher.4hearts.4}}\"/pause 500/faceDirection Wizard 3 true/speak Wizard \"{{i18n:Fostoria.Fisher.4hearts.5}}\"/jump Fisher/speak Fisher \"{{i18n:Fostoria.Fisher.4hearts.6}}\"/emote Fisher 12/faceDirection Wizard 0 true/speak Wizard \"{{i18n:Fostoria.Fisher.4hearts.7}}\"/faceDirection Wizard 3 true/pause 500/speak Wizard \"{{i18n:Fostoria.Fisher.4hearts.8}}\"/pause 500/faceDirection Wizard 0 true/speak Wizard \"{{i18n:Fostoria.Fisher.4hearts.9}}\"/playSound wand/screenFlash 3/warp Wizard -1000 -1000/pause 1000/faceDirection Fisher 0 true/pause 1000/emote Fisher 12/pause 500/speak Fisher \"{{i18n:Fostoria.Fisher.4hearts.10}}\"/emote farmer 40/speak Fisher \"{{i18n:Fostoria.Fisher.4hearts.11}}\"/emote farmer 8/speak Fisher \"{{i18n:Fostoria.Fisher.4hearts.12}}\"/emote farmer 32/speak Fisher \"{{i18n:Fostoria.Fisher.4hearts.13}}\"/pause 800/end"
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Custom_F_MagicShop",
+			"Entries": {
+				"114780004/f Witch 1000": "WizardSong/3 18/farmer 3 23 0 Witch 4 12 2 Wizard 3 13 1/skippable/pause 1000/speak Witch \"{{i18n:Fostoria.Witch.4hearts.0}}\"/emote farmer 8/speak Wizard \"{{i18n:Fostoria.Witch.4hearts.1}}\"/speak Witch \"{{i18n:Fostoria.Witch.4hearts.2}}\"/jump Witch/pause 500/speak Witch \"{{i18n:Fostoria.Witch.4hearts.3}}\"/emote farmer 40/move Witch 0 1 2/move Witch 1 0 2/speak Witch \"{{i18n:Fostoria.Witch.4hearts.4}}\"/speed Witch 3/move Witch 0 6 2/speed Wizard 3/move Wizard 3 0 1/speed Wizard 3/move Wizard 0 6 2/speak Witch \"{{i18n:Fostoria.Witch.4hearts.5}}\"/fade/end",
+				"114780005/f Witch 1500": "WizardSong/3 20/farmer 3 23 0 Witch 3 20 2 Abigail 6 20 3/skippable/pause 1000/faceDirection Witch 1 true/speak Witch \"{{i18n:Fostoria.Witch.6hearts.0}}\"/speak Abigail \"{{i18n:Fostoria.Witch.6hearts.1}}\"/faceDirection Abigail 2 true/jump Abigail/jump Witch/faceDirection Witch 2 true/speak Witch \"{{i18n:Fostoria.Witch.6hearts.2}}\"/pause 500/speak Witch \"{{i18n:Fostoria.Witch.6hearts.3}}\"/emote farmer 40/speak Witch \"{{i18n:Fostoria.Witch.6hearts.4}}\"/speed Witch 4/move Witch 0 -2 0/speed Witch 4/move Witch 3 0 1/speed Abigail 3/move Abigail 0 -5 0/speed farmer 3/move farmer 5 0 1/speed Witch 4/move Witch 0 -5 0/playSound wand/pause 1000/speed Abigail 3/move Abigail 3 0 1/speed farmer 3/move farmer 0 -6 0/speed Witch 4/move Witch 4 0 1/move Witch 0 1 2/speed farmer 3/move farmer 2 0 1/addObject 10 15 904 1/speak Abigail \"{{i18n:Fostoria.Witch.6hearts.5}}\"/speak Witch \"{{i18n:Fostoria.Witch.6hearts.6}}\"/playSound gulp/pause 500/playSound gulp/pause 500/addCookingRecipe Banana Pudding/playSound reward/message \"{{i18n:Fostoria.Witch.6hearts.7}}\"/fade/end"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"Entries": {
+				"Witch": "{{i18n:Fostoria.dialogue.Witch}}"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Witch",
+			"Entries": {
+				"WizardHouse": "{{i18n:Fostoria.dialogue.WizardHouse}}"
+			}
+		}
+	
+	]
+	
+}

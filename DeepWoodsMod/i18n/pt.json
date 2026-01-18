@@ -1,0 +1,44 @@
+{
+  "easter-egg.hatched-message": "Um novo... espere um minuto, um coelho chocou?!",
+  "easter-egg.name": "Ovo de Páscoa",
+  "excalibur.description": "Empunhá-la faz você se sentir esperançoso.",
+  "excalibur.name": "Excalibur",
+  "excalibur.nope-message": "Ela não se move.",
+  "lost-message": "Ops, parece que você se perdeu na floresta profunda...",
+  "healing-fountain.drink-message": "Você se sente revigorado, energizado e de alguma forma com sorte.",
+  "woods-obelisk.description": "Teleporta você para a floresta profunda.",
+  "woods-obelisk.name": "Obelisco da Floresta",
+  "woods-obelisk.wizard-mail": "Pude sentir sua presença nas profundezas da floresta.^Há uma magia forte e antiga enterrada entre as raízes das árvores e a terra.^É difícil, mas com os ingredientes certos eu devo conseguir manifestar um obelisco que use essa magia para permitir que você acesse partes muito mais profundas da floresta.^Venha à minha torre quando estiver pronto.^   -M. Rasmodius, Mago",
+
+  "messagebox.close": "Fechar",
+
+  "maxhouse.puzzle.nope": "Você ouve um clique, mas nada acontece...",
+
+  "maxhouse.stuff.question": "Muitas e muitas coisas.",
+  "maxhouse.stuff.answer.search": "Vasculhar as coisas",
+  "maxhouse.stuff.answer.nevermind": "Deixa pra lá",
+  "maxhouse.stuff.nothing": "Você não encontrou nada imediatamente útil. Talvez outra hora...",
+
+  "maxhouse.shop.empty": "A loja está sem estoque no momento. Volte mais tarde.",
+  "maxhouse.quests.empty": "Atualmente não há tarefas ou missões abertas. Volte mais tarde.",
+
+  "maxhouse.books.random.1": "= Folclore dos Unicórnios =^^Unicórnios são criaturas tímidas e evasivas. Se você algum dia encontrar um, o que, meu amigo, exige muita sorte, aproxime-se com o máximo cuidado. Um passo rápido demais e você vai assustá-lo, trazendo uma terrível má sorte para você!",
+  "maxhouse.books.random.2": "= De Lendas e Espadas =^^Dizem as lendas que, em algum lugar escondido nesta floresta, existe uma antiga espada mágica, profundamente enterrada em uma pedra. Só os mais habilidosos, realizados e sortudos serão capazes de puxá-la.",
+  "maxhouse.books.random.3": "= Remoção de Ervas Daninhas para Jardineiros Cascudos =^^Se você estiver enfrentando uma infestação de arbustos espinhosos que simplesmente não desaparecem, um truque antigo é usar bombas. O melhor amigo de todo jardineiro é uma boa dose de explosivos. Use várias, se necessário.",
+  "maxhouse.books.random.4": "= Criaturas Noturnas e Outros Avistamentos =^^Fantasmas e morcegos são apenas algumas das fascinantes criaturas que se pode observar depois do anoitecer.",
+  "maxhouse.books.random.5": "= Nutrição e Arquitetura =^^Séculos atrás, quando materiais de construção eram difíceis de encontrar, as pessoas se viravam construindo casas de pão, doces e outros alimentos. Embora isso já não esteja na moda, algumas dessas casas abandonadas ainda podem ser encontradas em áreas inexploradas. Também são uma boa fonte de comida!",
+  "maxhouse.books.closebook": "Fechar Livro",
+
+  "bigsign.message": "Bem-vindo(a) ao DeepWoods! Onde natureza e magia existem em harmonia!^== Caça a monstros para toda a família ==^== Trilhas para todos os níveis de habilidade ==^== Aventura e diversão para todos ==^^Aviso: Muito perigoso. Nenhuma responsabilidade por aventureiros mortos, amaldiçoados ou perdidos.",
+  "entrysign.message": "Você está entrando em DeepWoods. Não se aventure muito fundo se não estiver preparado. Muitos antes de você já se perderam, ou pior. Considere-se avisado.",
+
+  "orb-stone.question": "Você se sente atraído por esta pedra. Você não sabe por quê. Você ousa tocá-la?",
+  "orb-stone.yes": "Sim!",
+  "orb-stone.no": "Ééé, melhor não.",
+  "orb-stone.touch-message": "Você toca a pedra com cuidado. Você sente uma vibração, mas nada acontece.",
+  "orb-stone.touch-message-no-orb": "Você toca a pedra com cuidado. Parece que ela anseia por alguma coisa. É uma sensação estranha.",
+
+  "cave-entrance.caved-in.message": "A entrada desabou. Não parece haver uma maneira de entrar.",
+
+  "minecart.destination.deepwoods": "DeepWoods"
+}

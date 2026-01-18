@@ -1,0 +1,449 @@
+﻿{
+	"Changes": [
+		{
+			"LogName": "Caroline Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Caroline",
+               "Entries": {
+               //Unique Dialogue
+                    "Introduction": "{{i18n:Caroline.Introduction}}",
+                    "FlowerDance_Accept": "{{i18n:Caroline.FlowerDanceAccept}}",
+                    "FlowerDance_Accept_Spouse": "{{i18n:Caroline.FlowerDanceAccept.Spouse}}",
+                    "FlowerDance_Decline": "{{i18n:Caroline.FlowerDanceDecline}}",
+                    "divorced": "{{i18n:Caroline.divorced}}",
+                    "breakUp": "{{i18n:Caroline.breakUp}}",
+                    "dumped_Girls": "{{i18n:Caroline.dumped}}",
+                    "secondChance_Girls": "{{i18n:Caroline.secondChance}}",
+				"DumpsterDiveComment": "{{i18n:Caroline.DumpsterDiveComment}}",
+                    "SpouseGiftJealous": "{{i18n:Caroline.SpouseGiftJealous}}",
+                    "AcceptGift_(O)StardropTea": "{{i18n:Caroline.StardropTea}}",
+                    "AcceptBouquet": "{{i18n: Caroline.AcceptBouquet.{{Random:1,2,3}} }}",
+                    "RejectBouquet": "{{i18n: Caroline.RejectBouquet.{{Random:1,2}} }}",
+                    "RejectBouquet_Divorced": "{{i18n: Caroline.Divorced.{{Random:1,2}} }}",
+                    "RejectBouquet_NpcAlreadyMarried": "{{i18n: Caroline.NpcAlreadyMarried.{{Random:1,2}} }}",
+				"RejectBouquet_NotDatable": "{{i18n: Caroline.RejectBouquet.NotDatable.{{Random:1,2}} }}",
+                    "AcceptMermaidPendant": "{{i18n: Caroline.AcceptMermaidPendant.{{Random:1,2,3}} }}",
+                    "RejectMermaidPendant": "{{i18n: Caroline.RejectMermaidPendant.{{Random:1,2}} }}",
+                    "RejectMermaidPendant_Divorced": "{{i18n: Caroline.Divorced.{{Random:1,2}} }}",
+                    "RejectMermaidPendant_NpcAlreadyMarried": "{{i18n: Caroline.NpcAlreadyMarried.{{Random:1,2}} }}",
+                    "RejectMermaidPendant_NotDatable": "{{i18n: Caroline.RejectMermaidPendant.NotDatable.{{Random:1,2}} }}",
+                    "SpouseStardrop": "{{i18n: Caroline.SpouseStardrop}}",
+                    "WipedMemory": "{{i18n: Caroline.WipedMemory}}",
+                    "GreenRain": "{{i18n: Caroline.GreenRain.1}}",
+                    "GreenRain_2": "{{i18n: Caroline.GreenRain.2}}",                  
+
+               //Spring Dialogue
+                    "spring_1": "{{i18n:Caroline.spring1}}",
+				"spring_Mon": "{{i18n:Caroline.springMon}}",
+                    "spring_Mon2": "{{i18n:Caroline.springMon2}}",
+				"spring_Mon4": "{{i18n:Caroline.springMon4}}",
+				"spring_Mon6": "{{i18n:Caroline.springMon6}}",
+				"spring_Mon8": "{{i18n:Caroline.springMon8}}",  
+                    "spring_Mon10": "{{i18n:Caroline.springMon10}}",  
+				"spring_Tue": "{{i18n:Caroline.springTue}}",
+				"spring_Tue2": "{{i18n:Caroline.springTue2}}",
+				"spring_Tue4": "{{i18n:Caroline.springTue4}}",
+                    "spring_Tue6": "{{i18n:Caroline.springTue6}}",
+				"spring_Tue8": "{{i18n:Caroline.springTue8}}",
+                    "spring_Tue10": "{{i18n:Caroline.springTue10}}",
+				"spring_Wed": "{{i18n:Caroline.springWed}}",
+                    "spring_Wed2": "{{i18n:Caroline.springWed2}}",
+                    "spring_Wed4": "{{i18n:Caroline.springWed4}}",
+				"spring_Wed6": "{{i18n:Caroline.springWed6}}",
+				"spring_Wed8": "{{i18n:Caroline.springWed8}}", 
+                    "spring_Wed10": "{{i18n:Caroline.springWed10}}", 
+				"spring_Thu": "{{i18n:Caroline.springThu}}", 
+				"spring_Thu2": "{{i18n:Caroline.springThu2}}", 
+                    "spring_Thu4": "{{i18n:Caroline.springThu4}}", 
+                    "spring_Thu6": "{{i18n:Caroline.springThu6}}", 
+                    "spring_Thu8": "{{i18n:Caroline.springThu8}}", 
+				"spring_Thu10": "{{i18n:Caroline.springThu10}}",
+                    "spring_Fri": "{{i18n:Caroline.springFri}}", 
+				"spring_Fri2": "{{i18n:Caroline.springFri2}}", 
+                    "spring_Fri4": "{{i18n:Caroline.springFri4}}", 
+                    "spring_Fri6": "{{i18n:Caroline.springFri6}}", 
+                    "spring_Fri8": "{{i18n:Caroline.springFri8}}", 
+				"spring_Fri10": "{{i18n:Caroline.springFri10}}",
+                    "spring_Sat": "{{i18n:Caroline.springSat}}", 
+				"spring_Sat2": "{{i18n:Caroline.springSat2}}", 
+                    "spring_Sat4": "{{i18n:Caroline.springSat4}}", 
+                    "spring_Sat6": "{{i18n:Caroline.springSat6}}", 
+                    "spring_Sat8": "{{i18n:Caroline.springSat8}}", 
+				"spring_Sat10": "{{i18n:Caroline.springSat10}}",
+                    "spring_Sun": "{{i18n:Caroline.springSun}}", 
+				"spring_Sun2": "{{i18n:Caroline.springSun2}}", 
+                    "spring_Sun4": "{{i18n:Caroline.springSun4}}", 
+                    "spring_Sun6": "{{i18n:Caroline.springSun6}}", 
+                    "spring_Sun8": "{{i18n:Caroline.springSun8}}", 
+				"spring_Sun10": "{{i18n:Caroline.springSun10}}",
+
+               //Summer Dialogue
+                    "summer_1": "{{i18n:Caroline.summer1}}",
+				"summer_Mon": "{{i18n:Caroline.summerMon}}",
+                    "summer_Mon2": "{{i18n:Caroline.summerMon2}}",
+				"summer_Mon4": "{{i18n:Caroline.summerMon4}}",
+				"summer_Mon6": "{{i18n:Caroline.summerMon6}}",
+				"summer_Mon8": "{{i18n:Caroline.summerMon8}}",  
+                    "summer_Mon10": "{{i18n:Caroline.summerMon10}}",  
+				"summer_Tue": "{{i18n:Caroline.summerTue}}",
+				"summer_Tue2": "{{i18n:Caroline.summerTue2}}",
+				"summer_Tue4": "{{i18n:Caroline.summerTue4}}",
+                    "summer_Tue6": "{{i18n:Caroline.summerTue6}}",
+				"summer_Tue8": "{{i18n:Caroline.summerTue8}}",
+                    "summer_Tue10": "{{i18n:Caroline.summerTue10}}",
+				"summer_Wed": "{{i18n:Caroline.summerWed}}",
+                    "summer_Wed2": "{{i18n:Caroline.summerWed2}}",
+                    "summer_Wed4": "{{i18n:Caroline.summerWed4}}",
+				"summer_Wed6": "{{i18n:Caroline.summerWed6}}",
+				"summer_Wed8": "{{i18n:Caroline.summerWed8}}", 
+                    "summer_Wed10": "{{i18n:Caroline.summerWed10}}", 
+				"summer_Thu": "{{i18n:Caroline.summerThu}}", 
+				"summer_Thu2": "{{i18n:Caroline.summerThu2}}", 
+                    "summer_Thu4": "{{i18n:Caroline.summerThu4}}", 
+                    "summer_Thu6": "{{i18n:Caroline.summerThu6}}", 
+                    "summer_Thu8": "{{i18n:Caroline.summerThu8}}", 
+				"summer_Thu10": "{{i18n:Caroline.summerThu10}}",
+                    "summer_Fri": "{{i18n:Caroline.summerFri}}", 
+				"summer_Fri2": "{{i18n:Caroline.summerFri2}}", 
+                    "summer_Fri4": "{{i18n:Caroline.summerFri4}}", 
+                    "summer_Fri6": "{{i18n:Caroline.summerFri6}}", 
+                    "summer_Fri8": "{{i18n:Caroline.summerFri8}}", 
+				"summer_Fri10": "{{i18n:Caroline.summerFri10}}",
+                    "summer_Sat": "{{i18n:Caroline.summerSat}}", 
+				"summer_Sat2": "{{i18n:Caroline.summerSat2}}", 
+                    "summer_Sat4": "{{i18n:Caroline.summerSat4}}", 
+                    "summer_Sat6": "{{i18n:Caroline.summerSat6}}", 
+                    "summer_Sat8": "{{i18n:Caroline.summerSat8}}", 
+				"summer_Sat10": "{{i18n:Caroline.summerSat10}}",
+                    "summer_Sun": "{{i18n:Caroline.summerSun}}", 
+				"summer_Sun2": "{{i18n:Caroline.summerSun2}}", 
+                    "summer_Sun4": "{{i18n:Caroline.summerSun4}}", 
+                    "summer_Sun6": "{{i18n:Caroline.summerSun6}}", 
+                    "summer_Sun8": "{{i18n:Caroline.summerSun8}}", 
+				"summer_Sun10": "{{i18n:Caroline.summerSun10}}",
+                    
+               // Fall Dialogue
+                    "fall_1": "{{i18n:Caroline.fall1}}",
+                    "fall_Mon": "{{i18n:Caroline.fallMon}}",
+                    "fall_Mon2": "{{i18n:Caroline.fallMon2}}",
+                    "fall_Mon4": "{{i18n:Caroline.fallMon4}}",
+                    "fall_Mon6": "{{i18n:Caroline.fallMon6}}",
+                    "fall_Mon8": "{{i18n:Caroline.fallMon8}}",  
+                    "fall_Mon10": "{{i18n:Caroline.fallMon10}}",  
+                    "fall_Tue": "{{i18n:Caroline.fallTue}}",
+                    "fall_Tue2": "{{i18n:Caroline.fallTue2}}",
+                    "fall_Tue4": "{{i18n:Caroline.fallTue4}}",
+                    "fall_Tue6": "{{i18n:Caroline.fallTue6}}",
+                    "fall_Tue8": "{{i18n:Caroline.fallTue8}}",
+                    "fall_Tue10": "{{i18n:Caroline.fallTue10}}",
+                    "fall_Wed": "{{i18n:Caroline.fallWed}}",
+                    "fall_Wed2": "{{i18n:Caroline.fallWed2}}",
+                    "fall_Wed4": "{{i18n:Caroline.fallWed4}}",
+                    "fall_Wed6": "{{i18n:Caroline.fallWed6}}",
+                    "fall_Wed8": "{{i18n:Caroline.fallWed8}}", 
+                    "fall_Wed10": "{{i18n:Caroline.fallWed10}}", 
+                    "fall_Thu": "{{i18n:Caroline.fallThu}}", 
+                    "fall_Thu2": "{{i18n:Caroline.fallThu2}}", 
+                    "fall_Thu4": "{{i18n:Caroline.fallThu4}}", 
+                    "fall_Thu6": "{{i18n:Caroline.fallThu6}}", 
+                    "fall_Thu8": "{{i18n:Caroline.fallThu8}}", 
+                    "fall_Thu10": "{{i18n:Caroline.fallThu10}}",
+                    "fall_Fri": "{{i18n:Caroline.fallFri}}", 
+                    "fall_Fri2": "{{i18n:Caroline.fallFri2}}", 
+                    "fall_Fri4": "{{i18n:Caroline.fallFri4}}", 
+                    "fall_Fri6": "{{i18n:Caroline.fallFri6}}", 
+                    "fall_Fri8": "{{i18n:Caroline.fallFri8}}", 
+                    "fall_Fri10": "{{i18n:Caroline.fallFri10}}",
+                    "fall_Sat": "{{i18n:Caroline.fallSat}}", 
+                    "fall_Sat2": "{{i18n:Caroline.fallSat2}}", 
+                    "fall_Sat4": "{{i18n:Caroline.fallSat4}}", 
+                    "fall_Sat6": "{{i18n:Caroline.fallSat6}}", 
+                    "fall_Sat8": "{{i18n:Caroline.fallSat8}}", 
+                    "fall_Sat10": "{{i18n:Caroline.fallSat10}}",
+                    "fall_Sun": "{{i18n:Caroline.fallSun}}", 
+                    "fall_Sun2": "{{i18n:Caroline.fallSun2}}", 
+                    "fall_Sun4": "{{i18n:Caroline.fallSun4}}", 
+                    "fall_Sun6": "{{i18n:Caroline.fallSun6}}", 
+                    "fall_Sun8": "{{i18n:Caroline.fallSun8}}", 
+                    "fall_Sun10": "{{i18n:Caroline.fallSun10}}",
+
+               // Winter Dialogue
+                    "winter_1": "{{i18n:Caroline.winter1}}",
+                    "winter_Mon": "{{i18n:Caroline.winterMon}}",
+                    "winter_Mon2": "{{i18n:Caroline.winterMon2}}",
+                    "winter_Mon4": "{{i18n:Caroline.winterMon4}}",
+                    "winter_Mon6": "{{i18n:Caroline.winterMon6}}",
+                    "winter_Mon8": "{{i18n:Caroline.winterMon8}}",  
+                    "winter_Mon10": "{{i18n:Caroline.winterMon10}}",  
+                    "winter_Tue": "{{i18n:Caroline.winterTue}}",
+                    "winter_Tue2": "{{i18n:Caroline.winterTue2}}",
+                    "winter_Tue4": "{{i18n:Caroline.winterTue4}}",
+                    "winter_Tue6": "{{i18n:Caroline.winterTue6}}",
+                    "winter_Tue8": "{{i18n:Caroline.winterTue8}}",
+                    "winter_Tue10": "{{i18n:Caroline.winterTue10}}",
+                    "winter_Wed": "{{i18n:Caroline.winterWed}}",
+                    "winter_Wed2": "{{i18n:Caroline.winterWed2}}",
+                    "winter_Wed4": "{{i18n:Caroline.winterWed4}}",
+                    "winter_Wed6": "{{i18n:Caroline.winterWed6}}",
+                    "winter_Wed8": "{{i18n:Caroline.winterWed8}}", 
+                    "winter_Wed10": "{{i18n:Caroline.winterWed10}}", 
+                    "winter_Thu": "{{i18n:Caroline.winterThu}}", 
+                    "winter_Thu2": "{{i18n:Caroline.winterThu2}}", 
+                    "winter_Thu4": "{{i18n:Caroline.winterThu4}}", 
+                    "winter_Thu6": "{{i18n:Caroline.winterThu6}}", 
+                    "winter_Thu8": "{{i18n:Caroline.winterThu8}}", 
+                    "winter_Thu10": "{{i18n:Caroline.winterThu10}}",
+                    "winter_Fri": "{{i18n:Caroline.winterFri}}", 
+                    "winter_Fri2": "{{i18n:Caroline.winterFri2}}", 
+                    "winter_Fri4": "{{i18n:Caroline.winterFri4}}", 
+                    "winter_Fri6": "{{i18n:Caroline.winterFri6}}", 
+                    "winter_Fri8": "{{i18n:Caroline.winterFri8}}", 
+                    "winter_Fri10": "{{i18n:Caroline.winterFri10}}",
+                    "winter_Sat": "{{i18n:Caroline.winterSat}}", 
+                    "winter_Sat2": "{{i18n:Caroline.winterSat2}}", 
+                    "winter_Sat4": "{{i18n:Caroline.winterSat4}}", 
+                    "winter_Sat6": "{{i18n:Caroline.winterSat6}}", 
+                    "winter_Sat8": "{{i18n:Caroline.winterSat8}}", 
+                    "winter_Sat10": "{{i18n:Caroline.winterSat10}}",
+                    "winter_Sun": "{{i18n:Caroline.winterSun}}", 
+                    "winter_Sun2": "{{i18n:Caroline.winterSun2}}", 
+                    "winter_Sun4": "{{i18n:Caroline.winterSun4}}", 
+                    "winter_Sun6": "{{i18n:Caroline.winterSun6}}", 
+                    "winter_Sun8": "{{i18n:Caroline.winterSun8}}", 
+                    "winter_Sun10": "{{i18n:Caroline.winterSun10}}",
+
+               //Ginger Island
+                    "Resort_Entering": "{{i18n:Caroline.Resort.Entering}}",
+                    "Resort_Leaving": "{{i18n:Caroline.Resort.Leaving}}",
+                    "Resort_Shore": "{{i18n:Caroline.Resort.Shore}}",
+                    "Resort_Chair": "{{i18n:Caroline.Resort.Chair}}",
+                    "Resort_Bar": "{{i18n:Caroline.Resort.Chair}}",
+                    "Resort_Bar_6": "{{i18n:Caroline.Resort.Bar6}}" ,
+                    "Resort_Bar_10": "{{i18n:Caroline.Resort.Bar10}}",
+                    "Resort": "{{i18n:Caroline.Resort}}",
+
+               //event
+                    "PictureMemory.Response.1": "{{i18n:Caroline.PictureMemory.Response.1}}",
+                    "PictureMemory.Response.2": "{{i18n:Caroline.PictureMemory.Response.2}}",
+
+               //event aftermath
+                    //2 - Museum Book
+                    "ShyBook": "{{i18n: Caroline.ShyBook.Dialogue}}",
+                    //2 - Museum Beauty
+                    "CryBook": "{{i18n: Caroline.CryBook.Dialogue}}",
+                    //8 - A
+                    "SunKiss": "{{i18n: Caroline.Caroline.SunKiss.Dialogue}}",
+                    //8 - B
+                    "HuH": "{{i18n: Caroline.Caroline.HuH.Dialogue}}",
+                    //8 - C
+                    "BrokenFrame": "{{i18n: Caroline.Caroline.BrokenFrame.Dialogue}}",
+                    //12
+                    "BeachFuss.Dress": "{{i18n: Caroline.BeachFuss.Dress.Dialogue}}",
+                    "BeachFuss.Ocean": "{{i18n: Caroline.BeachFuss.Ocean.Dialogue}}",
+                    //14 SFW
+                    "BathLove.Pancake": "{{i18n:Caroline.BathLove.Food.1}} [211]#$b#{{i18n:Caroline.BathLove.Food.2}}",
+                    "BathLove.FishTaco": "{{i18n:Caroline.BathLove.Food.1}} [213]#$b#{{i18n:Caroline.BathLove.Food.2}}",
+                    "BathLove.VegetableMedley": "{{i18n:Caroline.BathLove.Food.1}} [200]#$b#{{i18n:Caroline.BathLove.Food.2}}",
+                    //14 NSFW
+                    "BathFuss": "{{i18n:Caroline.BathFuss.Dialogue}} ",
+
+                    //mail aftermath
+                    "AbigailMissing": "{{i18n: Caroline.AbigailMissing.Dialogue}}",
+               }
+          },
+          {
+			"LogName": "Abigail Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+               "Entries": {
+                    "HuH": "{{i18n: Caroline.Abigail.HuH.Dialogue}}",
+                    "SunKiss": "{{i18n: Caroline.Abigail.SunKiss.Dialogue}}",
+                    "BrokenFrame": "{{i18n: Caroline.Abigail.BrokenFrame.Dialogue}}",
+               }
+          },
+          {
+			"LogName": "Pierre Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Pierre",
+               "Entries": {
+                    "AbigailMissing": "{{i18n: Pierre.AbigailMissing.Dialogue}}",
+                    "SunKiss": "{{i18n: Caroline.Pierre.SunKiss.Dialogue}}",
+                    "HuH": "{{i18n: Caroline.Pierre.HuH.Dialogue}}",
+                    "BrokenFrame": "{{i18n: Caroline.Pierre.BrokenFrame.Dialogue}}",
+               }
+          },
+          {
+			"LogName": "Lewis Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Lewis",
+               "Entries": {
+                    "AbigailMissing": "{{i18n: Lewis.AbigailMissing.Dialogue}}",
+                    "HuH": "{{i18n: Caroline.Lewis.HuH.Dialogue}}",
+               }
+          },
+          {
+			"LogName": "Sam Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+               "Entries": {
+                    "AbigailMissing": "{{i18n: Sam.AbigailMissing.Dialogue}}",
+               }
+          },
+          {
+			"LogName": "Sebastian Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+               "Entries": {
+                    "AbigailMissing": "{{i18n: Sebastian.AbigailMissing.Dialogue}}",
+               }
+          },
+          {
+			"LogName": "Robin Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Robin",
+               "Entries": {
+                    "AbigailMissing": "{{i18n: Robin.AbigailMissing.Dialogue}}",
+                    "HuH": "{{i18n: Caroline.Robin.HuH.Dialogue}}"
+               }
+          },
+          {
+			"LogName": "Demetrius Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Demetrius",
+               "Entries": {
+                    "AbigailMissing": "{{i18n: Demetrius.AbigailMissing.Dialogue}}",
+                    "HuH": "{{i18n: Caroline.Demetrius.HuH.Dialogue}}"
+               }
+          },
+          {
+			"LogName": "Maru Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+               "Entries": {
+                    "AbigailMissing": "{{i18n: Maru.AbigailMissing.Dialogue}}",
+               }
+          },
+          {
+			"LogName": "Jodi Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jodi",
+               "Entries": {
+                    "AbigailMissing": "{{i18n: Jodi.AbigailMissing.Dialogue}}",
+               }
+          },
+          {
+			"LogName": "Kent Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Kent",
+               "Entries": {
+                    "AbigailMissing": "{{i18n: Kent.AbigailMissing.Dialogue}}",
+               }
+          },
+          {
+			"LogName": "Vincent Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Vincent",
+               "Entries": {
+                    "AbigailMissing": "{{i18n: Vincent.AbigailMissing.Dialogue}}",
+               }
+          },
+          {
+			"LogName": "Pam Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Pam",
+               "Entries": {
+                    "AbigailMissing": "{{i18n: Pam.AbigailMissing.Dialogue}}",
+                    "HuH": "{{i18n: Caroline.Pam.HuH.Dialogue}}"
+               }
+          },
+          {
+			"LogName": "Penny Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Penny",
+               "Entries": {
+                    "AbigailMissing": "{{i18n: Penny.AbigailMissing.Dialogue}}",
+               }
+          },
+          {
+			"LogName": "Haley Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+               "Entries": {
+                    "AbigailMissing": "{{i18n: Haley.AbigailMissing.Dialogue}}",
+               }
+          },
+          {
+			"LogName": "Alex Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+               "Entries": {
+                    "AbigailMissing": "{{i18n: Alex.AbigailMissing.Dialogue}}",
+               }
+          },
+          {
+			"LogName": "Marnie Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Marnie",
+               "Entries": {
+                    "AbigailMissing": "{{i18n: Marnie.AbigailMissing.Dialogue}}",
+                    "HuH": "{{i18n: Caroline.Marnie.HuH.Dialogue}}"
+               }
+          },
+          {
+			"LogName": "Shane Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+               "Entries": {
+                    "AbigailMissing": "{{i18n: Shane.AbigailMissing.Dialogue}}",
+               }
+          },
+          {
+			"LogName": "Jas Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jas",
+               "Entries": {
+                    "AbigailMissing": "{{i18n: Jas.AbigailMissing.Dialogue}}",
+               }
+          },
+          {
+			"LogName": "Wizard Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+               "Entries": {
+                    "AbigailMissing": "{{i18n: Wizard.AbigailMissing.Dialogue}}",
+               }
+          },
+          {
+               "LogName": "Clint Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Clint",
+               "Entries": {
+                    "HuH": "{{i18n: Caroline.Clint.HuH.Dialogue}}"
+               }
+          },
+          {
+               "LogName": "Willy Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Willy",
+               "Entries": {
+                    "HuH": "{{i18n: Caroline.Willy.HuH.Dialogue}}"
+               }
+          },
+          {
+               "LogName": "Gus Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gus",
+               "Entries": {
+                    "HuH": "{{i18n: Caroline.Gus.HuH.Dialogue}}"
+               }
+          },
+          {
+               "LogName": "Emily Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Emily",
+               "Entries": {
+                    "HuH": "{{i18n: Caroline.Emily.HuH.Dialogue}}"
+               }
+          }
+     ]
+}

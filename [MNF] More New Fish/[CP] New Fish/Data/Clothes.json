@@ -1,0 +1,92 @@
+{
+	"Changes": [
+		{
+			"LogName": "Add Hats",
+			"Action": "EditData",
+			"Target": "Data/Hats",
+			"Entries": {
+				"MNF.Hat": "MNF.Hat/{{i18n:Clown.Hat.Description}}/true/true//{{i18n:Clown.Hat.Name}}/0/Mods\\MNF.MoreNewFish\\Hats",
+			}
+		},
+		{
+			"LogName": "Add Pants",
+			"Action": "EditData",
+			"Target": "Data/Pants",
+			"Entries": {
+				"MNF.Pants": {
+					"Name": "MNF.Pants",
+					"DisplayName": "{{i18n:Clown.Pants.Name}}",
+					"Description": "{{i18n:Clown.Pants.Description}}",
+					"Price": 0,
+					"Texture": "Mods/MNF.MoreNewFish/Pants",
+					"SpriteIndex": 0,
+					"DefaultColor": null,
+					"CanBeDyed": false,
+					"IsPrismatic": false,
+					"CanChooseDuringCharacterCustomization": false,
+					"CustomFields": null
+				},				
+			}
+		},
+		{
+			"LogName": "Add Shirts",
+			"Action": "EditData",
+			"Target": "Data/Shirts",
+			"Entries": {
+				"MNF.ShirtM": {
+					"Name": "MNF.ShirtM",
+					"DisplayName": "{{i18n:Clown.Shirt.Name}}",
+					"Description": "{{i18n:Clown.Shirt.Description}}",
+					"Price": 0,
+					"Texture": "Mods/MNF.MoreNewFish/Shirts_Male",
+					"SpriteIndex": 0,
+					"DefaultColor": null,
+					"CanBeDyed": false,
+					"IsPrismatic": false,
+					"HasSleeves": false,
+					"CanChooseDuringCharacterCustomization": false,
+					"CustomFields": null
+				},
+				"MNF.ShirtF": {
+					"Name": "MNF.ShirtF",
+					"DisplayName": "{{i18n:Clown.Shirt.Name}}",
+					"Description": "{{i18n:Clown.Shirt.Description}}",
+					"Price": 0,
+					"Texture": "Mods/MNF.MoreNewFish/Shirts_Male",
+					"SpriteIndex": 1,
+					"DefaultColor": null,
+					"CanBeDyed": false,
+					"IsPrismatic": false,
+					"HasSleeves": false,
+					"CanChooseDuringCharacterCustomization": false,
+					"CustomFields": null
+				}				
+			}
+		},
+        {
+            "Action": "EditData",
+            "Target": "Data/TailoringRecipes",
+            "Entries": {
+                "BHI.Shirt.Tailoring": {
+                    "Id": "MNF.Shirt.Tailoring",
+                    "FirstItemTags": ["item_cloth" ],
+                    "SecondItemTags": ["item_southeastclownfish"],
+                    "CraftedItemId": "(S)MNF.ShirtM",
+					"CraftedItemIdFeminine": "(S)MNF.ShirtF",
+                },
+                "BHI.Pants.Tailoring": {
+                    "Id": "MNF.Pants.Tailoring",
+                    "FirstItemTags": ["item_cloth" ],
+                    "SecondItemTags": ["item_cavewestclownfish"],
+                    "CraftedItemId": "(P)MNF.Pants",
+                },
+                "BHI.Hat.Tailoring": {
+                    "Id": "MNF.Hat.Tailoring",
+                    "FirstItemTags": ["item_cloth" ],
+                    "SecondItemTags": ["item_southclownfish"],
+                    "CraftedItemId": "(H)MNF.Hat",
+                },				
+            }
+        }
+]
+}

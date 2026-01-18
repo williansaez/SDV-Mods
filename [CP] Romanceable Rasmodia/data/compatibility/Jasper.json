@@ -1,0 +1,45 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"FilingCabinet.27": "{{i18n:Jasper.FilingCabinet.27}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Marlon",
+			"When": {
+				"HasMod |contains=FlashShifter.StardewValleyExpandedALL, Yoshimax.BefriendMarlon, Wolf.Marlon": false
+			},
+			"Entries": {
+				"fall_Tue": "{{i18n:Jasper.fall_Tue}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueJasper",
+			"Entries": {
+				"winter_15": "{{i18n:Jasper.winter_15}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"Entries": {
+				"Jasper": "{{i18n:Jasper.Jasper}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"HasSeenEvent |contains=5599014": false
+			},
+			"Entries": {
+				"Jasper_spouse": "{{i18n:Jasper.Jasper_spouse}}"
+			}
+		}
+	]
+}

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="13" height="8" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="1360">
+ <properties>
+  <property name="FloorIDs" value="UpperRoom 1, Nursery 31, Hallway_Nursery 31, Kitchen 22, LivingRoom, Hallway_Bedroom, Bedroom, Southern, Hallway_Corner, Corner, DiningRoom 18, DiningRoomHallway 18, FarUpperRoom MoreFloors:0, ExtendedCorner, ExtendedCornerNook"/>
+  <property name="ViewportFollowPlayer" type="bool" value="true"/>
+  <property name="WallIDs" value="UpperRoom 11, Nursery 61, Hallway_Nursery 61, Kitchen, LivingRoom, Hallway_Bedroom, Bedroom, Southern_Left, Southern_Right, Corner, Hallway_Corner, DiningRoomMain, DiningRoomNook, DiningRoomHallway, FarUpperRoom MoreWalls:15, ExtendedCorner, ExtendedCornerNook"/>
+  <property name="Warp" value="27 31 Farm 64 15"/>
+ </properties>
+ <tileset firstgid="1" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="2177" name="sewer" tilewidth="16" tileheight="16" tilecount="88" columns="8">
+  <image source="SewerTiles.png" width="128" height="176"/>
+ </tileset>
+ <tileset firstgid="2265" name="walls_and_floors" tilewidth="16" tileheight="16" tilecount="688" columns="16">
+  <image source="walls_and_floors.png" width="256" height="688"/>
+ </tileset>
+ <tileset firstgid="2953" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="5129" name="walls_and_floors" tilewidth="16" tileheight="16" tilecount="688" columns="16">
+  <image source="walls_and_floors.png" width="256" height="688"/>
+ </tileset>
+ <tileset firstgid="5817" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="264" columns="12">
+  <image source="farmhouse_tiles" width="192" height="352"/>
+ </tileset>
+ <tileset firstgid="6081" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="8257" name="walls_and_floors" tilewidth="16" tileheight="16" tilecount="688" columns="16">
+  <image source="walls_and_floors" width="256" height="688"/>
+ </tileset>
+ <tileset firstgid="8945" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="264" columns="12">
+  <image source="farmhouse_tiles.png" width="192" height="352"/>
+ </tileset>
+ <layer id="1" name="Back" width="13" height="8">
+  <data encoding="csv">
+0,1073743514,2147485055,2276,2276,2276,2276,2276,1690,2276,2276,1404,1404,
+0,2292,2147485087,2292,2292,2292,2292,2292,1722,2292,2292,1436,1436,
+0,2620,2619,2620,2619,2620,2619,2620,2601,2620,2620,1468,1468,
+0,2604,2603,2604,2603,2604,2603,2604,2603,2604,2603,2604,2603,
+0,2620,2619,2620,2619,2620,2619,2620,2619,2620,2619,2620,2619,
+0,2604,2603,2604,2603,2604,2603,2604,2603,2604,2603,2604,2603,
+8595,2620,2619,2620,2619,2620,2619,2620,2619,2620,2619,2620,2619,
+8611,2604,2603,2604,2603,2604,2603,2604,2603,2604,2603,2604,2603
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="13" height="8">
+  <data encoding="csv">
+65,1587,0,0,2147485472,0,1558,1559,0,1824,9052,0,1646,
+65,0,0,0,2147485504,0,0,0,0,1856,9064,0,0,
+65,1468,1468,1471,1468,1468,1468,1468,1754,1468,1468,1471,1468,
+65,0,0,0,0,0,0,0,0,0,0,0,0,
+65,0,0,0,0,0,0,0,0,0,0,0,0,
+65,0,0,0,0,0,0,0,0,0,0,0,0,
+161,0,0,0,0,0,0,0,0,0,0,0,0,
+1,1,1,1,1,1,1,1,1,1,65,0,0
+</data>
+ </layer>
+ <layer id="3" name="Buildings2" width="13" height="8">
+  <data encoding="csv">
+65,1427,1427,1427,1427,1427,1427,1427,1427,1427,1427,1427,1427,
+2153,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,9076,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+65,0,0,0,0,0,0,0,0,0,0,0,0,
+161,162,166,0,0,166,166,166,166,166,163,0,0,
+1,1,1,1,1,1,1,1,1,1,65,0,0
+</data>
+ </layer>
+ <layer id="4" name="Front" width="13" height="8">
+  <data encoding="csv">
+65,1427,1427,1427,1427,1427,1427,1427,1427,1427,1427,1427,1427,
+2153,0,0,0,0,0,0,0,0,0,0,0,0,
+65,0,0,0,0,0,0,0,0,0,0,0,0,
+65,0,0,0,0,0,0,0,0,0,0,0,0,
+2153,0,0,0,0,0,0,0,0,0,0,0,0,
+65,0,0,0,0,0,0,0,0,0,0,0,0,
+161,162,166,166,2121,166,166,166,2121,166,163,0,0,
+1,1,1,1,1,1,1,1,1,1,65,0,0
+</data>
+ </layer>
+ <layer id="10" name="AlwaysFront" width="13" height="8">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="5" name="Back"/>
+ <objectgroup id="6" name="Buildings"/>
+ <objectgroup id="7" name="Buildings2"/>
+ <objectgroup id="8" name="Front"/>
+</map>

@@ -1,0 +1,34 @@
+﻿{
+	"Changes": [
+          {
+               "LogName": "Caroline Schedule Dialogues",
+               "Action": "EditData",
+			"Target": "Strings/schedules/Caroline",
+               "Entries": {
+                    // Vanilla Replacement Dialogues
+                    "Fri.000": "{{i18n: Caroline.Museum_Reading.{{Random:1,2,3,4,5}} }}",
+                    "Sun.000": "{{i18n: Caroline.Altar.{{Random:1,2,3,4,5}}  }}",
+                    "fall_25.000": "{{i18n: Caroline.Visit_Harvey_1.{{Random:1,2,3,4,5}}  }}",
+                    "fall_25.001": "{{i18n: Caroline.Visit_Harvey_2.{{Random:1,2,3,4,5}}  }}",
+                    "fall_25.002": "{{i18n: Caroline.Visit_Harvey_3.{{Random:1,2,3,4,5}}  }}",
+                    "Tue.000": "{{i18n: Caroline.Aerobics_1.{{Random:1,2,3,4,5}}  }}",
+                    "Tue.001": "{{i18n: Caroline.Aerobics_2.{{Random:1,2,3,4,5}}  }}",
+                    "Tue.002": "{{i18n: Caroline.Aerobics_3.{{Random:1,2,3,4,5}}  }}",
+                    "winter_16.000": "{{i18n: Caroline.NightMarket.{{Random:1,2,3,4,5}}  }}",
+
+                    // Post-Marriage Dialogues
+                    "bathhouse_pool": "{{i18n: Caroline.BathHouse_Pool.{{Random:1,2,3,4,5,6}} }}",
+                    "fountain": "{{i18n: Caroline.Fountain.{{Random:1,2,3,4,5}} }}",
+                    "graveyard": "{{i18n: Caroline.Graveyard.{{Random:1,2,3,4,5}} }}",
+                    "caroline_to_marnie": "{{i18n: Caroline.Marnie.{{Random:1,2,3,4,5}} }}",
+                    "traveling_cart": "{{i18n: Caroline.Traveling_Cart.{{Random:1,2,3,4,5}} }}",
+                    "museum_reading_spouse": "{{i18n: Caroline.Museum_Reading.Spouse.{{Random:1,2,3,4,5}} }}",
+                    "caroline_to_robin": "{{i18n: Caroline.Robin.{{Random:1,2,3,4,5}} }}",
+                    "playground": "{{i18n: Caroline.Playground.{{Random:1,2,3,4,5}} }}",
+                    "helping": "{{i18n: Caroline.Helping.{{Random:1,2,3,4,5}} }}",
+                    "bridge": "{{i18n: Caroline.Bridge.{{Random:1,2,3,4,5}} }}",
+                    "mountain": "{{i18n: Caroline.Mountains.{{Random:1,2,3,4,5}} }}",
+               }
+          }
+     ]
+}

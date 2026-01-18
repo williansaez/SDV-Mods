@@ -1,0 +1,258 @@
+{
+	"Changes": [
+	//Add Corner Room unrenovated
+	{
+        "Action": "EditMap",
+		"Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+        "TextOperations": [
+		{
+			"Operation": "Append",
+            "Target": [ "MapProperties", "AdditionalRenovations" ],
+            "Value": "glymr.BrokenFarmhouse_CornerRoom_Base glymr.BrokenFarmhouse_CornerRoom_Base_Mail glymr.BrokenFarmhouse_CornerRoom_Base_Blank glymr.BrokenFarmhouse_CornerRoom_Base_NotBlank 42 10 13 13",
+            "Delimiter": ","
+		},
+		],
+	},
+	    // load base corner room empty map
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_CornerRoom_Base_Blank",
+            "FromFile": "assets/BrokenFarmhouse_CornerRoom_Base_Blank.tmx"
+	},
+
+        // load base corner room renovation map patch
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_CornerRoom_Base_NotBlank",
+            "FromFile": "assets/BrokenFarmhouse_CornerRoom_Base_NotBlank.tmx"
+    },
+		//Add Corner Room partially renovated
+	{
+        "Action": "EditMap",
+		"Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+        "TextOperations": [
+        {
+			"Operation": "Append",
+            "Target": [ "MapProperties", "AdditionalRenovations" ],
+            "Value": "glymr.BrokenFarmhouse_CornerRoom_Half glymr.BrokenFarmhouse_CornerRoom_Half_Mail glymr.BrokenFarmhouse_CornerRoom_Half_NotBlank glymr.BrokenFarmhouse_CornerRoom_Half_Blank 42 10 13 13",
+            "Delimiter": "," 
+		},
+		],
+	},
+	    // load partial corner room empty map 
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_CornerRoom_Half_Blank",
+            "FromFile": "assets/BrokenFarmhouse_CornerRoom_Half_Blank.tmx"
+	},
+
+        // load partial corner room renovation map patch
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_CornerRoom_Half_NotBlank",
+            "FromFile": "assets/BrokenFarmhouse_CornerRoom_Half_NotBlank.tmx"
+    },
+	//Add Southern Room unrenovated
+	{
+        "Action": "EditMap",
+		"Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+        "TextOperations": [
+		{
+		   "Operation": "Append",
+           "Target": [ "MapProperties", "AdditionalRenovations" ],
+           "Value": "glymr.BrokenFarmhouse_SouthernRoom_Base glymr.BrokenFarmhouse_SouthernRoom_Base_Mail glymr.BrokenFarmhouse_SouthernRoom_Base_Blank glymr.BrokenFarmhouse_SouthernRoom_Base_NotBlank 37 32 13 13",
+           "Delimiter": "," 
+        },
+		],
+	},
+        // load base southern room empty map	    
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_SouthernRoom_Base_Blank",
+            "FromFile": "assets/BrokenFarmhouse_SouthernRoom_Base_Blank.tmx"
+	},
+
+		// load base southern room renovation map patch
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_SouthernRoom_Base_NotBlank",
+            "FromFile": "assets/BrokenFarmhouse_SouthernRoom_Base_NotBlank.tmx"
+    },
+	//Add Southern Room stairs
+	{
+        "Action": "EditMap",
+		"Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+        "TextOperations": [
+		{
+			"Operation": "Append",
+            "Target": [ "MapProperties", "AdditionalRenovations" ],
+            "Value": "glymr.BrokenFarmhouse_SouthernRoom_Stairs glymr.BrokenFarmhouse_SouthernRoom_Stairs_Mail glymr.BrokenFarmhouse_SouthernRoom_Stairs_NotBlank glymr.BrokenFarmhouse_SouthernRoom_Stairs_Blank 41 33 5 4",
+			  "Delimiter": "," 
+        },
+        ],
+	},
+	    // load southern room stairs map patch
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_SouthernRoom_Stairs_NotBlank",
+            "FromFile": "assets/BrokenFarmhouse_SouthernRoom_Stairs_NotBlank.tmx"
+	},
+        // load southern room stairs empty map
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_SouthernRoom_Stairs_Blank",
+            "FromFile": "assets/BrokenFarmhouse_SouthernRoom_Stairs_Blank.tmx"
+    },
+	//Add Southern Room partially renovated
+	{
+        "Action": "EditMap",
+		"Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+        "TextOperations": [
+		{
+			"Operation": "Append",
+            "Target": [ "MapProperties", "AdditionalRenovations" ],
+            "Value": "glymr.BrokenFarmhouse_SouthernRoom_Half glymr.BrokenFarmhouse_SouthernRoom_Half_Mail glymr.BrokenFarmhouse_SouthernRoom_Half_NotBlank glymr.BrokenFarmhouse_SouthernRoom_Half_Blank 37 32 13 13",
+			  "Delimiter": "," 
+        },
+        ],
+	},
+	    // load partial southern room renovation map patch
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_SouthernRoom_Half_NotBlank",
+            "FromFile": "assets/BrokenFarmhouse_SouthernRoom_Half_NotBlank.tmx"
+	},
+        // load partial southern room empty map
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_SouthernRoom_Half_Blank",
+            "FromFile": "assets/BrokenFarmhouse_SouthernRoom_Half_Blank.tmx"
+    },
+	//Add Attic Room unrenovated
+	{
+        "Action": "EditMap",
+		"Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+        "TextOperations": [
+		{
+		   "Operation": "Append",
+           "Target": [ "MapProperties", "AdditionalRenovations" ],
+           "Value": "glymr.BrokenFarmhouse_AtticRoom_Base glymr.BrokenFarmhouse_AtticRoom_Base_Mail glymr.BrokenFarmhouse_AtticRoom_Base_Blank glymr.BrokenFarmhouse_AtticRoom_Base_NotBlank 19 0 15 14",
+           "Delimiter": "," 
+        },
+		],
+	},
+        // load base attic room empty map	    
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_AtticRoom_Base_Blank",
+            "FromFile": "assets/BrokenFarmhouse_AtticRoom_Base_Blank.tmx"
+	},
+
+		// load base attic room renovation map patch
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_AtticRoom_Base_NotBlank",
+            "FromFile": "assets/BrokenFarmhouse_AtticRoom_Base_NotBlank.tmx"
+    },
+	//Add Attic Room stairs
+	{
+        "Action": "EditMap",
+		"Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+        "TextOperations": [
+		{
+			"Operation": "Append",
+            "Target": [ "MapProperties", "AdditionalRenovations" ],
+            "Value": "glymr.BrokenFarmhouse_AtticRoom_Stairs glymr.BrokenFarmhouse_AtticRoom_Stairs_Mail glymr.BrokenFarmhouse_AtticRoom_Stairs_NotBlank glymr.BrokenFarmhouse_AtticRoom_Stairs_Blank 26 9 2 5",
+			  "Delimiter": "," 
+        },
+        ],
+	},
+	    // load attic room stairs map patch
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_AtticRoom_Stairs_NotBlank",
+            "FromFile": "assets/BrokenFarmhouse_AtticRoom_Stairs_NotBlank.tmx"
+	},
+        // load attic room stairs empty map
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_AtticRoom_Stairs_Blank",
+            "FromFile": "assets/BrokenFarmhouse_AtticRoom_Stairs_Blank.tmx"
+    },
+	//Add Attic partially renovated
+	{
+        "Action": "EditMap",
+		"Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+        "TextOperations": [
+		{
+			"Operation": "Append",
+            "Target": [ "MapProperties", "AdditionalRenovations" ],
+            "Value": "glymr.BrokenFarmhouse_AtticRoom_Half glymr.BrokenFarmhouse_AtticRoom_Half_Mail glymr.BrokenFarmhouse_AtticRoom_Half_NotBlank glymr.BrokenFarmhouse_AtticRoom_Half_Blank 19 0 2 5",
+			  "Delimiter": "," 
+        },
+        ],
+	},
+	    // load attic renovation map patch
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_AtticRoom_Half_NotBlank",
+            "FromFile": "assets/BrokenFarmhouse_AtticRoom_Half_NotBlank.tmx"
+	},
+        // load attic empty map
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_AtticRoom_Half_Blank",
+            "FromFile": "assets/BrokenFarmhouse_AtticRoom_Half_Blank.tmx"
+    },
+	//Add cellar stairs1
+	{
+        "Action": "EditMap",
+		"Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+        "TextOperations": [
+		{
+			"Operation": "Append",
+            "Target": [ "MapProperties", "AdditionalRenovations" ],
+            "Value": "glymr.BrokenFarmhouse_Cellar_Stairs1 glymr.BrokenFarmhouse_Cellar_Stairs1_Mail glymr.BrokenFarmhouse_Cellar_Stairs1_NotBlank glymr.BrokenFarmhouse_Cellar_Stairs1_Blank 18 32 4 4",
+			  "Delimiter": "," 
+        },
+        ],
+	},
+	    // load cellar stairs1 map patch
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_Cellar_Stairs1_NotBlank",
+            "FromFile": "assets/BrokenFarmhouse_Cellar_Stairs1_NotBlank.tmx"
+	},
+        // load cellar stairs1 empty map
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_Cellar_Stairs1_Blank",
+            "FromFile": "assets/BrokenFarmhouse_Cellar_Stairs1_Blank.tmx"
+    },
+	//Add cellar stairs2
+	{
+        "Action": "EditMap",
+		"Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+        "TextOperations": [
+		{
+			"Operation": "Append",
+            "Target": [ "MapProperties", "AdditionalRenovations" ],
+            "Value": "glymr.BrokenFarmhouse_Cellar_Stairs2 glymr.BrokenFarmhouse_Cellar_Stairs2_Mail glymr.BrokenFarmhouse_Cellar_Stairs2_NotBlank glymr.BrokenFarmhouse_Cellar_Stairs2_Blank 18 32 4 4",
+			  "Delimiter": "," 
+        },
+        ],
+	},
+	    // load cellar stairs2 map patch
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_Cellar_Stairs2_NotBlank",
+            "FromFile": "assets/BrokenFarmhouse_Cellar_Stairs2_NotBlank.tmx"
+	},
+        // load cellar stairs2 empty map
+    {
+            "Action": "Load",
+            "Target": "Maps/glymr.BrokenFarmhouse_Cellar_Stairs2_Blank",
+            "FromFile": "assets/BrokenFarmhouse_Cellar_Stairs2_Blank.tmx"
+    },
+],
+}

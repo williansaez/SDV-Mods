@@ -1,0 +1,63 @@
+{
+    "Changes": [
+        // FAIR
+        {
+            "LogName": "Caroline Fair Y2 - SetUp Event Remove - With SVE",
+            "Action": "EditMap",
+            "Target": "Maps/Town-Fair2",
+            "PatchMode": "ReplaceByLayer",
+            "FromFile": "assets/Maps/festivalSetUp_R.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 1
+            },
+            "ToArea": {
+                "X": 32,
+                "Y": 59,
+                "Width": 1,
+                "Height": 1
+            },
+        },
+        // ICE FESTIVAL
+        {
+            "LogName": "Caroline Ice Festival - Main Event Remove",
+            "Action": "EditMap",
+            "Target": "Maps/Forest-IceFestival",
+            "PatchMode": "ReplaceByLayer",
+            "FromFile": "assets/Maps/festivalMainEvent_R.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 1
+            },
+            "ToArea": {
+                "X": 67,
+                "Y": 24,
+                "Width": 1,
+                "Height": 1
+            },
+        },
+        {
+            "LogName": "Caroline IceFestival - Main Event",
+            "Action": "EditMap",
+            "Target": "Maps/Forest-IceFestival",
+            "PatchMode": "ReplaceByLayer",
+            "FromFile": "assets/Maps/festivalMainEvent_0.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 1
+            },
+            "ToArea": {
+                "X": 68,
+                "Y": 46,
+                "Width": 1,
+                "Height": 1
+            },
+        },
+    ]
+}

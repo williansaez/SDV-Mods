@@ -1,0 +1,12 @@
+{
+  "Name": "Swimming Pool",
+  "Author": "yuninocorn",
+  "Version": "1.0.2",
+  "Description": "A buildable outdoor pool for your farm to replenish your energy.",
+  "UniqueID": "yuninocorn.SwimmingPool",
+  "UpdateKeys": [ "Nexus:35900" ],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

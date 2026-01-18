@@ -1,0 +1,87 @@
+{
+"Changes": [  
+{
+	"Action":"EditData",
+	"LogName": "Mines MNF Data",
+	"Target": "Data/Locations",
+	"TargetField": [
+	"Custom_BoardingHouse_TheLostValley",
+	"Fish",
+	],
+	"Entries": {
+		"MNF.MoreNewFish_barreleye": {
+			"Id": "MNF.MoreNewFish_barreleye",
+			"ItemId": "(O)MNF.MoreNewFish_barreleye",
+			},
+		"MNF.MoreNewFish_cyclops_shark": {
+			"Id": "MNF.MoreNewFish_cyclops_shark",
+			"ItemId": "(O)MNF.MoreNewFish_cyclops_shark",
+            },				
+		"MNF.MoreNewFish_coelacanth": {
+            "Id": "MNF.MoreNewFish_coelacanth",
+            "ItemId": "(O)MNF.MoreNewFish_coelacanth",
+			},
+		"MNF.MoreNewFish_cavefish": {
+			"Id": "MNF.MoreNewFish_cavefish",
+			"ItemId": "(O)MNF.MoreNewFish_cavefish",
+			},
+		"MNF.MoreNewFish_cave_lobster": {
+			"Id": "MNF.MoreNewFish_cave_lobster",
+			"ItemId": "(O)MNF.MoreNewFish_cave_lobster",
+			},
+		"MNF.MoreNewFish_frilled_shark":{
+			"Id": "MNF.MoreNewFish_frilled_shark",
+			"ItemId": "(O)MNF.MoreNewFish_frilled_shark",
+			"Condition":"PLAYER_COMBAT_LEVEL 8",
+			"CatchLimit": 1,
+			"MinFishingLevel": 10,
+			"MinDistanceFromShore": 4,
+			"MaxDistanceFromShore": -1,
+			"CuriosityLureBuff": 0.1,
+			"IsBossFish": true,
+		},
+	},
+},
+{
+	"Action": "EditData",
+	"LogName": "Fish Object Data",
+	"Target": "Data/Objects",
+	"Entries": {
+		"MNF.MoreNewFish_frilled_shark":{
+			"Name": "MNF.MoreNewFish_frilled_shark",
+			"DisplayName": "{{i18n:frilled_shark.name}}",
+			"Description": "{{i18n:frilled_shark.description}}",
+			"Type": "Fish",
+			"Category": -4,
+			"Price": 3000,
+			"Texture": "Mods\\MNF.MoreNewFish\\Objects\\Objects",
+			"SpriteIndex": "75",
+			"Edibility": 45,	
+			"ContextTags": ["color_dark_gray","fish_legendary","fish_pond_ignore"],
+			},
+    },
+},
+{
+		"Action": "EditData",
+		"Target": "Data/AquariumFish",
+			"Entries": {
+				"MNF.MoreNewFish_frilled_shark":"210/eel/////LooseSprites\\MNFAquariumData",
+			},
+},
+{
+		  "Action": "EditData",
+		  "LogName": "Frilled Shark Data",
+          "Target": "Data/Fish",
+          "Entries": {
+		  "MNF.MoreNewFish_frilled_shark": "Frilled Shark/100/dart/10/75/0600 2600/winter/rainy/681 .35/2/.05/.1/0"},
+		},
+		{
+		  "Action": "EditData",
+          "Target": "Data/Fish",
+		  "When": {"EasyFishing":"true"},
+          "Fields": {
+		  "MNF.MoreNewFish_frilled_shark": {1:"50"},      
+		},
+		},
+	],
+    }
